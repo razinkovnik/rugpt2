@@ -8,33 +8,35 @@ if __name__ == "__main__":
     train_args = TrainingArguments()
     parser = argparse.ArgumentParser(description='Проверка генерации')
     parser.add_argument('--output_dir', type=str, help='место для модели')
+    parser.add_argument('--start', type=str, help='начало строки')
+    parser.add_argument('--length', type=int, help='размер генерируемого текста')
     args = parser.parse_args()
     model = GPT2LMHeadModel.from_pretrained(args.output_dir or train_args.output_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
     model.eval()
 
-    print("generate text until the output length (which includes the context length) reaches 50")
-    input_ids = tokenizer.encode(["Президент России Владимир Путин обратился к россиянам"])
-    greedy_output = model.generate(input_ids, max_length=50)
+    print("greedy_output")
+    input_ids = tokenizer.encode([args.start])
+    greedy_output = model.generate(input_ids, max_length=args.length)
 
-    print("\n\nOutput:\n" + 100 * '-')
+    print("Output:\n" + 100 * '-')
     print(tokenizer.decode(greedy_output[0]))
 
     print("\n\nactivate beam search and early_stopping")
     beam_output = model.generate(
         input_ids,
-        max_length=50,
+        max_length=args.length,
         num_beams=5,
         early_stopping=True
     )
 
-    print("\n\nOutput:\n" + 100 * '-')
+    print("Output:\n" + 100 * '-')
     print(tokenizer.decode(beam_output[0]))
 
     print("\n\nset no_repeat_ngram_size to 2")
     beam_output = model.generate(
         input_ids,
-        max_length=50,
+        max_length=args.length,
         num_beams=5,
         no_repeat_ngram_size=2,
         early_stopping=True
@@ -46,7 +48,7 @@ if __name__ == "__main__":
     print("\n\nset return_num_sequences > 1")
     beam_outputs = model.generate(
         input_ids,
-        max_length=50,
+        max_length=args.length,
         num_beams=5,
         no_repeat_ngram_size=2,
         num_return_sequences=5,
@@ -61,7 +63,7 @@ if __name__ == "__main__":
     sample_output = model.generate(
         input_ids,
         do_sample=True,
-        max_length=50,
+        max_length=args.length,
         top_k=0
     )
 
@@ -72,7 +74,7 @@ if __name__ == "__main__":
     sample_output = model.generate(
         input_ids,
         do_sample=True,
-        max_length=50,
+        max_length=args.length,
         top_k=0,
         temperature=0.7
     )
@@ -84,7 +86,7 @@ if __name__ == "__main__":
     sample_output = model.generate(
         input_ids,
         do_sample=True,
-        max_length=50,
+        max_length=args.length,
         top_k=50
     )
 
@@ -95,7 +97,7 @@ if __name__ == "__main__":
     sample_output = model.generate(
         input_ids,
         do_sample=True,
-        max_length=50,
+        max_length=args.length,
         top_p=0.92,
         top_k=0
     )
@@ -107,7 +109,7 @@ if __name__ == "__main__":
     sample_outputs = model.generate(
         input_ids,
         do_sample=True,
-        max_length=50,
+        max_length=args.length,
         top_k=50,
         top_p=0.95,
         num_return_sequences=3

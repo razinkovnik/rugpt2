@@ -26,7 +26,7 @@ def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch
     data = dataset[:]
     random.shuffle(data)
     for i in tqdm(range(iter_count), desc="eval"):
-        batch = tokenizer.encode(data[i*batch_size:(i+1)*batch_size], block_size).cuda()
+        batch = tokenizer.encode(data[i * batch_size:(i + 1) * batch_size], block_size).cuda()
         mask = tokenizer.mask(batch).cuda()
         with torch.no_grad():
             loss += model(batch, attention_mask=mask, labels=batch)[0].item()
@@ -46,7 +46,8 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     train_dataset, test_dataset = dataset[:n], dataset[n:]
     optimizer = AdamW(model.parameters(), lr=args.learning_rate)
     num_training_steps = len(train_dataset) // args.train_batch_size * args.num_train_epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=num_training_steps)
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps,
+                                                num_training_steps=num_training_steps)
     i = 0
     try:
         os.mkdir(args.output_dir)
@@ -70,7 +71,8 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 if scheduler.get_last_lr()[0] < 1e-7:
                     model.save_pretrained(args.output_dir)
                     return
-                eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
+                eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size,
+                                 args.n_eval_batch)
                 logger.info(f"eval loss: {eval_loss}")
                 writer.add_scalar('Loss/eval', eval_loss, i)
             if i % args.save_steps == 0 and i > 0:
@@ -108,7 +110,8 @@ if __name__ == "__main__":
     logger = logging.getLogger("rugpt2")
     writer = SummaryWriter()
     tokenizer = Tokenizer(train_args.tokenizer_path)
-    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=512, n_ctx=512)
+    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=512, n_ctx=512,
+                        n_embd=384, n_layer=6, n_head=6)
     model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
     train(tokenizer, model.cuda(), train_args, writer, logger)
     torch.cuda.empty_cache()
