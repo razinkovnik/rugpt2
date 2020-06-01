@@ -72,6 +72,9 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {loss.item()}")
                 logger.info(f"lr: {scheduler.get_last_lr()}")
+                if scheduler.get_last_lr()[0] < 1e-7:
+                    model.save_pretrained(args.output_dir)
+                    return
                 eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
                 logger.info(f"eval loss: {eval_loss}")
                 writer.add_scalar('Loss/eval', eval_loss, i)
@@ -83,7 +86,6 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
     logger.info(f"eval loss: {eval_loss}")
     model.save_pretrained(args.output_dir)
-    torch.cuda.empty_cache()
 
 
 if __name__ == "__main__":
@@ -114,4 +116,5 @@ if __name__ == "__main__":
     config = GPT2Config(vocab_size=tokenizer.vocab_size)
     model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
     train(tokenizer, model.cuda(), train_args, writer, logger)
+    torch.cuda.empty_cache()
 # tensorboard --logdir=runs

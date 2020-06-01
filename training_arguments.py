@@ -15,9 +15,9 @@ class TrainingArguments:
     eval_batch_size = 1
     block_size = 256
     n_eval_batch = 100
-    learning_rate = 5e-5
+    learning_rate = 1e-3
     max_grad_norm = 1.0
     num_train_epochs = 1
-    warmup_steps = 0
+    warmup_steps = 100
     logging_steps = 50
     save_steps = 100
