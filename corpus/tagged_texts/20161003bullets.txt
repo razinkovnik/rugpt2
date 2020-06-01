@@ -1,0 +1,584 @@
+# sent_id = 73280
+# text = Российская компания "Техкрим" разработала и начала продавать пули нового типа, предназначенные для стрельбы из гладкоствольного оружия.
+1	Российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Техкрим	Техкрим	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	пули	пуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	предназначенные	предназначать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+17	из	из	ADP	_	_	16	case	_	_
+18	гладкоствольного	гладкоствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73281
+# text = Как пишет журнал "Калашников", новые патроны выполнены из цинка, они получили названия "Диаболо-Эко" и "Байбак".
+1	Как	как	ADV	_	Degree=Pos	10	mark	_	_
+2	пишет	пишть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+3	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Калашников	Калашники	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	патроны	патрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+10	выполнены	выполнять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	цинка	цинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	названия	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Диаболо-Эко	Диаболо-Эко	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Байбак	Байбак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73282
+# text = По данным компании, новые снаряды можно использовать для практической и тренировочной стрельбы и охоты.Современные пули для гладкоствольного оружия могут изготавливаться из разных металлов, самым распространенным из которых является свинец.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	7	parataxis	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	снаряды	снаряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	для	для	ADP	_	_	13	case	_	_
+10	практической	практический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	тренировочной	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+13	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	охоты	охота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	пули	пуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+19	для	для	ADP	_	_	21	case	_	_
+20	гладкоствольного	гладкоствольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+22	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+23	изготавливаться	изготавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	22	xcomp	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	распространенным	распространенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	obl	_	_
+30	из	из	ADP	_	_	31	case	_	_
+31	которых	который	PRON	_	Case=Gen	29	nmod	_	_
+32	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+33	свинец	свинец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 73283
+# text = Такие снаряды имеют большую массу и, как следствие, относительно небольшую начальную скорость полета.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	снаряды	снаряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	и	и	CCONJ	_	_	14	cc	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	9	cc	_	_
+9	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	относительно	относительно	ADV	_	Degree=Pos	12	advmod	_	_
+12	небольшую	небольшой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	начальную	начальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+15	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73284
+# text = Кроме того, свинцовые пули ощутимо увеличивают отдачу оружия.Свинцовые пули подвержены деформации на всех этапах стрельбы, начиная с движения по каналу ствола и заканчивая попаданием в цель.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	свинцовые	свинцовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	ощутимо	ощутимо	ADV	_	Degree=Pos	7	advmod	_	_
+7	увеличивают	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	отдачу	отдача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Свинцовые	свинцовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	подвержены	подверженный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	parataxis	_	_
+14	деформации	деформация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	всех	весь	DET	_	Case=Loc|Number=Plur	17	amod	_	_
+17	этапах	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	_
+18	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	каналу	канал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	_
+25	ствола	стволо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	заканчивая	заканчивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	conj	_	_
+28	попаданием	попадание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 73285
+# text = Кроме того, при стрельбе свинцом с увеличением настрела происходит освинцовывание канала ствола.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	стрельбе	стрельба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+6	свинцом	свинец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	увеличением	увеличение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	настрела	настрел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	освинцовывание	освинцовывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+12	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 73286
+# text = Такие отложения свинца бывает довольно сложно очистить.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	отложения	отложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	свинца	свинцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	довольно	довольно	ADV	_	Degree=Pos	6	advmod	_	_
+6	сложно	сложно	ADV	_	Degree=Pos	7	advmod	_	_
+7	очистить	очищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 73287
+# text = При этом традиционные пули имеют большую дальность полета и высокое убойное действие.Новые пули изготавливаются из цинковых сплавов методом литья под давлением.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	традиционные	традиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	высокое	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	nsubj	_	_
+11	убойное	убойный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	действие.	действибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+13	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+15	изготавливаются	изготавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	цинковых	цинковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	сплавов	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+19	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+20	литья	литье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	под	под	ADP	_	_	22	case	_	_
+22	давлением	давление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73288
+# text = "Диаболо-Эко" разработана в 12-м калибре (диаметр ствола 18,5 миллиметра), а "Байбак" -- .410 (10,4 миллиметра).
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Диаболо-Эко	Диаболо-Эко	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	12-м	12-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	калибре	калибр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+10	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	18,5	18,5	NUM	_	_	12	nummod	_	_
+12	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Байбак	Байбак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	--	--	PUNCT	_	_	17	punct	_	_
+20	.410	.410	NUM	_	_	23	nummod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	10,4	10,4	NUM	_	_	23	nummod	_	_
+23	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 73289
+# text = Во время испытаний выяснилось, что цинковые пули имеют лучшую кучность.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	цинковые	цинковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	лучшую	лучший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	кучность	кучность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 73290
+# text = Дело в том, что масса пуль не велика, благодаря чему при стандартной пороховой навеске в патроне они имеют большую начальную скорость.Масса пули "Диаболо-Эко" составляет 20,5 грамма, а "Байбак" -- 10 граммов.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	велика	большой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	20	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	благодаря	благодаря	ADP	_	_	12	case	_	_
+12	чему	чего	PRON	_	Case=Dat	20	obl	_	_
+13	при	при	ADP	_	_	16	case	_	_
+14	стандартной	стандартный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	пороховой	пороховый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	навеске	навеска	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	патроне	патрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+20	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+21	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	начальную	начальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Масса	Масс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Диаболо-Эко	Диаболо-Эко	ADV	_	Degree=Pos	26	appos	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+31	20,5	20,5	NUM	_	_	32	nummod	_	_
+32	грамма	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	а	а	CCONJ	_	_	36	cc	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	Байбак	Байбак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	_
+38	--	--	PUNCT	_	_	36	punct	_	_
+39	10	10	NUM	_	_	40	nummod	_	_
+40	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 73291
+# text = Для сравнения, масса цельнооболочечной пули FMJ-15 с оболочкой из томпака в патроне "TK-pro" калибра .410 составляет 15 граммов.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	масса	масс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+5	цельнооболочечной	цельнооболочечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	FMJ	FMJ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	15	15	NUM	_	_	7	nummod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	оболочкой	оболочка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	томпака	томпак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	патроне	патрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	TK-pro	TK-pro	X	_	Foreign=Yes	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	калибра	калибра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	.410	.410	NUM	_	_	19	nummod	_	_
+21	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	15	15	NUM	_	_	23	nummod	_	_
+23	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 73292
+# text = Свинцовая пуля в патроне "Гризли 40" 12-го калибра весит 40 граммов.
+1	Свинцовая	Свинцовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	пуля	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	патроне	патрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Гризли	Гризать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	40	40	NUM	_	_	10	nummod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	12-го	12-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+11	весит	весить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+12	40	40	NUM	_	_	13	nummod	_	_
+13	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 73293
+# text = Пули FMJ-15 и "Гризли 40" также выпускаются компанией "Техкрим".По оценке "Техкрим", при стрельбе на дальность 50 метров цинковые пули показали высокое останавливающее и пробивное действие.
+1	Пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+2	FMJ	FMJ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	15	15	NUM	_	_	2	nummod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Гризли	Гризать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	40	40	NUM	_	_	10	nummod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+11	выпускаются	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+12	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	obl	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Техкрим	Техкрим	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	По	по	ADP	_	_	18	case	_	_
+18	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	parataxis	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Техкрим	Техкрим	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	при	при	ADP	_	_	24	case	_	_
+24	стрельбе	стрельба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	nmod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	50	50	NUM	_	_	28	nummod	_	_
+28	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	цинковые	цинковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_
+31	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+32	высокое	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+33	останавливающее	останавливать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	36	amod	_	_
+34	и	и	PART	_	_	33	advmod	_	_
+35	пробивное	пробивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 73294
+# text = Эти качества в пулях обеспечиваются плоской головной частью и высокой жесткостью.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	качества	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	пулях	пуля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	обеспечиваются	обеспечивавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	плоской	плоский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	головной	головной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	жесткостью	жесткость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 73295
+# text = Дистанция 50 метров определена как оптимальная для ведения стрельбы цинковыми пулями, поскольку из-за малой массы они довольно быстро тормозятся в полете.Наконец, испытания показали, что с увеличением настрела происходит оцинковка канала ствола.
+1	Дистанция	дистанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	50	50	NUM	_	_	3	nummod	_	_
+3	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	определена	определять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	как	как	SCONJ	_	_	4	cc	_	_
+6	оптимальная	оптимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	ведения	ведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	цинковыми	цинковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	пулями	пуля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поскольку	поскольку	SCONJ	_	_	4	mark	_	_
+14	из-за	из-за	ADP	_	_	16	case	_	_
+15	малой	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+18	довольно	довольно	ADV	_	Degree=Pos	19	advmod	_	_
+19	быстро	быстро	ADV	_	Degree=Pos	20	advmod	_	_
+20	тормозятся	тормозиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+21	в	в	ADP	_	_	22	mark	_	_
+22	полете.	полетбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
+23	Наконец	наконец	ADV	_	Degree=Pos	26	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	_
+26	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	с	с	ADP	_	_	30	case	_	_
+30	увеличением	увеличение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	32	obl	_	_
+31	настрела	настрел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+33	оцинковка	оцинковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+34	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 73296
+# text = Однако оставленный в стволе слой сплава цинка очень тонок и легко удаляется раствором лимонной кислоты.
+1	Однако	однако	ADV	_	Degree=Pos	2	advmod	_	_
+2	оставленный	оставлять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	стволе	ствол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	сплава	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	цинка	цинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	очень	очень	ADV	_	Degree=Pos	9	advmod	_	_
+9	тонок	тонок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	легко	легко	ADV	_	Degree=Pos	12	advmod	_	_
+12	удаляется	удалявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	_
+13	раствором	раствор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	лимонной	лимонный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73297
+# text = Конструкция пули "Байбак" оптимизирована, ею можно вести стрельбу из оружия с насадкой "парадокс".
+1	Конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Байбак	Байбак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	оптимизирована	оптимизировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ею	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
+9	можно	можно	ADV	_	Degree=Pos	6	advcl	_	_
+10	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	стрельбу	стрельба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	насадкой	насадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	парадокс	парадокс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 73298
+# text = Это специальная насадка, устанавливаемая на дуло.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	специальная	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	насадка	насадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	устанавливаемая	устанавливать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	дуло	дуло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 73299
+# text = Она имеет нарезку и раскручивает пулю для ее стабилизации.Традиционный для пуль свинец в больших количествах может отравлять почву и воду.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нарезку	нарезка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	раскручивает	раскручивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	пулю	пуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	для	для	ADP	_	_	10	case	_	_
+8	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+9	стабилизации.	стабилизациией	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+10	Традиционный	традиционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	свинец	свинеца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	больших	большой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	количествах	количеств	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	отравлять	отравлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	почву	почва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73300
+# text = По этой причине некоторые производители боеприпасов начали подбирать новые сплавы для производства пуль.
+1	По	по	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+4	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	производители	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	подбирать	подбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	сплавы	сплав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 73301
+# text = В частности, в 2011 году Армия США объявила о намерении перейти на новые экологичные бессвинцовые пули.
+1	В	в	ADP	_	_	9	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	2011	2011	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	Армия	армия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	_
+9	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	намерении	намерение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	перейти	переходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	на	на	ADP	_	_	17	case	_	_
+14	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+15	экологичные	экологичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	бессвинцовые	бессвинцовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	пули	пуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 73302
+# text = Военные рассматривают два варианта таких снарядов: цельнооболочечные пули со стальным сердечником и цельнооболочечные с сердечником из цинкового сплава.
+1	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	4	nummod:gov	_	_
+4	варианта	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	таких	такой	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	снарядов	снаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	цельнооболочечные	цельнооболочечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	parataxis	_	_
+10	со	с	ADP	_	_	9	case	_	_
+11	стальным	стальной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	сердечником	сердечник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	цельнооболочечные	цельнооболочечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	conj	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	сердечником	сердечник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+17	из	из	ADP	_	_	19	case	_	_
+18	цинкового	цинковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	сплава	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73303
+# text = Оболочка обеих пуль выполнена из томпака.
+1	Оболочка	оболочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	обеих	оба	NUM	_	Case=Gen|Gender=Fem	3	nummod	_	_
+3	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	выполнена	выполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	томпака	томпак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 73304
+# text = В настоящее время военные из США проводят сравнительные испытания новых пуль.Василий Сычёв
+1	В	в	ADP	_	_	7	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+7	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сравнительные	сравнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+14	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+

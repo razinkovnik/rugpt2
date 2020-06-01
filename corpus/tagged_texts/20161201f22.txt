@@ -1,0 +1,389 @@
+# sent_id = 82516
+# text = Истребители F-22 Raptor, участвующие в военной операции в Сирии, начали терять радиолокационное покрытие.
+1	Истребители	Истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpacesBefore=\n
+2	F-22	F-22	NOUN	_	_	1	appos	_	_
+3	Raptor	Raptor	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	участвующие	участвовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	военной	военный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	операции	операция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Сирии	сирия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	терять	терять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	радиолокационное	радиолокационный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 82517
+# text = Как пишет Aviation Week, радиопоглощающая краска в нескольких местах фюзеляжа боевых самолетов начала сморщиваться и облезать.
+1	Как	как	ADV	_	Degree=Pos	14	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	радиопоглощающая	радиопоглощать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+7	краска	краска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	нескольких	несколько	NUM	_	Case=Loc	10	nummod	_	_
+10	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	nmod	_	_
+11	фюзеляжа	фюзеляжа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	боевых	боевый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	сморщиваться	сморщиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	облезать	облезать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 82518
+# text = Одной из причин этого стали неблагоприятные климатические условия.В истребителях F-22 используется несколько технологий малозаметности, позволяющих сделать самолеты менее заметными для оптических и радиолокационных систем.
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem	5	nummod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	неблагоприятные	неблагоприятный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	климатические	климатический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	В	в	ADP	_	_	11	case	_	_
+11	истребителях	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+12	F-22	F-22	NOUN	_	_	11	nmod	_	_
+13	используется	использувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	parataxis	_	_
+14	несколько	несколько	NUM	_	Case=Nom	15	nummod:gov	_	_
+15	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+16	малозаметности	малозаметность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+19	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	dep	_	_
+20	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+21	менее	менее	ADV	_	Degree=Cmp	22	advmod	_	_
+22	заметными	заметный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+23	для	для	ADP	_	_	27	case	_	_
+24	оптических	оптический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	радиолокационных	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	conj	_	_
+27	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 82519
+# text = Заметность F-22 для радаров снижается, в частности, за счет сплющенной формы его фюзеляжа.
+1	Заметность	Заметность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	F-22	F-22	NUM	_	_	1	nummod	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	радаров	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	снижается	снижаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	5	discourse	_	_
+8	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	за	за	ADP	_	_	13	case	_	_
+11	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	сплющенной	сплющеть	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 82520
+# text = Это позволяет самолету отражать как можно меньше радиолокационного излучения назад к его источнику.Противорадиолокационное покрытие истребителя поглощает часть излучения радаров.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	самолету	самолет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+4	отражать	отражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+5	как	как	ADV	_	Degree=Pos	6	fixed	_	_
+6	можно	можно	ADV	_	Degree=Pos	17	nummod:gov	_	_
+7	меньше	мало	NUM	_	_	9	nummod:gov	_	_
+8	радиолокационного	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+10	назад	назад	ADV	_	Degree=Pos	9	advmod	_	_
+11	к	к	ADP	_	_	13	case	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	источнику.	источнику.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+14	Противорадиолокационное	Противорадиолокациоть	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+16	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	поглощает	поглощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	радаров	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 82521
+# text = В целом, благодаря всем использованным в истребителе технологиям малозаметности, его эффективная площадь рассеяния, по разным данным, составляет от 0,0001 до 0,4 квадратного метра.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	благодаря	благодаря	ADP	_	_	5	case	_	_
+5	всем	все	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+6	использованным	использовать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	истребителе	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	технологиям	технология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	2	conj	_	_
+10	малозаметности	малозаметность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+13	эффективная	эффективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	площадь	площадь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+15	рассеяния	рассеяние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	по	по	ADP	_	_	19	case	_	_
+18	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	21	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	от	от	ADP	_	_	23	case	_	_
+23	0,0001	0,0001	NUM	_	_	21	nummod	_	_
+24	до	до	ADP	_	_	27	case	_	_
+25	0,4	0,4	NUM	_	_	27	nummod	_	_
+26	квадратного	квадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 82522
+# text = Для сравнения, этот показатель у голубя равен 0,01 квадратного метра.По словам руководителя программы F-22 в американской компании Lockheed Martin Джона Коттэма, радиопоглощающее покрытие сморщивается и начинает облезать из-за того, что оно теряет свою твердость, постепенно возвращаясь в исходное жидкое состояние.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	голубя	голубь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	равен	равно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+9	0,01	0,01	NUM	_	_	11	nummod	_	_
+10	квадратного	квадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	метра.	метра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+12	По	по	ADP	_	_	13	case	_	_
+13	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	parataxis	_	_
+14	руководителя	руководитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	F-22	F-22	NOUN	_	_	26	nmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	американской	американский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+20	Lockheed	Lockheed	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Martin	Martin	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Джона	джон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	appos	_	_
+23	Коттэма	Коттэм	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	радиопоглощающее	радиопоглощающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+27	сморщивается	сморщиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	_
+30	облезать	облезать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	из-за	из-за	ADP	_	_	32	case	_	_
+32	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	36	nsubj	_	_
+36	теряет	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+37	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	38	amod	_	_
+38	твердость	твердость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	постепенно	постепенно	ADV	_	Degree=Pos	41	advmod	_	_
+41	возвращаясь	возвращаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	36	advcl	_	_
+42	в	в	ADP	_	_	45	case	_	_
+43	исходное	исходный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	45	amod	_	_
+44	жидкое	жидкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	45	amod	_	_
+45	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 82523
+# text = Этот процесс дополнительно ускоряется внешними факторами, в том числе дождем и песчаной пылью.Точная причина быстрого разрушения покрытия не раскрывается.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	дополнительно	дополнительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	ускоряется	ускоряться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	внешними	внешний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	факторами	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	10	amod	_	_
+10	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	advmod	_	_
+11	дождем	дождь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	песчаной	песчаный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	пылью	пыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Точная	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+18	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	разрушения	разрушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	раскрывается	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 82524
+# text = Следует отметить, что ВВС США и раньше жаловались на быстрое разрушение радиопоглощающего покрытия F-22 при попадании на него горючего или смазки.
+1	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+6	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	раньше	рано	ADV	_	Degree=Cmp	9	advmod	_	_
+9	жаловались	жаловаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	быстрое	быстрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	разрушение	разрушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+13	радиопоглощающего	радиопоглощать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	F-22	F-22	NOUN	_	_	9	obl	_	_
+16	при	при	ADP	_	_	15	case	_	_
+17	попадании	попадание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	него	ний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	горючего	горючее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	смазки	смазка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 82525
+# text = В компании Lockheed Martin, разработавшей F-22, утверждают, что уже создали новое надежное покрытие для боевых самолетов, которое уже по мере технического обслуживания наносится на них.Американские военные намерены обновить краску всех 186 истребителей F-22.
+1	В	в	ADP	_	_	2	case	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	разработавшей	разработавать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+7	F-22	F-22	NOUN	_	_	9	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+13	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+14	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	надежное	надежный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+17	для	для	ADP	_	_	19	case	_	_
+18	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которое	который	PRON	_	Case=Nom	27	nsubj:pass	_	_
+22	уже	уже	ADV	_	Degree=Pos	26	advmod	_	_
+23	по	по	ADP	_	_	26	case	_	_
+24	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	fixed	_	_
+25	технического	технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+27	наносится	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	acl:relcl	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	них.	нихутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+30	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+32	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	27	parataxis	_	_
+33	обновить	обновливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	dep	_	_
+34	краску	краска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	всех	весь	DET	_	Case=Gen|Number=Plur	37	amod	_	_
+36	186	186	NUM	_	_	37	nummod	_	_
+37	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+38	F-22	F-22	NOUN	_	_	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 82526
+# text = По предварительной оценке, на это уйдет по меньшей мере три года.
+1	По	по	ADP	_	_	3	case	_	_
+2	предварительной	предварительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+7	уйдет	уходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	по	по	ADP	_	_	11	advmod	_	_
+9	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	fixed	_	_
+10	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	fixed	_	_
+11	три	три	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 82527
+# text = Ускорить работы планируется за счет увеличения числа одновременно обслуживаемых самолетов, а также за счет специального покрасочного робота.
+1	Ускорить	ускоривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	за	за	ADP	_	_	6	case	_	_
+5	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	увеличения	увеличение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+7	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	одновременно	одновременне	ADV	_	Degree=Pos	9	advmod	_	_
+9	обслуживаемых	обслуживать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	18	cc	_	_
+13	также	также	ADV	_	Degree=Pos	18	advmod	_	_
+14	за	за	ADP	_	_	18	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	покрасочного	покрасочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 82528
+# text = Его разработку Lockheed Martin завершает в настоящее время.В 2009 году бывший инженер Lockheed Martin Дэррол Олсен обвинил американскую компанию в нанесении нескольких лишних слоев радиопоглощающего покрытия.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	завершает	завершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	12	advmod	_	_
+7	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	fixed	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	В	в	ADP	_	_	12	case	_	_
+11	2009	2009	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+13	бывший	бывший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+15	Lockheed	Lockheed	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Martin	Martin	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Дэррол	Дэррол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+18	Олсен	Олсен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+19	обвинил	обвинять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+20	американскую	американский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	компанию	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	нанесении	нанесение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+24	нескольких	несколько	NUM	_	Case=Gen	26	nummod	_	_
+25	лишних	лишний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+27	радиопоглощающего	радиопоглощать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+28	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 82529
+# text = По его словам, это делалось для того, чтобы скрыть брак покрытия, довольно легко стирающегося с фюзеляжа под воздействием воды, масла или топлива.Василий Сычёв
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+6	делалось	делать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+11	скрыть	скрывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+12	брак	брак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	довольно	довольно	ADV	_	Degree=Pos	16	advmod	_	_
+16	легко	легко	ADV	_	Degree=Pos	17	advmod	_	_
+17	стирающегося	стирать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+20	под	под	ADP	_	_	21	case	_	_
+21	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+22	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	масла	масло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	conj	_	_
+25	или	или	CCONJ	_	_	26	cc	_	_
+26	топлива.	топлива.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+27	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+28	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
+

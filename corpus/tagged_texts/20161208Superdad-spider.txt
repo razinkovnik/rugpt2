@@ -1,0 +1,900 @@
+# sent_id = 83808
+# text = Бразильские биологи обнаружили, что самцы пауков вида Manogea porracea заботятся о потомстве: вместе с самкой они защищают кладку яиц и атакуют хищников, приближающихся к паутине.
+1	Бразильские	Бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpacesAfter=\n
+8	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Manogea	Manogea	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	porracea	porracea	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	заботятся	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	SpacesAfter=\n
+12	о	о	ADP	_	_	13	case	_	_
+13	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	13	punct	_	_
+15	вместе	вместе	ADV	_	Degree=Pos	19	advmod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	самкой	самка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+18	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
+19	защищают	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	SpacesAfter=\n
+20	кладку	кладка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	яиц	яйцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	атакуют	атакевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+24	хищников	хищник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+26	приближающихся	приближаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	24	amod	_	_
+27	к	к	ADP	_	_	28	case	_	_
+28	паутине	паутина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 83809
+# text = Больше того, часто самцы ухаживают за кладкой в одиночку.
+1	Больше	больше	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	часто	часто	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+5	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	ухаживают	ухаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	за	за	ADP	_	_	8	case	_	_
+8	кладкой	кладка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	одиночку	одиночка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 83810
+# text = По мнению ученых, это первый известный вид одиночных пауков, в котором самец заботится о потомстве наравне с самкой.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\n
+8	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	одиночных	одиночный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	пауков	паук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	котором	который	PRON	_	Case=Loc	15	obl	_	_
+14	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpacesAfter=\n
+15	заботится	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+18	наравне	наравне	ADV	_	Degree=Pos	20	advmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	самкой	самка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 83811
+# text = Исследование опубликовано в Animal Behaviour.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	Animal	Animal	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Behaviour	Behaviour	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 83812
+# text = У многих видов пауков, после того, как самка откладывает яйца, она в одиночку заботится о кладке и, иногда, об уже вылупившихся паучатах.
+1	У	у	ADP	_	_	3	case	_	SpacesAfter=\n
+2	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	после	после	ADP	_	_	7	case	_	_
+7	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	7	mark	_	SpacesAfter=\n
+10	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	откладывает	откладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+12	яйца	яйца	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+15	в	в	ADP	_	_	14	case	_	_
+16	одиночку	одиночка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	fixed	_	SpacesAfter=\n
+17	заботится	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	parataxis	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	кладке	кладка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+20	и	и	CCONJ	_	_	27	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	иногда	иногда	ADV	_	Degree=Pos	27	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	об	о	ADP	_	_	27	case	_	_
+25	уже	уже	ADV	_	Degree=Pos	26	advmod	_	SpacesAfter=\n
+26	вылупившихся	вылупиваться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	27	amod	_	_
+27	паучатах	паучат	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 83813
+# text = Самки охраняют кладки в паутине или гнезде, обеспечивают паучат пищей.
+1	Самки	самк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	охраняют	охранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	кладки	кладка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	паутине	паутина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	гнезде	гнезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpacesAfter=\n
+10	паучат	паучат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	пищей	пища	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83814
+# text = Паучихи некоторых видов (например, Agelena labyrinthica) умирают в период инкубации яиц, а детеныши первое время после вылупления поедают труп матери.
+1	Паучихи	паучих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\n
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Agelena	Agelena	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpacesAfter=\n
+8	labyrinthica	labyrinthica	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	умирают	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	инкубации	инкубация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	яиц	яйцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	17	cc	_	_
+17	детеныши	детеныать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	22	advcl	_	SpacesAfter=\n
+18	первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	после	после	ADP	_	_	21	case	_	_
+21	вылупления	вылупление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+22	поедают	поедать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpacesAfter=\n
+23	труп	труп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+24	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 83815
+# text = Пауки-самцы практически никогда не принимают участия в уходе за потомством.
+1	Пауки	паук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+2	-самцы	-самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
+3	практически	практически	ADV	_	Degree=Pos	4	advmod	_	SpacesAfter=\n
+4	никогда	никогда	ADV	_	Degree=Pos	6	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	уходе	уход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\n
+10	за	за	ADP	_	_	11	case	_	_
+11	потомством	потомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83816
+# text = Исключением стали социальные пауки Stegodyphus dumicola, которые плетут общую ловчую сеть и обитают вблизи друг от друга.
+1	Исключением	исключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+2	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	социальные	социальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	пауки	паука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	Stegodyphus	Stegodyphus	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n
+6	dumicola	dumicola	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	плетут	плети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	общую	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	ловчую	ловчий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	обитают	обитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+15	вблизи	вблизи	ADV	_	Degree=Pos	14	advmod	_	_
+16	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	fixed	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 83817
+# text = Некоторые самцы этого вида отгоняют от кладки муравьев, пытающихся ее украсть.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	отгоняют	отгонять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	кладки	кладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\n
+8	муравьев	муравей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	пытающихся	пытаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	8	amod	_	_
+11	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	10	obj	_	_
+12	украсть	красть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 83818
+# text = Тем удивительнее стало для авторов исследования поведение самцов одиночных пауков M.porracea.
+1	Тем	тем	SCONJ	_	_	2	mark	_	SpacesAfter=\n
+2	удивительнее	удивительный	ADJ	_	Degree=Cmp	0	root	_	_
+3	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpacesAfter=\n
+6	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+8	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	одиночных	одиночный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	M.porracea	M.porracea	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83819
+# text = Пауки M. porracea обитают в Южной Америке, в ареале от Панамы до Аргентины.
+1	Пауки	паука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	M.	m.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	porracea	porracea	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	обитают	обитавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	Америке	америка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	ареале	ареал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	Панамы	Панама	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	до	до	ADP	_	_	14	case	_	_
+14	Аргентины	аргентина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 83820
+# text = Самка плетет трехмерную паутину, состоящую из ловчей сети и куполообразной структуры, в которой она проводит большую часть времени.
+1	Самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	плетет	плести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	трехмерную	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	паутину	паутина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	состоящую	состоять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	ловчей	ловчий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	куполообразной	куполообразный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpacesAfter=\n
+12	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	которой	который	PRON	_	Case=Loc	17	obl	_	_
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+18	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpacesAfter=\n
+19	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 83821
+# text = Во время брачного периода самец делает над паутиной самки свою, такой же формы и связывает ее с паутиной самки поперечными нитями.
+1	Во	во	ADP	_	_	4	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	брачного	брачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpacesAfter=\n
+5	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	над	над	ADP	_	_	8	case	_	_
+8	паутиной	паутина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	самки	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+13	же	же	PART	_	_	12	advmod	_	_
+14	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	связывает	связывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+17	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	паутиной	паутина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpacesAfter=\n
+20	самки	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	поперечными	поперечный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	нитями	нить	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83822
+# text = После оплодотворения самка откладывает яйца, делает из них несколько коконов из паутины и подвешивает кладки к поперечным нитям, соединяющим родительские паутины.
+1	После	после	ADP	_	_	2	case	_	SpacesAfter=\n
+2	оплодотворения	оплодотворение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	откладывает	откладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	яйца	яйцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	obl	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	коконов	кокон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+12	из	из	ADP	_	_	13	case	_	SpacesAfter=\n
+13	паутины	паутина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	подвешивает	подвешивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	кладки	кладка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+17	к	к	ADP	_	_	19	case	_	_
+18	поперечным	поперечный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	SpacesAfter=\n
+19	нитям	нить	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	соединяющим	соединять	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	родительские	родительский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	паутины	паутина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 83823
+# text = Затем, вплоть до вылупления паучат, один или оба родителя охраняют кладки.
+1	Затем	затем	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	вплоть	вплоть	ADV	_	Degree=Pos	5	case	_	_
+4	до	до	ADP	_	_	3	fixed	_	_
+5	вылупления	вылупление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+6	паучат	паучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	один	один	NUM	_	Case=Nom|Gender=Masc	6	nsubj	_	SpacesAfter=\n
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	оба	оба	NUM	_	Case=Nom|Gender=Masc	8	conj	_	_
+11	родителя	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	охраняют	охранявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+13	кладки	кладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 83824
+# text = Они следят за тем, чтобы они не упала на землю и в случае необходимости "ремонтируют" паутину, и защищают коконы от хищников (пауков-пиратов, которые пожирают яйца, паучат и взрослых особей).
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	SpacesAfter=\n
+2	следят	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	за	за	ADP	_	_	4	case	_	_
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	упала	падать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	на	на	ADP	_	_	11	case	_	SpacesAfter=\n
+11	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+12	и	и	CCONJ	_	_	17	cc	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+15	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpacesAfter=\n
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	ремонтируют	ремонтировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	19	punct	_	_
+19	паутину	паутина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	защищают	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	коконы	кокон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpacesAfter=\n
+24	от	от	ADP	_	_	25	case	_	_
+25	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	пауков-	пауков-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	пиратов	пират	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	25	appos	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	которые	который	PRON	_	Case=Nom	31	nsubj	_	SpacesAfter=\n
+31	пожирают	пожирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+32	яйца	яйцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	паучат	паучат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
+35	и	и	CCONJ	_	_	37	cc	_	_
+36	взрослых	взрослый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 83825
+# text = Авторы нового исследования решили выяснить, как влияет забота и уход самцов на выживаемость их потомства.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+9	забота	забота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	уход	уход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+12	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpacesAfter=\n
+13	на	на	ADP	_	_	14	case	_	_
+14	выживаемость	выживаемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+16	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 83826
+# text = Ученые исследовали M. porracea, обитающих на эвкалиптовой плантации на юго-востоке Бразилии.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	M.	M.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	porracea	porracea	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	обитающих	обитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	SpacesAfter=\n
+7	на	на	ADP	_	_	9	case	_	_
+8	эвкалиптовой	эвкалиптовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	плантации	плантация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	юго-востоке	юго-восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpacesAfter=\n
+12	Бразилии	бразилия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 83827
+# text = Они наблюдали за пауками во время брачного периода, в ноябре-декабре 2013 года.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	за	за	ADP	_	_	4	case	_	_
+4	пауками	паука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+5	во	во	ADP	_	_	8	case	_	SpacesAfter=\n
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	брачного	брачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	ноябре-декабре	ноябре-декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpacesAfter=\n
+12	2013	2013	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 83828
+# text = Исследователи сравнивали, сколько паучат вылупилось из кладок за которыми присматривали либо оба родителя, либо только самец или самка, либо они оставались бесхозными.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнивали	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	сколько	сколько	ADV	_	Degree=Pos	2	conj	_	_
+5	паучат	паучат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	вылупилось	вылупиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	кладок	кладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+9	за	за	ADP	_	_	10	case	_	SpacesAfter=\n
+10	которыми	который	PRON	_	Case=Ins	11	obl	_	_
+11	присматривали	присматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+12	либо	либо	CCONJ	_	_	13	cc	_	_
+13	оба	оба	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	родителя	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	либо	либо	CCONJ	_	_	18	cc	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	либо	либо	CCONJ	_	_	24	cc	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj	_	SpacesAfter=\n
+24	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	conj	_	_
+25	бесхозными	бесхозный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 83829
+# text = Отдельно авторы работы следили за тем, как самцы "штопают" паутину и как это влияет на количество вылупившихся паучат.
+1	Отдельно	отдельно	ADV	_	Degree=Pos	4	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\n
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	следили	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	6	mark	_	_
+9	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	штопают	штопать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	паутину	паутина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	и	и	CCONJ	_	_	17	cc	_	_
+15	как	как	ADV	_	Degree=Pos	17	advmod	_	_
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	SpacesAfter=\n
+20	вылупившихся	вылупиваться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	21	amod	_	_
+21	паучат	паучат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 83830
+# text = Также, чтобы оценить выживаемость последних, ученые провели лабораторные эксперименты, во время которых они подсаживали на несколько дней пауков-хищников к неохраняемой кладке, либо к кладке, за которой присматривал самец M. porracea.
+1	Также	также	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+4	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+5	выживаемость	выживаемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+10	лабораторные	лабораторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	во	во	ADP	_	_	15	case	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	SpacesAfter=\n
+15	которых	который	PRON	_	Case=Gen	17	obl	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
+17	подсаживали	подсаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	20	nummod:gov	_	SpacesAfter=\n
+20	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+21	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	appos	_	_
+24	к	к	ADP	_	_	26	case	_	_
+25	неохраняемой	неохраняемый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	SpacesAfter=\n
+26	кладке	кладка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	либо	либо	CCONJ	_	_	30	cc	_	_
+29	к	к	ADP	_	_	30	case	_	_
+30	кладке	кладка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	за	за	ADP	_	_	33	case	_	_
+33	которой	который	PRON	_	Case=Ins	34	obl	_	SpacesAfter=\n
+34	присматривал	присматривать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+35	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+36	M.	m.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	porracea	porracea	X	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 83831
+# text = Оказалось, что, если за кладками ухаживали оба родителя или только самка, среднее количество вылупившихся из одной кладки паучат было практически одинаковым (14 и 13 особей соответственно).
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	если	если	SCONJ	_	_	8	mark	_	_
+6	за	за	ADP	_	_	7	case	_	SpacesAfter=\n
+7	кладками	кладка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	_
+8	ухаживали	ухаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	оба	оба	NUM	_	Case=Nom|Gender=Masc	10	nummod:gov	_	_
+10	родителя	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	или	или	CCONJ	_	_	13	cc	_	SpacesAfter=\n
+12	только	только	PART	_	_	13	advmod	_	_
+13	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	среднее	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	nsubj	_	SpacesAfter=\n
+17	вылупившихся	вылупиваться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	16	amod	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	одной	один	NUM	_	Case=Gen|Gender=Fem	20	nummod	_	_
+20	кладки	кладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+21	паучат	паучонок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpacesAfter=\n
+22	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+23	практически	практически	ADV	_	Degree=Pos	24	advmod	_	_
+24	одинаковым	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	conj	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	14	14	NUM	_	_	24	parataxis	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	13	13	NUM	_	_	29	nummod	_	_
+29	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	30	orphan	_	SpacesAfter=\n
+30	соответственно	соответственно	ADV	_	Degree=Pos	26	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 83832
+# text = Если за яйцами присматривал только самец, выживало примерно на 30 процентов меньше отпрысков.
+1	Если	если	SCONJ	_	_	8	mark	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	яйцами	яйец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpacesAfter=\n
+4	присматривал	присматривать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	выживало	выживать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+9	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	30	30	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	меньше	мало	NUM	_	_	12	nummod:gov	_	_
+14	отпрысков	отпрыск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 83833
+# text = Если же кладки оставались "беспризорными", из них, в среднем, вылуплялось на 70 процентов меньше паучат, чем из тех, за которыми ухаживали оба родителя или только мать.Также ученые выяснили, что, если кладка оставалась без присмотра, то почти в половине случаев паутина, к которой она крепилась, обрывалась, и кокон падал на землю.
+1	Если	если	SCONJ	_	_	15	mark	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	кладки	кладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	advcl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	беспризорными	беспризорный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+9	из	из	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	вылуплялось	вылупляться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	70	70	NUM	_	_	18	nummod	_	SpacesAfter=\n
+18	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+19	меньше	меньше	ADV	_	Degree=Cmp	20	advmod	_	_
+20	паучат	паучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	24	mark	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	тех	тот	DET	_	Case=Gen|Number=Plur	20	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	за	за	ADP	_	_	27	case	_	SpacesAfter=\n
+27	которыми	который	PRON	_	Case=Ins	28	obl	_	_
+28	ухаживали	ухаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+29	оба	оба	NUM	_	Case=Nom|Gender=Masc	30	nummod:gov	_	_
+30	родителя	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nsubj	_	_
+31	или	или	CCONJ	_	_	33	cc	_	SpacesAfter=\n
+32	только	только	PART	_	_	33	advmod	_	_
+33	мать	мать	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	Также	также	CCONJ	_	_	37	cc	_	_
+36	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+37	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	что	что	SCONJ	_	_	37	mark	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	SpacesAfter=\n
+41	если	если	SCONJ	_	_	59	mark	_	_
+42	кладка	кладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
+43	оставалась	оставаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	59	advcl	_	_
+44	без	без	ADP	_	_	45	case	_	_
+45	присмотра	присмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	то	то	SCONJ	_	_	43	cc	_	_
+48	почти	почти	ADV	_	Degree=Pos	50	advmod	_	_
+49	в	в	ADP	_	_	50	case	_	_
+50	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	59	obl	_	_
+51	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	50	nmod	_	_
+52	паутина	паутин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	к	к	ADP	_	_	55	case	_	SpacesAfter=\n
+55	которой	который	PRON	_	Case=Dat	57	obl	_	_
+56	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	57	nsubj	_	_
+57	крепилась	крепиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	52	acl:relcl	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	обрывалась	обрываться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	63	conj	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	и	и	CCONJ	_	_	63	cc	_	SpacesAfter=\n
+62	кокон	кокон	ADV	_	Degree=Pos	63	advmod	_	_
+63	падал	падать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	37	advcl	_	_
+64	на	на	ADP	_	_	65	case	_	_
+65	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	63	obl	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	65	punct	_	SpaceAfter=No
+
+# sent_id = 83834
+# text = Лабораторные эксперименты показали, что самцы эффективно защищали кладки от хищных пауков: выживаемость потомства была на 30-40 процентов выше в тех случаях, когда кокон защищал от отец, чем в случаях, когда хищник оставался наедине с кладкой.
+1	Лабораторные	Лабораторной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesAfter=\n
+2	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesAfter=\n
+7	эффективно	эффективно	ADV	_	Degree=Pos	8	advmod	_	_
+8	защищали	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	кладки	кладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	obl	_	_
+10	от	от	ADP	_	_	9	case	_	_
+11	хищных	хищный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	SpacesAfter=\n
+12	пауков	паук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	выживаемость	выживаемость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+15	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+17	на	на	ADP	_	_	21	case	_	SpacesAfter=\n
+18	30	30	NUM	_	_	21	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	40	40	NUM	_	_	18	nummod	_	_
+21	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+22	выше	высоко	ADV	_	Degree=Cmp	8	parataxis	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	тех	тот	DET	_	Case=Loc|Number=Plur	25	amod	_	_
+25	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	когда	когда	SCONJ	_	_	8	mark	_	SpacesAfter=\n
+28	кокон	кокон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+29	защищал	защищать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+30	от	от	ADP	_	_	31	case	_	_
+31	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	чем	чем	SCONJ	_	_	35	cc	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\n
+37	когда	когда	SCONJ	_	_	29	mark	_	_
+38	хищник	хищник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+39	оставался	оставаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	29	advcl	_	_
+40	наедине	наедине	ADV	_	Degree=Pos	42	advmod	_	_
+41	с	с	ADP	_	_	42	case	_	_
+42	кладкой	кладка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 83835
+# text = Интересным результатом наблюдений оказалось то, что к концу брачного периода число одиноких отцов, охраняющих своих отпрысков, стало почти в пять раз больше количества самок.
+1	Интересным	интересный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\n
+3	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	концу	конец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	SpacesAfter=\n
+10	брачного	брачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+13	одиноких	одинокий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	отцов	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	охраняющих	охранять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	своих	свой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	отпрысков	отпрыск	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+21	почти	почти	ADV	_	Degree=Pos	24	advmod	_	SpacesAfter=\n
+22	в	в	ADP	_	_	24	case	_	_
+23	пять	пять	NUM	_	Case=Acc	24	nummod:gov	_	_
+24	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+25	больше	много	NUM	_	_	26	nummod:gov	_	_
+26	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	самок	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 83836
+# text = Ученые объясняют это тем, что пауки-пираты, нападающие на M. porracea, предпочитают самок, которые больше самцов по размерам и, по-видимому, содержат больше жиров, которые необходимы паукам-хищникам.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	объясняют	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	пауки	паук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	пираты	пират	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	нападающие	нападать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	M.	M.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+14	porracea	porracea	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	предпочитают	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	SpacesAfter=\n
+17	самок	самка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	28	nsubj	_	_
+20	больше	много	NUM	_	_	21	nummod:gov	_	_
+21	самцов	самц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	28	nmod	_	SpacesAfter=\n
+24	и	и	CCONJ	_	_	28	cc	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	по-видимому	по-видимому	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+29	больше	много	NUM	_	_	30	nummod:gov	_	_
+30	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+32	которые	который	PRON	_	Case=Nom	33	nsubj	_	_
+33	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	30	acl:relcl	_	_
+34	паукам	паук	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+35	-	-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	хищникам	хищник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	34	appos	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 83837
+# text = У некоторых пауков есть интересные стратегии заботы о потомстве.
+1	У	у	ADP	_	_	3	case	_	SpacesAfter=\n
+2	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	интересные	интересный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	стратегии	стратегия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	заботы	забота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	о	о	ADP	_	_	7	case	_	_
+9	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 83838
+# text = Так, самка южнорусского тарантула (Lycosa singoriensis) прикрепляет кокон с яйцами к себе на брюшко и ходит с ним до тех пор, пока паучата не начнут шевелиться.
+1	Так	так	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpacesAfter=\n
+4	южнорусского	южнорусский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpacesAfter=\n
+5	тарантула	тарантул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpacesAfter=\n
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Lycosa	Lycosa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	singoriensis	singoriensis	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	прикрепляет	прикреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+11	кокон	кокон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	яйцами	яйца	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	себе	себя	PRON	_	Case=Dat	13	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	брюшко	брюшко	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	ходит	ходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpacesAfter=\n
+20	с	с	ADP	_	_	21	case	_	_
+21	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	19	obl	_	_
+22	до	до	ADP	_	_	24	case	_	_
+23	тех	тот	DET	_	Case=Gen|Number=Plur	24	amod	_	_
+24	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	пока	пока	SCONJ	_	_	0	mark	_	_
+27	паучата	паучат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	SpacesAfter=\n
+30	шевелиться	шевелиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	29	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 83839
+# text = После этого самка сбрасывает кокон и разгрызает его, чтобы помочь детенышам выбраться.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	сбрасывает	сбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	кокон	кокон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	разгрызает	разгрызать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+11	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	SpacesAfter=\n
+12	детенышам	детеныш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+13	выбраться	выбраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 83840
+# text = На этом забота о потомстве не заканчивается: паучата взбираются на спину матери и ездят на ней до тех пор, пока не начнут питаться самостоятельно.
+1	На	на	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	забота	забота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	о	о	ADP	_	_	5	case	_	SpacesAfter=\n
+5	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	заканчивается	заканчиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	паучата	паучат	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpacesAfter=\n
+10	взбираются	взбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	parataxis	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	спину	спина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	ездят	ездить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	на	на	ADP	_	_	17	case	_	SpacesAfter=\n
+17	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	15	obl	_	_
+18	до	до	ADP	_	_	20	case	_	_
+19	тех	тот	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	пока	пока	SCONJ	_	_	0	mark	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+25	питаться	питаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	24	xcomp	_	SpacesAfter=\n
+26	самостоятельно	самостоятельно	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83841
+# text = У пауков Coelotes terrestris молодь остается в материнском гнезде примерно месяц после выхода из кокона.
+1	У	у	ADP	_	_	2	case	_	_
+2	пауков	паук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+3	Coelotes	Coelotes	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpacesAfter=\n
+4	terrestris	terrestris	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	молодь	молодь	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+6	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	материнском	материнский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	гнезде	гнезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	11	advmod	_	SpacesAfter=\n
+11	месяц	месяц	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	кокона	кокон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 83842
+# text = Самка приносит им полупереваренную добычу и защищает от пауков других видов, которых она выгоняет из гнезда или убивает.Екатерина Русакова
+1	Самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpacesAfter=\n
+2	приносит	приносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	2	obl	_	_
+4	полупереваренную	полупереваренный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	добычу	добыча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	SpacesAfter=\n
+7	защищает	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	пауков	паук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которых	который	PRON	_	Case=Acc	15	obj	_	SpacesAfter=\n
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+15	выгоняет	выгонять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	гнезда	гнезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	убивает	убивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Екатерина	екатерина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+22	Русакова	Русакова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	21	flat:name	_	SpaceAfter=No
+

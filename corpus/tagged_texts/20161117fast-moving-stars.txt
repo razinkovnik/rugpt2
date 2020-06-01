@@ -1,0 +1,650 @@
+# sent_id = 80159
+# text = Астрономы обнаружили в Млечном Пути группу звезд, очень быстро вращающихся вокруг галактического центра.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	Млечном	Млечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	Пути	путь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+7	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	очень	очень	ADV	_	Degree=Pos	10	advmod	_	_
+10	быстро	быстро	ADV	_	Degree=Pos	11	advmod	_	_
+11	вращающихся	вращаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	0	amod	_	_
+12	вокруг	вокруг	ADP	_	_	14	case	_	_
+13	галактического	галактический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80160
+# text = Это открытие поможет исследователям лучше понять динамику движения рукавов нашей Галактики.
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+5	лучше	хорошо	ADV	_	Degree=Cmp	6	advmod	_	_
+6	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+7	динамику	динамика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	рукавов	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80161
+# text = Работа ученых принята кпубликации вжурнале Monthly Notices ofthe Royal Astronomical Society, стекстом статьи можно ознакомиться насайте ArXiv.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	принята	принят	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	кпубликации	кпубликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+6	Monthly	Monthly	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Notices	notices	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	ofthe	ofthe	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Royal	royal	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Astronomical	Astronomical	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Society	society	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	стекстом	стекст	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obl:agent	_	_
+14	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+16	ознакомиться	ознакоматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	nsubj	_	_
+17	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+18	ArXiv	ArXiv	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80162
+# text = Млечный Путь представляет собой спиральную галактику сперемычкой, откоторой отходят как минимум пять рукавов.
+1	Млечный	Млечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Путь	путь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собой	себя	PRON	_	Case=Ins	3	obl	_	_
+5	спиральную	спиральный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	галактику	галактика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	сперемычкой	сперемычка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	откоторой	откоторый	PRON	_	Case=Ins	10	obl	_	_
+10	отходят	отходеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	как	как	SCONJ	_	_	13	advmod	_	_
+12	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	fixed	_	_
+13	пять	пять	NUM	_	Case=Acc	14	nummod:gov	_	_
+14	рукавов	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80163
+# text = Они вращаются вокруг центра нашей Галактики и в основном состоят из рассеянных звездных скоплений и туманностей.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	вращаются	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вокруг	вокруг	ADP	_	_	4	case	_	_
+4	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	основном	основное	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	advmod	_	_
+10	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	из	из	ADP	_	_	14	case	_	_
+12	рассеянных	рассеянный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	звездных	звездной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	скоплений	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	туманностей	туманность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80164
+# text = Изучая эти структуры, можно точнее определить время их жизни и лучше понять характер их влияния на движение звезд в Млечном Пути.
+1	Изучая	изучать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+2	эти	этот	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+3	структуры	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	точнее	точный	ADJ	_	Degree=Cmp	5	parataxis	_	_
+7	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	лучше	хороший	ADJ	_	Degree=Cmp	13	conj	_	_
+13	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	SpacesAfter=\n
+14	характер	характер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+16	влияния	влияние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	_
+19	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	Млечном	Млечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	Пути	путь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80165
+# text = Однако раньше построению моделей рукавов, для которого необходима точность при наблюдении за множеством звезд, мешали различные факторы, например, поглощение излучения пылью.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	раньше	рано	ADV	_	Degree=Cmp	9	advmod	_	_
+3	построению	построение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	рукавов	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	которого	который	PRON	_	Case=Gen	5	obl	_	_
+9	необходима	необходимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+10	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	наблюдении	наблюдение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	множеством	множество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	SpacesAfter=\n
+15	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	мешали	мешать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+18	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	факторы	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	поглощение	поглощение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+24	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	пылью	пыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 80166
+# text = Но оборудование на новом телескопе Gaia, который был запущен в космос в 2013 году, позволило ученым устранить эти препятствия.
+1	Но	но	CCONJ	_	_	17	cc	_	SpacesAfter=\n
+2	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	телескопе	телескоп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	Gaia	Gaia	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	запущен	запускать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpacesAfter=\n
+13	в	в	ADP	_	_	15	case	_	_
+14	2013	2013	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+19	устранить	устраинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	эти	этот	DET	_	Case=Acc|Number=Plur	21	amod	_	_
+21	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 80167
+# text = Авторы новой работы изучали, как движутся звезды в Млечном Пути вокруг галактического центра.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	4	mark	_	_
+7	движутся	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+8	звезды	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	Млечном	Млечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Пути	путь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+12	вокруг	вокруг	ADP	_	_	14	case	_	_
+13	галактического	галактический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80168
+# text = Для этого они использовали каталог TGAS, вкотором собраны сделанные спомощью Gaia измерения параллакса исобственного движения звезд нашей Галактики.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	каталог	каталог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	TGAS	Tgas	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вкотором	вкотор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	собраны	обрать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+10	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	_
+12	Gaia	Gaia	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	измерения	измерение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	_
+14	параллакса	параллакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	исобственного	исобственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+19	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80169
+# text = Однако эти данные имели один недостаток: дело в том, что Gaia измеряет движение звезд по небосклону, но ничего не говорит об их радиальном движении (то есть о том, движется ли звезда к нам или от нас), которое тоже необходимо учитывать при расчете скорости вращения небесных тел вокруг центра Галактики.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	4	nsubj	_	_
+4	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	недостаток	недостаток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	Gaia	Gaia	PROPN	_	Foreign=Yes	14	nsubj	_	_
+14	измеряет	измерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+15	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	небосклону	небосклон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	но	но	CCONJ	_	_	23	cc	_	_
+21	ничего	ничто	PRON	_	Case=Gen	23	nsubj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+24	об	о	ADP	_	_	27	case	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	27	nmod	_	_
+26	радиальном	радиальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	SpacesAfter=\n\s
+27	движении	движение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	mark	_	_
+30	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	fixed	_	_
+31	о	о	ADP	_	_	32	case	_	_
+32	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	движется	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	acl	_	_
+35	ли	ли	PART	_	_	34	advmod	_	_
+36	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+37	к	к	ADP	_	_	38	case	_	_
+38	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	36	nmod	_	_
+39	или	или	CCONJ	_	_	41	cc	_	_
+40	от	от	ADP	_	_	41	case	_	_
+41	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	44	conj	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	41	punct	_	_
+44	которое	который	PRON	_	Case=Nom	46	nsubj	_	_
+45	тоже	тоже	PART	_	_	46	advmod	_	_
+46	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	34	acl:relcl	_	_
+47	учитывать	учитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	46	nsubj	_	_
+48	при	при	ADP	_	_	49	case	_	_
+49	расчете	расчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	47	obl	_	_
+50	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+51	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	50	nmod	_	_
+52	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	53	amod	_	_
+53	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	51	nmod	_	_
+54	вокруг	вокруг	ADP	_	_	53	case	_	_
+55	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+56	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	55	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	SpaceAfter=No
+
+# sent_id = 80170
+# text = Для вычисления радиальной скорости нужны спектроскопические исследования, которые провести для такого числа звезд затруднительно.
+1	Для	для	ADP	_	_	2	case	_	_
+2	вычисления	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+3	радиальной	радиальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n
+5	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	спектроскопические	спектроскопический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Acc	10	obj	_	_
+10	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	acl:relcl	_	_
+11	для	для	ADP	_	_	13	case	_	SpacesAfter=\s\n
+12	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	13	amod	_	_
+13	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	затруднительно	затруднительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80171
+# text = Тем неменее, астрономы заметили, что если смотреть внаправлении отили кгалактическому центру, то примерно определить круговую скорость звезд без знания радиальной все-таки можно.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	заметили	замечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	cc	_	_
+8	если	если	SCONJ	_	_	11	mark	_	_
+9	смотреть	смотреть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	advcl	_	_
+10	внаправлении	внаправление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+11	отили	ощать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+12	кгалактическому	кгалактический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	центру	центр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	SCONJ	_	_	0	cc	_	_
+16	примерно	примерно	ADV	_	Degree=Pos	17	advmod	_	_
+17	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+18	круговую	круговой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	без	без	ADP	_	_	22	case	_	_
+22	знания	знание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+23	радиальной	радиальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+24	все-таки	все-таки	PART	_	_	25	advmod	_	_
+25	можно	можно	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 80172
+# text = Поэтому ученые выбрали одну изтаких "удобных" областей неба ипостроили распределение скоростей движения группы звезд вокруг галактического центра.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	одну	один	NUM	_	Case=Acc|Gender=Fem	9	nummod:gov	_	_
+5	изтаких	изтакий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	удобных	удобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+10	неба	небо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	ипостроили	ипостраивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	распределение	распределение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	скоростей	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	звезд	звезда	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	вокруг	вокруг	ADP	_	_	16	case	_	_
+18	галактического	галактический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80173
+# text = Оно показало, что, несмотря нато, что большинство небесных тел перемещается снебольшой скоростью относительно нашего Солнца, часть звезд двигается почти на20километров всекунду быстрее него.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	несмотря	несмотря	ADV	_	Polarity=Neg	10	case	_	_
+7	нато	нато	ADV	_	Degree=Pos	6	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	6	fixed	_	_
+10	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+11	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+13	перемещается	перемещавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	advcl	_	_
+14	снебольшой	снебольшый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	относительно	относительно	ADP	_	_	18	case	_	_
+17	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	двигается	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	parataxis	_	_
+23	почти	почти	ADV	_	Degree=Pos	24	advmod	_	_
+24	на20километров	на20километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+25	всекунду	всекунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	быстрее	быстро	ADV	_	Degree=Cmp	27	advmod	_	_
+27	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80174
+# text = Все они находятся дальше, чеммы, отцентра Галактики примерно на0,1-- 0,6 килопарсека инаходятся вмежду нами ирукавом Персея.Необычное движение группы звезд вокруг галактического центра, помнению исследователей, может объясняться гравитационным влиянием рукава Персея.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	дальше	далеко	ADV	_	Degree=Cmp	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чеммы	чемм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	отцентра	отцентр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Галактики	Галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	_
+11	на0,1--	на0,1--	PUNCT	_	_	10	punct	_	_
+12	0,6	0,6	NUM	_	_	13	nummod	_	_
+13	килопарсека	килопарсек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+14	инаходятся	инаходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+15	вмежду	вмежду	ADP	_	_	16	case	_	_
+16	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	14	obl	_	_
+17	ирукавом	ирукав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+18	Персея	Персей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Необычное	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+22	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	вокруг	вокруг	ADP	_	_	23	case	_	_
+25	галактического	галактический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	помнению	помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
+29	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	объясняться	объяснять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	31	xcomp	_	_
+33	гравитационным	гравитационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	32	obl	_	_
+35	рукава	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	Персея	Персей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 80175
+# text = Согласно предположению ученых, сначала "быстрые" звезды опережают рукав, также вращающийся вокруг центра Галактики, и летят некоторое время чуть впереди него, однако потом сила притяжения остальных звезд рукава тормозит ихиони замедляются.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	предположению	предположение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сначала	сначала	ADV	_	Degree=Pos	7	advmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	звезды	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	опережают	опережать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	рукав	рукав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	вращающийся	вращаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	10	amod	_	_
+15	вокруг	вокруг	ADP	_	_	16	case	_	_
+16	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+17	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	летят	летить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+21	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	_
+22	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	чуть	чуть	ADV	_	Degree=Pos	24	advmod	_	_
+24	впереди	впереди	ADV	_	Degree=Pos	25	advmod	_	_
+25	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	однако	однако	ADV	_	Degree=Pos	34	advmod	_	_
+28	потом	потом	ADV	_	Degree=Pos	34	advmod	_	_
+29	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+30	притяжения	притяжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	рукава	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	тормозит	тормозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	ихиони	ихионя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+36	замедляются	замедляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 80176
+# text = После этого рукав Персея догоняет иобгоняет "медленные" звезды, и затем снова ускоряет их своей гравитацией по мере удаления от них.Такая гипотеза подразумевает, что рукава Млечного Пути либо могут вести себя как волны, придавая разное ускорение разным группам звезд помере своего вращения вокруг центра Галактики, либо движутся равномерно, и ускоряют все звезды на своем протяжении одинаково.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	рукав	рукав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+4	Персея	Персей	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	догоняет	догонявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	иобгоняет	иобгонять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	медленные	медленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	затем	затем	ADV	_	Degree=Pos	15	advmod	_	SpacesAfter=\n
+14	снова	снова	ADV	_	Degree=Pos	15	advmod	_	_
+15	ускоряет	ускорявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+17	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	18	amod	_	_
+18	гравитацией	гравитация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+19	по	по	ADP	_	_	21	case	_	_
+20	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	19	fixed	_	_
+21	удаления	удаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+22	от	от	ADP	_	_	23	case	_	_
+23	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
+26	гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+27	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	SCONJ	_	_	27	mark	_	_
+30	рукава	рукава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+31	Млечного	Млечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	Пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	либо	либо	CCONJ	_	_	34	cc	_	_
+34	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	54	conj	_	_
+35	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	xcomp	_	_
+36	себя	себя	PRON	_	Case=Acc	35	obj	_	_
+37	как	как	SCONJ	_	_	38	cc	_	_
+38	волны	волна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	35	advmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	придавая	придавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	35	advcl	_	_
+41	разное	разный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
+42	ускорение	ускорение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obj	_	_
+43	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	44	amod	_	_
+44	группам	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	40	obl	_	_
+45	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	44	nmod	_	_
+46	помере	померя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	50	nmod	_	_
+47	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	48	amod	_	_
+48	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+49	вокруг	вокруг	ADP	_	_	50	case	_	_
+50	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	_
+51	Галактики	галактика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	либо	либо	CCONJ	_	_	54	cc	_	_
+54	движутся	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	58	conj	_	_
+55	равномерно	равномерно	ADV	_	Degree=Pos	54	advmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	и	и	CCONJ	_	_	58	cc	_	_
+58	ускоряют	ускорять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	64	conj	_	_
+59	все	весь	DET	_	Case=Acc|Number=Plur	60	amod	_	_
+60	звезды	звезд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	58	obj	_	_
+61	на	на	ADP	_	_	63	case	_	_
+62	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	63	amod	_	_
+63	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	58	obl	_	_
+64	одинаково	одинаково	ADV	_	Degree=Pos	27	advcl	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	64	punct	_	SpaceAfter=No
+
+# sent_id = 80177
+# text = Наданный момент исследователи немогут сказать, какая изэтих теорий верна, так как для этого необходимо иметь данные озвездах, отстающих отрукава Персея навсем его протяжении, которых сейчас нет.
+1	Наданный	Наданный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	немогут	немочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+8	изэтих	изэтот	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	теорий	теория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	верна	верный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	так	так	ADV	_	Degree=Pos	0	mark	_	_
+13	как	как	SCONJ	_	_	12	fixed	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+16	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	_
+17	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+18	данные	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	озвездах	озвезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	отстающих	отстать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	отрукава	отрукав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	Персея	Персей	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	навсем	навсе	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	amod	_	_
+25	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	26	nmod	_	_
+26	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которых	который	PRON	_	Case=Acc	30	obj	_	_
+29	сейчас	сейчас	ADV	_	Degree=Pos	30	advmod	_	_
+30	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80178
+# text = Тем неменее, ученые склоняются впользу второй теории, так как симуляция N-тел показывает, что скорость "быстрых" звезд, находящихся на разном расстоянии , остается примерно одинаковой.Недавно ученым удалось измерить длину Местного рукава Млечного Пути, вкотором находится наша Солнечная система.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	склоняются	склоняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	впользу	впользу	ADV	_	Degree=Pos	7	advmod	_	_
+7	второй	второй	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	теории	теория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	5	mark	_	_
+11	как	как	SCONJ	_	_	10	fixed	_	_
+12	симуляция	симуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	N-тел	N-тел	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	находящихся	находиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	21	amod	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	разном	разный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+29	примерно	примерно	ADV	_	Degree=Pos	30	advmod	_	_
+30	одинаковой	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	Недавно	недавно	ADV	_	Degree=Pos	34	advmod	_	_
+33	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	34	obl	_	_
+34	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+35	измерить	измерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	nsubj	_	_
+36	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+37	Местного	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	рукава	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+39	Млечного	Млечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	SpacesAfter=\n
+40	Пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	вкотором	вкотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+43	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	_
+44	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	46	amod	_	_
+45	Солнечная	солнечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 80179
+# text = Наоснове тригонометрического параллакса ученые определили, что его длина может превышать 20тысяч световых лет.
+1	Наоснове	Наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+2	тригонометрического	тригонометрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	параллакса	параллакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	превышать	превышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	20тысяч	20тысяч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80180
+# text = Предыдущие оценки ученых показывали, что длина Местного рукава почти вдва раза меньше-- около 10тысяч световых лет.Кристина Уласович
+1	Предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	оценки	оценка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	показывали	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+8	Местного	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	рукава	рукав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	почти	почти	ADV	_	Degree=Pos	11	advmod	_	_
+11	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	12	nummod:gov	_	_
+12	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+13	меньше-	меньше-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	около	около	ADP	_	_	16	case	_	_
+16	10тысяч	10тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+17	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+21	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
+

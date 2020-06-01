@@ -1,0 +1,535 @@
+# sent_id = 86926
+# text = Американская компания Groen Aeronautics занялась разработкой опционально пилотируемого автожира.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Groen	Groen	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Aeronautics	Aeronautics	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	занялась	заняться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	опционально	опционально	ADV	_	Degree=Pos	8	advmod	_	_
+8	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	автожира	автожир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86927
+# text = Как пишет Aviation Week, в компании полагают, что их новые аппараты будут востребованы, поскольку управлять беспилотным автожиром значительно проще, чем вертолетом.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+12	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	востребованы	востребовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	поскольку	поскольку	SCONJ	_	_	15	mark	_	_
+18	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+19	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	автожиром	автожир	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+21	значительно	значительно	ADV	_	Degree=Pos	22	advmod	_	_
+22	проще	простой	ADJ	_	Degree=Cmp	15	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чем	чем	SCONJ	_	_	25	cc	_	_
+25	вертолетом	вертолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86928
+# text = Новый автожир получит название ReconHawk.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	ReconHawk	ReconHawk	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 86929
+# text = Его можно будет использовать для перевозки грузов, пассажиров или ведения наблюдения.Подавляющее большинство крупных беспилотных аппаратов уже созданы или разрабатываются по двум основным схемам: вертолета и самолета.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	ведения	ведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+12	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Подавляющее	подавляющий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj:pass	_	_
+16	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	уже	уже	ADV	_	Degree=Pos	20	advmod	_	_
+20	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	разрабатываются	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	conj	_	_
+23	по	по	ADP	_	_	26	case	_	_
+24	двум	два	NUM	_	Case=Dat	26	nummod	_	_
+25	основным	основной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	_
+26	схемам	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	26	punct	_	_
+28	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	parataxis	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 86930
+# text = Кроме того, несколько компаний создают беспилотники по схеме конвертоплана.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	несколько	несколько	NUM	_	Case=Nom	5	nummod:gov	_	_
+5	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+6	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+10	конвертоплана	конвертоплан	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 86931
+# text = Более подробно о типах винтокрылых летательных аппаратов можно почитать в нашем материале.В частности, наиболее популярные на гражданском рынке беспилотники выполняются по схеме вертолета, обычно, мультикоптера.
+1	Более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+2	подробно	подробно	ADV	_	Degree=Pos	4	advmod	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	типах	тип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+5	винтокрылых	винтокрылый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	почитать	почитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	нашем	наш	DET	_	Case=Loc|Gender=Neut|Number=Sing	12	amod	_	_
+12	материале.	материале.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	В	в	ADP	_	_	22	discourse	_	_
+14	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	fixed	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	наиболее	наиболее	ADV	_	Degree=Pos	17	advmod	_	_
+17	популярные	популярный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	гражданском	гражданский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+21	беспилотники	беспилотника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	выполняются	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+25	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	обычно	обычно	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	мультикоптера	мультикоптера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86932
+# text = Это делается, потому что вертолеты способны на вертикальные взлет и посадку и зависание -- ценные качества в условиях городской застройки.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	делается	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	потому	потому	ADV	_	Degree=Pos	2	mark	_	_
+5	что	что	SCONJ	_	_	4	fixed	_	_
+6	вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	advcl	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	вертикальные	вертикальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	взлет	взгод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	зависание	зависание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	ценные	ценный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	качества	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	_
+20	городской	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	застройки	застройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86933
+# text = Кроме того, аппаратом, выполненным по типу мультикоптера, проще управлять.Конструктивно автожир проще вертолета, поскольку лишен сложной трансмиссии несущего винта и, нередко, вообще не имеет какого-либо привода на основной винт.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	выполненным	выполнять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	мультикоптера	мультикоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	проще	просто	ADV	_	Degree=Cmp	12	advmod	_	_
+12	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Конструктивно	конструктивно	ADV	_	Degree=Pos	15	advmod	_	_
+15	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	проще	простой	ADJ	_	Degree=Cmp	12	parataxis	_	_
+17	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+20	лишен	лишать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+21	сложной	сложный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	трансмиссии	трансмиссия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+23	несущего	несущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+25	и	и	CCONJ	_	_	31	cc	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	нередко	нередко	ADV	_	Degree=Pos	31	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	вообще	вообще	ADV	_	Degree=Pos	31	advmod	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
+32	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Masc|Number=Sing	33	amod	_	_
+33	привода	привод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+34	на	на	ADP	_	_	33	case	_	_
+35	основной	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	винт	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 86934
+# text = Горизонтальный полет автожира обеспечивают толкающий или тянущий воздушные винты.
+1	Горизонтальный	Горизонтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	автожира	автожир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	толкающий	толкать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	тянущий	тянти	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
+8	воздушные	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	винты	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86935
+# text = В воздухе автожир опирается на несущую поверхность винта, который вращается исключительно при помощи набегающих потоков воздуха.Автожир способен взлетать при очень коротком пробеге и садиться вертикально.
+1	В	в	ADP	_	_	2	case	_	_
+2	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	опирается	опираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	несущую	несущий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	вращается	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+12	исключительно	исключительно	ADV	_	Degree=Pos	11	advmod	_	_
+13	при	при	ADP	_	_	16	case	_	_
+14	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	fixed	_	_
+15	набегающих	набегать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+17	воздуха.	воздуха.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+18	Автожир	Автожир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+19	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+20	взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	при	при	ADP	_	_	24	case	_	_
+22	очень	очень	ADV	_	Degree=Pos	23	advmod	_	_
+23	коротком	короткий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	пробеге	пробег	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	садиться	садиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	20	conj	_	_
+27	вертикально	вертикально	ADV	_	Degree=Pos	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 86936
+# text = В целом автожир имеет несколько преимуществ перед самолетом или вертолетом: им гораздо проще управлять, а летать на таком аппарате -- безопаснее.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	автожир	автожир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	преимуществ	преимущество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	_
+7	перед	перед	ADP	_	_	8	case	_	_
+8	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	вертолетом	вертолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+13	гораздо	гораздо	ADV	_	Degree=Pos	14	advmod	_	_
+14	проще	просто	ADV	_	Degree=Cmp	15	advmod	_	_
+15	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	dep	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	18	cc	_	_
+18	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	таком	такой	DET	_	Case=Loc|Gender=Masc|Number=Sing	21	amod	_	_
+21	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	безопаснее	безопасно	ADV	_	Degree=Cmp	18	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 86937
+# text = Автожир не способен входить в штопор и может совершать аварийные управляемые вертикальные посадки с неработающим двигателем.Новый опционально пилотируемый автожир разрабатывается на базе пилотируемого аппарата ScoutHawk LSA.
+1	Автожир	Автожир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	входить	входить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	штопор	штопор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	аварийные	аварийной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+11	управляемые	управляемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+12	вертикальные	вертикальной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	посадки	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	неработающим	неработающий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	двигателем.	двигателем.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+17	Новый	Новый	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	опционально	опционально	ADV	_	Degree=Pos	19	advmod	_	_
+19	пилотируемый	пилотируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+21	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+24	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	ScoutHawk	ScoutHawk	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	LSA	Lsa	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 86938
+# text = ReconHawk унаследует от базового проекта полностью композиционный корпус, новые двигатель и автомат перекоса несущего винта.
+1	ReconHawk	ReconHawk	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	унаследует	унаследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	от	от	ADP	_	_	5	case	_	_
+4	базового	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+6	полностью	полностью	ADV	_	Degree=Pos	8	advmod	_	_
+7	композиционный	композиционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	автомат	автомат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+14	перекоса	перекос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	несущего	несущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86939
+# text = Беспилотник будет выполнен двухместным -- в беспилотном варианте аппарат сможет перевозить двух пассажиров или грузы массой до 362 килограммов.Другие технические подробности о перспективном аппарате не уточняются.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выполнен	выполнивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	двухместным	двухместный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	4	case	_	_
+7	беспилотном	беспилотный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	варианте	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+9	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	перевозить	перевожать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	двух	два	NUM	_	Case=Gen	13	nummod	_	_
+13	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	грузы	груза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+16	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	362	362	NUM	_	_	19	nummod	_	_
+19	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	Другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	технические	технический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	подробности	подробность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+23	о	о	ADP	_	_	25	case	_	_
+24	перспективном	перспективный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 86940
+# text = Предположительно, как и базовый ScoutHawk LSA, ReconHawk сможет развивать скорость до 178 километров в час и находиться в воздухе до 10,3 часа.
+1	Предположительно	предположительно	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	6	cc	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	базовый	базовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	ScoutHawk	ScoutHawk	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+7	LSA	Lsa	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ReconHawk	ReconHawk	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	до	до	ADP	_	_	15	case	_	_
+14	178	178	NUM	_	_	15	nummod	_	_
+15	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	conj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+22	до	до	ADP	_	_	23	case	_	_
+23	10,3	10,3	NUM	_	_	24	nummod	_	_
+24	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 86941
+# text = Вероятно, новый опционально пилотируемый автожир будет способен на подскок, вертикальный взлет с помощью предварительной раскрутки несущего винта на земле.В апреле текущего года американская компания Carter Aviation Technologies представила проект высокоростного реактивного автожира CarterCopter.
+1	Вероятно	вероятно	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	опционально	опционально	ADV	_	Degree=Pos	5	advmod	_	_
+5	пилотируемый	пилотируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	подскок	подскок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	вертикальный	вертикальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	взлет	взлет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	fixed	_	_
+16	предварительной	предварительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	раскрутки	раскрутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+18	несущего	несущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	земле.	земле.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+22	В	в	ADP	_	_	23	case	_	_
+23	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+24	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+28	Carter	Carter	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Aviation	Aviation	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	Technologies	Technologies	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+32	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+33	высокоростного	высокоростный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+34	реактивного	реактивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	автожира	автожир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+36	CarterCopter	CarterCopter	PROPN	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 86942
+# text = Перспективная четырехместная машина сможет развивать скорость до 450 узлов (около 833 километров в час).
+1	Перспективная	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	четырехместная	четырехместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	450	450	NUM	_	_	9	nummod	_	_
+9	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	около	около	ADP	_	_	13	case	_	_
+12	833	833	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86943
+# text = Проектом предполагается, что автожир получит схожие с самолетными фюзеляж и крыло, а также два турбореактивных двигателя TFE731-20.На CarterCopter установят воздушный винт с двумя широкими лопастями.
+1	Проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+2	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	автожир	автожир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	схожие	схожие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	самолетными	самолетный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	фюзеляж	фюзеляж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+16	два	два	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+17	турбореактивных	турбореактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nsubj	_	_
+19	TFE731	TFE731	NUM	_	_	21	nummod	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	20.На	20.Н	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+22	CarterCopter	CarterCopter	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+23	установят	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+24	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	винт	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	с	с	ADP	_	_	29	case	_	_
+27	двумя	два	NUM	_	Case=Ins	29	nummod	_	_
+28	широкими	широкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	лопастями	лопасть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86944
+# text = Это винт будет приводиться в движение только набегающими потоками воздуха, как и на классическом автожире.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	винт	винт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	приводиться	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	только	только	PART	_	_	8	advmod	_	_
+8	набегающими	набегать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+9	потоками	поток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+10	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	16	cc	_	_
+13	и	и	PART	_	_	16	advmod	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	классическом	классический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	автожире	автожир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86945
+# text = В конструкции воздушного винта будет реализована технология замедления вращения.
+1	В	в	ADP	_	_	2	case	_	_
+2	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	замедления	замедление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86946
+# text = Вместо обычных 300 оборотов в минуту винт будет вращаться с частотой около ста оборотов в минуту.
+1	Вместо	вместо	ADP	_	_	4	case	_	_
+2	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	300	300	NUM	_	_	4	nummod	_	_
+4	оборотов	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	винт	винт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	вращаться	вращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	около	около	ADP	_	_	11	case	_	_
+13	ста	сто	NUM	_	Case=Gen	14	nummod	_	_
+14	оборотов	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86947
+# text = Это позволит значительно снизить лобовое сопротивление.Василий Сычёв
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	значительно	значительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+5	лобовое	лобовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	_
+6	сопротивление.	сопротивлениеавнивать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+

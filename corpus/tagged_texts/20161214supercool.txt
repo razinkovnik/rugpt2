@@ -1,0 +1,239 @@
+# sent_id = 84685
+# text = Коллектив физиков из Тихоокеанской северо-западной национальной лаборатории впервые экспериментально обнаружил аномальные режимы кристаллизации в переохлажденной воде при температурах от 126 до 262 Кельвинов.
+1	Коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpacesBefore=\n
+2	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	из	из	ADP	_	_	7	case	_	_
+4	Тихоокеанской	Тихоокеанской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+5	северо-западной	северо-западный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+8	впервые	впервые	ADV	_	Degree=Pos	10	advmod	_	_
+9	экспериментально	экспериментально	ADV	_	Degree=Pos	10	advmod	_	_
+10	обнаружил	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	аномальные	аномальной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	режимы	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+13	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	переохлажденной	переохлажденный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	температурах	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	126	126	NUM	_	_	18	nummod	_	_
+21	до	до	ADP	_	_	23	case	_	_
+22	262	262	NUM	_	_	23	nummod	_	_
+23	Кельвинов	кельвин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 84686
+# text = Согласно новым данным, образование льда при этих режимах может происходить по одному из трех различных сценариев, что позволяет контролировать поведение переохлажденной воды в широком диапазоне температур.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	10	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	образование	образование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	при	при	ADP	_	_	9	case	_	_
+8	этих	этот	DET	_	Case=Loc|Number=Plur	9	amod	_	_
+9	режимах	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	одному	один	NUM	_	Case=Dat|Gender=Neut	11	nummod	_	_
+14	из	из	ADP	_	_	17	case	_	_
+15	трех	три	NUM	_	Case=Gen	17	nummod	_	_
+16	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	сценариев	сценарий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	PRON	_	Case=Nom	20	nsubj	_	_
+20	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	переохлажденной	переохлаждять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	широком	широкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+28	температур	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 84687
+# text = Работа опубликована в Proceedings of National Academy of Sciences.Авторы изучали скорость образования льда в пленках переохлажденной воды.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Proceedings	proceedings	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	National	national	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Academy	academy	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Sciences.	sciences.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+10	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	пленках	пленок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	obl	_	_
+17	переохлажденной	переохлаждять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 84688
+# text = По словам самих ученых, до сих пор область от 180 до 262 Кельвинов считалась terra incognita для экспериментальных исследований, так как скорость кристаллизации была слишком высока, чтобы достоверно ее измерить.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	parataxis	_	_
+3	самих	сам	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	до	до	ADP	_	_	15	advmod	_	_
+7	сих	сей	DET	_	Case=Gen|Number=Plur	6	fixed	_	_
+8	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	fixed	_	_
+9	область	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	180	180	NUM	_	_	9	nummod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	262	262	NUM	_	_	14	nummod	_	_
+14	Кельвинов	кельвин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+15	считалась	считать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+16	terra	terra	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	incognita	incognita	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	экспериментальных	экспериментальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	так	так	ADV	_	Degree=Pos	15	mark	_	_
+23	как	как	SCONJ	_	_	22	fixed	_	_
+24	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+25	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
+27	слишком	слишком	ADV	_	Degree=Pos	28	advmod	_	_
+28	высока	высокий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	28	mark	_	_
+31	достоверно	достоверно	ADV	_	Degree=Pos	33	advmod	_	_
+32	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	33	obj	_	_
+33	измерить	измерять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 84689
+# text = Ключевой особенностью новой работы стало использование коротких лазерных импульсов в сочетании с пленками полутяжелой воды.
+1	Ключевой	ключевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	особенностью	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	коротких	короткий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	лазерных	лазерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	импульсов	импульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	сочетании	сочетание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	пленками	пленка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_
+14	полутяжелой	полутяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 84690
+# text = Это позволило вести контролируемый нагрев образцов, а также следить за фронтом кристаллизации за счет контраста химического состава: H2O и HDO.Образцы представляли собой слой поликристаллического льда, нанесенный на платиновую подложку и покрытый сверху тонкой пленкой переохлажденной полутяжелой воды.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	контролируемый	контролируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	нагрев	нагрев	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	следить	следить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	фронтом	фронт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	за	за	ADP	_	_	16	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	контраста	контраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+17	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	18	punct	_	_
+20	H2O	H2o	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	HDO	Hdo	PROPN	_	Foreign=Yes	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Образцы	образец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	представляли	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	собой	себя	PRON	_	Case=Ins	25	obl	_	_
+27	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+28	поликристаллического	поликристаллический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	нанесенный	наносить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+32	на	на	ADP	_	_	34	case	_	_
+33	платиновую	платиновый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	подложку	подложка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+35	и	и	CCONJ	_	_	39	cc	_	_
+36	покрытый	покрывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	amod	_	_
+37	сверху	сверху	ADV	_	Degree=Pos	36	advmod	_	_
+38	тонкой	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	пленкой	пленка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+40	переохлажденной	переохлаждять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	42	amod	_	_
+41	полутяжелой	полутяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 84691
+# text = Платина освещалась короткими импульсами лазера, что приводило к резкому нагреву и такому же резкому охлаждению всей системы, и влекло за собой дополнительную кристаллизацию полутяжелого льда.
+1	Платина	Платина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	освещалась	освещаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	короткими	короткой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	импульсами	импульс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+5	лазера	лазер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	PRON	_	Case=Nom	8	nsubj	_	_
+8	приводило	приводить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	резкому	резкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	нагреву	нагрев	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+12	и	и	CCONJ	_	_	16	cc	_	_
+13	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
+14	же	же	PART	_	_	13	advmod	_	_
+15	резкому	резкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	охлаждению	охлаждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	conj	_	_
+17	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
+18	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	влекло	влечь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	за	за	ADP	_	_	23	case	_	_
+23	собой	себя	PRON	_	Case=Ins	21	obl	_	_
+24	дополнительную	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	кристаллизацию	кристаллизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+26	полутяжелого	полутяжелой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 84692
+# text = Благодаря спектроскопии отражения-поглощения ученые могли отследить движение фронта кристаллизации и таким образом оценить скорость формирования льда в переохлажденной воде.
+1	Благодаря	Благодаря	ADP	_	_	2	case	_	_
+2	спектроскопии	спектроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	отражения	отражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	поглощения	поглощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	отследить	отследивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	фронта	фронт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	кристаллизации	кристаллизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	15	cc	_	_
+13	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	14	amod	_	_
+14	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+15	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+16	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	переохлажденной	переохлажденный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+

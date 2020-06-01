@@ -1,0 +1,147 @@
+# sent_id = 38300
+# text = В Москве начнется эксперимент по использованию малых беспилотников для борьбы с пожарами.
+1	В	в	ADP	_	_	2	case	_	SpacesBefore=\n
+2	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	использованию	использование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+7	малых	малый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	пожарами	пожар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 38301
+# text = В рамках пилотного проекта для пожарной части 51 закупили два квадрокоптера DJI Phantom.
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+3	пилотного	пилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	пожарной	пожарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+8	51	51	NUM	_	_	7	nummod	_	_
+9	закупили	закупать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	два	два	NUM	_	Case=Nom|Gender=Masc	11	nummod:gov	_	_
+11	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	DJI	Dji	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Phantom	Phantom	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 38302
+# text = Об этом сообщает официальный портал правительства Москвы.Пожарные будут использовать дроны для оценки площади пожара и обнаружения очагов возгорания с воздуха.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	официальный	официальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Пожарные	пожарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	nsubj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+12	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	_
+13	для	для	ADP	_	_	12	case	_	_
+14	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	площади	площадь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	_
+19	очагов	очаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	возгорания	возгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 38303
+# text = Каждый беспилотник оборудован камерой, которая передает изображение в режиме реального времени.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	оборудован	оборудовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 38304
+# text = Официальные учения по тушению пожаров с помощью дронов запланированы на 16-18 февраля.Кроме тушения пожаров мультикоптеры используются в Москве и для других целей -- с помощью дронов отслеживают нарушителей земельного законодательства и находят незаконные свалки.Ранее представители Мосгордумы предлагали полностью запретить полеты гражданских беспилотников над городом, поскольку неконтролируемые полеты коптеров без заявленных маршрутов представляют собой опасность для города и его жителей.Николай Воронцов
+1	Официальные	официальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	учения	учение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj:pass	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	тушению	тушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+5	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	запланированы	планировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	на	на	ADP	_	_	14	case	_	_
+11	16	16	NUM	_	_	14	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	18	18	NUM	_	_	11	nummod	_	_
+14	февраля	февраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Кроме	кроме	ADP	_	_	17	case	_	_
+17	тушения	тушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+18	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	мультикоптеры	мультикоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+20	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	и	и	CCONJ	_	_	26	cc	_	_
+24	для	для	ADP	_	_	26	case	_	_
+25	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	conj	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	fixed	_	_
+30	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	_
+31	отслеживают	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+32	нарушителей	нарушитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
+33	земельного	земельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	законодательства	законодательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	находят	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+37	незаконные	незаконный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+38	свалки	свалка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	Ранее	рано	ADV	_	Degree=Cmp	43	advmod	_	_
+41	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	43	nsubj	_	_
+42	Мосгордумы	Мосгордума	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+44	полностью	полностью	ADV	_	Degree=Pos	45	advmod	_	_
+45	запретить	запрещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	43	xcomp	_	_
+46	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	45	obj	_	_
+47	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	48	amod	_	_
+48	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	_
+49	над	над	ADP	_	_	50	case	_	_
+50	городом	город	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	поскольку	поскольку	SCONJ	_	_	43	mark	_	_
+53	неконтролируемые	неконтролируемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	54	amod	_	_
+54	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	59	nsubj	_	_
+55	коптеров	коптер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	54	nmod	_	_
+56	без	без	ADP	_	_	58	case	_	_
+57	заявленных	заявлять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	58	amod	_	_
+58	маршрутов	маршрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	54	nmod	_	_
+59	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	advcl	_	_
+60	собой	себя	PRON	_	Case=Ins	59	dep	_	_
+61	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	59	obl	_	_
+62	для	для	ADP	_	_	61	case	_	_
+63	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
+64	и	и	CCONJ	_	_	66	cc	_	_
+65	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	66	nmod	_	_
+66	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	63	conj	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	66	punct	_	SpaceAfter=No
+68	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
+69	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	68	flat:name	_	SpaceAfter=No
+

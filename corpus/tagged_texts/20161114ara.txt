@@ -1,0 +1,595 @@
+# sent_id = 79242
+# text = Издание Phandroid опубликовало фотографии модульного смартфона Google, разрабатывавшегося в рамках проекта Ara.
+1	Издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	Phandroid	Phandroid	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	опубликовало	опубликовавать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разрабатывавшегося	разрабатываваться	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	7	amod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+12	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Ara	Ara	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79243
+# text = Журналисты издания утверждают, что они получили на обзор один из смартфонов (инженерный образец) и в настоящее время готовят полный его обзор.
+1	Журналисты	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	один	один	NUM	_	Case=Nom|Gender=Masc	12	nummod:gov	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	инженерный	инженерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	образец	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	21	cc	_	_
+18	в	в	ADP	_	_	21	advmod	_	_
+19	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	fixed	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	готовят	готоветь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+22	полный	полный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+23	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	24	nmod	_	_
+24	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79244
+# text = Когда именно он будет опубликован, пока неизвестно.Аппарат выполнен на относительно тонкой универсальной основе, в которой установлена материнская плата с портами расширения.
+1	Когда	когда	ADV	_	Degree=Pos	5	mark	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	пока	пока	SCONJ	_	_	5	mark	_	_
+8	неизвестно.	неизвестнотец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	SpaceAfter=No
+9	Аппарат	Аппарат	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+11	на	на	ADP	_	_	15	case	_	_
+12	относительно	относительно	ADV	_	Degree=Pos	13	advmod	_	_
+13	тонкой	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	универсальной	универсальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	которой	который	PRON	_	Case=Loc	19	obl	_	_
+19	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+20	материнская	материнский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	плата	плата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	портами	порт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	nmod	_	_
+24	расширения	расширение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79245
+# text = К этим портам можно подключать дополнительные модули.
+1	К	к	ADP	_	_	3	case	_	_
+2	этим	этот	DET	_	Case=Dat|Number=Plur	3	amod	_	_
+3	портам	порт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	подключать	подключать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	модули	модуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 79246
+# text = По данным Phandroid, с установленными модулями толщина смартфона примерно на 60 процентов больше толщины смартфона HTC Desire Eye.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	9	parataxis	_	_
+3	Phandroid	Phandroid	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	установленными	устанавливать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	модулями	модуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	_
+8	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+9	смартфона	мартфоть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	13	advmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	60	60	NUM	_	_	13	nummod	_	_
+13	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+14	больше	больше	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+15	толщины	толщина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+16	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	HTC	Htс	ADP	_	_	18	case	_	_
+18	Desire	Desire	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+19	Eye	eye	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79247
+# text = Толщина последнего составляет 8,5 миллиметров.По высоте и ширине, смартфон Ara соответствует Desire Eye -- 151,7 и 73,8 миллиметра соответственно.
+1	Толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	8,5	8,5	NUM	_	_	5	nummod	_	_
+5	миллиметров.	миллиметровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	По	по	ADP	_	_	7	case	_	_
+7	высоте	высота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	parataxis	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	ширине	ширина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+12	Ara	Ara	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	Desire	Desire	PROPN	_	Foreign=Yes	13	nsubj	_	_
+15	Eye	eye	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	151,7	151,7	NUM	_	_	20	nummod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	73,8	73,8	NUM	_	_	17	conj	_	_
+20	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+21	соответственно	соответственно	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79248
+# text = Подключаемые модули выполнены в корпусах из пластика "софт-тач" и оснащены магнитами, с помощью которых они должны надежно удерживаться на универсальной основе.
+1	Подключаемые	Подключать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	модули	модуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	выполнены	выполнять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	корпусах	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	пластика	пластик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	софт-тач	софт-тач	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	оснащены	оснащать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+13	магнитами	магнит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	которых	который	PRON	_	Case=Gen	19	nmod	_	_
+18	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
+19	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	acl:relcl	_	_
+20	надежно	надежно	ADV	_	Degree=Pos	21	advmod	_	_
+21	удерживаться	удерживаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	dep	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	универсальной	универсальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79249
+# text = При этом эти магниты при подключении точно позиционируют модуль, чтобы все контакты совпали.В целом смартфон Ara получил восьмиядерный процессор Qualcomm Snapdragon 810 схемы четыре плюс четыре (четыре ядра для обычных операций и четыре -- для операций, требующих большой производительности).
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	эти	этот	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	магниты	магнит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	подключении	подключение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+7	точно	точно	ADV	_	Degree=Pos	8	advmod	_	_
+8	позиционируют	позиционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+12	все	весь	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+13	контакты	контакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	совпали	совпать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+18	смартфон	смартфон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	Ara	Ara	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+21	восьмиядерный	восьмиядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	процессор	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+23	Qualcomm	Qualcomm	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Snapdragon	Snapdragon	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	810	810	NUM	_	_	26	nummod	_	_
+26	схемы	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+27	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	28	nummod:gov	_	_
+28	плюс	плюс	ADP	_	_	32	case	_	_
+29	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	32	nummod:gov	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	32	nummod:gov	_	_
+32	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+33	для	для	ADP	_	_	35	case	_	_
+34	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	четыре	четыре	NUM	_	Case=Nom	0	conj	_	_
+38	--	--	PUNCT	_	_	37	punct	_	_
+39	для	для	ADP	_	_	40	case	_	_
+40	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	требующих	требовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	44	amod	_	_
+43	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	производительности	производительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 79250
+# text = Объем оперативной памяти модульного смартфона, оказавшегося в распоряжении Phandroid, составляет 3 гигабайта, а встроенной флеш-памяти -- 32 гигабайта.Аппарт оснащен Full HD дисплеем диагональю 5,46 дюйма.
+1	Объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	оперативной	оперативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	оказавшегося	оказаваться	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	1	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	распоряжении	распоряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+10	Phandroid	Phandroid	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	3	3	NUM	_	_	14	nummod	_	_
+14	гигабайта	гигабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	встроенной	встраивать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	флеш-памяти	флеш-память	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	conj	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	32	32	NUM	_	_	21	nummod	_	_
+21	гигабайта.	гектигабайтар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+22	Аппарт	Аппарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+23	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	parataxis	_	_
+24	Full	Full	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+25	HD	Hd	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	дисплеем	дисплей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+27	диагональю	диагональ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+28	5,46	5,46	NUM	_	_	29	nummod	_	_
+29	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 79251
+# text = Разрешение камеры на фронтальной стороне смартфона составляет 5 мегапикселей.
+1	Разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	фронтальной	фронтальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	стороне	сторона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+6	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	5	5	NUM	_	_	9	nummod	_	_
+9	мегапикселей	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 79252
+# text = Она может делать снимки с соотношением сторон 4:3.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	соотношением	соотношение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+7	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	4	4	NUM	_	_	7	nummod	_	SpaceAfter=No
+9	:3	:3	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 79253
+# text = Камера на тыльной стороне делает снимки разрешением 2,1 мегапикселя с соотношением сторон 16:9.
+1	Камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	тыльной	тыльный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	стороне	сторона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+5	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+8	2,1	2,1	NUM	_	_	9	nummod	_	_
+9	мегапикселя	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	соотношением	соотношение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+12	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	16:9	16:9	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79254
+# text = Смартфон укомплектован аккумулятором емкостью 3340 миллиампер-часов, который можно заряжать через порт USB Type C.Смартфон Ara, массой 190 граммов, оснащен модулями связи Wi-Fi (стандарт не указан), Bluetooth 4.0LE и NFC.
+1	Смартфон	Смартфон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	укомплектован	укомплектовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	аккумулятором	аккумулятор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	_
+4	емкостью	емкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+5	3340	3340	NUM	_	_	6	nummod	_	_
+6	миллиампер-часов	миллиампер-час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Acc	9	obj	_	_
+9	можно	можно	ADV	_	Degree=Pos	6	acl:relcl	_	_
+10	заряжать	заряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	через	через	ADP	_	_	12	case	_	_
+12	порт	порт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	USB	Usb	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Type	Type	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	C.Смартфон	C.Смартфон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+16	Ara	Ara	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+19	190	190	NUM	_	_	20	nummod	_	_
+20	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+23	модулями	модуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	_
+24	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	Wi-Fi	Wi-Fi	X	_	Foreign=Yes	24	flat:foreign	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	стандарт	стандарт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	parataxis	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	указан	указывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	parataxis	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	Bluetooth	Bluetooth	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+33	4.0LE	4.0le	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	NFC	Nfc	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 79255
+# text = В числе сенсоров, которыми укомплектован инженерный образец смартфона -- GPS, барометр, датчик света, гироскоп, датчик приближения, акселерометр, магнитометр, датчик давления и датчик гравитации.
+1	В	в	ADP	_	_	2	case	_	_
+2	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которыми	который	PRON	_	Case=Ins	3	obl	_	_
+6	укомплектован	укомплектовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	инженерный	инженерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	образец	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+9	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	GPS	Gps	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	барометр	барометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+16	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	гироскоп	гироскоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+21	приближения	приближение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	акселерометр	акселерометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	магнитометр	магнитометр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+28	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+31	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 79256
+# text = На Ara установлена операционная система Android 7.0 с патчем безопасности от 5 августа 2016 года.Google объявила о прекращении разработки смартфона Ara в начале сентября текущего года.
+1	На	на	ADP	_	_	2	case	_	_
+2	Ara	Ara	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+3	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	операционная	операционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+6	Android	Android	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	7.0	7.0	NUM	_	_	6	nummod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	патчем	патч	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+10	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	5	5	NUM	_	_	3	nummod	_	_
+13	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	2016	2016	NUM	_	_	16	nummod	_	_
+15	года.Google	года.google	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	объявила	объявило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+17	о	о	ADP	_	_	18	case	_	_
+18	прекращении	прекращение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+19	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	Ara	Ara	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+24	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79257
+# text = Что стало поводом для отказа от проекта, пока неизвестно.
+1	Что	что	PRON	_	Case=Acc	2	nsubj	_	_
+2	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	отказа	отказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пока	пока	SCONJ	_	_	2	mark	_	_
+10	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79258
+# text = Любопытно, что ранее в компании утверждали, что версии Ara для разработчиков будут доступны для покупки с осени текущего года, а продажа пользовательских версий начнется в 2017 году.Между тем, в начале октября Google представила собственную линейку смартфонов Pixel.
+1	Любопытно	любопытный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	ранее	ранее	ADV	_	Degree=Pos	6	advmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	утверждали	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	версии	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+11	Ara	Ara	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	осени	осень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	27	cc	_	_
+24	продажа	продажа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	пользовательских	пользовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	_
+27	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	conj	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	2017	2017	NUM	_	_	30	nummod	_	_
+30	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	Между	между	ADP	_	_	32	case	_	_
+32	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	38	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	38	obl	_	_
+36	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+38	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	_	_
+39	собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	линейку	линейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+41	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	_
+42	Pixel	Pixel	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 79259
+# text = В компании утверждают, что эти аппараты были разработаны ей полностью самостоятельно.
+1	В	в	ADP	_	_	2	case	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	эти	этот	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	разработаны	разрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+10	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	9	obl	_	_
+11	полностью	полностью	ADV	_	Degree=Pos	12	advmod	_	_
+12	самостоятельно	самостоятельно	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79260
+# text = Выпускаются Pixel на мощностях компании HTC.
+1	Выпускаются	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	Pixel	Pixel	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	мощностях	мощностя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	obl	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	HTC	Htc	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 79261
+# text = В линейку включены два аппарата: Pixel и более крупный Pixel XL.Pixel оснащен пятидюймовым Full HD AMOLED-экраном.
+1	В	в	ADP	_	_	2	case	_	_
+2	линейку	линейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+3	включены	включать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	два	два	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	Pixel	Pixel	PROPN	_	Foreign=Yes	5	parataxis	_	_
+8	и	и	CCONJ	_	_	11	cc	_	_
+9	более	более	ADV	_	Degree=Cmp	10	advmod	_	_
+10	крупный	крупный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Pixel	Pixel	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+12	XL.Pixel	XL.Pixel	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+14	пятидюймовым	пятидюймовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	Full	Full	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	HD	Hd	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	AMOLED	AMOLEd	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	экраном	экран	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79262
+# text = Диагональ экрана Pixel XL составляет 5,5 дюйма, а разрешение -- 2560 на 1440 пикселей.
+1	Диагональ	Диагональ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Pixel	Pixel	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	XL	Xl	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	5,5	5,5	NUM	_	_	7	nummod	_	_
+7	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	10	orphan	_	_
+10	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	orphan	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	2560	2560	NUM	_	_	15	nummod	_	_
+13	на	на	ADP	_	_	12	case	_	_
+14	1440	1440	NUM	_	_	15	nummod	_	_
+15	пикселей	пиксель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	orphan	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79263
+# text = Смартфоны выполнены на базе процессоров Snapdragon 821 SoC, имеют 4 гигабайта оперативной и 32 гигабайта флеш-памяти.
+1	Смартфоны	Смартфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	выполнены	выполнять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	процессоров	процессор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	Snapdragon	Snapdragon	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	821	821	NUM	_	_	6	nummod	_	_
+8	SoC	Soс	ADP	_	_	10	case	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	4	4	NUM	_	_	12	nummod	_	_
+12	гигабайта	гигабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	оперативной	оперативный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	obl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	32	32	NUM	_	_	13	conj	_	_
+16	гигабайта	гигабайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	флеш-	флеш-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 79264
+# text = Для питания стандартного Pixel используется батарея на 2770 миллиампер-часов, а версия XL использует аккумулятор на 3450 миллиампер-часов.Телефоны оснащены двумя стандартными камерами: основной с разрешением 12,3 мегапикселя и фронтальной с разрешением 8 мегапикселей.
+1	Для	для	ADP	_	_	2	case	_	_
+2	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	стандартного	стандартной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	Pixel	Pixel	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	используется	используть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	батарея	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	2770	2770	NUM	_	_	9	nummod	_	_
+9	миллиампер-часов	миллиампер-час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	14	cc	_	_
+12	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	XL	Xl	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+15	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	3450	3450	NUM	_	_	18	nummod	_	_
+18	миллиампер-часов.	миллиампер-часовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	Телефоны	телефона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	оснащены	оснаскать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+21	двумя	два	NUM	_	Case=Ins	23	nummod	_	_
+22	стандартными	стандартной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	камерами	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	parataxis	_	_
+26	с	с	ADP	_	_	27	case	_	_
+27	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	nmod	_	_
+28	12,3	12,3	NUM	_	_	29	nummod	_	_
+29	мегапикселя	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	фронтальной	фронтальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	nmod	_	_
+34	8	8	NUM	_	_	35	nummod	_	_
+35	мегапикселей	мегапиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 79265
+# text = Основная камера имеет встроенный стабилизатор и может снимать видео с разрешением 4K.Василий Сычёв
+1	Основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	встроенный	встраивать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	стабилизатор	стабилизатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+12	4K.	4k.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+

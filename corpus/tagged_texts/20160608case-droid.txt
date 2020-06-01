@@ -1,0 +1,97 @@
+# sent_id = 57140
+# text = Программист НикЛи (Nick Lee) издизайн-студии Tendigi создал чехол для iPhone, который позволяет использовать смартфон Apple для управления операционной системой Android.
+1	Программист	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpacesBefore=\n
+2	НикЛи	Никли	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Nick	Nick	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+5	Lee	Lee	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	издизайн	издизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+8	-студии	-студия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	Tendigi	Tendigi	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	чехол	чехол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	iPhone	iPhone	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+17	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	Apple	эппл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+22	операционной	операционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	nmod	_	_
+24	Android	Android	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 57141
+# text = Кратко опроекте можно прочитать насайте студии.
+1	Кратко	кратко	ADV	_	Degree=Pos	2	advmod	_	_
+2	опроекте	опроект	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	_
+6	студии	студия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 57142
+# text = Для стороннего наблюдателя система действительно выглядит запущенной наiPhone, нофактически операционная система запущена наодноплатном компьютере Lemaker HiKey, который спрятан вчехле, асам iPhone используется вкачестве подключаемого экрана.
+1	Для	для	ADP	_	_	3	case	_	_
+2	стороннего	сторонний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	наблюдателя	наблюдатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	система	систем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	действительно	действительно	ADV	_	Degree=Pos	6	advmod	_	_
+6	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	запущенной	запущенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	наiPhone	наiPhone	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нофактически	нофактически	ADV	_	Degree=Pos	13	advmod	_	_
+11	операционная	операционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+13	запущена	запущать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+14	наодноплатном	наодноплатный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	Lemaker	Lemaker	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	HiKey	HiKey	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj:pass	_	_
+20	спрятан	спрятывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+21	вчехле	вчехл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	асам	ас	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	conj	_	_
+24	iPhone	iPhone	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	используется	используть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+26	вкачестве	вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+27	подключаемого	подключать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 57143
+# text = Программная часть проекта представляет собой приложение, которое передает наAndroid-устройство информацию онажатиях натачскрин, аобратно наiPhone изображение транслируется при помощи непрерывного потока скриншотов.
+1	Программная	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собой	себя	PRON	_	Case=Ins	4	obl	_	_
+6	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которое	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	наAndroid-устройство	наAndroid-устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+11	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	онажатиях	онажатие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	nmod	_	_
+13	натачскрин	натачскрина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	аобратно	аобратно	ADV	_	Degree=Pos	18	advmod	_	_
+16	наiPhone	наiphone	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	транслируется	транслируться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+19	при	при	ADP	_	_	22	case	_	_
+20	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	fixed	_	_
+21	непрерывного	непрерывной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+23	скриншотов	скриншот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+

@@ -1,0 +1,291 @@
+# sent_id = 75018
+# text = Американский космический беспилотник X-37B провел на орбите Земли уже более 500 дней, сообщает Defence Talk.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n
+2	космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	X	x	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	37B	37b	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	уже	уже	ADV	_	Degree=Pos	12	advmod	_	_
+12	более	более	ADV	_	Degree=Cmp	14	nummod:gov	_	_
+13	500	500	NUM	_	_	14	nummod	_	_
+14	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+17	Defence	Defence	PROPN	_	Foreign=Yes	16	nsubj	_	_
+18	Talk	Talk	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75019
+# text = Аппарат был запущен 20 мая 2015 года и уже провел на орбите 513 дней.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	запущен	запускать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	20	20	NUM	_	_	3	nummod	_	_
+5	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	2015	2015	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+13	513	513	NUM	_	_	14	nummod	_	_
+14	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75020
+# text = Когда именно беспилотник планируется вернуть на Землю, военные пока не решили.
+1	Когда	когда	ADV	_	Degree=Pos	12	mark	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	_
+5	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+10	пока	пока	ADV	_	Degree=Pos	12	advmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 75021
+# text = В ВВС США утверждают, что аппарат прошел еще не все испытания.
+1	В	в	ADP	_	_	2	case	_	_
+2	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	прошел	проходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	все	весь	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	испытания.	испытания.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+
+# sent_id = 75022
+# text = Стоимость запуска таких аппаратов сегодня довольно высока.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	таких	такой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	аппаратов	аппараты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	сегодня	сегодня	ADV	_	Degree=Pos	7	advmod	_	_
+6	довольно	довольно	ADV	_	Degree=Pos	7	advmod	_	_
+7	высока	высокий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 75023
+# text = Военные полагают, что многоразовые космические беспилотники типа X-37B позволят дешево отправлять спутники в космос.Какие именно задачи выполняет X-37B на орбите в настоящее время, не известно.
+1	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	многоразовые	многоразовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	космические	космический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+8	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	X	x	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	37B	37b	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+13	дешево	дешево	ADV	_	Degree=Pos	14	advmod	_	_
+14	отправлять	отправлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	спутники	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	космос.Какие	космос.Какой	DET	_	Case=Acc|Number=Plur	19	amod	_	_
+18	именно	именно	PART	_	_	19	advmod	_	_
+19	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
+20	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	nsubj	_	_
+21	X	x	PROPN	_	Foreign=Yes	20	nsubj	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	37B	37b	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+26	в	в	ADP	_	_	31	advmod	_	_
+27	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	fixed	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	fixed	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 75024
+# text = Ранее сообщалось, что Исследовательская лаборатория ВВС США совместно с Центром ракетных и космических систем установят на беспилотник ионный двигатель Холла для испытаний.
+1	Ранее	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	сообщалось	сообщаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	Исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+7	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	_
+9	совместно	совместно	ADV	_	Degree=Pos	16	advmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	Центром	центр	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+12	ракетных	ракетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	conj	_	_
+15	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+16	установят	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+19	ионный	ионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+21	Холла	холл	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	для	для	ADP	_	_	21	case	_	_
+23	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75025
+# text = Данные, полученные во время испытаний, будут использоваться при модернизации таких силовых установок.X-37B имеет в длину 8,8 метра и размах крыла 4,5 метра.
+1	Данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	во	во	ADP	_	_	6	case	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+12	таких	такой	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+13	силовых	силовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	установок	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	X	x	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	-37B	-37b	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	8,8	8,8	NUM	_	_	22	nummod	_	_
+22	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nsubj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	conj	_	_
+25	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpacesAfter=\s\s
+26	4,5	4,5	NUM	_	_	27	nummod	_	_
+27	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 75026
+# text = Взлетная масса беспилотника, который способен после возвращения с орбиты совершать посадку в самолетном режиме, составляет около пяти тонн.
+1	Взлетная	Взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+3	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	который	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	acl:relcl	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	возвращения	возвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+12	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	самолетном	самолетный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	около	около	ADP	_	_	20	case	_	_
+19	пяти	пять	NUM	_	Case=Gen	20	nummod	_	_
+20	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75027
+# text = По неподтвержденным данным, в перспективе такие беспилотники будут использоваться для разведки, доставки на орбиту новых спутников и снятия с нее старых.Не считая текущего полета беспилотники X-37B запускались на орбиту три раза.
+1	По	по	ADP	_	_	3	case	_	_
+2	неподтвержденным	неподтвержденный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	10	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+7	такие	такой	DET	_	Case=Nom|Number=Plur	8	amod	_	_
+8	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	снятия	снятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	20	nmod	_	_
+23	старых	старый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Не	не	PART	_	_	26	advmod	_	_
+26	считая	считать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+27	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+29	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+30	X	x	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	-	-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	37B	37b	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+33	запускались	запускаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
+36	три	три	NUM	_	Animacy=Inan|Case=Acc	37	nummod:gov	_	_
+37	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 75028
+# text = В общей сложности они провели в космосе 1367 дней, а с учетом времени, проведенного на орбите новым аппаратом -- 1880 дней.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+8	1367	1367	NUM	_	_	9	nummod	_	_
+9	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	учетом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	_
+14	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	проведенного	проводить	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	орбите	орбита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	новым	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl:agent	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	1880	1880	NUM	_	_	23	nummod	_	_
+23	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75029
+# text = Самый долгий полет составляет 674 дня; он продолжался с 12 декабря 2012 года по 17 октября 2014-го.Василий Сычёв
+1	Самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	долгий	долгий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	674	674	NUM	_	_	6	nummod	_	_
+6	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	6	punct	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	продолжался	продолжаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	12	12	NUM	_	_	9	nummod	_	_
+12	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	2012	2012	NUM	_	_	14	nummod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	по	по	ADP	_	_	17	case	_	_
+16	17	17	NUM	_	_	17	nummod	_	_
+17	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+18	2014-го	2014-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

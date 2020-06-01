@@ -1,0 +1,633 @@
+# sent_id = 74361
+# text = Российский Фонд перспективных исследований представил нового антропоморфоного робота, которого в перспективе планируется использовать на пилотируемых космических кораблях в качестве помощника космонавтов.
+1	Российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	Фонд	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	представил	представлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	нового	новый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	антропоморфоного	антропоморфоный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+13	планируется	планирувать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	_
+14	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj:pass	_	_
+15	на	на	ADP	_	_	18	case	_	_
+16	пилотируемых	пилотировать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	космических	космический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	кораблях	корабли	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	помощника	помощник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+22	космонавтов	космонавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74362
+# text = Аппарат назвали Федором (от английской аббревиатуры FEDOR --Final Experimental Demonstration Object Research, финальный экспериментальный демонстрационный объект исследований).В 2014 году правительство России представило план возобновления советской программы исследования Луны, прерванной в 1976 году.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Федором	Федор	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	от	от	ADP	_	_	7	case	_	_
+6	английской	английский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	аббревиатуры	аббревиатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	parataxis	_	_
+8	FEDOR	Fedor	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	--Final	--Final	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Experimental	Experimental	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Demonstration	Demonstration	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Object	Object	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Research	Research	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	финальный	финальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	экспериментальный	экспериментальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	демонстрационный	демонстрационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+19	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	В	в	ADP	_	_	24	case	_	_
+23	2014	2014	NUM	_	_	24	nummod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+25	правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+26	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	представило	представлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+28	план	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+30	советской	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	прерванной	прерывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	1976	1976	NUM	_	_	38	nummod	_	_
+38	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 74363
+# text = Российская лунная программа предполагает запуск в 2019-2024 году пяти автоматический станций, которые будут заниматься исследованиями спутника Земли.
+1	Российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	лунная	лунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	в	в	ADP	_	_	9	case	_	_
+7	2019	2019	NUM	_	_	9	nummod	_	SpaceAfter=No
+8	-2024	-2024	NUM	_	_	7	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+10	пяти	пять	NUM	_	Case=Dat	12	nummod	_	_
+11	автоматический	автоматический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	станций	станций	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+15	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	acl:relcl	_	_
+17	исследованиями	исследования	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	16	obl	_	_
+18	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74364
+# text = Эти аппараты планируется запускать с космодрома "Восточный".Лунная программа также предусматривает возможность колонизации Луны с возможным созданием первой постоянной базы на Луне в 2030 году.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	космодрома	космодром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Восточный	восточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	Лунная	лунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	предусматривает	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	колонизации	колонизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+21	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	постоянной	постоянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	базы	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	Луне	Лунь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	2030	2030	NUM	_	_	28	nummod	_	_
+28	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74365
+# text = Благодаря поселению колонистов на Луне власти рассчитывают провести разведку спутника Земли и подобрать участки, наиболее выгодные с точки зрения добычи лунного грунта и геологической разведки.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	поселению	поселение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	колонистов	колонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Луне	Лун	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+7	рассчитывают	рассчитываять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	разведку	разведка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	спутника	спутник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	подобрать	подбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+14	участки	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	наиболее	наиболее	ADV	_	Degree=Pos	17	advmod	_	_
+17	выгодные	выгодный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	amod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	fixed	_	_
+21	добычи	добыча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	лунного	лунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	грунта	грунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	геологической	геологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 74366
+# text = Основывать базу и вести разведку людям будут помогать роботы.Технические подробности о новом роботе Федоре не раскрываются.
+1	Основывать	Основывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+2	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	_
+5	разведку	разведка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	помогать	помогать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+9	роботы	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	appos	_	_
+13	о	о	ADP	_	_	15	case	_	_
+14	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	роботе	робот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	Федоре	Федора	PROPN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74367
+# text = Аппарат выполнен антропоморфным.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	антропоморфным	антропоморфной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 74368
+# text = Судя по видеозаписи, внутренние алгоритмы робота пока еще отработаны не полностью.
+1	Судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	внутренние	внутренний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	алгоритмы	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	пока	пока	ADV	_	Degree=Pos	10	advmod	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	отработаны	отрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	полностью	полностью	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74369
+# text = Об этом свидетельствуют существенные задержки перед началом выполнения задания, а также общая невысокая скорость движений аппарата.Из представленной Фондом перспективных исследований видеозаписи сделать однозначные выводы о функциональных возможностях робота сложно.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	свидетельствуют	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	существенные	существенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	задержки	задержка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	перед	перед	ADP	_	_	7	case	_	_
+7	началом	начало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+8	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	задания	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	15	cc	_	_
+12	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+13	общая	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	невысокая	невысокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+16	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+17	аппарата.	аппарата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl:agent	_	SpaceAfter=No
+18	Из	из	ADP	_	_	22	case	_	_
+19	представленной	представлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+20	Фондом	фонд	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl:agent	_	_
+21	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+23	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	dep	_	_
+25	однозначные	однозначный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	выводы	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
+27	о	о	ADP	_	_	29	case	_	_
+28	функциональных	функциональный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	возможностях	возможность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	obl	_	_
+30	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 74370
+# text = Дело в том, что видеозапись демонстрирует, как робот начинает выполнять определенные задания, но не показывает, с каким результатом он их завершает.Например, видеозапись показывает, что робот может управлять внедорожником УАЗ.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	видеозапись	видеозапись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	демонстрирует	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	7	mark	_	_
+10	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+12	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	определенные	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	задания	задание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	но	но	CCONJ	_	_	18	cc	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	22	amod	_	_
+22	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+24	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	obl	_	_
+25	завершает	завершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Например	например	ADV	_	Degree=Pos	30	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	видеозапись	видеозапись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+30	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	что	что	SCONJ	_	_	30	mark	_	_
+33	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+34	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	advcl	_	_
+35	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	xcomp	_	_
+36	внедорожником	внедорожник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	_
+37	УАЗ.	уаз.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	SpaceAfter=No
+
+# sent_id = 74371
+# text = Этот видеоряд обрывается на моменте, когда автомобиль под управлением робота входит в резкий поворот.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	видеоряд	видеоряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	обрывается	обрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	моменте	момент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	когда	когда	SCONJ	_	_	3	mark	_	_
+8	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	под	под	ADP	_	_	10	case	_	_
+10	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+11	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	резкий	резкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	поворот	поворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74372
+# text = Для успешного поворота необходимо повернуть руль несколько раз с перекладыванием рук.
+1	Для	для	ADP	_	_	3	case	_	_
+2	успешного	успешный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	повернуть	поворачивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	руль	руль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	перекладыванием	перекладывание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	_
+11	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 74373
+# text = Однако на видео не показан ни сам процесс поворота автомобиля, ни процесс поворачивания руля роботом.На другом отрезке видеозаписи Федор при помощи дрели сверлит отверстие в пенобетонном блоке, однако угол установки сверла почему-то явно отличается от прямого.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	показан	показывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	ни	ни	PART	_	_	7	advmod	_	_
+7	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+9	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ни	ни	CCONJ	_	_	13	cc	_	_
+13	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+14	поворачивания	поворачивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	руля	руль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	роботом.	роботомя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	На	на	ADP	_	_	19	case	_	_
+18	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	отрезке	отрезк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+20	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	Федор	Федор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+22	при	при	ADP	_	_	24	case	_	_
+23	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	fixed	_	_
+24	дрели	дрель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+25	сверлит	сверлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+26	отверстие	отверстие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	пенобетонном	пенобетонный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	блоке	блок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	однако	однако	ADV	_	Degree=Pos	34	advmod	_	_
+32	угол	угол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+33	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	сверла	верть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+35	почему-то	почему-то	ADV	_	Degree=Pos	37	advmod	_	_
+36	явно	явно	ADV	_	Degree=Pos	37	advmod	_	_
+37	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	34	parataxis	_	_
+38	от	от	ADP	_	_	39	case	_	_
+39	прямого	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 74374
+# text = При этом следует отметить, что в момент, когда сверло проходит сквозь плотный материал и проваливается в полость в пеноблоке, автоматика робота срабатывает довольно быстро: аппарат успешно останавливает дрель и не теряет равновесие.Для сравнения, при выполнении аналогичных заданий на "олимпиаде роботов" DARPA Robotics Challenge в прошлом году роботы, созданные американскими компаниями, нередкотеряли равновесиеи падали.Российский робот Федор способен действовать как автономно, так и под управлением оператора.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	когда	когда	SCONJ	_	_	8	mark	_	_
+11	сверло	сверло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	сквозь	сквозь	ADP	_	_	15	case	_	_
+14	плотный	плотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	проваливается	проваливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	полость	полость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	пеноблоке	пеноблока	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	автоматика	автоматика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+24	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	срабатывает	срабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+26	довольно	довольно	ADV	_	Degree=Pos	27	advmod	_	_
+27	быстро	быстро	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	27	punct	_	_
+29	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+30	успешно	успешно	ADV	_	Degree=Pos	31	advmod	_	_
+31	останавливает	останавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	дрель	дрель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	и	и	CCONJ	_	_	35	cc	_	_
+34	не	не	PART	_	_	35	advmod	_	_
+35	теряет	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	conj	_	_
+36	равновесие.	равновесибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+37	Для	для	ADP	_	_	38	case	_	_
+38	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	при	при	ADP	_	_	41	case	_	_
+41	выполнении	выполнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	61	obl	_	_
+42	аналогичных	аналогичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	заданий	задание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	41	nmod	_	_
+44	на	на	ADP	_	_	46	case	_	_
+45	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	олимпиаде	олимпиада	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	41	nmod	_	_
+47	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+48	"	"	PUNCT	_	_	49	punct	_	_
+49	DARPA	Darpa	PROPN	_	Foreign=Yes	47	appos	_	_
+50	Robotics	robotics	PROPN	_	Foreign=Yes	49	flat:foreign	_	_
+51	Challenge	Challenge	PROPN	_	Foreign=Yes	50	flat:foreign	_	_
+52	в	в	ADP	_	_	54	case	_	_
+53	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+54	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	61	obl	_	_
+55	роботы	робота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	созданные	создавать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	55	amod	_	_
+58	американскими	американской	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	59	amod	_	_
+59	компаниями	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	57	obl	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	59	punct	_	_
+61	нередкотеряли	нередкотерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+62	равновесиеи	равновесией	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	61	obj	_	_
+63	падали.	падали.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	61	obl	_	SpaceAfter=No
+64	Российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	65	amod	_	_
+65	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	61	nsubj	_	_
+66	Федор	Федор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	65	appos	_	_
+67	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+68	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	67	dep	_	_
+69	как	как	SCONJ	_	_	70	cc	_	_
+70	автономно	автономно	ADV	_	Degree=Pos	68	advmod	_	SpaceAfter=No
+71	,	,	PUNCT	_	_	70	punct	_	_
+72	так	так	ADV	_	Degree=Pos	75	advmod	_	_
+73	и	и	PART	_	_	75	advmod	_	_
+74	под	под	ADP	_	_	75	case	_	_
+75	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	68	obl	_	_
+76	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	75	nmod	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	76	punct	_	SpaceAfter=No
+
+# sent_id = 74375
+# text = Обучение робота движениям происходит и через компьютерную трехмерную модель, на которой для каждого его подвижного узла задается траектория движения, так и через повторение движений человека-оператора.В записи вице-премьера России Дмитрия Рогозина на его странице в Facebook утверждается, что нового робота Федора приспособят для участия в полете перспективного пилотируемого космического корабля.
+1	Обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	движениям	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	_
+4	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	и	и	PART	_	_	9	advmod	_	_
+6	через	через	ADP	_	_	9	case	_	_
+7	компьютерную	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	трехмерную	трехмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Loc	18	obl	_	_
+13	для	для	ADP	_	_	17	case	_	_
+14	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+16	подвижного	подвижной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	узла	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+18	задается	задаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+19	траектория	траектория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+20	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	так	так	ADV	_	Degree=Pos	25	advmod	_	_
+23	и	и	PART	_	_	25	advmod	_	_
+24	через	через	ADP	_	_	25	case	_	_
+25	повторение	повторение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+26	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+27	человека-	человека-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	оператора.	оператора.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl:agent	_	SpaceAfter=No
+29	В	в	ADP	_	_	30	case	_	_
+30	записи	запись	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+31	вице-премьера	вице-премьер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	Дмитрия	дмитрий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	appos	_	_
+34	Рогозина	рогозин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	flat:name	_	_
+35	на	на	ADP	_	_	37	case	_	_
+36	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	37	nmod	_	_
+37	странице	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	Facebook	Facebook	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+40	утверждается	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	что	что	SCONJ	_	_	40	mark	_	_
+43	нового	новый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	46	obj	_	_
+45	Федора	Федор	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	44	appos	_	_
+46	приспособят	приспособить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl	_	_
+47	для	для	ADP	_	_	48	case	_	_
+48	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	obl	_	_
+49	в	в	ADP	_	_	50	case	_	_
+50	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	48	nmod	_	_
+51	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+52	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	54	amod	_	_
+53	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+54	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+
+# sent_id = 74376
+# text = Адаптацией займутся специалисты ракетно-космической корпорации "Энергия" и новое конструкторское бюро.
+1	Адаптацией	адаптация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+2	займутся	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	ракетно-космической	ракетно-космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	корпорации	корпорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Энергия	энергия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	конструкторское	конструкторский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	бюро	бюро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74377
+# text = Летные испытания робота Федора на корабле планируется начать в 2021 году.В ноябре 2013 года в Центре подготовки космонавтов имени Гагарина был представлен другой российский антропоморфный робот SAR-401.
+1	Летные	летной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	_
+3	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Федора	Федор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	корабле	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	2021	2021	NUM	_	_	11	nummod	_	_
+11	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	В	в	ADP	_	_	14	case	_	_
+14	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+15	2013	2013	NUM	_	_	16	nummod	_	_
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Центре	центр	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+19	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	космонавтов	космонавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	Гагарина	Гагарин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+25	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+26	российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+27	антропоморфный	антропоморфный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+29	SAR	Sar	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	401	401	NUM	_	_	29	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 74378
+# text = Его разрабатывали для отправки на Международную космическую станцию.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	разрабатывали	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	отправки	отправка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	на	на	ADP	_	_	8	case	_	_
+6	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 74379
+# text = Этот аппарат имеет только верхнюю половину тела с "головой" и парой "рук"-манипуляторов.Для управления этим роботом оператор использует специальный костюм -- в нем движения человека, его рук и даже пальцев передаются машине.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	только	только	PART	_	_	5	advmod	_	_
+5	верхнюю	верхний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	головой	голова	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	парой	пара	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-манипуляторов.	-манипуляторовадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	Для	для	ADP	_	_	19	case	_	_
+19	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+20	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	21	amod	_	_
+21	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+22	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	специальный	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	костюм	костюм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	--	--	PUNCT	_	_	25	punct	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+29	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	obj	_	_
+30	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	33	nmod	_	_
+33	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	conj	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	даже	даже	PART	_	_	36	advmod	_	_
+36	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	conj	_	_
+37	передаются	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+38	машине	машина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 74380
+# text = Информацию о том, что происходит перед роботом, оператор получает с видеокамер, установленных в голове аппарата.
+1	Информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	PRON	_	Case=Nom	6	nsubj	_	_
+6	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+7	перед	перед	ADP	_	_	8	case	_	_
+8	роботом	робот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	видеокамер	видеокамера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	установленных	устанавливать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	голове	голова	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74381
+# text = Масса робота составляет 144 килограмма, а поднимать робот способен до 10 килограммов.Василий Сычёв
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	144	144	NUM	_	_	5	nummod	_	_
+5	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	10	cc	_	_
+8	поднимать	поднимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+9	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	10	10	NUM	_	_	13	nummod	_	_
+13	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+14	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+15	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+

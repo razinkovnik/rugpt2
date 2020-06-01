@@ -1,0 +1,366 @@
+# sent_id = 82799
+# text = 22страны, входящие вЕвропейское космическое агентство (ESA), согласились выделить накосмическую программу дополнительные средства вразмере более 1,4 миллиарда евро, сообщает AFP.
+1	22страны	22страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpacesBefore=\n|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	входящие	входить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+4	вЕвропейское	вЕвропейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	ESA	Esa	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+11	согласились	соглашаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	выделить	выделять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	накосмическую	накосмический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	средства	средства	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+17	вразмере	вразмера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	SpacesAfter=\n
+18	более	более	ADV	_	Degree=Cmp	21	nummod:gov	_	_
+19	1,4	1,4	NUM	_	_	20	nummod	_	_
+20	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nummod:gov	_	_
+21	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpacesAfter=\n
+24	AFP	Afp	PROPN	_	Foreign=Yes	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 82800
+# text = Это позволит продолжить работу над проектом марсохода врамках программы ExoMars исохранить участие вмиссиях Международной космической станции (МКС).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	над	над	ADP	_	_	6	case	_	_
+6	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	марсохода	марсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	врамках	врамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+9	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	ExoMars	ExoMars	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	исохранить	исохранять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	dep	_	SpacesAfter=\n
+12	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	вмиссиях	вмиссие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	nmod	_	_
+14	Международной	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	appos	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 82801
+# text = Проект марсохода уже сталкивался сфинансовыми затруднениями, из-за чего его запуск перенесли с2018на 2020год.
+1	Проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	марсохода	марсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	сталкивался	сталкиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	сфинансовыми	сфинансовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	затруднениями	затруднение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	из-за	из-за	ADP	_	_	9	case	_	_
+9	чего	что	PRON	_	Case=Gen	12	obl	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+12	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	с2018на	с2018ный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	conj	_	_
+14	2020год	2020год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 82802
+# text = ESA также подтверждало свое участие вработе МКС лишь до2020года, хотя остальные участники согласились продолжить ееэксплуатацию как минимум до2024года.
+1	ESA	Esa	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	SpacesAfter=\n
+3	подтверждало	подтверждать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	вработе	вработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	лишь	лишь	PART	_	_	9	advmod	_	_
+9	до2020года	до2020год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	хотя	хотя	SCONJ	_	_	9	mark	_	_
+12	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpacesAfter=\n
+14	согласились	соглашаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+15	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	ееэксплуатацию	ееэксплуатация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	как	как	SCONJ	_	_	19	cc	_	_
+18	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	fixed	_	_
+19	до2024года	до2024год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 82803
+# text = Для продолжения работ над программой ExoMars ESA понадобилось расширение бюджета примерно на400 миллионов евро.
+1	Для	для	ADP	_	_	2	case	_	_
+2	продолжения	продолжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	над	над	ADP	_	_	5	case	_	_
+5	программой	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+6	ExoMars	ExoMars	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	ESA	Esa	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	понадобилось	понадобиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+9	расширение	расширение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	бюджета	бюджет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	_
+12	на400	на400	NUM	_	_	13	nummod	_	_
+13	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+14	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 82804
+# text = Еще около миллиарда евро необходимо для обеспечения миссий МКС.
+1	Еще	еще	ADV	_	Degree=Pos	3	advmod	_	_
+2	около	около	ADP	_	_	3	case	_	_
+3	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+4	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter=\n
+5	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	миссий	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 82805
+# text = "Все [затраты] составляют около 1,444 миллиарда",-- заявил генеральный директор ESA ЯнВёрнер (Jan Woerner) напресс-конференции, завершившей двухдневный слет министерского совета агентства вшвейцарском Люцерне.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Все	весь	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+3	[	[	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	затраты	затрата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+5	]	]	PUNCT	_	_	4	punct	_	_
+6	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	1,444	1,444	NUM	_	_	9	nummod	_	SpacesAfter=\n
+9	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,--	,--	PUNCT	_	_	9	punct	_	_
+12	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+13	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+15	ESA	Esa	PROPN	_	Foreign=Yes	14	appos	_	_
+16	ЯнВёрнер	ЯнВёрнер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Jan	Jan	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	Woerner	Woerner	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	напресс-конференции	напресс-конференция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	завершившей	завершивать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	amod	_	_
+24	двухдневный	двухдневной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	слет	слет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	министерского	министерский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	совета	совет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	вшвейцарском	вшвейцарский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	SpacesAfter=\n
+30	Люцерне	Люцерн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 82806
+# text = Совет одобрил выделение средств спустя полтора месяца после крушения зонда "Скиапарелли", запущенного врамках ExoMars для испытания технологий посадки будущего марсохода.
+1	Совет	совет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	одобрил	одобрять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выделение	выделение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	спустя	спустя	ADP	_	_	7	case	_	_
+6	полтора	полтора	NUM	_	Case=Acc|Gender=Masc	7	nummod:gov	_	_
+7	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	после	после	ADP	_	_	9	case	_	_
+9	крушения	крушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpacesAfter=\n
+10	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	запущенного	пущеть	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	врамках	врамк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+17	ExoMars	ExoMars	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+20	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpacesAfter=\n
+21	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	марсохода	марсоход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 82807
+# text = Тем неменее, миссия признана частично успешной, поскольку доставленный сзондом спутник Trace Gas Orbiter внастоящее время выполняет запланированные маневры ив2017 году должен приступить кработе.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	признана	признавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	частично	частично	ADV	_	Degree=Pos	7	advmod	_	_
+7	успешной	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	поскольку	поскольку	SCONJ	_	_	5	mark	_	_
+10	доставленный	доставлать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	сзондом	сзонд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	_
+12	спутник	спутник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+13	Trace	Trace	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Gas	Gas	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Orbiter	Orbiter	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	внастоящее	внастоить	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpacesAfter=\n
+18	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+19	запланированные	запланировывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	маневры	маневер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+21	ив2017	ив2017	NUM	_	_	22	nummod	_	_
+22	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	conj	_	_
+24	приступить	поприступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	dep	_	_
+25	кработе	кработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 82808
+# text = Кроме того, данные, переданные "Скиапарелли" при спуске (около 600мегабайт), будут использованы при разработке посадочного модуля смарсоходом.
+1	Кроме	кроме	ADP	_	_	2	case	_	SpacesAfter=\n
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	18	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	переданные	передывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	спуске	спуск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	около	около	ADP	_	_	14	case	_	_
+14	600мегабайт	600мегабайт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	_	SpacesAfter=\n
+18	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+21	посадочного	посадочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	смарсоходом	смарсоход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 82809
+# text = Основной целью совместной с"Роскосмосом" программы ExoMars является поиск следов жизни наМарсе.
+1	Основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+3	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	с"	с"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	Роскосмосом	Роскосмос	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	ExoMars	ExoMars	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpacesAfter=\n
+9	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	поиск	поиск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	следов	след	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	наМарсе	наМарсе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 82810
+# text = ESA уже вложило внее 1,5 миллиарда евро.
+1	ESA	Esa	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	вложило	вкладывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	внее	вно	ADV	_	Degree=Cmp	6	advmod	_	_
+5	1,5	1,5	NUM	_	_	6	nummod	_	_
+6	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nummod:gov	_	_
+7	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 82811
+# text = Впрограмме МКС ESA участвует смомента ееначала в1998 году.
+1	Впрограмме	Впрограмма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+2	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	ESA	Esa	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	смомента	смомент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	ееначала	ееначать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+7	в1998	в1998	NUM	_	_	8	nummod	_	SpacesAfter=\n
+8	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 82812
+# text = Заэто время агентство потратило нанее восемь миллиардов евро.
+1	Заэто	Заэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	obl	_	_
+3	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	потратило	тратить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	нанее	нано	ADV	_	Degree=Cmp	6	advmod	_	_
+6	восемь	восемь	NUM	_	Case=Nom	7	nummod:gov	_	_
+7	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 82813
+# text = Его силами настанции появился лабораторный модуль Columbus.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	SpacesAfter=\n
+2	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+3	настанции	настанция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	лабораторный	лабораторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	Columbus	Columbus	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 82814
+# text = Кроме того, ESA разработало ипостроило пять автоматических грузовых кораблей (ATV) для обслуживания МКС и неоднократно предоставляло для программы свои ракеты-носители семейства Arian, запускаемые с космодрома Куру воФранцузской Гвиане.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ESA	Esa	PROPN	_	Foreign=Yes	5	nsubj	_	_
+5	разработало	разрабатывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	ипостроило	ипостраивать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+7	пять	пять	NUM	_	Case=Nom	10	nummod:gov	_	_
+8	автоматических	автоматический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	ATV)	ATV)	PUNCT	_	_	10	punct	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+15	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	SpacesAfter=\n
+17	неоднократно	неоднократно	ADV	_	Degree=Pos	18	advmod	_	_
+18	предоставляло	предоставлять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+21	свои	свой	DET	_	Case=Acc|Number=Plur	22	amod	_	_
+22	ракеты	ракет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+23	-носители	-носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+24	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	Arian	Arian	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	запускаемые	запускать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	30	amod	_	_
+28	с	с	ADP	_	_	29	case	_	SpacesAfter=\n
+29	космодрома	космодром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	_
+30	Куру	Кура	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+31	воФранцузской	воФранцузский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	Гвиане	Гвиан	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 82815
+# text = Завремя работы станции наней побывали 25европейских космонавтов, включая нынешнего бортинженера МКС Тома Песке (Thomas Pesquet).
+1	Завремя	Завремя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	наней	нань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	побывали	бывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	25европейских	25европейский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	космонавтов	космонавт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	включая	включая	ADV	_	Degree=Pos	5	conj	_	_
+10	нынешнего	нынешний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	бортинженера	бортинженер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	МКС	Мкс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	Тома	тома	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpacesAfter=\n
+14	Песке	песка	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Thomas	Thomas	PROPN	_	Foreign=Yes	14	parataxis	_	SpacesAfter=\n
+17	Pesquet	Pesquet	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 82816
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

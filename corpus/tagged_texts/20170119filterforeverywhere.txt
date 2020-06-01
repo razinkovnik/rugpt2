@@ -1,0 +1,251 @@
+# sent_id = 88799
+# text = Исследователи из Испании и Германии разработали новый тип универсального фильтрующего материала, который позволяет очищать воду от органических, неорганических, радиоактивных и бактериологических примесей.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n|SpacesAfter=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Испании	испания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	тип	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	универсального	универсальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	фильтрующего	фильтрующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpacesAfter=\n
+11	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+15	очищать	очищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	от	от	ADP	_	_	25	case	_	_
+18	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	неорганических	неорганический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+22	радиоактивных	радиоактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	conj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	бактериологических	бактериологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	conj	_	_
+25	примесей	примесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 88800
+# text = Результаты испытаний фильтраопубликованы в журналеAngewandte Chemie, кратко о работе рассказывается на портале phys.org.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	фильтраопубликованы	фильтраопубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	журналеAngewandte	журналеAngewandte	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Chemie	Chemie	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	11	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	рассказывается	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	phys.org	phys.org	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88801
+# text = В настоящее время существует множество различных типов фильтрующих материалов,которые обладают высокой эффективностью, однако большинство из них пригодны для удаления лишь определенного рода загрязнений.
+1	В	в	ADP	_	_	4	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	SpacesAfter=\n
+4	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	фильтрующих	фильтрующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,которые	,который	DET	_	Case=Nom|Number=Plur	11	nsubj	_	_
+11	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpacesAfter=\n
+13	эффективностью	эффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	однако	однако	ADV	_	Degree=Pos	19	advmod	_	_
+16	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	nmod	_	_
+19	пригодны	пригодный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	удаления	удаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	лишь	лишь	PART	_	_	23	advmod	_	_
+23	определенного	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\n
+24	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+25	загрязнений	загрязнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 88802
+# text = В результате система полной очистки воды обычно получается сложной, громоздкой и многоступенчатой.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	обычно	обычно	ADV	_	Degree=Pos	8	advmod	_	_
+8	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+9	сложной	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	громоздкой	громоздка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	многоступенчатой	многоступенчата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88803
+# text = Поэтому создание универсального фильтра, который мог бы быстро и легко очищать воду сразу от множества различных примесей, является весьма важной задачей, особенно для развивающихся стран, где проблема нехватки чистой воды стоит очень остро.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	20	advmod	_	_
+2	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+3	универсального	универсальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	фильтра	фильтр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	который	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	бы	бы	PART	_	Mood=Cnd	7	aux	_	_
+9	быстро	быстро	ADV	_	Degree=Pos	12	advmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	легко	легко	ADV	_	Degree=Pos	12	advmod	_	_
+12	очищать	очищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	SpacesAfter=\n
+13	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+17	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	примесей	примесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+21	весьма	весьма	ADV	_	Degree=Pos	22	advmod	_	_
+22	важной	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	задачей	задача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	особенно	особенно	ADV	_	Degree=Pos	28	advmod	_	SpacesAfter=\n
+26	для	для	ADP	_	_	28	case	_	_
+27	развивающихся	развиваться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	28	amod	_	_
+28	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	где	где	ADV	_	Degree=Pos	35	advmod	_	_
+31	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+32	нехватки	нехватка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	чистой	чистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+35	стоит	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+36	очень	очень	ADV	_	Degree=Pos	37	advmod	_	_
+37	остро	остро	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 88804
+# text = Новый фильтрующий материал, разработанный учеными, получил название POM-SILP (Polyoxometalate-Supported Ionic Liquid Phases) и представляет собой композит, в котором на поверхности пористых гранул из двуокиси кремния адсорбирована полиоксометаллат-ионная жидкость (POM-IL) -- нерастворимая соль, которая плавится при комнатной температуре и содержит алкиламмониевые органические катионы, обладающие антибактериальными свойствами, и лакунарные полиоксометаллатные анионы.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	фильтрующий	фильтрующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	POM-SILP	Pom-silp	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Polyoxometalate	Polyoxometalate	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Supported	Supported	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpacesAfter=\n
+15	Ionic	Ionic	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Liquid	Liquid	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Phases	Phases	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+21	собой	себя	PRON	_	Case=Ins	20	obl	_	_
+22	композит	композит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	котором	который	PRON	_	Case=Loc	33	obl	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	SpacesAfter=\n
+28	пористых	пористый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	гранул	гранула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	из	из	ADP	_	_	31	case	_	_
+31	двуокиси	двуокись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	адсорбирована	адсорбировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+34	полиоксометаллат	полиоксометаллат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+35	-ионная	-ионный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	SpacesAfter=\n
+36	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	POM-IL	Pom-il	X	_	Foreign=Yes	36	appos	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	--	--	PUNCT	_	_	38	punct	_	_
+41	нерастворимая	нерастворимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	соль	соль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	которая	который	PRON	_	Case=Nom	45	nsubj	_	_
+45	плавится	плавиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	42	acl:relcl	_	_
+46	при	при	ADP	_	_	48	case	_	_
+47	комнатной	комнатный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	температуре	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	45	obl	_	SpacesAfter=\n
+49	и	и	CCONJ	_	_	50	cc	_	_
+50	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	conj	_	_
+51	алкиламмониевые	алкиламмониевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	53	amod	_	_
+52	органические	органический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	53	amod	_	_
+53	катионы	катион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	50	obj	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	обладающие	обладать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	53	amod	_	_
+56	антибактериальными	антибактериальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	57	amod	_	_
+57	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	55	obl	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	и	и	CCONJ	_	_	62	cc	_	SpacesAfter=\n
+60	лакунарные	лакунарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	62	amod	_	_
+61	полиоксометаллатные	полиоксометаллатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	62	amod	_	_
+62	анионы	анион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	SpaceAfter=No
+
+# sent_id = 88805
+# text = Это анионные многоцентровые группировки переходных металлов, в молекулярной структуре которых есть пустоты или лакуны, в которых могут размещаться другие атомы, что позволяет связывать тяжелые металлы.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	анионные	анионный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	многоцентровые	многоцентровый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	группировки	группировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+5	переходных	переходный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	молекулярной	молекулярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	структуре	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+11	которых	который	PRON	_	Case=Gen	10	nmod	_	_
+12	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+13	пустоты	пустот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	лакуны	лакун	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	которых	который	PRON	_	Case=Loc	19	obl	_	_
+19	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	размещаться	размещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	19	xcomp	_	_
+21	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	атомы	атом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	PRON	_	Case=Nom	25	nsubj	_	_
+25	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+26	связывать	связывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	тяжелые	тяжелый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	металлы	металл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 88806
+# text = Хорошая липофильность солипозволяет адсорбировать органические вещества, а субстрат из диоксида кремния -- связывать радионуклиды.
+1	Хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	липофильность	липофильность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	солипозволяет	солипозволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	адсорбировать	адсорбировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	SpacesAfter=\n
+5	органические	органический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	а	а	CCONJ	_	_	14	cc	_	_
+9	субстрат	субстрат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+10	из	из	ADP	_	_	11	case	_	SpacesAfter=\n
+11	диоксида	диоксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	связывать	связывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+15	радионуклиды	радионуклид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

@@ -1,0 +1,473 @@
+# sent_id = 90020
+# text = Японские ученые обнаружили, что формирование связи между долгосрочными воспоминаниями реорганизует нейронные ансамбли, хранящие эти воспоминания, таким образом, что часть нейронов соответствующих ансамблей становятся общими между ними, тоесть ансамбли частично перекрываются.
+1	Японские	японский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	формирование	формирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+7	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	между	между	ADP	_	_	10	case	_	SpacesAfter=\n
+9	долгосрочными	долгосрочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	воспоминаниями	воспоминание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	nmod	_	_
+11	реорганизует	реорганизовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+12	нейронные	нейронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	ансамбли	ансамбль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	хранящие	хранить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+16	эти	этот	DET	_	Case=Acc|Number=Plur	17	amod	_	SpacesAfter=\n
+17	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_
+20	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	0	mark	_	_
+23	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+24	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	соответствующих	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	ансамблей	ансамбль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpacesAfter=\n
+27	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+28	общими	общий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	obl	_	_
+29	между	между	ADP	_	_	30	case	_	_
+30	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+33	ансамбли	ансамбвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	частично	частично	ADV	_	Degree=Pos	35	advmod	_	_
+35	перекрываются	перекрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 90021
+# text = Отключение этих общих нейронов устраняет связь между воспоминаниями, ноне влияет напоследующее извлечение каждого изних поотдельности.
+1	Отключение	отключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+3	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	устраняет	устранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	между	между	ADP	_	_	8	case	_	_
+8	воспоминаниями	воспоминание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ноне	нона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	conj	_	SpacesAfter=\n
+11	влияет	влиявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	напоследующее	напоследуть	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+13	извлечение	извлечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+14	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	поотдельности	поотдельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 90022
+# text = Результаты работы опубликованы вжурнале Science.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpacesAfter=\n
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 90023
+# text = При формировании воспоминаний вмозге возникают постоянные связи между нейронами, которые группируют ихвпостоянный ансамбль, хранящий конкретное воспоминание.
+1	При	при	ADP	_	_	2	case	_	_
+2	формировании	формирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	вмозге	вмозг	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	возникают	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	постоянные	постоянный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+7	связи	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	нейронами	нейрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	группируют	группировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	ихвпостоянный	ихвпостоянный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ансамбль	ансамбль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	хранящий	хранить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	SpacesAfter=\n
+17	конкретное	конкретной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	воспоминание	воспоминание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 90024
+# text = При этом воспоминания редко бывают изолированными -- как правило, они объединяются вассоциативные сети, связывающие ихмежду собой так, что извлечение одного воспоминания автоматически вызывает исвязанные с ним ассоциации.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+4	редко	редко	ADV	_	Degree=Pos	5	advmod	_	_
+5	бывают	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	изолированными	изолированной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	как	как	SCONJ	_	_	5	cc	_	_
+9	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+12	объединяются	объединяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+13	вассоциативные	вассоциативный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	сети	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	связывающие	связывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	ихмежду	ихмежду	ADP	_	_	18	case	_	_
+18	собой	себя	PRON	_	Case=Ins	16	obl	_	SpacesAfter=\n
+19	так	так	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	19	mark	_	_
+22	извлечение	извлечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+23	одного	один	NUM	_	Case=Gen|Gender=Masc	24	nummod	_	_
+24	воспоминания	воспоминаний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	автоматически	автоматически	ADV	_	Degree=Pos	26	advmod	_	_
+26	вызывает	вызывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+27	исвязанные	исвязать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+28	с	с	ADP	_	_	29	case	_	SpacesAfter=\n
+29	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	27	obl	_	_
+30	ассоциации	ассоциация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 90025
+# text = Физиологические механизмы формирования таких ассоциативных сетей остаются малоизученными.
+1	Физиологические	физиологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	таких	такой	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+5	ассоциативных	ассоциативный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+7	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	малоизученными	малоизученный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 90026
+# text = Чтобы разобраться вэтих механизмах, сотрудники Университетов Тоямы иДзикей сформировали умышей два независимых условных рефлекса-- отвращения кпище (внем стимулом, или раздражителем, запускающим рефлекс, служил раствор сахарина, вкус которого ассоциировался сискусственно вызванной тошнотой) изамирания отстраха вожидании удара током (нейтральным стимулом служил звонок).
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	29	mark	_	_
+2	разобраться	разбираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	29	advcl	_	_
+3	вэтих	вэтот	DET	_	Case=Loc|Number=Plur	4	amod	_	_
+4	механизмах	механизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	SpacesAfter=\n
+7	Университетов	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	Тоямы	Тояма	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	иДзикей	иДзикий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+10	сформировали	сформироваль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	два	два	NUM	_	Case=Nom|Gender=Masc	13	nummod:gov	_	_
+13	независимых	независимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+14	условных	условный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpacesAfter=\n
+15	рефлекса-	рефлекса-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	отвращения	отвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+18	кпище	кпище	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	17	appos	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	внем	вень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	parataxis	_	_
+21	стимулом	стимул	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	раздражителем	раздражитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	запускающим	запускать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	amod	_	SpacesAfter=\n
+27	рефлекс	рефлекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	служил	служить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+30	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+31	сахарина	сахарин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+34	которого	который	PRON	_	Case=Gen	33	nmod	_	_
+35	ассоциировался	ассоциироваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	30	acl:relcl	_	_
+36	сискусственно	сискусственно	ADV	_	Degree=Pos	37	advmod	_	_
+37	вызванной	вызывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	SpacesAfter=\n
+38	тошнотой	тошнота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	изамирания	изамирание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	conj	_	_
+41	отстраха	отстрах	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	вожидании	вожидания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	удара	удар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	obl	_	_
+44	током	ток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	48	obl:agent	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	нейтральным	нейтральный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	стимулом	стимул	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	48	obl	_	SpacesAfter=\n
+48	служил	служять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	35	conj	_	_
+49	звонок	звонок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	48	nsubj	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 90027
+# text = Затем они связали эти воспоминания друг сдругом, повторно подвергая животных одновременному действию обоих раздражителей.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	связали	связывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	эти	этот	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	fixed	_	_
+7	сдругом	сдруг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	повторно	повторно	ADV	_	Degree=Pos	10	advmod	_	SpacesAfter=\n
+10	подвергая	подвергать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+11	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+12	одновременному	одновременный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	действию	действие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+14	обоих	оба	NUM	_	Case=Gen|Gender=Masc	15	nummod	_	_
+15	раздражителей	раздражитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 90028
+# text = Врезультате эти воспоминания стали ассоциироваться друг сдругом-- вкус сахарина заставлял мышей замирать, как при звуке звонка.
+1	Врезультате	Врезультате	PART	_	_	3	advmod	_	SpacesAfter=\n
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ассоциироваться	ассоциироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+6	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	fixed	_	_
+7	сдругом	сдруг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	сахарина	сахарин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	заставлял	заставлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpacesAfter=\n
+13	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+14	замирать	замирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	SCONJ	_	_	14	mark	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	звуке	звука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+19	звонка	звонок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 90029
+# text = Условно-рефлекторные отвращение кпище изамирание хорошо изучены: известно, что вихформировании участвуют миндалина, медиальная префронтальная иостровковая кора.
+1	Условно-рефлекторные	Условно-рефлекторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	кпище	кпистый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	изамирание	изамирание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+5	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+6	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	вихформировании	вихформирования	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	участвуют	участвевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	миндалина	миндалина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	медиальная	медиальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	SpacesAfter=\n
+16	префронтальная	префронтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	иостровковая	иостровковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	кора	кора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 90030
+# text = Ученые проанализировали экспрессию c-Fos (маркера активности нейронов) вэтих структурах мозга ивыяснили, что число активированных нейронов вбазолатеральной миндалине умышей сосформированной ассоциацией значительно больше, чем уживотных без связи между этими воспоминаниями.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	проанализировали	анализировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	c-Fos	c-Fos	X	_	Foreign=Yes	11	flat:foreign	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	маркера	маркера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	parataxis	_	SpacesAfter=\n
+7	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	вэтих	вэтий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	структурах	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
+12	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	ивыяснили	ивыяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	SpacesAfter=\n
+17	активированных	активировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	вбазолатеральной	вбазолатеральный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	миндалине	миндалина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+21	умышей	умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl:agent	_	_
+22	сосформированной	осформировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	SpacesAfter=\n
+23	ассоциацией	ассоциация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+24	значительно	значительно	ADV	_	Degree=Pos	25	advmod	_	_
+25	больше	большой	ADJ	_	Degree=Cmp	13	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	чем	чем	SCONJ	_	_	33	cc	_	_
+28	уживотных	уживотный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+29	без	без	ADP	_	_	33	case	_	_
+30	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	fixed	_	_
+31	между	между	ADP	_	_	30	fixed	_	_
+32	этими	этот	DET	_	Case=Ins|Number=Plur	33	amod	_	SpacesAfter=\n
+33	воспоминаниями	воспоминание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	25	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 90031
+# text = Использовав insitu гибридизацию, оптогенетические и иммуногистохимические методы исследования, ученые обнаружили, что при формировании ассоциации между воспоминаниями хранящие ихнейронные ансамбли реорганизуются так, что часть входящих вних нейронов становятся общими для обоих ансамблей, иэти общие нейроны расположены вбазолатеральной миндалине.
+1	Использовав	Использовывать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	12	advcl	_	_
+2	insitu	insitu	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	гибридизацию	гибридизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	оптогенетические	оптогенетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+6	и	и	CCONJ	_	_	8	cc	_	SpacesAfter=\n
+7	иммуногистохимические	иммуногистохимический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+9	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	при	при	ADP	_	_	16	case	_	SpacesAfter=\n
+16	формировании	формирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+17	ассоциации	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	между	между	ADP	_	_	19	case	_	_
+19	воспоминаниями	воспоминание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	nmod	_	_
+20	хранящие	хранить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+21	ихнейронные	ихнейронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	ансамбли	ансамбль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpacesAfter=\n
+23	реорганизуются	реорганизуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+24	так	так	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	что	что	SCONJ	_	_	24	mark	_	_
+27	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	_
+28	входящих	входящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+29	вних	вний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+31	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	advcl	_	_
+32	общими	общий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+33	для	для	ADP	_	_	32	case	_	SpacesAfter=\n
+34	обоих	оба	NUM	_	Case=Gen|Gender=Masc	35	nummod	_	_
+35	ансамблей	ансамбль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	иэти	иэтот	DET	_	Case=Nom|Number=Plur	39	amod	_	_
+38	общие	общий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	amod	_	_
+39	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+40	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	31	conj	_	_
+41	вбазолатеральной	вбазолатеральный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	миндалине	миндалина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 90032
+# text = Отключение группы нейронов, обеспечивающей перекрывание ансамблей, приводило к исчезновению ассоциации между воспоминаниями.
+1	Отключение	отключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpacesAfter=\n
+2	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	обеспечивающей	обеспечивать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+6	перекрывание	перекрывание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	ансамблей	ансамбль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	приводило	приводить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	к	к	ADP	_	_	11	case	_	SpacesAfter=\n
+11	исчезновению	исчезновение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+12	ассоциации	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	между	между	ADP	_	_	14	case	_	_
+14	воспоминаниями	воспоминание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 90033
+# text = При этом извлечение отдельных воспоминаний происходило также, как вконтрольной группе животных, тоесть перекрывание нейронных ансамблей для этого нетребовалось.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	извлечение	извлечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	также	также	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	11	cc	_	_
+10	вконтрольной	вконтрольный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	группе	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	advmod	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	тоесть	тоедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpacesAfter=\n
+15	перекрывание	перекрывание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	ансамблей	ансамбль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+20	нетребовалось	нетребоваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 90034
+# text = "Обнаружение нами перекрывания нейронных ансамблей, отвечающего заассоциацию, ноненужного для извлечения первоначальных воспоминаний, может открыть путь котделению повседневных воспоминаний, как-либо связанных собстоятельствами полученной травмы, отсамого травмирующего события.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Обнаружение	Обнаружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+3	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	2	nmod	_	_
+4	перекрывания	перекрывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	ансамблей	ансамбль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	отвечающего	отвечать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	заассоциацию	заассоциация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ноненужного	ноненужный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	извлечения	извлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	первоначальных	первоначальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	открыть	открывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	котделению	котделение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	_
+21	повседневных	повседневный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+24	как-либо	как-либо	ADV	_	Degree=Pos	25	advmod	_	_
+25	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+26	собстоятельствами	собстоятельство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	25	obl	_	_
+27	полученной	получать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	травмы	травма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	отсамого	отсамый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	SpacesAfter=\n
+31	травмирующего	травмируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	события	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 90035
+# text = Это может помочь людям спосттравматическим стрессовым расстройством",-- пишут авторы работы.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+5	спосттравматическим	спосттравматический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+6	стрессовым	стрессовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	расстройством	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,--	,--	PUNCT	_	_	7	punct	_	_
+10	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+11	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 90036
+# text = Недавно ученые обнаружили еще один интересный механизм формирования воспоминаний.
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+5	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod:gov	_	SpacesAfter=\n
+6	интересный	интересный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+8	формирования	формирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 90037
+# text = Они показали, что при переходе информации изкратковременной памяти вдолгосрочную она некоторое время хранится впромежуточном виде-- мозговом аналоге кэш-памяти.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	переходе	переход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpacesAfter=\n
+7	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	изкратковременной	изкратковремять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	памяти	память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	вдолгосрочную	вдолгосрочную	ADV	_	Degree=Pos	14	advmod	_	_
+11	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj:pass	_	_
+12	некоторое	некоторый	DET	_	Case=Nom|Gender=Neut|Number=Sing	13	amod	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+14	хранится	хранить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	SpacesAfter=\n
+15	впромежуточном	впромежуточн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+16	виде-	виде-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	мозговом	мозговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	аналоге	аналог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	appos	_	_
+20	кэш-памяти	кэш-память	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 90038
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

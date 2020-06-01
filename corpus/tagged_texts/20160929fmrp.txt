@@ -1,0 +1,516 @@
+# sent_id = 72924
+# text = Американские ученые обнаружили, что однократный прием алкоголя включает тот же биохимический механизм, что и"быстрые антидепрессанты" изгруппы антагонистов глутаматных NMDA-рецепторов.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	однократный	однократный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	прием	прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpacesAfter=\n
+8	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	включает	включить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+11	же	же	PART	_	_	10	advmod	_	_
+12	биохимический	биохимический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	16	mark	_	_
+16	и"	и"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	SpacesAfter=\n
+18	антидепрессанты	антидепрессант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	advcl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	изгруппы	изгруппа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	антагонистов	антагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	глутаматных	глутаматный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	NMDA-рецепторов	NMDA-рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72925
+# text = Результаты работы опубликованы вжурнале Nature Communications.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72926
+# text = Прием этилового спирта временно облегчает симптомы депрессии, поэтому люди сэтим заболеванием зачастую прибегают кнему сцелью самолечения.
+1	Прием	Прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	этилового	этиловый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	спирта	спирт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	временно	временно	ADV	_	Degree=Pos	5	advmod	_	_
+5	облегчает	облегчать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpacesAfter=\n
+7	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поэтому	поэтому	ADV	_	Degree=Pos	14	advmod	_	_
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+11	сэтим	сэтий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	заболеванием	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+13	зачастую	зачастую	ADV	_	Degree=Pos	14	advmod	_	_
+14	прибегают	прибегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+15	кнему	окн	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	14	obl	_	_
+16	сцелью	сцель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	SpacesAfter=\n
+17	самолечения	самолечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72927
+# text = Вомногих случаях это приводит кзлоупотреблению спиртным-- его риск при большом депрессивном расстройстве повышен более чем вдвое (и наоборот -- злоупотребление алкоголем повышает риск депрессии примерно в такой же пропорции).
+1	Вомногих	Вомногие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кзлоупотреблению	кзлоупотребление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+6	спиртным-	спиртным-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	SpacesAfter=\n
+9	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	при	при	ADP	_	_	13	case	_	_
+11	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	депрессивном	депрессивный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	расстройстве	расстройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+14	повышен	повышать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+15	более	более	ADV	_	Degree=Cmp	17	case	_	_
+16	чем	чем	SCONJ	_	_	15	fixed	_	_
+17	вдвое	вдвое	ADV	_	Degree=Pos	14	advmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	наоборот	наоборот	ADV	_	Degree=Pos	22	conj	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	злоупотребление	злоупотребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+23	алкоголем	алкоголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+24	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	примерно	примерно	ADV	_	Degree=Pos	31	advmod	_	_
+28	в	в	ADP	_	_	31	case	_	_
+29	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	31	amod	_	_
+30	же	же	PART	_	_	29	advmod	_	_
+31	пропорции	пропорция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 72928
+# text = Хроническое употребление спиртного, всвою очередь, ухудшает течение заболевания, формируя порочный круг.
+1	Хроническое	Хронический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	употребление	употребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	спиртного	спиртное	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	всвою	всвой	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ухудшает	ухудшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	формируя	формировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+13	порочный	порочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	круг	круг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72929
+# text = При этом биохимические механизмы антидепрессивного эффекта алкоголя досих пор известны небыли.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+3	биохимические	биохимический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+5	антидепрессивного	антидепрессивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+11	небыли	небыль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72930
+# text = "Быстрые антидепрессанты", такие как кетамин, после однократной инъекции снижают симптомы депрессии втечение двух часов, иэтот эффект сохраняется напротяжении двух недель.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Быстрые	быстрый	PRON	_	Case=Acc	3	amod	_	_
+3	антидепрессанты	антидепрессант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	такие	такой	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+7	как	как	SCONJ	_	_	8	cc	_	_
+8	кетамин	кетамин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	12	case	_	SpacesAfter=\n
+11	однократной	однократный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+13	снижают	снижавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+15	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
+17	двух	два	NUM	_	Case=Gen	18	nummod	_	_
+18	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	иэтот	иэтот	DET	_	Case=Nom|Gender=Masc|Number=Sing	21	amod	_	SpacesAfter=\n
+21	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	сохраняется	сохраняваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+23	напротяжении	напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+24	двух	два	NUM	_	Case=Gen	25	nummod	_	_
+25	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72931
+# text = Как было показано, долгосрочное действие антагонистов NMDA-рецепторов связано сактивацией внейронах сигнального пути mTOR (механистической мишени рапамицина)-- важного регулятора различных внутриклеточных процессов, втом числе синтеза белка.
+1	Как	как	ADV	_	Degree=Pos	6	mark	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	долгосрочное	долгосрочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpacesAfter=\n
+6	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	_
+7	антагонистов	антагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	NMDA-рецепторов	NMDA-рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpacesAfter=\n
+9	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	сактивацией	сактивация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	внейронах	внейрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+12	сигнального	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	mTOR	mtor	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	механистической	механистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	мишени	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	parataxis	_	SpacesAfter=\n
+18	рапамицина	рапамицин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	--	--	PUNCT	_	_	18	punct	_	_
+21	важного	важный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	регулятора	регулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+23	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+24	внутриклеточных	внутриклеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	SpacesAfter=\n
+28	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	conj	_	_
+29	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 72932
+# text = Эта активация требует изменения экспрессии ифункции рецепторов ГАМКВ, которые вместо открытия калиевых каналов начинают повышать уровень кальция вдендритах нейронов.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	активация	активация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	требует	требать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	ифункции	ифункция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpacesAfter=\n
+7	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	ГАМКВ	Гамква	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+11	вместо	вместо	ADP	_	_	12	case	_	_
+12	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+13	калиевых	калиевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	каналов	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+16	повышать	повышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	SpacesAfter=\n
+17	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	кальция	кальций	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	вдендритах	вдендрит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
+20	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72933
+# text = Что обеспечивает такие изменения, также досих пор небыло понятно.
+1	Что	что	PRON	_	Case=Acc	2	nsubj	_	_
+2	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такие	такой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	SpacesAfter=\n
+7	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	_
+9	небыло	небыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	понятно	понятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72934
+# text = Напервой стадии экспериментов сотрудники Техасского университета вОстине убедились, что введение алкоголя мышам обладает антидепрессивным ипротивотревожным действием, схожим сэффектом антагонистов NMDA-рецепторов, итоже продолжается после выведения препарата изорганизма.
+1	Напервой	Напервый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	стадии	стадия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+3	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	Техасского	техасский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	вОстине	вОстина	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	appos	_	_
+8	убедились	убеждаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	_
+14	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpacesAfter=\n
+15	антидепрессивным	антидепрессивный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+16	ипротивотревожным	ипротивотревожный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	схожим	схожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+20	сэффектом	сэффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+21	антагонистов	антагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	NMDA-рецепторов	NMDA-рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	итоже	итоже	PART	_	_	25	advmod	_	SpacesAfter=\n
+25	продолжается	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+26	после	после	ADP	_	_	27	case	_	_
+27	выведения	выведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+28	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	изорганизма	изорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 72935
+# text = Опыты скультурами нейронов гиппокампа, забранных через полчаса после инъекции, показали, что спирт, как и"быстрые антидепрессанты", значительно повышает синтез субъединицы R2 рецепторов ГАМКВ, что отвечает засмену ихфункций.
+1	Опыты	опывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	amod	_	_
+2	скультурами	скультура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	obl:agent	_	SpacesAfter=\n
+3	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	гиппокампа	гиппокамп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	забранных	брать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	через	через	ADP	_	_	8	case	_	_
+8	полчаса	полчас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	после	после	ADP	_	_	10	case	_	_
+10	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	SpacesAfter=\n
+15	спирт	спирт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	как	как	SCONJ	_	_	20	cc	_	_
+18	и"	и"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	антидепрессанты	антидепрессант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	advmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	значительно	значительно	ADV	_	Degree=Pos	24	advmod	_	_
+24	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+25	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	субъединицы	субъединица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	R2	r2	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	SpacesAfter=\n
+28	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	ГАМКВ	Гамкв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	PRON	_	Case=Nom	32	nsubj	_	_
+32	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+33	засмену	засмена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	ихфункций	ихфункция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 72936
+# text = Поскольку вдендритах нейронов присутствует матричная РНК субъединиц рецепторов ГАМКВ, ученые предположили, что регуляция ихсинтеза происходит науровне трансляции.
+1	Поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+2	вдендритах	вдендрит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	присутствует	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+5	матричная	матричный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpacesAfter=\n
+7	субъединиц	субъединица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	ГАМКВ	Гамкв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	регуляция	регуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	ихсинтеза	ихсинтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpacesAfter=\n
+17	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+18	науровне	науровне	ADP	_	_	19	case	_	_
+19	трансляции	трансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72937
+# text = Эксперименты сприменением специфичных антител показали, что таким регулятором служит FMRP (белок умственной отсталости при синдроме ломкой X-хромосомы), который снижает активированный, нонебазовый синтез субъединиц.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	сприменением	сприменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+3	специфичных	специфичной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	антител	антитело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpacesAfter=\n
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+9	регулятором	регулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+10	служит	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	FMRP	Fmrp	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	белок	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	умственной	умственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	отсталости	отсталость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	при	при	ADP	_	_	17	case	_	SpacesAfter=\n
+17	синдроме	синдром	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+18	ломкой	ломкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	X-хромосомы	X-хромосома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+22	который	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+24	активированный	активированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	нонебазовый	нонебазовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	conj	_	_
+27	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+28	субъединиц	субъединица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72938
+# text = Введение спиртного или "быстрых антидепрессантов" снижало уровень FMRP.
+1	Введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpacesAfter=\n
+2	спиртного	спиртное	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	или	или	CCONJ	_	_	6	cc	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	антидепрессантов	антидепрессант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	снижало	снижать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	FMRP	Fmrp	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72939
+# text = У мышей, лишенных гена FMRP, подобной регуляции синтеза субъединиц ГАМКВ ненаблюдалось.
+1	У	у	ADP	_	_	2	case	_	_
+2	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	лишенных	лишать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+6	FMRP	Fmrp	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n
+10	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	субъединиц	субъединица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	ГАМКВ	Гамкв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+13	ненаблюдалось	ненаблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72940
+# text = Также уних отсутствовали биохимические эффекты алкоголя иантагонистов NMDA-рецепторов, отвечающие заихантидепрессивное действие.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	уних	оуни	PRON	_	Case=Acc|Number=Plur|Person=3	3	obj	_	_
+3	отсутствовали	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	биохимические	биохимический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	иантагонистов	иантагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	NMDA-рецепторов	NMDA-рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	отвечающие	отвечать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+11	заихантидепрессивное	заихантидепрессивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	SpacesAfter=\n
+12	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72941
+# text = Сумма полученных данных свидетельствует отом, что испиртное, и"быстрые антидепрессанты" действуют посхожему биохимическому механизму, который зависит отсинтеза белка, опосредован FMRP иреализуется через синаптическую пластичность, обеспеченную изменением экспрессии ифункций рецепторов ГАМКВ.
+1	Сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+4	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	0	cc	_	_
+8	испиртное	испиртный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	и"	и"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	антидепрессанты	антидепрессант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	действуют	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+15	посхожему	посхожий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	биохимическому	биохимический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	механизму	механизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj	_	SpacesAfter=\n
+20	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	отсинтеза	отсинтеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+22	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	опосредован	опосредовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+25	FMRP	Fmrp	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	иреализуется	иреализуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	parataxis	_	_
+27	через	через	ADP	_	_	29	case	_	_
+28	синаптическую	синаптический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	SpacesAfter=\n
+29	пластичность	пластичность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	обеспеченную	обеспечивать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+32	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	obl	_	_
+33	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	ифункций	ифункция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
+35	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	ГАМКВ	Гамкв	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 72942
+# text = По мнению исследователей, этот механизм может играть ключевую роль вразвитии злоупотребления алкоголем изависимости отнего при большом депрессивном расстройстве.
+1	По	по	ADP	_	_	2	case	_	SpacesAfter=\n
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	ключевую	ключевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	вразвитии	вразвития	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpacesAfter=\n
+12	злоупотребления	злоупотребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	алкоголем	алкоголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+14	изависимости	изависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	отнего	оотно	PRON	_	Case=Gen|Gender=Neut|Number=Sing|Person=3	19	nmod	_	_
+16	при	при	ADP	_	_	19	case	_	_
+17	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+18	депрессивном	депрессивный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	SpacesAfter=\n
+19	расстройстве	расстройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72943
+# text = Ранее исследователи подтвердили, что для лечения большой депрессии эффективен психоделик псилоцибин, содержащийся в"волшебных грибах" рода Psilocybe.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+8	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+9	депрессии	депрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	эффективен	эффективный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	advcl	_	_
+11	психоделик	психоделикий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	parataxis	_	_
+12	псилоцибин	псилоцибин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	содержащийся	содержаться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	12	amod	_	_
+15	в"	в"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	волшебных	волшебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	грибах	гриб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	Psilocybe	Psilocybe	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72944
+# text = Кроме того, машинное обучение помогло выявить депрессивных пользователей Instagram, адля помощи пациентам сдепрессией успешно применили виртуальную реальность.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	машинное	машинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	помогло	помогать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpacesAfter=\n
+8	депрессивных	депрессивной	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	Instagram	Instagram	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	адля	адля	ADP	_	_	14	case	_	_
+13	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	fixed	_	_
+14	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+15	сдепрессией	сдепрессия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	SpacesAfter=\n
+16	успешно	успешно	ADV	_	Degree=Pos	17	advmod	_	_
+17	применили	применять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	виртуальную	виртуальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	реальность	реальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72945
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

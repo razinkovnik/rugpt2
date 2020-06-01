@@ -1,0 +1,660 @@
+# sent_id = 72365
+# text = Американские ученые обнаружили, что углеродные наночастицы могут селективно подавлять активность Т-лимфоцитов иуменьшать симптомы аутоиммунных заболеваний.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpacesAfter=\n
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	селективно	селективно	ADV	_	Degree=Pos	10	advmod	_	_
+10	подавлять	подавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Т-лимфоцитов	Т-лимфоцит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	иуменьшать	иуменьшать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+14	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpacesAfter=\n
+15	аутоиммунных	аутоиммунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 72366
+# text = При этом вводить ихпредпочтительно под кожу, что приводит кеевременному окрашиванию, напоминающему татуировку.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	ихпредпочтительно	ихпредпочтительно	ADV	_	Degree=Pos	3	advmod	_	_
+5	под	под	ADP	_	_	6	case	_	_
+6	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	PRON	_	Case=Nom	9	nsubj	_	SpacesAfter=\n
+9	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	кеевременному	кеевременный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	окрашиванию	окрашивание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	напоминающему	напоминать	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	татуировку	татуировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72367
+# text = Результаты работы опубликованы вжурнале Scientific Reports.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpacesAfter=\n
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Scientific	Scientific	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Reports	reports	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72368
+# text = Аутоиммунные заболевания-- это группа разнородных по проявлениям болезней (таких как ревматоидный артрит, рассеянный склероз и многие другие), которые имеют общий механизм развития: покаким-либо причинам иммунная система воспринимает ткани собственного организма как чужеродные и атакуетих, вызывая хроническое воспаление.
+1	Аутоиммунные	Аутоиммунный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	это	это	PART	_	_	6	cop	_	_
+6	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	разнородных	разнородной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	nmod	_	_
+8	по	по	ADP	_	_	9	case	_	SpacesAfter=\n
+9	проявлениям	проявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	nmod	_	_
+10	болезней	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	таких	такой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+13	как	как	SCONJ	_	_	15	cc	_	_
+14	ревматоидный	ревматоидный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	артрит	артрит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	рассеянный	рассеять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	склероз	склероз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	_
+19	и	и	CCONJ	_	_	21	cc	_	SpacesAfter=\n
+20	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	conj	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	которые	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+26	общий	общий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+28	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	28	punct	_	_
+30	покаким-	покаким-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+31	либо	либо	CCONJ	_	_	35	cc	_	_
+32	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	35	obl	_	SpacesAfter=\n
+33	иммунная	иммунный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+35	воспринимает	воспринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+36	ткани	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obj	_	_
+37	собственного	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+39	как	как	SCONJ	_	_	40	cc	_	_
+40	чужеродные	чужеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	44	advmod	_	_
+41	и	и	CCONJ	_	_	42	cc	_	SpacesAfter=\n
+42	атакуетих	атакуетот	DET	_	Case=Gen|Number=Plur	40	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	вызывая	вызывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	35	advcl	_	_
+45	хроническое	хронический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_
+46	воспаление	воспаление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 72369
+# text = При большинстве аутоиммунных заболеваний ключевую роль играет патологическая активация Т-лимфоцитов, которые повреждают клетки, синтезируя активные формы кислорода, вчастности, супероксид-радикал.
+1	При	при	ADP	_	_	2	case	_	_
+2	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	аутоиммунных	аутоиммунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	ключевую	ключевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	патологическая	патологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	активация	активация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+10	Т-лимфоцитов	Т-лимфоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	SpacesAfter=\n
+13	повреждают	повреждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	синтезируя	синтезировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+17	активные	активной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+19	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	вчастности	вчастность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	супероксид	супероксид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+24	-радикал	-радикать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 72370
+# text = Внастоящее время для лечения аутоиммунных заболеваний применяют иммуносупрессанты, которые подавляют иммунитет неселективно, что повышает риск тяжелых инфекций излокачественных новообразований.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	obj	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	аутоиммунных	аутоиммунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpacesAfter=\n
+7	применяют	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	иммуносупрессанты	иммуносупрессант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	подавляют	подавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	иммунитет	иммунитет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	неселективно	неселективно	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpacesAfter=\n
+17	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	излокачественных	излокачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	новообразований	новообразование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 72371
+# text = Как было показано впредыдущих работах, функционализированные углеродные наноматериалы, такие как фуллерены или нанотрубки, эффективно нейтрализуют активные формы кислорода, значительно превосходя вэтом природные антиоксиданты.
+1	Как	как	ADV	_	Degree=Pos	18	mark	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	показано	показать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	parataxis	_	_
+4	впредыдущих	впредыдущий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	функционализированные	функционализировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	SpacesAfter=\n
+8	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	наноматериалы	наноматериал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	такие	такой	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+12	как	как	SCONJ	_	_	13	cc	_	_
+13	фуллерены	фуллеренный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	11	advmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	нанотрубки	нанотрубка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	эффективно	эффективно	ADV	_	Degree=Pos	18	advmod	_	SpacesAfter=\n
+18	нейтрализуют	нейтрализовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	активные	активный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	формы	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+21	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	значительно	значительно	ADV	_	Degree=Pos	24	advmod	_	_
+24	превосходя	превосходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+25	вэтом	вэто	PART	_	_	26	advmod	_	_
+26	природные	природный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	SpacesAfter=\n
+27	антиоксиданты	антиоксидант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72372
+# text = Однако многие изних, попадая ворганизм, формируют волокнистые агрегаты, токсичные для клеток.
+1	Однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+2	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	nsubj	_	_
+3	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	попадая	попадать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+6	ворганизм	ворганизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	формируют	формировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	волокнистые	волокнистый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	агрегаты	агрегат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	токсичные	токсичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72373
+# text = Сотрудники Университета Райса иБэйлоровского медицинского колледжа использовали всвоей работе гидрофильные углеродные нанокластеры, функционализированные полиэтиленгликолем (PEG-HCC).
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Райса	Райс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	иБэйлоровского	иБэйлоровский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	медицинского	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	колледжа	колледж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	всвоей	всвой	DET	_	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	гидрофильные	гидрофильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+11	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	нанокластеры	нанокластер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	функционализированные	функционализировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	полиэтиленгликолем	полиэтиленгликоль	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	parataxis	_	_
+16	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	PEG-HCC	Peg-hcc	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72374
+# text = Такие наноструктуры обладают мощным антиоксидантным эффектом инетоксичны для клеток.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	наноструктуры	наноструктура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	обладают	обладить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мощным	мощный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	антиоксидантным	антиоксидантный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	эффектом	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	инетоксичны	инетоксичный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 72375
+# text = Входе эксперимента ученые ввели PEG-HCC под кожу крыс инаблюдали за поведением нанокластеров в организме спомощью антител кполиэтиленгликолю.
+1	Входе	входе	ADP	_	_	2	case	_	SpacesAfter=\n
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	ввели	вводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	PEG-HCC	Peg-hcс	ADP	_	_	6	case	_	_
+6	под	под	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	крыс	крыса	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+9	инаблюдали	инаблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	поведением	поведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	нанокластеров	нанокластер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	SpacesAfter=\n
+14	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+16	антител	антитеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	кполиэтиленгликолю	кполиэтиленгликоля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72376
+# text = Выяснилось, что нанопрепарат селективно поглощается Т-лимфоцитами вселезенке, нонедругими иммунными клетками (макрофагами, нейтрофилами, В-лимфоцитами идругими).
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	нанопрепарат	нанопрепарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+5	селективно	селективно	ADV	_	Degree=Pos	6	advmod	_	_
+6	поглощается	поглощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	advcl	_	SpacesAfter=\n
+7	Т-лимфоцитами	т-лимфоцитами	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	вселезенке	вселезенка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нонедругими	нонедругой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+11	иммунными	иммунной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	conj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	макрофагами	макрофага	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	нейтрофилами	нейтрофила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	В-лимфоцитами	В-лимфоцит	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+19	идругими	идругой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72377
+# text = Онтакже незатрагивает Т-лимфоциты ввилочковой железе, тоесть невлияет напроцесс ихсозревания.
+1	Онтакже	Онтакже	CCONJ	_	_	2	cc	_	_
+2	незатрагивает	незатрагивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+3	Т-лимфоциты	т-лимфоциты	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	ввилочковой	ввилочковой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	железе	железа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	невлияет	невлиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	напроцесс	напроцесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	ихсозревания	ихсозревание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72378
+# text = Изучение клеток под электронным микроскопом показало, что PEG-HCCв клетках накапливается около митохондрий, которые синтезируют супероксид-радикал иего производные.
+1	Изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	под	под	ADP	_	_	5	case	_	SpacesAfter=\n
+4	электронным	электронный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	микроскопом	микроскопо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+6	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	PEG-HCCв	Peg-hccв	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	клетках	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+11	накапливается	накапливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+12	около	около	ADP	_	_	13	case	_	SpacesAfter=\n
+13	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	синтезируют	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	супероксид	супероксид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	-радикал	-радикать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+19	иего	иий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	производные	производный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72379
+# text = При этом они неприводят кгибели клетки ипостепенно выводятся изнее, обладая обратимым действием.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpacesAfter=\n
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	неприводят	неприводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кгибели	кгибель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+6	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	ипостепенно	ипостепенно	ADV	_	Degree=Pos	8	advmod	_	_
+8	выводятся	выводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+9	изнее	изно	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	обладая	обладать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	SpacesAfter=\n
+12	обратимым	обратимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72380
+# text = Подкожное введение препарата приводило кего замедленному высвобождениюи, как следствие, кболее длительному иравномерному эффекту по сравнению свнутривенной инъекцией.
+1	Подкожное	Подкожный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	приводило	приводить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кего	кий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	замедленному	замедленный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	высвобождениюи	высвобождениюя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	кболее	кболее	ADV	_	Degree=Pos	13	advmod	_	_
+13	длительному	длительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	иравномерному	иравномерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	эффекту	эффект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	parataxis	_	_
+16	по	по	ADP	_	_	19	case	_	SpacesAfter=\n
+17	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	fixed	_	_
+18	свнутривенной	свнутривенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	инъекцией	инъекция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72381
+# text = Эксперименты скультурами крысиных ичеловеческих Т-лимфоцитов, обработанных PEG-HCC, показали, что препарат эффективно снижает внутриклеточную концентрацию активных форм кислорода иподавляет пролиферацию стимулированных антигенами Т-лимфоцитов.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	скультурами	скультур	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+3	крысиных	крысин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	ичеловеческих	ичеловеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	Т-лимфоцитов	Т-лимфоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	обработанных	обрабатывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	PEG-HCC	Peg-hcс	ADP	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	эффективно	эффективно	ADV	_	Degree=Pos	15	advmod	_	_
+15	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpacesAfter=\n
+16	внутриклеточную	внутриклеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	концентрацию	концентрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	активных	активной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	иподавляет	иподавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+22	пролиферацию	пролиферация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpacesAfter=\n
+23	стимулированных	стимулировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+24	антигенами	антиген	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	obl:agent	_	_
+25	Т-лимфоцитов	Т-лимфоцит	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72382
+# text = Кроме того, онпримерно на30 процентов уменьшал выработку клетками провоспалительных цитокинов -- интерлейкина-2 иинтерферона-гамма.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	онпримерно	онпримерно	ADV	_	Degree=Pos	7	advmod	_	_
+5	на30	на30	NUM	_	_	6	nummod	_	SpacesAfter=\n
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	уменьшал	уменьшать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выработку	выработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	_
+10	провоспалительных	провоспалительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	цитокинов	цитокин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	интерлейкина-2	интерлейкина-2	NOUN	_	_	11	conj	_	_
+14	иинтерферона-	иинтерферона-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	гамма	гамма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72383
+# text = Эти эффекты, как ивпредыдущем опыте, оказались обратимыми.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	ивпредыдущем	ивпредыдущий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	опыте	опыт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	обратимыми	обратимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 72384
+# text = Нанестимулированные клетки PEG-HCCне действовал, то есть его эффекты проявляются только при повышенной выработке супероксида.
+1	Нанестимулированные	Нанестимулировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	PEG-HCCне	PEG-HCCне	ADV	_	Degree=Pos	4	advmod	_	_
+4	действовал	действовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	mark	_	SpacesAfter=\n
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	fixed	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	проявляются	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+11	только	только	PART	_	_	14	advmod	_	_
+12	при	при	ADP	_	_	14	case	_	_
+13	повышенной	повышенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	выработке	выработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+15	супероксида	супероксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72385
+# text = Наследующем этапе экспериментов ученые вводили PEG-HCC крысам сгиперчувствительностью замедленного типа (опосредованные клетками гипериммунные реакции, лежащие воснове различных заболеваний) иострым аутоиммунным энцефаломиелитом (модель рассеянного склероза).
+1	Наследующем	Наследуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	экспериментов	эксперименты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	PEG-HCC	Peg-hcс	ADP	_	_	7	case	_	_
+7	крысам	крысы	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	SpacesAfter=\n
+8	сгиперчувствительностью	сгиперчувствительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+9	замедленного	замедленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	опосредованные	опосредовать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+13	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	_
+14	гипериммунные	гипериммунный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	реакции	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	лежащие	лежать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	воснове	воснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+19	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	иострым	иострый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\n
+23	аутоиммунным	аутоиммунный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	энцефаломиелитом	энцефаломиелит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	parataxis	_	_
+27	рассеянного	рассеянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	склероза	склероз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72386
+# text = Уже после первой инъекции наблюдалось снижение интенсивности воспаления, аподкожное введение препарата каждые три дня значительно уменьшало клинические игистологические проявления энцефаломиелита.
+1	Уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+2	после	после	ADP	_	_	4	case	_	_
+3	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+4	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+5	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+7	интенсивности	интенсивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	аподкожное	аподкожный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	SpacesAfter=\n
+12	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	каждые	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	три	три	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	уменьшало	уменьшать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+19	игистологические	игистологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	проявления	проявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	SpacesAfter=\n
+21	энцефаломиелита	энцефаломиелит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 72387
+# text = Таким образом, PEG-HCC имеет перспективы применения при аутоиммунных заболеваниях, однако для его внедрения вмедицинскую практику необходимы многочисленные доклинические иклинические испытания.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	PEG-HCC	Peg-hcс	ADP	_	_	5	case	_	_
+5	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	перспективы	перспектива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	при	при	ADP	_	_	10	case	_	SpacesAfter=\n
+9	аутоиммунных	аутоиммунный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	заболеваниях	заболевание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	18	advmod	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+16	вмедицинскую	вмедицинский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	практику	практика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpacesAfter=\n
+18	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	_
+19	многочисленные	многочисленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+20	доклинические	доклинический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	иклинические	иклинический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72388
+# text = Ученые отмечают, что, поскольку препарат вызывает временное окрашивание кожи, его можно вводить спомощью микроигл, составленных вформе узора, так что место инъекции будет напоминать временную татуировку.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	поскольку	поскольку	SCONJ	_	_	8	mark	_	_
+7	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
+9	временное	временный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	окрашивание	окрашивание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+11	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	SpacesAfter=\n
+14	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+15	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+17	микроигл	микроигла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	составленных	составлять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	вформе	вформа	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+21	узора	узор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	так	так	ADV	_	Degree=Pos	0	mark	_	_
+24	что	что	SCONJ	_	_	23	fixed	_	_
+25	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	SpacesAfter=\n
+26	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	_	_
+28	напоминать	напоминать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	advcl	_	_
+29	временную	временный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	татуировку	татуировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 72389
+# text = Такой подход может улучшить психологическое состояние пациентов иуменьшить дискомфорт отвведения лекарства.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	улучшить	улучшять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	SpacesAfter=\n
+5	психологическое	психологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	иуменьшить	иуменьшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+9	дискомфорт	дискомфорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	отвведения	отвведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpacesAfter=\n
+11	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72390
+# text = Углеродные наноструктуры давно интересуют биомедицинских исследователей.
+1	Углеродные	Углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	наноструктуры	наноструктура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	давно	давно	ADV	_	Degree=Pos	4	advmod	_	_
+4	интересуют	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	биомедицинских	биомедицинский	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72391
+# text = Так, например, графен оказался хорошим материалом для нейропротезов, наноленты изнего применяли для усиления действия полиэтиленгликоля при восстановлении повреждений спинного мозга.
+1	Так	так	ADV	_	Degree=Pos	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	графен	графный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+6	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+7	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	материалом	материал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	для	для	ADP	_	_	10	case	_	SpacesAfter=\n
+10	нейропротезов	нейропротез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	наноленты	нанолент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+13	изнего	оизн	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+14	применяли	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	усиления	усиление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+17	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpacesAfter=\n
+18	полиэтиленгликоля	полиэтиленгликоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	восстановлении	восстановление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+21	повреждений	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	спинного	спинной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72392
+# text = Различной формы наночастицы изуглерода использовали вэкспериментах поприцельной доставке лекарств.
+1	Различной	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesAfter=\n
+2	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	наночастицы	наночастица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	изуглерода	изуглерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	вэкспериментах	вэксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+7	поприцельной	поприцельный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+8	доставке	доставка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+9	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 72393
+# text = Кроме того, графен может найти применение ивдиагностике: к примеру, наего основе создали пластырь для диабетиков, который способен автоматически измерять уровень глюкозы ипри необходимости вводить сахароснижающий препарат.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	графен	графный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	dep	_	_
+6	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	ивдиагностике	ивдиагностика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	к	к	ADP	_	_	11	case	_	SpacesAfter=\n
+11	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	наего	наий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+15	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+16	пластырь	пластырь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	диабетиков	диабетик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	который	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	16	acl:relcl	_	SpacesAfter=\n
+22	автоматически	автоматически	ADV	_	Degree=Pos	23	advmod	_	_
+23	измерять	измерять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	dep	_	_
+24	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	ипри	ипри	ADP	_	_	27	case	_	_
+27	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+28	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	conj	_	SpacesAfter=\n
+29	сахароснижающий	сахароснижающий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 72394
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

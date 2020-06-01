@@ -1,0 +1,298 @@
+# sent_id = 87154
+# text = Международная группа ученых обнаружила, что рубцовую ткань можно преобразовать внормальную кожу спомощью фактора, который вырабатывают волосяные луковицы.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	рубцовую	рубцовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpacesAfter=\n
+9	можно	можно	ADV	_	Degree=Pos	4	advcl	_	_
+10	преобразовать	преобразовывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	внормальную	внормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+14	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	вырабатывают	вырабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpacesAfter=\n
+18	волосяные	волосяной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	луковицы	луковица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87155
+# text = Результаты работы опубликованы вжурнале Science.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 87156
+# text = Впроцессе эволюции млекопитающие выработали механизм максимально быстрого закрытия дефектов кожи (например, ссадин или порезов) рубцовой тканью.
+1	Впроцессе	Впроцессе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	млекопитающие	млекопитающее	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	1	nmod	_	_
+4	выработали	выработавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpacesAfter=\n
+6	максимально	максимально	ADV	_	Degree=Pos	7	advmod	_	_
+7	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	закрытия	закрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+9	дефектов	дефект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	например	например	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ссадин	ссадин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	порезов	порез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	рубцовой	рубцовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	тканью	ткань	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87157
+# text = Вотличие отнормальной кожи шрамы состоят преимущественно из миофибробластов, активно синтезирующих коллаген, инесодержат волосяных луковиц (фолликулов), потовых желез иподкожного жира.
+1	Вотличие	Вотличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	отнормальной	отнормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	шрамы	шрама	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	преимущественно	преимущественно	ADV	_	Degree=Pos	8	advmod	_	_
+7	из	из	ADP	_	_	8	case	_	SpacesAfter=\n
+8	миофибробластов	миофибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	активно	активно	ADV	_	Degree=Pos	11	advmod	_	_
+11	синтезирующих	синтезируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	коллаген	коллаген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	инесодержат	инесодержат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+15	волосяных	волосяной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	луковиц	луковица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	фолликулов	фолликул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	потовых	потовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	желез	железа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	_
+23	иподкожного	иподкожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	жира	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 87158
+# text = Снедостатком подкожной жировой клетчатки связаны также развитие липодистрофий ипоявление морщин.
+1	Снедостатком	Снедостаток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+2	подкожной	подкожной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+3	жировой	жировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	клетчатки	клетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+7	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+8	липодистрофий	липодистрофие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+9	ипоявление	ипоявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	морщин	морщина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 87159
+# text = Сотрудники Университета Пенсильвании сколлегами издругих научных центров, изучая процессы заживления кожных дефектов умышей, обнаружили, что внекоторых случаях (при активации сигнальных путей WNT иFGF) вновой ткани могут восстанавливаться волосяные луковицы.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+2	Университета	Университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Пенсильвании	Пенсильвания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	сколлегами	сколлега	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+5	издругих	издругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+6	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	изучая	изучать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+10	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	заживления	заживление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	кожных	кожный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	дефектов	дефект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	внекоторых	внекоторый	DET	_	Case=Loc|Number=Plur	20	amod	_	_
+20	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	31	obl	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	при	при	ADP	_	_	23	case	_	_
+23	активации	активация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	parataxis	_	_
+24	сигнальных	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	WNT	Wnt	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	иFGF	иfgf	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+29	вновой	вновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+31	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+32	восстанавливаться	восстанавливаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	31	xcomp	_	_
+33	волосяные	волосяной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	луковицы	луковица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87160
+# text = При этом непосредственно вокруг них наблюдается рост жировых клеток (адипоцитов), неотличимых отклеток нормальной подкожной жировой клетчатки, чего не наблюдается вотсутствие волосяных фолликулов.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	SpacesAfter=\n
+3	непосредственно	непосредственно	ADV	_	Degree=Pos	6	advmod	_	_
+4	вокруг	вокруг	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	obl	_	_
+6	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+8	жировых	жировый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	адипоцитов	адипоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+14	неотличимых	неотличимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	отклеток	отклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+16	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+17	подкожной	подкожной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+18	жировой	жировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	клетчатки	клетчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чего	что	PRON	_	Case=Gen	23	nsubj:pass	_	_
+22	не	не	PART	_	_	23	advmod	_	SpacesAfter=\n
+23	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	acl:relcl	_	_
+24	вотсутствие	вотсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj:pass	_	_
+25	волосяных	волосяной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	фолликулов	фолликул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 87161
+# text = Дальнейшее изучение этого процесса показало, что новые адипоциты образуются измиофибробластов-- клеток, которые досих пор считались полностью дифференцированными инеспособными кперепрограммированию вдругие типы клеток.
+1	Дальнейшее	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	адипоциты	адипоцит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	образуются	образоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+11	измиофибробластов	измиофибробласт	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которые	который	PRON	_	Case=Nom	19	nsubj:pass	_	_
+17	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	считались	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	14	acl:relcl	_	_
+20	полностью	полностью	ADV	_	Degree=Pos	21	advmod	_	SpacesAfter=\n
+21	дифференцированными	дифференцировать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+22	инеспособными	инеспособный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	кперепрограммированию	кперепрограммирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+24	вдругие	вдругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	типы	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj:pass	_	_
+26	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 87162
+# text = Оказалось, что такая трансформация возможна под влиянием факторов роста из группы костных морфогенетических белков (BMP), ичто растущие волосяные фолликулы непрерывно экспрессируют эти белки (вчастности ВМР2 иВМР4).
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	трансформация	трансформация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	возможна	возможный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	25	advcl	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	из	из	ADP	_	_	10	case	_	SpacesAfter=\n
+12	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	костных	костный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	морфогенетических	морфогенетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	BMP	Bmp	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	ичто	ичто	SCONJ	_	_	21	mark	_	_
+21	растущие	расти	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+22	волосяные	волосяной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	SpacesAfter=\n
+23	фолликулы	фолликул	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+24	непрерывно	непрерывно	ADV	_	Degree=Pos	25	advmod	_	_
+25	экспрессируют	экспрессировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+26	эти	этот	DET	_	Case=Nom|Number=Plur	27	amod	_	_
+27	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	вчастности	вчастность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	parataxis	_	_
+30	ВМР2	ВМР2	NUM	_	_	29	nummod	_	_
+31	иВМР4	иВМР4	X	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 87163
+# text = Эксперименты нагенно-модифицированных мышах показали, что в отсутствие рецептора кBMP или при повышенной экспрессии антагониста ВМР ноггина вэпителии волосяных фолликулов трансформации миофибробластов формирующегося шрама вжировые клетки непроисходит.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	нагенно-	нагенно-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	в	в	ADP	_	_	9	case	_	SpacesAfter=\n
+9	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+10	рецептора	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	кBMP	кbmp	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	или	или	CCONJ	_	_	15	cc	_	_
+13	при	при	ADP	_	_	15	case	_	_
+14	повышенной	повышенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	_
+16	антагониста	антагонист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	appos	_	_
+17	ВМР	Вмр	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpacesAfter=\n
+18	ноггина	ноггин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	appos	_	_
+19	вэпителии	вэпителия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	волосяных	волосяной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	фолликулов	фолликул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	трансформации	трансформация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	миофибробластов	миофибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	формирующегося	формируться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	25	amod	_	SpacesAfter=\n
+25	шрама	шрам	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	вжировые	вжировый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+28	непроисходит	непроисходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 87164
+# text = Когда ученые добавляли BMP4в культуру клеток человеческой рубцовой ткани, вней также происходило перепрограммирование миофибробластов в адипоциты.
+1	Когда	когда	ADV	_	Degree=Pos	13	mark	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	добавляли	добавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
+4	BMP4в	BMP4во	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+5	культуру	культура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	человеческой	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+8	рубцовой	рубцовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вней	вень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	перепрограммирование	перепрограммирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+15	миофибробластов	миофибробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	SpacesAfter=\n
+17	адипоциты	адипоцит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87165
+# text = Такойже эффект производило совместное культивирование рубцовой ткани счеловеческими волосяными фолликулами.
+1	Такойже	Такойже	PART	_	_	3	advmod	_	_
+2	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	производило	производить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	совместное	совместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	культивирование	культивирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	рубцовой	рубцовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	счеловеческими	счеловеческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+9	волосяными	волосяный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	фолликулами	фолликул	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+

@@ -1,0 +1,274 @@
+# sent_id = 75355
+# text = Исследователи из Квинслендского университета обнаружили, что зрительное восприятие рыб можно обмануть с помощью оптической иллюзии восприятия цвета.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	4	case	_	_
+3	Квинслендского	Квинслендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	зрительное	зрительной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	восприятие	восприятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	рыб	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	можно	можно	ADV	_	Degree=Pos	5	advcl	_	_
+12	обмануть	обмаать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	с	с	ADP	_	_	16	case	_	_
+14	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	fixed	_	_
+15	оптической	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	иллюзии	иллюзия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+17	восприятия	восприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75356
+# text = Статья опубликована вScientific Reports.Оптические иллюзии -- это ошибки в зрительном восприятии, которые приводят к неправильному восприятию различных свойств наблюдаемого объекта.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вScientific	вScientific	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Reports	reports	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	Оптические	оптический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	иллюзии	иллюзия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	это	это	PART	_	_	10	cop	_	_
+10	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	parataxis	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	зрительном	зрительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	восприятии	восприятие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	к	к	ADP	_	_	19	case	_	_
+18	неправильному	неправильный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	восприятию	восприятие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+20	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+22	наблюдаемого	наблюдать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75357
+# text = В частности, оптические иллюзии могут вызывать ошибочное восприятие формы, цвета, яркости, размера или движения наблюдаемого объекта.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оптические	оптический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	иллюзии	иллюзия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	ошибочное	ошибочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	восприятие	восприятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	яркости	яркость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	размера	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+19	наблюдаемого	наблюдать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75358
+# text = Как отмечают ученые, исследование оптических иллюзийпомогает лучше разобраться в механизмах обработки зрительной информации и понять нюансы поведения животных, полагающихся на зрение, в неоднородной среде.Авторы новой работы поставили эксперимент с рыбами и цветовой иллюзией нейробиологов Лотто и Пурвса, которая представляет собой куб, грани которого раскрашены разноцветными квадратами, наподобие кубика Рубика.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	оптических	оптический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	_
+7	иллюзийпомогает	иллюзийпомогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	лучше	хорошо	ADV	_	Degree=Cmp	9	advmod	_	_
+9	разобраться	разбираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	механизмах	механизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+12	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	зрительной	зрительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	_
+17	нюансы	нюанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	полагающихся	полагаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	19	amod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	зрение	зрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	неоднородной	неоднородный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	среде.	средеаница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+28	Авторы	автор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	_
+29	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+31	поставили	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	рыбами	рыба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	32	nmod	_	_
+35	и	и	CCONJ	_	_	37	cc	_	_
+36	цветовой	цветовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	иллюзией	иллюзия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	conj	_	_
+38	нейробиологов	нейробиолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+39	Лотто	Лотто	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	appos	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	Пурвса	Пурвс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	которая	который	PRON	_	Case=Nom	44	nsubj	_	_
+44	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	acl:relcl	_	_
+45	собой	себя	PRON	_	Case=Ins	44	dep	_	_
+46	куб	куб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	грани	грань	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	50	obl	_	_
+49	которого	который	PRON	_	Case=Gen	48	nmod	_	_
+50	раскрашены	раскрашать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	46	acl:relcl	_	_
+51	разноцветными	разноцветной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	52	amod	_	_
+52	квадратами	квадрат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	50	obl	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	наподобие	наподобие	ADP	_	_	55	case	_	_
+55	кубика	кубик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+56	Рубика	Рубик	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	55	appos	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	56	punct	_	SpaceAfter=No
+
+# sent_id = 75359
+# text = В традиционном виде одна из граней находится в тени и стороннему наблюдателю кажется, что на свету у одной грани есть коричневый сегмент, а в тени у другой грани один из квадратов -- оранжевый.
+1	В	в	ADP	_	_	3	case	_	_
+2	традиционном	традиционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	7	nsubj	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	граней	грань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	тени	тень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	стороннему	сторонний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	наблюдателю	наблюдатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	conj	_	_
+13	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	свету	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+18	у	у	ADP	_	_	20	case	_	_
+19	одной	один	NUM	_	Case=Loc|Gender=Fem	20	nummod	_	_
+20	грани	грань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	advcl	_	_
+21	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+22	коричневый	коричневый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	сегмент	сегмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	27	cc	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	тени	тень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	conj	_	_
+28	у	у	ADP	_	_	30	case	_	_
+29	другой	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	грани	грань	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
+31	один	один	NUM	_	Case=Nom|Gender=Masc	27	nsubj	_	_
+32	из	из	ADP	_	_	33	case	_	_
+33	квадратов	квадрат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+34	--	--	PUNCT	_	_	33	punct	_	_
+35	оранжевый	оранжевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 75360
+# text = На самом деле оба упомянутых фрагмента одинакового цвета.Первая часть эксперимента состояла в том, что ученые тренировали восемь расписных спинорогов (Rhinecanthus aculeatus) на парах квадратов, в которых один был коричневым, а другой оранжевым.
+1	На	на	ADP	_	_	3	case	_	_
+2	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+4	оба	оба	NUM	_	Case=Nom|Gender=Masc	6	nummod:gov	_	_
+5	упомянутых	упоминать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	фрагмента	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	одинакового	одинаковой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+8	цвета.	цвета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+9	Первая	Первой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	состояла	состоять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	тренировали	тренировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+19	восемь	восемь	NUM	_	Case=Acc	21	nummod:gov	_	_
+20	расписных	расписный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	спинорогов	спинорог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Rhinecanthus	Rhinecanthus	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	aculeatus	aculeatus	X	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	на	на	ADP	_	_	21	case	_	_
+27	парах	пара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	nmod	_	_
+28	квадратов	квадрат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	которых	который	PRON	_	Case=Loc	34	nmod	_	_
+32	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	nsubj	_	_
+33	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+34	коричневым	коричневый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	acl:relcl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	а	а	CCONJ	_	_	38	orphan	_	_
+37	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	orphan	_	_
+38	оранжевым	оранжевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	orphan	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 75361
+# text = Остальная часть изображения куба была заполнена серым фоном или монохромными квадратами разной яркости.
+1	Остальная	остальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	куба	кубый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	заполнена	заполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	dep	_	_
+7	серым	серой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	фоном	фон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+9	или	или	CCONJ	_	_	11	cc	_	_
+10	монохромными	монохромный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	квадратами	квадрат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	conj	_	_
+12	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	яркости	яркость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75362
+# text = При этом монохромные и цветные квадраты каждый раз размещались в разных местах.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	монохромные	монохромный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	цветные	цветной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+6	квадраты	квадрат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	размещались	размещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 75363
+# text = Четырех рыб обучали клевать оранжевый квадрат, а других четырех -- коричневый, в случае правильного результата рыба получала подкрепление в виде корма.
+1	Четырех	четыре	NUM	_	Case=Gen	2	nummod	_	_
+2	рыб	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	обучали	обучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	клевать	клевать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	оранжевый	оранжевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	квадрат	квадрат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	четырех	четыре	NUM	_	Case=Gen	0	conj	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	коричневый	коричневый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+16	правильного	правильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	рыба	рыб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	получала	получать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	подкрепление	подкрепление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	fixed	_	_
+23	корма	корм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+

@@ -1,0 +1,123 @@
+# sent_id = 73522
+# text = Сегодня в Стокгольме объявили лауреатов Нобелевской премии по физике 2016 года.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	4	advmod	_	SpacesBefore=\n
+2	в	в	ADP	_	_	3	case	_	_
+3	Стокгольме	стокгольм	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	объявили	объявивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	лауреатов	лауреат	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	физике	физика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+10	2016	2016	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 73523
+# text = 110-я премия вручена Дэвиду Таулессу (David Thouless), Дункану Халдейну (Duncan Haldane) и Майклу Костерлицу (Michael Kosterlitz) с формулировкой "за теоретические открытия топологических фазовых переходов и топологических фаз материи".Работы ученых позволили физикам лучше описать такие явления, как сверхпроводимость, сверхтекучесть и магнетизм двумерных материалов (атомарно-тонких слоев).
+1	110-я	110-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	вручена	вручать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	Дэвиду	дэвид	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+5	Таулессу	Таулесс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	David	david	PROPN	_	Foreign=Yes	3	parataxis	_	_
+8	Thouless	Thouless	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	Дункану	Дункан	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+12	Халдейну	Халдейн	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Duncan	Duncan	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+15	Haldane	Haldane	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	Майклу	Майкл	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	conj	_	_
+19	Костерлицу	Костерлиц	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	18	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Michael	Michael	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+22	Kosterlitz	Kosterlitz	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	формулировкой	формулировка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	за	за	ADP	_	_	29	case	_	_
+28	теоретические	теоретический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	открытия	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	nmod	_	_
+30	топологических	топологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	фазовых	фазовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	переходов	переход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+33	и	и	CCONJ	_	_	35	cc	_	_
+34	топологических	топологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	фаз	фаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	conj	_	_
+36	материи	материя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+39	Работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	41	nsubj	_	_
+40	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+41	позволили	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+42	физикам	физик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	41	obl	_	_
+43	лучше	хорошо	ADV	_	Degree=Cmp	44	advmod	_	_
+44	описать	описывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+45	такие	такой	DET	_	Case=Acc|Number=Plur	46	amod	_	_
+46	явления	явление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	как	как	SCONJ	_	_	49	cc	_	_
+49	сверхпроводимость	сверхпроводимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	advmod	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	сверхтекучесть	сверхтекучесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	conj	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	магнетизм	магнетизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	51	conj	_	_
+54	двумерных	двумерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	55	amod	_	_
+55	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	53	nmod	_	_
+56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
+57	атомарно-тонких	атомарно-тонкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	58	amod	_	_
+58	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	55	parataxis	_	SpaceAfter=No
+59	)	)	PUNCT	_	_	58	punct	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	58	punct	_	SpaceAfter=No
+
+# sent_id = 73524
+# text = Дункан Халдейн также исследовал материалы, которые можно назвать одномерными.
+1	Дункан	Дункан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Халдейн	Халдейн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	исследовал	исследовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	материалы	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Acc	8	obj	_	_
+8	можно	можно	ADV	_	Degree=Pos	5	acl:relcl	_	_
+9	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	одномерными	одномерный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 73525
+# text = Благодаря теоретическому описанию ученые смогли объяснить, почему электрическое сопротивление в тонких слоях материи изменяется ступенчато с ростом индукции приложенного магнитного поля -- целочисленный квантовый эффект Холла.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	теоретическому	теоретический	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	описанию	описание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	почему	почему	ADV	_	Degree=Pos	9	advmod	_	_
+9	электрическое	электрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	тонких	тонкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	слоях	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+14	материи	материя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	изменяется	изменяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+16	ступенчато	ступенчато	ADV	_	Degree=Pos	18	advmod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+19	индукции	индукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	приложенного	приложять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+21	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+23	--	--	PUNCT	_	_	22	punct	_	_
+24	целочисленный	целочисленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	квантовый	квантовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+27	Холла	холл	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+

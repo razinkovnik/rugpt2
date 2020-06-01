@@ -1,0 +1,456 @@
+# sent_id = 89918
+# text = Американская компания Lockheed Martin начала разработку нового покрытия для планеров транспортных самолетов, которое позволит снизить их аэродинамическое сопротивление, а значит и уменьшить потребление топлива.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	начала	начинать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	планеров	планер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+11	транспортных	транспортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которое	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+16	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+17	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	16	obj	_	_
+18	аэродинамическое	аэродинамический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	24	cc	_	_
+22	значит	значит	ADV	_	Degree=Pos	24	advmod	_	_
+23	и	и	PART	_	_	24	advmod	_	_
+24	уменьшить	уменьшивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	conj	_	_
+25	потребление	потребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 89919
+# text = Как пишет Aviation Week, предварительные испытания уже состоялись и были признаны успешными.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	предварительные	предварительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	состоялись	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	conj	_	_
+13	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89920
+# text = Новый материал получил поверхность, состоящую из небольших ямок.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	состоящую	состоять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	ямок	ямка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89921
+# text = Расположение таких ямок было заимствовано у поверхности мяча для гольфа.В полете самолет испытывает несколько типов сопротивления, одно из которых вызывается большими поперечными размерами его фюзеляжа и двигателей.
+1	Расположение	расположение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	ямок	ямка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	заимствовано	заимствовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	мяча	мяч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	гольфа.	гектольфар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	В	в	ADP	_	_	12	case	_	_
+12	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	испытывает	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+15	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	одно	один	NUM	_	Case=Nom|Gender=Neut	22	nsubj:pass	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	которых	который	PRON	_	Case=Gen	19	nmod	_	_
+22	вызывается	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+23	большими	большой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+24	поперечными	поперечный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+25	размерами	размеер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	obl	_	_
+26	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	nmod	_	_
+27	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 89922
+# text = Решить эту проблему можно увеличением производительности двигателей и приданием обтекаемой формы фюзеляжу.
+1	Решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	увеличением	увеличение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+6	производительности	производительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	приданием	придание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	conj	_	_
+10	обтекаемой	обтекать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	фюзеляжу	фюзеляж	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 89923
+# text = Однако в воздухе на некоторых участках планера самолета появляется ламинарное обтекание с пограничным слоем.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	6	amod	_	_
+6	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+7	планера	планера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	ламинарное	ламинарный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обтекание	обтекание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	пограничным	пограничный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 89924
+# text = Так называют тонкий воздушный слой на поверхности самолета, характеризующийся сильным градиентом скорости от нуля до скорости потока вне пограничного слоя.Пограничный слой, имеющий низкую скорость у поверхности планера, и создает дополнительное сопротивление.
+1	Так	так	ADV	_	Degree=Pos	2	advmod	_	_
+2	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	тонкий	тонкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	характеризующийся	характеризоваться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	13	amod	_	_
+11	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	градиентом	градиент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	_
+13	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+16	до	до	ADP	_	_	17	case	_	_
+17	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	вне	вне	ADP	_	_	23	case	_	_
+20	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+21	слоя.	слояей	DET	_	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+22	Пограничный	пограничный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	имеющий	иметь	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	низкую	низкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	у	у	ADP	_	_	29	case	_	_
+29	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+30	планера	планер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	дополнительное	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 89925
+# text = Его можно разрушать установкой специальных пластин -- завихрителей потока, однако они приводят к образованию чрезмерных турбулентных потоков, ухудшающих аэродинамические качества самолета.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	разрушать	разрушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	установкой	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	пластин	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	завихрителей	завихритель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+9	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	образованию	образование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+16	чрезмерных	чрезмерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	турбулентных	турбулентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	ухудшающих	ухудшать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	аэродинамические	аэродинамический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	качества	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+23	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89926
+# text = Целью нового проекта Lockheed Martin является создание таких покрытий, которые бы предотвращали формирование пограничного слоя, но не создавали бы избыточных турбулентных потоков вокруг планера.Подробности испытаний нового покрытия не раскрываются.
+1	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Lockheed	Lockheed	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Martin	Martin	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	таких	такой	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	покрытий	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+12	бы	бы	PART	_	Mood=Cnd	13	aux	_	_
+13	предотвращали	предотвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	формирование	формирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	но	но	CCONJ	_	_	20	cc	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	создавали	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+21	бы	бы	PART	_	Mood=Cnd	20	aux	_	_
+22	избыточных	избыточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	турбулентных	турбулентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+25	вокруг	вокруг	ADP	_	_	26	case	_	_
+26	планера.	планера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+27	Подробности	Подробность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	_
+29	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 89927
+# text = Предполагается, что новое покрытие будет наноситься тонкими самоклеющимися листами в тех зонах планера самолета, где наиболее сильно проявляется влияние пограничного слоя.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	наноситься	наноситься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	advcl	_	_
+8	тонкими	тонкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+9	самоклеющимися	самоклеющийся	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	листами	лист	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	тех	тот	DET	_	Case=Loc|Number=Plur	13	amod	_	_
+13	зонах	зон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+14	планера	планера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+15	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	где	где	ADV	_	Degree=Pos	20	advmod	_	_
+18	наиболее	наиболее	ADV	_	Degree=Pos	19	advmod	_	_
+19	сильно	сильно	ADV	_	Degree=Pos	20	advmod	_	_
+20	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	_
+21	влияние	влияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+22	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89928
+# text = Обычно эти зоны располагаются в нижней части фюзеляжа и в хвосте.
+1	Обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	зоны	зона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	располагаются	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	нижней	нижний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	хвосте	хвост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 89929
+# text = Разработка покрытия ведется по заказу ВМС США, которые, если проект будет успешно завершен, начнут наносить его на транспортные самолеты во время обычного технического обслуживания.В декабре прошлого года американская компания Vortex Control Technologies представила набор завихрителей потока для военно-транспортных самолетов C-17 Globemaster III.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	покрытия	покрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	заказу	заказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	17	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	если	если	SCONJ	_	_	17	mark	_	_
+12	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+14	успешно	успешно	ADV	_	Degree=Pos	15	advmod	_	_
+15	завершен	завершать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+18	наносить	наносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	dep	_	_
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	транспортные	транспортный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obl	_	_
+23	во	во	ADP	_	_	27	case	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+26	технического	технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	В	в	ADP	_	_	30	case	_	_
+30	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+31	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
+35	Vortex	Vortex	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	Control	Control	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	Technologies	Technologies	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+39	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	_	_
+40	завихрителей	завихритель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+41	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	для	для	ADP	_	_	44	case	_	_
+43	военно-транспортных	военно-транспортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+44	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+45	C-17	c-17	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+46	Globemaster	Globemaster	PROPN	_	Foreign=Yes	44	flat:foreign	_	_
+47	III	iii	NUM	_	_	46	nummod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 89930
+# text = Эти приспособления позволят снизить аэродинамическое сопротивление самолетов, а значит повысить их топливную эффективность.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	приспособления	приспособление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	аэродинамическое	аэродинамический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	значит	значит	ADV	_	Degree=Pos	11	advmod	_	_
+11	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+13	топливную	топливный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 89931
+# text = Новые завихрители потока представляют собой набор длинных пластин, устанавливаемых в хвостовой части транспортника, где происходит ламинарное обтекание с медленным пограничным слоем.Эти завихрители призваны ускорить обтекание хвостовой части, а также перенаправить часть возушного потока к T-образному хвостовому оперению, чтобы улучшить его характеристики.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	завихрители	завихритель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	потока	потоок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собой	себя	PRON	_	Case=Ins	4	dep	_	_
+6	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	длинных	длинный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	пластин	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	устанавливаемых	устанавливать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	хвостовой	хвостовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+14	транспортника	транспортник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+17	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	ламинарное	ламинарный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	обтекание	обтекание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+20	с	с	ADP	_	_	25	case	_	_
+21	медленным	медленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+22	пограничным	пограничный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+23	слоем.	слоемей	DET	_	Case=Gen|Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+24	Эти	этот	DET	_	Case=Nom|Number=Plur	25	amod	_	_
+25	завихрители	завихритель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_
+26	призваны	призванный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	_
+27	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	dep	_	_
+28	обтекание	обтекание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+29	хвостовой	хвостовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	а	а	CCONJ	_	_	34	cc	_	_
+33	также	также	ADV	_	Degree=Pos	34	advmod	_	_
+34	перенаправить	перенаправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+35	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+36	возушного	возушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	к	к	ADP	_	_	41	case	_	_
+39	T-образному	T-образный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+40	хвостовому	хвостовый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+41	оперению	оперение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+44	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+45	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	46	nmod	_	_
+46	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 89932
+# text = В новый набор также входят новые обтекатели.
+1	В	в	ADP	_	_	3	case	_	_
+2	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	обтекатели	обтекатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 89933
+# text = Их планируется устанавливать на некотором расстоянии перед стыком крыла и фюзеляжа.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj:pass	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	некотором	некоторый	DET	_	Case=Loc|Gender=Neut|Number=Sing	6	amod	_	_
+6	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	перед	перед	ADP	_	_	8	case	_	_
+8	стыком	стык	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+9	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 89934
+# text = По оценке разработчиков, установка полного комплекта завихрителей потока на самолет позволит снизить расход топлива на один-два процента, что даст экономию топлива до 53 миллионов литров в год по всему флоту C-17.Василий Сычёв
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	комплекта	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	завихрителей	завихритель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+12	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+13	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	расход	расход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	на	на	ADP	_	_	20	case	_	_
+17	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	20	nummod:gov	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	17	nummod:gov	_	_
+20	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+23	даст	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+24	экономию	экономия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	до	до	ADP	_	_	28	case	_	_
+27	53	53	NUM	_	_	28	nummod	_	_
+28	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+29	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obl	_	_
+32	по	по	ADP	_	_	34	case	_	_
+33	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	34	amod	_	_
+34	флоту	флот	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+35	C-17.	c-17.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	SpaceAfter=No
+36	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	nmod	_	_
+37	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+

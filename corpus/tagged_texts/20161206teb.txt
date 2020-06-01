@@ -1,0 +1,557 @@
+# sent_id = 83395
+# text = Китайская компания TEB Tech, разработавшая автобус-портал TEB-1, бросила эту машину на том участке дороги, где в августе текущего года проводилась ее публичная демонстрация.
+1	Китайская	китайский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+3	TEB	Teb	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Tech	Tech	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	разработавшая	разработать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+7	автобус-портал	автобус-портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	TEB	Teb	PROPN	_	Foreign=Yes	7	appos	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	1	1	NUM	_	_	8	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	бросила	бросать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	17	amod	_	_
+17	участке	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+18	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	где	где	ADV	_	Degree=Pos	25	advmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+23	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	проводилась	проводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	18	acl:relcl	_	_
+26	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	28	nmod	_	_
+27	публичная	публичной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	демонстрация	демонстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 83396
+# text = Как пишет Shangaiist, один из местных репортеров поинтересовался у охранников о судьбе автобуса и узнал, что те уже давно не могут выйти на связь с нанимателем.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	Shangaiist	Shangaiist	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	один	один	NUM	_	Case=Nom|Gender=Masc	9	nsubj:pass	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	местных	местный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	репортеров	репортер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	поинтересовался	поинтересовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	охранников	охранник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	судьбе	судьба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	узнал	узнавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	те	тот	DET	_	Case=Nom|Number=Plur	23	nsubj	_	_
+20	уже	уже	ADV	_	Degree=Pos	21	advmod	_	_
+21	давно	давно	ADV	_	Degree=Pos	23	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+24	выйти	выходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	нанимателем	наниматель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 83397
+# text = Машина расположена на участке действующей дороги под металлическим навесом и перекрывает три полосы, мешая нормальному движению.Проект автобуса-портала разрабатывается на протяжении последних нескольких лет.
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	участке	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	действующей	действовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	под	под	ADP	_	_	9	case	_	_
+8	металлическим	металлический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	навесом	навес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	перекрывает	перекрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	три	три	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	полосы	полоса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	мешая	мешать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+16	нормальному	нормальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	движению	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Проект	проект	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+20	автобуса-	автобуса-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	портала	портал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+22	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	parataxis	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+25	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+26	нескольких	несколько	NUM	_	Case=Gen	27	nummod	_	_
+27	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 83398
+# text = Впервые полноценную концепцию этого транспорта китайские разработчики представили в мае 2016 года на международной выставке High-Tech Expo, проходившей в Пекине.
+1	Впервые	впервые	ADV	_	Degree=Pos	2	advmod	_	_
+2	полноценную	полноценный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	концепцию	концепция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	китайские	китайский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	представили	представлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	2016	2016	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	выставке	выставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+16	High	High	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	-Tech	-Tech	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Expo	Expo	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	проходившей	проходить	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	Пекине	пекин	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83399
+# text = Автобус имеет две боковые опоры с колесными парами.
+1	Автобус	автобус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	две	два	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	_
+4	боковые	боковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	опоры	опора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	колесными	колесный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	парами	пар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 83400
+# text = Средняя часть транспорта приподнята над дорогой и под ней могут проезжать машины высотой не более 2,1 метра.
+1	Средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	приподнята	приподнимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	над	над	ADP	_	_	6	case	_	_
+6	дорогой	дорога	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	obl	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	проезжать	проезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+13	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl:agent	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	более	более	ADV	_	Degree=Cmp	17	nummod:gov	_	_
+16	2,1	2,1	NUM	_	_	17	nummod	_	_
+17	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 83401
+# text = Под портальным автобусом умещаются две дорожные полосы.Автобус оснащен системой безопасности -- шлагбаумами, опускающимися в портале во время остановки для посадки и высадки пассажиров.
+1	Под	под	ADP	_	_	3	case	_	_
+2	портальным	портальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	автобусом	автобус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+4	умещаются	умещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	две	два	NUM	_	Case=Nom|Gender=Fem	7	nummod:gov	_	_
+6	дорожные	дорожной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	полосы	полоса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Автобус	Автобус	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+10	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+11	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	шлагбаумами	шлагбаум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	опускающимися	опускаоться	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	во	во	ADP	_	_	21	case	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	остановки	остановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	высадки	высадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+26	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83402
+# text = Длина представленного автобуса-портала составляет 22 метра, ширина -- 7,8 метра, а высота -- 4,5 метра.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	представленного	представлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	автобуса-	автобуса-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	портала	портал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	22	22	NUM	_	_	7	nummod	_	_
+7	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ширина	ширина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	7,8	7,8	NUM	_	_	12	nummod	_	_
+12	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	15	cc	_	_
+15	высота	высота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	4,5	4,5	NUM	_	_	18	nummod	_	_
+18	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 83403
+# text = TEB-1 представляет собой одну небольшую секцию, но согласно проекту, серийный автобус-портал представляет собой две такие секции, объединенные в поезд.
+1	TEB	Teb	PROPN	_	Foreign=Yes	4	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	1	1	NUM	_	_	1	nummod	_	_
+4	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собой	себя	PRON	_	Case=Ins	4	dep	_	_
+6	одну	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	небольшую	небольшой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	секцию	секция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	12	cc	_	_
+11	согласно	согласно	ADP	_	_	12	case	_	_
+12	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	серийный	серийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	автобус-портал	автобус-портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	собой	себя	PRON	_	Case=Ins	16	obl	_	_
+18	две	два	NUM	_	Case=Nom|Gender=Fem	16	nummod:gov	_	_
+19	такие	такой	DET	_	Case=Nom|Number=Plur	20	amod	_	_
+20	секции	секция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	объединенные	объединять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	поезд	поезд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 83404
+# text = В TEB Tech /заявляли, что такой транспорт позволит снизить транспортную нагрузку на дороги не уменьшая пассажиропоток.Публичная демонстрация TEB-1 состоялась 2 августа 2016 года в Циньхуандао в провинции Хэбэй.
+1	В	в	ADP	_	_	2	case	_	_
+2	TEB	Teb	PROPN	_	Foreign=Yes	4	nsubj	_	_
+3	Tech	Tech	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	/заявляли	/заявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	транспорт	транспорт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+10	снизить	снизать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	транспортную	транспортный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	дороги	дорога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	уменьшая	уменьать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+17	пассажиропоток.	пассажиропотоколо	ADP	_	_	19	case	_	SpaceAfter=No
+18	Публичная	публичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	демонстрация	демонстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
+20	TEB	Teb	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	1	1	NUM	_	_	16	nummod	_	_
+23	состоялась	состояться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+24	2	2	NUM	_	_	23	nummod	_	_
+25	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	2016	2016	NUM	_	_	27	nummod	_	_
+27	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	Циньхуандао	Циньхуандао	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	провинции	провинция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+32	Хэбэй	Хэбэй	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	appos	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 83405
+# text = Для этого TEB Tech арендовала у местных властей участок дороги длиной 300 метров.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	TEB	Teb	PROPN	_	Foreign=Yes	5	nsubj	_	_
+4	Tech	Tech	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	арендовала	арендовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	у	у	ADP	_	_	8	case	_	_
+7	местных	местный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	властей	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	участок	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+10	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+12	300	300	NUM	_	_	13	nummod	_	_
+13	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 83406
+# text = Там же в течение последующих нескольких дней проводились испытания автобуса-портала.
+1	Там	там	PART	_	_	8	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	в	в	ADP	_	_	7	case	_	_
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	последующих	последующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	нескольких	несколько	NUM	_	Case=Gen	7	nummod	_	_
+7	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+8	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	_
+10	автобуса-	автобуса-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	портала	портал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83407
+# text = Однако они прекратились после того, как несколько китайских газет написали, что TEB Tech получила инвестиции в проект автобуса не дав никаких гарантий своим кредиторам.Изначально, по условиям договора, срок аренды участка дороги в Циньхуандао истекал 31 августа 2016 года, но в сентябре представитель TEB Tech Ли Наньцан объявил, что компания продлила соглашение на год.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	прекратились	прекративаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	несколько	несколько	NUM	_	Case=Nom	10	nummod:gov	_	_
+9	китайских	китайский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	газет	газета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	написали	писать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	TEB	Teb	PROPN	_	Foreign=Yes	16	nsubj	_	_
+15	Tech	Tech	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+17	инвестиции	инвестиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	дав	давать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+23	никаких	никакой	DET	_	Case=Gen|Number=Plur	24	amod	_	_
+24	гарантий	гарантия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	obl	_	_
+25	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	26	amod	_	_
+26	кредиторам.	кредиторам.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+27	Изначально	Изначально	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	по	по	ADP	_	_	30	case	_	_
+30	условиям	условие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
+31	договора	договор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+34	аренды	аренда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	участка	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	Циньхуандао	Циньхуандао	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+39	истекал	истекать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+40	31	31	NUM	_	_	39	nummod	_	_
+41	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	2016	2016	NUM	_	_	43	nummod	_	_
+43	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	но	но	CCONJ	_	_	53	cc	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	сентябре	сентябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	53	obl	_	_
+48	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	53	nsubj	_	_
+49	TEB	Teb	PROPN	_	Foreign=Yes	48	flat:foreign	_	_
+50	Tech	Tech	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	48	appos	_	_
+51	Ли	ли	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	50	flat:name	_	_
+52	Наньцан	Наньцан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	flat:name	_	_
+53	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	39	conj	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	что	что	SCONJ	_	_	53	mark	_	_
+56	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	57	nsubj	_	_
+57	продлила	продливать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	53	advcl	_	_
+58	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	57	obj	_	_
+59	на	на	ADP	_	_	60	case	_	_
+60	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	57	obl	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	SpaceAfter=No
+
+# sent_id = 83408
+# text = Другие подробности ни о деталях договора, ни о сроках возобновления испытаний автобуса-портала не уточняются.Между тем, техническое исполнение автобуса-портала вызывает множество вопросов.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+3	ни	ни	PART	_	_	5	advmod	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	деталях	деталь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+6	договора	договор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ни	ни	CCONJ	_	_	10	cc	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	сроках	срок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	conj	_	_
+11	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	автобуса-портала	автобуса-портал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Между	между	ADP	_	_	18	case	_	_
+18	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	техническое	технический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+22	автобуса-	автобуса-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	портала	портал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+25	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83409
+# text = В частности, для передвижения по дорогам общего пользования в Китае допускаются машины высотой до 4,2 метра.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
+8	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Китае	китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+12	допускаются	допускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+14	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	4,2	4,2	NUM	_	_	17	nummod	_	_
+17	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 83410
+# text = Очевидно, что проехать под автобусом-порталом они не смогут, а значит этот вид пассажирского транспорта будет препятствовать нормальному дорожному движению.
+1	Очевидно	очевидный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	проехать	ехать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+5	под	под	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	автобусом-	автобусом-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	порталом	портал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	19	cc	_	_
+13	значит	значит	ADV	_	Degree=Pos	19	advmod	_	_
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	_
+15	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+16	пассажирского	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	препятствовать	препятствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+20	нормальному	нормальной	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+21	дорожному	дорожный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	движению	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83411
+# text = Кроме того, выяснилось, что для посадки в автобус и высадки из него необходимы специальные остановки, возвышающиеся над дорогой.Подозрения также вызывает потенциальная безопасность TEB-1 для пассажиров в случае аварии, поскольку совершенно не ясно, как пассажиры смогут быстро спуститься с большой высоты.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+9	в	в	ADP	_	_	8	case	_	_
+10	автобус	автобус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	высадки	высадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+15	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	_
+16	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	остановки	остановка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	возвышающиеся	возвышаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	17	amod	_	_
+20	над	над	ADP	_	_	21	case	_	_
+21	дорогой	дорога	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Подозрения	подозрения	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+24	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+25	вызывает	вызывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+26	потенциальная	потенциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+28	TEB	Teb	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	1	1	NUM	_	_	28	nummod	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	_
+35	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	поскольку	поскольку	SCONJ	_	_	25	mark	_	_
+38	совершенно	совершенно	ADV	_	Degree=Pos	39	advmod	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	ясно	ясно	ADV	_	Degree=Pos	44	advmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	как	как	SCONJ	_	_	44	mark	_	_
+43	пассажиры	пассажир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	44	nsubj	_	_
+44	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	25	advcl	_	_
+45	быстро	быстро	ADV	_	Degree=Pos	44	advmod	_	_
+46	спуститься	спускаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	44	xcomp	_	_
+47	с	с	ADP	_	_	49	case	_	_
+48	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 83412
+# text = Не понятно также, сможет ли конструкция автобуса-портала обеспечить невредимость пассажиров, если произойдет столкновение автомобилей под ним, особенно, если из один участников аварии столкнется с одной из опор.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	понятно	понятно	ADV	_	Degree=Pos	5	advmod	_	_
+3	также	также	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ли	ли	PART	_	_	5	advmod	_	_
+7	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	автобуса-	автобуса-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	портала	портать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	невредимость	невредимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	если	если	SCONJ	_	_	5	mark	_	_
+15	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+16	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+17	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	под	под	ADP	_	_	19	case	_	_
+19	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	особенно	особенно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	если	если	SCONJ	_	_	15	mark	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	26	nummod:gov	_	_
+26	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+27	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	столкнется	сталкиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	advcl	_	_
+29	с	с	ADP	_	_	30	case	_	_
+30	одной	один	NUM	_	Case=Loc|Gender=Fem	28	nummod	_	_
+31	из	из	ADP	_	_	32	case	_	_
+32	опор	опора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 83413
+# text = Наконец, некоторые эксперты указывали, что дороги длиной 300 метров недостаточно для полноценных испытаний нового вида городского транспорта.Василий Сычёв
+1	Наконец	наконец	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	дороги	дорога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	advcl	_	_
+9	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+10	300	300	NUM	_	_	11	nummod	_	_
+11	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	недостаточно	недостаточно	ADV	_	Degree=Pos	15	advmod	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	полноценных	полноценный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+16	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	городского	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+22	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+

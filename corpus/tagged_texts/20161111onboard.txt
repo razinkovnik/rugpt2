@@ -1,0 +1,399 @@
+# sent_id = 79098
+# text = Техники Морской пехоты США впервые произвели замену двигателя F135 и генератора истребителя F-35B Lightning II на корабле, сообщает Defense Aerospace.
+1	Техники	техник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	впервые	впервые	ADV	_	Degree=Pos	6	advmod	_	_
+6	произвели	производить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	F135	F135	NUM	_	_	8	nummod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	генератора	генератор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+12	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	F-35B	F-35b	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Lightning	Lightning	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	II	ii	NUM	_	_	14	nummod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	корабле	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	Defense	Defense	PROPN	_	Foreign=Yes	19	nsubj	_	_
+21	Aerospace	Aerospace	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79099
+# text = Испытания на замену силовой установки проводились на борту универсального десантного корабля "Америка".
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj:pass	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	универсального	универсальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	десантного	десантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Америка	америка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79100
+# text = Прежде предполагалось, что военные не смогут выполнять такие действия в море.До сих пор считалось, что военные столкнутся с серьезными сложностями при транспортировке запасных двигателей на корабли и их замене в относительно тесных ангарах под летной палубой.
+1	Прежде	прежде	ADV	_	Degree=Pos	2	advmod	_	_
+2	предполагалось	предполагаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+9	такие	такой	DET	_	Case=Acc|Number=Plur	10	amod	_	_
+10	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+11	в	в1	ADP	_	_	12	mark	_	_
+12	море.	морбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+13	До	до	ADP	_	_	16	advmod	_	_
+14	сих	сей	DET	_	Case=Gen|Number=Plur	13	fixed	_	_
+15	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	fixed	_	_
+16	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	столкнутся	столкнаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	16	advcl	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	серьезными	серьезный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	сложностями	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	_
+24	при	при	ADP	_	_	25	case	_	_
+25	транспортировке	транспортировка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+26	запасных	запасной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	корабли	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	nmod	_	_
+30	и	и	CCONJ	_	_	39	cc	_	_
+31	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	39	nmod	_	_
+32	замене	заменй	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	39	amod	_	_
+33	в	в	ADP	_	_	36	case	_	_
+34	относительно	относительно	ADV	_	Degree=Pos	35	advmod	_	_
+35	тесных	тесной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	36	amod	_	_
+36	ангарах	ангар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	nmod	_	_
+37	под	под	ADP	_	_	39	case	_	_
+38	летной	летный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	палубой	палуба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 79101
+# text = Дело в том, что по своим габаритам силовая установка F-35B получилась крупнее обычных реактивных установок, используемых Морской пехотой на палубных штурмовых самолетах AV-8B Harrier II.Двигатель F135 имеет в длину 5,6 метра и наибольший диаметр 1,2 метра.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	своим	свой	DET	_	Case=Dat|Number=Plur	8	amod	_	_
+8	габаритам	габарита	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
+9	силовая	силовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	F-35B	F-35b	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	получилась	лучиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	31	nsubj	_	_
+13	крупнее	крупный	ADJ	_	Degree=Cmp	12	amod	_	_
+14	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	реактивных	реактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	установок	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+19	Морской	морской	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	пехотой	пехота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl:agent	_	_
+21	на	на	ADP	_	_	24	case	_	_
+22	палубных	палубный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+23	штурмовых	штурмовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	_
+25	AV-	AV-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	8B	8b	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	Harrier	Harrier	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	II.	II.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+29	Двигатель	Двигатель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	_
+30	F135	F135	NUM	_	_	29	nummod	_	_
+31	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+34	5,6	5,6	NUM	_	_	35	nummod	_	_
+35	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	и	и	CCONJ	_	_	38	cc	_	_
+37	наибольший	наибольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	conj	_	_
+39	1,2	1,2	NUM	_	_	40	nummod	_	_
+40	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 79102
+# text = Масса силовой установки составляет 1,7 тонны.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	1,7	1,7	NUM	_	_	6	nummod	_	_
+6	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 79103
+# text = Этот двигатель способен развивать мощность до 190 килоньютонов.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	190	190	NUM	_	_	8	nummod	_	_
+8	килоньютонов	килоньютон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 79104
+# text = Для сравнения, длина двигателя F402-RR-408 штурмовика AV-8B составляет 3,5 метра, наибольший диаметр -- 1,2 метра, а масса -- 1,8 тонны.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+5	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	F402-RR	F402-rr	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	408	408	NUM	_	_	6	nummod	_	_
+9	штурмовика	штурмовик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	AV-	AV-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	8B	8b	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	3,5	3,5	NUM	_	_	14	nummod	_	_
+14	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	наибольший	наибольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	1,2	1,2	NUM	_	_	20	nummod	_	_
+20	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	23	cc	_	_
+23	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	1,8	1,8	NUM	_	_	26	nummod	_	_
+26	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79105
+# text = Двигатель может развивать тягу до 106 килоньютонов.Изначально военные техники предполагали, что доставлять запасные силовые установки F-35B на универсальные десантные корабли и авианосцы можно будет в частично разобранном виде.
+1	Двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	106	106	NUM	_	_	7	nummod	_	_
+7	килоньютонов.	килоньютоновек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	Изначально	Изначально	ADV	_	Degree=Pos	11	advmod	_	_
+9	военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	техники	техник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	advcl	_	_
+15	запасные	запасной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	силовые	силовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	установки	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+18	F-35B	F-35b	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	на	на	ADP	_	_	22	case	_	_
+20	универсальные	универсальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	десантные	десантный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	корабли	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	авианосцы	авианосца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	conj	_	_
+25	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+26	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+27	в	в	ADP	_	_	30	case	_	_
+28	частично	частично	ADV	_	Degree=Pos	29	advmod	_	_
+29	разобранном	разбирать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+30	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 79106
+# text = При этом не исключалась возможность того, что при сборке могут быть допущены серьезные ошибки.Как именно техникам удалось произвести замену крупного двигателя и генератора истребителя F-35B на борту универсального десантного корабля, не уточняется.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	исключалась	исключать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	сборке	сборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+12	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	aux:pass	_	_
+13	допущены	допущать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+14	серьезные	серьезный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	ошибки.	ошибки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+16	Как	как	ADV	_	Degree=Pos	19	cc	_	_
+17	именно	именно	PART	_	_	18	advmod	_	_
+18	техникам	техник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+19	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+20	произвести	производить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+21	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	крупного	крупный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	генератора	генератор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_
+26	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	F-35B	F-35b	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+30	универсального	универсальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	десантного	десантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	не	не	PART	_	_	35	advmod	_	_
+35	уточняется	уточняуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	19	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 79107
+# text = Морская пехота США утверждает, что процедура технического обслуживания и ремонта новых боевых самолетов в море разрабатывалась на протяжении последних двух лет.Сама процедура замены силовой установки заняла чуть меньше недели, хотя в обычных условиях замена реактивного двигателя занимает не больше суток.
+1	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	утверждает	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	процедура	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+8	технического	технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ремонта	ремонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	море	море	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+17	разрабатывалась	разрабатывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	advcl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+20	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	двух	два	NUM	_	Case=Gen	19	nummod	_	_
+22	лет.	лето	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	SpaceAfter=No
+23	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	процедура	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+25	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	заняла	занимать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+29	чуть	чуть	ADV	_	Degree=Pos	30	advmod	_	_
+30	меньше	мало	NUM	_	_	31	nummod:gov	_	_
+31	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	хотя	хотя	SCONJ	_	_	17	mark	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	обычных	обычный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	36	amod	_	_
+36	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	40	obl	_	_
+37	замена	замена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	40	nsubj	_	_
+38	реактивного	реактивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+40	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+41	не	не	PART	_	_	42	advmod	_	_
+42	больше	больше	ADV	_	Degree=Cmp	43	nummod:gov	_	_
+43	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 79108
+# text = Согласно заявлению Морской пехоты США, такой длительный срок потребовался потому, что замена производилась впервые и техникам необходимо было фиксировать каждое выполненное действие и заносить сведения о них в базу данных.Ранее стало известно, что истребители F-35B впервые приняли участие в учебном воздушном бою с "Противниками".
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	заявлению	заявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	parataxis	_	_
+3	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+8	длительный	длительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	потребовался	потребоваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	потому	потому	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	10	mark	_	_
+14	замена	замена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+15	производилась	производить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	10	advcl	_	_
+16	впервые	впервые	ADV	_	Degree=Pos	15	advmod	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	техникам	техник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+19	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	34	advcl	_	_
+20	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+21	фиксировать	фиксировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+22	каждое	каждый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+23	выполненное	выполнать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	_
+24	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	заносить	заносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	conj	_	_
+27	сведения	сведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obj	_	_
+28	о	о	ADP	_	_	29	case	_	_
+29	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	27	nmod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obl	_	_
+32	данных.	данныхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+33	Ранее	ранее	ADV	_	Degree=Cmp	34	advmod	_	_
+34	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	_
+35	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	что	что	SCONJ	_	_	34	mark	_	_
+38	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	41	nsubj	_	_
+39	F-35B	F-35b	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	впервые	впервые	ADV	_	Degree=Pos	41	advmod	_	_
+41	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	advcl	_	_
+42	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
+43	в	в	ADP	_	_	46	case	_	_
+44	учебном	учебный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+45	воздушном	воздушной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	бою	бой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	41	obl	_	_
+47	с	с	ADP	_	_	49	case	_	_
+48	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	Противниками	противник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	41	obl	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 79109
+# text = Так в составе ВМС США называют эскадрильи боевых самолетов, во время учений имитирующих противника.
+1	Так	так	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	эскадрильи	эскадрилий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+8	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	во	во	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	учений	учение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	conj	_	_
+14	имитирующих	имитируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79110
+# text = Благодаря такому учению военные смогли проверить боевые возможности F-35B, программное обеспечение которого пока содержат восемь серьезных ошибок.Василий Сычёв
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	учению	учение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	боевые	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	F-35B	F-35b	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+13	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+14	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+15	содержат	содержить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	восемь	восемь	NUM	_	Case=Acc	18	nummod:gov	_	_
+17	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	ошибок	ошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

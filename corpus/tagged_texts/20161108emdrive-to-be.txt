@@ -1,0 +1,175 @@
+# sent_id = 78434
+# text = В сети появился отчет о работоспособности "невозможного двигателя" EmDrive, якобы написанный отделом Eagleworks (NASA) и готовящийся к выходу в рецензируемом журналеJournal of Propulsion and Power.
+1	В	в	ADP	_	_	2	case	_	SpacesBefore=\n
+2	сети	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	отчет	отчет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	работоспособности	работоспособность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	невозможного	невозможной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	EmDrive	EmDrive	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	якобы	якобы	ADV	_	Degree=Pos	14	advmod	_	_
+14	написанный	написывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	отделом	отделом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
+16	Eagleworks	Eagleworks	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	NASA	Nasa	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	готовящийся	готовиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	выходу	выход	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	рецензируемом	рецензируем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_
+26	журналеJournal	журналеJournal	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	of	of	X	_	Foreign=Yes	26	flat:foreign	_	_
+28	Propulsion	Propulsion	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	and	and	X	_	Foreign=Yes	28	flat:foreign	_	_
+30	Power	Power	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 78435
+# text = Согласно документу, многочисленные тесты в вакууме и воздухе подтверждают наличие тяги в двигателе на уровне 1,2 0,1 миллиньютона на киловатт.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	документу	документ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	многочисленные	многочисленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	тесты	тест	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	вакууме	вакуум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+10	подтверждают	подтверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	наличие	наличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	двигателе	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	1,2	1,2	NUM	_	_	19	nummod	_	SpacesAfter=\s\s
+18	0,1	0,1	NUM	_	_	17	nummod	_	_
+19	миллиньютона	миллиньютон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78436
+# text = Препринт статьи изначально появился на форумеNASA Spaceflight, однако впоследствии был удален и вновь опубликован изданием Nextbigfuture.EmDrive состоит из двух основных частей -- магнетрона, производящего высокочастотное электромагнитное излучение, и резонатора в форме усеченного конуса.
+1	Препринт	Препринт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	изначально	изначально	ADV	_	Degree=Pos	4	advmod	_	_
+4	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	форумеNASA	форумеnasa	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Spaceflight	Spaceflight	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+10	впоследствии	впоследствии	ADV	_	Degree=Pos	12	advmod	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	удален	удаливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	вновь	вновь	ADV	_	Degree=Pos	15	advmod	_	_
+15	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+16	изданием	издание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+17	Nextbigfuture.EmDrive	Nextbigfuture.EmDrive	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	из	из	ADP	_	_	22	case	_	_
+20	двух	два	NUM	_	Case=Gen	22	nummod	_	_
+21	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+23	--	--	PUNCT	_	_	22	punct	_	_
+24	магнетрона	магнетрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	производящего	производить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	высокочастотное	высокочастотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+28	электромагнитное	электромагнитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj:pass	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	резонатора	резонатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+33	в	в	ADP	_	_	32	case	_	_
+34	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_
+35	усеченного	усеченный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	конуса	конус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 78437
+# text = Согласно утверждениям изобретателя двигателя, Роджера Шойера, из-за асимметрии резонатора давление на его заднюю и переднюю стенку оказывается различным, что и вызывает тягу.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	утверждениям	утверждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	19	obl	_	_
+3	изобретателя	изобретатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Роджера	Роджер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	_
+7	Шойера	Шойер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	из-за	из-за	ADP	_	_	10	case	_	_
+10	асимметрии	асимметрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+11	резонатора	резонатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	давление	давление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+13	на	на	ADP	_	_	18	case	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+15	заднюю	задний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	переднюю	передний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	_
+18	стенку	стенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+19	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	различным	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	19	mark	_	_
+23	и	и	PART	_	_	24	advmod	_	_
+24	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+25	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78438
+# text = Однако подобный принцип работы (как и более сложные предположения, связанные с "отталкиванием" от вакуума) нарушает закон сохранения импульса или предполагает существование неких новых эффектов.
+1	Однако	однако	ADV	_	Degree=Pos	20	advmod	_	_
+2	подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	принцип	принцип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	как	как	SCONJ	_	_	8	cc	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+9	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	предположения	предположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	отталкиванием	отталкивание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	вакуума	вакуум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	нарушает	нарушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	импульса	импульс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	существование	существование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	неких	некий	DET	_	Case=Gen|Number=Plur	29	amod	_	_
+28	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	эффектов	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 78439
+# text = В частности, сомнительным кажется отсутствие у двигателя рабочего тела.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	сомнительным	сомнительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	_
+5	кажется	кажваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	у	у	ADP	_	_	8	case	_	_
+8	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	рабочего	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+

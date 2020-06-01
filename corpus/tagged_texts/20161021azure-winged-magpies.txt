@@ -1,0 +1,186 @@
+# sent_id = 75934
+# text = Сороки оказались способны безвозмездно помогать другим членам стаи добывать пищу, сообщают ученые встатье, опубликованной вжурнале Biology Letters.
+1	Сороки	сорок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	amod	_	_
+4	безвозмездно	безвозмездно	ADV	_	Degree=Pos	3	advmod	_	_
+5	помогать	помогать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+6	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	членам	член	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+8	стаи	стая	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	добывать	добывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+10	пищу	пища	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	встатье	встатье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	опубликованной	опубликовывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+18	Biology	Biology	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Letters	Letters	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75935
+# text = Ученые связывают это с тем, что они коллективно воспитывают потомство.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+9	коллективно	коллективно	ADV	_	Degree=Pos	10	advmod	_	_
+10	воспитывают	воспитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	потомство	потомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 75936
+# text = Просоциальное поведение -- это поведение, которое направлено напомощь другим членам сообщества инепредполагает награды.
+1	Просоциальное	Просоциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+5	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которое	который	PRON	_	Case=Nom	8	nsubj:pass	_	_
+8	направлено	направлять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9	напомощь	напомощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+10	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	членам	член	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+12	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	инепредполагает	инепредполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	награды	награда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75937
+# text = Первоначально термин применялся исключительно поотношению кчеловеку, однако позже ученые выяснили, что просоциальное поведение характерно также идля животных.
+1	Первоначально	первоначально	ADV	_	Degree=Pos	3	advmod	_	_
+2	термин	термин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	применялся	применять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	исключительно	исключительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	поотношению	поотношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+6	кчеловеку	кчеловек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+9	позже	поздно	ADV	_	Degree=Cmp	11	advmod	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	просоциальное	просоциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	характерно	характерный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	advcl	_	_
+17	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+18	идля	идля	ADP	_	_	19	case	_	_
+19	животных	животное	NOUN	_	Animacy=Anim|Case=Loc|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75938
+# text = Вчастности, оно наблюдается ушимпанзе, макак икитов-горбачей.Авторы новой статьи считают, что альтруизм у животных может быть связан ссовместным уходом запотомством.
+1	Вчастности	Вчастность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	4	nsubj:pass	_	_
+4	наблюдается	наблюдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	ушимпанзе	ушимпанза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	макак	макак	CCONJ	_	_	12	cc	_	_
+8	икитов-горбачей.	икитов-горбачей.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+9	Авторы	автор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+10	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	альтруизм	альтруизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	у	у	ADP	_	_	17	case	_	_
+17	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+19	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	aux:pass	_	_
+20	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+21	ссовместным	ссовместный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	уходом	уход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+23	запотомством	запотомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75939
+# text = Такая модель подразумевает, что детенышам помогают нетолько ихсобственные родители, ноидругие члены группы.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	детенышам	детеныш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+7	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	нетолько	нетолько	PART	_	_	10	advmod	_	_
+9	ихсобственные	ихсобственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	родители	родитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ноидругие	ноидругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	члены	член	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	_
+14	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75940
+# text = Впользу взаимосвязи между коллективным воспитанием потомства ипросоциальным поведением говорят сравнительные исследования приматов, которые показывают, что чем больше задетенышами ухаживают посторонние особи, тем чаще они безвозмездно помогают другим.
+1	Впользу	Впольза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+2	взаимосвязи	взаимосвязь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	между	между	ADP	_	_	5	case	_	_
+4	коллективным	коллективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	воспитанием	воспитание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+6	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	ипросоциальным	ипросоциальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	поведением	поведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+9	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	сравнительные	сравнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+12	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	чем	чем	SCONJ	_	_	19	cc	_	_
+19	больше	много	NUM	_	_	20	nummod:gov	_	_
+20	задетенышами	задетеныш	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_
+21	ухаживают	ухаживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+22	посторонние	посторонний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	тем	тем	SCONJ	_	_	21	mark	_	_
+26	чаще	часто	ADV	_	Degree=Cmp	29	advmod	_	_
+27	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	29	nsubj	_	_
+28	безвозмездно	безвозмездно	ADV	_	Degree=Pos	29	advmod	_	_
+29	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
+30	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 75941
+# text = Однако эта гипотеза непроверялась на других животных, помимо приматов, поэтому авторы нового исследования решили изучить поведение птиц, которые растят птенцов совместно.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	непроверялась	непроверяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	помимо	помимо	ADP	_	_	10	case	_	_
+10	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	поэтому	поэтому	ADV	_	Degree=Pos	16	advmod	_	_
+13	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+14	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которые	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	растят	растить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+23	птенцов	птенец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+24	совместно	совместно	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+

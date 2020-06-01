@@ -1,0 +1,216 @@
+# sent_id = 75075
+# text = Химики из США, Австралии и Японии выяснили, что краситель сафранин О способен предотвращать кристаллизацию (замерзание) воды даже при небольших концентрациях.
+1	Химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Японии	япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+8	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	краситель	краситель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	сафранин	сафранин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+13	О	о	ADP	_	_	14	case	_	_
+14	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	advcl	_	_
+15	предотвращать	предотвращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	dep	_	_
+16	кристаллизацию	кристаллизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	замерзание	замерзание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+21	даже	даже	PART	_	_	24	advmod	_	_
+22	при	при	ADP	_	_	24	case	_	_
+23	небольших	небольшой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	концентрациях	концентрация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 75076
+# text = Эта способность ставит его в один ряд с белками-антифризами, позволяющими рыбам и другим организмам существовать при экстремально низких температурах.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ставит	ставить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod:gov	_	_
+7	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+8	с	с	ADP	_	_	7	case	_	_
+9	белками	белок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	антифризами	антифриз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	позволяющими	позволять	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	рыбам	рыбин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	conj	_	_
+17	организмам	организм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
+18	существовать	существовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+19	при	при	ADP	_	_	22	case	_	_
+20	экстремально	экстремально	ADV	_	Degree=Pos	21	advmod	_	_
+21	низких	низкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	температурах	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 75077
+# text = Вместе с тем, молекулы сафранина в 10-100 раз меньше этих белков.
+1	Вместе	вместе	ADV	_	Degree=Pos	11	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+6	сафранина	сафранин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	10	10	NUM	_	_	10	nummod	_	SpaceAfter=No
+9	-100	-100	NUM	_	_	8	nummod	_	_
+10	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+11	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	_
+12	этих	этот	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75078
+# text = Традиционно этот краситель используется биологами для окраски клеточных ядер.Исследование опубликовано в Journal of American Chemical Society, кратко о нем сообщает Chemistry World.Белки-антифризы -- специальные вещества, необходимые для выживания животных, живущих в условиях низких температур.
+1	Традиционно	традиционно	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	краситель	краситель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	биологами	биолог	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	окраски	окраска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	клеточных	клеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod	_	_
+9	ядер.	ядеранцузский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No
+10	Исследование	Исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+11	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	parataxis	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Journal	journal	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	of	of	X	_	Foreign=Yes	13	flat:foreign	_	_
+15	American	american	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Chemical	Chemical	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Society	society	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	кратко	кратко	ADV	_	Degree=Pos	21	advmod	_	_
+20	о	о	ADP	_	_	21	case	_	_
+21	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	22	obl	_	_
+22	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+23	Chemistry	Chemistry	ADJ	_	Foreign=Yes	24	amod	_	_
+24	World.	World.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+25	Белки	белка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	антифризы	антифриз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	appos	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	специальные	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+33	для	для	ADP	_	_	34	case	_	_
+34	выживания	выживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	живущих	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	35	amod	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	37	obl	_	_
+40	низких	низкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	температур	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 75079
+# text = Они способны к самоорганизации: упорядоченному "склеиванию" друг с другом, заставляющему их создавать протяженные структуры.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	самоорганизации	самоорганизация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	упорядоченному	упорядочать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	склеиванию	склеивание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	fixed	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	заставляющему	заставлять	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obj	_	_
+16	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	dep	_	_
+17	протяженные	протяженный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	структуры	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75080
+# text = Их строение напоминает кристаллическую структуру льда, поэтому если раствор таких белков начинает замерзать, они окружают небольшие кристаллы льда, словно бы продолжая их структуру.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	строение	строение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	кристаллическую	кристаллический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+9	если	если	SCONJ	_	_	3	mark	_	_
+10	раствор	раствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+11	таких	такой	DET	_	Case=Gen|Number=Plur	12	amod	_	_
+12	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+14	замерзать	замерзать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
+17	окружают	окружить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+20	льда	лед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	словно	словно	PART	_	_	24	advmod	_	_
+23	бы	бы	PART	_	Mood=Cnd	22	aux	_	_
+24	продолжая	продолжать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	26	nmod	_	_
+26	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 75081
+# text = Этот процесс быстро останавливает рост кристаллов, поддерживая их размер постоянным вплоть до некоторой критической температуры.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	быстро	быстро	ADV	_	Degree=Pos	4	advmod	_	_
+4	останавливает	останавливавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поддерживая	поддерживать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	8	obj	_	_
+10	размер	размер	ADV	_	Degree=Pos	11	advmod	_	_
+11	постоянным	постоянный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	_
+12	вплоть	вплоть	ADV	_	Degree=Pos	16	advmod	_	_
+13	до	до	ADP	_	_	16	case	_	_
+14	некоторой	некоторый	DET	_	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
+15	критической	критический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 75082
+# text = Благодаря этому внутри клеток организмов не возникает крупных кристаллов с острыми краями -- подобные объекты могут разорвать клеточную стенку, тем самым уничтожив клетку.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	внутри	внутри	ADV	_	Degree=Pos	4	advmod	_	_
+4	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
+5	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	острыми	острый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	краями	край	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+17	разорвать	разорвать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	клеточную	клеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	стенку	стенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	obl	_	_
+22	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+23	уничтожив	уничтожать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	16	advcl	_	_
+24	клетку	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+

@@ -1,0 +1,476 @@
+# sent_id = 86356
+# text = Северодвинский центр судоремонта "Звездочка" передал ВМФ России атомную подводную лодку БС-64 "Подмосковье", говорится в сообщении предприятия.
+1	Северодвинский	Северодвинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	судоремонта	судоремонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Звездочка	Звездочек	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ВМФ	Вмф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	России	россия	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	атомную	атомной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	подводную	подводный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	лодку	лодка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+13	БС-64	БС-64	X	_	Foreign=Yes	12	flat:foreign	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Подмосковье	подмосковье	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	parataxis	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+21	предприятия	предприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86357
+# text = Этот корабль будет использоваться военными в качестве носителя глубоководных атомных станций, в том числе аппарата проекта 10831 "Калитка" (неофициальное название "Лошарик").В настоящее время носителем глубоководных аппаратов выступает атомная подводная лодка БС-136 "Оренбург".
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	военными	военный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+6	в	в	ADP	_	_	5	case	_	_
+7	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+8	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+9	глубоководных	глубоководной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	атомных	атомный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	15	amod	_	_
+15	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	advmod	_	_
+16	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+17	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+18	10831	10831	NUM	_	_	20	nummod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Калитка	Калитка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	неофициальное	неофициальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	parataxis	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Лошарик	Лошарик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+30	В	в	ADP	_	_	36	advmod	_	_
+31	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	fixed	_	_
+32	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	fixed	_	_
+33	носителем	носитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	obl	_	_
+34	глубоководных	глубоководной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+36	выступает	выступавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+37	атомная	атомной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+38	подводная	подводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	лодка	лодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+40	БС-	БС-	PUNCT	_	_	39	punct	_	SpaceAfter=No
+41	136	136	NUM	_	_	39	nummod	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	Оренбург	Оренбург	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	appos	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 86358
+# text = Этот стратегический крейсер был изначально построен по проекту 667БДР "Кальмар" и передан флоту в 1978 году, а в 1996-2002 годах его переоборудовали под носителя глубоководных станций.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	стратегический	стратегический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	крейсер	крейсер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+5	изначально	изначально	ADV	_	Degree=Pos	6	advmod	_	_
+6	построен	строить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	667БДР	667бдр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Кальмар	Кальмар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	передан	передавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+15	флоту	флота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	1978	1978	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	27	cc	_	_
+21	в	в	ADP	_	_	25	case	_	_
+22	1996	1996	NUM	_	_	25	nummod	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	2002	2002	NUM	_	_	22	nummod	_	_
+25	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	27	obl	_	_
+26	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obj	_	_
+27	переоборудовали	переоборудовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	под	под	ADP	_	_	29	case	_	_
+29	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	_
+30	глубоководных	глубоководный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 86359
+# text = Подлодка "Оренбург" уже значительно устарела и требует замены.Стратегическая подводная лодка "Подмосковье", изначально построенная по проекту носителя баллистических ракет 667БДРМ "Дельфин", входит в состав российского флота с 1986 года.
+1	Подлодка	подлодка	ADP	_	_	3	case	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Оренбург	Оренбург	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+6	значительно	значительно	ADV	_	Degree=Pos	7	advmod	_	_
+7	устарела	устаревать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+10	замены.	замены.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+11	Стратегическая	стратегический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	подводная	подводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	лодка	лодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Подмосковье	подмосковье	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	изначально	изначально	ADV	_	Degree=Pos	19	advmod	_	_
+19	построенная	строить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+22	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	667БДРМ	667бдрм	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Дельфин	дельфин	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
+33	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+35	с	с	ADP	_	_	37	case	_	_
+36	1986	1986	NUM	_	_	37	nummod	_	_
+37	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 86360
+# text = В 1999 году корабль перевели в резерв и отправили в Северодвинск на прохождение капитального ремонта и переоборудование.В ходе работ "Подмосковье" лишилась отсека с пусковыми шахтами для баллистических ракет.
+1	В	в	ADP	_	_	3	case	_	_
+2	1999	1999	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	перевели	переводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	резерв	резерв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	отправили	отправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Северодвинск	Северодвинск	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	прохождение	прохождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+14	капитального	капитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	ремонта	ремонт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	переоборудование.	переоборудованибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+18	В	в	ADP	_	_	20	case	_	_
+19	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	fixed	_	_
+20	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Подмосковье	подмосковье	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	лишилась	лишаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+25	отсека	отсека	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+26	с	с	ADP	_	_	28	case	_	_
+27	пусковыми	пусковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+28	шахтами	шахты	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	nmod	_	_
+29	для	для	ADP	_	_	31	case	_	_
+30	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 86361
+# text = Вместо него специалисты установили новый отсек с научным оборудованием и аппаратурой, которая позволяет кораблю взаимодействовать с глубоководными станциями.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+3	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	отсек	отсек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	научным	научный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	оборудованием	оборудование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	аппаратурой	аппаратура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	кораблю	корабля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	взаимодействовать	взаимодействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	глубоководными	глубоководный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	станциями	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 86362
+# text = Другие подробности о проведенных работах не раскрываются.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	проведенных	проводить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86363
+# text = В ноябре и начале декабря 2016 года подлодка прошла государственные испытания.При длине 167,4 метра и ширине 11,7 метра подводное водоизмещение "Подмосковья" составляет 18,2 тысячи тонн.
+1	В	в	ADP	_	_	2	case	_	_
+2	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	conj	_	_
+5	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	2016	2016	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	подлодка	подлодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	государственные	государственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	При	при	ADP	_	_	11	case	_	_
+14	длине	длин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+15	167,4	167,4	NUM	_	_	16	nummod	_	_
+16	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	ширине	ширина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	conj	_	_
+19	11,7	11,7	NUM	_	_	18	nummod	_	_
+20	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	подводное	подводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	водоизмещение	водоизмещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	Подмосковья	подмосковье	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+27	18,2	18,2	NUM	_	_	28	nummod	_	_
+28	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nummod:gov	_	_
+29	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86364
+# text = Корабль может погружаться на глубину до 650 метров и развивать скорость до 24 узлов.
+1	Корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	погружаться	погружаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	650	650	NUM	_	_	8	nummod	_	_
+8	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+11	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	24	24	NUM	_	_	14	nummod	_	_
+14	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86365
+# text = Автономность плавания БС-64 составляет до 90 суток.
+1	Автономность	автономность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	плавания	плавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	БС-64	БС-64	NUM	_	_	1	nummod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	90	90	NUM	_	_	7	nummod	_	_
+7	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86366
+# text = Подлодка оснащена четырьмя торпедными аппаратами калибра 533 миллиметра.Глубоководная станция "Лошарик", построенная в 2003 году, получила свое прозвище за сходство конструкции с советским мультипликационным персонажем -- лошадкой, собранной из шариков.
+1	Подлодка	Подлодка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	четырьмя	четыре	NUM	_	Case=Ins	4	nummod	_	_
+4	торпедными	торпедный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+6	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	533	533	NUM	_	_	8	nummod	_	_
+8	миллиметра.	миллиметра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	Глубоководная	Глубоководный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Лошарик	Лошарик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	построенная	строить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	2003	2003	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+21	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	_
+22	прозвище	прозвище	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+23	за	за	ADP	_	_	24	case	_	_
+24	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
+25	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	с	с	ADP	_	_	29	case	_	_
+27	советским	советский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	мультипликационным	мультипликационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	персонажем	персонаж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	лошадкой	лошадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	собранной	собирать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	amod	_	_
+34	из	из	ADP	_	_	35	case	_	_
+35	шариков	шарик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 86367
+# text = Внутри легкого корпуса аппарата размещены шесть сферических отсеков, соединенных общим проходом.
+1	Внутри	внутри	ADV	_	Degree=Pos	2	advmod	_	_
+2	легкого	легкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	размещены	размескать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	шесть	шесть	NUM	_	Case=Nom	8	nummod:gov	_	_
+7	сферических	сферический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	отсеков	отсек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	соединенных	соединять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	общим	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	проходом	проход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86368
+# text = Эта конструкция позволяет станции погружаться на глубину до шести километров.Технические данные об аппарате засекречены.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	погружаться	погружаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	глубину	глубина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	шести	шесть	NUM	_	Case=Gen	10	nummod	_	_
+10	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	Технические	Технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	15	nsubj:pass	_	_
+13	об	о	ADP	_	_	14	case	_	_
+14	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	засекречены	засекречивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86369
+# text = Предположительно, "Лошарик" имеет в длину 79 метров, в ширину -- семь метров, а его полное водоизмещение составляет около двух тысяч тонн.
+1	Предположительно	предположительно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Лошарик	Лошарик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	79	79	NUM	_	_	10	nummod	_	_
+10	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	ширину	ширина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	семь	семь	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	22	cc	_	_
+19	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+20	полное	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	водоизмещение	водоизмещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+22	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	около	около	ADP	_	_	25	case	_	_
+24	двух	два	NUM	_	Case=Gen	25	nummod	_	_
+25	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	obl	_	_
+26	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 86370
+# text = Станция может развивать скорость до 30 узлов.
+1	Станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	30	30	NUM	_	_	7	nummod	_	_
+7	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86371
+# text = Станция оснащена манипуляторами, драгой (система очистки породы), телегрефейром (ковш с телекамерой) и гидростатической трубкой.
+1	Станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	манипуляторами	манипулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	драгой	драга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	_
+8	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	породы	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	телегрефейром	телегрефейром	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	ковш	ковш	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	телекамерой	телекамера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	гидростатической	гидростатический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	трубкой	трубка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86372
+# text = В состав экипажа станции входят 25 офицеров.В 2012 году "Лошарик" принял участие в арктической экспедиции, целью которой было уточнение высокоширотной границы континентального шельфа в Арктике.
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	25	25	NUM	_	_	7	nummod	_	_
+7	офицеров.	офицеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	В	в	ADP	_	_	10	case	_	_
+9	2012	2012	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Лошарик	Лошарик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	арктической	арктический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	экспедиции	экспедиция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	acl:relcl	_	_
+21	которой	который	PRON	_	Case=Gen	20	nmod	_	_
+22	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+23	уточнение	уточнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+24	высокоширотной	высокоширотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	границы	граница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	континентального	континентальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	шельфа	шельф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	Арктике	арктика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86373
+# text = На глубине 2-2,5 километра аппарат взял три керна длиной 60, 30 и 20 сантиметров соответственно.Василий Сычёв
+1	На	на	ADP	_	_	2	case	_	_
+2	глубине	глубина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+3	2	2	NUM	_	_	6	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	2,5	2,5	NUM	_	_	3	nummod	_	_
+6	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+7	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	три	три	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+10	керна	керн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+12	60	60	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	30	30	NUM	_	_	12	nummod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	20	20	NUM	_	_	12	conj	_	_
+17	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+18	соответственно	соответственно	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

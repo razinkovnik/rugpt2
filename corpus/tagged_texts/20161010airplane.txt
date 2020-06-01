@@ -1,0 +1,356 @@
+# sent_id = 74276
+# text = Немецкий перспективный четырехместный самолет HY4 с водородными топливными элементами совершил первый полет.
+1	Немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesBefore=\n
+2	перспективный	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	четырехместный	четырехместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+5	HY4	Hy4	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	водородными	водородный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+8	топливными	топливный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	элементами	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+10	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74277
+# text = Как пишет Aviation Week, испытания самолета, разработанного компанией H2Fly, признали успешными.
+1	Как	как	ADV	_	Degree=Pos	13	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+7	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разработанного	разработать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+11	H2Fly	H2Fly	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	признали	признавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74278
+# text = На базе HY4 планируется разработать более крупный водородный пассажирский самолет, рассчитанный на перевозку до 19 человек.Сегодня в Европе действуют несколько программ, преследующих своей целью создание экологичного и относительно дешевого транспорта: автомобилей, поездов, самолетов и вертолетов.
+1	На	на	ADP	_	_	2	case	_	_
+2	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	HY4	HY4	NUM	_	_	4	nummod	_	_
+4	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	разработать	разработавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+6	более	более	ADV	_	Degree=Cmp	7	advmod	_	_
+7	крупный	крупный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+8	водородный	водородный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	пассажирский	пассажирский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	рассчитанный	рассчитывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	перевозку	перевозка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	19	19	NUM	_	_	17	nummod	_	_
+17	человек.Сегодня	человек.Сегодень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+20	действуют	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	несколько	несколько	NUM	_	Case=Nom	22	nummod:gov	_	_
+22	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	преследующих	преследуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+25	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	26	amod	_	_
+26	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_
+27	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+28	экологичного	экологичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	относительно	относительно	ADV	_	Degree=Pos	31	advmod	_	_
+31	дешевого	дешевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	conj	_	_
+32	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+33	:	:	PUNCT	_	_	32	punct	_	_
+34	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	поездов	поезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	вертолетов	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 74279
+# text = Одним из наиболее перспективных направлений в авиации разработчики считают электрические самолеты и вертолеты, питание электромоторов которых обеспечивают водородные топливные элементы или аккумуляторные батареи.Новый водородный самолет HY4 создан на базе словенского электрического самолета Pipistrel Taurus Electro G4.
+1	Одним	один	NUM	_	Case=Ins|Gender=Neut	9	nummod	_	_
+2	из	из	ADP	_	_	5	case	_	_
+3	наиболее	наиболее	ADV	_	Degree=Pos	4	advmod	_	_
+4	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	направлений	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	авиации	авиация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+10	электрические	электрический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	питание	питание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+16	электромоторов	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	которых	который	PRON	_	Case=Gen	16	nmod	_	_
+18	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	водородные	водородный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+20	топливные	топливной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+22	или	или	CCONJ	_	_	24	cc	_	_
+23	аккумуляторные	аккумуляторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	батареи.	батареи.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+25	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	водородный	водородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+28	HY4	HY4	NUM	_	_	27	nummod	_	_
+29	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+32	словенского	словенский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+35	Pipistrel	Pipistrel	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	Taurus	Taurus	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	Electro	Electro	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	G4	G4	X	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 74280
+# text = Этот летательный аппарат построен по схеме с двумя фюзеляжами и одним электромотором с тянущим воздушным винтом между ними.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+2	летательный	летательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	построен	строить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	двумя	два	NUM	_	Case=Ins	9	nummod	_	_
+9	фюзеляжами	фюзеляж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	одним	один	NUM	_	Case=Ins|Gender=Masc	12	nummod	_	_
+12	электромотором	электромотор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	_
+13	с	с	ADP	_	_	16	case	_	_
+14	тянущим	тянущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	воздушным	воздушный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	винтом	винт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+17	между	между	ADP	_	_	18	case	_	_
+18	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74281
+# text = Мощность электромотора составляет 80 киловатт.
+1	Мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	электромотора	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	80	80	NUM	_	_	5	nummod	_	_
+5	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 74282
+# text = В носовой части каждого из фюзеляжей расположены кабины на два человека.H2Fly дополнительно оборудовала словенский самолет двумя баками, в которых под давлением хранится водород, низкотемпературными топливными ячейками и 45 киловаттной литий-полимерной аккумуляторной батареей.
+1	В	в	ADP	_	_	3	case	_	_
+2	носовой	носовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+4	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	фюзеляжей	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	кабины	кабина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+11	человека.H2Fly	человека.h2fly	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	nmod	_	_
+12	дополнительно	дополнительно	ADV	_	Degree=Pos	13	advmod	_	_
+13	оборудовала	оборудовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+14	словенский	словенский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+16	двумя	два	NUM	_	Case=Ins	17	nummod	_	_
+17	баками	баки	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	которых	который	PRON	_	Case=Loc	23	obl	_	_
+21	под	под	ADP	_	_	22	case	_	_
+22	давлением	давление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	obl	_	_
+23	хранится	хранить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
+24	водород	водород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	низкотемпературными	низкотемпературный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+27	топливными	топливный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+28	ячейками	ячейк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	conj	_	_
+29	и	и	CCONJ	_	_	35	cc	_	_
+30	45	45	NUM	_	_	35	nummod	_	_
+31	киловаттной	киловаттный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+32	литий-	литий-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	полимерной	полимерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+34	аккумуляторной	аккумуляторный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	батареей	батарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 74283
+# text = В самолете водородный топливный элемент вырабатывает электричество, которое питает бортовые системы, электромотор и подзаряжает аккумуляторы.Масса водородных баков составляет 170 килограммов.
+1	В	в	ADP	_	_	2	case	_	_
+2	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	водородный	водородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	топливный	топливный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	вырабатывает	вырабатывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	электричество	электричество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	питает	питать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	бортовые	бортовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	электромотор	электромотор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	подзаряжает	подзаряжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	аккумуляторы.	аккумуляторы.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	Масса	Масс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	водородных	водородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	баков	бак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	170	170	NUM	_	_	23	nummod	_	_
+23	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74284
+# text = Они способны под давлением вмещать 9 килограммов водорода.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	давлением	давление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+5	вмещать	вмещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+6	9	9	NUM	_	_	7	nummod	_	_
+7	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+8	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 74285
+# text = Масса водородного топливного элемента составляет 100 килограммов, а аккумуляторной батареи -- 135 килограммов.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	водородного	водородной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	топливного	топливный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	элемента	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	100	100	NUM	_	_	7	nummod	_	_
+7	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	аккумуляторной	аккумуляторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	135	135	NUM	_	_	14	nummod	_	_
+14	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74286
+# text = Масса пустого HY4 составляет 1,5 тонны.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	пустого	пустый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	HY4	HY4	NUM	_	_	1	nummod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	1,5	1,5	NUM	_	_	6	nummod	_	_
+6	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 74287
+# text = Самолет может развивать скорость до 200 километров в час и совершать полеты на расстояние до 1500 километров.Немецкий разработчик планирует использовать новые водородные самолеты для быстрой перевозки пассажиров между населенными пунктами внутри Германии.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	200	200	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+12	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	1500	1500	NUM	_	_	17	nummod	_	_
+17	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	Немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+23	водородные	водородный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+25	для	для	ADP	_	_	27	case	_	_
+26	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+28	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	между	между	ADP	_	_	31	case	_	_
+30	населенными	населенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	31	amod	_	_
+31	пунктами	пункт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	28	nmod	_	_
+32	внутри	внутри	ADV	_	Degree=Pos	33	advmod	_	_
+33	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 74288
+# text = Когда именно новые самолеты начнут выполнять регулярные рейсы, пока неизвестно.Ранее стало известно, что немецкая компания e-volo решила использовать свои электрические мультикоптеры для городских пассажирских перевозок с 2020 года.
+1	Когда	когда	ADV	_	Degree=Pos	11	mark	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	_
+6	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	регулярные	регулярный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	рейсы	рейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	пока	пока	SCONJ	_	_	11	advmod	_	_
+11	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Ранее	рано	ADV	_	Degree=Cmp	14	advmod	_	_
+14	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	14	mark	_	_
+18	немецкая	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	e-volo	e-volo	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	решила	решать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+22	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	свои	свой	DET	_	Case=Acc|Number=Plur	25	amod	_	_
+24	электрические	электрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	мультикоптеры	мультикоптера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+26	для	для	ADP	_	_	29	case	_	_
+27	городских	городской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+28	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	перевозок	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	obl	_	_
+30	с	с	ADP	_	_	32	case	_	_
+31	2020	2020	NUM	_	_	32	nummod	_	_
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 74289
+# text = Сначала для этого будут использоваться двухместные аппараты VC200, но уже с 2022 года на маршруты выйдут новые четырехместные мультикоптеры VC400.Василий Сычёв
+1	Сначала	сначала	ADV	_	Degree=Pos	5	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+6	двухместные	двухместный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+8	VC200	VC200	NUM	_	_	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	17	cc	_	_
+11	уже	уже	ADV	_	Degree=Pos	14	advmod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	2022	2022	NUM	_	_	14	nummod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	маршруты	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
+17	выйдут	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+19	четырехместные	четырехместный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	мультикоптеры	мультикоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+21	VC400.	Vc400.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
+22	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+

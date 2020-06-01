@@ -1,0 +1,508 @@
+# sent_id = 87546
+# text = Бразильские зоологи и генетики обнаружили, что мохноногие вампиры (Diphylla ecaudata) -- летучие мыши, обитающие в Центральной и Южной Америке, адаптировались к человеческой крови и включили ее в свой рацион.
+1	Бразильские	Бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	SpacesAfter=\n
+4	генетики	генетик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	мохноногие	мохноногий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	вампиры	вампир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Diphylla	Diphylla	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpacesAfter=\n
+12	ecaudata	ecaudata	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	--	--	PUNCT	_	_	12	punct	_	_
+15	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	мыши	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	9	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	обитающие	обитать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+19	в	в	ADP	_	_	23	case	_	_
+20	Центральной	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	SpacesAfter=\n
+23	Америке	америка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+25	адаптировались	адаптироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	SpacesAfter=\n
+26	к	к	ADP	_	_	28	case	_	_
+27	человеческой	человеческий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	крови	кровь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	obl	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	включили	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	_
+31	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	30	obj	_	_
+32	в	в	ADP	_	_	34	case	_	SpacesAfter=\n
+33	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	34	amod	_	_
+34	рацион	рацион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87547
+# text = До этого считалось, что они не способны питаться кровью млекопитающих.
+1	До	до	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	SpacesAfter=\n
+7	не	не	PART	_	_	8	advmod	_	_
+8	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	_
+9	питаться	питаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	dep	_	_
+10	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 87548
+# text = Исследование опубликовано в Acta Chiropterologica.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	SpacesAfter=\n
+4	Acta	Acta	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpacesAfter=\n
+5	Chiropterologica	Chiropterologica	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 87549
+# text = На сегодняшний день известно три вида вампировых летучих мышей -- обыкновенный вампир (Desmodus rotundus), белокрылый (Diaemus youngi) и мохноногий вампиры (Diphylla ecaudata).
+1	На	на	ADP	_	_	3	case	_	SpacesAfter=\n
+2	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	три	три	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\n
+7	вампировых	вампировый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	обыкновенный	обыкновенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n
+12	вампир	вампир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Desmodus	Desmodus	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpacesAfter=\n
+15	rotundus	rotundus	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+18	белокрылый	белокрылый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\n
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Diaemus	Diaemus	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpacesAfter=\n
+21	youngi	youngi	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	мохноногий	мохноногия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	_
+25	вампиры	вампира	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Diphylla	Diphylla	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpacesAfter=\n
+28	ecaudata	ecaudata	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 87550
+# text = Все они питаются исключительно кровью и адаптировались к этой необычной диете.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	питаются	питаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	исключительно	исключительно	ADV	_	Degree=Pos	5	advmod	_	_
+5	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	адаптировались	адаптироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+8	к	к	ADP	_	_	11	case	_	_
+9	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
+10	необычной	необычный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	диете	диета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 87551
+# text = У вампиров острые клыки и резцы, позволяющие прокусывать кожу жертвы, и слабо развитые коренные зубы; в слюне содержатся антикоагулянты, которые препятствуют свертыванию крови; пищеварительная система приспособлена к быстрому удалению излишков воды и мочевины.
+1	У	у	ADP	_	_	2	case	_	_
+2	вампиров	вампир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+3	острые	острой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	клыки	клыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	appos	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	резцы	резец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	позволяющие	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	прокусывать	прокусывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	и	и	CCONJ	_	_	17	cc	_	_
+14	слабо	слабо	ADV	_	Degree=Pos	15	advmod	_	_
+15	развитые	развивать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+16	коренные	коренный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	зубы	зуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+18	;	;	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	слюне	слюн	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpacesAfter=\n
+21	содержатся	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+22	антикоагулянты	антикоагулянт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	25	nsubj	_	SpacesAfter=\n
+25	препятствуют	препятствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+26	свертыванию	свертывание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	_	_
+27	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	;	;	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+29	пищеварительная	пищеварительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj:pass	_	_
+31	приспособлена	приспособлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpacesAfter=\n
+32	к	к	ADP	_	_	34	case	_	_
+33	быстрому	быстрый	DET	_	Case=Dat|Gender=Neut|Number=Sing	34	amod	_	_
+34	удалению	удаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	31	obl	_	_
+35	излишков	излишек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	и	и	CCONJ	_	_	38	cc	_	SpacesAfter=\n
+38	мочевины	мочевина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 87552
+# text = При этом обыкновенные и белокрылые вампиры способны переваривать как птичью кровь, в которой, по сравнению с кровью млекопитающих, содержится больше жиров и воды, так и более богатую белками кровь млекопитающих.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	amod	_	SpacesAfter=\n
+3	обыкновенные	обыкновенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	белокрылые	белокрылый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+6	вампиры	вампир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesAfter=\n
+7	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	переваривать	переваривать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	как	как	SCONJ	_	_	8	cc	_	_
+10	птичью	птичий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	в	в	ADP	_	_	14	case	_	_
+14	которой	который	PRON	_	Case=Loc	22	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	по	по	ADP	_	_	19	case	_	_
+17	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	fixed	_	_
+18	с	с	ADP	_	_	17	fixed	_	_
+19	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	parataxis	_	SpacesAfter=\n
+20	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	содержится	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+23	больше	много	NUM	_	_	24	nummod:gov	_	_
+24	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nsubj	_	SpacesAfter=\n
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	так	так	ADV	_	Degree=Pos	30	advmod	_	_
+29	и	и	PART	_	_	28	fixed	_	_
+30	более	более	ADV	_	Degree=Cmp	31	advmod	_	_
+31	богатую	богатый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	белками	белка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	33	obl	_	_
+33	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+34	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87553
+# text = Мохноногие вампиры -- более узкие специалисты: в природе они питаются исключительно кровью диких птиц.
+1	Мохноногие	Мохноногий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	вампиры	вампир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	более	более	ADV	_	Degree=Cmp	5	advmod	_	SpacesAfter=\n
+5	узкие	узкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	природе	природа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+11	питаются	питаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+12	исключительно	исключительно	ADV	_	Degree=Pos	13	advmod	_	_
+13	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	диких	дикий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87554
+# text = Более ранние исследования (1, 2) показали, что D. еcaudata, содержавшиеся в неволе, отказывались питаться кровью млекопитающих, предпочитая голодать.
+1	Более	более	ADV	_	Degree=Cmp	2	advmod	_	_
+2	ранние	ранний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	1	1	NUM	_	_	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	2	2	NUM	_	_	5	nummod	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	D.	d.	NOUN	_	Foreign=Yes	19	nsubj	_	_
+13	еcaudata	еcaudata	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	содержавшиеся	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	SpacesAfter=\n
+16	в	в	ADP	_	_	17	case	_	_
+17	неволе	неволя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	отказывались	отказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+20	питаться	питаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	dep	_	_
+21	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	SpacesAfter=\n
+22	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	предпочитая	предпочитать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+25	голодать	голодать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 87555
+# text = Иногда подопытные мыши даже умирали от голода.
+1	Иногда	иногда	ADV	_	Degree=Pos	5	advmod	_	_
+2	подопытные	подопытной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	мыши	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	даже	даже	PART	_	_	5	advmod	_	_
+5	умирали	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	7	case	_	SpacesAfter=\n
+7	голода	голод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 87556
+# text = Авторы нового исследования изучили пищевые привычки мохноногих вампиров, обитающих в Национальном парке Катимбау на северо-востоке Бразилии.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\n
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	изучили	изучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	пищевые	пищевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	привычки	привычка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+7	мохноногих	мохноногий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	вампиров	вампир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	обитающих	обитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	SpacesAfter=\n
+11	в	в	ADP	_	_	13	case	_	_
+12	Национальном	национальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	парке	парк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	Катимбау	Катимбау	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+15	на	на	ADP	_	_	16	case	_	SpacesAfter=\n
+16	северо-востоке	северо-восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+17	Бразилии	бразилия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87557
+# text = Несмотря на статус охраняемой территории, в парке и в приграничных с ним территориях живут несколько тысяч человек, которые занимаются земледелием, разводят домашний скот и птиц.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	SpacesAfter=\n
+3	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+4	охраняемой	охранять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	парке	парк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\n
+9	и	и	CCONJ	_	_	15	cc	_	_
+10	в	в	ADP	_	_	14	case	_	_
+11	приграничных	приграничный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+14	территориях	территориь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+15	живут	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+16	несколько	несколько	NUM	_	Case=Nom	17	nummod:gov	_	_
+17	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nsubj	_	_
+18	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	SpacesAfter=\n
+21	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+22	земледелием	земледелие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	разводят	разводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpacesAfter=\n
+25	домашний	домашний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	скот	скот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 87558
+# text = Вырубка лесов и охота сильно уменьшила популяции обитающих в Катимбау крупных диких птиц, чьей кровью преимущественно питались мохноногие вампиры.
+1	Вырубка	вырубка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	лесов	лес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	SpacesAfter=\n
+4	охота	охота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+5	сильно	сильно	ADV	_	Degree=Pos	6	advmod	_	_
+6	уменьшила	уменьшать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	популяции	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpacesAfter=\n
+8	обитающих	обитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Катимбау	Катимбау	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	диких	дикий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpacesAfter=\n
+13	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чьей	чей	DET	_	Case=Ins|Gender=Fem|Number=Sing	16	amod	_	_
+16	кровью	кровь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+17	преимущественно	преимущественне	ADV	_	Degree=Pos	18	advmod	_	SpacesAfter=\n
+18	питались	питаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+19	мохноногие	мохноногий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	вампиры	вампир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 87559
+# text = Поэтому исследователи решили выяснить, как летучие мыши приспособились к уменьшению источников пищи.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	SpacesAfter=\n
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	4	mark	_	SpacesAfter=\n
+7	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	мыши	мыша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	приспособились	приспосабливаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	уменьшению	уменьшение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpacesAfter=\n
+12	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87560
+# text = Ученые исследовали колонию из 30 особей D. еcaudata, обитающую в одной из пещер парка.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	колонию	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	30	30	NUM	_	_	6	nummod	_	_
+6	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+7	D.	d.	NOUN	_	Foreign=Yes	6	flat:foreign	_	_
+8	еcaudata	еcaudata	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	обитающую	обитать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	SpacesAfter=\n
+11	в	в	ADP	_	_	12	case	_	_
+12	одной	один	NUM	_	Case=Loc|Gender=Fem	10	nummod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	пещер	пещера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	парка	парк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87561
+# text = В той же пещере ученые обнаружили колонии насекомоядных летучих мышей, но других видов мышей-вампиров в ней не было.
+1	В	в	ADP	_	_	4	case	_	_
+2	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	пещере	пещерь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpacesAfter=\n
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	насекомоядных	насекомоядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+9	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	14	cc	_	_
+13	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	SpacesAfter=\n
+15	мышей-	мышей-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	вампиров	вампир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	cop	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 87562
+# text = Биологи отобрали для изучения 70 образцов помета мохноногих вампиров, в 15 из которых удалось обнаружить фрагменты митохондриальной ДНК.
+1	Биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	отобрали	отбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	70	70	NUM	_	_	6	nummod	_	_
+6	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	помета	помет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	мохноногих	мохноногий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	вампиров	вампир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	15	15	NUM	_	_	0	nummod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+15	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+16	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	митохондриальной	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87563
+# text = Три последовательности соответствовали ДНК белка человеческой крови, остальные 12 -- ДНК одного из белков куриной крови.Вампиры -- одни из основных переносчиков бешенства; вспышки этой болезни периодически случаются в Бразилии.
+1	Три	три	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	соответствовали	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+5	белка	белка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	человеческой	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+10	12	12	NUM	_	_	9	nummod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+13	одного	один	NUM	_	Case=Gen|Gender=Masc	12	nummod	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpacesAfter=\n
+16	куриной	курина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+17	крови.	крови.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	Вампиры	Вампира	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpacesAfter=\n
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+21	из	из	ADP	_	_	23	case	_	_
+22	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	переносчиков	переносчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpacesAfter=\n
+24	бешенства	бешенство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	_	_	24	punct	_	_
+26	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_
+27	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	28	amod	_	_
+28	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpacesAfter=\n
+29	периодически	периодически	ADV	_	Degree=Pos	30	advmod	_	_
+30	случаются	случаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpacesAfter=\n
+31	в	в	ADP	_	_	32	case	_	_
+32	Бразилии	бразилия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 87564
+# text = Возможно, летучие мыши могут переносить и другие опасные заболевания, поэтому изучение того, как и когда вампиры кусают людей, может помочь предотвратить распространение инфекций.
+1	Возможно	возможно	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	мыши	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	переносить	переносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	опасные	опасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	_
+13	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
+14	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	SCONJ	_	_	14	mark	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	когда	когда	SCONJ	_	_	23	mark	_	SpacesAfter=\n
+19	вампиры	вампир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	кусают	кусать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	_
+21	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
+24	помочь	мочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	SpacesAfter=\n
+25	предотвратить	предотвращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 87565
+# text = Ранее исследователи обнаружили, что самки обыкновенных вампиров (D.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	SpacesAfter=\n
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	самки	самка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+7	обыкновенных	обыкновенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	вампиров	вампир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	D.	d.	NOUN	_	Foreign=Yes	3	advcl	_	SpacesAfter=\n
+
+# sent_id = 87566
+# text = Такое поведение гарантирует, что в случае неудачной охоты они тоже не останутся голодными.Екатерина Русакова
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	гарантирует	гарантировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+8	неудачной	неудачный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+9	охоты	охота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+11	тоже	тоже	PART	_	_	13	advmod	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	останутся	оставаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+14	голодными.	голодными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+15	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+

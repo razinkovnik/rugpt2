@@ -1,0 +1,254 @@
+# sent_id = 83437
+# text = Американские ученые показали, что белок, который синтезирует бактерияVibrio fischeri, вызывает массовое размножение у хоанофлагеллятSalpinogoeca rosetta.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	синтезирует	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	бактерияVibrio	бактерияVibrio	PROPN	_	Foreign=Yes	9	nsubj	_	_
+11	fischeri	fischeri	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+14	массовое	массовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	размножение	размножение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	у	у	ADP	_	_	17	case	_	_
+17	хоанофлагеллятSalpinogoeca	хоанофлагеллятSalpinogoeca	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+18	rosetta	rosetta	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 83438
+# text = Работа была представлена на ежегодной конференции Американского общества клеточной биологии(American Society for Cell Biology) в Сан-Франциско, кратко о нейрассказываетEurekAlert!Хоанофлагелляты, или воротничковые жгутиконосцы -- это одноклеточные эукариоты, имеющие один жгутик, окруженный воротничком из микроворсинок.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлена	представлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	ежегодной	ежегодный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+7	Американского	Американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	клеточной	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	American	american	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	Society	society	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	for	for	X	_	Foreign=Yes	13	flat:foreign	_	_
+15	Cell	Cell	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Biology	Biology	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Сан-Франциско	Сан-Франциско	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	кратко	кратко	ADV	_	Degree=Pos	25	advmod	_	_
+22	о	о	ADP	_	_	23	case	_	_
+23	нейрассказываетEurekAlert	нейрассказываетEurekAlert	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+24	!	!	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Хоанофлагелляты	Хоанофлагеллят	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	или	или	CCONJ	_	_	29	cc	_	_
+28	воротничковые	воротничковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	жгутиконосцы	жгутиконосца	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	_
+32	одноклеточные	одноклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	33	amod	_	_
+33	эукариоты	эукариота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	имеющие	иметь	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	_
+36	один	один	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	жгутик	жгутик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	окруженный	окруживать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+40	воротничком	воротничок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	39	obl:agent	_	_
+41	из	из	ADP	_	_	42	case	_	_
+42	микроворсинок	микроворсинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 83439
+# text = Они представлены как одноклеточными, так и колониальными формами.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj:pass	_	_
+2	представлены	представлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	как	как	SCONJ	_	_	4	cc	_	_
+4	одноклеточными	одноклеточный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	так	так	ADV	_	Degree=Pos	2	advmod	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	колониальными	колониальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	формами	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 83440
+# text = Хоанофлагелляты родственны губкам и считаются последними одноклеточными предками многоклеточных животных.
+1	Хоанофлагелляты	Хоанофлагеллят	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	родственны	родственный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	губкам	губк	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	считаются	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
+6	последними	последний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+7	одноклеточными	одноклеточный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	предками	предк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:agent	_	_
+9	многоклеточных	многоклеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 83441
+# text = В связи с этим они представляют большой интерес для эволюционной биологии и, в частности, для изучения происхождения многоклеточности.Авторы исследования изучали взаимодействие бактерийVibrio fischeri с хоанофлагеллятамиSalpinogoeca rosetta.
+1	В	в	ADP	_	_	4	case	_	_
+2	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	с	с	ADP	_	_	2	fixed	_	_
+4	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	интерес	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	эволюционной	эволюционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+12	и	и	CCONJ	_	_	23	cc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	18	discourse	_	_
+15	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	fixed	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+19	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	многоклеточности.	многоклеточности.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl:agent	_	SpaceAfter=No
+21	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+22	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+24	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	бактерийVibrio	бактерийVibrio	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	fischeri	fischeri	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	хоанофлагеллятамиSalpinogoeca	хоанофлагеллятамиSalpinogoeca	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+29	rosetta	rosetta	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 83442
+# text = Оказалось, что при воздействии наS.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	воздействии	воздействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	advcl	_	_
+6	наS	наs	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 83443
+# text = rosetta ферментахондроитинсульфатлиазы, который выделяют бактерии,хоанофлагелляты собираются в крупные агрегации.
+1	rosetta	rosetta	X	_	Foreign=Yes	2	flat:foreign	_	_
+2	ферментахондроитинсульфатлиазы	ферментахондроитинсульфатлиаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	который	который	PRON	_	Case=Nom	5	nsubj	_	_
+5	выделяют	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+6	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	,хоанофлагелляты	,хоанофлагеллят	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	собираются	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	крупные	крупный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	агрегации	агрегация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83444
+# text = В этих агрегациях происходила рекомбинация генетического материалахоанофлагеллят в ходе слияния их ядер.Результаты представляют собой первую демонстрацию того, что бактерии могут влиять на размножение эукариот.
+1	В	в	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	агрегациях	агрегация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	_
+4	происходила	происходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	рекомбинация	рекомбинация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	материалахоанофлагеллят	материалахоанофлагелленок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	слияния	слияние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+12	ядер.	ядеругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Результаты	Результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	собой	себя	PRON	_	Case=Ins	14	obl	_	_
+16	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	демонстрацию	демонстрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+22	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+23	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	размножение	размножение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+26	эукариот	эукариота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83445
+# text = По словам авторов, это указывает на возможность того, что бактерии -- такие, например, как симбиотические кишечные бактерии -- могут также влиять на размножение животных.Известно, что бактерии-симбионы, живущие в кишечнике животных, могут влиять на их поведение.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	указывает	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	такие	такой	DET	_	Case=Nom|Number=Plur	21	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	например	например	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	как	как	SCONJ	_	_	21	cc	_	_
+19	симбиотические	симбиотический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+20	кишечные	кишечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+24	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+25	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	размножение	размножение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_
+28	животных.	животныхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+29	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	бактерии-симбионы	бактерии-симбион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	39	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	живущие	жить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	кишечнике	кишечник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	_
+37	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	advcl	_	_
+40	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	39	xcomp	_	_
+41	на	на	ADP	_	_	43	case	_	_
+42	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	43	nmod	_	_
+43	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 83446
+# text = Например, кишечная микрофлора рыжих таракановвыделяетферомоны,способствующие их агрегации, а пересадка мышам микрофлоры бурых медведейзаставляетих готовиться к спячке.Софья Долотовская
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	кишечная	кишечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	микрофлора	микрофлора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	рыжих	рыжий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	таракановвыделяетферомоны	таракановвыделяетферомон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,способствующие	,способствуть	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	9	nmod	_	_
+9	агрегации	агрегация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	14	cc	_	_
+12	пересадка	пересадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+14	микрофлоры	микрофлор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+15	бурых	бурой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	медведейзаставляетих	медведейзаставляетий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	nmod	_	_
+17	готовиться	готовиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	dep	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	спячке.	спячкеатья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	Софья	Софье	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	Долотовская	Долотовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+

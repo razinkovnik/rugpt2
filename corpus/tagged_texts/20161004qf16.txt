@@ -1,0 +1,244 @@
+# sent_id = 73543
+# text = ВВС США приняли на вооружение новые беспилотные летательные аппараты QF-16, сделанные на базе списанных истребителей F-16A/C.
+1	ВВС	ввс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpacesBefore=\n
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+6	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+7	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+8	летательные	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+10	QF-16	QF-16	NUM	_	_	12	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сделанные	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	списанных	списать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	F-16A	F-16a	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	/C	/c	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 73544
+# text = Как сообщает Flightglobal, новые аппараты будут использоваться для расширенной боевой подготовки летчиков, включая ближний маневренный бой и противодействие системам радиоэлектронной борьбы.Беспилотные версии истребителей в большинстве случаев используются в качестве воздушных мишеней для боевой подготовки пилотов и испытания нового вооружения боевых самолетов, а также для проверки радиолокационных станций и их калибровки.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Flightglobal	Flightglobal	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+9	для	для	ADP	_	_	12	case	_	_
+10	расширенной	расширять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+13	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	включая	включая	ADV	_	Degree=Pos	31	advmod	_	_
+16	ближний	ближний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	маневренный	маневренный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	бой	бой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	противодействие	противодействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_
+21	системам	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	20	nmod	_	_
+22	радиоэлектронной	радиоэлектронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Беспилотные	Беспилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	версии	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	nsubj:pass	_	_
+27	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_
+30	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+31	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+32	в	в	ADP	_	_	35	case	_	_
+33	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	fixed	_	_
+34	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	мишеней	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+36	для	для	ADP	_	_	38	case	_	_
+37	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+39	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	31	conj	_	_
+42	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	_
+44	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	а	а	CCONJ	_	_	50	cc	_	_
+48	также	также	ADV	_	Degree=Pos	50	advmod	_	_
+49	для	для	ADP	_	_	50	case	_	_
+50	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	conj	_	_
+51	радиолокационных	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+52	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	50	nmod	_	_
+53	и	и	CCONJ	_	_	55	cc	_	_
+54	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	55	nmod	_	_
+55	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	SpaceAfter=No
+
+# sent_id = 73545
+# text = Беспилотные мишени могут летать под управлением летчика, оператора или на автопилоте.Испытания новых беспилотных мишеней QF-16 проводились ВВС США с 2014 года.
+1	Беспилотные	Беспилотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	мишени	мишень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	под	под	ADP	_	_	6	case	_	_
+6	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	летчика	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	автопилоте.	автопилоте.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+13	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	мишеней	мишень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	QF-16	QF-16	NUM	_	_	16	nummod	_	_
+18	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	_
+19	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+20	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	nmod	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	2014	2014	NUM	_	_	23	nummod	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 73546
+# text = Эти аппараты по своим параметрам полностью соответствуют истребителям F-16, из которых сделаны.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	своим	свой	DET	_	Case=Dat|Number=Plur	5	amod	_	_
+5	параметрам	параметр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+6	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+7	соответствуют	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	истребителям	истребитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+9	F-16	f-16	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	13	obl	_	_
+13	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 73547
+# text = В частности, в QF-16 полностью сохранены летные характеристики, боевая нагрузка, а также возможность маневрирования с большими перегрузками.
+1	В	в	ADP	_	_	7	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	QF-16	QF-16	NUM	_	_	7	nummod	_	_
+6	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+7	сохранены	сохранивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	летные	летной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	боевая	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	нагрузка	нагрузка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+16	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+17	маневрирования	маневрирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	большими	большой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	перегрузками	перегрузка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 73548
+# text = Самолеты могут использовать и системы радиоэлектронной борьбы.
+1	Самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	радиоэлектронной	радиоэлектронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 73549
+# text = Аппаратура дистанционного управления позволяет беспилотным мишеням выполнять фигуры сложного пилотажа, включая бочку, переворот и боевой разворот.До августа 2016 года ВВС США использовали беспилотные мишени QF-4, сделанные на базе списанных истребителей F-4 Phantom II.
+1	Аппаратура	аппаратура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	дистанционного	дистанционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	беспилотным	беспилотный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	мишеням	мишень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+7	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	фигуры	фигура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	сложного	сложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пилотажа	пилотаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	включая	включая	ADV	_	Degree=Pos	26	parataxis	_	_
+13	бочку	бочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	переворот	переворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	разворот	разворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	До	до	ADP	_	_	21	case	_	_
+21	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+22	2016	2016	NUM	_	_	23	nummod	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+25	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	24	nmod	_	_
+26	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	мишени	мишень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+29	QF-	QF-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	4	4	NUM	_	_	28	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	сделанные	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+35	списанных	списать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+36	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+37	F-4	F-4	X	_	Foreign=Yes	36	flat:foreign	_	_
+38	Phantom	Phantom	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+39	II	ii	NUM	_	_	38	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 73550
+# text = Последний QF-4 был запущен 17 августа на полигоне "Уайт-Сэндз" в Калифорнии и был сбит в воздухе истребителем F-35A Lightning II.
+1	Последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	QF-4	QF-4	NUM	_	_	4	nummod	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	запущен	запускать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	17	17	NUM	_	_	13	nummod	_	_
+6	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	полигоне	полигон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Уайт-Сэндз	Уайт-Сэндз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	сбит	сбять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	истребителем	истребитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+20	F-35A	F-35a	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Lightning	Lightning	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	II	ii	NUM	_	_	21	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73551
+# text = Такие аппараты стояли на вооружении ВВС США с 2001 года.Василий Сычёв
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	стояли	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	2001	2001	NUM	_	_	10	nummod	_	_
+10	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+11	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+12	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+

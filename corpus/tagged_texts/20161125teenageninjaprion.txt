@@ -1,0 +1,409 @@
+# sent_id = 81668
+# text = Итальянские ученые впервые выделили мутировавший прионный белок, который размножается влаборатории, нонеинфицирует животных.
+1	Итальянские	итальянский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+4	выделили	выделять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	мутировавший	мутировать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+6	прионный	прионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	белок	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	размножается	размножаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+11	влаборатории	влаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	нонеинфицирует	нонеинфицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 81669
+# text = Он позволит лучше понять, что делает прионы заразными.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	SpacesAfter=\n
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	лучше	хорошо	ADV	_	Degree=Cmp	4	advmod	_	_
+4	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+8	прионы	прион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	заразными	заразный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 81670
+# text = Исследование опубликовано насайте PLOS Pathogens.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	_
+4	PLOS	Plos	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Pathogens	Pathogens	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 81671
+# text = Прионы -- это неправильно свернутые клеточные белки с нарушенной третичной структурой, которые заставляют также неправильно сворачиваться здоровые функциональные белки ивызывают необратимые повреждения мозга.
+1	Прионы	Прион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	неправильно	неправильно	ADV	_	Degree=Pos	5	advmod	_	_
+5	свернутые	свернутый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	клеточные	клеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+8	с	с	ADP	_	_	11	case	_	SpacesAfter=\n
+9	нарушенной	нарушенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	третичной	третичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	структурой	структура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	заставляют	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+16	неправильно	неправильно	ADV	_	Degree=Pos	17	advmod	_	SpacesAfter=\n
+17	сворачиваться	сворачиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+18	здоровые	здоровый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+19	функциональные	функциональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	ивызывают	ивызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	необратимые	необратимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	21	obj	_	SpacesAfter=\n
+24	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 81672
+# text = Они ответственны заразвитие смертельных нейродегенеративных заболеваний учеловека (например, болезнь Крейтцфельдта-- Якоба) иживотных (коровье бешенство, почесуха овец).
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	ответственны	ответственный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	заразвитие	заразвитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	смертельных	смертельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	нейродегенеративных	нейродегенеративный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	SpacesAfter=\n
+7	учеловека	учеловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	например	например	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	_
+12	Крейтцфельдта-	Крейтцфельдта-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	Якоба	Якоба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	иживотных	иживотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	коровье	коровий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	SpacesAfter=\n
+19	бешенство	бешенство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	почесуха	почесуха	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+22	овец	овца	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 81673
+# text = Прионы обладают устойчивостью ктепловой денатурации имогут передаваться между видами, изменяясь, чтобы приспособиться кновой среде.
+1	Прионы	Прион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	устойчивостью	устойчивость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+4	ктепловой	ктепловый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	денатурации	денатурация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\n
+6	имогут	имочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	6	xcomp	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	видами	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	изменяясь	изменять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Pass	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+14	приспособиться	приспосабливаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	advcl	_	_
+15	кновой	кновой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpacesAfter=\n
+16	среде	среда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 81674
+# text = Раньше предполагалось, что прионы одной формы могут заражать лишь ограниченное количество близких видов, нонедавние исследования показали, что прионные белки могут мутировать, создавая новые формы, чтобы адаптироваться кновой среде.
+1	Раньше	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	предполагалось	предполагаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	прионы	прион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	одной	один	NUM	_	Case=Gen|Gender=Fem	7	nummod	_	_
+7	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	заражать	заражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	лишь	лишь	PART	_	_	11	advmod	_	_
+11	ограниченное	ограниченный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+13	близких	близкой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	нонедавние	нонедавний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+18	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	прионные	прионный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+24	мутировать	мутировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	создавая	создавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	_
+27	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+31	адаптироваться	адаптироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	advcl	_	SpacesAfter=\n
+32	кновой	кновой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	среде	среда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 81675
+# text = Вновой работе ученые размножили белки PrPSc -- прионы изобразцов мозга овец, зараженных почесухой.
+1	Вновой	Вновой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	размножили	размноживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	белки	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	PrPSc	PrPSс	ADP	_	_	8	case	_	_
+7	--	--	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	прионы	прион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+9	изобразцов	изобразец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	овец	овец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	зараженных	заражать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	почесухой	почесуха	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 81676
+# text = Они сделали несколько разведений препарата иккаждому применили циклическую амплификацию белка с неправильным фолдингом (PMCA)-- метод, попринципу похожий наПЦР, только вPMCA сам прион служит катализатором процесса.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	SpacesAfter=\n
+4	разведений	разведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	_
+5	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	иккаждому	иккаждом	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+7	применили	применивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	циклическую	циклический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	амплификацию	амплификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	с	с	ADP	_	_	13	case	_	SpacesAfter=\n
+12	неправильным	неправильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	фолдингом	фолдинг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	PMCA	Pmca	PROPN	_	Foreign=Yes	0	parataxis	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	--	--	PUNCT	_	_	15	punct	_	_
+18	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	попринципу	попринципу	ADV	_	Degree=Pos	22	advmod	_	_
+21	похожий	похожий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	наПЦР	напцр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	только	только	PART	_	_	28	advmod	_	_
+25	вPMCA	вpmca	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpacesAfter=\n
+26	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	прион	прион	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	служит	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+29	катализатором	катализатор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	_
+30	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 81677
+# text = Полученными пробами они заразили популяции рыжих полевок, чтобы оценить репликацию полученных молекулinvivo.
+1	Полученными	получать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+2	пробами	проб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	заразили	заразать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	популяции	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	рыжих	рыжий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	полевок	полевка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+10	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+11	репликацию	репликация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	молекулinvivo	молекулinvivo	X	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 81678
+# text = Один изобразцов оказался неспособен заразить полевок, хотя остальные образцы изтогоже препарата проявили обычную инфекционную активность втаких жеибольших разведениях.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	3	nsubj	_	_
+2	изобразцов	изобразец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	неспособен	неспособный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	amod	_	_
+5	заразить	заразать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	полевок	полевок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	хотя	хотя	SCONJ	_	_	3	mark	_	_
+9	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	образцы	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+11	изтогоже	изтогодо	ADV	_	Degree=Cmp	13	advmod	_	_
+12	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	проявили	проявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+14	обычную	обычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	инфекционную	инфекционный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+17	втаких	втакой	DET	_	Case=Gen|Number=Plur	19	amod	_	SpacesAfter=\n
+18	жеибольших	жеибольший	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	разведениях	разведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 81679
+# text = Дефектный прион-мутант запускал обычную реакцию репликации invitro, изменяя здоровые белки PrPC, нонесмог распространиться в живых клетках мозга.
+1	Дефектный	Дефектный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	прион-мутант	прион-мутант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	запускал	запускать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	обычную	обычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpacesAfter=\n
+6	репликации	репликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	invitro	invitro	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	изменяя	изменять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+10	здоровые	здоровый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	белки	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	PrPC	Prpс	ADP	_	_	11	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	нонесмог	нонесмочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	распространиться	распространяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	в	в	ADP	_	_	18	case	_	SpacesAfter=\n
+17	живых	живой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	клетках	клетка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+19	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 81680
+# text = Это первый описанный неработающий прион, полученный изизолята зараженного животного, анесконструированный влаборатории.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	описанный	описанный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	неработающий	неработающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	прион	прион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	полученный	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	изизолята	изизолята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	5	parataxis	_	SpacesAfter=\n
+9	зараженного	зараженный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	анесконструированный	анесконструировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	влаборатории	влаборатория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 81681
+# text = Исследователи предполагают, что центральная ("кровая") часть белка, которая уинфекционных форм прионов плотно упакована иустойчива кдействию протеаз, уобнаруженного мутанта существенно короче.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	центральная	центральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	кровая	кровый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	8	punct	_	_
+11	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+12	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+15	уинфекционных	уинфекционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	прионов	прион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	плотно	плотно	ADV	_	Degree=Pos	19	advmod	_	_
+19	упакована	упаковать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+20	иустойчива	иустойчивый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	19	conj	_	_
+21	кдействию	кдействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	nmod	_	_
+22	протеаз	протеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	уобнаруженного	уобнаружять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	мутанта	мутант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+26	существенно	существенно	ADV	_	Degree=Pos	27	advmod	_	_
+27	короче	короткий	ADJ	_	Degree=Cmp	20	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 81682
+# text = Поэтому участок белка, который, возможно, отвечает запреобразование обычных белков PrPCв прионные PrPSc invivo подвержен протеолизу.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	17	advmod	_	_
+2	участок	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+3	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	который	который	PRON	_	Case=Nom	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	возможно	возможно	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+10	запреобразование	запреобразование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	белков	белки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	PrPCв	PrPCво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpacesAfter=\n
+14	прионные	приоть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+15	PrPSc	PrPSс	ADP	_	_	16	case	_	_
+16	invivo	invivo	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	подвержен	подверженный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n
+18	протеолизу	протеолиз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 81683
+# text = Вовремя циклической амплификации впрепарат добавляют ингибиторы протеаз, поэтому мутантный прион беспрепятственно реплицируется.
+1	Вовремя	вовремя	ADV	_	Degree=Pos	5	advmod	_	_
+2	циклической	циклический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	амплификации	амплификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	впрепарат	впрепараты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	добавляют	добавлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ингибиторы	ингибитор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+7	протеаз	протеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	_
+10	мутантный	мутантный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	прион	прион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+12	беспрепятственно	беспрепятственне	ADV	_	Degree=Pos	13	advmod	_	_
+13	реплицируется	реплицируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 81684
+# text = Это одно из отличий, из-за которого одни белки становятся прионными, адругие нет.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	одно	один	NUM	_	Case=Nom|Gender=Neut	0	root	_	_
+3	из	из	ADP	_	_	4	case	_	SpacesAfter=\n
+4	отличий	отличие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	из-за	из-за	ADP	_	_	7	case	_	_
+7	которого	который	PRON	_	Case=Gen	10	obl	_	_
+8	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+11	прионными	прионный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	адругие	адругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	nsubj	_	_
+14	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 81685
+# text = Природа идействие прионов еще мало изучены иготовят множество открытий.
+1	Природа	природа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2	идействие	идействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+3	прионов	прион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+5	мало	мало	ADV	_	Degree=Pos	6	advmod	_	_
+6	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	иготовят	иготовлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	nsubj:pass	_	_
+8	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	открытий	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 81686
+# text = Например, они нетолько вызывают заболевания умлекопитающих, белки, очень похожие наприонные отвечают за"память" растений.Анна Маньшина
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+4	нетолько	нетолько	PART	_	_	5	advmod	_	_
+5	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+6	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+7	умлекопитающих	умлекопитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	белки	белок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	очень	очень	ADV	_	Degree=Pos	12	advmod	_	_
+12	похожие	похожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+13	наприонные	наприонный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	отвечают	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	за	за	ADP	_	_	17	case	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	растений	растение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.Анна	.Анн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	Маньшина	Маньшин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

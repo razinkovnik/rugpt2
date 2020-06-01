@@ -1,0 +1,112 @@
+# sent_id = 85014
+# text = Исследователи изФедеральной политехнической школы Лозанны и Брауновского университета построили беспилотник самолетного типа, который может на лету менять форму и размер крыла.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpacesBefore=\n
+2	изФедеральной	изФедеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	политехнической	политехнический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Лозанны	Лозанна	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	Брауновского	Брауновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	лету	лет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+19	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	размер	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	_
+22	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85015
+# text = Статья опубликована вInterface Focus.Беспилотники самолетного типа, как правило, более эффективны при полетах на дальние расстояния, но при этом обладает меньшей маневренностью по сравнению с мультикоптерами.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вInterface	вInterface	PROPN	_	Foreign=Yes	12	nsubj	_	_
+4	Focus.Беспилотники	Focus.Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+5	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	12	cc	_	_
+9	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	эффективны	эффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	obl	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	полетах	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	дальние	дальний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	при	при	ADP	_	_	21	case	_	_
+21	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+22	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+23	меньшей	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	маневренностью	маневренность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+25	по	по	ADP	_	_	28	case	_	_
+26	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	fixed	_	_
+27	с	с	ADP	_	_	26	fixed	_	_
+28	мультикоптерами	мультикоптер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 85016
+# text = Для того, чтобы повысить маневренность дронов с крыльями, могут использоваться различные решения.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	маневренность	маневренность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	крыльями	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	11	xcomp	_	_
+13	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85017
+# text = Google и Amazon, например, построили гибридные беспилотники, способные летать и в режиме мультикоптера, и в самолетном режиме, а компанияWingtra использовала для своего дрона схему "тейлситтер".
+1	Google	Google	PROPN	_	Foreign=Yes	7	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	Amazon	Amazon	PROPN	_	Foreign=Yes	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	беспилотники	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	способные	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+12	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	conj	_	_
+16	мультикоптера	мультикоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	21	cc	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	самолетном	самолетный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	компанияWingtra	компанияWingtra	PROPN	_	Foreign=Yes	25	nsubj	_	_
+25	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+26	для	для	ADP	_	_	28	case	_	_
+27	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	_
+28	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+29	схему	схема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	тейлситтер	тейлситтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+

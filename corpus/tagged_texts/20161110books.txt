@@ -1,0 +1,425 @@
+# sent_id = 78823
+# text = Исследователи из Университета Мэриленда разработали миниатюрное устройство, которое помогает слепым "читать" обычные бумажные книги.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Мэриленда	Мэриленд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	миниатюрное	миниатюрный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	слепым	слепой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	obl	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	обычные	обычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	бумажные	бумажной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78824
+# text = Работа исследователей опубликована журнале ACM Transactions on Accessible Computing, а краткое ее содержание приводит New Scientist.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+5	ACM	Acm	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Transactions	Transactions	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	on	on	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Accessible	Accessible	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Computing	Computing	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	15	cc	_	_
+12	краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
+14	содержание	содержание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	приводит	приводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+16	New	new	PROPN	_	Foreign=Yes	15	nsubj	_	_
+17	Scientist	Scientist	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78825
+# text = Исследователи уже провели успешные испытания устройства.Слепым людям для чтения доступны только специальные книги, в которых текст напечатан тактильным шрифтом Брайля.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	успешные	успешной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+6	устройства.	устройства.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	Слепым	слепой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+11	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+12	только	только	PART	_	_	13	advmod	_	_
+13	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	книги	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	которых	который	PRON	_	Case=Loc	19	obl	_	_
+18	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+19	напечатан	напечатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+20	тактильным	тактильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	шрифтом	шрифт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+22	Брайля	Брайль	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78826
+# text = При этом чтение обычных книг им недоступно.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+3	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	7	nmod	_	_
+7	недоступно	недоступный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 78827
+# text = В случае с электронными книгами дело обстоит проще.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	электронными	электронный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	книгами	книги	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+6	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	обстоит	обстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	проще	просто	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 78828
+# text = Многие популярные программы для чтения электронных книг содержат в себе модуль голосового чтения.Новая разработка, получившая название HandSight, представляет собой микроскопическую камеру, используемую в медицинских зондах.
+1	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	популярные	популярный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	себе	себя	PRON	_	Case=Loc	8	obl	_	_
+11	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+12	голосового	голосовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	получившая	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	amod	_	_
+19	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	HandSight	HandSight	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+23	собой	себя	PRON	_	Case=Ins	22	obl	_	_
+24	микроскопическую	микроскопический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	используемую	использовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	25	amod	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	медицинских	медицинский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	_
+30	зондах	зонд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 78829
+# text = Диаметр камеры составляет всего один миллиметр.
+1	Диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всего	всего	PART	_	_	5	advmod	_	_
+5	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	миллиметр	миллиметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 78830
+# text = Камера установлена в специальном корпусе, надеваемом на указательный палец.
+1	Камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	специальном	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	корпусе	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	надеваемом	надевать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	указательный	указательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	палец	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78831
+# text = В этом же корпусе размещен вибромотор.
+1	В	в	ADP	_	_	4	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	корпусе	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	размещен	размескать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	вибромотор	вибромотор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 78832
+# text = HandSight соединен тонким проводом с компьютером.Во время чтения пользователь должен начать вести палец по странице книги.
+1	HandSight	HandSight	PROPN	_	Foreign=Yes	2	nsubj:pass	_	_
+2	соединен	соединать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	тонким	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	проводом	провод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	компьютером.	компьютеромя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+7	Во	во	ADP	_	_	9	case	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+12	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	палец	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	странице	страница	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+17	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78833
+# text = Изображение с камеры будет передаваться на компьютер, который будет определять правильность постановки пальца и распознавать, а затем озвучивать текст.
+1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	acl:relcl	_	_
+12	правильность	правильность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	постановки	постановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	пальца	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+20	озвучивать	озвучивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+21	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78834
+# text = Если палец поставлен на строку неправильно, то есть камера видит часть строки или не видит ее вовсе, компьютер, заставляя вибромотор вибрировать, поможет найти правильное положение.В испытаниях HandSight приняли участие 19 слепых добровольцев.
+1	Если	если	SCONJ	_	_	11	mark	_	_
+2	палец	палец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	поставлен	ставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	строку	строка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	неправильно	неправильно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	mark	_	_
+9	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	fixed	_	_
+10	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	видит	видить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	строки	строка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	видит	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+18	вовсе	вовсе	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	заставляя	заставлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	26	advcl	_	_
+23	вибромотор	вибромотор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+24	вибрировать	вибрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	_	_
+27	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	правильное	правильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	В	в	ADP	_	_	32	case	_	_
+32	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	27	obl	_	_
+33	HandSight	HandSight	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+35	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	_
+36	19	19	NUM	_	_	38	nummod	_	_
+37	слепых	слепой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 78835
+# text = Им было предложено с помощью устройства "прочитать" несколько страниц из развлекательного журнала и школьного учебника.
+1	Им	они	PRON	_	Case=Dat|Number=Plur|Person=3	3	obl	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	предложено	предлагать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	прочитать	читать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	страниц	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+12	из	из	ADP	_	_	11	case	_	_
+13	развлекательного	развлекательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	школьного	школьный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	учебника	учебник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78836
+# text = Скорость распознавания и озвучивания текста системой составила от 63 до 81 слова в минуту.
+1	Скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	озвучивания	озвучивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+5	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+7	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	63	63	NUM	_	_	7	nummod	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	81	81	NUM	_	_	12	nummod	_	_
+12	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 78837
+# text = Для сравнения, средняя скорость чтения зрячего человека составляет около 200 слов в минуту.В конце февраля 2016 года исследователи из лаборатории HCI Института имени Хассо Платтнера представили систему вывода сложной информации для слепых и слабовидящих людей, созданную на базе 3D-принтера.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	зрячего	зрячий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	около	около	ADP	_	_	12	case	_	_
+11	200	200	NUM	_	_	12	nummod	_	_
+12	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+18	февраля	февраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	2016	2016	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+22	из	из	ADP	_	_	23	case	_	_
+23	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	HCI	Hci	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+25	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	Хассо	Хассо	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	Платтнера	Платтнер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	представили	представлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	сложной	сложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	для	для	ADP	_	_	38	case	_	_
+35	слепых	слепой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	слабовидящих	слабовидящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	conj	_	_
+38	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	созданную	создавать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+43	3D	3d	PROPN	_	Foreign=Yes	44	flat:foreign	_	SpaceAfter=No
+44	-принтера	-принтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 78838
+# text = Она получила название Linespace.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	Linespace	Linespace	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 78839
+# text = Система представляет собой рабочую поверхность размером 140 на 100 сантиметров, плоттера с печатающей головкой от 3D-принтера, камеры и компьютера.Система способна печатать на рабочей поверхности как текст шрифтом Брайля, так и различные рельефные изображения.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	рабочую	рабочий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+7	140	140	NUM	_	_	6	nummod	_	_
+8	на	на	ADP	_	_	6	case	_	_
+9	100	100	NUM	_	_	10	nummod	_	_
+10	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	плоттера	плоттера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	печатающей	печатать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	головкой	головка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	3D	3d	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+18	-принтера	-принтер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	компьютера.	компьютера.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+23	Система	Систем	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	_
+25	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	dep	_	_
+26	на	на	ADP	_	_	28	case	_	_
+27	рабочей	рабочий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_
+29	как	как	SCONJ	_	_	30	cc	_	_
+30	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	advmod	_	_
+31	шрифтом	шрифт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	nmod	_	_
+32	Брайля	Брайль	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	так	так	ADV	_	Degree=Pos	36	advmod	_	_
+35	и	и	PART	_	_	36	advmod	_	_
+36	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+37	рельефные	рельефной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 78840
+# text = Печатающая головка оснащена скребком, с помощью которого может удалять уже напечатанную информацию.
+1	Печатающая	Печатать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	головка	головка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	скребком	скребок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	которого	который	PRON	_	Case=Gen	9	obl	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	удалять	удалять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	уже	уже	ADV	_	Degree=Pos	12	advmod	_	_
+12	напечатанную	напечатывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78841
+# text = Управлять системой пользователь может как голосовыми командами, так и собственными изображениями, сделанными с помощью 3D-ручки.Василий Сычёв
+1	Управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+2	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+3	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	как	как	SCONJ	_	_	7	cc	_	_
+6	голосовыми	голосовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	командами	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	так	так	ADV	_	Degree=Pos	11	advmod	_	_
+10	и	и	PART	_	_	11	advmod	_	_
+11	собственными	собственный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	изображениями	изображение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сделанными	делать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	3D	3d	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+18	-ручки	-ручка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

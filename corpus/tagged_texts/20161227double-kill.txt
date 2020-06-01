@@ -1,0 +1,453 @@
+# sent_id = 86451
+# text = Швейцарские ученые обнаружили, что антигипертензивный препарат сиросингопин существенно усиливает противораковый эффект сахароснижающего средства метформина.
+1	Швейцарские	швейцарский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	антигипертензивный	антигипертензивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	сиросингопин	сиросингопина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	существенно	существенно	ADV	_	Degree=Pos	10	advmod	_	_
+10	усиливает	усиливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+11	противораковый	противораковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpacesAfter=\n
+13	сахароснижающего	сахароснижать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+14	средства	средство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86452
+# text = Поскольку оба лекарства зарегистрированы, при успехе клинических испытаний их комбинация может относительно скоро войти в арсенал онкологов.
+1	Поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+2	оба	оба	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+4	зарегистрированы	регистрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	успехе	успех	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+8	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+11	комбинация	комбинация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	относительно	относительно	ADV	_	Degree=Pos	14	advmod	_	_
+14	скоро	скоро	ADV	_	Degree=Pos	15	advmod	_	_
+15	войти	входить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	арсенал	арсенал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+18	онкологов	онколог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86453
+# text = Результаты исследования опубликованы вжурнале Science Advances.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	Science	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Advances	Advances	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86454
+# text = Метформин-- это самый назначаемый препарат при сахарном диабете 2типа.
+1	Метформин	Метформин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	это	это	PART	_	_	7	cop	_	_
+5	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	назначаемый	назначать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	сахарном	сахарный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpacesAfter=\n
+10	диабете	диабет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	2типа	2тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 86455
+# text = Ондействует засчет мягкого ингибирования митохондрий, повышает чувствительность тканей кинсулину иулучшает утилизацию глюкозы.
+1	Ондействует	Ондействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	засчет	засчет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	мягкого	мягкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	ингибирования	ингибирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	повышает	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	кинсулину	кинсулина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	иулучшает	иулучшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+12	утилизацию	утилизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86456
+# text = Многочисленные исследования invitro иinvivo показали, что помимо сахароснижающего действия метформин обладает противораковыми свойствами.
+1	Многочисленные	многочисленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesAfter=\n
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	invitro	invitro	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	иinvivo	иinvivo	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	помимо	помимо	ADP	_	_	10	case	_	SpacesAfter=\n
+9	сахароснижающего	сахароснижать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+11	метформин	метформинута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+13	противораковыми	противораковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86457
+# text = Однако этот эффект непостоянен ипроявляется преимущественно при дозах, значительно превышающих стандартные.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	SpacesAfter=\n
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	непостоянен	непостоянный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	ипроявляется	ипроявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+6	преимущественно	преимущественно	ADV	_	Degree=Pos	8	advmod	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	дозах	доза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	значительно	значительно	ADV	_	Degree=Pos	11	advmod	_	SpacesAfter=\n
+11	превышающих	превышать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	стандартные	стандартный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86458
+# text = Впоиске способа усилить действие метформина нараковые клетки сотрудники Базельского университета икомпании Basilea Pharmaceutica International провели скрининг библиотеки из1120 лекарственных молекул, которые вприсутствии небольшой концентрации метформина (четыре миллимоль на литр) вызывают гибель мышиных клеток спризнаками злокачественного перерождения.
+1	Впоиске	Впоиска	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+2	способа	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	усилить	усильнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+4	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+5	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	нараковые	нараковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+7	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+8	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+9	Базельского	Базельский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	икомпании	икомпания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Basilea	Basilea	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Pharmaceutica	Pharmaceutica	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpacesAfter=\n
+14	International	international	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	скрининг	скрининг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+17	библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	из1120	из1120	NUM	_	_	20	nummod	_	_
+19	лекарственных	лекарственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+22	которые	который	PRON	_	Case=Nom	25	amod	_	_
+23	вприсутствии	вприсутствии	ADV	_	Degree=Pos	24	advmod	_	_
+24	небольшой	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	концентрации	концентрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	acl:relcl	_	_
+26	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	четыре	четыре	NUM	_	Case=Nom	29	nummod:gov	_	_
+29	миллимоль	миллимоль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+30	на	на	ADP	_	_	31	case	_	SpacesAfter=\n
+31	литр	литр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	_
+33	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+34	гибель	гибель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	мышиных	мышин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	спризнаками	спризнак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	33	obl	_	_
+38	злокачественного	злокачественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	SpacesAfter=\n
+39	перерождения	перерождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 86459
+# text = Единственным веществом, соответствующим этим критериям, оказался сиросингопин.
+1	Единственным	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	веществом	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	соответствующим	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	этим	этот	DET	_	Case=Dat|Number=Plur	6	amod	_	_
+6	критериям	критерий	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	сиросингопин	сиросингопин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86460
+# text = Этот аналог резерпина снижает артериальное давление, однако, как ирезерпин, сейчас применяется крайне редко из-за появления более эффективных именее токсичных лекарств.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	резерпина	резерпин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	снижает	снижавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	артериальное	артериальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	как	как	SCONJ	_	_	11	cc	_	_
+11	ирезерпин	ирезерпин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сейчас	сейчас	ADV	_	Degree=Pos	14	advmod	_	SpacesAfter=\n
+14	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+15	крайне	крайне	ADV	_	Degree=Pos	16	advmod	_	_
+16	редко	редко	ADV	_	Degree=Pos	14	advmod	_	_
+17	из-за	из-за	ADP	_	_	18	case	_	_
+18	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+19	более	более	ADV	_	Degree=Cmp	20	advmod	_	_
+20	эффективных	эффективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+21	именее	именее	ADV	_	Degree=Cmp	22	advmod	_	_
+22	токсичных	токсичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	SpacesAfter=\n
+23	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 86461
+# text = Входе скрининга вприсутствии чистого сиросингопина рост культуры клеток составлял более 80процентов, адобавление метформина снижало его до менее чем 10процентов.
+1	Входе	входе	ADP	_	_	2	case	_	_
+2	скрининга	скрининг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+3	вприсутствии	вприсутствии	ADV	_	Degree=Pos	4	advmod	_	_
+4	чистого	чистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	сиросингопина	сиросингопин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	культуры	культура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	составлял	составлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	более	более	ADV	_	Degree=Cmp	11	nummod:gov	_	_
+11	80процентов	80процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	адобавление	адобавление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+14	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	снижало	снижать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+17	до	до	ADP	_	_	20	case	_	SpacesAfter=\n
+18	менее	менее	ADV	_	Degree=Cmp	17	fixed	_	_
+19	чем	чем	SCONJ	_	_	20	cc	_	_
+20	10процентов	10процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86462
+# text = При этом концентрации обоих препаратов были значительно ниже токсичных для здоровых клеток.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+3	концентрации	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+4	обоих	оба	NUM	_	Case=Gen|Gender=Masc	5	nummod	_	_
+5	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	значительно	значительно	ADV	_	Degree=Pos	8	advmod	_	SpacesAfter=\n
+8	ниже	низкий	ADJ	_	Degree=Cmp	0	root	_	_
+9	токсичных	токсичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	nmod	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	здоровых	здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86463
+# text = Схожие эффекты наблюдались ипри замене метформина наего более сильный аналог фенформин.
+1	Схожие	схожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	наблюдались	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ипри	ипри	ADP	_	_	5	case	_	_
+5	замене	замена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n
+6	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	наего	наий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	nmod	_	_
+8	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+9	сильный	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	аналог	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+11	фенформин	фенформинута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 86464
+# text = Эксперименты показали, что сочетание метформина с сиросингопином эффективно вотношении клеток различных опухолей (промиелоцитарного лейкоза, множествнной миеломы, фибросаркомы идругих), атакже искусственных печеночных органоидов (гепатосфер) изклеток гепатоцеллюлярной карциномы.
+1	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	сочетание	сочетание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	SpacesAfter=\n
+8	сиросингопином	сиросингопин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+9	эффективно	эффективно	ADV	_	Degree=Pos	10	advmod	_	_
+10	вотношении	вотношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	advcl	_	_
+11	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	опухолей	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	промиелоцитарного	промиелоцитарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	лейкоза	лейкоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	множествнной	множествнный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	миеломы	миелома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	фибросаркомы	фибросаркома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+22	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	атакже	атакже	CCONJ	_	_	28	cc	_	_
+26	искусственных	искусственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+27	печеночных	печеночный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	SpacesAfter=\n
+28	органоидов	органоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	гепатосфер	гепатосфер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	изклеток	изклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	parataxis	_	_
+33	гепатоцеллюлярной	гепатоцеллюлярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	карциномы	карцинома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 86465
+# text = Назначение мышам сраком печени 7,5 миллиграммов накилограмм массы тела сиросингопина и200 миллиграммов накилограмм массы тела метформина шестикратно через день уменьшило размеры печени, атакже число иразмеры опухолевых узлов вэтом органе.
+1	Назначение	назначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+2	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\n
+3	сраком	сраок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	7,5	7,5	NUM	_	_	6	nummod	_	_
+6	миллиграммов	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	накилограмм	накилограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	сиросингопина	сиросингопин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и200	и200	NUM	_	_	12	nummod	_	SpacesAfter=\n
+12	миллиграммов	миллиграмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	накилограмм	накилограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	метформина	метформин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	шестикратно	шестикратно	ADV	_	Degree=Pos	20	advmod	_	_
+18	через	через	ADP	_	_	19	case	_	_
+19	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	уменьшило	уменьшять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+21	размеры	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	атакже	атакже	CCONJ	_	_	30	cc	_	_
+25	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+26	иразмеры	иразмера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	опухолевых	опухолевый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	вэтом	вэто	PART	_	_	30	advmod	_	_
+30	органе	орган	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 86466
+# text = Удвух животных опухоли рассосались полностью.
+1	Удвух	Удва	NUM	_	Case=Gen	2	nummod	_	SpacesAfter=\n
+2	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	опухоли	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	рассосались	рассосаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	полностью	полностью	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 86467
+# text = Изучение биохимического действия комбинации препаратов показало, что втовремя как метформин ингибирует клеточное дыхание в митохондриях, сиросингопин снижает активность альфа-енолазы (одного из ферментов гликолиза), лишая бурно пролиферирующие раковые клетки альтернативного источника энергии.
+1	Изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	биохимического	биохимический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	комбинации	комбинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpacesAfter=\n
+6	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	втовремя	втовремя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+10	как	как	SCONJ	_	_	11	cc	_	_
+11	метформин	метформин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	advmod	_	_
+12	ингибирует	ингибировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+13	клеточное	клеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	дыхание	дыхание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+16	митохондриях	митохондрия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	сиросингопин	сиросингопин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+20	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	альфа-енолазы	альфа-енолаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	одного	один	NUM	_	Case=Gen|Gender=Masc	21	nummod	_	_
+24	из	из	ADP	_	_	25	case	_	SpacesAfter=\n
+25	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	гликолиза	гликолиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	лишая	лишать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+30	бурно	бурно	ADV	_	Degree=Pos	31	advmod	_	_
+31	пролиферирующие	пролиферируть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	_
+32	раковые	раковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obj	_	SpacesAfter=\n
+34	альтернативного	альтернативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 86468
+# text = Это приводит кзапуску механизмов апоптоза (запрограммированной гибели клетки).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	кзапуску	кзапуска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	апоптоза	апоптоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	запрограммированной	программировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	SpacesAfter=\n
+8	гибели	гибель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	parataxis	_	_
+9	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86469
+# text = Поскольку иметформин, исиросингопин являются зарегистрированными лекарственными средствами, ихможно достаточно просто испытать клинически ивслучае успеха внедрить вонкологическую практику, отмечают исследователи.
+1	Поскольку	поскольку	SCONJ	_	_	2	cc	_	_
+2	иметформин	иметформин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исиросингопин	исиросингопин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	SpacesAfter=\n
+6	зарегистрированными	зарегистрировывать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	лекарственными	лекарственный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	средствами	средство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ихможно	ихможно	ADV	_	Degree=Pos	11	advmod	_	_
+11	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+12	просто	просто	PART	_	_	13	advmod	_	_
+13	испытать	испытывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	SpacesAfter=\n
+14	клинически	клинически	ADV	_	Degree=Pos	15	advmod	_	_
+15	ивслучае	ивслучае	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+16	успеха	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	внедрить	внедрять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+18	вонкологическую	вонкологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	практику	практика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpacesAfter=\n
+22	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 86470
+# text = Ранее сотрудникам международного проекта Repurposing Drugs inOncology (ReDO), проводящего поиск средств отрака среди известных лекарств, удалось обнаружить противоопухолевые свойства ураспространенного обезболивающего ипротивовоспалительного препарата диклофенака.
+1	Ранее	ранее	ADV	_	Degree=Cmp	2	advmod	_	_
+2	сотрудникам	сотрудник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+3	международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Repurposing	Repurposing	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Drugs	Drugs	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpacesAfter=\n
+7	inOncology	inOncology	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	ReDO	Redo	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	проводящего	проводить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+13	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+15	отрака	отрак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	среди	среди	ADP	_	_	18	case	_	_
+17	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+20	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+21	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+22	противоопухолевые	противоопухолевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	SpacesAfter=\n
+23	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	_
+24	ураспространенного	ураспространять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+25	обезболивающего	обезболивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	amod	_	_
+26	ипротивовоспалительного	ипротивовоспалительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	SpacesAfter=\n
+27	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+28	диклофенака	диклофенак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 86471
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

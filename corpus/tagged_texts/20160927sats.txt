@@ -1,0 +1,603 @@
+# sent_id = 72599
+# text = Исследовательская лаборатория ВВС США совместно с американской компанией SpaceWorks Enterprises разработала две схемы относительно дешевого вывода спутников на орбиту.
+1	Исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	совместно	совместно	ADV	_	Degree=Pos	11	advmod	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	американской	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	SpaceWorks	SpaceWorks	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Enterprises	Enterprises	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	13	nummod:gov	_	_
+13	схемы	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+14	относительно	относительно	ADP	_	_	16	case	_	_
+15	дешевого	дешевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+17	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72600
+# text = Как пишет Aviation Week, они предполагают использование новых ракетных двигателей и возвращаемых ступеней.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	ракетных	ракетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	возвращаемых	возвращать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	ступеней	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72601
+# text = Сейчас военные пытаются выяснить, какую из двух схем удастся реализовать быстрее всего.Сегодня стоимость запуска спутников в космос высока.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+2	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	пытаются	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	какую	какой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+9	схем	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	удастся	удаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+11	реализовать	реализовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	быстрее	быстро	ADV	_	Degree=Cmp	11	advmod	_	_
+13	всего.	всеготец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	Сегодня	сегодня	ADV	_	Degree=Pos	15	advmod	_	_
+15	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+16	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+20	высока	высокий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72602
+# text = Например, ВВС США используют для вывода полезной нагрузки на орбиту четырехступенчатые ракеты-носители Minotaur IV.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	полезной	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+12	четырехступенчатые	четырехступенчатый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	носители	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	parataxis	_	_
+16	Minotaur	Minotaur	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	IV	iv	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72603
+# text = Они способны нести нагрузку массой до 1,73 тонны.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+4	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	1,73	1,73	NUM	_	_	8	nummod	_	_
+8	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 72604
+# text = Стоимость одного запуска такой ракеты-носителя составляет около 55 миллионов долларов.Военные нуждаются в новой системе, которая позволит сократить стоимость запуска в несколько раз.
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	одного	один	NUM	_	Case=Gen|Gender=Masc	3	nummod	_	_
+3	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	-носителя	-носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	около	около	ADP	_	_	10	case	_	_
+9	55	55	NUM	_	_	10	nummod	_	_
+10	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+11	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	нуждаются	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которая	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	25	nummod:gov	_	_
+25	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72605
+# text = Ранее командование ВВС США объявляло, что новая система должна быть не только многоразовой, но и способной к выполнению нескольких полетов подряд.
+1	Ранее	раний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	командование	командование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	объявляло	объявлять	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	advcl	_	_
+11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	многоразовой	многоразовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	но	но	CCONJ	_	_	18	cc	_	_
+17	и	и	PART	_	_	16	advmod	_	_
+18	способной	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	выполнению	выполнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
+21	нескольких	несколько	NUM	_	Case=Gen	22	nummod	_	_
+22	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	подряд	подряд	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72606
+# text = Для решения этой задачи сегодня ведется несколько проектов.Проработанные военными совместно с SpaceWorks Enterprises концепции являются одним из этих проектов.
+1	Для	для	ADP	_	_	2	case	_	_
+2	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	сегодня	сегодня	ADV	_	Degree=Pos	6	advmod	_	_
+6	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	проектов.	проектовент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj:pass	_	SpaceAfter=No
+9	Проработанные	проработывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+10	военными	военной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+11	совместно	совместно	ADV	_	Degree=Pos	10	advmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	SpaceWorks	SpaceWorks	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+14	Enterprises	Enterprises	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	концепции	концепция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+16	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+17	одним	один	NUM	_	Case=Ins|Gender=Masc	16	nummod	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	этих	этот	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	проектов	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72607
+# text = Первая схема, разработанная военными, предполагает использование возобновляемой ускорительной (первой) ступени и расходуемой второй ступени, способной нести на себе полезную нагрузку.
+1	Первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	схема	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	военными	военный	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	возобновляемой	возобновлять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+10	ускорительной	ускорительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	расходуемой	расходуть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	conj	_	_
+17	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	способной	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	нести	несть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	себе	себя	PRON	_	Case=Loc	21	nmod	_	_
+24	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72608
+# text = Общая длина системы составит 45,7 метра.Вторая схема предполагает использование возвращаемых первой и второй ступеней.
+1	Общая	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	45,7	45,7	NUM	_	_	6	nummod	_	_
+6	метра.	метра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	Вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	схема	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+10	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+11	возвращаемых	возвращать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+12	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	второй	второй	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	_
+15	ступеней	ступеня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72609
+# text = Общая длина этого носителя составит 57,9 метра.
+1	Общая	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	57,9	57,9	NUM	_	_	7	nummod	_	_
+7	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 72610
+# text = Он сможет выводить на орбиту грузы массой до 9,1 тонны.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	грузы	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+7	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	9,1	9,1	NUM	_	_	10	nummod	_	_
+10	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72611
+# text = Такой носитель будет взлетать горизонтально.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	носитель	носитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	горизонтально	горизонтально	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 72612
+# text = Его ступени после выведения груза на орбиту тоже будут приземляться горизонтально.Обе схемы предполагают вывод спутников массой до 2,3 тонны на орбиту высотой 185 километров со склонением 28,5 градуса с мыса Канаверал во Флориде.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	ступени	ступеня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	выведения	выведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	тоже	тоже	PART	_	_	10	advmod	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	приземляться	приземлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+11	горизонтально	горизонтально	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Обе	оба	NUM	_	Case=Nom|Gender=Fem	14	nummod:gov	_	_
+14	схемы	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+15	предполагают	предполагаять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	вывод	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	2,3	2,3	NUM	_	_	21	nummod	_	_
+21	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+24	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	nmod	_	_
+25	185	185	NUM	_	_	26	nummod	_	_
+26	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	со	с	ADP	_	_	28	case	_	_
+28	склонением	склонение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	_
+29	28,5	28,5	NUM	_	_	30	nummod	_	_
+30	градуса	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	с	с	ADP	_	_	32	case	_	_
+32	мыса	мыс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+33	Канаверал	Канаверать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	во	в	ADP	_	_	35	case	_	_
+35	Флориде	флорида	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 72613
+# text = Для них также были смоделированы запуски спутников на солнечно-синхронную орбиту высотой 700 километров с авиабазы "Ванденберг" в Калифорнии и британского космодрома в Ньюки.На оба носителя планируется установить перспективные британские гибридные ракетные двигатели SABRE.
+1	Для	для	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	obl	_	_
+3	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	смоделированы	моделировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	запуски	запуска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	на	на	ADP	_	_	11	case	_	_
+9	солнечно-	солнечно-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	синхронную	синхронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+12	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+13	700	700	NUM	_	_	14	nummod	_	_
+14	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	авиабазы	авиабаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Ванденберг	Ванденберг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	британского	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	космодрома	космодром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	Ньюки	Ньюк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	На	на	ADP	_	_	30	case	_	_
+29	оба	оба	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	30	nummod:gov	_	_
+30	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	_
+31	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+32	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	nsubj:pass	_	_
+33	перспективные	перспективной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+34	британские	британский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+35	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+36	ракетные	ракетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+37	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
+38	SABRE	Sabre	PROPN	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 72614
+# text = Такие силовые установки при полете в атмосфере смогут использовать для сжигания топлива атмосферный кислород, а затем переключаться на подачу жидкого окислителя.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	силовые	силовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	установки	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+8	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	сжигания	сжигание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	атмосферный	атмосферный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	кислород	кислород	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	затем	затем	ADV	_	Degree=Pos	18	advmod	_	_
+18	переключаться	переключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	conj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	подачу	подача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	жидкого	жидкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	окислителя	окислитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72615
+# text = Работать силовые установки будут на жидком водороде.Предполагается, что двигатель получит универсальные камеру сгорания и сопло, по конструкции во многом схожие с подобными элементами обычного ракетного двигателя.
+1	Работать	Работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+2	силовые	силовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	установки	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	жидком	жидк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+7	водороде.	водородбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	универсальные	универсальной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	сопло	сопть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+21	во	в	ADP	_	_	22	case	_	_
+22	многом	многое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	advmod	_	_
+23	схожие	схожие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+24	с	с	ADP	_	_	26	case	_	_
+25	подобными	подобный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	_
+26	элементами	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	_
+27	обычного	обычной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	ракетного	ракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 72616
+# text = На старте и при разгоне SABRE будет работать как обычный прямоточный реактивный двигатель.
+1	На	на	ADP	_	_	2	case	_	_
+2	старте	старт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	разгоне	разгон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	_
+6	SABRE	Sabre	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+9	как	как	SCONJ	_	_	13	cc	_	_
+10	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	прямоточный	прямоточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	реактивный	реактивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72617
+# text = При достижении скорости в пять чисел Маха (6,2 тысячи километров в час) двигатель будет переходить в ракетный режим.В настоящее время британская компания занимается созданием гибридного двигателя -- демонстратора технологий, который сможет развивать тягу до 196 килоньютонов.
+1	При	при	ADP	_	_	2	case	_	_
+2	достижении	достижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+3	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	пять	пять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+7	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	6,2	6,2	NUM	_	_	10	nummod	_	_
+10	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nummod:gov	_	_
+11	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	час)	час)	PUNCT	_	_	11	punct	_	_
+14	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	переходить	переходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	dep	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	ракетный	ракетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	режим.	режимя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+20	В	в	ADP	_	_	25	advmod	_	_
+21	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	fixed	_	_
+22	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	fixed	_	_
+23	британская	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+25	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
+26	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	_
+27	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	демонстратора	демонстратор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+31	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	который	который	PRON	_	Case=Nom	34	nsubj	_	_
+34	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
+35	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	xcomp	_	_
+36	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+37	до	до	ADP	_	_	39	case	_	_
+38	196	196	NUM	_	_	39	nummod	_	_
+39	килоньютонов	килоньютон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 72618
+# text = Первые испытания демонстратора технологий планируется провести через 12--15 месяцев.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	_
+3	демонстратора	демонстратор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	через	через	ADP	_	_	12	case	_	_
+8	12	12	NUM	_	_	12	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	15	15	NUM	_	_	8	nummod	_	_
+12	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72619
+# text = Как ожидается, полноценный двигатель мощностью 667 килоньютонов испытают в 2020--2021 году.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	полноценный	полноценный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	667	667	NUM	_	_	8	nummod	_	_
+8	килоньютонов	килоньютон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	испытают	испытавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	15	case	_	_
+11	2020	2020	NUM	_	_	15	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	2021	2021	NUM	_	_	11	nummod	_	_
+15	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+
+# sent_id = 72620
+# text = Сборка первого такого аппарата -- демонстратора технологий -- начнется в 2017 году.
+1	Сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	демонстратора	демонстратор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	appos	_	_
+7	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	2017	2017	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72621
+# text = Уменьшенный аппарат будет запускаться с полезной нагрузкой десять раз за десять дней для оценки экономической эффективности.
+1	Уменьшенный	Уменьшенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	запускаться	запускаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	полезной	полезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	нагрузкой	нагрузка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	десять	десять	NUM	_	Case=Acc	9	nummod:gov	_	_
+9	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	десять	десять	NUM	_	Case=Acc	12	nummod:gov	_	_
+12	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+13	для	для	ADP	_	_	12	case	_	_
+14	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	экономической	экономический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 72622
+# text = Демонстратор технологий будет запускать полезную нагрузку массой до 680,4 килограмма.Стоимость одного запуска полноценного XS-1 не должна будет превышать пяти миллионов долларов.
+1	Демонстратор	Демонстратор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+5	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	680,4	680,4	NUM	_	_	10	nummod	_	_
+10	килограмма.	килограмма.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+12	одного	один	NUM	_	Case=Gen|Gender=Masc	13	nummod	_	_
+13	запуска	запусок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	полноценного	полноценный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
+15	XS-	XS-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	1	1	NUM	_	_	4	nummod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+20	превышать	превышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	dep	_	_
+21	пяти	пять	NUM	_	Case=Gen	22	nummod	_	_
+22	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+23	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72623
+# text = В ходе серии запусков беспилотник не должен нуждаться в техническом обслуживании и ремонте.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+4	запусков	запусок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	нуждаться	нуждаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	dep	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	техническом	технический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обслуживании	обслуживание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	ремонте	ремонт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72624
+# text = XS-1 должен уметь развивать скорость более десяти чисел Маха (11,5 тысячи километров в час) и нести полезную нагрузку массой до 2,27 тонны.Василий Сычёв
+1	XS-	XS-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	1	1	NUM	_	_	3	nummod	_	_
+3	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	уметь	уметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	более	более	ADV	_	Degree=Cmp	9	nummod:gov	_	_
+8	десяти	десять	NUM	_	Case=Gen	9	nummod	_	_
+9	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+10	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	11,5	11,5	NUM	_	_	13	nummod	_	_
+13	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nummod:gov	_	_
+14	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+15	в	в	ADP	_	_	14	case	_	_
+16	час)	час)	PUNCT	_	_	15	punct	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	conj	_	_
+19	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+22	до	до	ADP	_	_	24	case	_	_
+23	2,27	2,27	NUM	_	_	24	nummod	_	_
+24	тонны.	тонны.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+26	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	SpaceAfter=No
+

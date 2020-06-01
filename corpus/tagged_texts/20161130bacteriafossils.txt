@@ -1,0 +1,253 @@
+# sent_id = 82264
+# text = Геологи из США и Южной Африки обнаружили ископаемые останки сероокисляющих бактерий, живших 2,5 миллиарда лет назад, еще до появления в атмосфере свободного кислорода.Статьяопубликована в журнале Geology.Возраст Земли, по последним данным, оценивается в 4,54 миллиарда лет.
+1	Геологи	геолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Африки	африка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+7	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ископаемые	ископаемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	останки	останк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	сероокисляющих	сероокислять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	живших	жить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+14	2,5	2,5	NUM	_	_	15	nummod	_	_
+15	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nummod:gov	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	назад	назад	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	еще	еще	ADV	_	Degree=Pos	21	advmod	_	_
+20	до	до	ADP	_	_	21	case	_	_
+21	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	свободного	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	кислорода.	кислорода.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl:agent	_	SpaceAfter=No
+26	Статьяопубликована	Статьяопубликован	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	_
+29	Geology.	geology.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	SpaceAfter=No
+30	Возраст	Возраст	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	appos	_	_
+31	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	по	по	ADP	_	_	35	case	_	_
+34	последним	последний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	35	amod	_	_
+35	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	28	appos	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	оценивается	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+38	в	в	ADP	_	_	40	case	_	_
+39	4,54	4,54	NUM	_	_	40	nummod	_	_
+40	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nummod:gov	_	_
+41	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 82265
+# text = При этом первую половину этого срока в состав атмосферы почти не было свободного кислорода.Около 2,4 миллиарда лет назад произошло глобальное изменение состава атмосферы Земли, известное как кислородная катастрофа.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+3	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	срока	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+9	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	почти	почти	ADV	_	Degree=Pos	11	advmod	_	_
+11	не	не	PART	_	_	2	advmod	_	_
+12	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	свободного	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	кислорода.	кислорода.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+15	Около	Около	ADP	_	_	17	case	_	_
+16	2,4	2,4	NUM	_	_	17	nummod	_	_
+17	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nummod:gov	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+19	назад	назад	ADV	_	Degree=Pos	20	advmod	_	_
+20	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+21	глобальное	глобальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+23	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	известное	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	advcl	_	_
+28	как	как	SCONJ	_	_	30	cc	_	_
+29	кислородная	кислородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	катастрофа	катастрофа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 82266
+# text = В атмосфере при этом появилось большое количество свободного кислорода, а общий характер атмосферы изменился с восстановительного на окислительный, что привело к появлениюаэробныхорганизмов.
+1	В	в	ADP	_	_	2	case	_	_
+2	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+5	появилось	появляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+8	свободного	свободный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	15	cc	_	_
+12	общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	характер	характер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	изменился	изменяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	восстановительного	восстановительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	obl	_	_
+18	на	на	ADP	_	_	17	case	_	_
+19	окислительный	окислительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	PRON	_	Case=Nom	22	nsubj	_	_
+22	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+23	к	к	ADP	_	_	24	case	_	_
+24	появлениюаэробныхорганизмов	появлениюаэробныхорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 82267
+# text = Жизнь на Земле возникла еще до кислородной катастрофы, хотя точный момент ее возникновения не определен.
+1	Жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	Земле	земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	возникла	возникать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	еще	еще	ADV	_	Degree=Pos	8	advmod	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	кислородной	кислородный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	катастрофы	катастрофа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	хотя	хотя	SCONJ	_	_	4	mark	_	_
+11	точный	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+13	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
+14	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	определен	определять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 82268
+# text = По последним данным, жизнь существовала уже 3,8 миллиарда лет назад -- а по некоторымоценкам, даже ранее 4 миллиардов лет назад.Авторы новой статьи обнаружили ископаемые микроорганизмы в слоях южноафриканского кремнистого сланца, возраст которых оценивается как 2,52 миллиарда лет (это соответствует неоархею -- последней эре архея).
+1	По	по	ADP	_	_	3	case	_	_
+2	последним	последний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	существовала	существовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+8	3,8	3,8	NUM	_	_	9	nummod	_	_
+9	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nummod:gov	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+11	назад	назад	ADV	_	Degree=Pos	6	advmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	15	cc	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	некоторымоценкам	некоторымоценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	даже	даже	PART	_	_	18	advmod	_	_
+18	ранее	ранее	ADV	_	Degree=Pos	19	advmod	_	_
+19	4	4	NUM	_	_	20	nummod	_	_
+20	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	назад.	назадалее	ADV	_	Degree=Pos	26	advmod	_	SpaceAfter=No
+23	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+24	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+27	ископаемые	ископаемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	слоях	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	26	obl	_	_
+31	южноафриканского	южноафриканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+32	кремнистого	кремнистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	сланца	сланец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+36	которых	который	PRON	_	Case=Gen	35	nmod	_	_
+37	оценивается	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	acl:relcl	_	_
+38	как	как	SCONJ	_	_	40	cc	_	_
+39	2,52	2,52	NUM	_	_	40	nummod	_	_
+40	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
+41	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	44	nsubj	_	_
+44	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	parataxis	_	_
+45	неоархею	неоархей	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	44	obl	_	_
+46	--	--	PUNCT	_	_	45	punct	_	_
+47	последней	последний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	эре	эра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	45	appos	_	_
+49	архея	архей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 82269
+# text = Эти коккоидные (округлые) микроорганизмы гораздо крупнее большинства современных бактерий,но похожи на некоторых бактерий, живущих сегодня в глубоких океанических водах, богатых серой и бедных кислородом и светом.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+2	коккоидные	коккоидный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	округлые	округлый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	_
+6	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	гораздо	гораздо	ADV	_	Degree=Pos	8	advmod	_	_
+8	крупнее	крупный	ADJ	_	Degree=Cmp	0	root	_	_
+9	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,но	,но	ADV	_	Degree=Pos	13	advmod	_	_
+13	похожи	похожий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	16	amod	_	_
+16	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	живущих	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+19	сегодня	сегодня	ADV	_	Degree=Pos	18	advmod	_	_
+20	в	в	ADP	_	_	23	case	_	_
+21	глубоких	глубокий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+22	океанических	океанический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+23	водах	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	богатых	богатый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+26	серой	серый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	бедных	бедный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	conj	_	_
+29	кислородом	кислород	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	светом	свет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 82270
+# text = Такое сходство неслучайно: обнаруженные организмы обитали в глубоких океанических водах.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	сходство	сходство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	неслучайно	неслучайный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	обнаруженные	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	организмы	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	обитали	обитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	глубоких	глубокий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+10	океанических	океанический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	водах	воды	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 82271
+# text = Исходя из морфологии и предполагаемой экологии этих микроорганизмов, авторы заключили, что они представляли собой сероокисляющие бактерии.
+1	Исходя	исходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	морфологии	морфология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	предполагаемой	предполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	экологии	экология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+7	этих	этот	DET	_	Case=Gen|Number=Plur	8	amod	_	_
+8	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	заключили	заключать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	представляли	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+16	собой	себя	PRON	_	Case=Ins	15	dep	_	_
+17	сероокисляющие	сероокисляющий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+

@@ -1,0 +1,135 @@
+# sent_id = 82542
+# text = Программист Александр Штучкин использовал разработал систему позиционирования квадрокоптера, которая для ориентирования в пространстве использует маяки от VR-очков HTC Vive.
+1	Программист	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpacesBefore=\n
+2	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Штучкин	Штучкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+5	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	позиционирования	позиционирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которая	который	PRON	_	Case=Nom	15	nsubj	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	ориентирования	ориентирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+16	маяки	маяка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+17	от	от	ADP	_	_	19	case	_	_
+18	VR-	Vr-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+19	очков	очко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+20	HTC	Htс	ADP	_	_	19	case	_	_
+21	Vive	Vive	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 82543
+# text = На проект обратил внимание портал Hackaday.Современные модели гражданских беспилотников способны ориентироваться с помощью GPS и ГЛОНАСС, однако спутниковые навигационные системы не подходят для точного позиционирования малых беспилотников в помещении.
+1	На	на	ADP	_	_	2	case	_	_
+2	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	обратил	обращать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	портал	портать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	Hackaday.	hackaday.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+7	Современные	Современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	модели	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+9	гражданских	гражданской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+12	ориентироваться	ориентироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	dep	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	fixed	_	_
+15	GPS	gps	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	ГЛОНАСС	Глонасс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	24	advmod	_	_
+20	спутниковые	спутниковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+21	навигационные	навигационный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	подходят	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	для	для	ADP	_	_	27	case	_	_
+26	точного	точный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	позиционирования	позиционирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+28	малых	малый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	помещении	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 82544
+# text = Для этого, как правило, используются внешние системы, состоящие из нескольких рапидных камер, которы по специальным меткам на дронах могут отслеживать перемещение беспилотников даже на больших скоростях -- например, такая система установлена на специальной арене для испытания беспилотников вШвейцарской высшей технической школе Цюриха.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	cc	_	_
+5	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	внешние	внешний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	состоящие	состоять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	из	из	ADP	_	_	15	case	_	_
+13	нескольких	несколько	NUM	_	Case=Gen	15	nummod	_	_
+14	рапидных	рапидный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которы	котор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+18	по	по	ADP	_	_	20	case	_	_
+19	специальным	специальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	20	amod	_	_
+20	меткам	меток	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	дронах	дрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	_
+23	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+24	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	перемещение	перемещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	даже	даже	PART	_	_	30	advmod	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	больших	большой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	_
+30	скоростях	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	36	obl	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	например	например	ADV	_	Degree=Pos	36	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	35	amod	_	_
+35	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj:pass	_	_
+36	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+37	на	на	ADP	_	_	39	case	_	_
+38	специальной	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	арене	арена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_
+40	для	для	ADP	_	_	39	case	_	_
+41	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+42	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+43	вШвейцарской	вШвейцарский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+44	высшей	высший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+45	технической	технический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+47	Цюриха	Цюрих	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 82545
+# text = Несмотря на эффективность подобного метода, он требует покупки дорогостоящего оборудования, что не всегда подходит для различных самодельных проектов.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+4	подобного	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	требует	требать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	покупки	покупка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	дорогостоящего	дорогостоящий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	8	mark	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	всегда	всегда	ADV	_	Degree=Pos	16	advmod	_	_
+16	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+17	для	для	ADP	_	_	20	case	_	_
+18	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	самодельных	самодельной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	проектов	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

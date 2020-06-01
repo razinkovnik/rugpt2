@@ -1,0 +1,327 @@
+# sent_id = 87305
+# text = Геофизики из Института Вейцмана и Израильского технологического института Технион предложили новый механизм возникновения Луны.
+1	Геофизики	геофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Института	институт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Вейцмана	Вейцман	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	Израильского	израильский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+9	Технион	Технион	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+10	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87306
+# text = В отличие от общепринятой в мировой науке модели одиночного гигантского столкновения, ученые предполагают, что таких столкновений было несколько -- они породили около 20 малых лун, которые затем "слиплись" в нынешнюю Луну.
+1	В	в	ADP	_	_	4	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	общепринятой	общепринятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	мировой	мировой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	науке	наука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	одиночного	одиночный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	таких	такой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nsubj	_	_
+19	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
+20	несколько	несколько	NUM	_	Case=Nom	18	nsubj	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+23	породили	порождать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+24	около	около	ADP	_	_	27	case	_	_
+25	20	20	NUM	_	_	27	nummod	_	_
+26	малых	малый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	лун	луна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	32	nsubj	_	_
+30	затем	затем	ADV	_	Degree=Pos	32	advmod	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	слиплись	слипваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	27	acl:relcl	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	нынешнюю	нынешний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	Луну	луна	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 87307
+# text = По словам авторов, эта модель объясняет совпадение изотопного состава лунных пород с земными -- основной контраргумент против гигантского столкновения.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	совпадение	совпадение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	изотопного	изотопный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	лунных	лунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	пород	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	земными	земной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	основной	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	контраргумент	контраргумент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	parataxis	_	_
+18	против	против	ADP	_	_	20	case	_	_
+19	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 87308
+# text = Исследование опубликовано в журнале Nature Geoscience, кратко о нем сообщает издание Science News.Основная гипотеза происхождения Луны -- гигантское столкновение ("мегаимпакт").
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Geoscience	Geoscience	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	оно	PRON	_	Case=Loc|Gender=Neut|Number=Sing|Person=3	11	obl	_	_
+11	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	Science	Science	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	News.Основная	News.Основный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	_
+16	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	гигантское	гигантский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+21	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	мегаимпакт	мегаимпакт	X	_	Foreign=Yes	20	appos	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 87309
+# text = Согласно этой гипотезе, прото-Земля столкнулась с небесным телом с размерами, сопоставимыми с Марсом (его называют Тейей).
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	гипотезе	гипотеза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	прото-Земля	прото-Земле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+6	столкнулась	сталкиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	небесным	небесный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	телом	тело	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	размерами	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сопоставимыми	сопоставимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	Марсом	марс	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+18	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+19	Тейей	Тейя	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87310
+# text = Это привело к выбросу значительного количества материала на околоземную орбиту и увеличило скорость вращения будущей Земли до одного оборота в пять часов.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	выбросу	выброс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	значительного	значительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	околоземную	околоземный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	увеличило	увеличивать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	будущей	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	одного	один	NUM	_	Case=Gen|Gender=Masc	19	nummod	_	_
+19	оборота	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	пять	пять	NUM	_	Case=Acc	22	nummod:gov	_	_
+22	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87311
+# text = Со временем в обломочном диске произошла аккреция -- слипание материала.
+1	Со	с	ADP	_	_	2	case	_	_
+2	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	обломочном	обломочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	диске	диск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	произошла	происходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	аккреция	аккреция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	слипание	слипание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	appos	_	_
+10	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 87312
+# text = Это привело к формированию Луны, которая за счет приливного воздействия замедлила Землю до нынешней скорости вращения.Главный контраргумент к этой гипотезе -- неожиданное совпадение изотопных составов кислорода, титана и вольфрама в лунной породе с земным.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	формированию	формирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+5	Луны	луна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+8	за	за	ADP	_	_	11	case	_	_
+9	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	приливного	приливный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+12	замедлила	замедливать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+13	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	нынешней	нынешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+17	вращения	вращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	контраргумент	контраргумент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+21	к	к	ADP	_	_	23	case	_	_
+22	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	23	amod	_	_
+23	гипотезе	гипотеза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	неожиданное	неожиданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	совпадение	совпадение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+27	изотопных	изотопный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	составов	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	кислорода	кислород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	титана	титан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	вольфрама	вольфрам	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	лунной	лунный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	породе	порода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	38	nmod	_	_
+37	с	с	ADP	_	_	38	case	_	_
+38	земным	земной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 87313
+# text = Под изотопным составом водорода, например, понимается соотношение изотопов водорода-1, водорода-2 (дейтерия) и водорода-3 (трития) в образцах.
+1	Под	под	ADP	_	_	3	case	_	_
+2	изотопным	изотопный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+4	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	понимается	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	соотношение	соотношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+10	изотопов	изотоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	1	1	NUM	_	_	11	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	2	2	NUM	_	_	19	nummod	_	_
+18	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	дейтерия	дейтерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	3	3	NUM	_	_	26	nummod	_	_
+25	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	трития	тритие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	parataxis	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	образцах	образец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 87314
+# text = Эти соотношения уникальны для небесных тел Солнечной системы: к примеру, для Марса и Земли они отличаются.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	соотношения	соотношения	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	уникальны	уникальный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+7	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+18	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 87315
+# text = Совпадение изотопных составов показывает, что в лунных породах очень мала доля пород Тейи.
+1	Совпадение	совпадение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	изотопных	изотопный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	составов	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	лунных	лунный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	породах	пород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	мала	маленький	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	advcl	_	_
+12	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	пород	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	Тейи	Тейджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87316
+# text = Важно отметить, что хотя изотопный состав для отдельных элементов на Земле и на Луне совпадают, химический состав небесных тел отличается.
+1	Важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	хотя	хотя	SCONJ	_	_	7	mark	_	_
+6	изотопный	изотопный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	Земле	земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	Луне	Лун	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	_
+16	совпадают	совпадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	химический	химический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+20	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+22	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87317
+# text = К примеру, на Луне меньше железа.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Луне	Лун	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+6	меньше	мало	NUM	_	_	0	root	_	_
+7	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+

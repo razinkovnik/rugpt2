@@ -1,0 +1,331 @@
+# sent_id = 74303
+# text = Бундесрат Германии принял резолюцию озапрете автомобилей сдвигателями внутреннего сгорания с2030года.
+1	Бундесрат	Бундесрат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	резолюцию	резолюция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	озапрете	озапрать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpacesAfter=\n
+7	сдвигателями	сдвигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+8	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	с2030года	с2030год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 74304
+# text = Если соответствующий закон будет принят, куказанному сроку встране, авозможно, ивовсем Евросоюзе будут регистрировать только автомобили, незагрязняющие окружающую среду, пишет Forbes coссылкой наDer Spiegel.
+1	Если	если	SCONJ	_	_	24	mark	_	_
+2	соответствующий	соответствовать	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	закон	закон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	принят	принимать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	куказанному	куказанный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	сроку	срок	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+9	встране	встрана	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	авозможно	авозможно	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ивовсем	ивовсе	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+14	Евросоюзе	Евросоюз	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpacesAfter=\n
+15	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	регистрировать	регистрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	dep	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	незагрязняющие	незагрязняющий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	окружающую	окружать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+22	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+25	Forbes	Forbes	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpacesAfter=\n
+26	coссылкой	coссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_
+27	наDer	наDer	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	Spiegel	Spiegel	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74305
+# text = Вапреле 2016 года Германия запустила государственную программу, призванную ускорить переход наэлектромобили.
+1	Вапреле	Вапреле	PART	_	_	2	advmod	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	Германия	германия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	запустила	запускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	государственную	государственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	призванную	призванный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+10	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	переход	переход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	наэлектромобили	наэлектромобивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74306
+# text = Веерамках все граждане, приобретающие такой транспорт, получают скидку вразмере 4000евро.
+1	Веерамках	Веерамка	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+2	все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	приобретающие	приобретать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	транспорт	транспорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	скидку	скидка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	вразмере	вразмера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+12	4000евро	4000евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74307
+# text = Крупные автопроизводители, такие как "Фольксваген" и"Мерседес", сообщили опланах по развитию производства электромобилей.
+1	Крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesAfter=\n
+2	автопроизводители	автопроизводитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+5	как	как	SCONJ	_	_	7	cc	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Фольксваген	Фольксваген	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	и"	и"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	Мерседес	Мерседес	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	опланах	опланах	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	по	по	ADP	_	_	16	case	_	SpacesAfter=\n
+16	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+17	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74308
+# text = Нынешняя резолюция стала очередным шагом попереходу на экологичный транспорт.
+1	Нынешняя	нынешний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	резолюция	резолюция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	очередным	очередной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	шагом	шаг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	попереходу	поперехода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	на	на	ADP	_	_	9	case	_	SpacesAfter=\n
+8	экологичный	экологичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	транспорт	транспорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 74309
+# text = Она призывает Еврокомиссию подготовить ипринять директивы, направленные назапрет использования новых двигателей внутреннего сгорания надорогах Евросоюза с2030года.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	призывает	призывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Еврокомиссию	Еврокомиссия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	подготовить	дготовить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	ипринять	ипринимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpacesAfter=\n
+6	директивы	директив	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	направленные	направлять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	назапрет	назапрать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpacesAfter=\n
+15	надорогах	надорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+16	Евросоюза	Евросоюз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	с2030года	с2030год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 74310
+# text = Кроме того, документ подразумевает постепенное увеличение налогов наавтомобили стакими двигателями.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	документ	документ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	постепенное	постепенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	налогов	налог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	наавтомобили	наавтомобивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+10	стакими	стакий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 74311
+# text = Роль Бундесрата, или Федерального совета Германии в законотворчестве страны относительно невелика, однако его резолюции традиционно имеют большую силу при изменениях европейского законодательства.
+1	Роль	роль	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Бундесрата	Бундесрат	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	или	или	CCONJ	_	_	6	cc	_	_
+5	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	совета	совет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+7	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	законотворчестве	законотворчество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+10	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	относительно	относительно	ADV	_	Degree=Pos	12	advmod	_	_
+12	невелика	небольшой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	однако	однако	ADV	_	Degree=Pos	18	advmod	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	резолюции	резолюция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+17	традиционно	традиционно	ADV	_	Degree=Pos	18	advmod	_	_
+18	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+19	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	изменениях	изменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	obl	_	_
+23	европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	законодательства	законодательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 74312
+# text = Примет лиЕвросоюз предложенные меры, пока неизвестно.
+1	Примет	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	лиЕвросоюз	лиЕвросоюз	ADV	_	Degree=Pos	1	advmod	_	_
+3	предложенные	предлагать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	меры	мера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	пока	пока	SCONJ	_	_	1	mark	_	_
+7	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74313
+# text = Предполагается, что подобный шаг позволит практически полностью избавиться отавтомобильных выхлопов к2050году.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	подобный	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	шаг	шаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	практически	практически	ADV	_	Degree=Pos	8	advmod	_	SpacesAfter=\n
+8	полностью	полностью	ADV	_	Degree=Pos	9	advmod	_	_
+9	избавиться	избавляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+10	отавтомобильных	отавтомобильный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	выхлопов	выхлоп	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+12	к2050году	к2050год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74314
+# text = Кэтому времени Германия должна будет сократить выбросы углекислого газа ватмосферу на80--95 процентов согласно Парижскому соглашению поклимату, которое вступит всилу 4ноября 2016года.
+1	Кэтому	Кэто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	fixed	_	_
+3	Германия	Германия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpacesAfter=\n
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+7	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	ватмосферу	ватмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+11	на80	на80	NUM	_	_	13	nummod	_	SpaceAfter=No
+12	--95	--95	NUM	_	_	13	nummod	_	_
+13	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	согласно	согласно	ADP	_	_	16	case	_	SpacesAfter=\n
+15	Парижскому	Парижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	соглашению	соглашение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+17	поклимату	поклимат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которое	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	вступит	вступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	всилу	всила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	4ноября	4ноябрь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	2016года	2016годь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74315
+# text = Вслучае принятия соответствующих законов Германию ждет большая работа.
+1	Вслучае	вслучае	CCONJ	_	_	6	cc	_	_
+2	принятия	принятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	соответствующих	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	законов	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	Германию	германия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	ждет	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 74316
+# text = Внастоящее время в стране зарегистрировано около 45 миллионов автомобилей, лишь 150 тысяч изкоторых гибридные и25тысяч -- полностью электрические.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	зарегистрировано	регистрировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	45	45	NUM	_	_	8	nummod	_	SpacesAfter=\n
+8	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	лишь	лишь	PART	_	_	12	advmod	_	_
+12	150	150	NUM	_	_	13	nummod	_	_
+13	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	conj	_	_
+14	изкоторых	изкоторый	DET	_	Case=Gen|Number=Plur	16	amod	_	_
+15	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	и25тысяч	и25тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	полностью	полностью	ADV	_	Degree=Pos	19	advmod	_	_
+19	электрические	электрический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74317
+# text = Схожие инициативы обсуждаются нагосударственном уровне ив других странах.
+1	Схожие	схожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	инициативы	инициатива	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	обсуждаются	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	нагосударственном	нагосударствять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	ив	ивый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	SpacesAfter=\n
+7	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 74318
+# text = Возможность полного запрета напродажи автомобилей с двигателями внутреннего сгорания с2025 года обсуждают Нидерланды иНорвегия.
+1	Возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+2	полного	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	запрета	запрет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	напродажи	напродажа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	с	с	ADP	_	_	7	case	_	SpacesAfter=\n
+7	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+8	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	с2025	с2025	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	обсуждают	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	Нидерланды	Нидерланды	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	иНорвегия	иНорвегия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74319
+# text = Индия рассматривает возможность аналогичного запрета с2030года.
+1	Индия	индия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpacesAfter=\n
+2	рассматривает	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	аналогичного	аналогичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	запрета	запрет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	с2030года	с2030год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 74320
+# text = Внастоящее время сжигание ископаемого топлива в автомобильных двигателях отвечает примерно за14процентов выброса всех антропогенных парниковых газов.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+3	сжигание	сжигание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+4	ископаемого	ископаемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	SpacesAfter=\n
+7	автомобильных	автомобильный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	двигателях	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
+9	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	11	advmod	_	_
+11	за14процентов	за14процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+12	выброса	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	всех	весь	DET	_	Case=Gen|Number=Plur	16	amod	_	SpacesAfter=\n
+14	антропогенных	антропогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	парниковых	парниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 74321
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

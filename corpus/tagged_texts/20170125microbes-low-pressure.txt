@@ -1,0 +1,624 @@
+# sent_id = 89573
+# text = Астробиологи изЭдинбургского университета пришли квыводу, что образование биопленок могло бы помочь бактериям выжить в марсианских условиях.
+1	Астробиологи	астробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesBefore=\n
+2	изЭдинбургского	изЭдинбургский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	квыводу	квывода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	образование	образование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	биопленок	биопленка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	бы	бы	PART	_	Mood=Cnd	10	aux	_	_
+12	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	бактериям	бактерие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+14	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	марсианских	марсианский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 89574
+# text = Кроме того, выяснилось, что высушенные биопленки гораздо более жизнеспособны, чем увлажненные.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	высушенные	высушять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	биопленки	биопленка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+9	гораздо	гораздо	ADV	_	Degree=Pos	10	advmod	_	_
+10	более	более	ADV	_	Degree=Cmp	11	advmod	_	_
+11	жизнеспособны	жизнеспособный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чем	чем	SCONJ	_	_	14	cc	_	_
+14	увлажненные	увлажненный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 89575
+# text = Обэтом сообщается вработе, выложенной насервере препринтов biorXiv.org.
+1	Обэтом	Обэто	PART	_	_	2	advmod	_	_
+2	сообщается	сообщаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вработе	вработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	выложенной	выложать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	насервере	насервера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+7	препринтов	препринт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	biorXiv.org	biorXiv.org	X	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 89576
+# text = Биопленка представляет собой сообщество микроорганизмов, которые прикреплены друг кдругу ипогружены ввыделяемое ими вещество-- слизь.
+1	Биопленка	Биопленка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	сообщество	сообщество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj:pass	_	_
+8	прикреплены	прикреплять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+9	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	fixed	_	_
+10	кдругу	кдруг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+11	ипогружены	ипогружать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+12	ввыделяемое	ввыделять	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	11	obl:agent	_	_
+14	вещество--	вещество--	PUNCT	_	_	13	punct	_	_
+15	слизь	слизь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 89577
+# text = Посравнению содиночными микробами, биопленка гораздо более устойчива квнешним угрозам, таким как нехватка воды и низкий pH, что вомногом объясняется быстрым обменом информацией между обитателями сообщества.
+1	Посравнению	посравненить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	содиночными	содиночный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	микробами	микроб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	биопленка	биопленка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	гораздо	гораздо	ADV	_	Degree=Pos	7	advmod	_	_
+7	более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+8	устойчива	устойчивой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	conj	_	_
+9	квнешним	квнешний	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	угрозам	угроз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	14	amod	_	_
+13	как	как	SCONJ	_	_	12	cc	_	_
+14	нехватка	нехватка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+15	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	низкий	низкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	pH	ph	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	PRON	_	Case=Nom	22	nsubj:pass	_	_
+21	вомногом	вомногом	ADV	_	Degree=Pos	22	advmod	_	_
+22	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	acl:relcl	_	_
+23	быстрым	быстрый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	обменом	обмен	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+25	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	_
+26	между	между	ADP	_	_	27	case	_	_
+27	обитателями	обитатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	nmod	_	_
+28	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 89578
+# text = НаЗемле биопленки широко распространены (например, зубной налет-- это тоже биопленка) идостаточно хорошо изучены, однако ученым досих пор очень мало известно отом, как подобные сообщества будут вести себя вэкстремальных условиях космоса идругих планет.
+1	НаЗемле	Наземле	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	биопленки	биопленка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	широко	широко	ADV	_	Degree=Pos	4	advmod	_	_
+4	распространены	распространять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	зубной	зубной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	налет	налет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	это	это	PART	_	_	14	cop	_	_
+13	тоже	тоже	PART	_	_	14	advmod	_	_
+14	биопленка	биопленка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	идостаточно	идостаточно	ADV	_	Degree=Pos	18	advmod	_	_
+17	хорошо	хорошо	ADV	_	Degree=Pos	18	advmod	_	_
+18	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	однако	однако	ADV	_	Degree=Pos	26	advmod	_	_
+21	ученым	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	_
+22	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+24	очень	очень	ADV	_	Degree=Pos	25	advmod	_	_
+25	мало	мало	ADV	_	Degree=Pos	26	advmod	_	_
+26	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	conj	_	_
+27	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	как	как	SCONJ	_	_	31	cc	_	_
+30	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	33	nsubj	_	_
+32	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux	_	_
+33	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+34	себя	себя	PRON	_	Case=Acc	33	obj	_	_
+35	вэкстремальных	вэкстремальный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	36	amod	_	_
+36	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	33	obl	_	_
+37	космоса	космос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 89579
+# text = Особенно привлекательным объектом для исследований считается Марс.
+1	Особенно	особенно	ADV	_	Degree=Pos	2	advmod	_	_
+2	привлекательным	привлекательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	Марс	марс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 89580
+# text = В2015 году ученым удалось найти свидетельства существования потоков соленой воды наего поверхности, аэто значит, что гипотетически наКрасной планете может существовать жизнь, подобная земной.
+1	В2015	В2015	NUM	_	_	2	nummod	_	_
+2	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+3	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	свидетельства	свидетельство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	соленой	соленый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	наего	наий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	аэто	аэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	гипотетически	гипотетически	ADV	_	Degree=Pos	19	advmod	_	_
+19	наКрасной	наКрасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+21	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+22	существовать	существовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	подобная	подобнать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	_
+26	земной	зея	PRON	_	Case=Ins|Number=Sing|Person=1	25	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 89581
+# text = Чтобы понять, могутли микроорганизмы выжить вмарсианской воде, авторы новой работы провели соответствующий эксперимент.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+2	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	могутли	могутть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+6	выжить	выжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+7	вмарсианской	вмарсианский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	воде	вода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+11	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+14	соответствующий	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 89582
+# text = Исследователи поместили колонии бактерий Sphingomonas desiccabilis, атакже одиночные организмы всемь растворов, имитирующих возможный химический состав воды надревнем исовременном Марсе.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	Sphingomonas	Sphingomonas	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	desiccabilis	desiccabilis	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	атакже	атакже	CCONJ	_	_	10	cc	_	_
+9	одиночные	одиночной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	организмы	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	conj	_	_
+11	всемь	всемь	NUM	_	Case=Nom	12	nummod:gov	_	_
+12	растворов	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	имитирующих	имитировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+15	возможный	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	химический	химический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+18	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	надревнем	надревень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+20	исовременном	исовременный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 89583
+# text = Часть этих растворов были щелочными карбонатно-хлоридными жидкостями, которые когда-то могли контактировать сметеоритом Нахла, другие содержали хлорид исульфат магния, аодин раствор был богат перхлоратами магния, ранее обнаруженными вгрунте Марса спускаемым аппаратом "Феникс".
+1	Часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	растворов	раствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	щелочными	щелочной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+6	карбонатно-	карбонатно-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	хлоридными	хлоридный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	жидкостями	жидкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+11	когда-то	когда-то	ADV	_	Degree=Pos	12	advmod	_	_
+12	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	контактировать	контактировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	сметеоритом	сметеорит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	Нахла	Нахл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	nsubj	_	_
+18	содержали	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	хлорид	хлорид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	исульфат	исульфат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+21	магния	магний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	аодин	аодин	NUM	_	Case=Nom|Gender=Masc	20	nummod:gov	_	_
+24	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+25	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	cop	_	_
+26	богат	богатый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	parataxis	_	_
+27	перхлоратами	перхлорат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	_
+28	магния	магний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	ранее	ранее	ADV	_	Degree=Pos	31	advmod	_	_
+31	обнаруженными	обнаруживать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
+32	вгрунте	вгрунт	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+33	Марса	Марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	спускаемым	спускаемый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	conj	_	_
+36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	Феникс	Феникс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	35	appos	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 89584
+# text = Астробиологи наблюдали забактериями втечении пяти часов.
+1	Астробиологи	астробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	забактериями	забактериь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+4	втечении	втечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+5	пяти	пять	NUM	_	Case=Gen	6	nummod	_	_
+6	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 89585
+# text = Как иожидалось, микробы хорошо чувствовали себя врастворах снизкой ионной силой, высокой активностью воды и нейтральным pH.
+1	Как	как	ADV	_	Degree=Pos	2	mark	_	_
+2	иожидалось	иожидать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	микробы	микробы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	_
+6	чувствовали	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	себя	себя	PRON	_	Case=Acc	6	obj	_	_
+8	врастворах	врастворах	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	снизкой	снизкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	ионной	ионный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	силой	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_
+15	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	нейтральным	нейтральный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	pH.	pH.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+
+# sent_id = 89586
+# text = Когда организмы оказывались вкислой среде, содержащей в70раз больше соли, чем самый "слабый" раствор, они погибали.
+1	Когда	когда	ADV	_	Degree=Pos	20	mark	_	_
+2	организмы	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	оказывались	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	advcl	_	_
+4	вкислой	вкислый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	среде	среда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	содержащей	содержать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	в70раз	в70раз	ADV	_	Degree=Pos	7	advmod	_	_
+9	больше	много	NUM	_	_	10	nummod:gov	_	_
+10	соли	соль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	15	cc	_	_
+13	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	слабый	слабый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+20	погибали	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 89587
+# text = Однако исследователи заметили, что биопленки, которые были высушены дотого, как ихопустили вжидкость, могли выжить в течение гораздо более длительного срока, чем увлажненные колонии иотдельные микроорганизмы.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	заметили	замечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	биопленки	биопленка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	высушены	высушать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+11	дотого	дотый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	14	mark	_	_
+14	ихопустили	ихопусщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advmod	_	_
+15	вжидкость	вжидкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+18	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	в	в	ADP	_	_	24	case	_	_
+20	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	гораздо	гораздо	ADV	_	Degree=Pos	22	advmod	_	_
+22	более	более	ADV	_	Degree=Cmp	23	advmod	_	_
+23	длительного	длительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	срока	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	чем	чем	SCONJ	_	_	28	cc	_	_
+27	увлажненные	увлажнять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	колонии	колония	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	advmod	_	_
+29	иотдельные	иотдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 89588
+# text = Так, водном израстворов сухая биопленка сохраняла жизнеспособность втечение 240минут, увлажненная-- втечение 30минут, аединичные бактерии "продержались" всего 10минут.
+1	Так	так	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	водном	водин	NUM	_	Case=Loc|Gender=Masc	6	nummod:gov	_	_
+4	израстворов	израствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	сухая	сухой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	биопленка	биопленка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	сохраняла	сохранять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	240минут	240миать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	увлажненная-	увлажненная-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	10	punct	_	_
+14	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+15	30минут	30миать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	аединичные	аединичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	продержались	продержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	всего	всего	PART	_	_	23	advmod	_	_
+23	10минут	10миать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89589
+# text = Причем после того, как почти лишенные воды колонии помещали враствор, они начинали расти-- вероятно для того, чтобы создать барьер между собой иокружающей средой.
+1	Причем	причем	CCONJ	_	_	3	cc	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	3	mark	_	_
+6	почти	почти	ADV	_	Degree=Pos	7	advmod	_	_
+7	лишенные	лишать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	воды	вода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	колонии	колония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+11	враствор	враствор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+14	начинали	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	вероятно	вероятно	ADV	_	Degree=Pos	20	advmod	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	_
+23	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	_
+24	барьер	барьер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	между	между	ADP	_	_	26	case	_	_
+26	собой	себя	PRON	_	Case=Ins	24	nmod	_	_
+27	иокружающей	иокружать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+28	средой	среда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 89590
+# text = Исследование показывает, что биопленки, вероятно, моглибы некоторым образом адаптироваться кэкстремальным условиям наКрасной планете.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	биопленки	биопленка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	вероятно	вероятно	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	моглибы	моглиб	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	advcl	_	_
+10	некоторым	некоторый	DET	_	Case=Ins|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+12	адаптироваться	адаптироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	dep	_	_
+13	кэкстремальным	кэкстремальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	условиям	условие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	obl	_	_
+15	наКрасной	наКрасный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	планете	планета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 89591
+# text = Однако астробиологи неизучали долгосрочные эффекты нахождения колоний микробов всоленых растворах, атакже неучитывали другие особенности планеты, такие как низкое давление исильную радиацию.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	астробиологи	астробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	неизучали	неизучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	долгосрочные	долгосрочной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	obj	_	_
+6	нахождения	нахождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	колоний	колоние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	микробов	микроб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	всоленых	всоленый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	растворах	раствор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	атакже	атакже	CCONJ	_	_	13	cc	_	_
+13	неучитывали	неучитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+16	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	такие	такой	DET	_	Case=Nom|Number=Plur	21	amod	_	_
+19	как	как	SCONJ	_	_	18	cc	_	_
+20	низкое	низкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+22	исильную	исильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	радиацию	радиация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89592
+# text = Тем неменее, работа ученых позволяет определить, что именно стоит искать наМарсе, атакже предостерегает будущие миссии, демонстрируя им, что земные биопленки, если они случайно попадут накосмический корабль ипереживут путешествие, смогут, вероятно, некоторое время существовать в"особых регионах" планеты (таких, как повторяющиеся наклонные удлиненные структуры (recurring slope lineae).
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	PRON	_	Case=Nom	7	mark	_	_
+10	именно	именно	PART	_	_	11	advmod	_	_
+11	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+12	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	наМарсе	наМарса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	атакже	атакже	CCONJ	_	_	16	cc	_	_
+16	предостерегает	предостерегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+17	будущие	будущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	миссии	миссия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	демонстрируя	демонстрировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+21	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	20	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	11	mark	_	_
+24	земные	земной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	биопленки	биопленок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	если	если	SCONJ	_	_	25	mark	_	_
+28	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	30	nsubj	_	_
+29	случайно	случайно	ADV	_	Degree=Pos	30	advmod	_	_
+30	попадут	попадать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	25	advcl	_	_
+31	накосмический	накосмический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+33	ипереживут	ипереживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	30	conj	_	_
+34	путешествие	путешествие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	вероятно	вероятно	ADV	_	Degree=Pos	36	parataxis	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	41	amod	_	_
+41	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	42	obl	_	_
+42	существовать	существовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+43	в"	в"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	особых	особый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	45	amod	_	_
+45	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+46	"	"	PUNCT	_	_	47	punct	_	_
+47	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	таких	такой	DET	_	Case=Gen|Number=Plur	47	parataxis	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	как	как	SCONJ	_	_	55	cc	_	_
+52	повторяющиеся	повторяться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	55	amod	_	_
+53	наклонные	наклоть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	55	amod	_	_
+54	удлиненные	удлинать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	55	amod	_	_
+55	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	49	advmod	_	_
+56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
+57	recurring	recurring	PROPN	_	Foreign=Yes	55	flat:foreign	_	_
+58	slope	slope	X	_	Foreign=Yes	57	flat:foreign	_	_
+59	lineae	lineae	X	_	Foreign=Yes	58	flat:foreign	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	59	punct	_	SpaceAfter=No
+
+# sent_id = 89593
+# text = Это может нарушить чистоту марсианских исследований.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нарушить	нарушать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	чистоту	чистота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	марсианских	марсианский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 89594
+# text = Недавно ученые обнаружили, что биопленки способны привлекать новые бактерии всообщество, посылая имособые электрические сигналы.
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	биопленки	биопленко	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	_
+8	привлекать	привлекать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	всообщество	всообщество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	посылая	посылать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+14	имособые	имособый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	электрические	электрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 89595
+# text = Причем на"призыв" могут откликаться организмы других видов, что показывает возможность межвидовой дистанционной коммуникации между микробами.
+1	Причем	причем	CCONJ	_	_	6	cc	_	_
+2	на	на	ADP	_	_	4	case	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	призыв	призыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	откликаться	откликать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	6	xcomp	_	_
+8	организмы	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+14	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	межвидовой	межвидовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	дистанционной	дистанционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	между	между	ADP	_	_	19	case	_	_
+19	микробами	микроб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 89596
+# text = В2015 году исследователи выяснили, что археи ибактерии всообществах, ответственных заокисление метана ивосстановление сульфатов впридонных водах, связаны между собой тонкими нитями, через которые они передают друг другу электроны.
+1	В2015	В2015	NUM	_	_	2	nummod	_	_
+2	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	археи	архея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+8	ибактерии	ибактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	всообществах	всообщество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ответственных	ответственный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	заокисление	заокисление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+13	метана	метан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	ивосстановление	ивосстановление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+15	сульфатов	сульфат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	впридонных	впридонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	водах	вод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	_
+20	между	между	ADP	_	_	21	case	_	_
+21	собой	себя	PRON	_	Case=Ins	23	obl	_	_
+22	тонкими	тонкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	нитями	нить	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	через	через	ADP	_	_	26	case	_	_
+26	которые	который	PRON	_	Case=Acc	28	obl	_	_
+27	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	28	nsubj	_	_
+28	передают	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
+29	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	fixed	_	_
+30	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_
+31	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 89597
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

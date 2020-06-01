@@ -1,0 +1,136 @@
+# sent_id = 89047
+# text = Американская киноактриса и режиссер Кристен Стюарт стала соавтором публикации, в которой описывается перенос художественного стиля с помощью нейросетей.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	киноактриса	киноактриса	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	режиссер	режиссер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	Кристен	Кристен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	соавтором	соавтор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Loc	13	obl	_	_
+13	описывается	описывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+14	перенос	перенос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+15	художественного	художественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	стиля	стиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	с	с	ADP	_	_	16	case	_	_
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	_
+19	нейросетей	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 89048
+# text = Препринт доступен на arXiv.org.В последнее время нейросети активно используются в области обработки и распознавания изображений, в том числе уже и в коммерческих продуктах -- например, приложениеPrismaдля смартфонов умеет перерисовывать заданное изображение в соответствии с выбранным стилем.
+1	Препринт	Препринт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	доступен	доступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	arXiv.org	arXiv.org	X	_	Foreign=Yes	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	В	в	ADP	_	_	8	case	_	_
+7	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+9	нейросети	нейросетя	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	активно	активно	ADV	_	Degree=Pos	11	advmod	_	_
+11	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	_
+17	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	21	amod	_	_
+21	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	advmod	_	_
+22	уже	уже	ADV	_	Degree=Pos	23	advmod	_	_
+23	и	и	PART	_	_	26	advmod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	коммерческих	коммерческий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	_
+26	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	obl	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	например	например	ADV	_	Degree=Pos	31	parataxis	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	приложениеPrismaдля	приложениеPrismaдля	ADP	_	_	31	case	_	_
+31	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+32	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+33	перерисовывать	перерисовывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+34	заданное	задывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	amod	_	_
+35	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
+36	в	в	ADP	_	_	40	case	_	_
+37	соответствии	соответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	fixed	_	_
+38	с	с	ADP	_	_	37	fixed	_	_
+39	выбранным	выбрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	amod	_	_
+40	стилем	стиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 89049
+# text = Подробнее о том, как работает перенос стиля с помощью нейросетей, можно прочитать в материале N+1 "На выставке Ван Гога".В самой публикации описывается обработка некоторых сцен фильма Come Swim, который сняла Кристен Стюарт.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	3	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	ADV	_	Degree=Pos	6	advmod	_	_
+6	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+7	перенос	перенос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	стиля	стиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	с	с	ADP	_	_	8	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	нейросетей	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+14	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+17	N+1	N+1	NOUN	_	_	28	obl	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	На	на	ADP	_	_	20	case	_	_
+20	выставке	выставка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+21	Ван	ван	PART	_	_	22	advmod	_	_
+22	Гога	гог	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	В	в	ADP	_	_	27	case	_	_
+26	самой	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	публикации	публикация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+28	описывается	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	parataxis	_	_
+29	обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+30	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	31	amod	_	_
+31	сцен	сцена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+32	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	Come	Come	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Swim	Swim	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	который	который	PRON	_	Case=Acc	37	obj	_	_
+37	сняла	нять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+38	Кристен	Кристен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+39	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 89050
+# text = Для переноса стиля использовалась картина, которая изначально вдохновила режиссера на создание фильма о человеке под водой, который пробуждается от сна.
+1	Для	для	ADP	_	_	2	case	_	_
+2	переноса	перенос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	стиля	стиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	картина	картина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	изначально	изначально	ADV	_	Degree=Pos	9	advmod	_	_
+9	вдохновила	вдохновлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	режиссера	режиссер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+13	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	о	о	ADP	_	_	15	case	_	_
+15	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	под	под	ADP	_	_	17	case	_	_
+17	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj:pass	_	_
+20	пробуждается	пробуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+

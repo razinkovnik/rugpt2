@@ -1,0 +1,430 @@
+# sent_id = 86494
+# text = Материаловеды из США, Мексики и Германии синтезировали провода на основе сульфида меди, толщина которых составляет всего три атома.
+1	Материаловеды	Материаловед	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Мексики	мексика	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	_
+8	синтезировали	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	провода	провод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+12	сульфида	сульфид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	меди	медь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	которых	который	PRON	_	Case=Gen	15	nmod	_	_
+17	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+18	всего	всего	PART	_	_	19	advmod	_	_
+19	три	три	NUM	_	Case=Nom	20	nummod:gov	_	_
+20	атома	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86495
+# text = Добиться упорядоченной структуры удалось с помощью направленной самосборки, за которую отвечали молекулярные фрагменты алмаза.
+1	Добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+2	упорядоченной	упорядочять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	направленной	направлять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	самосборки	самосборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	которую	который	PRON	_	Case=Acc	12	obl	_	_
+12	отвечали	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	молекулярные	молекулярной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+15	алмаза	алмаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86496
+# text = Ученые полагают, что подобные провода могут найти применения в умной одежде -- если заменить медь на цинк, то структуры будут обладать пьезоэлектрическими свойствами и смогут вырабатывать электрический ток при деформации.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	провода	провод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	умной	умный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	одежде	одежда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	если	если	SCONJ	_	_	8	mark	_	_
+15	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+16	медь	медь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	цинк	цинк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	то	то	SCONJ	_	_	7	cc	_	_
+21	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
+22	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	обладать	обладать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	_
+24	пьезоэлектрическими	пьезоэлектрический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+25	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	23	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	23	conj	_	_
+28	вырабатывать	вырабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	электрический	электрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+31	при	при	ADP	_	_	32	case	_	_
+32	деформации	деформация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 86497
+# text = Интересно, что сразу после сборки нанопровода оказываются покрыты изолирующим слоем из "наноалмазов".
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	сразу	сразу	ADV	_	Degree=Pos	6	advmod	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	сборки	сборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+7	нанопровода	нанопровод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	оказываются	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+9	покрыты	покрыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+10	изолирующим	изолируть	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+11	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	наноалмазов	наноалмаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86498
+# text = Исследование опубликовано в журнале Nature Materials, кратко о нем сообщает пресс-релиз Национальной ускорительной лаборатории SLAC.Протяженные наноструктуры, получающиеся методами самосборки, часто состоят из одноатомных цепочек, по которым могут перемещаться заряды.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Materials	Materials	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	11	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+11	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+13	Национальной	Национальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	ускорительной	ускорительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	SLAC	Slaс	ADP	_	_	19	case	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Протяженные	тяжеть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	наноструктуры	наноструктура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	получающиеся	получаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	19	amod	_	_
+22	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_
+23	самосборки	самосборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	часто	часто	ADV	_	Degree=Pos	26	advmod	_	_
+26	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	из	из	ADP	_	_	29	case	_	_
+28	одноатомных	одноатомный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	цепочек	цепочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	по	по	ADP	_	_	32	case	_	_
+32	которым	который	PRON	_	Case=Dat	33	obl	_	_
+33	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+34	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	33	xcomp	_	_
+35	заряды	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 86499
+# text = Это значительно ограничивает электронные свойства таких структур: носителям заряда приходится поочередно перемещаться от атома к атому, образуя "очереди".
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	значительно	значительно	ADV	_	Degree=Pos	3	advmod	_	_
+3	ограничивает	ограничивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	электронные	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	таких	такой	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+7	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	носителям	носитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+10	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+12	поочередно	поочередно	ADV	_	Degree=Pos	13	advmod	_	_
+13	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	nsubj	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	атома	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	атому	атом	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	образуя	образевать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	очереди	очередь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86500
+# text = Обойти это ограничение можно немного увеличив диаметр проводящей части.
+1	Обойти	обходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	ограничение	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	немного	немного	ADV	_	Degree=Pos	6	advmod	_	_
+6	увеличив	увеличивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	advcl	_	_
+7	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	проводящей	проводить	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86501
+# text = Для этого авторы новой работы предложили альтернативный подход к самосборке нанопроводов.Один из способов направить самосборку к требуемой геометрической форме -- использовать поверхностно-активные вещества.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	альтернативный	альтернативный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	самосборке	самосборка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	нанопроводов.	нанопроводоварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	Один	один	NUM	_	Case=Nom|Gender=Masc	25	nsubj	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	направить	направлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+16	самосборку	самосборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+17	к	к	ADP	_	_	20	case	_	_
+18	требуемой	требуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+19	геометрической	геометрический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+23	поверхностно-	поверхностно-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	активные	активный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86502
+# text = Их молекулы способны прочно связываться с определенными областями зародыша наночастицы и не давать ему расти в этих направлениях.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	прочно	прочно	ADV	_	Degree=Pos	3	advmod	_	_
+5	связываться	связываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	dep	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	определенными	определенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	областями	область	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	_
+9	зародыша	зародыш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	наночастицы	наночастица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	давать	давать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+14	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+15	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	этих	этот	DET	_	Case=Loc|Number=Plur	18	amod	_	_
+18	направлениях	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86503
+# text = К примеру, призматические кристаллы под действием ПАВ могут превратиться в тонкие иглы, если заблокировать боковые грани, или в плоские многоугольники -- если заблокировать рост оснований призмы.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	призматические	призматический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	под	под	ADP	_	_	7	case	_	_
+7	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	_
+8	ПАВ	Пав	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	превратиться	превращаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	тонкие	тонкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	иглы	игл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	если	если	SCONJ	_	_	9	mark	_	_
+16	заблокировать	блокировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+17	боковые	боковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	грани	грань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	или	или	CCONJ	_	_	23	cc	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	плоские	плоский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	многоугольники	многоугольник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	если	если	SCONJ	_	_	16	mark	_	_
+26	заблокировать	блокировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+27	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	оснований	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	_
+29	призмы	призма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86504
+# text = Другой подход используется в металл-органических каркасах.
+1	Другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	металл-органических	металл-органический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	каркасах	каркас	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86505
+# text = Форма и изгибы органических молекул, которые скрепляют между собой атомы металлов, определяет строение и геометрию будущего каркаса.В новой работе фактором, направляющим рост нанопроводов, стало ван-дер-ваальсово взаимодействие между фрагментами органической "шубы" исходных молекул.
+1	Форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	изгибы	изгиб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	скрепляют	скреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	собой	себя	PRON	_	Case=Ins	8	obl	_	_
+11	атомы	атом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+12	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	строение	строение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	геометрию	геометрия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	conj	_	_
+18	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	каркаса.	каркаса.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	В	в	ADP	_	_	22	case	_	_
+21	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+23	фактором	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	направляющим	направлять	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+26	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+27	нанопроводов	нанопровод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+30	ван-дер-ваальсово	ван-дер-ваальсово	ADV	_	Degree=Pos	31	advmod	_	_
+31	взаимодействие	взаимодействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_
+32	между	между	ADP	_	_	33	case	_	_
+33	фрагментами	фрагмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	nmod	_	_
+34	органической	органический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	шубы	шуба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	_
+38	исходных	исходный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 86506
+# text = В отличие от ионных и координационных взаимодействий, определяющих поведение молекул ПАВ или металл-органических каркасов, ван-дер-ваальсовы взаимодействия очень слабы.
+1	В	в	ADP	_	_	7	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	координационных	координационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	conj	_	_
+7	взаимодействий	взаимодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	определяющих	определять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	ПАВ	ПАВ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	металл-органических	металл-органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	conj	_	_
+15	каркасов	каркас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ван-дер-ваальсовы	ван-дер-ваальсова	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+18	взаимодействия	взаимодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	очень	очень	ADV	_	Degree=Pos	20	advmod	_	_
+20	слабы	слабый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86507
+# text = Но, как показала работа материаловедов, их тоже достаточно для направленной самосборки.Исходными веществами для синтеза были раствор сульфата меди, содержащий ионы металла, и раствор адамантантиола.
+1	Но	но	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	19	mark	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+5	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	материаловедов	материаловед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+9	тоже	тоже	PART	_	_	13	advmod	_	_
+10	достаточно	достаточно	ADV	_	Degree=Pos	13	advmod	_	_
+11	для	для	ADP	_	_	13	case	_	_
+12	направленной	направлять	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	самосборки.	самосборкианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+14	Исходными	Исходный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	веществами	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+20	сульфата	сульфат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	меди	медь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	содержащий	содержать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+24	ионы	ион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+25	металла	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	раствор	раствор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+29	адамантантиола	адамантантиол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86508
+# text = Последний представляет собой молекулу, структура углеродного скелета которой повторяет структуру алмаза.
+1	Последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	молекулу	молекула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	углеродного	углеродный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	которой	который	PRON	_	Case=Gen	8	nmod	_	_
+10	повторяет	повторять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	алмаза	алмаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86509
+# text = Иными словами, это наноалмаз, состоящий из всего 10 атомов углерода, окруженный атомами водорода.
+1	Иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	наноалмаз	наноалмаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	состоящий	состоять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	10	10	NUM	_	_	11	nummod	_	_
+11	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+12	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	окруженный	окружать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+15	атомами	атом	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
+16	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86510
+# text = Окончание тиол означает, что к структуре прикреплен один боковой атом серы, ответственный за соединение алмазоподобной частицы с медью.
+1	Окончание	окончание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	тиол	тиола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	структуре	структура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	прикреплен	прикреплять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+9	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+10	боковой	боковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	атом	атом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+12	серы	сера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ответственный	ответственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+15	за	за	ADP	_	_	16	case	_	_
+16	соединение	соединение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
+17	алмазоподобной	алмазоподобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	частицы	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	медью	медь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

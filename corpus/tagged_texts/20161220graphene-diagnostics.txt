@@ -1,0 +1,257 @@
+# sent_id = 85472
+# text = Ученые изИллинойсского университета вЧикаго показали, что контакт графена сраковыми клетками локально изменяет его свойства, что можно детектировать спомощью рамановской спектроскопии.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	изИллинойсского	изИллинойсский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	вЧикаго	вЧикаго	SCONJ	_	_	5	mark	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	контакт	контакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	графена	графивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+10	сраковыми	сраковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	_
+12	локально	локально	ADV	_	Degree=Pos	13	advmod	_	_
+13	изменяет	изменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	PRON	_	Case=Acc	18	obj	_	_
+18	можно	можно	ADV	_	Degree=Pos	15	acl:relcl	_	_
+19	детектировать	детектировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+20	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+21	рамановской	рамановский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	спектроскопии	спектроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85473
+# text = Работа опубликована вжурнале ACS Applied Materials and Interfaces.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	ACS	Acs	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Applied	Applied	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Materials	Materials	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	and	and	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Interfaces	Interfaces	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85474
+# text = Чтобы разработать метод обнаружения раковых клеток, исследователи использовали два биохимических отличия раковых клеток отнормальных.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+2	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+3	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	два	два	NUM	_	Case=Nom|Gender=Masc	12	nummod:gov	_	_
+11	биохимических	биохимический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	отличия	отличие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+13	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	отнормальных	отнормальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85475
+# text = Во-первых, такие клетки переходят саэробного окисления органики преимущественно наанаэробное путем гликолиза.
+1	Во-первых	во-первых	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	такие	такой	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	переходят	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	саэробного	саэробный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	окисления	окисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+8	органики	органик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+9	преимущественно	преимущественне	ADV	_	Degree=Pos	10	advmod	_	_
+10	наанаэробное	наанаэробный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+11	путем	путем	ADP	_	_	12	case	_	_
+12	гликолиза	гликолиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85476
+# text = Это приводит кнакоплению органических кислот иусиленному выделению протонов вовнеклеточную среду.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	кнакоплению	кнакопление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+4	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	иусиленному	иусиленный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	выделению	выделение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+8	протонов	протон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	вовнеклеточную	вовнеклеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85477
+# text = Во-вторых, гликокаликс-- углеводная часть мембраны клетки,-- у раковых клеток содержит больше сиаловой кислоты, из-за чего ееповерхность более отрицательно заряжена.Чтобы определить, естьли вобразце клетки стакими свойствами, можно разместить ихнаграфене иснять его рамановский спектр.
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	гликокаликс--	гликокаликс--	PUNCT	_	_	1	punct	_	_
+4	углеводная	углеводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	мембраны	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,--	,--	PUNCT	_	_	7	punct	_	_
+9	у	у	ADP	_	_	11	case	_	_
+10	раковых	раковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+12	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	больше	много	NUM	_	_	15	nummod:gov	_	_
+14	сиаловой	сиаловый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	из-за	из-за	ADP	_	_	18	case	_	_
+18	чего	что	PRON	_	Case=Gen	19	obl	_	_
+19	ееповерхность	ееповерхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+20	более	более	ADV	_	Degree=Cmp	21	advmod	_	_
+21	отрицательно	отрицательно	ADV	_	Degree=Pos	19	advmod	_	_
+22	заряжена.	заряжена.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+23	Чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+24	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	естьли	естьть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+27	вобразце	вобразца	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+28	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	стакими	стакий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+30	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	можно	можно	ADV	_	Degree=Pos	12	conj	_	_
+33	разместить	размескать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	nsubj	_	_
+34	ихнаграфене	ихнаграфена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
+35	иснять	иснимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+36	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	38	nmod	_	_
+37	рамановский	рамановский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	спектр	спектр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 85478
+# text = Если раковые клетки присутствуют, проникновение протонов вкристаллическую решетку графена иотрицательный заряд наповерхности клеток приводят кизменению энергий колебаний атомов.
+1	Если	если	SCONJ	_	_	15	mark	_	_
+2	раковые	раковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	проникновение	проникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	протонов	протон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	вкристаллическую	вкристаллический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	решетку	решетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+10	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	иотрицательный	иотрицательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	заряд	заряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+13	наповерхности	наповерхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	кизменению	кизменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+17	энергий	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85479
+# text = Это, всвою очередь, влияет наположение пиков нарамановском спектре.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	всвою	всвой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наположение	наположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	пиков	пик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	нарамановском	нарамановский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85480
+# text = Исследователи провели эксперимент наклетках глиобластомы инормальных астроцитах человека.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	наклетках	наклеток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+5	глиобластомы	глиобластомый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+6	инормальных	инормальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	астроцитах	астроцит	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+8	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85481
+# text = Они показали, что при контакте графена склеткой глиобластомы пик 2Dна спектре сдвигается сильнее, чем при контакте састроцитом.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	контакте	контакоть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+7	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	склеткой	склеткий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	глиобластомы	глиобластома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	пик	пика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+11	2Dна	2Dный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	13	nsubj	_	_
+12	спектре	спектра	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+13	сдвигается	сдвигаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+14	сильнее	сильно	ADV	_	Degree=Cmp	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чем	чем	SCONJ	_	_	18	cc	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	контакте	контакт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	advmod	_	_
+19	састроцитом	састроцит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85482
+# text = Сейчас ученые проверяют свой метод намышиной модели, чтобы довести его доприменения вклинической практике.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	проверяют	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	намышиной	намышин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+10	довести	доводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	доприменения	доприменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+13	вклинической	вклинический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	практике	практика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85483
+# text = Зимой графен уже был использован висследованиях связанных склетками мозга-- международная группа ученых показала, что этот материал является нейтральным для нервных клеток иможет быть использован для создания нейропротезов.
+1	Зимой	зима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+2	графен	графный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	использован	использовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+6	висследованиях	висследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+7	связанных	связывать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	склетками	склетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
+9	мозга-	мозга-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+18	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+20	нейтральным	нейтральный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	obl	_	_
+21	для	для	ADP	_	_	23	case	_	_
+22	нервных	нервный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+24	иможет	имочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+25	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	aux:pass	_	_
+26	использован	использовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	xcomp	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+29	нейропротезов	нейропротез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 85484
+# text = Анна Образцова
+1	Анна	Анный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+2	Образцова	Образцова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+

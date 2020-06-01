@@ -1,0 +1,333 @@
+# sent_id = 86079
+# text = Подмосковный Центральный аэрогидродинамический институт имени Жуковского провел продувочные испытания модели среднего транспортного двухфюзеляжного самолета.
+1	Подмосковный	подмосковный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesBefore=\n
+2	Центральный	центральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	аэрогидродинамический	аэрогидродинамический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Жуковского	жуковский	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	провел	проводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	продувочные	продувочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	модели	моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	среднего	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	транспортного	транспортной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	двухфюзеляжного	двухфюзеляжный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86080
+# text = Согласно сообщению института, испытания прошли успешно и помогли оценить характеристики модели перспективного летательного аппарата.В самолете большую часть подъемной силы создает крыло, однако некоторый вклад вносят и другие элементы, в том числе фюзеляж.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	_
+3	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	успешно	успешно	ADV	_	Degree=Pos	6	advmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	помогли	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	модели	моделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	аппарата.	аппарата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+18	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+20	подъемной	подъемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	однако	однако	ADV	_	Degree=Pos	28	advmod	_	_
+26	некоторый	некоторый	DET	_	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	_
+27	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+28	вносят	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
+29	и	и	PART	_	_	31	advmod	_	_
+30	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	35	amod	_	_
+35	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	advmod	_	_
+36	фюзеляж	фюзеляж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 86081
+# text = Двухфюзеляжная схема позволяет несколько улучшить аэродинамические характеристики самолета.
+1	Двухфюзеляжная	Двухфюзеляжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	схема	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	аэродинамические	аэродинамический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 86082
+# text = Кроме того, она позволяет получить больше полезного пространства внутри летательного аппарата.Новый российский двухфюзеляжный самолет разрабатывается в рамках госпрограммы развития авиационной промышленности, рассчитанной до 2025 года.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+5	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	больше	много	NUM	_	_	9	nummod:gov	_	_
+8	полезного	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	внутри	внутри	ADV	_	Degree=Pos	11	advmod	_	_
+11	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	аппарата.	аппарата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	Новый	Новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	российский	российский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	двухфюзеляжный	двухфюзеляжный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+17	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_
+20	госпрограммы	госпрограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	авиационной	авиационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	рассчитанной	рассчитывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+26	до	до	ADP	_	_	28	case	_	_
+27	2025	2025	NUM	_	_	28	nummod	_	_
+28	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 86083
+# text = Во время испытаний модели самолета в аэродинамической трубе были имитированы несколько различных условий, включая полет вблизи экрана на скорости воздушного потока до 180 километров в час.По данным института, эксперимент показал, что двухфюзеляжный транспортный самолет имеет те же аэродинамические характеристики, что и сопоставимый по грузоподъемности однофюзеляжный самолет с высокорасположенным крылом и Т-образным хвостовым оперением.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+4	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	аэродинамической	аэродинамический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	трубе	труба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	имитированы	имитировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	несколько	несколько	NUM	_	Case=Nom	13	nummod:gov	_	_
+12	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	включая	включая	ADV	_	Degree=Pos	32	advmod	_	_
+16	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+17	вблизи	вблизи	ADP	_	_	18	case	_	_
+18	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	_
+21	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	180	180	NUM	_	_	25	nummod	_	_
+25	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	час.По	час.По	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	_
+28	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	32	advcl	_	_
+29	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	двухфюзеляжный	двухфюзеляжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+36	транспортный	транспортный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+38	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+39	те	тот	DET	_	Case=Acc|Number=Plur	42	amod	_	_
+40	же	же	PART	_	_	39	advmod	_	_
+41	аэродинамические	аэродинамический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	42	amod	_	_
+42	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	38	obj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	что	что	SCONJ	_	_	42	mark	_	_
+45	и	и	PART	_	_	46	advmod	_	_
+46	сопоставимый	сопоставимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+47	по	по	ADP	_	_	48	case	_	_
+48	грузоподъемности	грузоподъемность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	46	nmod	_	_
+49	однофюзеляжный	однофюзеляжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	advcl	_	_
+51	с	с	ADP	_	_	53	case	_	_
+52	высокорасположенным	высокорасположенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	53	amod	_	_
+53	крылом	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	50	nmod	_	_
+54	и	и	CCONJ	_	_	57	cc	_	_
+55	Т-образным	Т-образный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	57	amod	_	_
+56	хвостовым	хвостовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	57	amod	_	_
+57	оперением	оперение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	53	conj	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	SpaceAfter=No
+
+# sent_id = 86084
+# text = При этом двухфюзеляжный аппарат имеет меньшие продольные габариты и массу конструкции.Проект перспективного двухфюзеляжного самолета предусматривает создание транспортного летательного аппарата с грузоподъемностью до 40 тонн.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	двухфюзеляжный	двухфюзеляжный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	меньшие	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+7	продольные	продольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	габариты	габарит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+11	конструкции.	конструкции.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	Проект	проект	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	двухфюзеляжного	двухфюзеляжный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	предусматривает	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+17	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	транспортного	транспортной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	грузоподъемностью	грузоподъемность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	_
+23	до	до	ADP	_	_	25	case	_	_
+24	40	40	NUM	_	_	25	nummod	_	_
+25	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86085
+# text = Разработчики полагают, что такая схема летательного аппарата позволит быстрее производить погрузку и выгрузку грузов.Двухфюзеляжные самолеты (не следует путать их с двухбалочными) в истории авиации довольно редки.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	схема	схема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	позволит	зволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	быстрее	быстро	ADV	_	Degree=Cmp	11	advmod	_	_
+11	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	погрузку	погрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	выгрузку	выгрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+15	грузов.	грузовадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No
+16	Двухфюзеляжные	Двухфюзеляжный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	не	не	PART	_	_	20	advmod	_	_
+20	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+21	путать	путать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+22	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	21	obj	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	двухбалочными	двухбалочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	24	case	_	_
+27	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+28	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	довольно	довольно	ADV	_	Degree=Pos	30	advmod	_	_
+30	редки	редкий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 86086
+# text = По такой схеме в 1943 году был выполнен немецкий истребитель Bf.
+1	По	по	ADP	_	_	3	case	_	_
+2	такой	такой	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	1943	1943	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	истребитель	истребитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	Bf.	bf.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	nmod	_	SpaceAfter=No
+
+# sent_id = 86087
+# text = 109Z.
+1	109Z	109z	PROPN	_	Foreign=Yes	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 86088
+# text = Он представлял собой объединенные вместе два истребителя Bf.109.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	представлял	представлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	объединенные	объединять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+5	вместе	вместе	ADV	_	Degree=Pos	4	advmod	_	_
+6	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	7	nummod:gov	_	_
+7	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+8	Bf.109.	bf.109.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	0	amod	_	SpaceAfter=No
+
+# sent_id = 86089
+# text = Во второй фюзеляж планировалось устанавливать топливный бак для увеличения дальности полета.В 1945 году в США первый полет совершил истребитель F-82 Twin Mustang.
+1	Во	в	ADP	_	_	3	case	_	_
+2	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	фюзеляж	фюзеляж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+6	топливный	топливной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	бак	бак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	увеличения	увеличение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	дальности	дальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+12	В	в	ADP	_	_	14	case	_	_
+13	1945	1945	NUM	_	_	14	nummod	_	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	19	obl	_	_
+17	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+19	совершил	совершивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	истребитель	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	F-82	F-82	NOUN	_	_	20	appos	_	_
+22	Twin	Twin	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Mustang	Mustang	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 86090
+# text = Он представлял собой соединенные крылом истребители P-51 Mustang.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	представлял	представлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	соединенные	оединеть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+5	крылом	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl:agent	_	_
+6	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+7	P	p	PROPN	_	Foreign=Yes	6	appos	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	51	51	NUM	_	_	7	nummod	_	_
+10	Mustang	Mustang	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 86091
+# text = Боевой самолет планировалось использовать в качестве дальнего эскорта бомбардировщиков.
+1	Боевой	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	дальнего	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	эскорта	эскорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+9	бомбардировщиков	бомбардировщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86092
+# text = Сегодня по двухфюзеляжной схеме выполнен самолет Model 348 White Knight Two, предназначенный для запуска космического корабля SpaceShipTwo.Василий Сычёв
+1	Сегодня	сегодня	ADV	_	Degree=Pos	5	advmod	_	_
+2	по	по	ADP	_	_	4	case	_	_
+3	двухфюзеляжной	двухфюзеляжный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+7	Model	Model	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	348	348	NUM	_	_	7	nummod	_	_
+9	White	White	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Knight	Knight	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Two	Two	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	предназначенный	предназначать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	SpaceShipTwo.	Spaceshiptwo.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+19	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+

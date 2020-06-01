@@ -1,0 +1,538 @@
+# sent_id = 86026
+# text = Искусственный интеллектсмог определить по записи звуков, издаваемых египетскими летучими собаками, о чем общаются животные.
+1	Искусственный	искусственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	интеллектсмог	интеллектсмог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	издаваемых	издавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+9	египетскими	египетский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	летучими	летучий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	собаками	собака	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	о	о	ADP	_	_	14	case	_	_
+14	чем	что	PRON	_	Case=Loc	15	obl	_	_
+15	общаются	общаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+16	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86027
+# text = Кроме того, алгоритм угадывал, какая именноособь издает звуки и к кому она обращается.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	угадывал	угадывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	именноособь	именноособь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	издает	издавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+10	звуки	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	и	и	PART	_	_	13	advmod	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	кому	кто	PRON	_	Case=Dat	15	obl	_	_
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+15	обращается	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86028
+# text = Работа опубликована в Scientific Reports.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Scientific	Scientific	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Reports	reports	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 86029
+# text = Многие животные общаются спомощью звуков, однако разобраться втом, что они значат, часто бывает трудно из-за многообразия вокализаций.
+1	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	общаются	общаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	звуков	звук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+8	разобраться	разбираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	dep	_	_
+9	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	8	mark	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	значат	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	часто	часто	ADV	_	Degree=Pos	16	advmod	_	_
+16	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	16	amod	_	_
+18	из-за	из-за	ADP	_	_	19	case	_	_
+19	многообразия	многообразие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+20	вокализаций	вокализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86030
+# text = Втоже время, понимание того, какую информацию несут звуки, важно для изучения социальной природы коммуникации и эволюции языка.
+1	Втоже	Втоже	PART	_	_	2	advmod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	понимание	понимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	какую	какой	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	несут	носить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	звуки	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	социальной	социальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+20	языка	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86031
+# text = Вбольшинстве случаев цель исмысл "голосовых сообщений", передаваемых животными, остается неясным, однако авторы работы смогли "расшифровать" язык египетских летучих собак (Rousettus aegyptiacus), используя систему искусственного интеллекта.
+1	Вбольшинстве	Вбольшинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+2	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	цель	цель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	исмысл	исмысвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	передаваемых	передавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+14	неясным	неясный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	19	advmod	_	_
+17	авторы	автор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+18	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	расшифровать	расшифровывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	египетских	египетский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+25	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Rousettus	Rousettus	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+29	aegyptiacus	aegyptiacus	X	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	_	_
+33	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 86032
+# text = Втечение 75дней исследователи записывали навидео, как общаются между собой поделенные надве группы 22египетские летучие собаки.
+1	Втечение	Втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	75дней	75день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	записывали	записывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	навидео	навидео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	SCONJ	_	_	4	mark	_	_
+8	общаются	общаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	собой	себя	PRON	_	Case=Ins	8	obl	_	_
+11	поделенные	поделать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	надве	надва	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	16	nummod:gov	_	_
+13	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	22египетские	22египетский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+15	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	собаки	собака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86033
+# text = После этого зоологи просмотрели материал, иопределили, какие особи ссорились между собой икчему приводили их ссоры (животные оставались сидеть вместе или одно изних улетало).
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	просмотрели	просмотревать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	иопределили	иопределять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	какие	какой	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+10	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+11	ссорились	ссориться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+12	между	между	ADP	_	_	13	case	_	_
+13	собой	себя	PRON	_	Case=Ins	11	obl	_	_
+14	икчему	икчто	PRON	_	Case=Dat	15	obl	_	_
+15	приводили	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+17	ссоры	ссор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	_
+20	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	17	parataxis	_	_
+21	сидеть	сидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+22	вместе	вместе	ADV	_	Degree=Pos	26	advmod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	одно	один	NUM	_	Case=Nom|Gender=Neut	26	conj	_	_
+25	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	улетало	улетало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 86034
+# text = Большая часть писков, издаваемых летучими собаками, была связана сагрессией натему еды, сна, места нажердочке или нежелательных попыток спаривания.
+1	Большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	писков	писк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	издаваемых	издавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	летучими	летучий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	собаками	собака	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	связана	вязать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	сагрессией	сагрессия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl:agent	_	_
+12	натему	натема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+13	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	_
+18	нажердочке	нажердочка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+19	или	или	CCONJ	_	_	21	cc	_	_
+20	нежелательных	нежелательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	попыток	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	conj	_	_
+22	спаривания	спаривание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 86035
+# text = Всего исследователи собрали более 162 тысяч "голосовых сообщений", состоящих изпоследовательности нескольких звуков.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	более	более	ADV	_	Degree=Cmp	6	advmod	_	_
+5	162	162	NUM	_	_	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	сообщений	сообщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	состоящих	состоять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+13	изпоследовательности	изпоследовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	15	nummod	_	_
+15	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86036
+# text = Около 15тысяч сигналов от семи взрослых особей были использованы для обучения искусственного интеллекта.
+1	Около	около	ADP	_	_	2	case	_	_
+2	15тысяч	15тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+3	сигналов	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	от	от	ADP	_	_	7	case	_	_
+5	семи	семь	NUM	_	Case=Gen	7	nummod	_	_
+6	взрослых	взрослый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86037
+# text = В результате, с помощью алгоритма GMM-UBM, который основан насовместном использовании смеси гауссовых распределений (GMM) иуниверсальной фоновой модели (UBM), авторы смогли вслепую определить, какие особи общаются между собой инакакую тему.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+7	GMM-UBM	Gmm-ubm	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj:pass	_	_
+10	основан	основать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+11	насовместном	насовместный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+13	смеси	смесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	гауссовых	гауссовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	распределений	распределение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	GMM	Gmm	PROPN	_	Foreign=Yes	12	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	иуниверсальной	иуниверсальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	фоновой	фоновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	UBM	Ubm	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+27	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+28	вслепую	вслепую	ADV	_	Degree=Pos	29	advmod	_	_
+29	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	какие	какой	DET	_	Case=Nom|Number=Plur	32	amod	_	_
+32	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	33	nsubj	_	_
+33	общаются	общаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	conj	_	_
+34	между	между	ADP	_	_	35	case	_	_
+35	собой	себя	PRON	_	Case=Ins	33	obl	_	_
+36	инакакую	инакакий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 86038
+# text = Тестирование показало, что искусственный интеллект в71проценте случаев угадывает, какое животное издавало писк, источностью до61процента определяет предмет "разговора".
+1	Тестирование	тестирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	искусственный	искусственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	интеллект	интеллект	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	в71проценте	в71проценте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	случаев	случаев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	угадывает	угадывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	какое	какой	DET	_	Case=Nom|Gender=Neut|Number=Sing	12	amod	_	_
+12	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+13	издавало	издавать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+14	писк	писк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	источностью	источность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+17	до61процента	до61процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+19	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	разговора	разговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86039
+# text = Система также могла различить, ккому обращается таили иная египетская летучая собака, ипредсказать итог их ссоры, но с меньшей точностью.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	различить	различать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ккому	ктко	PRON	_	Case=Dat	7	obl	_	_
+7	обращается	обращаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	ccomp	_	_
+8	таили	таять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+9	иная	иной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+10	египетская	египетский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	летучая	летучий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	собака	собака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ипредсказать	ипредсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+15	итог	итог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	ссоры	ссора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	меньшей	меньший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 86040
+# text = Пословам исследователей, отличия в"сообщениях" животных были очень тонкими.
+1	Пословам	Пословы	PRON	_	Case=Dat|Number=Plur|Person=2	2	nmod	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	отличия	отличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	conj	_	_
+5	в"	в"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	сообщениях	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	тонкими	тонкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 86041
+# text = "Мызаметили, что есть небольшие тональные особенности, которые характеризуют звуки разных категорий,-- однако нельзя сказать, что сигналы оспаривании, например, высокие, аоеде-- низкие",-- комментирует один изавторов исследования.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мызаметили	Мызамещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	небольшие	небольшой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	тональные	тональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	характеризуют	характеризовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+12	звуки	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	категорий	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,--	,--	PUNCT	_	_	14	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	17	advmod	_	_
+17	нельзя	нельзя	ADV	_	Degree=Pos	2	advcl	_	_
+18	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+22	оспаривании	оспаривания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	например	например	ADV	_	Degree=Pos	26	parataxis	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	высокие	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	аоеде-	аоеде-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	26	punct	_	_
+30	низкие	низкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,--	,--	PUNCT	_	_	30	punct	_	_
+33	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	_
+34	один	один	NUM	_	Case=Nom|Gender=Masc	35	nummod:gov	_	_
+35	изавторов	изавтор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	33	nsubj	_	_
+36	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 86042
+# text = Зоологи говорят отом, что ихработа показывает, насколько богато повседневное общение египетских летучих собак.
+1	Зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	2	mark	_	_
+6	ихработа	ихработа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	насколько	насколько	ADV	_	Degree=Pos	10	advmod	_	_
+10	богато	богатый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	parataxis	_	_
+11	повседневное	повседневный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	общение	общение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+13	египетских	египетской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86043
+# text = Ранее ученые предполагали, что все агрессивные звуки значат что-то вроде "Уходи отсюда!
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	все	весь	DET	_	Case=Nom|Number=Plur	8	amod	_	_
+7	агрессивные	агрессивной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	звуки	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	значат	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	вроде	вроде	ADP	_	_	13	case	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Уходи	уходь	PROPN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	14	obl	_	_
+14	отсюда	отсюда	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86044
+# text = ", однако теперь имудалось выделить и классифицировать сигналы животных.Недавнее исследование белоруких гиббонов также помогло определить связь между раздражителями и звуками, которые издают животные.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+4	теперь	теперь	ADV	_	Degree=Pos	5	advmod	_	_
+5	имудалось	имудаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	выделить	выделять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	классифицировать	классифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	_
+9	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Недавнее	недавний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+14	белоруких	белорукий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	гиббонов	гиббон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	также	также	ADV	_	Degree=Pos	17	advmod	_	_
+17	помогло	помогать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	между	между	ADP	_	_	21	case	_	_
+21	раздражителями	раздражитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	звуками	звук	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	которые	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	издают	издавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+27	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 86045
+# text = Ученые выяснили, что эти приматы для обозначения присутствия хищников гиббоны используют особый вариант звука "ху".
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	эти	этот	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	приматы	примат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	обозначения	обозначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	присутствия	присутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	гиббоны	гиббон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+13	особый	особый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	вариант	вариант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	звука	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	ху	хой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86046
+# text = Кроме того, в прошлом году зоологи сделали еще одно важное для понимания эволюции языка открытие.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+7	зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	одно	один	NUM	_	Case=Acc|Gender=Neut	11	nummod:gov	_	_
+11	важное	важное	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+14	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	языка	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	открытие	открытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86047
+# text = Они выяснили, что формирование вокализаций у новорожденных игрунок не являются строго врожденными, а зависят от того, получают ли они обратную связь от родителей.Кристина Уласович
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	формирование	формирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+6	вокализаций	вокализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	у	у	ADP	_	_	8	case	_	_
+8	новорожденных	новорожденный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\s\n
+9	игрунок	игрунка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+12	строго	строго	ADV	_	Degree=Pos	13	advmod	_	_
+13	врожденными	врожденный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	16	cc	_	_
+16	зависят	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+21	ли	ли	PART	_	_	20	advmod	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+23	обратную	обратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	родителей	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+29	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+

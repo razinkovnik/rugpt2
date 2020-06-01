@@ -1,0 +1,352 @@
+# sent_id = 80448
+# text = Перспективный ударный беспилотный летательный аппарат Rustom-II совершил первый полет, сообщает Flightglobal.
+1	Перспективный	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpacesBefore=\n
+2	ударный	ударный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	летательный	летательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	Rustom	Rustom	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	II	ii	NUM	_	_	5	nummod	_	_
+9	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+14	Flightglobal	Flightglobal	PROPN	_	Foreign=Yes	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80449
+# text = Это первый аппарат такого класса, разработанный в Индии.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Индии	индия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 80450
+# text = Он впервые поднялся в воздух еще 16 ноября 2016 года, но известно об этом стало только сейчас.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	впервые	впервые	ADV	_	Degree=Pos	3	advmod	_	_
+3	поднялся	подниматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	еще	еще	ADV	_	Degree=Pos	7	advmod	_	_
+7	16	16	NUM	_	_	3	nummod	_	_
+8	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	2016	2016	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	16	cc	_	_
+13	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	16	advmod	_	_
+14	об	о	ADP	_	_	15	case	_	_
+15	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+16	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	сейчас	сейчас	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80451
+# text = Состоявшиеся испытания аппарата признаны успешными.Создание ударного беспилотника сопряжено со множеством технических трудностей.
+1	Состоявшиеся	состояться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	успешными.	успешными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	SpaceAfter=No
+6	Создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+7	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	сопряжено	сопрягать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+10	со	с	ADP	_	_	11	case	_	_
+11	множеством	множество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	технических	технический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	трудностей	трудность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80452
+# text = По этой причине подобными аппаратами располагают лишь немногие страны в мире, хотя разработки ударных беспилотников ведут несколько десятков государств.
+1	По	по	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+4	подобными	подобной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+6	располагают	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	лишь	лишь	PART	_	_	8	advmod	_	_
+8	немногие	немногие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	хотя	хотя	SCONJ	_	_	6	mark	_	_
+14	разработки	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+15	ударных	ударной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+18	несколько	несколько	NUM	_	Case=Nom	19	nummod:gov	_	_
+19	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	_
+20	государств	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 80453
+# text = Индия с переменным успехом разрабатывает собственный ударный аппарат с начала 2000-х годов.Целью первого полета ударного беспилотника Rustom-II была проверка аэродинамических характеристик аппарата.
+1	Индия	индия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	переменным	переменный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	успехом	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разрабатывает	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	ударный	ударный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	2000-х	2000-е	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	годов.	годовадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+14	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Rustom	Rustom	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	II	Ii	NUM	_	_	18	nummod	_	_
+21	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+22	проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+23	аэродинамических	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 80454
+# text = Беспилотником управляли операторы ВВС Индии.
+1	Беспилотником	Беспилотник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+2	управляли	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	операторы	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	Индии	индия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80455
+# text = Аппарат поднялся в воздух со взлетно-посадочной полосы полигона, расположенного недалеко от города Читрадурга в штате Карнатака.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	поднялся	подниматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	со	с	ADP	_	_	7	case	_	_
+6	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	полосы	полоса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+8	полигона	полигон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+11	недалеко	недалеко	ADV	_	Degree=Pos	10	advmod	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+14	Читрадурга	Читрадург	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+17	Карнатака	Карнатак	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 80456
+# text = Другие подробности о первом полете не раскрываются.Между тем Организация оборонных исследований и разработок Индии переименовала проект разработки ударного беспилотника -- он получил название Tapas 201.Наземные испытания Rustom-II проводились с сентября 2013 года на аэродроме Колар в пригороде Бангалора.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Между	между	ADP	_	_	10	case	_	_
+10	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+11	Организация	организация	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	_
+16	Индии	Индия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	переименовала	переименовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	Tapas	Tapas	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	201.	201	NUM	_	_	0	nummod	_	SpaceAfter=No
+28	Наземные	наземной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	33	nsubj:pass	_	_
+30	Rustom	Rustom	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	-	-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	II	Ii	NUM	_	_	30	nummod	_	_
+33	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
+36	2013	2013	NUM	_	_	37	nummod	_	_
+37	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	на	на	ADP	_	_	37	case	_	_
+39	аэродроме	аэродром	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+40	Колар	Колар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	appos	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	пригороде	пригород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+43	Бангалора	бангалор	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 80457
+# text = Аппарат уже выполнил пробежки по взлетно-посадочной полосе, маневрирование, разгон до взлетной скорости с отрывом передней стойки шасси.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	выполнил	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пробежки	пробежка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	полосе	полоса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	маневрирование	маневрирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	разгон	разгон	ADV	_	Degree=Pos	14	advmod	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	взлетной	взлетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	отрывом	отрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+17	передней	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	стойки	стойка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80458
+# text = По итогам испытаний в конструкцию беспилотника были внесены некоторые изменения, включая устранение неполадок бортовых систем и снижение общей массы.Rustom-II оснащен двумя турбовинтовыми двигателями производства российского научно-производственного объединения "Сатурн".
+1	По	по	ADP	_	_	2	case	_	_
+2	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+6	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	внесены	вносить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	21	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	включая	включая	ADV	_	Degree=Pos	21	advmod	_	_
+13	устранение	устранение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+14	неполадок	неполадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	бортовых	бортовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+19	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	массы.Rustom-II	массы.rustom-ii	NUM	_	_	18	nummod	_	_
+21	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+22	двумя	два	NUM	_	Case=Ins	24	nummod	_	_
+23	турбовинтовыми	турбовинтовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl:agent	_	_
+25	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+27	научно-производственного	научно-производственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	объединения	объединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Сатурн	Сатурн	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80459
+# text = Аппарат длиной 9,5 метра и с размахом крыла 20,6 метра сможет развивать скорость до 230 километров в час, а дальность его действия составит 350 километров.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+2	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+3	9,5	9,5	NUM	_	_	4	nummod	_	_
+4	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	размахом	размах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	conj	_	_
+8	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	20,6	20,6	NUM	_	_	10	nummod	_	_
+10	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+12	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	230	230	NUM	_	_	16	nummod	_	_
+16	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	24	cc	_	_
+21	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	350	350	NUM	_	_	26	nummod	_	_
+26	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 80460
+# text = Беспилотник сможет нахоиться в воздухе до 24 часов.По некоторым своим характеристикам Rustom-II схож с американским MQ-9 Reaper.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нахоиться	нахояться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	dep	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	24	24	NUM	_	_	8	nummod	_	_
+8	часов.	часовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	По	по	ADP	_	_	12	case	_	_
+10	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	12	amod	_	_
+11	своим	свой	DET	_	Case=Dat|Number=Plur	12	amod	_	_
+12	характеристикам	характеристика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
+13	Rustom	Rustom	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	II	Ii	NUM	_	_	13	nummod	_	_
+16	схож	схожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	MQ	Mq	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+20	-9	-9	NUM	_	_	19	nummod	_	_
+21	Reaper	Reaper	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 80461
+# text = Длина и размах крыла последнего составляют 11 и 20 метров соответственно.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	conj	_	_
+4	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	nmod	_	_
+6	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	11	11	NUM	_	_	10	nummod:gov	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	20	20	NUM	_	_	7	conj	_	_
+10	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+11	соответственно	соответственно	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80462
+# text = Американский беспилотник способен развивать скорость до 480 километров в час, а дальность его действия составляет 1,8 тысячи километров.Василий Сычёв
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	480	480	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	16	cc	_	_
+13	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	1,8	1,8	NUM	_	_	18	nummod	_	_
+18	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nummod:gov	_	_
+19	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

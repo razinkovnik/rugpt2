@@ -1,0 +1,437 @@
+# sent_id = 72239
+# text = Технический центр по оружейным исследованиям и разработкам Армии США приступил к разработке нового типа ручных гранат ET-MP, в котором перед броском можно будет выбирать воздействие боеприпаса.
+1	Технический	технический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	оружейным	оружейный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	разработкам	разработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	conj	_	_
+8	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	приступил	приступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	разработке	разработка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+13	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	ручных	ручной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	гранат	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	ET-MP	Et-mp	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	котором	который	PRON	_	Case=Loc	23	nmod	_	_
+21	перед	перед	ADP	_	_	22	case	_	_
+22	броском	бросок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+23	можно	можно	ADV	_	Degree=Pos	0	acl:relcl	_	_
+24	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+25	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+26	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72240
+# text = Как пишет Tech Times, в зависимости от выбранного режима новая граната будет фугасной или осколочной.Военные используют два типа ручных гранат: осколочные и фугасные.
+1	Как	как	ADV	_	Degree=Pos	14	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+3	Tech	Tech	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Times	таймс	PROPN	_	Animacy=Inan|Case=Nom|Foreign=Yes|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	от	от	ADP	_	_	10	case	_	_
+9	выбранного	выбрать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	граната	граната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	фугасной	фугасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	осколочной	осколочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	nsubj	_	_
+19	используют	использевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	21	nummod:gov	_	_
+21	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+22	ручных	ручной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	гранат	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	осколочные	осколочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	parataxis	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	фугасные	фугасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72241
+# text = Первые относятся к оборонительному классу боеприпасов.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	относятся	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	оборонительному	оборонительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+6	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72242
+# text = При подрыве они образуют большое количество осколков, разлетающихся на десятки метров.
+1	При	при	ADP	_	_	2	case	_	_
+2	подрыве	подрыв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	образуют	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	осколков	осколки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разлетающихся	разлетаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
+12	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72243
+# text = Именно эти осколки и поражают живую силу противника.
+1	Именно	именно	ADV	_	Degree=Pos	2	advmod	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	осколки	осколка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	поражают	поражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	живую	живой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 72244
+# text = Применять такие гранаты рекомендуется из-за укрытия при защите какого-либо объекта.В свою очередь фугасные гранаты относятся к наступательному классу.
+1	Применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+2	такие	такой	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+3	гранаты	гранат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+4	рекомендуется	рекомендовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	из-за	из-за	ADP	_	_	6	case	_	_
+6	укрытия	укрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	защите	защита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	_
+10	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	В	в	ADP	_	_	14	case	_	_
+13	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+15	фугасные	фугасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	гранаты	граната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	относятся	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+18	к	к	ADP	_	_	20	case	_	_
+19	наступательному	наступательный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72245
+# text = При взрыве они практически не образуют осколков и поражают противника непосредственно взрывом.
+1	При	при	ADP	_	_	2	case	_	_
+2	взрыве	взрыв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+4	практически	практически	ADV	_	Degree=Pos	5	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	образуют	образовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	осколков	осколок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	поражают	поражавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	противника	противник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	непосредственно	непосредственне	ADV	_	Degree=Pos	12	advmod	_	_
+12	взрывом	взрыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72246
+# text = Радиус действия фугасной гранаты гораздо меньше, чем осколочной и меньше дальности броска.
+1	Радиус	Радиус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	фугасной	фугасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	гранаты	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	гораздо	гораздо	ADV	_	Degree=Pos	6	advmod	_	_
+6	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чем	чем	SCONJ	_	_	9	cc	_	_
+9	осколочной	осколочной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	advmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	меньше	мало	NUM	_	_	9	conj	_	_
+12	дальности	дальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	броска	бросок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72247
+# text = Благодаря этому такие гранаты можно использовать при наступлении.На вооружении Армии США стоят ручные фугасные гранатыMK3A2, однако бойцы их носят и используют крайне редко.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+3	такие	такой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	гранаты	гранат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	наступлении	наступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	На	на	ADP	_	_	11	case	_	_
+11	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+12	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	12	nmod	_	_
+14	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+15	ручные	ручный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+16	фугасные	фугасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	гранатыMK3A2	гранатыMK3A2	NOUN	_	_	14	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	однако	однако	ADV	_	Degree=Pos	22	advmod	_	_
+20	бойцы	боец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+21	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	22	obj	_	_
+22	носят	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+25	крайне	крайне	ADV	_	Degree=Pos	26	advmod	_	_
+26	редко	редко	ADV	_	Degree=Pos	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 72248
+# text = Дело в том, что оболочка этих боеприпасов содержит асбест, который после взрыва в виде пыли может распространяться на значительные расстояния.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	оболочка	оболочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	этих	этот	DET	_	Case=Gen|Number=Plur	8	amod	_	_
+8	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	асбест	асбест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	взрыва	взрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	fixed	_	_
+17	пыли	пыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+19	распространяться	распространяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	значительные	значительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72249
+# text = По этой причине в экипировку бойца входят пока только осколочные гранаты M67.
+1	По	по	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	экипировку	экипировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+6	бойца	боец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	пока	пока	ADV	_	Degree=Pos	9	advmod	_	_
+9	только	только	PART	_	_	11	advmod	_	_
+10	осколочные	осколочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	гранаты	граната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+12	M67	M67	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72250
+# text = При этом потребность в фугасных боеприпасах довольно высока.Новая универсальная ручная граната ET-MP изменяемого воздействия позволит бойцам брать с собой меньше боеприпасов, а значит уменьшить массу носимого груза.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+3	потребность	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	фугасных	фугасный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	боеприпасах	боеприпасы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+7	довольно	довольно	ADV	_	Degree=Pos	8	advmod	_	_
+8	высока.	высока.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+9	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+10	универсальная	универсальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	ручная	ручной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	граната	граната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+13	ET	Et	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	-MP	-mp	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	изменяемого	изменять	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+17	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+18	бойцам	боец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+19	брать	брать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	собой	себя	PRON	_	Case=Ins	19	obl	_	_
+22	меньше	мало	NUM	_	_	23	nummod:gov	_	_
+23	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	26	cc	_	_
+26	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+27	уменьшить	уменьшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+29	носимого	носимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 72251
+# text = Как именно будет реализована смена типов воздействия гранаты на цель, не уточняется.
+1	Как	как	ADV	_	Degree=Pos	4	advmod	_	_
+2	именно	именно	PART	_	_	1	fixed	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	смена	смена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	гранаты	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	уточняется	уточняуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72252
+# text = Разработчики планируют оснастить боеприпас простым переключателем режимов.Граната получит электронный взрыватель, имеющий значительно более точное время срабатывания по сравнению с современными химическими взрывателями.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	оснастить	оснаскать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	боеприпас	боеприпас	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	простым	простый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	переключателем	переключатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	режимов.	режимовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	Граната	гранат	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	электронный	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	взрыватель	взрыватель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	имеющий	иметь	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	значительно	значительно	ADV	_	Degree=Pos	15	advmod	_	_
+15	более	более	ADV	_	Degree=Cmp	16	advmod	_	_
+16	точное	точной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+18	срабатывания	срабатывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	по	по	ADP	_	_	24	case	_	_
+20	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	fixed	_	_
+21	с	с	ADP	_	_	20	fixed	_	_
+22	современными	современный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+23	химическими	химический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	взрывателями	взрыватель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 72253
+# text = Новый боеприпас будет рассчитан на использование как правшами, так и левшами.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	боеприпас	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	как	как	SCONJ	_	_	8	cc	_	_
+8	правшами	правхо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	левшами	левш	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72254
+# text = В общей сложности на разработку гранаты планируется потратить 1,1 миллиона долларов в 2017 году.В целом конструкция ручных гранат не претерпевала серьезных изменений со Второй мировой войны, но небольшие доработки в нее все же вносились.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+6	гранаты	гранат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+7	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj:pass	_	_
+9	1,1	1,1	NUM	_	_	10	nummod	_	_
+10	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nummod:gov	_	_
+11	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	2017	2017	NUM	_	_	14	nummod	_	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+18	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+19	ручных	ручной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	гранат	граната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	претерпевала	претерпевать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+23	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	obl	_	_
+25	со	с	ADP	_	_	28	case	_	_
+26	Второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+27	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	но	но	CCONJ	_	_	37	cc	_	_
+31	небольшие	небольшой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	доработки	доработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	37	nsubj:pass	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	37	obl	_	_
+35	все	все	PART	_	_	37	advmod	_	_
+36	же	же	PART	_	_	35	fixed	_	_
+37	вносились	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 72255
+# text = Так, в мае прошлого года вооруженные силы Израиля начали перевооружаться на модернизированные гранаты IM26, устойчивые к попаданию пули.В новых боеприпасах используется два типа взрывчатого вещества -- чувствительного к ударам и нечувствительного.
+1	Так	так	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+5	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	вооруженные	вооружать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	Израиля	израиль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	перевооружаться	перевооружаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	модернизированные	модернизировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	гранаты	граната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	obl	_	_
+15	IM26	iM26	PROPN	_	_	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	устойчивые	устойчивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	попаданию	попадание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	пули	пуля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	В	в	ADP	_	_	24	case	_	_
+23	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	боеприпасах	боеприпасы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	25	obl	_	_
+25	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+26	два	два	NUM	_	Case=Nom|Gender=Masc	27	nummod:gov	_	_
+27	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+28	взрывчатого	взрывчатый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	чувствительного	чувствительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+32	к	к	ADP	_	_	33	case	_	_
+33	ударам	удар	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	31	nmod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	нечувствительного	нечувствительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 72256
+# text = Первое размещено в центре боеприпаса и после инициации взрывателем вызывает детонацию нечувствительной к ударам взрывчатки.
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	размещено	размещать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	10	cc	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	инициации	инициация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+9	взрывателем	взрыватель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+10	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	детонацию	детонация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+12	нечувствительной	нечувствительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	amod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	ударам	удар	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+15	взрывчатки	взрывчатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72257
+# text = Она расположена во внешнем слое под корпусом гранаты.Василий Сычёв
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	во	в	ADP	_	_	5	case	_	_
+4	внешнем	внешний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	слое	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	под	под	ADP	_	_	7	case	_	_
+7	корпусом	корпус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+8	гранаты	гранаты	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+

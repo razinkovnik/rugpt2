@@ -1,0 +1,440 @@
+# sent_id = 80007
+# text = Компания Google запустила проект A.I.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	запустила	запускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	A.I	A.i	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80008
+# text = Experiments, призванный напростых практических примерах продемонстрировать возможности искусственного интеллекта (ИИ) всем желающим.
+1	Experiments	Experiments	PROPN	_	Foreign=Yes	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	призванный	призвывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	напростых	напростых	ADV	_	Degree=Pos	3	advmod	_	_
+5	практических	практический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	примерах	примеер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+7	продемонстрировать	демонстрировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	SpacesAfter=\n
+8	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	ИИ	ии	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	15	obl	_	_
+15	желающим	желать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80009
+# text = Впоследние годы технологииИИ, впервую очередь машинное обучение, стали одним изприоритетных направлений разработок Google.
+1	Впоследние	Впоследний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	_
+2	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+3	технологииИИ	технологииия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	впервую	впервую	ADV	_	Degree=Pos	8	advmod	_	_
+6	очередь	очередь	PART	_	_	5	fixed	_	_
+7	машинное	машинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpacesAfter=\n
+8	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	одним	один	NUM	_	Case=Ins|Gender=Masc	13	nummod	_	_
+12	изприоритетных	изприоритетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	направлений	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nsubj	_	_
+14	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80010
+# text = Компания активно применяет ихвсвоих продуктах ивэкспериментальных целях.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+2	активно	активно	ADV	_	Degree=Pos	3	advmod	_	_
+3	применяет	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ихвсвоих	ихвсвой	DET	_	Case=Loc|Number=Plur	5	amod	_	_
+5	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	ивэкспериментальных	ивэкспериментальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	целях	цель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80011
+# text = Сейчас она решила познакомить сэтими технологиями пользователей.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	SpacesAfter=\n
+3	решила	решать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	познакомить	знакомить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	сэтими	сэтий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	технологиями	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+7	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80012
+# text = "Когда столько восхитительного происходит вмиреИИ, многие люди хотят познакомиться стехнологией машинного обучения.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Когда	когда	ADV	_	Degree=Pos	10	mark	_	_
+3	столько	столько	ADV	_	Degree=Pos	5	advmod	_	_
+4	восхитительного	восхитительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+6	вмиреИИ	вмиреия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	познакомиться	знакомиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	стехнологией	стехнология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80013
+# text = A.I.
+1	A.I	A.i	NUM	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 80014
+# text = Experiments -- это демонстрация простых экспериментов, которые позволяют каждому поиграть с этой технологией напрактике спомощью фотографий, рисунков, языка, музыки и прочего",-- говорится вописании проекта.
+1	Experiments	Experiments	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	демонстрация	демонстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	простых	простой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	каждому	каждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	_
+11	поиграть	играть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	с	с	ADP	_	_	14	case	_	SpacesAfter=\n
+13	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	14	amod	_	_
+14	технологией	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+15	напрактике	напрактика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+16	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+17	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	рисунков	рисунок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	языка	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	_
+24	и	и	CCONJ	_	_	25	cc	_	SpacesAfter=\n
+25	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,--	,--	PUNCT	_	_	25	punct	_	_
+28	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+29	вописании	вописание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	obl	_	SpacesAfter=\n
+30	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80015
+# text = Ккаждому эксперименту предлагается небольшое вводное видео, где объясняется, как онработает икак сним обращаться.
+1	Ккаждому	Ккаждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	эксперименту	эксперимент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	предлагается	предлагавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	небольшое	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	вводное	вводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	где	где	ADV	_	Degree=Pos	9	advmod	_	SpacesAfter=\n
+9	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	как	как	SCONJ	_	_	12	mark	_	_
+12	онработает	онработать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advmod	_	_
+13	икак	икак	ADV	_	Degree=Pos	14	advmod	_	_
+14	сним	сний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+15	обращаться	обращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80016
+# text = Один изсамых наглядных иинтересных экспериментов называется Quick, Draw!
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	6	nsubj	_	_
+2	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+3	наглядных	наглядной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	иинтересных	иинтересный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\n
+6	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Quick	Quick	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Draw!	Draw!	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80017
+# text = ("Быстро, рисуй!").
+1	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Быстро	быстро	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	рисуй	рисовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80018
+# text = Внем пользователю предлагается за20секунд сделать набросок предложенного предмета или животного, аИИ вэто время говорит, что онвидит.
+1	Внем	Вень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\n
+2	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
+3	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	за20секунд	за20секунд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+5	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	набросок	набросок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	предложенного	предложять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	предмета	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	аИИ	аия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+13	вэто	вэтот	DET	_	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+15	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+18	онвидит	онвидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80019
+# text = Как только набросок станет достаточно хорошим, чтобы алгоритм составил онем однозначное мнение, он дает окончательный ответ.
+1	Как	как	ADV	_	Degree=Pos	4	advmod	_	_
+2	только	только	PART	_	_	1	fixed	_	_
+3	набросок	набросок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpacesAfter=\n
+4	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	достаточно	достаточно	ADV	_	Degree=Pos	6	advmod	_	_
+6	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+9	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	составил	составлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+11	онем	ооно	PRON	_	Case=Loc|Gender=Neut|Number=Sing|Person=3	13	nmod	_	_
+12	однозначное	однозначный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	мнение	мнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	SpacesAfter=\n
+16	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+17	окончательный	окончательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80020
+# text = Внастоящее время этот алгоритм обучен распознавать несколько сотен предметов ипока делает это неочень хорошо.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	obl	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	обучен	обучать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	SpacesAfter=\n
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	сотен	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+9	предметов	предметы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	ипока	ипок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+13	неочень	неочень	ADV	_	Degree=Pos	14	advmod	_	_
+14	хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80021
+# text = Каждый пользователь, играя сним, тем самым вносит свой вклад вобучение, улучшая работу ИИ.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesAfter=\n
+2	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	играя	играть	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+5	сним	снее	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+8	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	obl	_	_
+9	вносит	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	вобучение	вобучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	улучшая	улучшать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+15	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpacesAfter=\n
+16	ИИ.	иИ.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+
+# sent_id = 80022
+# text = Современем разработчики рассчитывают пополнить число угадываемых предметов.
+1	Современем	Совремя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+2	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пополнить	пополнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	угадываемых	угадывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	SpacesAfter=\n
+7	предметов	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80023
+# text = Другой эксперимент, Thing Translator, распознает предметы, накоторые наведена камера смартфона, иназывает ихна разных языках.
+1	Другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Thing	Thing	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Translator	Translator	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	распознает	распознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	накоторые	накоторый	PRON	_	Case=Nom	11	nsubj:pass	_	_
+11	наведена	наведать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+12	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+13	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	иназывает	иназывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	ихна	ихный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	amod	_	SpacesAfter=\n
+17	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	языках	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80024
+# text = Еще один алгоритм Giorgio Cam, узнавая предметы, напевает комментарии кним под ритмичную музыку.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	Giorgio	Giorgio	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Cam	Cam	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	узнавая	узнавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	SpacesAfter=\n
+8	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	напевает	напевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	комментарии	комментарий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	кним	кний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+13	под	под	ADP	_	_	12	case	_	_
+14	ритмичную	ритмичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80025
+# text = Также вA.I.
+1	Также	также	CCONJ	_	_	2	cc	_	_
+2	вA.I	вa.i	NUM	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 80026
+# text = Experiments входят The Infinite Drum Machine, который позволяет составлять ритмы изразнообразных звуков, сгруппированных алгоритмом посхожести между собой;
+1	Experiments	Experiments	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+2	входят	входеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	The	the	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Infinite	Infinite	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Drum	Drum	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Machine	Machine	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	SpacesAfter=\n
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+10	составлять	составлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	ритмы	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	изразнообразных	изразнообразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сгруппированных	сгруппировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	алгоритмом	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\n
+17	посхожести	посхожести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+18	между	между	ADP	_	_	19	case	_	_
+19	собой	себя	PRON	_	Case=Ins	17	obl	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 80027
+# text = Duet, представляющий собой нейросеть, которая создает мелодию понескольким наигранным пользователем нотам.
+1	Duet	Duet	PROPN	_	Foreign=Yes	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	представляющий	представлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	SpacesAfter=\n
+4	собой	себя	PRON	_	Case=Ins	3	obl	_	_
+5	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которая	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	мелодию	мелодия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	понескольким	понесколький	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	наигранным	наиграть	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+12	пользователем	пользователь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpacesAfter=\n
+13	нотам	нот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80028
+# text = Кроме того, A.I.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	A.I	A.i	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 80029
+# text = Experiments предлагает многомерную визуализацию процесса машинного обучения ипозволяет "посмотреть" наизображение "глазами" нейросети.
+1	Experiments	Experiments	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	многомерную	многомерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	визуализацию	визуализация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	ипозволяет	ипозволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	наизображение	наизображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80030
+# text = Код всех алгоритмов открыт для изучения, пользователей также просят предлагать собственные эксперименты для машинного обучения.
+1	Код	код	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	всех	весь	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	открыт	открывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	SpacesAfter=\n
+10	просят	прасывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	предлагать	предлагать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80031
+# text = Вместе сA.I.
+1	Вместе	вмевствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	сA.I	сa.i	NUM	_	_	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 80032
+# text = Experiments Google выпустила приложение для смартфона PhotoScan, качественно сканирующее бумажные фотографии, иалгоритм RAISR, улучшающий разрешение фотоснимков.
+1	Experiments	Experiments	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	Google	Google	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	выпустила	выпускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+5	для	для	ADP	_	_	4	case	_	SpacesAfter=\n
+6	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	PhotoScan	PhotoScan	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	качественно	качественно	ADV	_	Degree=Pos	10	advmod	_	_
+10	сканирующее	сканируть	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+11	бумажные	бумажной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	иалгоритм	иалгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+15	RAISR	Raisr	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	улучшающий	улучшать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+18	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	фотоснимков	фотоснимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80033
+# text = Они также основаны наалгоритмах машинного обучения.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj:pass	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	основаны	сновать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	наалгоритмах	наалгоритмо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	_
+5	машинного	машинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpacesAfter=\n
+6	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 80034
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

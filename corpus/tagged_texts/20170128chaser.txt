@@ -1,0 +1,360 @@
+# sent_id = 90061
+# text = Американская компания Sierra Nevada передала NASA первый образец перспективного опционально пилотируемого орбитального аппарата Dream Chaser, сообщает Defense Aerospace.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Sierra	Sierra	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Nevada	Nevada	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	передала	передавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	NASA	Nasa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	образец	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+9	перспективного	перспективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+10	опционально	опционально	ADV	_	Degree=Pos	11	advmod	_	_
+11	пилотируемого	пилотировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+12	орбитального	орбитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+14	Dream	Dream	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Chaser	Chaser	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+18	Defense	Defense	PROPN	_	Foreign=Yes	17	nsubj	_	_
+19	Aerospace	Aerospace	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 90062
+# text = Специалисты агентства проведут масштабные испытания нового беспилотника, после чего он будет использоваться для доставки грузов и продовольствия на Международную космическую станцию.В настоящее время доставка грузов и экспедиций на Международную космическую станцию осуществляется с помощью грузовых и пилотируемых кораблей на ракетах-носителях.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	проведут	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	масштабные	масштабный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	после	после	ADP	_	_	10	case	_	_
+10	чего	что	PRON	_	Case=Gen	3	obl	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	3	xcomp	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	продовольствия	продовольствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	_
+19	на	на	ADP	_	_	22	case	_	_
+20	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	В	в	ADP	_	_	35	advmod	_	_
+25	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	fixed	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	fixed	_	_
+27	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj:pass	_	_
+28	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	экспедиций	экспедиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	conj	_	_
+31	на	на	ADP	_	_	34	case	_	_
+32	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+33	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	nmod	_	_
+35	осуществляется	осуществлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	parataxis	_	_
+36	с	с	ADP	_	_	41	case	_	_
+37	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	fixed	_	_
+38	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	пилотируемых	пилотируемый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	conj	_	_
+41	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	_
+42	на	на	ADP	_	_	43	case	_	_
+43	ракетах	ракеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+44	-	-	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	носителях	носитель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	43	appos	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 90063
+# text = Такая доставка грузов требует довольно долгой подготовки и занимает относительно много времени.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	довольно	довольно	ADV	_	Degree=Pos	6	advmod	_	_
+6	долгой	долгий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	относительно	относительно	ADV	_	Degree=Pos	9	advmod	_	_
+11	много	много	ADV	_	Degree=Pos	12	nummod:gov	_	_
+12	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 90064
+# text = Кроме того, стоимость доставки грузов ракетами-носителями высока -- от 2,5 до пяти тысяч долларов за килограмм.Предполагается, что новый орбитальный беспилотник позволит доставлять грузы и экипажи на Международную космическую станцию существенно быстрее и дешевле.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	ракетами	ракеты	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	носителями	носитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	conj	_	_
+10	высока	высокий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	2,5	2,5	NUM	_	_	10	nummod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	пяти	пять	NUM	_	Case=Gen	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+17	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	за	за	ADP	_	_	19	case	_	_
+19	килограмм.	килограммя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+24	орбитальный	орбитальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	позволит	зволеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	_
+27	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	грузы	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	экипажи	экипаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	conj	_	_
+31	на	на	ADP	_	_	34	case	_	_
+32	Международную	международный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+33	космическую	космический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+35	существенно	существенно	ADV	_	Degree=Pos	36	advmod	_	_
+36	быстрее	быстро	ADV	_	Degree=Cmp	26	advmod	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	дешевле	дешево	ADV	_	Degree=Cmp	26	conj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 90065
+# text = Согласно действующему соглашению между NASA и Sierra Nevada, первый космический рейс новый аппарат выполнит в 2019 году.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	действующему	действовать	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	соглашению	соглашение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+4	между	между	ADP	_	_	5	case	_	_
+5	NASA	Nasa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Sierra	Sierra	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Nevada	Nevada	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	рейс	рейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+13	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+15	выполнит	выполнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	2019	2019	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 90066
+# text = К 2024 году Dream Chaser должен совершить шесть грузовых полетов.Новый орбитальный беспилотник будет проходить испытания на аэродроме Летного исследовательского центра имени Армстронга на авиабазе ВВС США "Эдвардс" в Калифорнии.
+1	К	к	ADP	_	_	3	case	_	_
+2	2024	2024	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+4	Dream	Dream	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Chaser	Chaser	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	совершить	совершлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	шесть	шесть	NUM	_	Case=Acc	10	nummod:gov	_	_
+9	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	полетов.	полетовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	Новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	орбитальный	орбитальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+14	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	nsubj	_	_
+16	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	аэродроме	аэродром	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+19	Летного	летный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+22	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	Армстронга	Армстронг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	авиабазе	авиабаза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+26	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Эдвардс	Эдвардс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 90067
+# text = Там аппарат пройдет статические и динамические испытания и выполнит пробежки.
+1	Там	там	ADV	_	Degree=Pos	3	advmod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	статические	статический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	динамические	динамический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	conj	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	выполнит	выполнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	пробежки	пробежка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 90068
+# text = Затем его сбросят с большой высоты, чтобы проверить, может ли беспилотник планировать и приземляться в автоматическом режиме.По итогам испытаний специалисты NASA проведут анализ полученных данных и передадут пожелания о доработке Dream Chaser разработчикам.Орбитальный беспилотник оснащен складным крылом, которое позволяет выводить его на орбиту в стандартных грузовых контейнерах для ракет-носителей Atlas V и Delta IV, используемых ВВС США.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+3	сбросят	сбросеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	3	mark	_	_
+9	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	ли	ли	PART	_	_	11	advmod	_	_
+13	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+14	планировать	планировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	приземляться	приземляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	obl	_	_
+19	режиме.	режимбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+20	По	по	ADP	_	_	21	case	_	_
+21	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+22	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+24	NASA	Nasa	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	проведут	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	conj	_	_
+26	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	передадут	передавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	пожелания	пожелание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obj	_	_
+32	о	о	ADP	_	_	33	case	_	_
+33	доработке	доработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	_
+34	Dream	Dream	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	Chaser	Chaser	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	разработчикам.	разработчикамя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+37	Орбитальный	Орбитальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nsubj:pass	_	_
+39	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+40	складным	складный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	крылом	крыел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	которое	который	PRON	_	Case=Nom	44	nsubj	_	_
+44	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	acl:relcl	_	_
+45	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	44	xcomp	_	_
+46	его	оно	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	45	obj	_	_
+47	на	на	ADP	_	_	48	case	_	_
+48	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obl	_	_
+49	в	в	ADP	_	_	52	case	_	_
+50	стандартных	стандартный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	52	amod	_	_
+51	грузовых	грузовый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	52	amod	_	_
+52	контейнерах	контейнер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	45	obl	_	_
+53	для	для	ADP	_	_	55	case	_	_
+54	ракет-	ракет-	PUNCT	_	_	55	punct	_	SpaceAfter=No
+55	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	52	nmod	_	_
+56	Atlas	atlas	PROPN	_	Foreign=Yes	55	flat:foreign	_	_
+57	V	v	PROPN	_	Foreign=Yes	56	flat:foreign	_	_
+58	и	и	CCONJ	_	_	59	cc	_	_
+59	Delta	Delta	PROPN	_	Foreign=Yes	55	flat:foreign	_	_
+60	IV	iv	NUM	_	_	59	nummod	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	63	amod	_	_
+63	ВВС	ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	59	nmod	_	_
+64	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	63	nmod	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	64	punct	_	SpaceAfter=No
+
+# sent_id = 90069
+# text = Максимальная взлетная масса Dream Chaser составляет 11,3 тонны.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	Dream	Dream	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Chaser	Chaser	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	11,3	11,3	NUM	_	_	8	nummod	_	_
+8	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 90070
+# text = Аппарат имеет в длину девять метров и размах крыла семь метров.Помимо Sierra Nevada разработкой орбитального беспилотника занимается американский авиастроительный концерн Boeing.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	девять	девять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	_	_
+9	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	семь	семь	NUM	_	Case=Nom	11	nummod:gov	_	_
+11	метров.	метровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	Помимо	Помимо	ADP	_	_	13	case	_	_
+13	Sierra	Sierra	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+14	Nevada	Nevada	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+16	орбитального	орбитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+19	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+22	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 90071
+# text = Его аппарат получил обозначение X-37B.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	обозначение	обозначение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	X	x	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	37B	37b	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 90072
+# text = Он имеет в длину девять метров и размах крыла 4,6 метра.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	девять	девять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	_	_
+9	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	4,6	4,6	NUM	_	_	11	nummod	_	_
+11	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 90073
+# text = Максимальная взлетная масса X-37B составляет 4,9 тонны.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	X	x	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	37B	37b	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	4,9	4,9	NUM	_	_	9	nummod	_	_
+9	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 90074
+# text = Аппарат рассчитан на полеты на низкой околоземной орбите.Василий Сычёв
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	низкой	низкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	околоземной	околоземная	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	орбите.	орбитбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+

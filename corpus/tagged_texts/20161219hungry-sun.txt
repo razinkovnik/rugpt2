@@ -1,0 +1,542 @@
+# sent_id = 85301
+# text = Астрономы обнаружили систему, вкоторой звезда-близнец Солнца вероятно поглотила вращающиеся вокруг нее экзопланеты.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вкоторой	вкоторый	DET	_	Case=Ins|Gender=Fem|Number=Sing	3	amod	_	_
+6	звезда-	звезда-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	близнец	близнец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	вероятно	вероятно	ADV	_	Degree=Pos	10	advmod	_	_
+10	поглотила	поглощать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	вращающиеся	вращаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+12	вокруг	вокруг	ADP	_	_	13	case	_	_
+13	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	obl	_	_
+14	экзопланеты	экзопланет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85302
+# text = Статья, рассказывающая об открытии, принята к публикации в журнале Astronomy & Astrophysics, препринт доступен на сайте ArXiv.org.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	рассказывающая	рассказывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+4	об	о	ADP	_	_	5	case	_	_
+5	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	принята	принимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	публикации	публикация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Astronomy	Astronomy	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	&	&	PUNCT	_	_	12	punct	_	_
+14	Astrophysics	Astrophysics	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	препринт	препринт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+17	доступен	доступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	parataxis	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	ArXiv.org	ArXiv.org	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85303
+# text = Насегодняшний день подтверждено существование около 3,5 тысяч экзопланет вболее чем 2,5 тысячах планетных систем.
+1	Насегодняшний	Насегодняшний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	подтверждено	дтверждить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	существование	существование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	3,5	3,5	NUM	_	_	7	nummod	_	_
+7	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	экзопланет	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	вболее	вболее	ADV	_	Degree=Cmp	12	case	_	_
+10	чем	чем	SCONJ	_	_	9	fixed	_	_
+11	2,5	2,5	NUM	_	_	12	nummod	_	_
+12	тысячах	тысяча	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+13	планетных	планетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85304
+# text = Тем неменее, лишь немногие объекты вращаются вокруг так называемых близнецов Солнца.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	лишь	лишь	PART	_	_	5	advmod	_	_
+5	немногие	немногие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	вращаются	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	вокруг	вокруг	ADV	_	Degree=Pos	9	advmod	_	_
+9	так	так	ADV	_	Degree=Pos	10	advmod	_	_
+10	называемых	называть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	близнецов	близнеец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+12	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85305
+# text = Этот класс звезд имеет температуру, отличающуюся отсолнечной, неболее чем на50кельвинов, атакже схожую сСолнцем металличность ивозраст.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	звезд	звезд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	температуру	температура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	отличающуюся	отличаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+8	отсолнечной	отсолнечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	неболее	неболее	ADV	_	Degree=Pos	12	case	_	_
+11	чем	что	SCONJ	_	_	10	fixed	_	_
+12	на50кельвинов	на50кельвинов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	CCONJ	_	_	16	cc	_	_
+15	схожую	схожий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	сСолнцем	сСолнец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	_
+17	металличность	металличность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+18	ивозраст	ивозраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85306
+# text = Изучая системы, где главной звездой является близнец Солнца, астрономы могут лучше понять, что будет происходить сЗемлей и другими планетами вбудущем.
+1	Изучая	изучать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	где	где	ADV	_	Degree=Pos	7	advmod	_	_
+5	главной	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	звездой	звезда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+8	близнец	близнец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	астрономы	астроном	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	лучше	хорошо	ADV	_	Degree=Cmp	14	advmod	_	_
+14	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	PRON	_	Case=Nom	18	nsubj	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	parataxis	_	_
+19	сЗемлей	сЗемля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	планетами	планет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	conj	_	_
+23	вбудущем	вбудуще	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 85307
+# text = Обнаруженная исследователями звезда HIP 68468 находится отнас нарасстоянии 300 световых лет.
+1	Обнаруженная	Обнаружать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	исследователями	исследователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	_
+3	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	HIP	Hip	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	68468	68468	NUM	_	_	3	nummod	_	_
+6	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	отнас	отмы	PRON	_	Case=Loc|Number=Plur|Person=1	8	nsubj	_	_
+8	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	300	300	NUM	_	_	11	nummod	_	_
+10	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85308
+# text = Еемасса составляет 1,05 масс Солнца, возраст-- 5,9 миллиарда лет, иона, как иглавная звезда Солнечной системы, относится кспектральному классу G.Вокруг HIP 68468 вращаются две планеты: одна изних супернептун HIP 68468c, который находится кзвезде ближе, чем Венера кСолнцу, адругая, вероятно, является суперземлей смассой 2,9 масс Земли.
+1	Еемасса	Еемасса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	1,05	1,05	NUM	_	_	4	nummod	_	_
+4	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+5	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	возраст--	возраст--	PUNCT	_	_	5	punct	_	_
+8	5,9	5,9	NUM	_	_	9	nummod	_	_
+9	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nummod:gov	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	иона	ион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	как	как	SCONJ	_	_	16	cc	_	_
+15	иглавная	иглавный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+17	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	advcl	_	_
+21	кспектральному	кспектральный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+23	G.Вокруг	G.Вокруг	ADP	_	_	24	case	_	_
+24	HIP	Hip	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	68468	68468	NUM	_	_	24	nummod	_	_
+26	вращаются	вращаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+27	две	два	NUM	_	Case=Nom|Gender=Fem	28	nummod:gov	_	_
+28	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	28	punct	_	_
+30	одна	один	NUM	_	Case=Nom|Gender=Fem	32	nummod:gov	_	_
+31	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	супернептун	супернептуна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	49	obl	_	_
+33	HIP	Hip	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	68468c	68468c	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	который	который	PRON	_	Case=Nom	37	nsubj	_	_
+37	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	49	acl:relcl	_	_
+38	кзвезде	кзвезде	ADV	_	Degree=Pos	39	advmod	_	_
+39	ближе	близко	ADV	_	Degree=Cmp	37	advmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	чем	чем	SCONJ	_	_	42	cc	_	_
+42	Венера	Венера	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	49	nsubj	_	_
+43	кСолнцу	кСолнец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	адругая	адругой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	49	nsubj	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	вероятно	вероятно	ADV	_	Degree=Pos	49	parataxis	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	28	parataxis	_	_
+50	суперземлей	суперземлий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	смассой	смасса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	49	obl	_	_
+52	2,9	2,9	NUM	_	_	53	nummod	_	_
+53	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	51	nmod	_	_
+54	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+
+# sent_id = 85309
+# text = Вторая планета расположена всего в0,03 астрономических единиц отHIP 68468 исовершает полный оборот вокруг нее всего затри дня.
+1	Вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	планета	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	всего	всего	PART	_	_	5	advmod	_	_
+5	в0,03	в0,03	NUM	_	_	7	nummod	_	_
+6	астрономических	астрономический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+8	отHIP	отhip	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	68468	68468	NUM	_	_	7	nummod	_	_
+10	исовершает	исовершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	оборот	оборот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	вокруг	вокруг	ADP	_	_	14	case	_	_
+14	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+15	всего	всего	PART	_	_	16	advmod	_	_
+16	затри	затра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+17	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85310
+# text = Существующие теории говорят отом, что оба небесных тела, скорее всего, сформировались вболее удаленных уголках планетной системы, после чего они постепенно мигрировали насвои текущие орбиты.
+1	Существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	теории	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	говорят	говореть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	3	mark	_	_
+7	оба	оба	NUM	_	Case=Nom|Gender=Neut	9	nummod:gov	_	_
+8	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	скорее	скорее	ADV	_	Degree=Pos	14	parataxis	_	_
+12	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сформировались	формироваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+15	вболее	вболее	ADV	_	Degree=Pos	16	advmod	_	_
+16	удаленных	удаленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	уголках	уголок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+18	планетной	планетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	после	после	ADP	_	_	22	case	_	_
+22	чего	что	PRON	_	Case=Gen	25	obl	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	25	nsubj	_	_
+24	постепенно	постепенно	ADV	_	Degree=Pos	25	advmod	_	_
+25	мигрировали	мигрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+26	насвои	насвой	DET	_	Case=Nom|Number=Plur	28	amod	_	_
+27	текущие	текущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	орбиты	орбит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 85311
+# text = Исследователи предполагают, что входе этого процесса планеты своим гравитационным полем могли "вытолкнуть" другие, более близкие кглавной звезде объекты, которые затем оказались поглощены HIP 68468.Впользу этой гипотезы свидетельствует и анализ спектра "близнеца Солнца".
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	входе	входе	ADP	_	_	7	case	_	_
+6	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	_
+7	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+8	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing	11	amod	_	_
+10	гравитационным	гравитационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	полем	поле	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+12	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	вытолкнуть	выталкивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	более	более	ADV	_	Degree=Cmp	19	advmod	_	_
+19	близкие	близкой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+20	кглавной	кглавный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	звезде	звезда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+22	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	26	nsubj	_	_
+25	затем	затем	ADV	_	Degree=Pos	26	advmod	_	_
+26	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
+27	поглощены	поглощать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	conj	_	_
+28	HIP	Hip	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	68468	68468	NUM	_	_	28	nummod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	Впользу	Впольза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+32	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	33	amod	_	_
+33	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+35	и	и	PART	_	_	36	advmod	_	_
+36	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+37	спектра	спектр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	близнеца	близнец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+40	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 85312
+# text = Онпоказывает, что звезда содержит слишком много для своего возраста лития (примерно вчетыре раза больше) итугоплавких металлов, которые встречаются на каменистых планетах.
+1	Онпоказывает	Онпоказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	звезда	звезда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	слишком	слишком	ADV	_	Degree=Pos	7	advmod	_	_
+7	много	много	ADV	_	Degree=Pos	5	advmod	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	_
+10	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	лития	литие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	примерно	примерно	ADV	_	Degree=Pos	14	advmod	_	_
+14	вчетыре	вчетыре	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+16	больше	много	NUM	_	_	19	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	итугоплавких	итугоплавкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которые	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	каменистых	каменистый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	планетах	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 85313
+# text = Согласно расчетам исследователей, такой избыток веществ мог возникнуть, еслибы HIP 68468 поглотила планету или несколько планет ссовокупной массой примерно шесть масс Земли.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	избыток	избыток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	возникнуть	возникать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	еслибы	еслиб	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+12	HIP	Hip	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	68468	68468	NUM	_	_	14	nummod	_	_
+14	поглотила	поглотывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+15	планету	планета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	conj	_	_
+19	ссовокупной	ссовокупный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+21	примерно	примерно	ADV	_	Degree=Pos	22	advmod	_	_
+22	шесть	шесть	NUM	_	Case=Nom	23	nummod:gov	_	_
+23	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+24	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 85314
+# text = "Это как еслибы мызастали кошку, сидящую рядом сптичьей клеткой.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	как	как	SCONJ	_	_	5	mark	_	_
+4	еслибы	еслиб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	мызастали	мызастать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	кошку	кошка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сидящую	сидять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	рядом	рядом	ADV	_	Degree=Pos	8	advmod	_	_
+10	сптичьей	сптичьий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	клеткой	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85315
+# text = Если унее изо рта торчат желтые перья, тоесть серьезные основания считать, что именно она съела канарейку",-- комментирует автор работы.
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	унее	уно	ADV	_	Degree=Cmp	5	advmod	_	_
+3	изо	из	ADP	_	_	4	case	_	_
+4	рта	рот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	торчат	торчить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	желтые	желтой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	перья	перо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	тоесть	тоедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+10	серьезные	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	основания	основание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	считать	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	именно	именно	PART	_	_	16	advmod	_	_
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	съела	ъеть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+18	канарейку	канарейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,--	,--	PUNCT	_	_	18	punct	_	_
+21	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+22	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 85316
+# text = Компьютерные симуляции показывают, что миллиарды лет спустя подобная судьба может постигнуть Меркурий.
+1	Компьютерные	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	симуляции	симуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	миллиарды	миллиард	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	спустя	спустя	ADP	_	_	10	case	_	_
+9	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	судьба	судьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+12	постигнуть	постигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	Меркурий	меркурий	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85317
+# text = В результате гравитационного влияния других планет он также, скорее всего, в итоге упадет на Солнце.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+3	гравитационного	гравитационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	влияния	влияние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	планет	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+8	также	также	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	скорее	скорее	ADV	_	Degree=Pos	15	parataxis	_	_
+11	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	упадет	падать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	Солнце	солнце	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85318
+# text = Поэтому, как отмечают эксперты, исследование ученых помогает понять, каким образом может эволюционировать наша Солнечная система.Недавно астрофизикам удалось определить состав атмосферы суперземли, которая также вращается вокруг звезды, похожей на наше Солнце.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	9	mark	_	_
+4	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+5	эксперты	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+10	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	13	amod	_	_
+13	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+15	эволюционировать	эволюционировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	_
+17	Солнечная	солнечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Недавно	недавно	ADV	_	Degree=Pos	21	advmod	_	_
+21	астрофизикам	астрофизик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	22	obl	_	_
+22	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+23	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	nsubj	_	_
+24	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	суперземли	суперземль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которая	который	PRON	_	Case=Nom	30	nsubj	_	_
+29	также	также	ADV	_	Degree=Pos	30	advmod	_	_
+30	вращается	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
+31	вокруг	вокруг	ADP	_	_	32	case	_	_
+32	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	похожей	похожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+35	на	на	ADP	_	_	37	case	_	_
+36	наше	наш	DET	_	Case=Acc|Gender=Neut|Number=Sing	37	amod	_	_
+37	Солнце	солнце	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 85319
+# text = Выяснилось, что в газовой оболочке планетыотсутствуют водяные пары, зато присутствует смесь водорода и гелия.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	газовой	газовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	оболочке	оболочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	планетыотсутствуют	планетыотсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	водяные	водяной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	пары	пар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	зато	зато	CCONJ	_	_	12	cc	_	_
+12	присутствует	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	смесь	смесь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	гелия	гелие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85320
+# text = Кроме того,ученым удалось обнаружить признаки содержания циановодорода, углекислого газа, монооксида углерода и ацетилена.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+3	,ученым	,ученый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	циановодорода	циановодород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	монооксида	монооксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+14	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	ацетилена	ацетилен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85321
+# text = Также на прошлой неделе исследователи сообщили об открытии экзопланеты с облаками изперовскита и/или корунда -- минерала, разновидностью которого являются рубин и сапфир.Кристина Уласович
+1	Также	также	CCONJ	_	_	6	cc	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	прошлой	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	об	о	ADP	_	_	8	case	_	_
+8	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	экзопланеты	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	облаками	облако	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+12	изперовскита	изперовскит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и/или	и/или	CCONJ	_	_	14	cc	_	_
+14	корунда	корунд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	минерала	минерал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	разновидностью	разновидность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+19	которого	который	PRON	_	Case=Gen	18	nmod	_	_
+20	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+21	рубин	рубин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	сапфир.	сапфираница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+

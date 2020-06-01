@@ -1,0 +1,149 @@
+# sent_id = 58193
+# text = Космический аппарат "Розетта" обнаружил криптон иксенон в составе кометы Чурюмова--Герасименко.
+1	Космический	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Розетта	Розетта	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	обнаружил	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	криптон	криптон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	иксенон	иксенон	PART	_	_	10	advmod	_	_
+9	в	в	ADP	_	_	10	case	_	SpacesAfter=\n
+10	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+11	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Чурюмова--Герасименко	Чурюмова--Герасименко	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 58194
+# text = Присутствие благородных газов виспарениях кометы было зафиксировано прибором ROSINA-DFMS вовремя облета кометы с10по 31мая 2016года.
+1	Присутствие	присутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	благородных	благородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	виспарениях	виспарение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	SpacesAfter=\n
+5	кометы	комет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	зафиксировано	фиксировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	прибором	прибор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	ROSINA-DFMS	Rosina-dfms	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	вовремя	вовремя	ADV	_	Degree=Pos	15	advmod	_	_
+11	облета	облет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+12	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	с10по	с10по	ADV	_	Degree=Pos	14	advmod	_	SpacesAfter=\n
+14	31мая	31ть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	2016года	2016года	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 58195
+# text = Орезультатах анализа сообщает сайт Европейского космического агентства.
+1	Орезультатах	Орезультат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+2	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сайт	сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	Европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 58196
+# text = DFMS (The Double Focusing Mass Spectrometer) является одним измасс-спектрометров прибора ROSINA, который предназначается для исследования химического состава атмосферы иионосферы кометы.
+1	DFMS	Dfms	PROPN	_	Foreign=Yes	9	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	The	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	Double	Double	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Focusing	Focusing	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Mass	Mass	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Spectrometer	spectrometer	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+10	одним	один	NUM	_	Case=Ins|Gender=Masc	11	nummod	_	_
+11	измасс-спектрометров	измасс-спектрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+12	прибора	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	ROSINA	Rosina	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj:pass	_	SpacesAfter=\n
+16	предназначается	предназначать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+19	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	иионосферы	иионосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpacesAfter=\n
+23	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 58197
+# text = Втечение трех недель, закоторые аппарат "Розетта" сближался скометой дорасстояний в5 10км, ROSINA-DFMS смог накопить данные, позволяющие говорить о наличии 5изотопов криптона (80Kr, 82Kr, 83Kr, 84Kr, 86Kr) исеми изотопов ксенона (128Xe, 129Xe, 130Xe, 131Xe, 132Xe, 134Xe, 136Xe) ватмосфере кометы.
+1	Втечение	Втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+2	трех	три	NUM	_	Case=Gen	3	nummod	_	_
+3	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	закоторые	закоторый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Розетта	Розетта	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	сближался	сближаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	скометой	скомета	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpacesAfter=\n
+12	дорасстояний	дорасстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	в5	в5	NUM	_	_	14	nummod	_	_
+14	10км	микро10етр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	ROSINA	Rosina	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	DFMS	Dfms	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+20	накопить	накопать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	позволяющие	позволять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+24	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	dep	_	_
+25	о	о	ADP	_	_	26	case	_	SpacesAfter=\n
+26	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+27	5изотопов	5изотоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	криптона	криптон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	80Kr	80Kr	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	82Kr	82Kr	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	83Kr	83Kr	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	84Kr	84Kr	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	86Kr	86Kr	PROPN	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	исеми	тоис	DET	_	Case=Ins|Number=Plur	41	amod	_	_
+41	изотопов	изотоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+42	ксенона	ксенон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	parataxis	_	_
+43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	128Xe	128Xe	PROPN	_	Foreign=Yes	42	flat:foreign	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	129Xe	129Xe	PROPN	_	Foreign=Yes	44	flat:foreign	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	130Xe	130Xe	PROPN	_	Foreign=Yes	46	flat:foreign	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	131Xe	131Xe	PROPN	_	Foreign=Yes	48	flat:foreign	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	132Xe	132Xe	PROPN	_	Foreign=Yes	50	flat:foreign	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	134Xe	134Xe	PROPN	_	Foreign=Yes	52	flat:foreign	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	54	punct	_	_
+56	136Xe	136Xe	PROPN	_	Foreign=Yes	54	flat:foreign	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	56	punct	_	_
+58	ватмосфере	ватмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	parataxis	_	SpacesAfter=\n
+59	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	58	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	59	punct	_	SpaceAfter=No
+
+# sent_id = 58198
+# text = Помимо благородных газов, ученые зафиксировали также следы бромоводорода.
+1	Помимо	помимо	ADP	_	_	3	case	_	_
+2	благородных	благородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	зафиксировали	фиксировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+8	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	бромоводорода	бромоводород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+

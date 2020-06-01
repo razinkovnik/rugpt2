@@ -1,0 +1,598 @@
+# sent_id = 79852
+# text = В Москве названы лауреаты премии Дмитрия Зимина "Просветитель" 2016 года.
+1	В	в	ADP	_	_	2	case	_	SpacesBefore=\n
+2	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	названы	звать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	лауреаты	лауреат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Дмитрия	дмитрий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Зимина	Зимин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Просветитель	просветитель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	2016	2016	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79853
+# text = Церемония подведения итогов премии в области научно-популярной литературы состоялась в Центральном доме литераторов.
+1	Церемония	церемония	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	подведения	подведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	итогов	итог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+7	научно-популярной	научно-популярной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	литературы	литература	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	состоялась	состояться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	Центральном	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	доме	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	литераторов	литератор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79854
+# text = N+1 следит за происходящим с места события.
+1	N+1	N+1	NUM	_	_	2	nummod	_	_
+2	следит	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	за	за	ADP	_	_	4	case	_	_
+4	происходящим	происходить	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	события	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 79855
+# text = В номинации "Естественные и точные науки" победу одержал Александр Панчин, автор книги "Сумма биотехнологии" (АСТ: CORPUS, 2016).
+1	В	в	ADP	_	_	2	case	_	_
+2	номинации	номинация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Естественные	естественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	точные	точный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	conj	_	_
+7	науки	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	победу	победа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	одержал	одерживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Панчин	Панчин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+15	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Сумма	сумма	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	appos	_	_
+18	биотехнологии	биотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	АСТ	Аст	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	CORPUS	Corpus	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	2016	2016	NUM	_	_	23	conj	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79856
+# text = Книга посвящена научно-популярному рассказу о методах создания генетически-модифицированных организмов, об исследованиях их безопасности и роли в агротехнике будущего, об искусственном оплодотворении, генетической терапии и других биотехнологиях.Лауреатом премии в номинации "Гуманитарные науки" стал Сергей Кавтарадзе с книгой "Анатомия архитектуры.
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	посвящена	посвящать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	научно-популярному	научно-популярный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	рассказу	рассказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	методах	метод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+7	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	генетически-модифицированных	генетически-модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	об	о	ADP	_	_	12	case	_	_
+12	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	conj	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	роли	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	агротехнике	агротехника	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	об	о	ADP	_	_	23	case	_	_
+22	искусственном	искусственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	оплодотворении	оплодотворение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	генетической	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	биотехнологиях	биотехнология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	Лауреатом	лауреат	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	39	obl	_	_
+32	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	номинации	номинация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	39	obl	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	Гуманитарные	гуманитарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	37	amod	_	_
+37	науки	наука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	39	obj	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+40	Сергей	сергей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+41	Кавтарадзе	Кавтарадзе	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	flat:name	_	_
+42	с	с	ADP	_	_	43	case	_	_
+43	книгой	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	obl	_	_
+44	"	"	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	Анатомия	Анатомия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	appos	_	_
+46	архитектуры	архитектура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 79857
+# text = Семь книг о логике, форме и смысле" (Издательский дом Высшей школы экономики, 2015).
+1	Семь	семь	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	логике	логика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Издательский	издательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	_
+13	Высшей	высший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	экономики	экономика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	2015	2015	NUM	_	_	15	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79858
+# text = В ней рассказывается о том, как научиться правильно понимать архитектуру, о том художественном языке, на котором она говорит, а также об истории архитектуры -- в мировом масштабе.Всего в шорт-листы обеих номинаций вошли по четыре издания.
+1	В	в	ADP	_	_	2	case	_	_
+2	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	3	obl	_	_
+3	рассказывается	рассказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	ADV	_	Degree=Pos	8	advmod	_	_
+8	научиться	научаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	acl	_	_
+9	правильно	правильно	ADV	_	Degree=Pos	8	advmod	_	_
+10	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	архитектуру	архитектура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	о	о	ADP	_	_	16	case	_	_
+14	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	16	amod	_	_
+15	художественном	художественный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	языке	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	котором	который	PRON	_	Case=Loc	21	obl	_	_
+20	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+21	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	26	cc	_	_
+24	также	также	ADV	_	Degree=Pos	26	advmod	_	_
+25	об	о	ADP	_	_	26	case	_	_
+26	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	conj	_	_
+27	архитектуры	архитектура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nsubj	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	мировом	мировой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	31	obl	_	_
+31	масштабе.	масштаббыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	SpaceAfter=No
+32	Всего	всего	PART	_	_	34	advmod	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	шорт-листы	шорт-лист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	37	obl	_	_
+35	обеих	оба	NUM	_	Case=Gen|Gender=Fem	36	nummod	_	_
+36	номинаций	номинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	вошли	входить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	31	conj	_	_
+38	по	по	ADP	_	_	40	case	_	_
+39	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	40	nummod:gov	_	_
+40	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 79859
+# text = Так, в номинации "Естественные и точные науки", помимо Александра Панчина, за первую премию боролись следующие издания: Владимир Динец, "Песни драконов: Любовь и приключения в мире крокодилов и прочих динозавровых родственников" (АСТ: CORPUS, 2015);
+1	Так	так	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	номинации	номинация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Естественные	естественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	точные	точный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	conj	_	_
+9	науки	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	помимо	помимо	ADP	_	_	13	case	_	_
+13	Александра	александр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+14	Панчина	Панчин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	за	за	ADP	_	_	18	case	_	_
+17	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	amod	_	_
+18	премию	премия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	боролись	бороться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	следующие	следующий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	издания	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	parataxis	_	_
+24	Динец	Динец	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+27	Песни	Песни	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	_
+28	драконов	драконов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
+29	:	:	PUNCT	_	_	28	punct	_	_
+30	Любовь	любовь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	приключения	приключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	30	conj	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+35	крокодилов	крокодиел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+36	и	и	CCONJ	_	_	39	cc	_	SpacesAfter=\n\s
+37	прочих	прочий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+38	динозавровых	динозавровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	родственников	родственник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	39	punct	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	АСТ	Аст	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	appos	_	SpaceAfter=No
+43	:	:	PUNCT	_	_	42	punct	_	_
+44	CORPUS	Corpus	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	parataxis	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	2015	2015	NUM	_	_	44	conj	_	SpaceAfter=No
+47	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	;	;	PUNCT	_	_	46	punct	_	_
+
+# sent_id = 79860
+# text = Каганов, "Физика глазами физика" (Издательство МЦНМО, 2014).В шорт-лист номинации "Гуманитарные науки", помимо Сергея Кавтарадзе вошли: Александр Аузан, "Экономика всего.
+1	Каганов	Каганов	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Физика	Физика	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+5	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	_
+6	физика	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Издательство	издательство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+10	МЦНМО	Мцнмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	2014	2014	NUM	_	_	10	nummod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	шорт-лист	шорт-лист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+17	номинации	номинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Гуманитарные	гуманитарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	науки	наука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	помимо	помимо	ADP	_	_	24	case	_	_
+24	Сергея	сергей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+25	Кавтарадзе	Кавтарадзе	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	flat:name	_	_
+26	вошли	входить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+27	:	:	PUNCT	_	_	26	punct	_	_
+28	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	parataxis	_	_
+29	Аузан	аузан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Экономика	экономика	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	conj	_	_
+33	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 79861
+# text = Как институты определяют нашу жизнь" (Манн, Иванов и Фербер, 2014);
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	институты	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	определяют	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Манн	Ман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Иванов	иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Фербер	Фербер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	2014	2014	NUM	_	_	3	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 79862
+# text = "Что такое Африка" (Рипол Классик, 2015);
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Что	что	PRON	_	Case=Nom	4	nsubj	_	_
+3	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+4	Африка	африка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Рипол	Рипол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
+8	Классик	классик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	2015	2015	NUM	_	_	7	conj	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 79863
+# text = СССР -- оттепель" (НЛО, 2014).Также специального приза Премии был удостоен Владимир Решетников, автор книги "Почему небо темное.
+1	СССР	ссср	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	оттепель	оттепель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	НЛО	нло	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	2014	2014	NUM	_	_	6	conj	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	Также	также	CCONJ	_	_	13	cc	_	_
+12	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	приза	приз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+14	Премии	премия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	удостоен	удостаивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+17	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	Решетников	Решетников	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+21	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Почему	почему	ADV	_	Degree=Pos	25	advmod	_	_
+24	небо	небо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+25	темное	темный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79864
+# text = Как устроена Вселенная".
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	устроена	устраивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	Вселенная	Вселенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 79865
+# text = Она посвящена истории возникновения и разрешения фотометрического парадокса и тому, как эта простая идея повлияла на развитие космологических представлений в истории астрономии.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	посвящена	свящить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	истории	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	_
+7	фотометрического	фотометрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	парадокса	парадокс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	10	mark	_	_
+13	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
+14	простая	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	повлияла	влиять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+19	космологических	космологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	представлений	представление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+23	астрономии	астрономия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 79866
+# text = Специальный приз вручал номинанту основатель Премии, Дмитрий Зимин.Выходные данные и аннотации каждой книги представлены на сайте премии.Лауреат премии в каждой из номинаций получит 700 тысяч рублей, остальные финалисты будут вознаграждены денежными призами в размере 100 тысяч рублей каждый.
+1	Специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	приз	приз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	вручал	вручать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+4	номинанту	номинант	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+5	основатель	основатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Премии	премия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Дмитрий	Дмитрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+9	Зимин.	Зиминаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+10	Выходные	выходной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	8	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	аннотации	аннотация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	conj	_	_
+14	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	представлены	представлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	премии.	премии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	Лауреат	лауреат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+21	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	номинаций	номинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	34	conj	_	_
+27	700	700	NUM	_	_	28	nummod	_	_
+28	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+29	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	финалисты	финалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	_
+33	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	вознаграждены	вознаграждать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+35	денежными	денежный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	amod	_	_
+36	призами	приз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	34	obl:agent	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	размере	размер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	_
+39	100	100	NUM	_	_	40	nummod	_	_
+40	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+41	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	_
+42	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 79867
+# text = Денежные сертификаты на сумму 130 тысяч рублей получат издатели книг лауреатов -- по условиям премии, они смогут потратить их на продвижение книг на рынке.
+1	Денежные	денежный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	сертификаты	сертификат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	сумму	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	130	130	NUM	_	_	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+7	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	получат	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	издатели	издатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+10	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	лауреатов	лауреат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	условиям	условие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+15	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+18	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+19	потратить	потратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	19	obj	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	продвижение	продвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+23	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	на	на	ADP	_	_	23	case	_	_
+25	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79868
+# text = Кроме того, премия "Просветитель" разошлет книги лауреатов и финалистов в библиотеки регионов России, кроме Москвы и Санкт-Петербурга.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Просветитель	просветитель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	разошлет	разошать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	лауреатов	лауреат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	финалистов	финалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	библиотеки	библиотека	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	obl	_	_
+15	регионов	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	кроме	кроме	ADP	_	_	19	case	_	_
+19	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	Санкт-Петербурга	санкт-петербург	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79869
+# text = За несколько дней до церемонии победителя в номинации "Народный выбор" путем онлайн-голосования определяли читатели сайта N+1 и паблика ВК "Образовач".
+1	За	за	ADP	_	_	3	case	_	_
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	церемонии	церемония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+6	победителя	победитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	номинации	номинация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Народный	народный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	путем	путем	ADP	_	_	14	case	_	_
+14	онлайн	онлайна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+15	-голосования	-голосование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	определяли	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	читатели	читатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+18	сайта	сайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	N+1	N+1	NUM	_	_	18	nummod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	паблика	паблика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+22	ВК	вк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	Образовач	Образовач	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79870
+# text = Больше всего голосов собрала книга Александра Панчина "Сумма биотехнологии", всего за книги финалистов премии проголосовали более двух тысяч человек.В 2016 году на конкурс премии "Просветитель" поступило более 160 книг, 25 из них вошли в лонг-лист.
+1	Больше	больше	ADV	_	Degree=Cmp	3	nummod:gov	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+3	голосов	голосы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	собрала	собрать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	Александра	александр	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Панчина	Панчин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Сумма	сумма	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+10	биотехнологии	биотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	всего	всего	PART	_	_	15	advmod	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+16	финалистов	финалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	проголосовали	голосовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	более	более	ADV	_	Degree=Cmp	21	nummod:gov	_	_
+20	двух	два	NUM	_	Case=Gen	21	nummod	_	_
+21	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+22	человек.	человеколо	ADP	_	_	25	case	_	SpaceAfter=No
+23	В	в1	ADP	_	_	25	case	_	_
+24	2016	2016	NUM	_	_	25	nummod	_	_
+25	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	конкурс	конкурс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+28	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Просветитель	просветитель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	поступило	поступать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+33	более	более	ADV	_	Degree=Cmp	35	nummod:gov	_	_
+34	160	160	NUM	_	_	35	nummod	_	_
+35	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	25	25	NUM	_	_	40	nummod	_	_
+38	из	из	ADP	_	_	39	case	_	_
+39	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	37	nmod	_	_
+40	вошли	входить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	лонг-	лонг-	PUNCT	_	_	40	punct	_	SpaceAfter=No
+43	лист	лист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 79871
+# text = Премия "Просветитель" была учреждена в 2008 году основателем и почетным президентом компании "Вымпелком" Дмитрием Зиминым и основанным им Фондом некоммерческих программ "Династия".
+1	Премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Просветитель	просветитель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	учреждена	учреждать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	2008	2008	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	основателем	основатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	почетным	почетный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	президентом	президент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+14	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Вымпелком	Вымпелк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	Дмитрием	дмитрий	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	appos	_	_
+19	Зиминым	Зимин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	flat:name	_	_
+20	и	и	CCONJ	_	_	23	cc	_	_
+21	основанным	основать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+22	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	21	obl:agent	_	_
+23	Фондом	фонд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+24	некоммерческих	некоммерческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Династия	династия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 79872
+# text = С 2016 года финансовую поддержку премии оказывает Zimin Foundation.Дмитрий Иванов
+1	С	с	ADP	_	_	3	case	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	финансовую	финансовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	оказывает	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	Zimin	zimin	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	Foundation.	foundation.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+10	Дмитрий	Дмитрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+

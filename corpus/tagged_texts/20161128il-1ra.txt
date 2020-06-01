@@ -1,0 +1,459 @@
+# sent_id = 81857
+# text = Британские, испанские иамериканские ученые обнаружили, что назначение антагониста рецепторов квоспалительному цитокину интерлейкину-1 после ишемического инсульта способствует частичному восстановлению мозговой ткани укрыс.
+1	Британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesBefore=\n|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	испанские	испанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	иамериканские	иамериканский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	SpacesAfter=\n
+9	назначение	назначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+10	антагониста	антагонист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	рецепторов	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	квоспалительному	квоспалительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+13	цитокину	цитокин	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	интерлейкину	интерлейкина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	1	1	NUM	_	_	14	nummod	_	SpacesAfter=\n
+17	после	после	ADP	_	_	19	case	_	_
+18	ишемического	ишемический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	инсульта	инсульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+20	способствует	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+21	частичному	частичный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	восстановлению	восстановление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
+23	мозговой	мозговой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	SpacesAfter=\n
+24	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	укрыс	укрысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 81858
+# text = Результаты работы опубликованы вжурнале Brain, Behavior and Immunity.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Brain	Brain	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Behavior	Behavior	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	and	and	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Immunity	Immunity	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 81859
+# text = Ишемический инсульт (тромбоз какой-либо артерии мозга с гибелью участка его ткани из-за недостатка кровоснабжения)-- вторая почастоте после инфаркта миокарда причина смерти иинвалидности населения Земли.
+1	Ишемический	ишемический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	инсульт	инсульт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	тромбоз	тромбоз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	_
+5	какой-либо	какой-либо	DET	_	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	артерии	артерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	SpacesAfter=\n
+9	гибелью	гибель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+10	участка	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	недостатка	недостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+15	кровоснабжения	кровоснабжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	--	--	PUNCT	_	_	15	punct	_	_
+18	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+19	почастоте	почастоте	ADV	_	Degree=Pos	18	advmod	_	SpacesAfter=\n
+20	после	после	ADP	_	_	21	case	_	_
+21	инфаркта	инфаркт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+22	миокарда	миокард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+24	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	иинвалидности	иинвалидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 81860
+# text = Лечение востром периоде проводится либо растворением тромба (фибринолизом), либо внутрисосудистым его удалением, однако эти методы подходят лишь небольшому числу пациентов.
+1	Лечение	лечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	SpacesAfter=\n
+2	востром	востр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+3	периоде	периоде	ADP	_	_	4	case	_	_
+4	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	либо	либо	CCONJ	_	_	6	cc	_	_
+6	растворением	растворение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	тромба	тромб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	фибринолизом	фибринолиз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	либо	либо	CCONJ	_	_	15	cc	_	SpacesAfter=\n
+13	внутрисосудистым	внутрисосудистой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	удалением	удаление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	однако	однако	ADV	_	Degree=Pos	20	advmod	_	_
+18	эти	этот	DET	_	Case=Nom|Number=Plur	19	amod	_	_
+19	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	подходят	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+21	лишь	лишь	PART	_	_	22	advmod	_	_
+22	небольшому	небольшой	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	SpacesAfter=\n
+23	числу	число	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
+24	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 81861
+# text = При этом ишемическое повреждение стимулирует образование клеток-предшественниц нейронов (нейрогенез) втак называемых нейрогенных областях (субвентрикулярной исубгранулярной зонах мозга) споследующей их миграцией впораженную область идифференцировкой вновые нейроны.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	ишемическое	ишемический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	стимулирует	стимулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpacesAfter=\n
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	-предшественниц	-предшественница	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	нейрогенез	нейрогенез	ADV	_	Degree=Pos	0	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	втак	втак	ADV	_	Degree=Pos	14	advmod	_	_
+14	называемых	называть	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	нейрогенных	нейрогенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	областях	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	субвентрикулярной	субвентрикулярный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	исубгранулярной	исубгранулярный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	зонах	зон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	parataxis	_	_
+21	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	споследующей	споследуть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+24	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	nmod	_	SpacesAfter=\n
+25	миграцией	миграция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+26	впораженную	впоражеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+27	область	область	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+28	идифференцировкой	идифференцировка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+29	вновые	вновый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 81862
+# text = Этот процесс взначительной степени подавляется воспалением, которое неизбежно сопутствует повреждению тканей.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	SpacesAfter=\n
+3	взначительной	взначительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	степени	степень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	подавляется	подавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	воспалением	воспаление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	неизбежно	неизбежно	ADV	_	Degree=Pos	10	advmod	_	_
+10	сопутствует	сопутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	SpacesAfter=\n
+11	повреждению	повреждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+12	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 81863
+# text = Основным медиатором постинсультного воспаления служит интерлейкин-1 (IL-1).
+1	Основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	медиатором	медиатор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	постинсультного	постинсультный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	служит	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	интерлейкин-1	интерлейкин-1	NOUN	_	_	5	parataxis	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	IL	Il	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	1	1	NUM	_	_	8	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 81864
+# text = Его эффекты ворганизме уменьшает антагонист рецептора IL-1 (IL-1RA).
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ворганизме	ворганизма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+4	уменьшает	уменьшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	антагонист	антагонист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	рецептора	рецептор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	IL	Il	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	-1	-1	NUM	_	_	7	nummod	_	SpacesAfter=\n
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	IL	Il	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	1RA	1ra	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 81865
+# text = Как показал ряд исследований наживотных инебольшие пилотные испытания налюдях, назначение рекомбинантного человеческого IL-1RA (анакинры, применяется для лечения ревматоидного артрита) уменьшает область повреждения мозга при ишемическом инсульте исопутствующие ему симптомы, атакже способствует восстановлению утраченных двигательных функций.
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+3	ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	наживотных	наживотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	инебольшие	инебольший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+7	пилотные	пилотной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+9	налюдях	налюде	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	назначение	назначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+12	рекомбинантного	рекомбинантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	человеческого	человеческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	IL	Il	PROPN	_	Foreign=Yes	11	appos	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	1RA	1ra	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	анакинры	анакинр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+20	применяется	применяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+23	ревматоидного	ревматоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	артрита	артрит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	уменьшает	уменьшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+27	область	область	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpacesAfter=\n
+30	при	при	ADP	_	_	32	case	_	_
+31	ишемическом	ишемический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	инсульте	инсульт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+33	исопутствующие	исопутствуть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	35	amod	_	_
+34	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	33	obl	_	_
+35	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	атакже	атакже	CCONJ	_	_	38	cc	_	_
+38	способствует	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	SpacesAfter=\n
+39	восстановлению	восстановление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	38	obl	_	_
+40	утраченных	утрачивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	42	amod	_	_
+41	двигательных	двигательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 81866
+# text = Сотрудники Манчестерского университета, Мадридского университета Комплутенсе иЙельской медицинской школы показали, что этим действие IL-1RA при инсульте неограничивается.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	Манчестерского	Манчестерский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Мадридского	Мадридский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n
+7	Комплутенсе	Комплутенсе	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+8	иЙельской	иЙельский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	медицинской	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	15	amod	_	_
+15	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+16	IL	Il	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	1RA	1ra	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	при	при	ADP	_	_	20	case	_	SpacesAfter=\n
+20	инсульте	инсульт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+21	неограничивается	неограничиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 81867
+# text = Для этого они вводили анакинру или плацебо молодым крысам, пожилым крысам снормальным весом ипожилым крысам сожирением, атеросклерозом иинсулинорезистентностью (снижением чувствительности тканей к инсулину).
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	вводили	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	анакинру	анакинра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	плацебо	плацебо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+8	молодым	молодой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	крысам	крыса	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пожилым	пожилой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	крысам	крыс	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	_
+13	снормальным	снормальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	весом	вес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+15	ипожилым	ипожилый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	крысам	крыса	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
+17	сожирением	сожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	атеросклерозом	атеросклероз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	conj	_	_
+20	иинсулинорезистентностью	иинсулинорезистентность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	parataxis	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	снижением	снижение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	parataxis	_	_
+23	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+25	к	к	ADP	_	_	26	case	_	SpacesAfter=\n
+26	инсулину	инсулин	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 81868
+# text = Подкожные инъекции проводили через три ишесть часов после ишемического инсульта, вызванного искусственно временным пережатием левой средней мозговой артерии.
+1	Подкожные	Подкожный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	через	через	ADP	_	_	6	case	_	_
+5	три	три	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	ишесть	ишесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	после	после	ADP	_	_	10	case	_	SpacesAfter=\n
+9	ишемического	ишемический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	инсульта	инсульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	вызванного	вызывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	искусственно	искусственне	ADV	_	Degree=Pos	12	advmod	_	_
+14	временным	временный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	пережатием	пережатие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+16	левой	левой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+17	средней	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpacesAfter=\n
+18	мозговой	мозговой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	артерии	артерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 81869
+# text = Эффекты терапии регистрировали через сутки инеделю после ее проведения, аумолодых животных-- дополнительно на14и28день.
+1	Эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	регистрировали	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	через	через	ADP	_	_	5	case	_	_
+5	сутки	сутки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+6	инеделю	инеделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	после	после	ADP	_	_	9	case	_	_
+8	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	SpacesAfter=\n
+9	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	аумолодых	аумолодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	дополнительно	дополнительно	ADV	_	Degree=Pos	16	advmod	_	_
+16	на14и28день	на14и28день	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 81870
+# text = Выяснилось, что введение IL-1RA снизило объем поврежденной области через сутки инеделю после инсульта на37, 42, 40процентов и24, 46, 37процента посравнению сплацебо соответственно упожилых здоровых, пожилых больных имолодых крыс.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	IL	Il	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	1RA	1ra	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	снизило	снизивать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	объем	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	поврежденной	повреждать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	SpacesAfter=\n
+11	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	через	через	ADP	_	_	13	case	_	_
+13	сутки	сутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+14	инеделю	инеделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+15	после	после	ADP	_	_	16	case	_	_
+16	инсульта	инсульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+17	на37	на37	NUM	_	_	8	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	42	42	NUM	_	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	40процентов	40процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+22	и24	и24	NUM	_	_	21	nummod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	46	46	NUM	_	_	22	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+26	37процента	37процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+27	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	_
+28	сплацебо	сплацебо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	соответственно	соответственно	ADV	_	Degree=Pos	30	advmod	_	_
+30	упожилых	упожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	здоровых	здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	пожилых	пожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	SpacesAfter=\n
+34	больных	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+35	имолодых	имолодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	крыс	крыса	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 81871
+# text = Упоследних также наблюдалось 56-процентное снижение потери объема коры на28день.
+1	Упоследних	оУпоследни	PRON	_	Case=Loc|Number=Plur|Person=3	3	obl	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	56-процентное	56-процентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	SpacesAfter=\n
+6	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	объема	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	коры	кора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	на28день	на28день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 81872
+# text = Кроме того, через неделю после инсульта в перечисленных экспериментальных группах животных уменьшилось повреждение гематоэнцефалического барьера соответственно на40, 48и46процентов.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	через	через	ADP	_	_	5	case	_	_
+5	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+6	после	после	ADP	_	_	7	case	_	_
+7	инсульта	инсульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	11	case	_	SpacesAfter=\n
+9	перечисленных	перечисленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+10	экспериментальных	экспериментальной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	группах	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	уменьшилось	уменьшиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+15	гематоэнцефалического	гематоэнцефалический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	барьера	барьер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	соответственно	соответственно	ADV	_	Degree=Pos	18	advmod	_	_
+18	на40	на40	NUM	_	_	20	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	48и46процентов	48и46процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 81873
+# text = Этому сопутствовало улучшение поведенческих имоторных функций увсех животных, получивших анакинру.
+1	Этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+2	сопутствовало	сопутствовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	улучшение	улучшение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpacesAfter=\n
+4	поведенческих	поведенческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	имоторных	имоторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+7	увсех	увсе	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	8	nmod	_	_
+8	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	получивших	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+11	анакинру	анакинра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 81874
+# text = Помимо перечисленных эффектов, подтверждающих результаты предыдущих работ, вовсех группах животных введение препарата внесколько раз увеличивало нейрогенез всубвентрикулярной зоне, миграцию нейробластов кместу повреждения идифференцировку ихвнейроны-- процессы, обеспечивающие восстановление ткани мозга.
+1	Помимо	помимо	ADP	_	_	3	case	_	_
+2	перечисленных	перечислять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	эффектов	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	подтверждающих	подтверждать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpacesAfter=\n
+7	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вовсех	веовсь	DET	_	Case=Loc|Number=Plur	11	amod	_	_
+11	группах	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	_
+12	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+14	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	внесколько	внесколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpacesAfter=\n
+17	увеличивало	увеличивать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	нейрогенез	нейрогенез	ADP	_	_	20	case	_	_
+19	всубвентрикулярной	всубвентрикулярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	миграцию	миграция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+23	нейробластов	нейробласт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	кместу	кмест	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpacesAfter=\n
+25	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	идифференцировку	идифференцировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	orphan	_	_
+27	ихвнейроны	ихвнейрона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	27	punct	_	_
+30	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	обеспечивающие	обеспечивать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	восстановление	восстановление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	SpacesAfter=\n
+34	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+

@@ -1,0 +1,350 @@
+# sent_id = 83275
+# text = Японская компания Toyota объявила о новой программе поощрения покупателей гибридных автомобилей Prius, благодаря которой владельцы таких машин смогут снизить свои расходы на оплату электроэнергии.
+1	Японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Toyota	Toyota	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	7	case	_	_
+6	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	программе	программа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+8	поощрения	поощрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	покупателей	покупатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	Prius	Prius	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	благодаря	благодаря	ADP	_	_	15	case	_	_
+15	которой	который	PRON	_	Case=Loc	19	obl	_	_
+16	владельцы	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+17	таких	такой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+20	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	свои	свой	DET	_	Case=Acc|Number=Plur	22	amod	_	_
+22	расходы	расход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	оплату	оплата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+25	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 83276
+# text = Как пишет Engadget, в программе принимают участие пять энергетических компаний Японии.Сегодня автопроизводители и власти некоторых стран предоставляют некоторые привилегии владельцам электромобилей и гибридных автомобилей.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+3	Engadget	Engadget	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	программе	программа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+7	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+9	пять	пять	NUM	_	Case=Acc	11	nummod:gov	_	_
+10	энергетических	энергетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
+12	Японии.	японии.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Сегодня	Сегодня	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+14	автопроизводители	автопроизводитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	appos	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	_	_
+17	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	предоставляют	предоставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+20	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	21	amod	_	_
+21	привилегии	привилегия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+22	владельцам	владелец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	19	obl	_	_
+23	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83277
+# text = В частности, покупатели электромобилей Tesla в США могут некоторое время бесплатно пользоваться зарядными станциями, а в Германии при приобретении электрического или гибридного автомобиля граждане получают скидку в размере четырех тысяч евро.Новая программа Toyota предполагает начисление баллов, которые рассчитываются в зависимости от расстояния, которое машина проехала только с использованием аккумуляторов, и как часто владелец подзаряжает батареи автомобиля дома.
+1	В	в	ADP	_	_	9	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	покупатели	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	Tesla	Tesla	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	4	nmod	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	бесплатно	бесплатно	ADV	_	Degree=Pos	13	advmod	_	_
+13	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+14	зарядными	зарядный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	станциями	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	27	cc	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Германии	германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+20	при	при	ADP	_	_	21	case	_	_
+21	приобретении	приобретение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	obl	_	_
+22	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	conj	_	_
+25	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+26	граждане	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+27	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+28	скидку	скидка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	размере	размер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+31	четырех	четыре	NUM	_	Case=Gen	32	nummod	_	_
+32	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	евро.	евротец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+36	Toyota	Toyota	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+38	начисление	начисление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	_
+39	баллов	балел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	которые	который	PRON	_	Case=Nom	42	nsubj	_	_
+42	рассчитываются	рассчитываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	39	acl:relcl	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	obl	_	_
+45	от	от	ADP	_	_	46	case	_	_
+46	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	которое	который	PRON	_	Case=Acc	50	obj	_	_
+49	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_
+50	проехала	ехать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	46	acl:relcl	_	_
+51	только	только	PART	_	_	53	advmod	_	_
+52	с	с	ADP	_	_	53	case	_	_
+53	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	50	obl	_	_
+54	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	53	nmod	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	54	punct	_	_
+56	и	и	CCONJ	_	_	60	cc	_	_
+57	как	как	SCONJ	_	_	60	mark	_	_
+58	часто	часто	ADV	_	Degree=Pos	60	advmod	_	_
+59	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	60	nsubj	_	_
+60	подзаряжает	подзаряжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	conj	_	_
+61	батареи	батарея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	60	obj	_	_
+62	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	_
+63	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	62	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	63	punct	_	SpaceAfter=No
+
+# sent_id = 83278
+# text = Эти данные автоматически передаются автомобилем автопроизводителю.Возможность копить баллы сохраняется все время владения гибридным автомобилем.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	4	nsubj:pass	_	_
+3	автоматически	автоматически	ADV	_	Degree=Pos	4	advmod	_	_
+4	передаются	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	автопроизводителю	автопроизводитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+9	копить	копить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	баллы	балл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	сохраняется	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+12	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+14	владения	владение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+15	гибридным	гибридный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 83279
+# text = Акция распространяется только на гибридные автомобили Prius 2017 модельного года.
+1	Акция	акция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	распространяется	распространять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	только	только	PART	_	_	6	advmod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+7	Prius	Prius	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	2017	2017	NUM	_	_	10	nummod	_	_
+9	модельного	модельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 83280
+# text = Продажи этой машины начались в ноябре текущего года.
+1	Продажи	Продаж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 83281
+# text = Prius 2017 года, в отличие от предыдущих версий этого гибридного автомобиля, передвигается исключительно на электротяге.При разряде батарей новой машины включается небольшой бензиновый двигатель с электрогенератором, который начинает подзаряжать аккумуляторы и питать электромоторы.
+1	Prius	Prius	PROPN	_	Foreign=Yes	14	nsubj	_	_
+2	2017	2017	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	9	case	_	_
+6	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	от	от	ADP	_	_	6	fixed	_	_
+8	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	conj	_	_
+10	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+11	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	передвигается	передвигаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	исключительно	исключительно	ADV	_	Degree=Pos	17	advmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	электротяге.	электротяге.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	При	при	ADP	_	_	19	case	_	_
+19	разряде	разряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+20	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	включается	включаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+24	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	бензиновый	бензиновый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	электрогенератором	электрогенератор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	который	который	PRON	_	Case=Nom	31	nsubj	_	_
+31	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+32	подзаряжать	подзаряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	питать	питать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	conj	_	_
+36	электромоторы	электромотор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 83282
+# text = В предыдущих версиях Prius при разряде аккумулятора автомобиль переключался на привод от бензинового двигателя.
+1	В	в	ADP	_	_	3	case	_	_
+2	предыдущих	предыдущий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	версиях	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+4	Prius	Prius	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	разряде	разряда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+7	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	переключался	переключаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	привод	привод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	от	от	ADP	_	_	14	case	_	_
+13	бензинового	бензиновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 83283
+# text = Кроме того, двигатель внутреннего сгорания задействовался и при необходимости интенсивного разгона.Гибридный автомобиль Prius на одном заряде аккумуляторов может проехать 40 километров.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	задействовался	задействовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+11	интенсивного	интенсивной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	разгона.	разгона.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+13	Гибридный	Гибридный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+15	Prius	Prius	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	одном	один	NUM	_	Case=Loc|Gender=Masc	18	nummod	_	_
+18	заряде	заряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+19	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	проехать	проезжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	40	40	NUM	_	_	23	nummod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 83284
+# text = В гибридном режиме, когда в движении включен двигатель внутреннего сгорания для подзаряда батарей, расход топлива составляет 4,4 литра на 100 километров в смешанном режиме (движение по трассе и городу).Ранее Toyota запустила акцию, нацеленную на снижение частоты использования водителями сотовых телефонов за рулем.
+1	В	в	ADP	_	_	3	case	_	_
+2	гибридном	гибридный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	когда	когда	SCONJ	_	_	3	mark	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	движении	движение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+8	включен	включать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	advcl	_	_
+9	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+10	внутреннего	внутренний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	сгорания	сгорание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	подзаряда	подзаряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+14	батарей	батарь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	расход	расход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	4,4	4,4	NUM	_	_	20	nummod	_	_
+20	литра	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	100	100	NUM	_	_	23	nummod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	смешанном	смешанный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+29	по	по	ADP	_	_	30	case	_	_
+30	трассе	трасса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	городу	город	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+35	Ранее	рано	ADV	_	Degree=Cmp	37	advmod	_	_
+36	Toyota	Toyota	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	запустила	запускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	_
+38	акцию	акция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	нацеленную	нацеливать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	снижение	снижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obl	_	_
+43	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+44	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	_
+45	водителями	водитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	37	obl	_	_
+46	сотовых	сотовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	47	amod	_	_
+47	телефонов	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	_
+48	за	за	ADP	_	_	49	case	_	_
+49	рулем	руль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 83285
+# text = Специальное приложение, установленное на смартфон, отслеживает какой путь проехал водитель, не притронувшись к телефону.
+1	Специальное	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	приложение	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	установленное	установливать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	отслеживает	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	какой	какой	DET	_	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	проехал	ехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	притронувшись	притронуться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	8	advcl	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	телефону	телефон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 83286
+# text = После того, как водитель проедет определенное расстояние он получит купон на бесплатный кофе.Василий Сычёв
+1	После	после	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	проедет	проедать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	определенное	определенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	купон	купон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	бесплатный	бесплатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	кофе.	кофбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	SpaceAfter=No
+15	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+

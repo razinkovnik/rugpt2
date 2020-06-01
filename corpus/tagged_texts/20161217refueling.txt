@@ -1,0 +1,407 @@
+# sent_id = 85227
+# text = Американская компания Northrop Grumman провела испытания системы дозаправки для палубного самолета дальнего радиолокационного обнаружения E-2D Advanced Hawkeye.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Northrop	Northrop	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Grumman	Grumman	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	дозаправки	дозаправка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	8	case	_	_
+10	палубного	палубный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	дальнего	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	радиолокационного	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+15	E-	E-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	2D	2d	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	Advanced	Advanced	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Hawkeye	Hawkeye	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85228
+# text = Как сообщает Flightglobal, первые испытания системы признали успешными.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Flightglobal	Flightglobal	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	признали	признавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	успешными	успешный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 85229
+# text = Они будут проводиться еще чуть больше года, а в 2018 году планируется начать модернизацию всех E-2D, стоящих на вооружении ВМС США.Продолжительность полета E-2D при взлете с палубы авианосца составляет около пяти часов.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	6	advmod	_	_
+5	чуть	чуть	ADV	_	Degree=Pos	6	advmod	_	_
+6	больше	много	NUM	_	_	7	nummod:gov	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	12	orphan	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	2018	2018	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+13	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+14	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	модернизацию	модернизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	всех	весь	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+17	E-	e-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
+18	2D	2d	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	стоящих	стоять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+27	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	E-	E-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	2D	2d	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+30	при	при	ADP	_	_	31	case	_	_
+31	взлете	взлет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	палубы	палуба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	авианосца	авианосец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+36	около	около	ADP	_	_	38	case	_	_
+37	пяти	пять	NUM	_	Case=Gen	38	nummod	_	_
+38	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 85230
+# text = Прежде американские военные считали этот показатель достаточным.
+1	Прежде	прежде	ADV	_	Degree=Pos	3	advmod	_	_
+2	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	считали	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	показатель	показатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	достаточным	достаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 85231
+# text = В 2014 году Пентагон объявила, что в мире становится все больше зон, в которых американские войска либо не имеют возможности для маневра, либо не могут действовать вовсе.В этих условиях необходимы самолеты, способные на большую, чем сейчас продолжительность полета.
+1	В	в	ADP	_	_	3	case	_	_
+2	2014	2014	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	Пентагон	Пентагон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+11	все	все	PART	_	_	12	advmod	_	_
+12	больше	много	NUM	_	_	13	nummod:gov	_	_
+13	зон	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Loc	21	obl	_	_
+17	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	войска	войска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	21	nsubj	_	_
+19	либо	либо	CCONJ	_	_	21	cc	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+22	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	маневра	маневр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	либо	либо	CCONJ	_	_	28	cc	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	вовсе.	вовсбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+31	В	в	ADP	_	_	33	case	_	_
+32	этих	этот	DET	_	Case=Loc|Number=Plur	33	amod	_	_
+33	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	30	obl	_	_
+34	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	30	conj	_	_
+35	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	35	amod	_	_
+38	на	на	ADP	_	_	39	case	_	_
+39	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	чем	чем	SCONJ	_	_	43	cc	_	_
+42	сейчас	сейчас	ADV	_	Degree=Pos	43	advmod	_	_
+43	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	advmod	_	_
+44	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 85232
+# text = Одним из способов решения проблемы могло бы стать увеличение объема топливных баков, но в этом случае пришлось бы перепроектировать часть конструкции самолета.
+1	Одним	один	NUM	_	Case=Ins|Gender=Masc	6	nummod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	бы	бы	PART	_	Mood=Cnd	6	aux	_	_
+8	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+9	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+10	объема	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	топливных	топливный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	баков	бак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	но	но	CCONJ	_	_	18	cc	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	17	amod	_	_
+17	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+18	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+19	бы	бы	PART	_	Mood=Cnd	18	aux	_	_
+20	перепроектировать	перепроектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+21	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 85233
+# text = Кроме того, этот способ привел бы к увеличению взлетной массы самолета, а значит к невозможности использовать его с авианосцев.Разработка системы дозаправки в воздухе для E-2D ведется с 2014 года в рамках контракта ВМС США стоимостью 226 миллионов долларов.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	привел	приводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	бы	бы	PART	_	Mood=Cnd	6	aux	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	увеличению	увеличение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+10	взлетной	взлетной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	значит	значит	ADV	_	Degree=Pos	18	advmod	_	_
+16	к	к	ADP	_	_	17	case	_	_
+17	невозможности	невозможность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+18	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	conj	_	_
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	авианосцев.	авианосцевек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj:pass	_	_
+23	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	дозаправки	дозаправка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+27	для	для	ADP	_	_	29	case	_	_
+28	E-	e-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+29	2D	2d	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+30	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+31	с	с	ADP	_	_	33	case	_	_
+32	2014	2014	NUM	_	_	33	nummod	_	_
+33	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	obl	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	30	obl	_	_
+36	контракта	контракт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	_
+38	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	37	nmod	_	_
+39	стоимостью	стоимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+40	226	226	NUM	_	_	41	nummod	_	_
+41	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	_
+42	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 85234
+# text = В состав системы входит оборудование контроля подачи топлива, топливопровод и топливоприемник.
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	входит	входеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	подачи	подача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	топливопровод	топливопровод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	топливоприемник	топливоприемник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85235
+# text = Последний выполнен в виде выдающейся вперед штанги.
+1	Последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	7	case	_	_
+4	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	fixed	_	_
+5	выдающейся	выдаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+6	вперед	вперед	ADV	_	Degree=Pos	5	advmod	_	_
+7	штанги	штанг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 85236
+# text = Она установлена над кабиной пилотов для лучшего обзора во время воздушной дозаправки.Система воздушной дозаправки позволяет сделать продолжительность полета самолета очень большой; она будет ограничиваться только ресурсом двигателей.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	над	над	ADP	_	_	4	case	_	_
+4	кабиной	кабина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	для	для	ADP	_	_	8	case	_	_
+7	лучшего	лучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+9	во	во	ADP	_	_	12	case	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	воздушной	воздушный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	дозаправки.	дозаправки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+13	Система	Систем	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	воздушной	воздушной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	дозаправки	дозаправка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	очень	очень	ADV	_	Degree=Pos	22	advmod	_	_
+22	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+23	;	;	PUNCT	_	_	22	punct	_	_
+24	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	26	nsubj	_	_
+25	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	_
+26	ограничиваться	ограничиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	_
+27	только	только	PART	_	_	28	advmod	_	_
+28	ресурсом	ресурс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_
+29	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 85237
+# text = Для сравнения, E-2D, используемые с наземных баз с длинными взлетно-посадочными полосами, могут принять на борт больше топлива, чем палубные самолеты, и способны находиться в воздухе до восьми часов.Самолет дальнего радиолокационного обнаружения E-2D имеет в длину 17,6 метра и размах крыла 24,6 метра.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	E-	E-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	2D	2d	X	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	используемые	использовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	наземных	наземный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	баз	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+11	с	с	ADP	_	_	14	case	_	_
+12	длинными	длинный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+13	взлетно-посадочными	взлетно-посадочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	полосами	полоси	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	борт	борт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+20	больше	много	NUM	_	_	21	nummod:gov	_	_
+21	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чем	чем	SCONJ	_	_	25	cc	_	_
+24	палубные	палубный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+29	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	28	dep	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+32	до	до	ADP	_	_	34	case	_	_
+33	восьми	восемь	NUM	_	Case=Gen	34	nummod	_	_
+34	часов.Самолет	часов.Самогод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
+35	дальнего	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+36	радиолокационного	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+38	E-	E-	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	2D	2d	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+40	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	длину	длина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obl	_	_
+43	17,6	17,6	NUM	_	_	44	nummod	_	_
+44	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	obl	_	_
+45	и	и	CCONJ	_	_	46	cc	_	_
+46	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	40	conj	_	_
+47	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+48	24,6	24,6	NUM	_	_	49	nummod	_	_
+49	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 85238
+# text = Максимальная взлетная масса машины составляет 26 тонн.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	26	26	NUM	_	_	7	nummod	_	_
+7	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 85239
+# text = Самолет может развивать скорость до 648 километров в час.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	648	648	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 85240
+# text = Дальность полета Advanced Hawkeye составляет около 2,7 тысячи километров.Самолет оборудован радиолокационной станцией AN/APY-9, работающей в UHF-диапазоне (0,3-1 гигагерц).
+1	Дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Advanced	Advanced	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Hawkeye	Hawkeye	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	2,7	2,7	NUM	_	_	8	nummod	_	_
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	километров.	километровадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+10	Самолет	Самогод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	оборудован	оборудовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+12	радиолокационной	радиолокационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	станцией	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	_
+14	AN/APY	An/apy	PROPN	_	Foreign=Yes	13	appos	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	9	9	NUM	_	_	14	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	работающей	работать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	UHF-диапазоне	UHF-диапазон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	0,3	0,3	NUM	_	_	25	nummod	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	1	1	NUM	_	_	22	nummod	_	_
+25	гигагерц	гигагерц	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 85241
+# text = Эта вращающаяся станция обеспечивает круговой обзор и имеет режим синтезированной апертуры, то есть составления радиолокационного изображения с существенно большим разрешением, чем разрешение самого радара.Василий Сычёв
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+2	вращающаяся	вращаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	3	amod	_	_
+3	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	круговой	круговой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	синтезированной	синтезированный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	апертуры	апертура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	mark	_	_
+14	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	fixed	_	_
+15	составления	составление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	parataxis	_	_
+16	радиолокационного	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	с	с	ADP	_	_	21	case	_	_
+19	существенно	существенно	ADV	_	Degree=Pos	20	advmod	_	_
+20	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чем	чем	SCONJ	_	_	24	cc	_	_
+24	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	advmod	_	_
+25	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	радара.	радара.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+28	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
+

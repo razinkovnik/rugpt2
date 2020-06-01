@@ -1,0 +1,467 @@
+# sent_id = 85176
+# text = Американская компания Tesla Motors ввела финансовый сбор за простой электромобилей на станциях быстрой зарядки.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Tesla	Tesla	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Motors	motors	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	ввела	вводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	финансовый	финансовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	за	за	ADP	_	_	10	case	_	_
+9	простой	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	электромобилей	электромобилей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	станциях	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+13	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85177
+# text = Согласно сообщению компании, в США она составит 40 центов в минуту (около 25 рублей).
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	3	obl	_	_
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+8	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	40	40	NUM	_	_	10	nummod	_	_
+10	центов	цент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	около	около	ADP	_	_	16	case	_	_
+15	25	25	NUM	_	_	16	nummod	_	_
+16	рублей	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85178
+# text = В других странах, где установлены станции быстрой зарядки Tesla Supercharger, действуют иные тарифы.
+1	В	в	ADP	_	_	3	case	_	_
+2	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	где	где	ADV	_	Degree=Pos	6	advmod	_	_
+6	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+7	станции	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+8	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Tesla	Tesla	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Supercharger	Supercharger	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	действуют	действуять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	иные	иной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	тарифы	тариф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85179
+# text = В Tesla полагают, что такой шаг отучит водителей превращать "заправки" в бесплатную парковку.В последнее время владельцы электромобилей Tesla стали жаловаться на отсутствие свободных мест для зарядки автомобилей на станциях Supercharger.
+1	В	в	ADP	_	_	2	case	_	_
+2	Tesla	Tesla	PROPN	_	Foreign=Yes	3	nsubj	_	_
+3	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	шаг	шаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	отучит	отучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	водителей	водитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	превращать	превращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	заправки	заправка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	бесплатную	бесплатный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	парковку	парковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	20	case	_	_
+19	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_
+21	владельцы	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+22	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	Tesla	Tesla	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	жаловаться	жаловаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	24	xcomp	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	_
+28	свободных	свободный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	мест	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+32	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	станциях	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	31	nmod	_	_
+35	Supercharger	Supercharger	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 85180
+# text = На некоторых станциях электромобили Tesla стоят полностью заряженные часами, не давая возможности другим автомобилям подключиться к электросети.Таким образом некоторые недобросовестные водители стали превращать станции быстрой зарядки в бесплатную парковку -- прежде оплата за стоянку автомобилей на станции не взималась.
+1	На	на	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	станциях	станциь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+4	электромобили	электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	Tesla	Tesla	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	стоят	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	полностью	полностью	ADV	_	Degree=Pos	8	advmod	_	_
+8	заряженные	заряжять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+9	часами	часы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	давая	давать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+13	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+14	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	автомобилям	автомобиль	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+16	подключиться	подключаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	24	xcomp	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	электросети.	электросети.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	_
+20	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+21	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	23	amod	_	_
+22	недобросовестные	недобросовестный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	превращать	превращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+27	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	бесплатную	бесплатный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	парковку	парковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+32	--	--	PUNCT	_	_	31	punct	_	_
+33	прежде	прежде	ADP	_	_	39	case	_	_
+34	оплата	оплато	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+35	за	за	ADP	_	_	36	case	_	_
+36	стоянку	стоянка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	_
+37	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+38	на	на	ADP	_	_	39	case	_	_
+39	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	41	obl	_	_
+40	не	не	PART	_	_	41	advmod	_	_
+41	взималась	взимать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	24	conj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 85181
+# text = При этом зарядить свой автомобиль на станции Tesla Supercharger, позволяющей довести уровень заряда аккумулятора машины до 50 процентов за 20 минут, владелец может совершенно бесплатно.Согласно новым правилам, за некоторое время до окончания зарядки аккумулятора владелец автомобиля Tesla будет получать уведомление.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	зарядить	заряжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+4	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+8	Tesla	Tesla	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Supercharger	Supercharger	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	позволяющей	позволять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+12	довести	доводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	50	50	NUM	_	_	19	nummod	_	_
+19	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+20	за	за	ADP	_	_	19	case	_	_
+21	20	20	NUM	_	_	22	nummod	_	_
+22	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	parataxis	_	_
+26	совершенно	совершенно	ADV	_	Degree=Pos	27	advmod	_	_
+27	бесплатно	бесплатно	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Согласно	согласно	ADP	_	_	31	case	_	_
+30	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	31	amod	_	_
+31	правилам	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	за	за	ADP	_	_	35	case	_	_
+34	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing	35	amod	_	_
+35	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	nmod	_	_
+36	до	до	ADP	_	_	37	case	_	_
+37	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+38	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+39	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+41	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	Tesla	Tesla	PROPN	_	Foreign=Yes	41	flat:foreign	_	_
+43	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	aux	_	_
+44	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+45	уведомление	уведомление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	obj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 85182
+# text = После окончания зарядки будет приходить второе сообщение.
+1	После	после	ADP	_	_	2	case	_	_
+2	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	приходить	приходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	второе	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 85183
+# text = Получив его, владелец электромобиля будет должен в течение пяти минут отогнать машину со станции.
+1	Получив	получать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	электромобиля	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	пяти	пять	NUM	_	Case=Gen	11	nummod	_	_
+11	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+12	отогнать	отгонять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+13	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	со	со	ADP	_	_	15	case	_	_
+15	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85184
+# text = По истечении этого времени будет взиматься плата за простой.Следует отметить, что в Tesla Motors изначально предполагали о возможности злоупотребления на зарядных станциях Supercharger, однако решили не предпринимать каких-либо шагов по предотвращению бесполезного простоя автомобилей.
+1	По	по	ADP	_	_	2	case	_	_
+2	истечении	истечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	4	amod	_	_
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	взиматься	взиматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+7	плата	плата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	простой	простой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Tesla	Tesla	PROPN	_	Foreign=Yes	19	obl	_	_
+17	Motors	motors	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	изначально	изначально	ADV	_	Degree=Pos	19	advmod	_	_
+19	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+20	о	о	ADP	_	_	21	case	_	_
+21	возможности	возможность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+22	злоупотребления	злоупотребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	зарядных	зарядный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	станциях	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	nmod	_	_
+26	Supercharger	Supercharger	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	однако	однако	ADV	_	Degree=Pos	29	advmod	_	_
+29	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	предпринимать	предпринимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+32	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	33	amod	_	_
+33	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	_
+34	по	по	ADP	_	_	35	case	_	_
+35	предотвращению	предотвращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	31	obl	_	_
+36	бесполезного	бесполезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	простоя	простой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 85185
+# text = В компании решили до времени положиться на порядочность водителей.В Tesla Motors также заявляли, что в будущем в их электромобилях появится серийная функция уезда с зарядной станции на заранее указанную водителем парковку.
+1	В	в	ADP	_	_	2	case	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	положиться	ложиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	порядочность	порядочность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	водителей	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	PROPN	_	Foreign=Yes	9	appos	_	_
+12	Tesla	Tesla	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Motors	motors	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	заявляли	заявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	15	mark	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+20	в	в1	ADP	_	_	22	case	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	электромобилях	электромобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	_
+23	появится	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	advcl	_	_
+24	серийная	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+26	уезда	уезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	с	с	ADP	_	_	26	case	_	_
+28	зарядной	зарядный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	на	на	ADP	_	_	34	case	_	_
+31	заранее	заранее	ADV	_	Degree=Pos	32	advmod	_	_
+32	указанную	указывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+33	водителем	водитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	32	obl:agent	_	_
+34	парковку	парковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 85186
+# text = Предполагалось, что, завершив зарядку, электромобиль сам будет отключаться от Tesla Supercharger и уезжать на парковку.
+1	Предполагалось	предполагаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	завершив	завершать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+6	зарядку	зарядка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	электромобиль	электромобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	отключаться	отключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	advcl	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	Tesla	Tesla	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	Supercharger	Supercharger	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	уезжать	уезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	парковку	парковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85187
+# text = Отменит ли компания Tesla плату за простой на зарядной станции после внедрения функции уезда, пока неизвестно.В настоящее время во всем мире работают 769 станций быстрой зарядки Tesla Supercharger с 4876 точками подключения электромобилей.
+1	Отменит	отмеинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ли	ли	PART	_	_	1	advmod	_	_
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	Tesla	Tesla	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	плату	плата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+6	за	за	ADP	_	_	12	case	_	_
+7	простой	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	зарядной	зарядный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	после	после	ADP	_	_	12	case	_	_
+12	внедрения	внедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+13	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	уезда	уезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	пока	пока	SCONJ	_	_	17	cc	_	_
+17	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	25	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	25	advmod	_	_
+20	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	fixed	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	во	в	ADP	_	_	24	case	_	_
+23	всем	весь	DET	_	Case=Loc|Gender=Masc|Number=Sing	24	amod	_	_
+24	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	_
+25	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+26	769	769	NUM	_	_	27	nummod	_	_
+27	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nsubj	_	_
+28	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	Tesla	Tesla	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Supercharger	Supercharger	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	4876	4876	NUM	_	_	34	nummod	_	_
+34	точками	точка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	obl	_	_
+35	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 85188
+# text = Аккумулятор машины емкостью 90 киловатт-часов такие станции позволяют зарядить до 80 процентов за 40 минут и до 100 процентов за 75 минут.
+1	Аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	емкостью	емкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	90	90	NUM	_	_	5	nummod	_	_
+5	киловатт-часов	киловатт-часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	такие	такой	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	станции	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	зарядить	заряжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	80	80	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+13	за	за	ADP	_	_	15	case	_	_
+14	40	40	NUM	_	_	15	nummod	_	_
+15	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	100	100	NUM	_	_	19	nummod	_	_
+19	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+20	за	за	ADP	_	_	22	case	_	_
+21	75	75	NUM	_	_	22	nummod	_	_
+22	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85189
+# text = Каждая точка подключения может обеспечивать пиковую зарядную мощность до 120 киловатт.Владельцы электромобилей Tesla, купленных до 1 января 2017 года будут пользоваться зарядными станциями Supercharger бесплатно на протяжении всего срока эксплуатации машин.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	обеспечивать	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	пиковую	пиковый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	зарядную	зарядный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9	до	до	ADP	_	_	10	case	_	_
+10	120	120	NUM	_	_	0	nummod	_	_
+11	киловатт.	киловатто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+12	Владельцы	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+13	электромобилей	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	Tesla	Tesla	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	купленных	покупать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+17	до	до	ADP	_	_	18	case	_	_
+18	1	1	NUM	_	_	16	nummod	_	_
+19	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	2017	2017	NUM	_	_	21	nummod	_	_
+21	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	dep	_	_
+24	зарядными	зарядный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+25	станциями	станциь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	23	obl	_	_
+26	Supercharger	Supercharger	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	бесплатно	бесплатно	ADV	_	Degree=Pos	29	advmod	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+30	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	31	amod	_	_
+31	срока	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	эксплуатации	эксплуатация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 85190
+# text = При покупке машины после 1 января владелец каждый год сможет заряжать машину в общей сложности на 400 киловатт-часов.
+1	При	при	ADP	_	_	2	case	_	_
+2	покупке	покупка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	1	1	NUM	_	_	2	nummod	_	_
+6	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	заряжать	заряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	18	advmod	_	_
+14	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	fixed	_	_
+15	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	fixed	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	400	400	NUM	_	_	18	nummod	_	_
+18	киловатт-часов	киловатт-часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85191
+# text = Сверх этой нормы придется платить, но один киловатт-час будет стоить дешевле литра бензина.Василий Сычёв
+1	Сверх	сверх	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	нормы	норма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	платить	платить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	но	но	CCONJ	_	_	11	cc	_	_
+8	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	киловатт-час	киловатт-час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	стоить	стоить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+12	дешевле	дешево	ADV	_	Degree=Cmp	14	nummod:gov	_	_
+13	литра	литер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	бензина.	бензина.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+16	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+

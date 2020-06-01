@@ -1,0 +1,359 @@
+# sent_id = 73145
+# text = На основании снимков, переданных "Розеттой" этой ночью, команда миссии назвала точное время столкновения аппарата с кометой -- это произойдет в 13:38 по московскому времени.
+1	На	на	ADP	_	_	2	case	_	SpacesBefore=\n
+2	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+3	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	переданных	передавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Розеттой	Розеттый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing	10	amod	_	_
+10	ночью	ночь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	назвала	называть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	точное	точной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+17	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+23	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	13	13	NUM	_	_	26	nummod	_	SpaceAfter=No
+26	:38	:38	NOUN	_	_	23	obl	_	_
+27	по	по	ADP	_	_	29	case	_	_
+28	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 73146
+# text = Также несколькими часами ранее инженеры отправили на аппарат ряд команд для управления камерой OSIRIS и ее ориентацией в пространстве.
+1	Также	также	CCONJ	_	_	6	cc	_	_
+2	несколькими	несколько	NUM	_	Case=Ins	3	nummod	_	_
+3	часами	часа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	_
+4	ранее	ранее	ADV	_	Degree=Pos	3	advmod	_	_
+5	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	отправили	отправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+9	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+10	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+14	OSIRIS	oSIRI	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
+17	ориентацией	ориентация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73147
+# text = В 11:00, согласно плану миссии, были отправлены последние команды для научных инструментов.
+1	В	в	ADP	_	_	2	case	_	_
+2	11:00	11:00	NUM	_	_	9	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	согласно	согласно	ADP	_	_	5	case	_	_
+5	плану	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
+6	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	отправлены	отправливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	команды	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 73148
+# text = Скорость передачи данных между "Розеттой" и Землей сейчас составляет около 50 килобит в секунду, а задержка прихода сигнала -- около 40 минут.Связь с аппаратом сейчас ведется через 70-метровый радиотелескоп дальней космической связи, расположенный в Испании.
+1	Скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+2	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	2	nmod	_	_
+4	между	между	ADP	_	_	9	case	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Розеттой	Розеттый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	Землей	земля	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+10	сейчас	сейчас	ADV	_	Degree=Pos	11	advmod	_	_
+11	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	около	около	ADP	_	_	14	case	_	_
+13	50	50	NUM	_	_	14	nummod	_	_
+14	килобит	килобита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	25	cc	_	_
+19	задержка	задержка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+20	прихода	приход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	около	около	ADP	_	_	25	case	_	_
+24	40	40	NUM	_	_	25	nummod	_	_
+25	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Связь	связь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	_
+30	сейчас	сейчас	ADV	_	Degree=Pos	31	advmod	_	_
+31	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+32	через	через	ADP	_	_	34	case	_	_
+33	70-метровый	70-метровый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	радиотелескоп	радиотелескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	_
+35	дальней	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+36	космической	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	расположенный	расположенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	Испании	испания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 73149
+# text = По словам руководителя миссии, "Розетта" функционирует нормально.Подготовка к управляемому столкновению аппарата с кометой началась еще в августе 2016 года.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	руководителя	руководитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Розетта	Розетта	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	функционирует	функционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	нормально.	нормально	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	Подготовка	Подготовка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	к	к	ADP	_	_	14	case	_	_
+13	управляемому	управлять	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	столкновению	столкновение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+15	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+18	началась	начинаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	conj	_	_
+19	еще	еще	ADV	_	Degree=Pos	21	advmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	августе	август	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+22	2016	2016	NUM	_	_	23	nummod	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 73150
+# text = Так, для экономии энергии была отключена антенна, отвечавшая за связь со спускаемым аппаратом "Филы", а сама "Розетта" совершила несколько оборотов вблизи кометы, прежде чем удалиться на последнюю 23-километровую орбиту.
+1	Так	так	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	экономии	экономия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+5	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	отключена	отключать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	антенна	антенна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	отвечавшая	отвечать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	со	с	ADP	_	_	15	case	_	_
+14	спускаемым	спускаемый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Филы	Фила	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	17	punct	_	_
+20	а	а	CCONJ	_	_	23	cc	_	_
+21	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Розетта	Розетт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	совершила	совершать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	27	nummod:gov	_	_
+27	оборотов	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+28	вблизи	вблизи	ADP	_	_	29	case	_	_
+29	кометы	комет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	прежде	прежде	ADV	_	Degree=Pos	25	advmod	_	_
+32	чем	чем	SCONJ	_	_	31	fixed	_	_
+33	удалиться	удаляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	25	xcomp	_	_
+34	на	на	ADP	_	_	37	case	_	_
+35	последнюю	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+36	23-километровую	23-километровый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 73151
+# text = Прошлой ночью ее двигатели включились на 208 секунд для того, чтобы перевести аппарат на траекторию столкновения с кометой.
+1	Прошлой	прошлый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	ночью	ночь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
+4	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	включились	включаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	208	208	NUM	_	_	8	nummod	_	_
+8	секунд	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+13	перевести	переводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+14	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+17	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73152
+# text = "Посадка" произойдет на скорости около двух километров в час.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Посадка	посадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+10	в	в	ADP	_	_	9	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 73153
+# text = В результате связь аппарата с Землей прервется и он перейдет в безопасный режим, который отключит все передатчики "Розетты".Интересно, что изначально такой режим не был предусмотрен в программном обеспечении аппарата -- 28 сентября инженеры передали "Розетте" соответствующий "патч".
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	Землей	земля	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+7	прервется	прервуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	и	и	PART	_	_	9	advmod	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	перейдет	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	безопасный	безопасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	отключит	отключять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	все	весь	DET	_	Case=Acc|Number=Plur	18	amod	_	_
+18	передатчики	передатчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Розетты	Розетт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	7	mark	_	_
+26	изначально	изначально	ADV	_	Degree=Pos	31	advmod	_	_
+27	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+28	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+29	не	не	PART	_	_	31	advmod	_	_
+30	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	предусмотрен	предусматривать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	obl	_	_
+35	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	--	--	PUNCT	_	_	35	punct	_	_
+37	28	28	NUM	_	_	0	nummod	_	_
+38	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+40	передали	передавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	"	"	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	Розетте	Розетте	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	44	punct	_	_
+44	соответствующий	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+45	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	патч	патч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 73154
+# text = Он использует специфическое состояние аппарата, в котором тот находился во время наземного тестирования.Решение о столкновении "Розетты" с кометой Чурюмова -- Герасименко было принято несколько месяцев назад.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	специфическое	специфический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	котором	который	PRON	_	Case=Loc	10	obl	_	_
+9	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+11	во	во	ADP	_	_	14	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	наземного	наземной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	тестирования	тестирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Решение	решение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+17	о	о	ADP	_	_	18	case	_	_
+18	столкновении	столкновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Розетты	Розетт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+24	Чурюмова	Чурюмов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	appos	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	Герасименко	Герасименко	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	flat:name	_	_
+27	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	принято	принимать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+29	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	30	nummod:gov	_	_
+30	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+31	назад	назад	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 73155
+# text = Аппарат получает очень малое количество солнечного света, необходимого для его солнечных батарей, -- расстояние от кометы до Солнца сейчас превышает 500 миллионов километров.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	_
+4	малое	малый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	солнечного	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	необходимого	необходимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+10	для	для	ADP	_	_	13	case	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+12	солнечных	солнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	--	--	PUNCT	_	_	13	punct	_	_
+16	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	до	до	ADP	_	_	20	case	_	_
+20	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	сейчас	сейчас	ADV	_	Degree=Pos	22	advmod	_	_
+22	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+23	500	500	NUM	_	_	24	nummod	_	_
+24	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nsubj	_	_
+25	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 73156
+# text = Управляемое столкновение позволит сделать ряд снимков рекордно высокого разрешения и получить новые данные о комете.
+1	Управляемое	Управляемой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	рекордно	рекордно	ADV	_	Degree=Pos	9	advmod	_	_
+8	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	_
+12	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	11	obj	_	_
+14	о	о	ADP	_	_	15	case	_	_
+15	комете	комет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

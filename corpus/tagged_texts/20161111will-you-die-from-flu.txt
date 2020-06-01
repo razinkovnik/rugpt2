@@ -1,0 +1,348 @@
+# sent_id = 79182
+# text = Американские ученые пришли квыводу, что вероятность заболеть втяжелой форме или умереть отвысокопатогенных штаммов птичьего гриппа зависит отразновидности вируса гриппа типаА, скоторым человек столкнулся впервые (что можно предсказать погоду его рождения).
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	квыводу	квывода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	3	mark	_	_
+7	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpacesAfter=\n
+8	заболеть	заболеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	втяжелой	втяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	умереть	умирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+13	отвысокопатогенных	отвысокопатогенный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	штаммов	штамм	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+15	птичьего	птичий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+18	отразновидности	отразновидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+19	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	типаА	типа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	скоторым	скоторый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	столкнулся	сталкиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpacesAfter=\n
+26	впервые	впервые	ADV	_	Degree=Pos	25	advmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	что	что	PRON	_	Case=Acc	29	obj	_	_
+29	можно	можно	ADV	_	Degree=Pos	26	parataxis	_	_
+30	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	nsubj	_	_
+31	погоду	погода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+32	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	33	nmod	_	_
+33	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 79183
+# text = Результаты работы опубликованы в журнале Science.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	SpacesAfter=\n
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Science	science	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 79184
+# text = Вирус гриппа типаА обладает наиболее высокой изменчивостью среди всех возбудителей гриппа, из-за чего выработать кнему постоянный иммунитет невозможно.
+1	Вирус	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	типаА	типа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	наиболее	наиболее	ADV	_	Degree=Pos	6	advmod	_	_
+6	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	изменчивостью	изменчивость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpacesAfter=\n
+8	среди	среди	ADP	_	_	10	case	_	_
+9	всех	весь	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	возбудителей	возбудитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	чего	что	PRON	_	Case=Gen	15	obl	_	_
+15	выработать	выработавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+16	кнему	окн	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	15	obl	_	_
+17	постоянный	постоянный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	SpacesAfter=\n
+18	иммунитет	иммунитет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+19	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79185
+# text = Эта изменчивость обусловлена частыми мутациями двух его поверхностных гликопротеинов: гемагглютинина (обозначаетсяH) инейраминидазы (обозначается N).
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	изменчивость	изменчивость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	обусловлена	обусловливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	частыми	частой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	мутациями	мутациь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+6	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+7	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	SpacesAfter=\n
+8	поверхностных	поверхностный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	гликопротеинов	гликопротеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	гемагглютинина	гемагглютинина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	обозначаетсяH	обозначаетсяh	PROPN	_	Foreign=Yes	11	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	инейраминидазы	инейраминидаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	обозначается	обозначаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	SpacesAfter=\n
+18	N)	N)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79186
+# text = Всоответствии с ними именуются иразновидности вируса (например, H1N1).
+1	Всоответствии	Всоответствии	ADV	_	Degree=Pos	4	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	SpacesAfter=\n
+3	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	4	obl	_	_
+4	именуются	именоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	иразновидности	иразновидность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	например	например	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	H1N1	H1N1	NOUN	_	_	5	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79187
+# text = При этом типы гемагглютинина посвоему аминокислотному составу разделяются надве крупных группы.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	типы	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+4	гемагглютинина	гемагглютинин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	посвоему	посвоему	ADV	_	Degree=Pos	6	advmod	_	_
+6	аминокислотному	аминокислотный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	составу	составо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+8	разделяются	разделявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	надве	надва	NUM	_	Case=Nom|Gender=Fem	11	nummod:gov	_	_
+10	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79188
+# text = Группа 1включает Н1, Н2, Н5, Н6, Н8, Н9, Н11-13 иН16-18, агруппа 2-- Н3, Н4, Н7, Н10, Н14 иН15.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	1включает	1включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Н1	Н1	NUM	_	_	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Н2	н2	PROPN	_	Foreign=Yes	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	Н5	Н5	NUM	_	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Н6	Н6	NUM	_	_	15	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	Н8	Н8	NUM	_	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Н9	Н9	NUM	_	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Н11	Н11	NUM	_	_	2	orphan	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	13	13	NUM	_	_	22	nummod	_	_
+18	иН16	иН16	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	18	18	NUM	_	_	18	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	агруппа	агруппа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	orphan	_	_
+23	2-	2-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	2	punct	_	_
+25	Н3	н3	PROPN	_	Foreign=Yes	2	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	Н4	Н4	NUM	_	_	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Н7	Н7	NUM	_	_	34	nummod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	Н10	Н10	NUM	_	_	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	Н14	Н14	NUM	_	_	34	nummod	_	_
+34	иН15	иН15	NOUN	_	_	2	nsubj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 79189
+# text = Из-за способности гриппа поражать нетолько людей, нои некоторых животных иптиц, разные его штаммы могут встречаться впораженном организме, что иногда приводит кобразованию новых высокопатогенных сочетаний гемагглютинина инейраминидазы.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	способности	способность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	поражать	поражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+5	нетолько	нетолько	ADV	_	Degree=Pos	4	advmod	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	нои	ной	DET	_	Case=Nom|Number=Plur	10	amod	_	SpacesAfter=\n
+9	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	4	conj	_	_
+11	иптиц	иптицо	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	штаммы	штамм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	встречаться	встречаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	впораженном	впораженный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	SpacesAfter=\n
+19	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+22	иногда	иногда	ADV	_	Degree=Pos	23	advmod	_	_
+23	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+24	кобразованию	кобразование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+25	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+26	высокопатогенных	высокопатогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	сочетаний	сочетание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpacesAfter=\n
+28	гемагглютинина	гемагглютинин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	инейраминидазы	инейраминидаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 79190
+# text = Примерами таких вирусов, часто вызывающих тяжелые исмертельные заболевания человека служат "классический" (H5N1) иболее новый (H7N9) варианты птичьего гриппа.
+1	Примерами	пример	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	вирусов	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	часто	часто	ADV	_	Degree=Pos	6	advmod	_	_
+6	вызывающих	вызывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+7	тяжелые	тяжелой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+8	исмертельные	исмертельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+10	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	служат	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	классический	классический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	H5N1	H5N1	NOUN	_	_	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	иболее	иболее	ADV	_	Degree=Pos	23	advmod	_	_
+19	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	H7N9	H7N9	NUM	_	_	19	nummod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	варианты	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpacesAfter=\n
+24	птичьего	птичий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79191
+# text = Вовремя вспышек этих инфекций наблюдалась необычная неравномерность распределения случаев заболевания повозрастам пациентов.
+1	Вовремя	вовремя	ADV	_	Degree=Pos	5	advmod	_	_
+2	вспышек	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	наблюдалась	наблюдать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	необычная	необычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	неравномерность	неравномерность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+8	распределения	распределение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	повозрастам	повозраст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
+12	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79192
+# text = Убедительного объяснения причины этого явления досих пор никто непредложил.
+1	Убедительного	убедительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	объяснения	объяснение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+3	причины	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	amod	_	_
+5	явления	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+8	никто	никто	PRON	_	Case=Nom	9	nsubj	_	_
+9	непредложил	непредкладывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 79193
+# text = При этом ряд недавних экспериментов показал, что контакт с вирусной нейраминидазой определенной группы может обеспечить некоторую степень иммунитета костальным ееразновидностям, входящим втуже группу.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	недавних	недавний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	контакт	контакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	с	с	ADP	_	_	12	case	_	SpacesAfter=\n
+11	вирусной	вирусный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	нейраминидазой	нейраминидаза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+13	определенной	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+16	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	некоторую	некоторый	DET	_	Case=Acc|Gender=Fem|Number=Sing	18	amod	_	_
+18	степень	степень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpacesAfter=\n
+19	иммунитета	иммунитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	костальным	костальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	ееразновидностям	ееразновидность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	входящим	входить	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	_
+24	втуже	втуго	ADV	_	Degree=Cmp	23	advmod	_	_
+25	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79194
+# text = Учитывая эти данные, сотрудники Калифорнийского университета вЛос-Анджелесе, Университета Аризоны иНациональных институтов здоровья построили статистическую модель заболеваемости птичьими гриппами исмертности отних взависимости отгода рождения идоминирующего штамма гриппа вэтом году (в разные годы преобладают разные штаммы, как показано на графике ниже).
+1	Учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+2	эти	этот	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+3	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+6	Калифорнийского	Калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpacesAfter=\n
+8	вЛос-Анджелесе	вЛос-Анджелесе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	Аризоны	Аризона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+12	иНациональных	иНациональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	институтов	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpacesAfter=\n
+15	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	статистическую	статистический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	заболеваемости	заболеваемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	птичьими	птичий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	гриппами	гриппа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	_
+21	исмертности	исмертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpacesAfter=\n
+22	отних	оотни	PRON	_	Case=Gen|Number=Plur|Person=3	23	nmod	_	_
+23	взависимости	взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	отгода	отгод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	идоминирующего	идоминируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	amod	_	_
+27	штамма	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	гриппа	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	вэтом	вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	30	amod	_	SpacesAfter=\n
+30	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	в	в	ADP	_	_	34	case	_	_
+33	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	_
+34	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obl	_	_
+35	преобладают	преобладавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+36	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	штаммы	штамм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	35	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	как	как	SCONJ	_	_	35	mark	_	_
+40	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	35	advcl	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	графике	график	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	43	nmod	_	_
+43	ниже	низкий	ADJ	_	Degree=Cmp	40	advmod	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 79195
+# text = Вмодель были включены все зарегистрированные случаи гриппов H5N1 (835человек) иH7N9 (680человек).
+1	Вмодель	Вмодель	PART	_	_	3	advmod	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	включены	включать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+5	зарегистрированные	регистрировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	случаи	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	гриппов	грипп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	H5N1	H5N1	NOUN	_	_	7	parataxis	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	835человек	835человек	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	иH7N9	иH7N9	NUM	_	_	8	nummod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	680человек	680человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

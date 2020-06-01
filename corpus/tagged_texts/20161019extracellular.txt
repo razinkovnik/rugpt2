@@ -1,0 +1,375 @@
+# sent_id = 75488
+# text = Ученые изМэрилендского университета в Колледж-Парке описали внеклеточное наследование РНК с сохранением регуляторных функций у нематод.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	изМэрилендского	изМэрилендский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Колледж-Парке	Колледж-Парка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+6	описали	описывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	внеклеточное	внеклеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	наследование	наследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	сохранением	сохранение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+12	регуляторных	регуляторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	нематод	нематод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75489
+# text = Статья опубликованав журнале Proceedings of National Academy of Sciences.В работе использовался круглый червь (нематода) Caenorhabditis elegans -- один из самых популярных модельных организмов в биологии.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+2	опубликованав	опубликованать	VERB	_	Aspect=Imp|Tense=Past|VerbForm=Conv|Voice=Act	1	amod	_	_
+3	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+4	Proceedings	proceedings	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	of	of	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	National	national	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Academy	academy	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	of	of	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	Sciences.	Sciences.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+10	В	в	ADP	_	_	11	case	_	_
+11	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+12	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	круглый	круглый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	червь	червь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	нематода	нематода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	Caenorhabditis	Caenorhabditis	PROPN	_	Foreign=Yes	16	appos	_	_
+19	elegans	elegans	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	один	один	NUM	_	Case=Nom|Gender=Masc	12	conj	_	_
+22	из	из	ADP	_	_	26	case	_	_
+23	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+25	модельных	модельной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	биологии	биология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 75490
+# text = Нематод кормили бактериями, которые синтезировали двухцепочечную РНК, затем удаляли бактерий и наблюдали за эффектом этих РНК у потомков нематод.Оказалось, что РНК, скормленные нематодам, непосредственно передаются их потокам.
+1	Нематод	Нематод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	кормили	кормить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	бактериями	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которые	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	синтезировали	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	двухцепочечную	двухцепочечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	затем	затем	ADV	_	Degree=Pos	11	advmod	_	_
+11	удаляли	удалять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	бактерий	бактерий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	conj	_	_
+15	за	за	ADP	_	_	16	case	_	_
+16	эффектом	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+17	этих	этот	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+19	у	у	ADP	_	_	20	case	_	_
+20	потомков	потомок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+21	нематод.	нематодалее	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+22	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	11	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	SCONJ	_	_	22	mark	_	_
+25	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	скормленные	кормлеть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+28	нематодам	нематод	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	непосредственно	непосредственно	ADV	_	Degree=Pos	31	advmod	_	_
+31	передаются	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	advcl	_	_
+32	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	33	nmod	_	_
+33	потокам	поток	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 75491
+# text = Флуоресцентное мечение РНК показало, что из внеклеточного пространства они вместе с веществом желтка попадают в ооциты и затем накапливаются в эмбрионах.
+1	Флуоресцентное	Флуоресцентный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	мечение	мечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	РНК	РНк	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	внеклеточного	внеклеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+11	вместе	вместе	ADV	_	Degree=Pos	15	advmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	веществом	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+14	желтка	желток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	попадают	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	ооциты	ооцит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+20	накапливаются	накапливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	эмбрионах	эмбрион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 75492
+# text = После этого они входят в цитозоль клеток эмбрионов, что и вызывает сайленсинг (подавление экспрессии генов) у потомков.Передача происходит даже в том случае, когда у нематод нет комплементарных последовательностей ДНК.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	цитозоль	цитозоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+13	сайленсинг	сайленсинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	подавление	подавление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	parataxis	_	_
+16	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	у	у	ADP	_	_	21	case	_	_
+20	потомков.	потомковадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+21	Передача	Передач	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+22	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+23	даже	даже	PART	_	_	26	advmod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	26	amod	_	_
+26	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	когда	когда	SCONJ	_	_	26	mark	_	_
+29	у	у	ADP	_	_	30	case	_	_
+30	нематод	нематода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+31	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+32	комплементарных	комплементарный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	последовательностей	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nsubj	_	_
+34	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 75493
+# text = РНК, передавшиеся потомкам, затем распределяются между клетками, где вызывает сайленсинг.
+1	РНК	Рнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	передавшиеся	передаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	1	amod	_	_
+4	потомкам	потомок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	затем	затем	ADV	_	Degree=Pos	7	advmod	_	_
+7	распределяются	распределяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	между	между	ADP	_	_	9	case	_	_
+9	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+12	вызывает	вызывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	сайленсинг	сайленсинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75494
+# text = Интересно, что внеклеточные РНК также могут передаваться потомкам без попадания в цитозоль.
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	внеклеточные	внеклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	7	xcomp	_	_
+9	потомкам	потомок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+10	без	без	ADP	_	_	11	case	_	_
+11	попадания	попадание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	цитозоль	цитозоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75495
+# text = Авторы предполагают, что при этом РНК остаются во внутриклеточных везикулах.Известно, что внеклеточные РНК могут накапливаться в кровеносной системе человека, изменять свои свойства во время болезней и потенциально выступать в качестве сигнальных молекул.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+7	РНК	Рнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+9	во	в	ADP	_	_	11	case	_	_
+10	внутриклеточных	внутриклеточный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	везикулах	везикул	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	внеклеточные	внеклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	РНК	РНк	PROPN	_	Foreign=Yes	18	nsubj	_	_
+18	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+19	накапливаться	накапливаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	кровеносной	кровеносный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+23	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	изменять	изменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	conj	_	_
+26	свои	свой	DET	_	Case=Acc|Number=Plur	27	amod	_	_
+27	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_
+28	во	во	ADP	_	_	30	case	_	_
+29	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	fixed	_	_
+30	болезней	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	obl	_	_
+31	и	и	CCONJ	_	_	33	cc	_	_
+32	потенциально	потенциально	ADV	_	Degree=Pos	33	advmod	_	_
+33	выступать	выступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	conj	_	_
+34	в	в	ADP	_	_	37	case	_	_
+35	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	fixed	_	_
+36	сигнальных	сигнальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 75496
+# text = Однако их происхождение и назначение остаются довольно плохо изученными.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	происхождение	происхождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	назначение	назначение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
+6	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	довольно	довольно	ADV	_	Degree=Pos	8	advmod	_	_
+8	плохо	плохо	ADV	_	Degree=Pos	9	advmod	_	_
+9	изученными	изучать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75497
+# text = Попадая внутрь клеток, внеклеточные РНК могут регулировать экспрессию генов, имеющих комплементарные им последовательности.
+1	Попадая	попадать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	внутрь	внутрь	ADP	_	_	3	case	_	_
+3	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	внеклеточные	внеклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	РНК	РНк	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	комплементарные	комплементарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+14	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	13	nmod	_	_
+15	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75498
+# text = Так, ранее было показано, что введение РНК некоторым модельным животным может вызывать сайленсинг генов, имеющих комплементарные этим РНК последовательности, причем этот сайленсинг часто сохраняется и в следующем поколении.
+1	Так	так	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ранее	ранее	ADV	_	Degree=Pos	5	advmod	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	введение	введение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+9	РНК	РНк	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	12	amod	_	_
+11	модельным	модельной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	животным	животное	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+14	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+15	сайленсинг	сайленсинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+16	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+19	комплементарные	комплементарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+20	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	nmod	_	_
+21	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+22	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	причем	причем	CCONJ	_	_	28	cc	_	_
+25	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	26	amod	_	_
+26	сайленсинг	сайленсинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+27	часто	часто	ADV	_	Degree=Pos	28	advmod	_	_
+28	сохраняется	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+29	и	и	PART	_	_	32	advmod	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	поколении	поколение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 75499
+# text = Ученые предполагали, что такой сайленсинг является результатом модификации хроматина, метилирования ДНК или образования вторичных РНК, которые затем передаются потомкам.Как отмечают авторы статьи, в своей работе они показали, что внеклеточные РНК непосредственно передаются следующему поколению.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	сайленсинг	сайленсинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	результатом	результат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+9	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	хроматина	хроматин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+13	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	_
+16	вторичных	вторичной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+20	затем	затем	ADV	_	Degree=Pos	21	advmod	_	_
+21	передаются	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	_
+22	потомкам.	потомкамечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	SpaceAfter=No
+23	Как	как	ADV	_	Degree=Pos	32	mark	_	_
+24	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	advcl	_	_
+25	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+26	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	30	amod	_	_
+30	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+31	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	32	nsubj	_	_
+32	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	внеклеточные	внеклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
+36	РНК	Рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	_
+37	непосредственно	непосредственне	ADV	_	Degree=Pos	38	advmod	_	_
+38	передаются	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	advcl	_	_
+39	следующему	следующий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	поколению	поколение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	38	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 75500
+# text = Механизм, с помощью которого внеклеточные РНК передают потомкам информацию, регулирующую работу генов, объясняет, каким образом опыт, приобретенный животными в течение жизни, может передаваться следующим поколениям.Софья Долотовская
+1	Механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	fixed	_	_
+5	которого	который	PRON	_	Case=Gen	8	obl	_	_
+6	внеклеточные	внеклеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	РНК	РНк	PROPN	_	Foreign=Yes	8	nsubj	_	_
+8	передают	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+9	потомкам	потомок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+10	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	регулирующую	регулировать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	19	amod	_	_
+19	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+20	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	приобретенный	приобретять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	животными	животной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	obl:agent	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	fixed	_	_
+26	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+29	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	28	xcomp	_	_
+30	следующим	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	поколениям.	поколениям.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	29	obl:agent	_	SpaceAfter=No
+32	Софья	Софье	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	Долотовская	Долотовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	amod	_	SpaceAfter=No
+

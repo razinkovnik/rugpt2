@@ -1,0 +1,139 @@
+# sent_id = 80479
+# text = Опытно-конструкторское бюро имени Люльки произвело первый запуск "изделия 30" -- двигателя второго этапа для перспективного российского истребителя Т-50 (ПАК ФА).
+1	Опытно-конструкторское	Опытно-конструкторский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesBefore=\n
+2	бюро	бюро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Люльки	Люлька	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	произвело	производить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	изделия	изделия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+10	30	30	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	--	--	PUNCT	_	_	10	punct	_	_
+13	двигателя	двигатель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	_
+14	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+16	для	для	ADP	_	_	19	case	_	_
+17	перспективного	перспективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+20	Т-50	т-50	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	ПАК	Пак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	parataxis	_	_
+23	ФА	фа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80480
+# text = Об этом пишет блог bmpd.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	блог	блог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	bmpd	bmpd	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80481
+# text = Испытания состоялись 11 ноября 2016 года, однако известно об этом стало только сейчас.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	состоялись	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	11	11	NUM	_	_	2	nummod	_	_
+4	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	2016	2016	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+9	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	12	amod	_	_
+10	об	о	ADP	_	_	11	case	_	_
+11	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+12	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	сейчас	сейчас	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80482
+# text = Первый запуск был признан успешным.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	запуск	запуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	признан	признавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	успешным	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80483
+# text = Другие подробности об испытаниях пока не известны.В настоящее время прототипы Т-50 выполняют полеты с помощью модифицированных высокотемпературных турбореактивных двухконтурных двигателей с форсажной камерой АЛ-41Ф1 ("изделие 171").
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	об	о	ADP	_	_	4	case	_	_
+4	испытаниях	испытания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	_
+5	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	В	в	ADP	_	_	14	advmod	_	_
+10	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	fixed	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	прототипы	прототип	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+13	Т-50	т-50	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	выполняют	выполнявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	obj	_	_
+16	с	с	ADP	_	_	22	case	_	_
+17	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	fixed	_	_
+18	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+19	высокотемпературных	высокотемпературный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+20	турбореактивных	турбореактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	двухконтурных	двухконтурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	форсажной	форсажный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	камерой	камера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	nmod	_	_
+26	АЛ-41Ф1	АЛ-41Ф1	NUM	_	_	27	nummod	_	_
+27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	parataxis	_	_
+30	171	171	NUM	_	_	29	nummod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80484
+# text = Эти установки созданы на базе АЛ-41Ф1С ("изделие 117С") для истребителя Су-35С.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	установки	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+3	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	АЛ-41Ф1С	Ал-41ф1с	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	_
+10	117С	117с	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	10	punct	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+15	Су-35С.	су-35С.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+
+# sent_id = 80485
+# text = Иначе АЛ-41Ф1 называют двигателем первого этапа, поскольку такие установки будут монтироваться на первые серийные истребители Т-50.
+1	Иначе	иначе	CCONJ	_	_	3	cc	_	_
+2	АЛ-41Ф1	АЛ-41Ф1	NUM	_	_	3	nummod	_	_
+3	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+5	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поскольку	поскольку	SCONJ	_	_	3	mark	_	_
+9	такие	такой	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+10	установки	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+11	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	монтироваться	монтироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	advcl	_	_
+13	на	на	ADP	_	_	16	case	_	_
+14	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	серийные	серийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	истребители	истребитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	_
+17	Т-50	т-50	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+

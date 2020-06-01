@@ -1,0 +1,365 @@
+# sent_id = 82567
+# text = Американская компания General Atomics Aeronautical Systems провела первые испытания сертифицируемого ударного беспилотного летательного аппарата CPB (Certifiable Predator B), сообщает Flightglobal.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	General	general	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Atomics	Atomics	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Aeronautical	Aeronautical	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Systems	Systems	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	сертифицируемого	сертифицируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+11	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+12	беспилотного	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+15	CPB	Cpb	PROPN	_	Foreign=Yes	14	appos	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Certifiable	Certifiable	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+18	Predator	Predator	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	B)	B)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+22	Flightglobal	Flightglobal	PROPN	_	Foreign=Yes	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 82568
+# text = После завершения испытаний аппарат, создаваемый на базе MQ-9 Reaper, станет первым ударным беспилотником, который сможет получить разрешение на полеты в едином воздушном пространстве.Сегодня беспилотные летательные аппараты, принадлежащие вооруженным силам, в мирное время не могут выполнять полеты в едином воздушном пространстве, в котором проходят маршруты гражданской авиации.
+1	После	после	ADP	_	_	2	case	_	_
+2	завершения	завершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	создаваемый	создавать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	MQ-9	MQ-9	NUM	_	_	10	nummod	_	_
+10	Reaper	Reaper	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	ударным	ударный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	беспилотником	беспилотник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+19	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+23	в	в	ADP	_	_	26	case	_	_
+24	едином	единый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	воздушном	воздушный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	пространстве.	пространствеент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+27	Сегодня	Сегодня	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+28	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+29	летательные	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	принадлежащие	принадлежать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	вооруженным	вооружать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	силам	сила	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	мирное	мирный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obl	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	40	xcomp	_	_
+42	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	41	obj	_	_
+43	в	в	ADP	_	_	46	case	_	_
+44	едином	единой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_
+45	воздушном	воздушный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_
+46	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	obl	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	котором	который	PRON	_	Case=Loc	50	obl	_	_
+50	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	acl:relcl	_	_
+51	маршруты	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	50	nsubj	_	_
+52	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
+53	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpaceAfter=No
+
+# sent_id = 82569
+# text = Ударные и разведывательные беспилотники пока могут летать только в местах ведения боевых действий или в закрытом воздушном пространстве полигонов и авиабаз.Новый беспилотник CPB создается специально для Европы, где полеты беспилотной техники регулируются чуть мягче, чем в США.
+1	Ударные	ударный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	разведывательные	разведывательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+4	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	пока	пока	ADV	_	Degree=Pos	6	advmod	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	только	только	PART	_	_	10	advmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	_
+11	ведения	ведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	или	или	CCONJ	_	_	18	cc	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	закрытом	закрывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	воздушном	воздушный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+19	полигонов	полигон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	авиабаз.	авиабаз.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+22	Новый	Новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+24	CPB	Cpb	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	создается	создаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+26	специально	специально	ADV	_	Degree=Pos	25	advmod	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	Европы	европа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	где	где	ADV	_	Degree=Pos	34	advmod	_	_
+31	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	34	nsubj:pass	_	_
+32	беспилотной	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	регулируются	регулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	28	acl:relcl	_	_
+35	чуть	чуть	ADV	_	Degree=Pos	36	advmod	_	_
+36	мягче	мягко	ADV	_	Degree=Cmp	0	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	чем	чем	SCONJ	_	_	40	cc	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	36	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 82570
+# text = В Евросоюзе большие беспилотники могут летать в общем с самолетами пространстве при соблюдении нескольких условий.
+1	В	в	ADP	_	_	2	case	_	_
+2	Евросоюзе	евросоюз	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	большие	большой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	в	в	ADP	_	_	11	case	_	_
+8	общем	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	самолетами	самолеты	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+11	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	соблюдении	соблюдение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+14	нескольких	несколько	NUM	_	Case=Gen	15	nummod	_	_
+15	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 82571
+# text = Так, аппараты быть сделаны с использованием композиционных материалов, должны иметь защиту от попадания молнии и систему уклонения от столкновения в воздухе.Серийно выпускаемых аппаратов, которые бы удовлетворяли этим требованиям, пока не существует.
+1	Так	так	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+8	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+12	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+14	от	от	ADP	_	_	13	case	_	_
+15	попадания	попадание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	молнии	молния	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+19	уклонения	уклонение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	от	от	ADP	_	_	21	case	_	_
+21	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	воздухе.	воздухе.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	Серийно	серийно	ADV	_	Degree=Pos	25	advmod	_	_
+25	выпускаемых	выпускать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+29	бы	бы	PART	_	Mood=Cnd	30	aux	_	_
+30	удовлетворяли	удовлетворять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+31	этим	этот	DET	_	Case=Dat|Number=Plur	32	amod	_	_
+32	требованиям	требование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	пока	пока	SCONJ	_	_	36	mark	_	_
+35	не	не	PART	_	_	36	advmod	_	_
+36	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 82572
+# text = CPB отличается от Reaper крылом увеличенной длины, доработанным двигателем и увеличенной продолжительностью полета.
+1	CPB	Cpb	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	от	от	ADP	_	_	5	case	_	_
+4	Reaper	Reaper	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	крылом	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+6	увеличенной	увеличять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	длины	длина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	доработанным	доработать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	увеличенной	увеличенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	продолжительностью	продолжительность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+14	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 82573
+# text = Длина крыла CPB составляет 24 метра.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	CPB	Cpb	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	24	24	NUM	_	_	6	nummod	_	_
+6	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 82574
+# text = Аппарат способен находиться в воздухе до 40 часов.Для сравнения, Reaper имеет крыло длиной около 20 метров и может находиться в воздухе чуть больше 14 часов.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	dep	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	40	40	NUM	_	_	8	nummod	_	_
+8	часов.	часовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	Для	для	ADP	_	_	8	case	_	_
+10	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Reaper	Reaper	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+14	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	около	около	ADP	_	_	18	case	_	_
+17	20	20	NUM	_	_	18	nummod	_	_
+18	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+21	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	20	xcomp	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+24	чуть	чуть	ADV	_	Degree=Pos	25	advmod	_	_
+25	больше	больше	ADV	_	Degree=Cmp	27	nummod:gov	_	_
+26	14	14	NUM	_	_	27	nummod	_	_
+27	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 82575
+# text = CPB оснащен модульной системой управления вооружением, благодаря которой покупатели аппарата смогут запускать с него ракеты собственной разработки.
+1	CPB	Cpb	PROPN	_	Foreign=Yes	2	nsubj:pass	_	_
+2	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	модульной	модульный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	вооружением	вооружение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	благодаря	благодаря	ADP	_	_	9	case	_	_
+9	которой	который	PRON	_	Case=Gen	12	obl	_	_
+10	покупатели	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+13	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+16	ракеты	ракет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+17	собственной	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 82576
+# text = Как ожидается, в Европе новый беспилотник пройдет сертификацию к 2019 году.К настоящему времени заказ на новый сертифицируемый беспилотник разместила Великобритания.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	сертификацию	сертификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	к	к	ADP	_	_	12	case	_	_
+11	2019	2019	NUM	_	_	12	nummod	_	_
+12	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	К	к	ADP	_	_	15	case	_	_
+14	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
+16	заказ	заказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+17	на	на	ADP	_	_	20	case	_	_
+18	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	сертифицируемый	сертифицируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+21	разместила	размесщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	Великобритания	великобритания	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 82577
+# text = Для ВВС этой страны планируется закупить 26 аппаратов на сумму около миллиарда долларов.Ранее General Atomics разработала демилитаризованную версию ударного беспилотника MQ-1 Predator.
+1	Для	для	ADP	_	_	2	case	_	_
+2	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	закупить	закупать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj:pass	_	_
+7	26	26	NUM	_	_	8	nummod	_	_
+8	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	сумму	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	около	около	ADP	_	_	12	case	_	_
+12	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+13	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	Ранее	Раный	ADJ	_	Degree=Cmp	17	nsubj	_	_
+15	General	general	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Atomics	Atomics	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+18	демилитаризованную	демилитаризованный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	MQ-1	mQ-1	X	_	Foreign=Yes	21	flat:foreign	_	_
+23	Predator	Predator	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 82578
+# text = Аппарат, получивший название Predator XP, совершил первый полет 27 июня 2014 года.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	получивший	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	Predator	Predator	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	XP	Xp	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	27	27	NUM	_	_	8	nummod	_	_
+12	июня	июнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	2014	2014	NUM	_	_	14	nummod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 82579
+# text = Этот беспилотник лишен точек подвески вооружения и систем управления ракетами.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	лишен	лишать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+5	подвески	подвеска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+9	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	ракетами	ракеты	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 82580
+# text = Predator XP могут приобрести даже частные компании.Василий Сычёв
+1	Predator	Predator	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	XP	Xp	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	приобрести	приобретать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	частные	частный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+

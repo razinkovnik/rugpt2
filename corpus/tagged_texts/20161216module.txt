@@ -1,0 +1,508 @@
+# sent_id = 85083
+# text = Подразделение A3 европейского авиастроительного концерна Airbus представило концепцию модульного салона самолета, которая, будучи реализованной, позволит быстро и без дополнительных затрат менять внутреннее оформление лайнеров.
+1	Подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpacesBefore=\n
+2	A3	A3	NUM	_	_	5	nummod	_	_
+3	европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	авиастроительного	авиастроительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	концерна	концерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	Airbus	Airbus	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	представило	представлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	концепцию	концепция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	модульного	модульный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	18	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	будучи	быть	AUX	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	cop	_	_
+16	реализованной	реализовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+19	быстро	быстро	ADV	_	Degree=Pos	24	advmod	_	_
+20	и	и	CCONJ	_	_	23	cc	_	_
+21	без	без	ADP	_	_	23	case	_	_
+22	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	затрат	затрата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	_
+24	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+25	внутреннее	внутренний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	оформление	оформление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+27	лайнеров	лайнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 85084
+# text = Как пишет Aviation Week, новый проект получил название Transpose.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	Transpose	Transpose	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85085
+# text = В качестве универсальной платформы для модульных салонов разработчики рассматривают уже существующие грузовые самолеты, поскольку в их конструкцию не нужно будет вносить изменения.Салоны современных пассажирских самолетов комплектуются авиапроизводителями еще на стадии строительства.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	универсальной	универсальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	модульных	модульной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	салонов	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+8	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	уже	уже	ADV	_	Degree=Pos	11	advmod	_	_
+11	существующие	существовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+12	грузовые	грузовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	поскольку	поскольку	SCONJ	_	_	9	mark	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	18	nmod	_	_
+18	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	advcl	_	_
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+22	вносить	вносить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+23	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Салоны	салона	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	appos	_	_
+26	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+27	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+29	комплектуются	комплектуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	_
+30	авиапроизводителями	авиапроизводитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	29	obl:agent	_	_
+31	еще	еще	ADV	_	Degree=Pos	33	advmod	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+34	строительства	строительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 85086
+# text = Оформление салонов, список необходимого оборудования, число посадочных мест -- все это согласовывается с покупателем самолета заранее.
+1	Оформление	оформление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+2	салонов	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	список	список	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	необходимого	необходимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+9	посадочных	посадочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	мест	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	1	amod	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	согласовывается	согласовываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	покупателем	покупатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+17	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	заранее	заранее	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85087
+# text = На уже собранном самолете конфигурацию салона можно изменить, однако это потребует дополнительных и зачастую серьезных затрат.
+1	На	на	ADP	_	_	4	case	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	собранном	собранный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	самолете	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+5	конфигурацию	конфигурация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	потребует	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	дополнительных	дополнительный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	зачастую	зачастую	ADV	_	Degree=Pos	16	advmod	_	_
+16	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	conj	_	_
+17	затрат	затрата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85088
+# text = При этом внесение изменений в оснащение салона потребует проведения дополнительных наземных и летных испытаний.Концепт Transpose предполагает создание универсальных сменных модулей, которые можно через погрузочные двери устанавливать внутри грузовых самолетов.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	внесение	внесение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	оснащение	оснащение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+7	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	потребует	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+11	наземных	наземной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	летных	летный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	conj	_	_
+14	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Концепт	концепт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+17	Transpose	Transpose	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+19	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	универсальных	универсальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	сменных	сменный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Acc	25	obj	_	_
+25	можно	можно	ADV	_	Degree=Pos	22	acl:relcl	_	_
+26	через	через	ADP	_	_	28	case	_	_
+27	погрузочные	погрузочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	двери	дверь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obl	_	_
+29	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+30	внутри	внутри	ADV	_	Degree=Pos	31	advmod	_	_
+31	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 85089
+# text = Такие модули можно закрепить с помощью стандартной системы крепления грузов.
+1	Такие	такой	DET	_	Case=Acc|Number=Plur	2	amod	_	_
+2	модули	модуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	закрепить	закреплять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	стандартной	стандартный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	крепления	крепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85090
+# text = При этом все модули, имеющие универсальные каналы для различных коммуникаций, могут стыковаться друг с другом.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	4	nsubj	_	_
+4	модули	модуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	имеющие	иметь	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+7	универсальные	универсальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	каналы	канал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+9	для	для	ADP	_	_	8	case	_	_
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	коммуникаций	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+14	стыковаться	стыковаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	fixed	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85091
+# text = Во грузовом отсеке транспортного самолета A330-200F можно разместить до 12 сменных модулей.Каждый такой сменяемый элемент салона может быть оборудован по-своему.
+1	Во	в	ADP	_	_	3	case	_	_
+2	грузовом	грузовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	отсеке	отсек	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+4	транспортного	транспортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	A330	A330	NUM	_	_	8	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	200F	200f	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	разместить	размещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	до	до	ADP	_	_	14	case	_	_
+12	12	12	NUM	_	_	14	nummod	_	_
+13	сменных	сменный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+17	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	_
+18	сменяемый	сменяемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+22	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	aux:pass	_	_
+23	оборудован	оборудовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+24	по-своему	по-своему	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 85092
+# text = В числе возможных вариантов оснащения -- кухня, ресторан, магазин, бар, игровая комната, спальные места, конференц-зал.
+1	В	в	ADP	_	_	2	case	_	_
+2	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	advmod	_	_
+3	возможных	возможной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	оснащения	оснащение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	кухня	кухня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ресторан	ресторан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	магазин	магазин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	бар	бар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	игровая	игровой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	комната	комната	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	спальные	спальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	места	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	конференц	конференц	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+22	-зал	-зать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85093
+# text = Каждый из модулей может быть оснащен необходимыми оборудованием и мебелью заранее в соответствии с запланированным полетом.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	модулей	модуль	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	aux:pass	_	_
+6	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7	необходимыми	необходимой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	оборудованием	оборудование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	мебелью	мебель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+11	заранее	заранее	ADV	_	Degree=Pos	16	advmod	_	_
+12	в	в	ADP	_	_	16	case	_	_
+13	соответствии	соответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	с	с	ADP	_	_	13	fixed	_	_
+15	запланированным	запланированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	полетом	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85094
+# text = Смена модулей может производиться обычной погрузочной машиной за относительно короткое время.В настоящее время A3 занимается сборкой макета грузового отсека транспортного самолета.
+1	Смена	смена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+4	производиться	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	17	xcomp	_	_
+5	обычной	обычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	погрузочной	погрузочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	машиной	машина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	за	за	ADP	_	_	11	case	_	_
+9	относительно	относительно	ADV	_	Degree=Pos	10	advmod	_	_
+10	короткое	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	В	в	ADP	_	_	17	advmod	_	_
+14	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	fixed	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	A3	A3	NUM	_	_	17	nummod	_	_
+17	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+18	сборкой	сборка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+19	макета	макет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	грузового	грузовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	отсека	отсек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	транспортного	транспортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 85095
+# text = Длина макета составит 45,7 метра.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	макета	макет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	45,7	45,7	NUM	_	_	5	nummod	_	_
+5	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85096
+# text = В нем компания намерена разместить несколько новых модулей, вместе с которыми макет на специальном имитирующем полет стенде будет проходить испытания.
+1	В	в	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	разместить	размескать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+7	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вместе	вместе	ADV	_	Degree=Pos	13	advmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	которыми	который	PRON	_	Case=Ins	13	obl	_	_
+13	макет	маквать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+14	на	на	ADP	_	_	18	case	_	_
+15	специальном	специальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+16	имитирующем	имитируть	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+17	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	стенде	стенд	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+20	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+21	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 85097
+# text = В A3 полагают, что если авиаперевозчики заинтересуются модульными салонами, то возможность установки модулей можно будет предусмотреть в конструкции обычных пассажирских самолетов.В ноябре прошлого года европейский авиастроительный концерн Airbus получил патент на разделяемый самолет.
+1	В	в	ADP	_	_	2	case	_	_
+2	A3	A3	NUM	_	_	3	nummod	_	_
+3	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	если	если	SCONJ	_	_	8	mark	_	_
+7	авиаперевозчики	авиаперевозчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	заинтересуются	заинтересовываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+9	модульными	модульный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	салонами	салон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	то	то	SCONJ	_	_	8	cc	_	_
+13	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+14	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	можно	можно	ADV	_	Degree=Pos	0	advcl	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+18	предусмотреть	предусматривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+21	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	пассажирских	пассажирская	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	самолетов.	самолетовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+24	В	в	ADP	_	_	25	case	_	_
+25	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	_
+26	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+29	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+31	Airbus	Airbus	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+33	патент	патент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+34	на	на	ADP	_	_	36	case	_	_
+35	разделяемый	разделяемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	самолет	самолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 85098
+# text = В этом летательном аппарате предусмотрено крепление съемной капсулы с пассажирским салоном и грузовым отсеком.
+1	В	в	ADP	_	_	4	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	4	amod	_	_
+3	летательном	летательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарате	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	предусмотрено	предусматривать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	крепление	крепление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+7	съемной	съемный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	капсулы	капсула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	пассажирским	пассажирский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	салоном	салон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	грузовым	грузовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	отсеком	отсек	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85099
+# text = По оценке концерна, такая капсула позволит ускорить пассажиро- и грузооборот в аэропортах и значительно сократить время простоя самолетов.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	концерна	концерн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	капсула	капсула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	пассажиро	пассажиро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	грузооборот	грузооборот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	аэропортах	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	значительно	значительно	ADV	_	Degree=Pos	17	advmod	_	_
+17	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	простоя	простое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85100
+# text = Предполагается, что на земле капсула будет частью терминала аэропорта.Еще до прибытия самолета в капсулу загрузят багаж, а пассажиры займут в ней свои места.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+6	капсула	капсул	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+8	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	терминала	терминал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	аэропорта.	аэропорта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:agent	_	SpaceAfter=No
+11	Еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+12	до	до	ADP	_	_	13	case	_	_
+13	прибытия	прибытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+14	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	капсулу	капсула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+17	загрузят	загрузить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+18	багаж	багаж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	22	cc	_	_
+21	пассажиры	пассажир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	займут	занимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	22	obl	_	_
+25	свои	свой	DET	_	Case=Acc|Number=Plur	26	amod	_	_
+26	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 85101
+# text = Когда самолет прилетит в аэропорт, специальный кран снимет с него капсулу с пассажирами и установит вместо нее другую.
+1	Когда	когда	ADV	_	Degree=Pos	9	mark	_	_
+2	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	прилетит	прилетать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	аэропорт	аэропорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	кран	кран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	снимет	снимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+12	капсулу	капсула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	пассажирами	пассажир	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	установит	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	вместо	вместо	ADP	_	_	18	case	_	_
+18	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+19	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85102
+# text = Практически сразу после этого самолет сможет снова взлететь.
+1	Практически	практически	ADV	_	Degree=Pos	2	advmod	_	_
+2	сразу	сразу	ADV	_	Degree=Pos	6	advmod	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+5	самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	снова	снова	ADV	_	Degree=Pos	8	advmod	_	_
+8	взлететь	взлетать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85103
+# text = Таким образом значительно сократится время, проводимое самолетами на земле между рейсами.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+3	значительно	значительно	ADV	_	Degree=Pos	4	advmod	_	_
+4	сократится	сокращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	проводимое	проводить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	между	между	ADP	_	_	12	case	_	_
+12	рейсами	рейс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85104
+# text = Потенциально такое решение позволит существенно сократить окупаемость лайнеров.Василий Сычёв
+1	Потенциально	потенциально	ADV	_	Degree=Pos	4	advmod	_	_
+2	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	существенно	существенно	ADV	_	Degree=Pos	6	advmod	_	_
+6	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	окупаемость	окупаемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	лайнеров.	лайнеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+

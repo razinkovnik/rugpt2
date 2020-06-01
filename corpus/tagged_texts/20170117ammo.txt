@@ -1,0 +1,366 @@
+# sent_id = 88215
+# text = Американская компания Raytheon занялась разработкой нового типа боеприпасов, которые можно будет использовать против беспилотных летательных аппаратов, включая объединившиеся в стаи, ракет и скоростных катеров противника.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Raytheon	Raytheon	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Acc	8	obj	_	_
+11	можно	можно	ADV	_	Degree=Pos	4	advcl	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+14	против	против	ADP	_	_	17	case	_	_
+15	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+16	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	включая	включая	ADV	_	Degree=Pos	20	advmod	_	_
+20	объединившиеся	объединяться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	17	amod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	стаи	стай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	conj	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	скоростных	скоростный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	катеров	катер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	_
+28	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 88216
+# text = Как сообщает Military & Aerospace Electronics, новые боеприпасы будут управляемыми, а вести огонь ими можно будет из стандартных корабельных артиллерийских установок.Современные скорострельные артиллерийские установки способны эффективно поражать катера или беспилотники противника, приближающиеся с одного направления.
+1	Как	как	ADV	_	Degree=Pos	11	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+3	Military	Military	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	&	&	PUNCT	_	_	3	punct	_	_
+5	Aerospace	Aerospace	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Electronics	Electronics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	управляемыми	управляемой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	14	cc	_	_
+14	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	conj	_	_
+15	огонь	огонь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	17	nmod	_	_
+17	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+19	из	из	ADP	_	_	22	case	_	_
+20	стандартных	стандартный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	корабельных	корабельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	артиллерийских	артиллерийская	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+23	установок.	установоколо	ADP	_	_	27	case	_	SpaceAfter=No
+24	Современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+25	скорострельные	скорострельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+26	артиллерийские	артиллерийской	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	установки	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	nmod	_	_
+28	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	17	nsubj	_	_
+29	эффективно	эффективно	ADV	_	Degree=Pos	30	advmod	_	_
+30	поражать	поражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+31	катера	катер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+32	или	или	CCONJ	_	_	33	cc	_	_
+33	беспилотники	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	conj	_	_
+34	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	приближающиеся	приближаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	34	amod	_	_
+37	с	с	ADP	_	_	39	case	_	_
+38	одного	один	NUM	_	Case=Gen|Gender=Masc	39	nummod	_	_
+39	направления	направление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 88217
+# text = В случае если атака производится с нескольких сторон эффективность значительно падает, поскольку теряется время на разворот орудия.Предполагается, что новые управляемые боеприпасы позволят вести прицельный огонь одновременно по нескольким целям, находящимся по разные стороны от орудия.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+3	если	если	SCONJ	_	_	11	mark	_	_
+4	атака	атака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+5	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	нескольких	несколько	NUM	_	Case=Gen	8	nummod	_	_
+8	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	значительно	значительно	ADV	_	Degree=Pos	11	advmod	_	_
+11	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поскольку	поскольку	SCONJ	_	_	11	mark	_	_
+14	теряется	теряваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	advcl	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	разворот	разворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	_
+18	орудия	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+24	управляемые	управляемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	_
+27	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	прицельный	прицельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	огонь	огонь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+30	одновременно	одновременно	ADV	_	Degree=Pos	27	advmod	_	_
+31	по	по	ADP	_	_	33	case	_	_
+32	нескольким	несколько	NUM	_	Case=Dat	33	nummod	_	_
+33	целям	цель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	находящимся	находиться	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	33	amod	_	_
+36	по	по	ADP	_	_	38	case	_	_
+37	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	стороны	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obl	_	_
+39	от	от	ADP	_	_	40	case	_	_
+40	орудия	орудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 88218
+# text = Проект разработки боеприпасов получил название MAD-FIRES (Multi Azimuth Defense Fast Intercept Round Engagement System, мультиазимутальная оборонная система быстрого кругового перехвата).Разработкой боеприпасов Raytheon занялась по контракту Агентства передовых оборонных разработок Пентагона, стоимость которого составляет восемь миллионов долларов.
+1	Проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	MAD	MAd	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	FIRES	Fires	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Multi	Multi	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Azimuth	Azimuth	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Defense	Defense	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Fast	Fast	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Intercept	Intercept	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Round	Round	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Engagement	Engagement	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	System	system	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	мультиазимутальная	мультиазимутальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	оборонная	оборонный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_
+22	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+23	кругового	круговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	перехвата	перехват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	Разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	obl	_	_
+28	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	Raytheon	Raytheon	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+31	по	по	ADP	_	_	32	case	_	_
+32	контракту	контракт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
+33	Агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	передовых	передовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+35	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
+37	Пентагона	пентагон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	_
+40	которого	который	PRON	_	Case=Gen	39	nmod	_	_
+41	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
+42	восемь	восемь	NUM	_	Case=Nom	43	nummod:gov	_	_
+43	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	nsubj	_	_
+44	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 88219
+# text = Согласно требованию военных, новые боеприпасы должны быть пригодны для стрельбы из артиллерийских орудий калибра от 20 до 40 миллиметров.Боеприпасы должны быть пригодны для поражения легкой бронированной техники, легких летательных аппаратов и живой силы противника.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	требованию	требование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+9	пригодны	пригодный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	nmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	артиллерийских	артиллерийский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	орудий	орудье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+15	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	20	20	NUM	_	_	7	nmod	_	_
+18	до	до	ADP	_	_	20	case	_	_
+19	40	40	NUM	_	_	20	nummod	_	_
+20	миллиметров.	миллиметровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	Боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	parataxis	_	_
+23	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	cop	_	_
+24	пригодны	пригодный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	22	nmod	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	поражения	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	легкой	легкой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	бронированной	бронировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+29	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	легких	легкий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	conj	_	_
+32	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	живой	живой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	conj	_	_
+37	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 88220
+# text = При этом боеприпасы MAD-FIRE должны сочетать в себе точность и управляемость ракет со скоростью и скорострельностью обычных артиллерийских боеприпасов.Как именно планируется выполнить эти требования, Raytheon пока не раскрывает.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+3	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	MAD	MAd	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	FIRE	Fire	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	сочетать	сочетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	себе	себя	PRON	_	Case=Loc	8	obl	_	_
+11	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	управляемость	управляемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+14	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	со	с	ADP	_	_	16	case	_	_
+16	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	скорострельностью	скорострельность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+19	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+20	артиллерийских	артиллерийский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	боеприпасов.	боеприпасоварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	Как	как	ADV	_	Degree=Pos	24	advmod	_	_
+23	именно	именно	PART	_	_	24	advmod	_	_
+24	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+25	выполнить	выполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	nsubj:pass	_	_
+26	эти	этот	DET	_	Case=Acc|Number=Plur	27	amod	_	_
+27	требования	требование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Raytheon	Raytheon	PROPN	_	Foreign=Yes	27	nsubj	_	_
+30	пока	пока	ADV	_	Degree=Pos	32	advmod	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	раскрывает	раскрывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 88221
+# text = Согласно контракту, испытания первых прототипов боеприпасов планируется провести уже в 2018 году.Между тем, с 2010 года в США ведется разработка управляемых пуль Exacto для крупнокалиберных гладкоствольных снайперских винтовок.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	контракту	контракт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	_
+5	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	прототипов	прототип	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	уже	уже	ADV	_	Degree=Pos	13	advmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	2018	2018	NUM	_	_	13	nummod	_	_
+13	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	Между	между	ADP	_	_	15	case	_	_
+15	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	2010	2010	NUM	_	_	19	nummod	_	_
+19	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	22	obl	_	_
+22	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl	_	_
+23	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+24	управляемых	управлять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	Exacto	Exacto	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	для	для	ADP	_	_	31	case	_	_
+28	крупнокалиберных	крупнокалиберный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+29	гладкоствольных	гладкоствольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+30	снайперских	снайперский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	винтовок	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 88222
+# text = Калибр боеприпаса составит 12,7 миллиметра.
+1	Калибр	калибр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+2	боеприпаса	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	12,7	12,7	NUM	_	_	5	nummod	_	_
+5	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 88223
+# text = Большая дальность полета пули, ее точность и убойность будут обеспечиваться использованием высокоэнергетических порохов.
+1	Большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	7	nmod	_	_
+7	точность	точность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	убойность	убойность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	обеспечиваться	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+12	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+13	высокоэнергетических	высокоэнергетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	порохов	порох	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88224
+# text = Начальная скорость пули при выстреле будет сверхзвуковой.Технические подробности о боеприпасе не раскрываются.
+1	Начальная	начальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	пули	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	выстреле	выстрел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	сверхзвуковой	сверхзвуковой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	боеприпасе	боеприпас	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88225
+# text = По неподтвержденным данным, в пуле установлен небольшой элемент питания, микроконтроллер, лазерный датчик и складные рули.
+1	По	по	ADP	_	_	3	case	_	_
+2	неподтвержденным	неподтвержденный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	пуле	пул	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+7	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+10	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	микроконтроллер	микроконтроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	лазерный	лазерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	датчик	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	складные	складный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	рули	руля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88226
+# text = После выстрела микроконтроллер активируется и начинает с помощью выпускаемых воздушных рулей вести пулю к цели.Василий Сычёв
+1	После	после	ADP	_	_	2	case	_	_
+2	выстрела	выстрел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	микроконтроллер	микроконтроллер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	активируется	активировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+7	с	с	ADP	_	_	11	case	_	_
+8	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	fixed	_	_
+9	выпускаемых	выпускать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	рулей	руль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+12	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+13	пулю	пуля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	цели.	цели.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+17	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+

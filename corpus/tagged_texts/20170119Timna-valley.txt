@@ -1,0 +1,160 @@
+# sent_id = 88854
+# text = Археологи из университета Тель-Авива нашли в долине Тимна на юге Израиля укрепленные ворота, которые располагались на территории древних медных копей.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n
+4	Тель-Авива	тель-авив	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	долине	долина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	Тимна	Тимн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	юге	юг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpacesAfter=\n
+11	Израиля	израиль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	укрепленные	укреплять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	ворота	ворота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	SpacesAfter=\n
+16	располагались	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+20	медных	медный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	копей	копь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 88855
+# text = Здесь же ученые обнаружили загоны для скота и много хорошо сохранившихся органических материалов, датированных примерно X веком до нашей эры-- временем правления библейских царей Давида и Соломона.
+1	Здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	загоны	загон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	скота	скот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	много	много	ADV	_	Degree=Pos	10	conj	_	_
+10	хорошо	хорошо	ADV	_	Degree=Pos	11	advmod	_	SpacesAfter=\n
+11	сохранившихся	сохраняться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	13	amod	_	_
+12	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	датированных	датировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	примерно	примерно	ADV	_	Degree=Pos	17	advmod	_	_
+17	X	x	NUM	_	_	18	nummod	_	_
+18	веком	век	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl:agent	_	SpacesAfter=\n
+19	до	до	ADP	_	_	21	case	_	_
+20	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+25	правления	правление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpacesAfter=\n
+26	библейских	библейский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	царей	царь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	Давида	Давид	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	appos	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	Соломона	Соломон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 88856
+# text = Полное описание находок, сделанных еще в 2014 году, приводится в недавнем исследовании, опубликованном в номере Journal of Archaeological Science: Reports, также о нем сообщает пресс-релиз университета.
+1	Полное	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	SpacesAfter=\n
+3	находок	находка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	2014	2014	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	приводится	приводиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	недавнем	недавний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	опубликованном	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	SpacesAfter=\n
+17	в	в	ADP	_	_	18	case	_	_
+18	номере	номер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	Journal	journal	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	of	of	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	Archaeological	Archaeological	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Science	science	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	22	punct	_	_
+24	Reports	reports	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+26	также	также	ADV	_	Degree=Pos	11	advmod	_	SpacesAfter=\n
+27	о	о	ADP	_	_	28	case	_	_
+28	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+29	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpacesAfter=\n
+30	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+31	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 88857
+# text = Медные месторождения в Тимне разрабатывались начиная с V или VI тысячелетия до нашей эры.В X веке до нашей эры месторождения находились на территории Идумейского (Едомского) царства, описанного в Ветхом завете и древнеегипетских источниках.Рядом с местом добычи находились медеплавильные печи.
+1	Медные	Медный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	месторождения	месторождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Тимне	Тимн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	разрабатывались	разрабатываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	V	v	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	или	или	CCONJ	_	_	11	cc	_	_
+10	VI	Vi	NUM	_	_	11	nummod	_	_
+11	тысячелетия	тысячелетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	эры.	эры.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+15	В	в	ADP	_	_	17	case	_	_
+16	X	x	NUM	_	_	17	nummod	_	SpacesAfter=\n
+17	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\n
+18	до	до	ADP	_	_	20	case	_	_
+19	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	_
+20	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+21	месторождения	месторождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	SpacesAfter=\n
+23	на	на	ADP	_	_	24	case	_	_
+24	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+25	Идумейского	Идумейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpacesAfter=\n
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Едомского	Едомский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	parataxis	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	_
+29	царства	царство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	описанного	описывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	Ветхом	Ветхий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	SpacesAfter=\n
+34	завете	завет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+35	и	и	CCONJ	_	_	37	cc	_	_
+36	древнеегипетских	древнеегипетский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	37	amod	_	_
+37	источниках.	источниках.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+38	Рядом	Ряд	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+39	с	с	ADP	_	_	40	case	_	_
+40	местом	мест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+41	добычи	добыча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+43	медеплавильные	медеплавильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	44	amod	_	_
+44	печи	печь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	42	nsubj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 88858
+# text = Руду добывали здесь до VIIвека нашей эры, пока запасы меди практически не истощились.
+1	Руду	руда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	добывали	добывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	здесь	здесь	ADV	_	Degree=Pos	2	advmod	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	VIIвека	VIIвек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\n
+6	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пока	пока	SCONJ	_	_	2	mark	_	_
+10	запасы	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+11	меди	медь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	практически	практически	ADV	_	Degree=Pos	13	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	истощились	истощаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

@@ -1,0 +1,351 @@
+# sent_id = 86770
+# text = Amazon запатентовала систему для защиты беспилотных летательных аппаратов во время полета от различного рода угроз, в частности от хакеров, вандалов и даже стрел.
+1	Amazon	Amazon	PROPN	_	Foreign=Yes	2	nsubj	_	SpacesBefore=\n
+2	запатентовала	запатентовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	во	во	ADP	_	_	11	case	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+12	от	от	ADP	_	_	14	case	_	_
+13	различного	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpacesAfter=\n
+14	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	угроз	угроз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	fixed	_	_
+19	от	от	ADP	_	_	17	case	_	_
+20	хакеров	хакер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+22	вандалов	вандал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	conj	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	даже	даже	PART	_	_	25	advmod	_	_
+25	стрел	треть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86771
+# text = Текст патента опубликован на сайте freepatentsonline.com Малые беспилотники все шире используются для доставки различных грузов: почты, еды, медикаментов и даже донорской крови и органов для трансплантации.
+1	Текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	патента	патент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	freepatentsonline.com	freepatentsonline.com	X	_	Foreign=Yes	5	flat:foreign	_	SpacesAfter=\n
+7	Малые	Малой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	все	все	PART	_	_	10	advmod	_	_
+10	шире	широко	ADV	_	Degree=Cmp	11	advmod	_	_
+11	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+12	для	для	ADP	_	_	13	case	_	SpacesAfter=\n
+13	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+14	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	почты	почт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n\s
+21	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpacesAfter=\n
+22	и	и	CCONJ	_	_	25	cc	_	_
+23	даже	даже	PART	_	_	24	advmod	_	_
+24	донорской	донорский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	SpacesAfter=\n
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	SpacesAfter=\n
+28	для	для	ADP	_	_	29	case	_	_
+29	трансплантации	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86772
+# text = В декабре Amazon впервые доставила покупку с помощью дрона.
+1	В	в	ADP	_	_	2	case	_	_
+2	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	Amazon	Amazon	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpacesAfter=\n
+4	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+5	доставила	доставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	покупку	покупка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	fixed	_	_
+9	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 86773
+# text = Предполагается, что доставка посылок будет становиться все более распространенной, поэтому неудивительно, что специалисты компании задумались о том, как защитить "курьеров" от воров и вандалов.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	посылок	посылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	становиться	становиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	advcl	_	SpacesAfter=\n
+8	все	все	PART	_	_	9	advmod	_	_
+9	более	более	ADV	_	Degree=Cmp	10	advmod	_	_
+10	распространенной	распространенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	SpacesAfter=\n
+13	неудивительно	неудивительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpacesAfter=\n
+18	задумались	задумываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+19	о	о	ADP	_	_	20	case	_	_
+20	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	как	как	ADV	_	Degree=Pos	23	advmod	_	_
+23	защитить	защищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	acl	_	SpacesAfter=\n
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	курьеров	курьер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	от	от	ADP	_	_	28	case	_	_
+28	воров	вор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	вандалов	вандал	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 86774
+# text = Для первой доставки груза в Великобритании использовалась новая модель квадрокоптера, о которой не сообщается никаких технических характеристик.
+1	Для	для	ADP	_	_	3	case	_	_
+2	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+10	квадрокоптера	квадрокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	которой	который	PRON	_	Case=Loc	15	obl	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	acl:relcl	_	_
+16	никаких	никакой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+17	технических	технический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86775
+# text = Ранее представитель компании сообщил, что она планирует использовать разные модели беспилотных аппаратов в различных регионах, в зависимости от климатических условий и плотности застройки.
+1	Ранее	рано	ADV	_	Degree=Cmp	4	advmod	_	_
+2	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	сообщил	сообщать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
+8	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	модели	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	различных	различный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+20	от	от	ADP	_	_	22	case	_	_
+21	климатических	климатический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	плотности	плотность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	conj	_	_
+25	застройки	застройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86776
+# text = Возможно, поэтому в запатентованной системе предусматривается защита от самых разных внештатных ситуаций, которые могут произойти во время полета.
+1	Возможно	возможно	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	поэтому	поэтому	ADV	_	Degree=Pos	7	advmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	запатентованной	патентовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+7	предусматривается	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	защита	защита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+9	от	от	ADP	_	_	13	case	_	SpacesAfter=\n
+10	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	внештатных	внештатный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	ситуаций	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpacesAfter=\n
+17	произойти	происходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+18	во	во	ADP	_	_	20	case	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86777
+# text = Например, дроны смогут по беспроводной сети обмениваться информацией между собой и принимать сигналы из других источников.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	дроны	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	смогут	смочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	беспроводной	беспроводный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	сети	сеть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+8	обмениваться	обмениваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+9	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	между	между	ADP	_	_	11	case	_	_
+11	собой	себя	PRON	_	Case=Ins	9	nmod	_	SpacesAfter=\n
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	conj	_	_
+14	сигналы	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	из	из	ADP	_	_	17	case	_	_
+16	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86778
+# text = Беспилотник сможет запросить подтверждение данных о его местоположении.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	запросить	запросать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	подтверждение	подтверждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	о	о	ADP	_	_	8	case	_	_
+7	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+8	местоположении	местоположение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 86779
+# text = В случае, если собственные данные и информация, полученная из сети, не совпадают, беспилотник будет переведен в режим безопасной посадки.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	19	mark	_	_
+5	собственные	собственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	15	nsubj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	SpacesAfter=\n
+8	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	полученная	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	SpacesAfter=\n
+15	совпадают	совпадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	переведен	переводить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+20	в	в	ADP	_	_	21	case	_	_
+21	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+22	безопасной	безопасной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 86780
+# text = В случае, если злоумышленник попробует дезориентировать аппарат и заставить его упасть, составители патента предусмотрели замедление скорости дрона с помощью парашюта или подушки безопасности и последующее безопасное приземление.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	злоумышленник	злоумышленник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	попробует	попробуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpacesAfter=\n
+7	дезориентировать	дезориентировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	заставить	заставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	SpacesAfter=\n
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	упасть	падать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	составители	составитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+15	патента	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpacesAfter=\n
+16	предусмотрели	предусматривать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	замедление	замедление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpacesAfter=\n
+19	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	fixed	_	_
+22	парашюта	парашют	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	подушки	подушка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	conj	_	SpacesAfter=\n
+25	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	и	и	CCONJ	_	_	29	cc	_	_
+27	последующее	последующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+28	безопасное	безопасной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	SpacesAfter=\n
+29	приземление	приземление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86781
+# text = Затем беспилотник сможет передать владельцам информацию о том, где он находится.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	владельцам	владелец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+6	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86782
+# text = В аппараты планируется встроить систему датчиков, которые будут ориентировать их относительно солнца.
+1	В	в	ADP	_	_	2	case	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+4	встроить	встраивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	10	nsubj	_	SpacesAfter=\n
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	ориентировать	ориентировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	acl:relcl	_	_
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	_
+12	относительно	относительно	ADP	_	_	13	case	_	SpacesAfter=\n
+13	солнца	солнце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86783
+# text = Так беспилотник не будет дезориентирован молниями.
+1	Так	так	ADV	_	Degree=Pos	5	advmod	_	_
+2	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	не	не	PART	_	_	5	advmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	SpacesAfter=\n
+5	дезориентирован	дезориентировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	молниями	молния	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86784
+# text = В тексте патента предусматривается даже защита от стрел.
+1	В	в	ADP	_	_	2	case	_	_
+2	тексте	текст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\n
+3	патента	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	предусматривается	предусматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	защита	защита	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\n
+7	от	от	ADP	_	_	8	case	_	_
+8	стрел	треть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 86785
+# text = Если дрон обнаружит пролетающую рядом стрелу, у него сработает режим маневрирования и безопасной посадки.
+1	Если	если	SCONJ	_	_	10	mark	_	_
+2	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	обнаружит	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	_
+4	пролетающую	пролетать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	SpacesAfter=\n
+5	рядом	рядом	ADV	_	Degree=Pos	4	advmod	_	_
+6	стрелу	стрел	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+10	сработает	сработать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpacesAfter=\n
+12	маневрирования	маневрирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	безопасной	безопасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

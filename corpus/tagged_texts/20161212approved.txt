@@ -1,0 +1,196 @@
+# sent_id = 84158
+# text = Компания NVIDIA получила разрешение у Департамента транспортных средств (DMV)
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	NVIDIA	Nvidia	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	Департамента	департамент	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+7	транспортных	транспортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	DMV	Dmv	PROPN	_	Foreign=Yes	0	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 84159
+# text = Полный список организаций, обладающих соответствующим разрешением, опубликован на сайте DMV.NVIDIA активно занимается разработками в области беспилотных автомобилей -- например, в начале 2016 года компания представила специализированный компьютер Drive PX 2, позиционирующийся каквычислительная платформа для обучения и управления беспилотными автомобилями.
+1	Полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	список	список	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	организаций	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	обладающих	обладать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	соответствующим	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	DMV.NVIDIA	Dmv.nvidia	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	активно	активно	ADV	_	Degree=Pos	14	advmod	_	_
+14	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	28	parataxis	_	_
+15	разработками	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	obl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+18	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	obl	_	_
+25	2016	2016	NUM	_	_	26	nummod	_	_
+26	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+28	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+29	специализированный	специализированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+31	Drive	Drive	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	PX	Px	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	2	2	NUM	_	_	30	nummod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	позиционирующийся	позиционируться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	37	amod	_	_
+36	каквычислительная	каквычислительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	платформа	платформа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+38	для	для	ADP	_	_	39	case	_	_
+39	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	conj	_	_
+42	беспилотными	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	43	amod	_	_
+43	автомобилями.	автомобилями.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+
+# sent_id = 84160
+# text = Компания ранее уже демонстрировалаего возможности, однако испытания проходили на закрытой трассе.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	ранее	ранее	ADV	_	Degree=Pos	1	advmod	_	_
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	_
+4	демонстрировалаего	демонстрировалаий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+8	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+9	проходили	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	закрытой	закрытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	трассе	трасса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 84161
+# text = BB8 -- там автомобиль показал, что умеет ездить по грунтовым дорогам, передвигаться по дорогам с отсутствующей разметкой, проходить крутые и слепые повороты, а также объезжать препятствия на проезжей части.Калифорния считается одним из самых благоприятных американских штатов для испытаний беспилотных автомобилей -- именно в этом штате, например, беспилотные автомобили Google впервые появилисьна дорогах общего пользования.
+1	BB8	BB8	NUM	_	_	0	nummod	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	там	там	ADV	_	Degree=Pos	5	advmod	_	_
+4	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+9	ездить	ездить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	по	по	ADP	_	_	12	case	_	_
+11	грунтовым	грунтовый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	nsubj	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	дорогам	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	14	obl	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	отсутствующей	отсутствуть	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	разметкой	разметка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	nsubj	_	_
+22	крутые	крутой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	слепые	слепой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	conj	_	_
+25	повороты	поворот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	а	а	CCONJ	_	_	29	cc	_	_
+28	также	также	ADV	_	Degree=Pos	29	advmod	_	_
+29	объезжать	объезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	conj	_	_
+30	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	29	obj	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	проезжей	проезжа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	_
+33	части.	части.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl:agent	_	SpaceAfter=No
+34	Калифорния	Калифорния	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj:pass	_	_
+35	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+36	одним	один	NUM	_	Case=Ins|Gender=Masc	35	nummod	_	_
+37	из	из	ADP	_	_	41	case	_	_
+38	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	благоприятных	благоприятной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+40	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	штатов	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+42	для	для	ADP	_	_	43	case	_	_
+43	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	41	nmod	_	_
+44	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	_
+46	--	--	PUNCT	_	_	45	punct	_	_
+47	именно	именно	PART	_	_	50	advmod	_	_
+48	в	в	ADP	_	_	50	case	_	_
+49	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	50	amod	_	_
+50	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	58	obl	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	например	например	ADV	_	Degree=Pos	58	parataxis	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	55	amod	_	_
+55	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	58	obj	_	_
+56	Google	Google	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	58	nsubj:pass	_	_
+57	впервые	впервые	ADV	_	Degree=Pos	58	advmod	_	_
+58	появилисьна	явилисьть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	35	conj	_	_
+59	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	58	obl	_	_
+60	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	61	amod	_	_
+61	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	61	punct	_	SpaceAfter=No
+
+# sent_id = 84162
+# text = Кроме юридической стороны для испытаний также благоприятен местный климат, поскольку камеры и лидары хуже работают в плохую погоду.
+1	Кроме	кроме	ADP	_	_	3	case	_	_
+2	юридической	юридический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+7	благоприятен	благоприятный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	местный	местный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	климат	климат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	7	mark	_	_
+12	камеры	камер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	лидары	лидар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+15	хуже	плохо	ADV	_	Degree=Cmp	16	advmod	_	_
+16	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	плохую	плохой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	погоду	погода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 84163
+# text = Кроме NVIDIA и Google разрешением на испытания беспилотных автомобилей в Калифорнии обладают еще 18 организаций, в том числе Ford, Tesla Motors и Faraday Future.Николай Воронцов
+1	Кроме	кроме	ADP	_	_	5	case	_	_
+2	NVIDIA	Nvidia	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	Google	Google	PROPN	_	Foreign=Yes	2	conj	_	_
+5	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obl	_	_
+8	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	еще	еще	ADV	_	Degree=Pos	14	advmod	_	_
+14	18	18	NUM	_	_	15	nummod	_	_
+15	организаций	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	19	amod	_	_
+19	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	advmod	_	_
+20	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Tesla	Tesla	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+23	Motors	motors	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	Faraday	Faraday	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+26	Future	Future	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+29	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+

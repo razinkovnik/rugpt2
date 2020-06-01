@@ -1,0 +1,570 @@
+# sent_id = 80863
+# text = Американские ученые вырастили изстволовых клеток ткань кишечника, имеющую нервную систему испособную ксамостоятельной перистальтике.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	вырастили	выраскать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	изстволовых	изстволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	ткань	ткань	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_
+7	кишечника	кишечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	имеющую	иметь	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	нервную	нервный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	испособную	испособный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	ксамостоятельной	ксамостоятельный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\n
+14	перистальтике	перистальтика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80864
+# text = Отчет оработе появился вжурнале Nature Medicine.
+1	Отчет	отчет	ADV	_	Degree=Pos	3	advmod	_	_
+2	оработе	оработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Medicine	Medicine	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 80865
+# text = Несмотря накажущуюся простоту кишечник представляет собой сложный орган сразнообразным функциями: онпереваривает пищу, всасывает получившиеся питательные вещества, обеспечивает перистальтику (продвижение пищевой массы спищеварительными соками, или химуса), постоянно обновляет свою эпителиальную выстилку, вырабатывает защитную слизь, поддерживает жизнеспособность микробиома ит.д.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	накажущуюся	накажущийся	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	простоту	простота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+4	кишечник	кишечник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+5	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собой	себя	PRON	_	Case=Ins	5	obl	_	_
+7	сложный	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	орган	орган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+9	сразнообразным	сразнообразный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	функциями	функция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	онпереваривает	онпереваривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	SpacesAfter=\n
+13	пищу	пища	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	всасывает	всасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+16	получившиеся	получляться	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	18	amod	_	_
+17	питательные	питательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	перистальтику	перистальтика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	продвижение	продвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	parataxis	_	SpacesAfter=\n
+24	пищевой	пищевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	спищеварительными	спищеварительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	соками	сок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	или	или	CCONJ	_	_	30	cc	_	_
+30	химуса	химус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	_
+33	постоянно	постоянно	ADV	_	Degree=Pos	34	advmod	_	_
+34	обновляет	обновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	37	amod	_	SpacesAfter=\n
+36	эпителиальную	эпителиальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	выстилку	выстилка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	вырабатывает	вырабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+40	защитную	защитный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	слизь	слизь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpacesAfter=\n
+44	жизнеспособность	жизнеспособность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	43	obj	_	_
+45	микробиома	микробиом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+46	ит.д.	итак	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+
+# sent_id = 80866
+# text = Для этого ему необходима развитая нервная система, которая устроена значительно сложнее остальной автономной нервной системы.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+3	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	необходима	необходимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	развитая	развивать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+6	нервная	нервный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj:pass	_	_
+10	устроена	устраивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+11	значительно	значительно	ADV	_	Degree=Pos	12	advmod	_	_
+12	сложнее	сложный	ADJ	_	Degree=Cmp	10	advmod	_	_
+13	остальной	остальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+14	автономной	автономной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpacesAfter=\n
+16	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80867
+# text = Вчастности, она имеет дополнительные нервные сплетения: межмышечное, или ауэрбахово, контролирующее движения кишки, иподслизистое, или мейсснерово, управляющее кровотоком, секрецией ивсасыванием.
+1	Вчастности	Вчастность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+6	нервные	нервной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	сплетения	сплетение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	межмышечное	межмышечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	ауэрбахово	ауэрбахово	ADV	_	Degree=Pos	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	контролирующее	контролировать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	движения	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	obj	_	_
+16	кишки	кишка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	иподслизистое	иподслизисвать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	или	или	CCONJ	_	_	21	cc	_	_
+21	мейсснерово	мейсснерово	ADV	_	Degree=Pos	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	управляющее	управлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	conj	_	_
+24	кровотоком	кровоток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	секрецией	секреция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+27	ивсасыванием	ивсасывание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80868
+# text = Из-за этого некоторые авторы выделяют еевсамостоятельный отдел автономной нервной системы.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+5	выделяют	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	еевсамостоятельный	еевсамостоятельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	отдел	отдел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	автономной	автономный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80869
+# text = Первые образцы кишечной ткани, содержащие правильно организованный эпителий имышечную ткань (кишечные органоиды), были получены в2010году, однако нейронов вних небыло.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	образцы	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+3	кишечной	кишечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	SpacesAfter=\n
+7	правильно	правильно	ADV	_	Degree=Pos	8	advmod	_	_
+8	организованный	организовывать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	эпителий	эпителия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+10	имышечную	имышечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	кишечные	кишечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	органоиды	органоид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	SpacesAfter=\n
+18	получены	получать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+19	в2010году	в2010года	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	однако	однако	ADV	_	Degree=Pos	22	parataxis	_	_
+22	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_
+23	вних	вний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+24	небыло	небыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 80870
+# text = Сейчас таже лаборатория вМедцентре Детской больницы Цинциннати сколлегами издругих научных центров США, Франции, и Австралии вырастила полноценную ткань кишки сфункционирующей нервной системой, подражая естественному эмбриональному развитию кишечника.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	18	advmod	_	_
+2	таже	таже	PART	_	_	3	advmod	_	_
+3	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+4	вМедцентре	вмедцентре	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	Детской	детский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+6	больницы	больница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	Цинциннати	Цинциннать	NUM	_	Case=Gen	8	nummod	_	_
+8	сколлегами	сколлега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl:agent	_	_
+9	издругих	издругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Франции	франция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	и	и	CCONJ	_	_	17	cc	_	SpacesAfter=\n
+17	Австралии	австралия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	conj	_	_
+18	вырастила	вырасщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	полноценную	полноценный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	ткань	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	кишки	кишка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	сфункционирующей	сфункционируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+23	нервной	нервный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\n
+26	подражая	подражать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+27	естественному	естественный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+28	эмбриональному	эмбриональный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	obl	_	_
+30	кишечника	кишечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80871
+# text = Напервой стадии процесса они поотработанной технологии вырастили кишечные органоиды сфероидной формы, соответствующим образом направив дифференцировку человеческих эмбриональных ииндуцированных плюрипотентных стволовых клеток.
+1	Напервой	Напервый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+3	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+5	поотработанной	поотработанный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+6	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	вырастили	выращивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	кишечные	кишечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	органоиды	органоид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	сфероидной	сфероидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	соответствующим	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpacesAfter=\n
+14	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+15	направив	направлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+16	дифференцировку	дифференцировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+18	эмбриональных	эмбриональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+19	ииндуцированных	ииндуцировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	SpacesAfter=\n
+20	плюрипотентных	плюрипотентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80872
+# text = Затем, обрабатывая индуцированные плюрипотентные клетки ретиноевой кислотой, ученые получили изних клетки нервного гребня, служащие предшественницами кишечных нейронов.
+1	Затем	затем	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	обрабатывая	обрабатывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+4	индуцированные	индуцированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+5	плюрипотентные	плюрипотентный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+7	ретиноевой	ретиноевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	кислотой	кислота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	изних	оизни	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpacesAfter=\n
+14	нервного	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	гребня	гребень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	служащие	служащий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	предшественницами	предшественниец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	conj	_	_
+19	кишечных	кишечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 80873
+# text = Эти клетки ввели вразвивающиеся органоиды, где они мигрировали вмышечный иподслизистые слои и дифференцировались внейроны иглиальные (вспомогательные) клетки.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	ввели	вветать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	вразвивающиеся	вразвиваться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+5	органоиды	органоид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	где	где	ADV	_	Degree=Pos	9	advmod	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	мигрировали	мигрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	вмышечный	вмышечный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	иподслизистые	иподслизистый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	слои	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+13	и	и	CCONJ	_	_	12	cc	_	SpacesAfter=\n
+14	дифференцировались	дифференцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	9	conj	_	_
+15	внейроны	внейрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+16	иглиальные	иглиальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	вспомогательные	вспомогательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 80874
+# text = При этом сформировлись структуры, аналогичные мейсснерову иауэрбахову сплетениям.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpacesAfter=\n
+3	сформировлись	сформировваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	аналогичные	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	мейсснерову	мейсснеров	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	conj	_	_
+8	иауэрбахову	иауэрбахов	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	appos	_	_
+9	сплетениям	сплетение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 80875
+# text = Вполученных органоидах присутствовали также интерстициальные клетки Кахаля, которые обладают спонтанной электрической активностью ислужат водителями ритма для волн перистальтики.
+1	Вполученных	Вполученный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	органоидах	органоид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	присутствовали	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	также	также	ADV	_	Degree=Pos	3	advmod	_	SpacesAfter=\n
+5	интерстициальные	интерстициальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+7	Кахаля	Кахаль	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	спонтанной	спонтанный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	электрической	электрический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpacesAfter=\n
+13	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+14	ислужат	ислужать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+15	водителями	водитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
+16	ритма	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	перистальтики	перистальтика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80876
+# text = Втаких органах наблюдались перистальтические движения, происходящие под контролем собственной нервной системы (это проверили, блокируя нейроны тетродотоксином).
+1	Втаких	Втакой	DET	_	Case=Loc|Number=Plur	2	amod	_	_
+2	органах	орган	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	перистальтические	перистальтический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	движения	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	происходящие	происходить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	контролем	контроль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	собственной	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	SpacesAfter=\n
+15	проверили	проверять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	блокируя	блокировывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+18	нейроны	нейрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	тетродотоксином	тетродотоксин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80877
+# text = Причем происходило это как в пробирке, так ипосле имплантации ихпод капсулу мышиной почки.
+1	Причем	причем	CCONJ	_	_	2	cc	_	_
+2	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	как	как	SCONJ	_	_	6	cc	_	_
+5	в	в	ADP	_	_	6	case	_	SpacesAfter=\n
+6	пробирке	пробирка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	так	так	ADV	_	Degree=Pos	9	advmod	_	_
+9	ипосле	ипосло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+10	имплантации	имплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+11	ихпод	ихпод	ADP	_	_	12	case	_	_
+12	капсулу	капсула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	мышиной	мышин	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	почки	почка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80878
+# text = По гистологическому строению органоиды оказались схожи создоровой тонкой кишкой человека.
+1	По	по	ADP	_	_	3	case	_	SpacesAfter=\n
+2	гистологическому	гистологический	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	строению	строение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+4	органоиды	органоид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	схожи	схожи	ADP	_	_	9	case	_	_
+7	создоровой	создоровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	тонкой	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	кишкой	кишка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\n
+10	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80879
+# text = Кишечные органоиды снервной системой неимели собственных кровеносных сосудов ииммунных клеток, однако после имплантации их мышам организм животных снабжал ихвсем необходимым, отмечают исследователи.
+1	Кишечные	Кишечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	органоиды	органоид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+3	снервной	снервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+4	системой	системый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	неимели	неимель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\n
+6	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	кровеносных	кровеносный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	сосудов	сосуд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	ииммунных	ииммунный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	14	parataxis	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	имплантации	имплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	SpacesAfter=\n
+16	мышам	мыш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	_
+17	организм	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	снабжал	снабжать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	ихвсем	ихвсе	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+21	необходимым	необходимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	SpacesAfter=\n
+24	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 80880
+# text = "Полагаю, это одна изнаиболее сложных тканей изкогда-либо созданных.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Полагаю	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	одна	один	NUM	_	Case=Nom|Gender=Fem	8	nummod:gov	_	_
+6	изнаиболее	изнаиболее	ADV	_	Degree=Pos	8	advmod	_	_
+7	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\n
+9	изкогда-либо	изкогда-либо	ADV	_	Degree=Pos	10	advmod	_	_
+10	созданных	создавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80881
+# text = Унее есть внутренняя выстилка, абсорбирующая питательные вещества ивырабатывающая пищеварительные соки, полностью рабочие мышцы инервы, контролирующие ихволнообразные сокращения",-- заявил руководитель работы Джим Уэллс (Jim Wells).
+1	Унее	Уный	ADJ	_	Degree=Cmp	0	root	_	_
+2	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	внутренняя	внутренний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	выстилка	выстилка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	абсорбирующая	абсорбировать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	SpacesAfter=\n
+7	питательные	питательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	ивырабатывающая	ивырабатывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+10	пищеварительные	пищеварительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	соки	сок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	полностью	полностью	ADV	_	Degree=Pos	16	advmod	_	_
+14	рабочие	рабочий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	мышцы	мышца	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+16	инервы	инервый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	контролирующие	контролировать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+19	ихволнообразные	ихволнообразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	сокращения	сокращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	obj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,--	,--	PUNCT	_	_	20	punct	_	_
+23	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	SpacesAfter=\n
+24	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+25	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	Джим	джим	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	Уэллс	Уэллс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Jim	Jim	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+30	Wells	Wells	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80882
+# text = Основной целью научного коллектива является создание полноценных фрагментов кишечника для имплантации пациентам с различными врожденными иприобретенными его поражениями.
+1	Основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	научного	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	коллектива	коллектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+6	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	полноценных	полноценный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	фрагментов	фрагменты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	кишечника	кишечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	имплантации	имплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+13	с	с	ADP	_	_	18	case	_	SpacesAfter=\n
+14	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+15	врожденными	врождять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+16	иприобретенными	иприобретять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+18	поражениями	поражение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80883
+# text = Кроме того, органоиды уже сейчас позволяют моделировать подобные заболевания (например, заблокировав ген фактора транскрипции PHOX2B, ученые наблюдали изменения, характерные для болезни Гиршпрунга).
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	органоиды	органоид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesAfter=\n
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	сейчас	сейчас	ADV	_	Degree=Pos	7	advmod	_	_
+7	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	моделировать	моделировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	заблокировав	блокировать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	SpacesAfter=\n
+15	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+16	фактора	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	транскрипции	транскрипция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	PHOX2B	Phox2b	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	SpacesAfter=\n
+21	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+22	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	характерные	характерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Гиршпрунга	Гиршпрунг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80884
+# text = Также они подходят для изучения действия лекарств насекрецию иперистальтику кишечника.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	подходят	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	насекрецию	насекреция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	иперистальтику	иперистальтика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpacesAfter=\n
+10	кишечника	кишечник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80885
+# text = Кнастоящему времени для исследовательских целей созданы исовершенствуются органоидные модели различных органов итканей (включая печень, желудок, щитовидную железу, легкие идругие), однако органоидов савтономной нервной системой получить досих пор неудавалось.
+1	Кнастоящему	Кнастоить	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	исследовательских	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+6	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	исовершенствуются	исовершенствуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+8	органоидные	органоидный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	итканей	иткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpacesAfter=\n
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	включая	включая	ADV	_	Degree=Pos	34	advmod	_	_
+15	печень	печень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	желудок	желудок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	щитовидную	щитовидный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	железу	железа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	легкие	легкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	однако	однако	ADV	_	Degree=Pos	15	conj	_	SpacesAfter=\n
+27	органоидов	органоид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	савтономной	савтономный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+29	нервной	нервный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	obl	_	_
+31	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	dep	_	_
+32	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+34	неудавалось	неудаваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 80886
+# text = Подробнее почитать осоздании искусственных органов можно внашем материале.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	2	advmod	_	_
+2	почитать	читать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+3	осоздании	осоздание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+4	искусственных	искусственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	внашем	внаать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+8	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 80887
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

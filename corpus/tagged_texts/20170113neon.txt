@@ -1,0 +1,249 @@
+# sent_id = 87788
+# text = Компания Opera Software представила браузер Opera Neon, который отличается от своих аналогов необычным интерфейсом.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpacesBefore=\n
+2	Opera	opera	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Software	software	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	браузер	браузер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	Opera	opera	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Neon	Neon	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+11	от	от	ADP	_	_	13	case	_	_
+12	своих	свой	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	аналогов	аналог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+14	необычным	необычной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	интерфейсом	интерфейс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87789
+# text = Новый браузер доступен для загрузки на сайте Opera.Подавляющее большинство современных браузеров использует традиционно устоявшийся интерфейс, в котором наверху расположена панель вкладок, а ниже адресная строка, функциональные кнопки, закладки и расширения.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	браузер	браузер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	доступен	доступный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	загрузки	загрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+8	Opera.Подавляющее	Opera.Подавляющий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+10	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	браузеров	браузер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+13	традиционно	традиционне	ADV	_	Degree=Pos	14	advmod	_	_
+14	устоявшийся	устоять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	котором	который	PRON	_	Case=Loc	20	nmod	_	_
+19	наверху	наверху	ADV	_	Degree=Pos	20	advmod	_	_
+20	расположена	расположенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	acl:relcl	_	_
+21	панель	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+22	вкладок	вкладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	а	а	CCONJ	_	_	27	cc	_	_
+25	ниже	ниже	ADV	_	Degree=Pos	27	advmod	_	_
+26	адресная	адресный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	строка	строка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	функциональные	функциональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	кнопки	кнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	закладки	закладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	conj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	расширения	расширение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87790
+# text = По желанию пользователь может выводить дополнительные панели или прятать основные, однако никаких принципиальных отличий в интерфейсе популярных браузеров нет.В Opera Neon разработчики переработали интерфейс, убрав привычные элементы из рабочего окна браузера.
+1	По	по	ADP	_	_	2	case	_	_
+2	желанию	желание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+3	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	панели	панель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	прятать	прятать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+10	основные	основный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	однако	однако	ADV	_	Degree=Pos	25	advmod	_	_
+13	никаких	никакой	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+14	принципиальных	принципиальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	отличий	отличие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	obl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	интерфейсе	интерфейс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+18	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	браузеров	браузер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	нет.	нето	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	SpaceAfter=No
+21	В	в	ADP	_	_	22	case	_	_
+22	Opera	opera	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+23	Neon	Neon	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	переработали	перерабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	убрав	убирать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	25	advcl	_	_
+29	привычные	привычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	элементы	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_
+31	из	из	ADP	_	_	33	case	_	_
+32	рабочего	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	окна	окно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+34	браузера	браузер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87791
+# text = Вместо стартовой страницы с несколькими плитками в Neon используются круглые пиктограммы для обозначения сайтов, при этом в качестве фона могут использоваться обои рабочего стола пользователя из операционной системы.
+1	Вместо	вместо	ADP	_	_	3	case	_	_
+2	стартовой	стартовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	несколькими	несколько	NUM	_	Case=Ins	6	nummod	_	_
+6	плитками	плитк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Neon	Neon	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+9	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	круглые	круглый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	пиктограммы	пиктограмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	обозначения	обозначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	сайтов	сайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	при	при	ADP	_	_	17	case	_	_
+17	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	фона	фон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+21	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+22	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	21	xcomp	_	_
+23	обои	обой	DET	_	Case=Nom|Number=Plur	25	amod	_	_
+24	рабочего	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	стола	стол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nsubj	_	_
+26	пользователя	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	из	из	ADP	_	_	29	case	_	_
+28	операционной	операционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 87792
+# text = Пространство для хранения пиктограмм не ограничено -- если они не помещаются на стартовый экран, он автоматически удлиняется и появляется полоса прокрутки.
+1	Пространство	пространство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	хранения	хранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	пиктограмм	пиктограмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	ограничено	ограничивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	если	если	SCONJ	_	_	6	mark	_	_
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	помещаются	помещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	стартовый	стартовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	экран	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+17	автоматически	автоматически	ADV	_	Degree=Pos	18	advmod	_	_
+18	удлиняется	удлиняваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+21	полоса	полоса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+22	прокрутки	прокрутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87793
+# text = Кроме того, пиктограммы автоматически ранжируются -- чем чаще пользователь посещает какой-либо сайт, тем выше этот портал будет отображатьсяна стартовом экране.Активные вкладки в Opera Neon отображаются в правой части экрана.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	пиктограммы	пиктограмм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	автоматически	автоматически	ADV	_	Degree=Pos	6	advmod	_	_
+6	ранжируются	ранжируться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	чем	чем	SCONJ	_	_	9	mark	_	_
+9	чаще	часто	ADV	_	Degree=Cmp	11	advmod	_	_
+10	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	посещает	посещавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+12	какой-либо	какой-либо	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	сайт	сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	тем	тем	SCONJ	_	_	13	mark	_	_
+16	выше	выше	ADP	_	_	18	case	_	_
+17	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	портал	портал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	отображатьсяна	отображатьсивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	advcl	_	_
+21	стартовом	стартово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	_
+22	экране.	экранбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	SpaceAfter=No
+23	Активные	активный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	вкладки	вкладка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	Opera	opera	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+27	Neon	Neon	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	отображаются	отображаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	conj	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	правой	правый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+32	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 87794
+# text = По словам представителей Opera Software, крупные пиктограммы, которые содержат и иконку сайта, и превью страницы, позволяют комфортнее ориентироваться в открытых вкладках, чем традиционные мелкие значки сайтов на вкладках других браузеров.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	20	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Opera	opera	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Software	software	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	пиктограммы	пиктограмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	иконку	иконка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+14	сайта	сайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	превью	превь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	_
+18	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	комфортнее	комфортный	ADJ	_	Degree=Cmp	20	conj	_	_
+22	ориентироваться	ориентироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	21	dep	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	открытых	открытый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	вкладках	вкладка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	чем	чем	SCONJ	_	_	30	cc	_	_
+28	традиционные	традиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+29	мелкие	мелкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	значки	значок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	advmod	_	_
+31	сайтов	сайт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	вкладках	вкладка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	30	nmod	_	_
+34	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	браузеров	браузер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 87795
+# text = При желании пользователь может открыть сразу две вкладки в режиме разделенного экрана (split screen).
+1	При	при	ADP	_	_	2	case	_	_
+2	желании	желание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	открыть	открывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	сразу	сразу	ADV	_	Degree=Pos	7	advmod	_	_
+7	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	8	nummod:gov	_	_
+8	вкладки	вкладка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+11	разделенного	разделять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	split	split	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	screen	screen	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

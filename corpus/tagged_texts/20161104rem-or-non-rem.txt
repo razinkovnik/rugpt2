@@ -1,0 +1,457 @@
+# sent_id = 78072
+# text = Японские иамериканские ученые обнаружили гены, которые отвечают заразные фазы сна умышей.
+1	Японские	японский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	SpacesBefore=\n
+2	иамериканские	иамериканский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	гены	ген	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	SpacesAfter=\n
+8	отвечают	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	заразные	заразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	фазы	фаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	сна	сн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78073
+# text = Результаты работы опубликованы вжурнале Nature, имтакже посвящен сопутствующий редакционный материал.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	имтакже	имтакже	CCONJ	_	_	8	cc	_	_
+8	посвящен	посвящять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	SpacesAfter=\n
+9	сопутствующий	сопутствовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+10	редакционный	редакционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78074
+# text = Сон присущ млекопитающим, птицам, рептилиям, амфибиям, части рыби, вопределенной форме, некоторым беспозвоночным, включая мух икруглых червей.
+1	Сон	сон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	присущ	присуще	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	млекопитающим	млекопитать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	птицам	птица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	рептилиям	рептилия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	амфибиям	амфибия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	SpacesAfter=\n
+12	рыби	рыбь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вопределенной	вопределенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	некоторым	некоторый	DET	_	Case=Ins|Gender=Masc|Number=Sing	18	amod	_	_
+18	беспозвоночным	беспозвоночный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	включая	включая	ADV	_	Degree=Pos	18	parataxis	_	_
+21	мух	мух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	икруглых	икруглый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	SpacesAfter=\n
+23	червей	черви	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78075
+# text = Улюдей имлекопитающих сон происходит циклично, икаждый цикл проходит вдве фазы-- медленного (без быстрого движения глазных яблок, non-REM) ибыстрого (сбыстрым движением глазных яблок, REM) сна, которые отличаются пофизиологии илегко различимы наэлектроэнцефалограмме (ЭЭГ) и электромиограмме (ЭМГ).
+1	Улюдей	чеУловек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+2	имлекопитающих	имлекопитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	сон	сона	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	циклично	циклично	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	икаждый	икаждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	цикл	цикл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpacesAfter=\n
+10	вдве	вдва	NUM	_	Case=Nom|Gender=Fem	11	nummod:gov	_	_
+11	фазы	фаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	медленного	медленной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	без	без	ADP	_	_	18	case	_	_
+17	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+19	глазных	глазной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	яблок	яблоко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	non-REM	non-rem	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	ибыстрого	ибыстрого	ADV	_	Degree=Pos	9	advmod	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	сбыстрым	сбыстрый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	движением	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	parataxis	_	_
+28	глазных	глазной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	яблок	яблоко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	REM	rem	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	_
+33	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	которые	который	PRON	_	Case=Nom	36	nsubj	_	_
+36	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	33	acl:relcl	_	SpacesAfter=\n
+37	пофизиологии	пофизиология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	36	nsubj	_	_
+38	илегко	илегко	ADV	_	Degree=Pos	39	advmod	_	_
+39	различимы	различимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	36	amod	_	_
+40	наэлектроэнцефалограмме	наэлектроэнцефалограмма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	39	parataxis	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	ЭЭГ	Ээг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	appos	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	_
+44	и	и	CCONJ	_	_	45	cc	_	SpacesAfter=\n
+45	электромиограмме	электромиограмма	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	39	conj	_	_
+46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	ЭМГ	Эмг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	appos	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 78076
+# text = Потребность всне упредставителей одного биологического вида различается, однакото, отчего она зависит, изучено недостаточно.
+1	Потребность	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	всне	всне	ADV	_	Degree=Pos	3	advmod	_	_
+3	упредставителей	упредставитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	одного	один	NUM	_	Case=Gen|Gender=Masc	6	nummod	_	SpacesAfter=\n
+5	биологического	биологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	различается	различаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однакото	однакото	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	отчего	отчего	ADV	_	Degree=Pos	13	advmod	_	_
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+13	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	изучено	изучать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	SpacesAfter=\n
+16	недостаточно	недостаточно	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78077
+# text = Чтобы изучить возможное влияние генов напродолжительность сна, сотрудники Университета Цукубы иеще девяти научных центров Японии иСША вызвали назначением этилнитрозомочевины непредсказуемые спонтанные мутации усамцов мышей.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	_
+2	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	advcl	_	_
+3	возможное	возможный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	напродолжительность	напродолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n
+7	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+10	Университета	Университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Цукубы	Цукуба	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	иеще	иеще	ADV	_	Degree=Pos	15	advmod	_	_
+13	девяти	девять	NUM	_	Case=Gen	15	nummod	_	_
+14	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+16	Японии	Япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	иСША	исш	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	_
+18	вызвали	вызывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+19	назначением	назначение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+20	этилнитрозомочевины	этилнитрозомочевина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	непредсказуемые	непредсказуемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+22	спонтанные	спонтанный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	мутации	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+24	усамцов	усамец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpacesAfter=\n
+25	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78078
+# text = После этого ихскрестили создоровыми самками для случайного наследования мутаций потомством.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	ихскрестили	ихскрестить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	создоровыми	создоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	самками	самка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+6	для	для	ADP	_	_	5	case	_	_
+7	случайного	случайный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpacesAfter=\n
+8	наследования	наследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+9	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	потомством	потомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78079
+# text = Уболее чем 8000 получившихся гетерозиготных мышей втечение двух дней регистрировали продолжительность сна, атакже его структуру спомощью ЭЭГ иЭМГ.
+1	Уболее	Уболее	ADV	_	Degree=Cmp	6	case	_	_
+2	чем	чем	SCONJ	_	_	1	fixed	_	_
+3	8000	8000	NUM	_	_	6	nummod	_	_
+4	получившихся	лучиться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	6	amod	_	_
+5	гетерозиготных	гетерозиготный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+7	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+8	двух	два	NUM	_	Case=Gen	9	nummod	_	_
+9	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	регистрировали	регистрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+12	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	CCONJ	_	_	16	cc	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	SpacesAfter=\n
+16	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+17	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+18	ЭЭГ	ЭЭГ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	иЭМГ.	иэмод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+
+# sent_id = 78080
+# text = Это позволило выявить две популяции мышей свыраженными нарушениями сна.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выявить	выявливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	5	nummod:gov	_	_
+5	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	свыраженными	выражеть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	SpacesAfter=\n
+8	нарушениями	нарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl:agent	_	_
+9	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78081
+# text = Одна изних, названная "сонливыми", спала всреднем около 15 часов всутки, что на3,5 часа больше, чем всреднем поскринингу игораздо больше, чем среднее значение для лабораторной мыши.
+1	Одна	один	NUM	_	Case=Nom|Gender=Fem	2	nummod:gov	_	_
+2	изних	изний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	названная	называть	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	сонливыми	сонливый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	спала	спать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	около	около	ADP	_	_	13	case	_	_
+12	15	15	NUM	_	_	13	nummod	_	SpacesAfter=\n
+13	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+14	всутки	всутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	9	mark	_	_
+17	на3,5	на3,5	NUM	_	_	18	nummod	_	_
+18	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+19	больше	больше	ADV	_	Degree=Cmp	23	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	23	mark	_	_
+22	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+23	поскринингу	поскрининжать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+24	игораздо	игораздо	ADV	_	Degree=Pos	25	advmod	_	SpacesAfter=\n
+25	больше	больше	ADV	_	Degree=Cmp	23	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	чем	чем	SCONJ	_	_	29	cc	_	_
+28	среднее	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	значение	значение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	advmod	_	_
+30	для	для	ADP	_	_	32	case	_	_
+31	лабораторной	лабораторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	мыши	мыша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 78082
+# text = Медленный сон уних оказался значительно глубже, чем уобычных животных, при этом они нормально отвечали навведение кофеина (тоесть центры пробуждения уних небыли затронуты).
+1	Медленный	медленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	сон	сон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	уних	оуни	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	SpacesAfter=\n
+4	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	значительно	значительно	ADV	_	Degree=Pos	6	advmod	_	_
+6	глубже	глубоко	ADV	_	Degree=Cmp	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чем	чем	SCONJ	_	_	10	cc	_	_
+9	уобычных	уобычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
+15	нормально	нормально	ADV	_	Degree=Pos	16	advmod	_	SpacesAfter=\n
+16	отвечали	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+17	навведение	навведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	кофеина	кофеин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	тоесть	тоедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	dep	_	_
+21	центры	центр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	пробуждения	пробуждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	уних	уний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	nmod	_	_
+24	небыли	небыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	SpacesAfter=\n
+25	затронуты	затродывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78083
+# text = Циркадные ритмы уних также нарушены небыли.
+1	Циркадные	Циркадный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ритмы	ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	уних	оуни	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	нарушены	нарушать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	небыли	небыль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 78084
+# text = Анализ ДНК "сонливых" мышей выявил точечную мутацию вгене, кодирующем протеинкиназу SIK3, активную повсему мозгу иорганизму, анетолько вцентрах сна.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	сонливых	сонливый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+7	выявил	выявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	точечную	точечной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	мутацию	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+10	вгене	вгена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	кодирующем	кодировать	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	протеинкиназу	протеинкиназа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	SIK3	SIK3	NUM	_	_	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	активную	активный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+17	повсему	повсий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	мозгу	мозг	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+19	иорганизму	иорганизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	анетолько	анетолько	SCONJ	_	_	7	mark	_	SpacesAfter=\n
+22	вцентрах	вцентрах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+23	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78085
+# text = Вызывая такуюже мутацию уздоровых мышей, ученые наблюдали схожие нарушения сна.
+1	Вызывая	вызывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	такуюже	такуюже	PART	_	_	3	advmod	_	_
+3	мутацию	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	уздоровых	уздоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+9	схожие	схожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	obj	_	_
+11	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78086
+# text = Воспроизведение ееумух-дрозофил икруглых червей также влияло наихсноподобное состояние, что свидетельствует обэволюционной сохранности связи SIK3со сном.
+1	Воспроизведение	воспроизведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	ееумух	ееумуха	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	дрозофил	дрозофила	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+5	икруглых	икруглый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	червей	черовь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	также	также	ADV	_	Degree=Pos	8	advmod	_	SpacesAfter=\n
+8	влияло	влиять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	наихсноподобное	наихсноподобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	обэволюционной	обэволюционный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpacesAfter=\n
+15	сохранности	сохранность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+16	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+17	SIK3со	Sik3со	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	сном	сон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78087
+# text = Умышей издругой популяции, названных "бессонными", продолжительность быстрого сна была снижена на44процента посравнению с обычными животными.
+1	Умышей	Умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+2	издругой	издругий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	названных	называть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	бессонными	бессонный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	obl:agent	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+10	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+11	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	сна	сон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	снижена	снигать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	на44процента	на44процента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+16	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	_
+17	с	с	ADP	_	_	19	case	_	SpacesAfter=\n
+18	обычными	обычный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78088
+# text = Анализ ихДНК определил мутацию вгене, кодирующем ионный канал NALCN, который, как было показано ранее, участвует врегуляции циркадных ритмов дрозофил.
+1	Анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ихДНК	ихднк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	определил	определять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мутацию	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	вгене	вгена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кодирующем	кодировать	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	ионный	ионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=\n
+9	канал	канал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	NALCN	Nalcn	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	19	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	как	как	ADV	_	Degree=Pos	16	advmod	_	_
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	parataxis	_	_
+17	ранее	ранее	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+20	врегуляции	врегуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+21	циркадных	циркадный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpacesAfter=\n
+22	ритмов	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+23	дрозофил	дрозофила	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	20	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78089
+# text = У"бессонных" мышей также наблюдалось нарушение этих ритмов, в отличие от"сонливой" популяции.
+1	У	у	ADP	_	_	5	case	_	SpaceAfter=No
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	бессонных	бессонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	мышей	мыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+7	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+9	этих	этот	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	ритмов	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	18	case	_	SpacesAfter=\n
+13	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	от	от	ADP	_	_	13	fixed	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	сонливой	сонливый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78090
+# text = При этом мозговые волны, зарегистрированные наЭЭГ, вобеих мутантных популяциях отличались отнормы ипри быстром, ипри медленном сне, и при бодрствовании, тоесть обе мутации приводили кнарушениям мозговой активности влюбом состоянии.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+3	мозговые	мозговой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	волны	волна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	зарегистрированные	регистрировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	наЭЭГ	наээга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	вобеих	воба	NUM	_	Case=Gen|Gender=Fem	11	nummod	_	SpacesAfter=\n
+10	мутантных	мутантный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	популяциях	популяция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+12	отличались	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	отнормы	отнорма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+14	ипри	ипри	ADP	_	_	15	case	_	_
+15	быстром	быстр	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ипри	ипри	ADP	_	_	19	case	_	_
+18	медленном	медленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	сне	сон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	23	cc	_	SpacesAfter=\n
+22	при	при	ADP	_	_	23	case	_	_
+23	бодрствовании	бодрствование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+26	обе	оба	NUM	_	Case=Nom|Gender=Fem	27	nummod:gov	_	_
+27	мутации	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	приводили	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+29	кнарушениям	кнарушение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	28	obl	_	_
+30	мозговой	мозговой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	SpacesAfter=\n
+31	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	влюбом	влюбой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+

@@ -1,0 +1,506 @@
+# sent_id = 74124
+# text = "АвтоКрАЗ" разработала беспилотную версию бронеавтомобиля Spartan, говорится в сообщении украинской компании.
+1	"	"	PUNCT	_	_	2	punct	_	SpacesBefore=\n|SpaceAfter=No
+2	АвтоКрАЗ"	АвтоКрАЗ"	PUNCT	_	_	3	punct	_	_
+3	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	беспилотную	беспилотный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	бронеавтомобиля	бронеавтомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Spartan	Spartan	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	украинской	украинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 74125
+# text = Новые машины предполагается использовать для перевозки боеприпасов, продовольствия, топлива и медикаментов в зоне боевых действий, а также для эвакуации раненых с поля боя.Во многих странах сегодня активно ведутся разработки беспилотных версий бронированной техники.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	nsubj:pass	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	боеприпасов	боеприпас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	продовольствия	продовольствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	медикаментов	медикамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	4	cc	_	_
+20	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	эвакуации	эвакуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	_
+23	раненых	раненый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	obl	_	_
+26	боя	бой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Во	в	ADP	_	_	30	case	_	_
+29	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	_
+30	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	33	obl	_	_
+31	сегодня	сегодня	ADV	_	Degree=Pos	33	advmod	_	_
+32	активно	активно	ADV	_	Degree=Pos	33	advmod	_	_
+33	ведутся	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	_
+34	разработки	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	33	nsubj:pass	_	_
+35	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	бронированной	бронировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+38	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 74126
+# text = Например, ранее беспилотный вариант бронеавтомобиля "Тигр" представила российская Военно-промышленная компания.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ранее	ранее	ADV	_	Degree=Pos	4	advmod	_	_
+4	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+6	бронеавтомобиля	бронеавтомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Тигр	Тигр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	Военно-промышленная	Военно-промышленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 74127
+# text = Ни в одной стране мира такая беспилотная техника на вооружение не принята, поскольку военные пока проводят ее испытания, чтобы определить тактику применения машин-роботов.Беспилотный Spartan получил систему автопилота PilotDrive, в состав которой входят тепловизор с системой автоматического целеуказания и захвата, видеокамера с обзором 360 градусов, передняя и задняя радиолокационные станции, дальномер и датчик присутствия человека, способны обнаруживать людей в радиусе 18 метров от машины.Согласно утверждению украинской компании, автопилот способен распознавать дорогу и препятствия вокруг нее.
+1	Ни	ни	PART	_	_	4	advmod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	одной	один	NUM	_	Case=Loc|Gender=Fem	4	nummod	_	_
+4	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+5	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+7	беспилотная	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	техника	техника	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	принята	принимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+15	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+16	пока	пока	ADV	_	Degree=Pos	17	advmod	_	_
+17	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+18	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obj	_	_
+19	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	17	mark	_	_
+22	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	advcl	_	_
+23	тактику	тактика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	-роботов.	-роботовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	Беспилотный	Беспилотный	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+28	Spartan	Spartan	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	автопилота	автопилот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+32	PilotDrive	PilotDrive	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obl	_	_
+36	которой	который	PRON	_	Case=Gen	35	nmod	_	_
+37	входят	вхость	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+38	тепловизор	тепловизор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
+39	с	с	ADP	_	_	40	case	_	_
+40	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	38	nmod	_	_
+41	автоматического	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
+42	целеуказания	целеуказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	захвата	захват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	видеокамера	видеокамер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+47	с	с	ADP	_	_	48	case	_	_
+48	обзором	обзор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	46	obl	_	_
+49	360	360	NUM	_	_	50	nummod	_	_
+50	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	_
+52	передняя	переднять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	37	advcl	_	_
+53	и	и	CCONJ	_	_	54	cc	_	_
+54	задняя	заднять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	52	conj	_	_
+55	радиолокационные	радиолокационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	56	amod	_	_
+56	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	54	obj	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	дальномер	дальномер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	56	conj	_	_
+59	и	и	CCONJ	_	_	60	cc	_	_
+60	датчик	датчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	56	conj	_	_
+61	присутствия	присутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	60	nmod	_	_
+62	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
+63	,	,	PUNCT	_	_	62	punct	_	_
+64	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+65	обнаруживать	обнаруживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	72	dep	_	_
+66	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	65	obj	_	_
+67	в	в	ADP	_	_	68	case	_	_
+68	радиусе	радиус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	65	obl	_	_
+69	18	18	NUM	_	_	70	nummod	_	_
+70	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	68	nmod	_	_
+71	от	от	ADP	_	_	72	case	_	_
+72	машины.	машины.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	64	nmod	_	SpaceAfter=No
+73	Согласно	согласно	ADP	_	_	74	case	_	_
+74	утверждению	утверждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	64	nmod	_	_
+75	украинской	украинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	76	amod	_	_
+76	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	74	nmod	_	SpaceAfter=No
+77	,	,	PUNCT	_	_	76	punct	_	_
+78	автопилот	автопилот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	79	nsubj	_	_
+79	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	parataxis	_	_
+80	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	79	dep	_	_
+81	дорогу	дорога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	80	obj	_	_
+82	и	и	CCONJ	_	_	83	cc	_	_
+83	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	81	conj	_	_
+84	вокруг	вокруг	ADP	_	_	85	case	_	_
+85	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	83	nmod	_	SpaceAfter=No
+86	.	.	PUNCT	_	_	85	punct	_	SpaceAfter=No
+
+# sent_id = 74128
+# text = Следует отметить, что распознавание разных типов дороги -- одна из сложнейших задач в разработке беспилотной автомобильной техники.
+1	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	распознавание	распознавание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	одна	один	NUM	_	Case=Nom|Gender=Fem	2	advcl	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	сложнейших	сложный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	13	amod	_	_
+13	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+16	беспилотной	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	автомобильной	автомобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74129
+# text = Она требует серьезных вычислительных мощностей и быстрых алгоритмов обработки видеоизображения.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	вычислительных	вычислительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	мощностей	мощность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	быстрых	быстрый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	алгоритмов	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+9	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	видеоизображения	видеоизображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 74130
+# text = Серийных систем распознавания пока не существует.Судить о степени о степени автономности новой машины сложно.
+1	Серийных	серийный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+3	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	пока	пока	ADV	_	Degree=Pos	6	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	существует.	существуетотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	Судить	судить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	автономности	автономность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74131
+# text = На опубликованной "АвтоКрАЗ" видеозаписи беспилотный Spartan на небольшой скорости перемещается по испытательной площадке завода.
+1	На	на	ADP	_	_	5	case	_	_
+2	опубликованной	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	АвтоКрАЗ"	АвтоКрАЗ"	PUNCT	_	_	2	punct	_	_
+5	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+6	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Spartan	Spartaномер-знак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	небольшой	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+11	перемещается	перемещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	по	по	ADP	_	_	14	case	_	_
+13	испытательной	испытательный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	площадке	площадка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+15	завода	завод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74132
+# text = При этом машиной управляет оператор при помощи пульта, внешне похожего на профессиональный пульт для радиоуправляемых моделей.Беспилотный Spartan оснащен системой связи Wi-Fi/WiMax, вероятно, с направленным радиоканалом (в случае Wi-Fi), позволяющим поддерживать обмен данными на дальности от 10 до 50 километров.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	машиной	машина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+4	управляет	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+6	при	при	ADP	_	_	5	case	_	_
+7	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	fixed	_	_
+8	пульта	пульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	внешне	внешне	ADV	_	Degree=Pos	11	advmod	_	_
+11	похожего	похожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	профессиональный	профессиональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	пульт	пульт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	радиоуправляемых	радиоуправляемый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Беспилотный	Беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	Spartan	Spartaномер-знак	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+21	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+22	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+23	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	Wi-Fi/WiMax	Wi-Fi/WiMax	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	вероятно	вероятно	ADV	_	Degree=Pos	30	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	направленным	направленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	радиоканалом	радиоканал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	в	в	ADP	_	_	33	case	_	_
+33	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	parataxis	_	_
+34	Wi-Fi	Wi-Fi	X	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	34	punct	_	_
+37	позволяющим	позволять	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+38	поддерживать	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	37	dep	_	_
+39	обмен	обмен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	38	obj	_	_
+40	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	39	nmod	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	дальности	дальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	38	obl	_	_
+43	от	от	ADP	_	_	44	case	_	_
+44	10	10	NUM	_	_	42	nummod	_	_
+45	до	до	ADP	_	_	47	case	_	_
+46	50	50	NUM	_	_	47	nummod	_	_
+47	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 74133
+# text = Для навигации машина использует GPS.Бронеавтомобиль Spartan был разработан канадской компанией Streit Group, основанной в 1992 году эмигрантом из России Германом Гуторовым.
+1	Для	для	ADP	_	_	2	case	_	_
+2	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	GPS.	GPS.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	Бронеавтомобиль	Бронеавтомобиль	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	Spartan	Spartan	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	разработан	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+10	канадской	канадский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	_
+12	Streit	Streit	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Group	group	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	основанной	основывать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	1992	1992	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+19	эмигрантом	эмигрант	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl:agent	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Германом	герман	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	appos	_	_
+23	Гуторовым	Гуторов	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74134
+# text = В незначительно измененном виде машина выпускается "АвтоКрАЗ" по лицензии.
+1	В	в	ADP	_	_	5	case	_	_
+2	незначительно	незначительно	ADV	_	Degree=Pos	3	advmod	_	_
+3	измененном	изменеть	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+5	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+6	выпускается	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	АвтоКрАЗ"	АвтоКрАЗ"	PUNCT	_	_	6	punct	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	лицензии	лицензия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 74135
+# text = Броневик создан в 2012 году на базе тяжелого американского пикапа Ford F-550.Боевая масса машины составляет 7,9 тонны при длине 6 метров, ширине 2,4 метра и высоте 2,4 метра.
+1	Броневик	Броневик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	2012	2012	NUM	_	_	5	nummod	_	_
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+8	тяжелого	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пикапа	пикап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	F-550.	f-550.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	SpaceAfter=No
+13	Боевая	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+17	7,9	7,9	NUM	_	_	18	nummod	_	_
+18	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+21	6	6	NUM	_	_	22	nummod	_	_
+22	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	ширине	ширина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+25	2,4	2,4	NUM	_	_	26	nummod	_	_
+26	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	высоте	высота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+29	2,4	2,4	NUM	_	_	30	nummod	_	_
+30	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 74136
+# text = Броневик оснащен дизельным турбированным двигателем и способен развивать скорость до 110 километров в час.
+1	Броневик	Броневик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	дизельным	дизельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	турбированным	турбированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	_
+8	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	110	110	NUM	_	_	12	nummod	_	_
+12	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74137
+# text = Запас хода машины по шоссе составляет 800 километров.
+1	Запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	шоссе	шоссе	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	800	800	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 74138
+# text = Броневик рассчитан на перевозку до 12 человек десанта.Сегодня военные во многих странах пока отдают предпочтение не конвертированным в беспилотные обычным бронемашинам, небольшим роботам.
+1	Броневик	Броневик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	перевозку	перевозка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	12	12	NUM	_	_	7	nummod	_	_
+7	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+8	десанта.	десанта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+9	Сегодня	Сегодня	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+11	во	в	ADP	_	_	13	case	_	_
+12	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+14	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+15	отдают	отдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+16	предпочтение	предпочтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	конвертированным	конвертировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+21	обычным	обычной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	22	amod	_	_
+22	бронемашинам	бронемашина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	небольшим	небольшой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	_
+25	роботам	робот	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 74139
+# text = Такие аппараты могут самостоятельно перемещаться между разными точками на местности, вести разведку, патрулирование, разминирование местности и помогать бойцам перевозить экипировку.Так, Морская пехота США использует небольших шестиколесных роботов TUGV.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	самостоятельно	самостоятельно	ADV	_	Degree=Pos	5	advmod	_	_
+5	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+6	между	между	ADP	_	_	8	case	_	_
+7	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	точками	точка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	местности	местность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+13	разведку	разведка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	патрулирование	патрулирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	разминирование	разминирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
+18	местности	местность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	помогать	помогать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+21	бойцам	боец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+22	перевозить	перевозить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	экипировку	экипировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Так	так	ADV	_	Degree=Pos	30	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	Морская	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	пехота	пехота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+29	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	28	nmod	_	_
+30	использует	использевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+32	шестиколесных	шестиколесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nsubj	_	_
+34	TUGV	Tugv	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 74140
+# text = Аппарат имеет на борту камеру и тепловизор, которые используются для разведки и рекогносцировки, а также для транспортировки грузов.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	тепловизор	тепловизор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj:pass	_	_
+10	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	рекогносцировки	рекогносцировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	19	cc	_	_
+17	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	транспортировки	транспортировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+20	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 74141
+# text = В состав оборудования робота также входит система обнаружения радиоактивных, биологических и химических загрязнителей.Василий Сычёв
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+3	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+6	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	радиоактивных	радиоактивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	биологических	биологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	conj	_	_
+14	загрязнителей	загрязнитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+17	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+

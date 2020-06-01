@@ -1,0 +1,132 @@
+# sent_id = 77826
+# text = Американские ученые обнаружили сходство конфигураций эндоплазматического ретикулума живых клеток иплотного ядерного вещества вкоре нейтронных звезд.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сходство	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	конфигураций	конфигурация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	эндоплазматического	эндоплазматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	ретикулума	ретикулум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	живых	живой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	иплотного	иплотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	ядерного	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+13	вкоре	вкоре	ADV	_	Degree=Pos	14	advmod	_	_
+14	нейтронных	нейтронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 77827
+# text = Результаты работы опубликованы вжурнале Physical ReviewC.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpacesAfter=\n
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Physical	Physical	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ReviewC	Reviewc	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 77828
+# text = Эндоплазматический ретикулум (ЭПР)-- это органелла эукариотических клеток, которая участвует всинтезе, накоплении, обмене и транспорте белков, липидов, углеводов, стероидов идругих веществ.
+1	Эндоплазматический	Эндоплазматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	ретикулум	ретикулум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	ЭПР	Эпр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	--	--	PUNCT	_	_	4	punct	_	_
+7	это	это	PART	_	_	8	cop	_	_
+8	органелла	органелла	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+9	эукариотических	эукариотический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	участвует	участвевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	всинтезе	всинтеза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	накоплении	накопление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	обмене	обмен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	SpacesAfter=\n
+20	транспорте	транспорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	_
+21	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	липидов	липид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	углеводов	углевод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	стероидов	стероид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	_
+28	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 77829
+# text = Она представляет собой складчатую мембрану, формирующую так называемые цистерны, отделенные отцитоплазмы.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	SpacesAfter=\n
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	складчатую	складчатый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	мембрану	мембрана	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	формирующую	формировать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+8	так	так	ADV	_	Degree=Pos	9	advmod	_	_
+9	называемые	называть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	цистерны	цистерна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	отделенные	отделять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	отцитоплазмы	отцитоплазм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77830
+# text = Как показало американо-израильское исследование, опубликованное в2013году, структура ЭПР напоминает многоэтажную парковку и представляет собой параллельные слои мембран, соединенные спиральными рампами (рампами Тэрасаки по фамилии первого автора работы).
+1	Как	как	ADV	_	Degree=Pos	5	mark	_	_
+2	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+3	американо-	американо-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	израильское	израильский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	опубликованное	опубликовывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	в2013году	в2013год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	ЭПР	Эпр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	многоэтажную	многоэтажный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	парковку	парковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	SpacesAfter=\n
+16	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+17	собой	себя	PRON	_	Case=Ins	16	dep	_	_
+18	параллельные	параллельной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	слои	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+20	мембран	мембрана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	соединенные	соединять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+23	спиральными	спиральный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	рампами	рамп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	obl	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	рампами	рамп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	parataxis	_	SpacesAfter=\n
+27	Тэрасаки	Тэрасаки	PART	_	_	29	advmod	_	_
+28	по	по	ADP	_	_	29	case	_	_
+29	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	_
+30	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 77831
+# text = Поданным моделирования, такая конфигурация соответствует минимальной эластической энергии поверхностей икраев слоев.
+1	Поданным	поданный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+2	моделирования	моделирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	конфигурация	конфигурация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	соответствует	соответствуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	минимальной	минимальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	эластической	эластический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+10	поверхностей	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	икраев	икрай	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

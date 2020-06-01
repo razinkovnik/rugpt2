@@ -1,0 +1,229 @@
+# sent_id = 90086
+# text = Воздушно-космические силы России получат первые истребители МиГ-35 в 2018 году.
+1	Воздушно-космические	Воздушно-космический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	получат	получивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	первые	первой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	МиГ-	МиГ-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	35	35	NUM	_	_	11	nummod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	2018	2018	NUM	_	_	11	nummod	_	_
+11	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 90087
+# text = Об этом, как сообщает РИА Новости, заявил генеральный директор российской самолетостроительной корпорации "МиГ" Илья Тарасенко.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	mark	_	_
+5	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+6	РИА	риа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	Новости	новость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	самолетостроительной	самолетостроительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	корпорации	корпорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	МиГ	миг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	Илья	илья	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+19	Тарасенко	Тарасенко	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 90088
+# text = По его словам, поставки первых самолетов мелкосерийного производства в войска начнутся после масштабной программы испытаний самолета.Летные испытания нового российского легкого истребителя начались 26 января 2017 года, а на следующей день состоялась официальная презентация самолета.
+1	По	по	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	поставки	поставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+6	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	мелкосерийного	мелкосерийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	войска	войска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	nmod	_	_
+12	начнутся	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	после	после	ADP	_	_	15	case	_	_
+14	масштабной	масштабный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+16	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+17	самолета.	самолетаей	DET	_	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	Летные	летной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	24	nsubj	_	_
+20	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+21	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	легкого	легкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+24	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	_
+25	26	26	NUM	_	_	24	nummod	_	_
+26	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	2017	2017	NUM	_	_	28	nummod	_	_
+28	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	а	а	CCONJ	_	_	34	cc	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	следующей	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	obl	_	_
+34	состоялась	состояться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	_
+35	официальная	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	презентация	презентация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+37	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 90089
+# text = По словам главкома ВКС России Виктора Бондарева, которые передает ТАСС, в перспективе все легкие истребители будут заменены на МиГ-35.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	19	parataxis	_	_
+3	главкома	главком	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ВКС	Вкс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Виктора	виктор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Бондарева	Бондарев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	ТАСС	тасс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+15	все	весь	DET	_	Case=Nom|Number=Plur	17	amod	_	_
+16	легкие	легкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	заменены	заменять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	МиГ-	Миг-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
+22	35	35	NUM	_	_	19	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 90090
+# text = Точные сроки замены не уточняются.
+1	Точные	точный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	сроки	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 90091
+# text = Первые 30 машин военные должны получить до конца 2020 года.Проектирование МиГ-35 завершилось весной 2016 года.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	30	30	NUM	_	_	3	nummod	_	_
+3	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+7	до	до	ADP	_	_	8	case	_	_
+8	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	2020	2020	NUM	_	_	10	nummod	_	_
+10	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	Проектирование	Проектирование	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	МиГ-	МиГ-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	35	35	NUM	_	_	11	nummod	_	_
+14	завершилось	завершиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+15	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+16	2016	2016	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 90092
+# text = При длине 17,3 метра, высоте 4,73 метра и размахе крыла 11,99 метра максимальная взлетная масса истребителя составляет 23,5 тонны.
+1	При	при	ADP	_	_	2	case	_	_
+2	длине	длин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+3	17,3	17,3	NUM	_	_	4	nummod	_	_
+4	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
+7	4,73	4,73	NUM	_	_	8	nummod	_	_
+8	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	размахе	размах	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	_
+11	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	11,99	11,99	NUM	_	_	13	nummod	_	_
+13	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	максимальная	максимальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+17	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	23,5	23,5	NUM	_	_	20	nummod	_	_
+20	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 90093
+# text = Истребитель будет оснащен модернизированными двигателями РД-33МК со всеракурсным управлением вектором тяги.Самолет вооружен 30-миллиметровой пушкой ГШ-30-1 и оснащен десятью точками подвески для авиационных ракет и бомб общей массой до 6,5 тонны.
+1	Истребитель	Истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	модернизированными	модернизировать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+6	РД-	РД-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	33МК	33мк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+8	со	с	ADP	_	_	10	case	_	_
+9	всеракурсным	всеракурсный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+11	вектором	вектор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	_
+12	тяги.	тяги.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	SpaceAfter=No
+13	Самолет	Самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+14	вооружен	вооружать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+15	30-миллиметровой	30-миллиметровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	пушкой	пушка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+17	ГШ	Гш	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	30-	30-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	1	1	NUM	_	_	17	nummod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+23	десятью	десять	NUM	_	Case=Ins	24	nummod	_	_
+24	точками	точка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	_
+25	подвески	подвеска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	для	для	ADP	_	_	28	case	_	_
+27	авиационных	авиационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	бомб	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	conj	_	_
+31	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+33	до	до	ADP	_	_	35	case	_	_
+34	6,5	6,5	NUM	_	_	35	nummod	_	_
+35	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 90094
+# text = МиГ-35 будет оснащен полностью "стеклянной" кабиной пилота, радиолокационной станцией "Жук-А" с активной фазированной антенной решеткой и информационно-прицельными системами пятого поколения.Василий Сычёв
+1	МиГ-	МиГ-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	35	35	NUM	_	_	4	nummod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	стеклянной	стеклянный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	кабиной	кабина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+10	пилота	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	радиолокационной	радиолокационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	станцией	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Жук-А"	Жук-А"	PUNCT	_	_	13	punct	_	_
+16	с	с	ADP	_	_	20	case	_	_
+17	активной	активный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+18	фазированной	фазированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	антенной	антенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	решеткой	решетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	информационно-прицельными	информационно-прицельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	conj	_	_
+24	пятого	пятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+28	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
+

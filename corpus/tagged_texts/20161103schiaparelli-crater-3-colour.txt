@@ -1,0 +1,127 @@
+# sent_id = 78010
+# text = Европейское космическое агентство опубликовало новую серию кадров места падения "Скиапарелли" -- спускаемого модуля миссии "ЭкзоМарс".
+1	Европейское	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpacesBefore=\n
+2	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	опубликовало	опубликовавать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	кадров	кадры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	падения	падение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	--	--	PUNCT	_	_	11	punct	_	_
+14	спускаемого	спускать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	модуля	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+16	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	ЭкзоМарс	ЭкзоМарс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	appos	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78011
+# text = На цветных изображениях различимы детали ударного кратера, а также видно, как под действием марсианского ветра сместился парашют, на котором спускался аппарат.Фотографии были сделаны орбитальным аппаратом Mars Reconnaissance Orbiter (NASA) 1 ноября 2016 года.
+1	На	на	ADP	_	_	3	case	_	_
+2	цветных	цветной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	изображениях	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	_
+4	различимы	различимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	видно	видно	ADV	_	Degree=Pos	15	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	15	cc	_	_
+14	под	под	ADP	_	_	15	case	_	_
+15	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+16	марсианского	марсианской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	сместился	сместить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+19	парашют	парашют	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	котором	который	PRON	_	Case=Loc	23	obl	_	_
+23	спускался	спускаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
+24	аппарат.	аппарат.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+25	Фотографии	фотография	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+28	орбитальным	орбитальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+30	Mars	Mars	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Reconnaissance	Reconnaissance	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	Orbiter	Orbiter	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	_
+36	1	1	NUM	_	_	27	nummod	_	_
+37	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	2016	2016	NUM	_	_	39	nummod	_	_
+39	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 78012
+# text = Благодаря сложению нескольких снимков, сделанных с помощью различных фильтров, стали лучше различимы некоторые детали опубликованного неделю назад изображения.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	сложению	сложение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+3	нескольких	несколько	NUM	_	Case=Gen	4	nummod	_	_
+4	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сделанных	делать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	с	с	ADP	_	_	10	case	_	_
+8	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	fixed	_	_
+9	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	фильтров	фильтр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	лучше	хорошо	ADV	_	Degree=Cmp	12	advmod	_	_
+14	различимы	различимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	12	amod	_	_
+15	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	16	amod	_	_
+16	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+17	опубликованного	опубликовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+18	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	назад	назад	ADV	_	Degree=Pos	17	advmod	_	_
+20	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78013
+# text = Так, серия белых пятен вокруг ударного кратера, по словам ученых, не шум, а реальные объекты.
+1	Так	так	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	серия	серия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+4	белых	белый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	пятен	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	вокруг	вокруг	ADP	_	_	8	case	_	_
+7	ударного	ударный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
+12	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	шум	шум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	реальные	реальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	объекты	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78014
+# text = Скорее всего, они представляют собой обломки "Скиапарелли".
+1	Скорее	скорее	ADV	_	Degree=Cmp	5	advmod	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	собой	себя	PRON	_	Case=Ins	7	obl	_	_
+7	обломки	обломок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+

@@ -1,0 +1,250 @@
+# sent_id = 87997
+# text = Автомобиль EcoPowered, разработанный итальянской компанией Acciona, стал первым электромобилем, добравшимся до финиша ралли-марафона "Дакар".
+1	Автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpacesBefore=\n
+2	EcoPowered	EcoPowered	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+5	итальянской	итальянский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	Acciona	Acciona	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	электромобилем	электромобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	добравшимся	добраваться	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	9	amod	_	_
+14	до	до	ADP	_	_	15	case	_	_
+15	финиша	финиш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+16	ралли-марафона	ралли-марафон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Дакар	Дакар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 87998
+# text = Об этом сообщает Electrek.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Electrek	Electrek	PROPN	_	Foreign=Yes	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 87999
+# text = "Дакар" -- ежегодный (кроме 2008 года) ралли-марафон, проводящийся каждый январь с 1978 года.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Дакар	Дакар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	--	--	PUNCT	_	_	2	punct	_	_
+5	ежегодный	ежегодный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	кроме	кроме	ADP	_	_	9	case	_	_
+8	2008	2008	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	ралли	ралть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	-марафон	-марафон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	проводящийся	проводящийся	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	январь	январь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	1978	1978	NUM	_	_	19	nummod	_	_
+19	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 88000
+# text = Гонка известна своей протяженностью (некоторые маршруты более 10 тысяч километров) и сложностью условий -- иногда до финиша не удается добраться даже половине участников.
+1	Гонка	гонка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	известна	известный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	4	amod	_	_
+4	протяженностью	протяженность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	маршруты	маршрута	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+8	более	более	ADV	_	Degree=Cmp	10	nummod:gov	_	_
+9	10	10	NUM	_	_	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+11	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	сложностью	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	conj	_	_
+15	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	иногда	иногда	ADV	_	Degree=Pos	21	advmod	_	_
+18	до	до	ADP	_	_	19	case	_	_
+19	финиша	финиш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+22	добраться	добираться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	21	xcomp	_	_
+23	даже	даже	PART	_	_	24	advmod	_	_
+24	половине	половина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+25	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 88001
+# text = В 2017 году маршрут протяженностью 8782 километров начинался в Асунсьоне (Парагвай), проходил через Ла-Пас (Боливия), а финиш располагался Буэнос-Айресе (Аргентина).В этом году Acciona EcoPowered стал первым автомобилем в истории "Дакара", который преодолел весь маршрут марафона, используя только электроэнергию, в общем зачете автомобилей электрокар попал на 57 место.
+1	В	в	ADP	_	_	3	case	_	_
+2	2017	2017	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	маршрут	маршрать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	протяженностью	протяженность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	8782	8782	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	начинался	начинаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Асунсьоне	Асунсьон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Парагвай	Парагвай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	проходил	проходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	через	через	ADP	_	_	17	case	_	_
+17	Ла-Пас	Ла-Пас	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Боливия	Боливия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	а	а	CCONJ	_	_	24	cc	_	_
+23	финиш	финиш	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+24	располагался	располагаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	35	conj	_	_
+25	Буэнос-Айресе	Буэнос-Айрес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	parataxis	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Аргентина	аргентина	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	appos	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	В	в	ADP	_	_	32	case	_	_
+31	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	32	amod	_	_
+32	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+33	Acciona	Acciona	PROPN	_	Foreign=Yes	35	nsubj	_	_
+34	EcoPowered	EcoPowered	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+36	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_
+40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+41	Дакара	Дакар	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	41	punct	_	_
+44	который	который	PRON	_	Case=Nom	45	nsubj	_	_
+45	преодолел	преодолевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+46	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	47	amod	_	_
+47	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	_
+48	марафона	марафон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	45	advcl	_	_
+51	только	только	PART	_	_	52	advmod	_	_
+52	электроэнергию	электроэнергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	56	obj	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	в	в	ADP	_	_	56	case	_	_
+55	общем	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	56	amod	_	_
+56	зачете	зачет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+57	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	56	nmod	_	_
+58	электрокар	электрокар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	59	nsubj	_	_
+59	попал	попадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+60	на	на	ADP	_	_	62	case	_	_
+61	57	57	NUM	_	_	62	nummod	_	_
+62	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	59	obl	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	SpaceAfter=No
+
+# sent_id = 88002
+# text = Ранее электромобилям не удавалось преодолеть гонку целиком, несмотря на то, что они участвовали в ралли -- для Acciona, например, "Дакар-2017" стал третьей по счету попыткой.Разработка экспериментального автомобиля EcoPowered ведется с 2012 года.
+1	Ранее	ранее	ADV	_	Degree=Cmp	4	advmod	_	_
+2	электромобилям	электромобиль	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	удавалось	удаваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	преодолеть	преодолать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	гонку	гонка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	целиком	целиком	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	несмотря	несмотря	ADV	_	Polarity=Neg	11	case	_	_
+10	на	на	ADP	_	_	9	fixed	_	_
+11	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	ралли	ралли	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	Acciona	Acciona	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	например	например	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Дакар	Дакар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+26	-2017	-2017	NUM	_	_	25	nummod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	_
+29	третьей	третий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+30	по	по	ADP	_	_	31	case	_	_
+31	счету	счет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	29	nmod	_	_
+32	попыткой	попытка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	nsubj:pass	_	_
+35	экспериментального	экспериментальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+37	EcoPowered	EcoPowered	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+39	с	с	ADP	_	_	41	case	_	_
+40	2012	2012	NUM	_	_	41	nummod	_	_
+41	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 88003
+# text = В машине установлен 250-киловаттный синхронный электродвигатель и шесть быстрозарядных аккумуляторных батарей с временем зарядки 60 минут -- время от времени автомобиль останавливается, чтобы зарядиться от машины поддержки.
+1	В	в	ADP	_	_	2	case	_	_
+2	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	установлен	установливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	250-киловаттный	250-киловаттный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	синхронный	синхронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	электродвигатель	электродвигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	и	и	CCONJ	_	_	11	cc	_	_
+8	шесть	шесть	NUM	_	Case=Nom	11	nummod:gov	_	_
+9	быстрозарядных	быстрозарядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	аккумуляторных	аккумуляторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+14	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	60	60	NUM	_	_	16	nummod	_	_
+16	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+22	останавливается	останавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	_
+25	зарядиться	зарядиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	22	advcl	_	_
+26	от	от	ADP	_	_	27	case	_	_
+27	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+28	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 88004
+# text = В качестве вспомогательного источника питания для систем безопасности и навигации используется 100-ваттная панель солнечных батарей, установленная на крыше электромобиля.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	вспомогательного	вспомогательной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+5	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+11	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	100-ваттная	100-ваттный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	панель	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14	солнечных	солнечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	установленная	устанавливать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	крыше	крыша	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+20	электромобиля	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

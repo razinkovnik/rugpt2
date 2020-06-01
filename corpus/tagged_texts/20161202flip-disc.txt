@@ -1,0 +1,172 @@
+# sent_id = 82817
+# text = Американская компания Breakfast разработала модульное блинкерное табло, которое может обновляться с частотой 30 кадров в секунду.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Breakfast	Breakfast	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	модульное	модульной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	блинкерное	блинкерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	табло	табло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	обновляться	обновляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	30	30	NUM	_	_	15	nummod	_	_
+15	кадров	кадр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 82818
+# text = Кратко об устройстверассказывает Hackaday.Блинкерное табло -- достаточно распространенный способ вывода редко обновляющейся информации в публичных местах, такие табло можно увидеть на общественном транспорте, железнодорожных вокзалах и в аэропортах.
+1	Кратко	кратко	ADV	_	Degree=Pos	3	advmod	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	устройстверассказывает	устройстверассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Hackaday.	hackaday.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+5	Блинкерное	Блинкерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	табло	табло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	достаточно	достаточно	ADV	_	Degree=Pos	3	advmod	_	_
+9	распространенный	распространенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+11	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	редко	редко	ADV	_	Degree=Pos	13	advmod	_	_
+13	обновляющейся	обновляться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+14	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	публичных	публичный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	такие	такой	DET	_	Case=Nom|Number=Plur	20	amod	_	_
+20	табло	табло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+21	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+22	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	nsubj	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	общественном	общественный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	транспорте	транспорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	железнодорожных	железнодорожный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
+28	вокзалах	вокзал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	25	conj	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	аэропортах	аэропорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 82819
+# text = Из-за низкой скорости обновления информации сфера применения блинкерных табло обычно ограничена, однако Breakfast сконструировали модульное табло, которое способно обновляться с частотой 30 кадров в секунду.
+1	Из-за	из-за	ADP	_	_	3	case	_	_
+2	низкой	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+4	обновления	обновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	сфера	сфера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+7	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	блинкерных	блинкерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	nmod	_	_
+9	табло	табло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+10	обычно	обычно	ADV	_	Degree=Pos	11	advmod	_	_
+11	ограничена	ограничивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+14	Breakfast	Breakfast	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	сконструировали	конструировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+16	модульное	модульный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	табло	табло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которое	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	17	acl:relcl	_	_
+21	обновляться	обновляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	20	dep	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+24	30	30	NUM	_	_	25	nummod	_	_
+25	кадров	кадр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 82820
+# text = В качестве "пикселей" в блинкерных табло, как правило, используются металлические пластинки с постоянным магнитом, который удерживает пластинку в текущем положении.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	пикселей	пиксель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	блинкерных	блинкерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	табло	табло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	как	как	SCONJ	_	_	11	cc	_	_
+11	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+14	металлические	металлический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	пластинки	пластинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	постоянным	постоянный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	магнитом	магнит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	который	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	удерживает	удерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	пластинку	пластинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	текущем	текущий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 82821
+# text = Пластинки обычно покрашены с одной стороны в черный, а с другой в более заметный цвет -- например, зеленый или белый.
+1	Пластинки	пластинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+2	обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	_
+3	покрашены	крашить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	одной	один	NUM	_	Case=Gen|Gender=Fem	6	nummod	_	_
+6	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	черный	черный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	более	более	ADV	_	Degree=Cmp	15	advmod	_	_
+15	заметный	заметный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	например	например	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	зеленый	зеленый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	parataxis	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 82822
+# text = При необходимости переключить пластинку подается ток на соленоид, установленный за нужным сегментом, и под воздействием магнитного поля пластинка с магнитом перекидывается в противоположное положение.
+1	При	при	ADP	_	_	2	case	_	_
+2	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	переключить	переключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	пластинку	пластинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	подается	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	соленоид	соленоид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	установленный	устанавливать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+11	за	за	ADP	_	_	13	case	_	_
+12	нужным	нужный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	сегментом	сегмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	под	под	ADP	_	_	17	case	_	_
+17	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	conj	_	_
+18	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	пластинка	пластинк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	магнитом	магнит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	_
+23	перекидывается	перекидываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	conj	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	противоположное	противоположный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+

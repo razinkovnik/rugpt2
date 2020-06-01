@@ -1,0 +1,367 @@
+# sent_id = 76864
+# text = Испанские археологи изучили найденные в пещере Ла Гарма (La Garma) кости пещерного льва и обнаружили на них отметины, сделанные людьми.
+1	Испанские	испанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	изучили	изучивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	пещере	пещерь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\n
+7	Ла	л	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Гарма	Гарма	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	La	la	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Garma	Garma	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	кости	кость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	obj	_	SpacesAfter=\n
+14	пещерного	пещерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	льва	льво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	obl	_	SpacesAfter=\n
+20	отметины	отметина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 76865
+# text = Ученые предположили, что древние люди охотились на львов и использовали их шкуры в ритуальных целях.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesAfter=\n
+7	охотились	охотиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	львов	льв	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	SpacesAfter=\n
+13	шкуры	шкура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	ритуальных	ритуальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	целях	цель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 76866
+# text = Исследование опубликовано в PloS ONE.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	SpacesAfter=\n
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	PloS	Plos	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+5	ONE.	One.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	iobj	_	SpaceAfter=No
+
+# sent_id = 76867
+# text = Пещерные львы появились в Европе и Сибири примерно 370 тысяч лет назад и вымерли, по разным данным, 12-10 тысяч лет назад, во время или вскоре по окончании последнего ледникового периода.
+1	Пещерные	пещерной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	львы	льв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+4	в	в	ADP	_	_	5	case	_	_
+5	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	Сибири	сибирь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	conj	_	_
+8	примерно	примерно	ADV	_	Degree=Pos	9	advmod	_	_
+9	370	370	NUM	_	_	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpacesAfter=\n
+12	назад	назад	ADV	_	Degree=Pos	11	advmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	вымерли	вымирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	22	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	12	12	NUM	_	_	22	nummod	_	SpaceAfter=No
+21	-10	-10	NUM	_	_	20	nummod	_	SpacesAfter=\n
+22	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nsubj	_	_
+23	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	назад	назад	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	во	во	ADP	_	_	23	case	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	fixed	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	вскоре	вскоре	ADV	_	Degree=Pos	26	conj	_	SpacesAfter=\n
+30	по	по	ADP	_	_	31	case	_	_
+31	окончании	окончание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_
+32	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	ледникового	ледниковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 76868
+# text = Ранее исследователи находили многочисленные доказательства того, что древние европейцы в эпоху палеолита охотились на крупных хищников (в том числе на представителей отряда медвежьих, кошачьих и псовых), но при этом лишь единичные доказательства (1, 2) указывали на то, что среди них были и пещерные львы.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	находили	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	многочисленные	многочисленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	доказательства	доказательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	европейцы	европеец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	эпоху	эпоха	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	палеолита	палеолит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	охотились	охотиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	SpacesAfter=\n
+15	на	на	ADP	_	_	17	case	_	_
+16	крупных	крупный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	хищников	хищник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	в	в	ADP	_	_	21	case	_	_
+20	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	21	amod	_	_
+21	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	advmod	_	_
+22	на	на	ADP	_	_	23	case	_	SpacesAfter=\n
+23	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+24	отряда	отряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	медвежьих	медвежий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+27	кошачьих	кошачей	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	conj	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	псовых	псовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	conj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	но	но	CCONJ	_	_	43	cc	_	_
+33	при	при	ADP	_	_	34	case	_	_
+34	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	43	obl	_	_
+35	лишь	лишь	PART	_	_	36	advmod	_	_
+36	единичные	единичной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	доказательства	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	43	nsubj	_	SpacesAfter=\n
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	1	1	NUM	_	_	37	nummod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	SpacesAfter=\n
+41	2	2	NUM	_	_	39	nummod	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpacesAfter=\n
+43	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+44	на	на	ADP	_	_	45	case	_	_
+45	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	43	obl	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	что	что	SCONJ	_	_	45	mark	_	_
+48	среди	среди	ADP	_	_	49	case	_	_
+49	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	45	advcl	_	_
+50	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	49	cop	_	_
+51	и	и	PART	_	_	52	advmod	_	_
+52	пещерные	пещерной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	53	amod	_	_
+53	львы	льв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	49	nsubj	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpaceAfter=No
+
+# sent_id = 76869
+# text = Поэтому ученые до сих пор не знают, зачем люди охотились на львов.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	7	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesAfter=\n
+3	до	до	ADP	_	_	7	advmod	_	_
+4	сих	сей	DET	_	Case=Gen|Number=Plur	3	fixed	_	_
+5	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	fixed	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	зачем	зачем	ADV	_	Degree=Pos	11	advmod	_	_
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpacesAfter=\n
+11	охотились	охотиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	львов	льв	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 76870
+# text = Ла Гарма на севере Испании представляет собой систему карстовых пещер.
+1	Ла	ла	PART	_	_	2	advmod	_	_
+2	Гарма	Гарма	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	SpacesAfter=\n
+4	севере	север	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Испании	испания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	собой	себя	PRON	_	Case=Ins	6	dep	_	SpacesAfter=\n
+8	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	карстовых	карстовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	пещер	пещера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76871
+# text = Здесь были найдены доказательства пребывания людей эпохи палеолита (в том числе наскальные рисунки и обработанные людьми кости животных).
+1	Здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	SpacesAfter=\n
+3	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	доказательства	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+5	пребывания	пребывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpacesAfter=\n
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	палеолита	палеолит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	в	в	ADP	_	_	12	case	_	_
+11	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	12	amod	_	SpacesAfter=\n
+12	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	parataxis	_	_
+13	наскальные	наскальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	рисунки	рисунок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	обработанные	обработать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+17	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	obl:agent	_	_
+18	кости	кость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+19	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76872
+# text = Останки пещерного льва были найдены в пещере IV, где примерно 14 тысяч лет назад древние европейцы совершали религиозные ритуалы (возможно, здесь было святилище).
+1	Останки	останк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	пещерного	пещерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	льва	льво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	пещере	пещерь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+8	IV	iv	NUM	_	_	5	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	где	где	ADV	_	Degree=Pos	18	advmod	_	_
+11	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	SpacesAfter=\n
+12	14	14	NUM	_	_	13	nummod	_	_
+13	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	назад	назад	ADV	_	Degree=Pos	10	advmod	_	_
+16	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	европейцы	европеец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	совершали	совершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpacesAfter=\n
+19	религиозные	религиозный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	ритуалы	ритуал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obj	_	SpacesAfter=\n
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	возможно	возможно	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	здесь	здесь	ADV	_	Degree=Pos	18	advmod	_	_
+25	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+26	святилище	святилище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 76873
+# text = В этот период в Европе (в том числе, и на севере Иберийского полуострова) существовала так называемая магдаленская культура.
+1	В	в	ADP	_	_	3	case	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	в	в	ADP	_	_	9	case	_	_
+8	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	9	amod	_	_
+9	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	севере	север	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	_
+14	Иберийского	Иберийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	полуострова	полуостров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	_
+17	существовала	существовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	так	так	ADV	_	Degree=Pos	19	advmod	_	_
+19	называемая	называть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	21	amod	_	_
+20	магдаленская	магдаленский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	культура	культура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 76874
+# text = В новой работе испанские археологи изучили девять дистальных фаланг пещерного льва из пещеры IV.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\n
+4	испанские	испанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	изучили	изучивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	девять	девять	NUM	_	Case=Acc	9	nummod:gov	_	SpacesAfter=\n
+8	дистальных	дистальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	фаланг	фаланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+10	пещерного	пещерной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	льва	лев	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	из	из	ADP	_	_	13	case	_	SpacesAfter=\n
+13	пещеры	пещера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+14	IV.	Iv.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+
+# sent_id = 76875
+# text = Ученые датировали останки с помощью радиоуглеродного метода и определили, что их возраст тоже составляет примерно 14 тысяч лет.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	датировали	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	останки	останки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	с	с	ADP	_	_	7	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	радиоуглеродного	радиоуглеродный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+13	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	тоже	тоже	PART	_	_	15	advmod	_	_
+15	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+16	примерно	примерно	ADV	_	Degree=Pos	17	advmod	_	SpacesAfter=\n
+17	14	14	NUM	_	_	18	nummod	_	_
+18	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76876
+# text = На фалангах были обнаружены отметины (порезы и углубления), сделанные каменными орудиями.
+1	На	на	ADP	_	_	2	case	_	_
+2	фалангах	фаланг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	SpacesAfter=\n
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	отметины	отметина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	порезы	порез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	parataxis	_	_
+8	и	и	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+9	углубления	углубление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+13	каменными	каменный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	орудиями	орудие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76877
+# text = Авторы статьи пишут, что эти отметины аналогичны порезам, которые делают современные ветеринары, когда удаляют когти у домашних кошек.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	эти	этот	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	отметины	отметин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesAfter=\n
+8	аналогичны	аналогичный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	_
+9	порезам	порез	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj	_	SpacesAfter=\n
+12	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpacesAfter=\n
+13	современные	современный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	ветеринары	ветеринар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	когда	когда	SCONJ	_	_	0	mark	_	_
+17	удаляют	удалять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	SpacesAfter=\n
+18	когти	коготь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	у	у	ADP	_	_	21	case	_	_
+20	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 76878
+# text = Такой же технологией пользуются охотники, когда снимают шкуру со звериной туши так, чтобы на ней сохранились когти.
+1	Такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	3	amod	_	_
+2	же	же	PART	_	_	1	advmod	_	SpacesAfter=\n
+3	технологией	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+4	пользуются	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	охотники	охотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	когда	когда	SCONJ	_	_	4	mark	_	_
+8	снимают	снимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	шкуру	шкура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	со	с	ADP	_	_	11	case	_	_
+11	звериной	зверина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+12	туши	туша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	так	так	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	SpacesAfter=\n
+16	на	на	ADP	_	_	17	case	_	_
+17	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	18	obl	_	_
+18	сохранились	сохраняться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+19	когти	когть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+

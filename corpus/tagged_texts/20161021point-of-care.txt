@@ -1,0 +1,382 @@
+# sent_id = 76082
+# text = Американские ученые разработали ииспытали компактную полуавтоматическую систему для получения индивидуальных генно-модифицированных кроветворных клеток пациентов вусловиях медицинских учреждений.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ииспытали	ииспытавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+5	компактную	компактный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	полуавтоматическую	полуавтоматический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+10	индивидуальных	индивидуальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+11	генно-модифицированных	генно-модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+12	кроветворных	кроветворной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\n
+14	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	вусловиях	вусловие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	nmod	_	_
+16	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	учреждений	учреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76083
+# text = Результаты работы опубликованы в журнале Nature Communications.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	SpacesAfter=\n
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Communications	communications	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 76084
+# text = Генная терапия сиспользованием стволовых клеток костного мозга (CD34+) имеет большой потенциал для лечения различных заболеваний, таких как гемоглобинопатии, хронические вирусные инфекции (включая ВИЧ) и некоторые формы рака.
+1	Генная	Генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+4	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	костного	костный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	CD34+	CD34+	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	потенциал	потенциал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+16	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	таких	такой	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+20	как	как	SCONJ	_	_	21	cc	_	_
+21	гемоглобинопатии	гемоглобинопатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	хронические	хронический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+24	вирусные	вирусный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	conj	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	включая	включая	ADV	_	Degree=Pos	25	parataxis	_	_
+28	ВИЧ	Вевич	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	_
+30	и	и	CCONJ	_	_	32	cc	_	SpacesAfter=\n
+31	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	32	amod	_	_
+32	формы	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	conj	_	_
+33	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 76085
+# text = Генетическую модификацию этих клеток проводят вне организма, чтобы исключить риск изменения других клеток.
+1	Генетическую	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	модификацию	модификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	вне	вне	ADP	_	_	7	case	_	SpacesAfter=\n
+7	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+10	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+11	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76086
+# text = Процесс получения модифицированных кроветворных клеток проходит в несколько этапов.
+1	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+4	кроветворных	кроветворной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+6	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 76087
+# text = Сначала проводится забор образца костного мозга или лейкоферез смобилизацией ростовым фактором.
+1	Сначала	сначала	ADV	_	Degree=Pos	2	advmod	_	_
+2	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	забор	забор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+4	образца	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	костного	костный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	или	или	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+8	лейкоферез	лейкоферез	ADP	_	_	9	case	_	_
+9	смобилизацией	смобилизация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_
+10	ростовым	ростовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	фактором	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 76088
+# text = Затем полученные клетки культивируют на специально подобранной питательной среде.
+1	Затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+2	полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	культивируют	культивировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	9	case	_	SpacesAfter=\n
+6	специально	специально	ADV	_	Degree=Pos	7	advmod	_	_
+7	подобранной	подобранный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	питательной	питательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	среде	среда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 76089
+# text = После этого внедряют вних трансген спомощью обезвреженного лентивируса.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	внедряют	внедрять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вних	вний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	трансген	трансген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\n
+7	обезвреженного	обезврежять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	лентивируса	лентивирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 76090
+# text = Модифицированные клетки очищают отостатков реагентов идругих примесей и, наконец, готовят итестируют препарат на их основе для введения пациенту.
+1	Модифицированные	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	очищают	очищавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отостатков	отостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+5	реагентов	реагент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+7	примесей	примесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	12	cc	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	наконец	наконец	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	готовят	готовить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	итестируют	итестировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+17	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpacesAfter=\n
+20	пациенту	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 76091
+# text = Внастоящее время этот процесс всоответствии состандартом должной производственной практики GMP проводится вусловиях чистого помещения в лаборатории стоимостью вмиллионы долларов, что резко снижает доступность подобной терапии.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	всоответствии	всоответствии	ADV	_	Degree=Pos	6	advmod	_	_
+6	состандартом	состандарт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+7	должной	должный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+8	производственной	производственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	практики	практика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	GMP	Gmp	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	вусловиях	вусловие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	obl	_	_
+13	чистого	чистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	помещения	помещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+16	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+17	стоимостью	стоимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl:agent	_	_
+18	вмиллионы	вмиллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+22	резко	резко	ADV	_	Degree=Pos	23	advmod	_	_
+23	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+24	доступность	доступность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpacesAfter=\n
+25	подобной	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 76092
+# text = Чтобы исключить нужду вдорогостоящем производстве, сотрудники Центра Фреда Хатчинсона поисследованию рака иВашингтонского университета вСпокане объединили усилия скалифорнийской компанией Miltenyi Biotec.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	_
+2	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+3	нужду	нужду	ADP	_	_	5	case	_	_
+4	вдорогостоящем	вдорогостоять	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpacesAfter=\n
+8	Центра	центр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Фреда	Фред	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Хатчинсона	хатчинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	поисследованию	поисследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+12	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	иВашингтонского	иВашингтонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	вСпокане	вСпоканин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpacesAfter=\n
+16	объединили	объединять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	усилия	усилие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+18	скалифорнийской	скалифорнийский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+20	Miltenyi	Miltenyi	NUM	_	_	21	nummod	_	_
+21	Biotec.	Biotec.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+
+# sent_id = 76093
+# text = Заоснову компактной изолированной системы для получения модифицированных кроветворных клеток (ГМ-CD34+) был взят производимый компанией прибор CliniMACS Prodigy, предназначенный для автоматической предварительной обработки биообразца, иммуномагнитного выделения иочистки нужных клеток.
+1	Заоснову	Заоснов	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\n
+2	компактной	компактный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	изолированной	изолированный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+7	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	кроветворных	кроветворной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ГМ	гма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	parataxis	_	SpaceAfter=No
+12	-CD34+	-CD34+	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	взят	брать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+16	производимый	производимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	_
+18	прибор	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+19	CliniMACS	Clinimacs	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpacesAfter=\n
+20	Prodigy	Prodigy	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	предназначенный	предназначать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+23	для	для	ADP	_	_	26	case	_	_
+24	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+25	предварительной	предварительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	SpacesAfter=\n
+27	биообразца	биообразец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	иммуномагнитного	иммуномагнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	выделения	выделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	conj	_	_
+31	иочистки	иочистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	нужных	нужный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 76094
+# text = Кэтому устройству добавили программируемый блок для культивации клеток, введения вних трансгена, анализа полученных ГМ-CD34+ иприготовления конечного препарата для введения пациенту.
+1	Кэтому	Кэто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+2	устройству	устройство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	добавили	добавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	программируемый	программируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	блок	блок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	для	для	ADP	_	_	5	case	_	SpacesAfter=\n
+7	культивации	культивация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+11	вних	вний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	трансгена	трансген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	полученных	лучить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	ГМ	гма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+17	-CD34+	-cd34+	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpacesAfter=\n
+18	иприготовления	иприготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	конечного	конечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+23	пациенту	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 76095
+# text = Поскольку программу, необходимую вкаждом конкретном случае, задает оператор, систему назвали полуавтоматической.
+1	Поскольку	поскольку	SCONJ	_	_	2	cc	_	_
+2	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	необходимую	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+5	вкаждом	вкаждом	ADV	_	Degree=Pos	6	advmod	_	_
+6	конкретном	конкретный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	задает	задавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+10	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+14	полуавтоматической	полуавтоматический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76096
+# text = Она занимает площадь около 0,46 квадратного метра иможет быть установлена налабораторном столе, для ееобслуживания требуется один или два оператора (для сравнения совеременное производство занимает всто раз большую площадь итребует усилий отпяти додесяти человек).
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	площадь	площадь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+4	около	около	ADP	_	_	3	case	_	_
+5	0,46	0,46	NUM	_	_	7	nummod	_	_
+6	квадратного	квадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+8	иможет	имочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpacesAfter=\n
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	aux:pass	_	_
+10	установлена	поустановать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	налабораторном	налабораторный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	столе	стол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	ееобслуживания	ееобслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+16	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
+17	один	один	NUM	_	Case=Nom|Gender=Masc	20	nummod:gov	_	_
+18	или	или	CCONJ	_	_	19	cc	_	SpacesAfter=\n
+19	два	два	NUM	_	Case=Nom|Gender=Masc	17	conj	_	_
+20	оператора	оператор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	для	для	ADP	_	_	23	case	_	_
+23	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+24	совеременное	совеременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+26	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+27	всто	всто	ADV	_	Degree=Pos	28	nummod:gov	_	_
+28	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	SpacesAfter=\n
+29	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	площадь	площадь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+31	итребует	итребовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	_
+32	усилий	усилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nsubj	_	_
+33	отпяти	отпять	NUM	_	Case=Gen	35	nummod	_	_
+34	додесяти	додесять	NUM	_	Case=Gen	35	nummod	_	_
+35	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 76097
+# text = Поскольку весь производственный цикл изолирован отвнешней среды, работа системы нетребует стерильных условий-- ееможно установить влюбом медицинском центре.
+1	Поскольку	поскольку	SCONJ	_	_	11	mark	_	_
+2	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	SpacesAfter=\n
+3	производственный	производственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	цикл	цикл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+5	изолирован	изолировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl	_	_
+6	отвнешней	отвнешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	нетребует	нетребовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+12	стерильных	стерильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	_
+16	ееможно	ееможно	ADV	_	Degree=Pos	17	advmod	_	_
+17	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	parataxis	_	_
+18	влюбом	влюбой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	медицинском	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 76098
+# text = Процесс получения модифицированных клеток занимает от25до30часов (насовременном производстве наэто уходит более 80часов).
+1	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+2	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от25до30часов	от25до30час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	насовременном	насовременный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	SpacesAfter=\n
+9	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	appos	_	_
+10	наэто	наэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+11	уходит	уходеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+12	более	более	ADV	_	Degree=Cmp	13	advmod	_	_
+13	80часов	80час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+

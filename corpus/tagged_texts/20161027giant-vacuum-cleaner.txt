@@ -1,0 +1,375 @@
+# sent_id = 76920
+# text = В Голландии создали установку для очистки уличного воздуха от содержащихся в нем мелких токсичных частиц.
+1	В	в	ADP	_	_	2	case	_	SpacesBefore=\n
+2	Голландии	голландия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+5	для	для	ADP	_	_	4	case	_	_
+6	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	уличного	уличный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	от	от	ADP	_	_	15	case	_	_
+10	содержащихся	содержать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+13	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	токсичных	токсичной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76921
+# text = Этот гигантский "пылесос" способен втягивать и пропускать через фильтр загрязненный воздух в радиусе до 300 метров.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+2	гигантский	гигантский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	пылесос	пылесос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	втягивать	втягивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	пропускать	пропускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	_
+10	через	через	ADP	_	_	11	case	_	_
+11	фильтр	фильтр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	загрязненный	загрязнять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	радиусе	радиус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	300	300	NUM	_	_	18	nummod	_	_
+18	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76922
+# text = Об этом сообщает The Guardian.Качество окружающего воздуха оказывает важное воздействие на здоровье людей, особенно в крупных городах.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	The	The	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Guardian.	guardian.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+6	Качество	качество	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	appos	_	_
+7	окружающего	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	оказывает	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	важное	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	особенно	особенно	ADV	_	Degree=Pos	19	advmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	крупных	крупный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76923
+# text = Особенный вред человеку наносят мельчайшие твердые частицы диаметром 10--2,5 микрометра, а также ультрадисперсные частицы диаметром до 100 нанометров.
+1	Особенный	особивать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	вред	вред	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+4	наносят	наносеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	мельчайшие	мелкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	7	amod	_	_
+6	твердые	твердой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	частицы	частица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+8	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	10-	10-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	2,5	2,5	NUM	_	_	8	nummod	_	_
+12	микрометра	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	17	cc	_	_
+15	также	также	ADV	_	Degree=Pos	17	advmod	_	_
+16	ультрадисперсные	ультрадисперсный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	частицы	частица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+18	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	100	100	NUM	_	_	21	nummod	_	_
+21	нанометров	нанометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 76924
+# text = Проникая в легкие, они способны вызывать сердечно-сосудистые, респираторные и онкологические заболевания.
+1	Проникая	проникать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	легкие	легкое	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	сердечно-сосудистые	сердечно-сосудистый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	респираторные	респираторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	онкологические	онкологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	conj	_	_
+13	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 76925
+# text = По данным ВОЗ, только в 2012 году из-за них преждевременно умерли 3,7 миллиона человек.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	12	parataxis	_	_
+3	ВОЗ	воз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	только	только	PART	_	_	8	advmod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	2012	2012	NUM	_	_	8	nummod	_	_
+8	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+9	из-за	из-за	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	obl	_	_
+11	преждевременно	преждевременне	ADV	_	Degree=Pos	12	advmod	_	_
+12	умерли	умирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	3,7	3,7	NUM	_	_	14	nummod	_	_
+14	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nummod:gov	_	_
+15	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76926
+# text = На сегодняшний день в промышленности применяются различные воздухоочистители: циклоны, электростатические фильтры, скрабберы и другие, но обычно они используются для очистки воздуха в помещениях.
+1	На	на	ADP	_	_	3	case	_	_
+2	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	применяются	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	воздухоочистители	воздухоочиститель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	циклоны	циклон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	электростатические	электростатический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	фильтры	фильтр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	скрабберы	скраббер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	обычно	обычно	ADV	_	Degree=Pos	22	advmod	_	_
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	22	nsubj:pass	_	_
+22	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+25	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 76927
+# text = Голландские инженеры, в свою очередь, создали систему очистки уличного воздуха, которую можно будет устанавливать прямо на крышах городских зданий.
+1	Голландские	голландский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	очистки	очистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	уличного	уличный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которую	который	PRON	_	Case=Acc	12	obj	_	_
+15	можно	можно	ADV	_	Degree=Pos	8	parataxis	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+18	прямо	прямо	ADV	_	Degree=Pos	20	advmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	крышах	крыш	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+21	городских	городской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	зданий	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 76928
+# text = "Гигантский наружный пылесос", как называют его создатели, представляет собой стальную трубу длиной около восьми метров.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Гигантский	гигантский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	наружный	наружный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	пылесос	пылесос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	как	как	SCONJ	_	_	8	mark	_	_
+8	называют	называять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	создатели	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	собой	себя	PRON	_	Case=Ins	12	dep	_	_
+14	стальную	стальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	трубу	труба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+17	около	около	ADP	_	_	19	case	_	_
+18	восьми	восемь	NUM	_	Case=Gen	19	nummod	_	_
+19	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76929
+# text = Он может очищать около 800 тысяч кубических метров воздуха в час, отфильтровывая 100 процентов мелких частиц и 95 процентов ультрадисперсных частиц.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	очищать	очищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	около	около	ADP	_	_	6	case	_	_
+5	800	800	NUM	_	_	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	кубических	кубический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	отфильтровывая	отфильтровывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+14	100	100	NUM	_	_	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+16	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	95	95	NUM	_	_	20	nummod	_	_
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+21	ультрадисперсных	ультрадисперсный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 76930
+# text = Как именно происходит их фильтрация, исследователи не уточняют.
+1	Как	как	ADV	_	Degree=Pos	3	advmod	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+4	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	nmod	_	_
+5	фильтрация	фильтрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	уточняют	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 76931
+# text = По словам представителей компании Envinity Group, где была создана разработка, наружный воздухоочиститель способен втягивать в себя воздушный столб радиусом 300 метров и высотой до семи километров.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	parataxis	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Envinity	Envinity	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Group	group	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	где	где	ADV	_	Degree=Pos	10	advmod	_	_
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	создана	создавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	acl:relcl	_	_
+11	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	наружный	наружный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	воздухоочиститель	воздухоочиститель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+16	втягивать	втягивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	себя	себя	PRON	_	Case=Acc	16	obl	_	_
+19	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	столб	столб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+21	радиусом	радиус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+22	300	300	NUM	_	_	23	nummod	_	_
+23	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+26	до	до	ADP	_	_	28	case	_	_
+27	семи	семь	NUM	_	Case=Gen	28	nummod	_	_
+28	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 76932
+# text = Эти данные основаны на результатах испытаний в Научно-исследовательском центре энергетики Нидерландов.В прошлом месяце в Пекине начал свою работу другой проект по борьбе с загрязнением атмосферы -- башня-фильтр, очищающая городской воздух от смога.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	3	nsubj:pass	_	_
+3	основаны	основывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	Научно-исследовательском	научно-исследовательский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+10	энергетики	энергетика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+11	Нидерландов.	Нидерландовадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+12	В	в	ADP	_	_	14	case	_	_
+13	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	месяце	месяц	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Пекине	пекин	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+17	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+18	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
+19	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	борьбе	борьба	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	загрязнением	загрязнение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	nmod	_	_
+26	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	--	--	PUNCT	_	_	26	punct	_	_
+28	башня-фильтр	башня-фильтр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	очищающая	очищать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+31	городской	городской	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+33	от	от	ADP	_	_	34	case	_	_
+34	смога	смог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 76933
+# text = Система Smog Free Tower была разработана в студии нидерландского дизайнера Дана Росгарде (Daan Roosegaarde).
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	Smog	Smog	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Free	Free	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Tower	tower	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	студии	студия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	нидерландского	нидерландский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	дизайнера	дизайнер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Дана	дан	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	appos	_	_
+12	Росгарде	Росгард	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Daan	Daan	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	Roosegaarde	Roosegaarde	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76934
+# text = Башня высотой семь метров очищает 30 тысяч кубометров воздуха в час, отфильтровывая до 75 процентов токсичных частиц.Загрязненный воздух поступаетв верхнюю часть башни, насыщенную положительно заряженными ионами, которые притягивают к себе частицы пыли.Кристина Уласович
+1	Башня	башнить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+2	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+3	семь	семь	NUM	_	Case=Acc	2	nummod:gov	_	_
+4	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	очищает	очищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	30	30	NUM	_	_	7	nummod	_	_
+7	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+8	кубометров	кубометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	отфильтровывая	отфильтровывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	75	75	NUM	_	_	16	nummod	_	_
+16	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	токсичных	токсичной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	частиц.	частиц.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl:agent	_	SpaceAfter=No
+19	Загрязненный	загрязнять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+21	поступаетв	ступаетть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	_
+22	верхнюю	верхний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	башни	башня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	насыщенную	насыщать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+27	положительно	положительно	ADV	_	Degree=Pos	28	advmod	_	_
+28	заряженными	заряжять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	amod	_	_
+29	ионами	ион	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	которые	который	PRON	_	Case=Nom	32	nsubj	_	_
+32	притягивают	притягивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+33	к	к	ADP	_	_	34	case	_	_
+34	себе	себя	PRON	_	Case=Dat	32	obl	_	_
+35	частицы	частица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	_
+36	пыли.	пыли.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl:agent	_	SpaceAfter=No
+37	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+

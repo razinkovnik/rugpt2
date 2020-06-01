@@ -1,0 +1,538 @@
+# sent_id = 85867
+# text = Международная исследовательская группа показала, что ожирение вызывает эпигенетические изменения во множестве участков по всему геному, включая гены, связанные с метаболизмом липидов и липопротеинов и воспалением.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpacesBefore=\n
+2	исследовательская	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	ожирение	ожирение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	эпигенетические	эпигенетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+11	во	в	ADP	_	_	12	case	_	_
+12	множестве	множество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+13	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
+16	геному	геный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	включая	включая	ADV	_	Degree=Pos	19	advmod	_	_
+19	гены	гять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	метаболизмом	метаболизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_
+24	липидов	липид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	липопротеинов	липопротеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	воспалением	воспаление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 85868
+# text = По характеру этих изменений, как оказалось, можно предсказать риск развития диабета 2 типа -- причем с большей уверенностью, чем по таким традиционным маркерам кактип ожирения или содержание глюкозы в крови.
+1	По	по	ADP	_	_	2	case	_	_
+2	характеру	характер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	9	mark	_	_
+7	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	2	2	NUM	_	_	15	nummod	_	_
+15	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	причем	причем	CCONJ	_	_	20	cc	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	уверенностью	уверенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	26	cc	_	_
+23	по	по	ADP	_	_	26	case	_	_
+24	таким	такой	DET	_	Case=Dat|Number=Plur	26	amod	_	_
+25	традиционным	традиционный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	_
+26	маркерам	маркер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	advmod	_	_
+27	кактип	кактип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+28	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	или	или	CCONJ	_	_	30	cc	_	_
+30	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	conj	_	_
+31	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 85869
+# text = Статья опубликована в журнале Nature.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85870
+# text = Около 1,5 миллиарда людей имеют избыточный вес или страдают ожирением и имеют повышенный риск развития диабета 2 типа, сердечно-сосудистых заболеваний и нарушений метаболизма.
+1	Около	около	ADP	_	_	3	case	_	_
+2	1,5	1,5	NUM	_	_	3	nummod	_	_
+3	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nummod:gov	_	_
+4	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	избыточный	избыточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	вес	вес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	страдают	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	ожирением	ожирение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	повышенный	повышенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	2	2	NUM	_	_	18	nummod	_	_
+18	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	сердечно-сосудистых	сердечно-сосудистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	conj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	нарушений	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	conj	_	_
+24	метаболизма	метаболизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 85871
+# text = В предыдущих исследованиях было показано, что ожирение вызывает эпигенетические изменения (а именно, изменения статуса метилирования ДНК) в некоторых локусах: например, в жировой ткани и скелетных мышцах.
+1	В	в	ADP	_	_	3	case	_	_
+2	предыдущих	предыдущий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	ожирение	ожирение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	эпигенетические	эпигенетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	а	а	CCONJ	_	_	16	cc	_	_
+14	именно	именно	PART	_	_	16	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+17	статуса	статус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	23	amod	_	_
+23	локусах	локус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	например	например	ADV	_	Degree=Pos	29	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	жировой	жировый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	parataxis	_	_
+30	и	и	CCONJ	_	_	32	cc	_	_
+31	скелетных	скелетный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	32	amod	_	_
+32	мышцах	мышец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 85872
+# text = Авторы новой статьи провели полногеномное исследование ассоциаций, чтобы выяснить, как индекс массы тела ассоциирован с метилированием ДНК.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	полногеномное	полногеномный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	исследование	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	ассоциаций	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+10	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	10	mark	_	_
+13	индекс	индекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+14	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	ассоциирован	ассоциироывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	метилированием	метилирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+19	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85873
+# text = В анализ включили 5387 человек европейского и индийского происхождения.
+1	В	в	ADP	_	_	2	case	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	включили	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	5387	5387	NUM	_	_	5	nummod	_	_
+5	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	индийского	индийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	_
+9	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 85874
+# text = Всего с индексом массы тела оказалось ассоциировано метилирование в 187 генетических локусах.
+1	Всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	индексом	индекс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+4	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	ассоциировано	ассоциировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+8	метилирование	метилирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	187	187	NUM	_	_	12	nummod	_	_
+11	генетических	генетический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	локусах	локус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85875
+# text = Для этих локусов авторы сравнили уровни метилирования ДНК в разных тканях: крови, жировой ткани, печени, поджелудочной железе, селезенке и мышцах.
+1	Для	для	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	локусов	локус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	сравнили	сравнивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	уровни	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	тканях	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	жировой	жировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	поджелудочной	поджелудочный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	железе	железа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	селезенке	селезенка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	мышцах	мышца	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 85876
+# text = Хотя в целом уровень метилирования в крови и печени хорошо отражал уровень метилирования в других тканях, в некоторых случаях эффект был специфичным для типа ткани.
+1	Хотя	хотя	PART	_	_	11	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+4	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	печени	печень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_
+10	хорошо	хорошо	ADV	_	Degree=Pos	11	advmod	_	_
+11	отражал	отражать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	тканях	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	20	amod	_	_
+20	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	nmod	_	_
+21	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	специфичным	специфичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
+24	для	для	ADP	_	_	25	case	_	_
+25	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 85877
+# text = Например, для 91 локуса ассоциация метилирования с индексом массы тела оказалась самой сильной в жировой ткани.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	91	91	NUM	_	_	5	nummod	_	_
+5	локуса	локус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+6	ассоциация	ассоциация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+7	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	индексом	индекс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+10	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	самой	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	сильной	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	жировой	жировый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	ткани	ткань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85878
+# text = Анализ ассоциаций показал, что обнаруженные изменения метилирования ДНК в основном являются последствием, а не причиной ожирения.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	ассоциаций	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+3	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	обнаруженные	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+8	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	_
+12	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+13	последствием	последствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	_
+18	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85879
+# text = Авторы идентифицировали 38 генов, экспрессия которых зависит от обнаруженных эпигенетических изменений.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	идентифицировали	идентифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	38	38	NUM	_	_	4	nummod	_	_
+4	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	экспрессия	экспрессия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	которых	который	PRON	_	Case=Gen	6	nmod	_	_
+8	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	от	от	ADP	_	_	12	case	_	_
+10	обнаруженных	обнаружеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	эпигенетических	эпигенетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85880
+# text = Эффект метилирования наблюдался для экспресси этих генов в крови, жировой ткани и печени.
+1	Эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	наблюдался	наблюдать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	экспресси	экспрессь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	этих	этот	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+7	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	жировой	жировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	ткани	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85881
+# text = Среди этих генов были гены, участвующие в метаболизме липидов и липопротеинов, транспорте аминокислот и воспалительных сигнальных путях.
+1	Среди	среди	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	гены	гять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	участвующие	участвовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	метаболизме	метаболизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	липидов	липид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	липопротеинов	липопротеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	транспорте	транспорт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+15	аминокислот	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	воспалительных	воспалительной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+18	сигнальных	сигнальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	путях	путь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85882
+# text = Также оказалось, что по изменениям метилирования можно предсказать риск развития диабета 2 типа.
+1	Также	также	CCONJ	_	_	2	cc	_	_
+2	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	изменениям	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+7	метилирования	метилирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+9	предсказать	предсказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	2	2	NUM	_	_	14	nummod	_	_
+14	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85883
+# text = При этом ассоциация риска развития диабета с метилированием оказалась для многих локусов более сильной и независимой от ассоциаций риска развития заболевания с традиционными маркерами, такими как тип ожирения, содержание глюкозы в крови натощак или повышенный уровень инсулина в крови.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	ассоциация	ассоциация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	метилированием	метилирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+9	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	для	для	ADP	_	_	12	case	_	_
+11	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	локусов	локус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	obl	_	_
+13	более	более	ADV	_	Degree=Cmp	14	advmod	_	_
+14	сильной	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	независимой	независимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	conj	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	ассоциаций	ассоциация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	традиционными	традиционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	маркерами	маркер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	такими	такой	DET	_	Case=Ins|Number=Plur	31	amod	_	_
+27	как	как	SCONJ	_	_	28	cc	_	_
+28	тип	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	advmod	_	_
+29	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	содержание	содержание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	38	nsubj	_	_
+32	глюкозы	глюкоза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	nmod	_	_
+35	натощак	натощак	ADV	_	Degree=Pos	38	advmod	_	_
+36	или	или	CCONJ	_	_	37	cc	_	_
+37	повышенный	повышать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+38	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+39	инсулина	инсулин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	крови	кровь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 85884
+# text = Иными словами, предсказательная сила эпигенетических маркеров оказалась выше предсказательной силы традиционных маркеров риска развития диабета 2 типа -- и, что важно, независимой от них.
+1	Иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	предсказательная	предсказательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	эпигенетических	эпигенетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	маркеров	маркер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	выше	высокий	ADJ	_	Degree=Cmp	8	parataxis	_	_
+10	предсказательной	предсказательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	маркеров	маркер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	2	2	NUM	_	_	18	nummod	_	_
+18	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	23	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	PRON	_	Case=Nom	23	nsubj	_	_
+23	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	независимой	независимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+26	от	от	ADP	_	_	27	case	_	_
+27	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 85885
+# text = Как заключают авторы, эти результаты в будущем, возможно, позволят использовать метилирование ДНК в качестве маркера для идентификации людей с "метаболически неблагоприятными" типами ожирения, имеющих повышенный риск развития диабета 2 типа.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	заключают	заключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	эти	этот	DET	_	Case=Acc|Number=Plur	6	amod	_	_
+6	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	возможно	возможно	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+13	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	метилирование	метилирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	fixed	_	_
+18	маркера	маркер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	идентификации	идентификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	с	с	ADP	_	_	27	case	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	метаболически	метаболически	ADV	_	Degree=Pos	25	advmod	_	_
+25	неблагоприятными	неблагоприятный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	_
+27	типами	тип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	nmod	_	_
+28	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+31	повышенный	повышенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+33	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	диабета	диабет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	2	2	NUM	_	_	36	nummod	_	_
+36	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 85886
+# text = Ранее ученые показали, что ожирение вызывает эпигенетические изменения в сперме мужчин, которые могут передаваться их детям и увеличивать вероятность развития у них ожирения.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	ожирение	ожирение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	эпигенетические	эпигенетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	сперме	сперм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+12	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	xcomp	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	_
+18	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	увеличивать	увеличивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+21	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	у	у	ADP	_	_	24	case	_	_
+24	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	nmod	_	_
+25	ожирения	ожирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 85887
+# text = Недавно такое эпигенетическое наследование склонности к ожирению было также подтвержденов экспериментах на мышах.
+1	Недавно	недавно	ADV	_	Degree=Pos	2	advmod	_	_
+2	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+3	эпигенетическое	эпигенетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	наследование	наследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+5	склонности	склонность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	ожирению	ожирение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	подтвержденов	подтвержден	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+11	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85888
+# text = Софья Долотовская
+1	Софья	Софий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Долотовская	Долотовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+

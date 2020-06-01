@@ -1,0 +1,175 @@
+# sent_id = 88919
+# text = Эксперт повопросам безопасности Крис Томас (Cris Thomas) выяснил, что внастоящий момент белки представляют собой более серьезную опасность для инфраструктуры, чем так называемые "кибератаки" хакеров.
+1	Эксперт	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpacesBefore=\n
+2	повопросам	повопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+3	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Крис	Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Томас	томас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Cris	Cris	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Thomas	Thomas	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	выяснил	выяснять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	внастоящий	внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	белки	белка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+17	собой	себя	PRON	_	Case=Ins	16	dep	_	_
+18	более	более	ADV	_	Degree=Cmp	19	advmod	_	_
+19	серьезную	серьезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	инфраструктуры	инфраструктура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чем	чем	SCONJ	_	_	28	cc	_	_
+25	так	так	ADV	_	Degree=Pos	26	advmod	_	_
+26	называемые	называть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	28	amod	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	кибератаки	кибератака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	advmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	_
+30	хакеров	хакер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 88920
+# text = Обэтом сообщает BBC News.
+1	Обэтом	Обэто	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	BBC	bbc	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	News	news	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 88921
+# text = Животные часто наносят ущерб критически важным объектам коммуникации, например линиям электропередач исетевым кабелям.
+1	Животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	часто	часто	ADV	_	Degree=Pos	3	advmod	_	_
+3	наносят	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ущерб	ущерб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	критически	критически	ADV	_	Degree=Pos	7	advmod	_	_
+6	важным	важный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	объектам	объект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+8	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	например	например	ADV	_	Degree=Pos	11	advmod	_	_
+11	линиям	линия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	0	obl	_	_
+12	электропередач	электропередача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	исетевым	исетевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	кабелям	кабель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88922
+# text = Внекоторых случаях без электричества или интернета могут остаться целые населенные пункты.
+1	Внекоторых	Внекоторый	DET	_	Case=Loc|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+3	без	без	ADP	_	_	4	case	_	_
+4	электричества	электричество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	или	или	CCONJ	_	_	6	cc	_	_
+6	интернета	интернет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	остаться	оставаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	целые	целой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	населенные	населять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	пункты	пункт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 88923
+# text = Так, несколько лет назад вКалининграде аист неудачно сел напровода ивывел изстроя сразу 34трансформаторных подстанции, тем самым лишив света несколько поселков, в которых жили две тысячи человек.
+1	Так	так	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+5	назад	назад	ADV	_	Degree=Pos	4	advmod	_	_
+6	вКалининграде	вКалининграде	ADV	_	Degree=Pos	9	advmod	_	_
+7	аист	аист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	неудачно	неудачно	ADV	_	Degree=Pos	9	advmod	_	_
+9	сел	селый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+10	напровода	напровод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	ивывел	ивывести	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+12	изстроя	изстрой	DET	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
+13	сразу	сразу	ADV	_	Degree=Pos	14	advmod	_	_
+14	34трансформаторных	34трансформаторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	подстанции	подстанция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	_
+18	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+19	лишив	лишать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+20	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+21	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	22	nummod:gov	_	_
+22	поселков	поселок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	которых	который	PRON	_	Case=Loc	26	obl	_	_
+26	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+27	две	два	NUM	_	Case=Nom|Gender=Fem	28	nummod:gov	_	_
+28	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nummod:gov	_	_
+29	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 88924
+# text = Исследователь Крис Томас решил посчитать, как часто животные становятся причиной отключения электроэнергии.
+1	Исследователь	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Крис	Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Томас	томас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	решил	решать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	посчитать	считать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	как	как	ADV	_	Degree=Pos	10	advmod	_	_
+8	часто	часто	ADV	_	Degree=Pos	10	advmod	_	_
+9	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+10	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	ccomp	_	_
+11	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	отключения	отключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88925
+# text = Выяснилось, что с2013 года поихвине произошло более 1700аварий.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	с2013	с2013	NUM	_	_	5	nummod	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+6	поихвине	поихвине	ADV	_	Degree=Pos	7	advmod	_	_
+7	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	более	более	ADV	_	Degree=Cmp	9	nummod:gov	_	_
+9	1700аварий	1700авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88926
+# text = Самыми большими вредителями оказались белки (879случаев), заними шли птицы (434случая) измеи (83случая).
+1	Самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+2	большими	большой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	вредителями	вредитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+4	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	белки	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	879случаев	879случаев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	заними	заний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+11	шли	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	434случая	434случать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	измеи	измей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	83случая	83случать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88927
+# text = Интересно, что даже лягушки икуницы оказались способны обесточить дома.
+1	Интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	даже	даже	PART	_	_	5	advmod	_	_
+5	лягушки	лягушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	икуницы	икуница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+8	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	amod	_	_
+9	обесточить	обесточать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	дома	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+

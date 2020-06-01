@@ -1,0 +1,475 @@
+# sent_id = 72680
+# text = Американская компания JP Aerosapce провела первые испытания прототипа космического дирижабля, летательного аппарата легче воздуха, который будет использоваться в качестве одной из ступеней системы доставки полезной нагрузки на орбиту.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	JP	jp	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Aerosapce	Aerosapce	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+8	прототипа	прототип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	дирижабля	дирижабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
+14	легче	легкий	ADJ	_	Degree=Cmp	13	amod	_	_
+15	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	19	nsubj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	acl:relcl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	одной	один	NUM	_	Case=Gen|Gender=Fem	30	nummod	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	ступеней	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	полезной	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	на	на	ADP	_	_	30	case	_	_
+30	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 72681
+# text = Как пишет Aviation Week, испытания прошли успешно, причем по некоторым параметрам аппарат превзошел расчетные показатели.Запуск различной полезной нагрузки на орбиту сегодня производится при помощи ракет-носителей.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	успешно	успешно	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	причем	причем	CCONJ	_	_	15	cc	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	13	amod	_	_
+13	параметрам	параметр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+14	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+15	превзошел	превосходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	расчетные	расчетной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	показатели.	показатели.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	Запуск	Запуск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+19	различной	различный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	полезной	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+24	сегодня	сегодня	ADV	_	Degree=Pos	25	advmod	_	_
+25	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+26	при	при	ADP	_	_	28	case	_	_
+27	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	fixed	_	_
+28	ракет-носителей	ракета-носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nsubj:pass	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72682
+# text = Эти аппараты состоят из нескольких ступеней и требуют долгой подготовки к запуску.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	6	nummod	_	_
+6	ступеней	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	долгой	долгий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	запуску	запуск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72683
+# text = При этом доставка груза в космос при помощи ракет довольно дорога, преимущественно из-за высокой стоимости одноразовых ступеней носителей.Разрабатываемая компанией JP Aerospace система позволит существенно упростить и удешевить запуск полезной нагрузки в космос.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	груза	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	при	при	ADP	_	_	9	mark	_	_
+8	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	ракет	раквать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	довольно	довольно	ADV	_	Degree=Pos	11	advmod	_	_
+11	дорога	дорога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	преимущественно	преимущественно	ADV	_	Degree=Pos	16	advmod	_	_
+14	из-за	из-за	ADP	_	_	16	case	_	_
+15	высокой	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	стоимости	стоимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+17	одноразовых	одноразовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	ступеней	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+19	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Разрабатываемая	Разрабатывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+22	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl:agent	_	_
+23	JP	jp	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Aerospace	Aerospace	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+27	существенно	существенно	ADV	_	Degree=Pos	28	advmod	_	_
+28	упростить	упрощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	удешевить	удешевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	conj	_	_
+31	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+32	полезной	полезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	космос	космос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 72684
+# text = Во время испытаний космического дирижабля, получившего название Ascender 36, аппарат смог подняться на высоту 4,1 тысячи метров, а его скороподъемность составила 177 метров в минуту.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	obl	_	_
+4	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	дирижабля	дирижабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	получившего	получать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+8	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	Ascender	Ascender	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	36	36	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	подняться	подниматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+17	4,1	4,1	NUM	_	_	18	nummod	_	_
+18	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nummod:gov	_	_
+19	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	24	cc	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	скороподъемность	скороподъемность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+25	177	177	NUM	_	_	26	nummod	_	_
+26	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72685
+# text = Соответствующие расчетные показатели для первого полета были немного меньше.Ascender 36 является уменьшенным демонстратором технологий.
+1	Соответствующие	соответствующий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	расчетные	расчетной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	показатели	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+8	немного	немного	ADV	_	Degree=Pos	9	advmod	_	_
+9	меньше.	меньшбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	Ascender	Ascender	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	36	36	NUM	_	_	10	nummod	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	_
+13	уменьшенным	уменьшенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	демонстратором	демонстратор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+15	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72686
+# text = V-образный корпус аппарата представляет собой газовый объем с композитным внутренним каркасом.
+1	V-образный	V-образный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собой	себя	PRON	_	Case=Ins	4	dep	_	_
+6	газовый	газовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	объем	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	с	с	ADP	_	_	11	case	_	_
+9	композитным	композитный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	внутренним	внутренний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	каркасом	каркас	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72687
+# text = Объем внутри поделен на несколько секций, заполненных гелием.
+1	Объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	внутри	внутри	ADV	_	Degree=Pos	3	advmod	_	_
+3	поделен	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+6	секций	секция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	заполненных	заполнять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	гелием	гелие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl:agent	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 72688
+# text = Перекачивая гелий из секции в секцию, оператор аппарат может изменять траекторию его полета, поднимая или опуская носовую часть.Полноценный аппарат Ascender, по оценке JP Aerospace, сможет подниматься на высоту 42,7 тысячи метров.
+1	Перекачивая	Перекачивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	гелий	гелие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	obl	_	_
+3	из	из	ADP	_	_	2	case	_	_
+4	секции	секция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	секцию	секция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	аппарат	аппарат	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	изменять	изменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	поднимая	поднимать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	опуская	опускать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	conj	_	_
+19	носовую	носовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	часть.	часть.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+21	Полноценный	Полноцять	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+23	Ascender	Ascender	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	по	по	ADP	_	_	26	case	_	_
+26	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+27	JP	jp	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	Aerospace	Aerospace	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	подниматься	подниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	30	xcomp	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	_
+34	42,7	42,7	NUM	_	_	35	nummod	_	_
+35	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nummod:gov	_	_
+36	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 72689
+# text = Он станет первой ступенью системы, которую американская компания назвала Airship to Orbit.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ступенью	ступень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которую	который	PRON	_	Case=Acc	10	obj	_	_
+8	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	назвала	называть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	Airship	Airship	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	to	to	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Orbit	Orbit	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72690
+# text = Поднявшись на заданную высоту, Ascender с полезной нагрузкой на борту будет пристыковываться ко второй ступени -- надувной суборбитальной станции Dark Sky Station.Станция будет оснащена стартовой платформой для космического летательного аппарата Orbital Ascender.
+1	Поднявшись	подниматься	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	13	advcl	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	заданную	задавать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Ascender	Ascender	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	полезной	полезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	нагрузкой	нагрузка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	пристыковываться	пристыковываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+14	ко	к	ADP	_	_	16	case	_	_
+15	второй	второй	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	ступени	ступень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	надувной	надувный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	суборбитальной	суборбитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+21	Dark	Dark	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Sky	Sky	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Station.	station.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	SpaceAfter=No
+24	Станция	станция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux:pass	_	_
+26	оснащена	оснащать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+27	стартовой	стартовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	платформой	платформа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+29	для	для	ADP	_	_	32	case	_	_
+30	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+33	Orbital	Orbital	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Ascender	Ascender	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 72691
+# text = Взлетать с платформы этот аппарат будет так же, как и дирижабль.
+1	Взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	так	так	ADV	_	Degree=Pos	0	root	_	_
+8	же	же	PART	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	как	как	SCONJ	_	_	12	cc	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	дирижабль	дирижабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72692
+# text = Достигнув высоты 60,9 тысячи метров, судно будет включать гибридный электрохимический двигатель.
+1	Достигнув	Достигнуть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	_
+2	высоты	высот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	60,9	60,9	NUM	_	_	4	nummod	_	_
+4	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nummod:gov	_	_
+5	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	судно	судно	ADV	_	Degree=Pos	9	advmod	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	включать	включать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+10	гибридный	гибридный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	электрохимический	электрохимический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72693
+# text = За счет тяги силовой установки Orbital Ascender сможет разгоняться до орбитальной скорости более 20 чисел Маха (6,8 километра в секунду).Разработка проекта Airship to Orbit ведется с 1999 года.
+1	За	за	ADP	_	_	3	case	_	_
+2	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+4	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Orbital	Orbital	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Ascender	Ascender	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	разгоняться	разгоняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	xcomp	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	орбитальной	орбитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+13	более	более	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+14	20	20	NUM	_	_	15	nummod	_	_
+15	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+16	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	6,8	6,8	NUM	_	_	19	nummod	_	_
+19	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	parataxis	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj:pass	_	_
+25	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	Airship	Airship	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	to	to	X	_	Foreign=Yes	26	flat:foreign	_	_
+28	Orbit	Orbit	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+30	с	с	ADP	_	_	32	case	_	_
+31	1999	1999	NUM	_	_	32	nummod	_	_
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 72694
+# text = Когда именно планируется завершить проект, неизвестно.
+1	Когда	когда	ADV	_	Degree=Pos	7	mark	_	_
+2	именно	именно	PART	_	_	3	advmod	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	advcl	_	_
+4	завершить	завершать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 72695
+# text = Компании предстоит найти решение множества технических проблем.
+1	Компании	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+2	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	технических	технический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 72696
+# text = В частности, для третьей ступени системы потребуется найти легкие, но очень прочные и очень термоустойчивые материалы, способные выдержать нагрев во время разгона до орбитальной скорости.Сегодня активно ведутся исследования в области создания летательных аппаратов легче воздуха, способных подниматься на большую высоту.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	третьей	третий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	ступени	ступень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	легкие	легкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	18	cc	_	_
+13	очень	очень	ADV	_	Degree=Pos	14	advmod	_	_
+14	прочные	прочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	очень	очень	ADV	_	Degree=Pos	17	advmod	_	_
+17	термоустойчивые	термоустойчивый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	conj	_	_
+18	материалы	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	способные	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+21	выдержать	выдергать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+22	нагрев	нагрев	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	во	во	ADP	_	_	25	case	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	разгона	разгон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+26	до	до	ADP	_	_	28	case	_	_
+27	орбитальной	орбитальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	скорости.	скоростианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+29	Сегодня	сегодня	ADV	_	Degree=Pos	31	advmod	_	_
+30	активно	активно	ADV	_	Degree=Pos	31	advmod	_	_
+31	ведутся	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+32	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	31	nsubj:pass	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_
+35	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+38	легче	легкий	ADJ	_	Degree=Cmp	31	amod	_	_
+39	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+42	подниматься	подниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	41	dep	_	_
+43	на	на	ADP	_	_	45	case	_	_
+44	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 72697
+# text = В 2009 году был запущен исследовательский беспилотный шар BU60-1, разработанный Агентством аэрокосмических исследований Японии.
+1	В	в	ADP	_	_	3	case	_	_
+2	2009	2009	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	запущен	запускать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	исследовательский	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	шар	шар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+9	BU60	BU60	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	1	1	NUM	_	_	9	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+14	Агентством	агентство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+15	аэрокосмических	аэрокосмический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+17	Японии	япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72698
+# text = Он установил рекорд высоты среди аппаратов такого класса, сумев подняться на 53 тысячи метров.Василий Сычёв
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	установил	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	среди	среди	ADP	_	_	6	case	_	_
+6	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+7	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+8	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сумев	сумй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+11	подняться	подниматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	dep	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	53	53	NUM	_	_	14	nummod	_	_
+14	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+15	метров.	метровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+17	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+

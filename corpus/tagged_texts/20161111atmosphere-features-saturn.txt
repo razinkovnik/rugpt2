@@ -1,0 +1,541 @@
+# sent_id = 79000
+# text = Крупное скопление облаков в газовой оболочке Сатурна, известное также как белое пятно, помогло астрономам объяснить изменчивость воздушных потоков в верхних слоях атмосферы планеты.
+1	Крупное	крупный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesBefore=\n
+2	скопление	скопление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+3	облаков	облако	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	газовой	газовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	оболочке	оболочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+7	Сатурна	сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	известное	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+10	также	также	ADV	_	Degree=Pos	9	advmod	_	_
+11	как	как	SCONJ	_	_	13	cc	_	_
+12	белое	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	пятно	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	помогло	помогать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	астрономам	астроном	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+17	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	изменчивость	изменчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	верхних	верхний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+23	слоях	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+24	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79001
+# text = По мнению ученых, она может быть связана с сезонными циклами инсоляции и с полугодичными колебаниями температур в области экватора.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	aux:pass	_	_
+8	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	сезонными	сезонный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	циклами	цикл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+12	инсоляции	инсоляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	полугодичными	полугодичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	колебаниями	колебание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	conj	_	_
+17	температур	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+20	экватора	экватор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 79002
+# text = Статья ученых опубликована вжурнале Nature Communications.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 79003
+# text = Экватор Сатурна считается одной изсамых "неспокойных" областей ватмосфере планеты.
+1	Экватор	Экватор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	одной	один	NUM	_	Case=Gen|Gender=Fem	9	nummod	_	_
+5	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	неспокойных	неспокойный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	областей	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+10	ватмосфере	ватмосфера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+11	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79004
+# text = Вэтой зоне дуют сильные ветра, скорость которых порой достигает 1800 километров вчас, атакже появляются устойчивые образования, представляющие собой сверхмощные ураганы-- взависимости отразмера ихназывают белыми пятнами или гигантскими белыми овалами (последние появляются примерно раз втридцать лет).
+1	Вэтой	Вэтот	DET	_	Case=Dat|Gender=Fem|Number=Sing	2	amod	_	_
+2	зоне	зонь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	дуют	довать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сильные	сильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	ветра	ветер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	которых	который	PRON	_	Case=Gen	7	nmod	_	_
+9	порой	порой	ADV	_	Degree=Pos	10	advmod	_	_
+10	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	1800	1800	NUM	_	_	12	nummod	_	_
+12	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	вчас	вчас	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	атакже	атакже	ADV	_	Degree=Pos	16	advmod	_	_
+16	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	устойчивые	устойчивой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	образования	образование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	представляющие	представлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+21	собой	себя	PRON	_	Case=Ins	20	obl	_	_
+22	сверхмощные	сверхмощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	ураганы	ураган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	23	punct	_	_
+26	взависимости	взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	appos	_	_
+27	отразмера	отразмер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	ихназывают	ихназывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+29	белыми	белой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+30	пятнами	пятно	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	28	obl	_	_
+31	или	или	CCONJ	_	_	34	cc	_	_
+32	гигантскими	гигантский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	amod	_	_
+33	белыми	белый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	amod	_	_
+34	овалами	овал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	30	conj	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	nsubj	_	_
+37	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+38	примерно	примерно	ADV	_	Degree=Pos	39	advmod	_	_
+39	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	41	fixed	_	_
+40	втридцать	втридцать	NUM	_	Case=Acc	41	nummod:gov	_	_
+41	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	obl	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 79005
+# text = Ученым доконца неизвестна структура экваториальных потоков ветра, атакже неизучены механизмы, которые влияют наихдвижение.
+1	Ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	_
+2	доконца	доконец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	неизвестна	неизвестный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	экваториальных	экваториальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	атакже	атакже	CCONJ	_	_	10	cc	_	_
+10	неизучены	неизученный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+11	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	влияют	влиявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	наихдвижение	наихдвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79006
+# text = При этом исследование газовой оболочки Сатурна может помочь понять, какие процессы влияют на движение атмосферы других планет-гигантов, втом числе изапределами нашей Солнечной системы.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	газовой	газовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	оболочки	оболочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	помочь	мочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	какие	какой	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+16	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	планет-гигантов	планет-гигант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	advmod	_	_
+22	изапределами	изапредел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	conj	_	_
+23	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_
+24	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79007
+# text = Авторы новой работы изучили снимки белого пятна Сатурна, сделанные впериод с2014 по2015 год телескопом "Хаббл" икосмическим аппаратом "Кассини".
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	изучили	изучить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
+6	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	пятна	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	Сатурна	сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	сделанные	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	впериод	впериод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+12	с2014	с2014	NUM	_	_	11	nummod	_	_
+13	по2015	по2015	NUM	_	_	12	nummod	_	_
+14	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+15	телескопом	телескоп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Хаббл	Хаббл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	икосмическим	икосмический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	appos	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Кассини	Кассини	PROPN	_	Foreign=Yes	20	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 79008
+# text = Исследователи рассмотрели движение облаков внутри этого гигантского урагана, диаметр которого достигает примерно семи тысяч километров, атакже вего окрестностях.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	рассмотрели	рассматривать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	облаков	облако	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	внутри	внутри	ADV	_	Degree=Pos	6	advmod	_	_
+6	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+7	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	урагана	ураган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+13	примерно	примерно	ADV	_	Degree=Pos	14	advmod	_	_
+14	семи	семь	NUM	_	Case=Gen	15	nummod	_	_
+15	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	_
+16	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	атакже	атакже	CCONJ	_	_	20	cc	_	_
+19	вего	вий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	окрестностях	окрестность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 79009
+# text = Анализ изображений белого пятна помог определить, что оно состоит из скопления облаков, размер каждого из которых достигает 300 -- 500 километров, причем облака в верхнем и нижнем слое тропосферы различаются между собой.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+3	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	пятна	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	помог	помогать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	10	nsubj	_	_
+10	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	облаков	облако	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+16	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	nmod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	которых	который	PRON	_	Case=Gen	16	nmod	_	SpacesAfter=\s\n
+19	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	300	300	NUM	_	_	23	nummod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	500	500	NUM	_	_	20	nummod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	причем	причем	CCONJ	_	_	26	cc	_	_
+26	облака	облако	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	conj	_	_
+27	в	в	ADP	_	_	31	case	_	_
+28	верхнем	верхний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	нижнем	нижний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	conj	_	_
+31	слое	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	SpacesAfter=\s\n
+32	тропосферы	тропосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	различаются	различаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+34	между	между	ADP	_	_	35	case	_	_
+35	собой	себя	PRON	_	Case=Ins	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 79010
+# text = Наблюдения заизменением его формы наразных длинах волн показали, что скорость потоков ветра вблизи тропопаузы (давление 400-700 милибар) достигает 1100 километров вчас, втовремя как на уровне около 150 километров ниже нее она возрастает до1650 километров вчас.
+1	Наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+2	заизменением	заизменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+3	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+5	наразных	наразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	длинах	длина	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+7	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+12	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	вблизи	вблизи	ADP	_	_	15	case	_	_
+15	тропопаузы	тропопауз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	parataxis	_	_
+18	400	400	NUM	_	_	21	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	700	700	NUM	_	_	18	nummod	_	_
+21	милибар	милибар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+24	1100	1100	NUM	_	_	25	nummod	_	_
+25	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+26	вчас	вчас	ADV	_	Degree=Pos	35	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	втовремя	втовремя	ADV	_	Degree=Pos	35	advmod	_	_
+29	как	как	SCONJ	_	_	31	cc	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	advmod	_	_
+32	около	около	ADP	_	_	34	case	_	_
+33	150	150	NUM	_	_	34	nummod	_	_
+34	километров	километер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+35	ниже	низкий	ADJ	_	Degree=Cmp	23	conj	_	_
+36	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	38	obl	_	_
+37	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	38	nsubj	_	_
+38	возрастает	возрастать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	parataxis	_	_
+39	до1650	до1650	NUM	_	_	40	nummod	_	_
+40	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	obl	_	_
+41	вчас	вчас	ADV	_	Degree=Pos	38	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 79011
+# text = Исследователи также заметили, что верхние воздушные потоки, в отличие от нижних, имеют очень изменчивую скорость и ширину.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	заметили	замечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	верхние	верхний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	воздушные	воздушный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	потоки	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	от	от	ADP	_	_	11	fixed	_	_
+13	нижних	нижний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+16	очень	очень	ADV	_	Degree=Pos	17	advmod	_	_
+17	изменчивую	изменчивый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	ширину	ширина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 79012
+# text = Такое различие между верхними и нижними слоями атмосферы Сатурна может объясняться несколькими способами.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	различие	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+3	между	между	ADP	_	_	7	case	_	_
+4	верхними	верхний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	нижними	нижин	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	conj	_	_
+7	слоями	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
+8	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	объясняться	объяснять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	10	xcomp	_	_
+12	несколькими	несколько	NUM	_	Case=Ins	13	nummod	_	_
+13	способами	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79013
+# text = Во-первых исследователи предполагают, что на движение потоков ветра в газовой оболочке планеты влияют сезонные циклы инсоляции.
+1	Во-первых	Во-первых	ADV	_	Degree=Pos	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+8	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	газовой	газовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	оболочке	оболочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+13	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	влияют	влиявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+15	сезонные	сезонный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	циклы	цикл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	инсоляции	инсоляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79014
+# text = Это значит, что в зависимости положения планеты относительно Солнца аэрозольные частицы в атмосфере нагреваются по-разному, что, в свою очередь, способствует возникновению колебаний температуры и изменению силы и ширины потоков ветра.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+7	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	относительно	относительно	ADP	_	_	10	case	_	_
+10	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	аэрозольные	аэрозольный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	частицы	частица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	атмосфере	атмосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	нагреваются	нагреваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+16	по-разному	по-разному	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	PRON	_	Case=Nom	15	mark	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
+22	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	способствует	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+25	возникновению	возникновение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+26	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+27	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	изменению	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	conj	_	_
+30	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	ширины	ширина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	conj	_	_
+33	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+34	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 79015
+# text = Во-вторых, на циркуляцию атмосферы также влияет положение колец планеты, которые отбрасывают тень на Сатурн в области экватора.
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	циркуляцию	циркуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+5	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	также	также	ADV	_	Degree=Pos	7	advmod	_	_
+7	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	колец	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	отбрасывают	отбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	тень	тень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	Сатурн	Сатурн	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+19	экватора	экватор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79016
+# text = Кроме того, авторы работы предполагают, что переменчивость ветров может зависеть отполугодовых колебаний температуры в области экватора, которые также наблюдаются на Земле и на Юпитере, однако для проверки этой гипотезы необходимы дополнительные наблюдения.Наданный момент изучение атмосферы Сатурна проводится спомощью аппарата "Кассини".
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	переменчивость	переменчивость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ветров	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+12	зависеть	зависеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	отполугодовых	отполугодовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	колебаний	колебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+15	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+18	экватора	экватор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	22	nsubj	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	наблюдаются	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	Земле	земля	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	Юпитере	Юпитер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	однако	однако	ADV	_	Degree=Pos	34	advmod	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+32	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	33	amod	_	_
+33	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	необходимы	необходимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+35	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
+36	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	43	nsubj:pass	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	Наданный	Наданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	43	nsubj:pass	_	_
+40	изучение	изучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj:pass	_	_
+41	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	Сатурна	Сатурн	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+43	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+44	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	43	obl	_	_
+45	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	_
+46	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	Кассини	Кассини	PROPN	_	Foreign=Yes	45	appos	_	SpaceAfter=No
+48	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 79017
+# text = Недавно NASA опубликовало снимки северного полюса планеты, сделанные космической станцией в2012 и2016году.
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	_
+2	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	опубликовало	опубликовавать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	северного	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	полюса	полюс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сделанные	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+10	космической	космический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	станцией	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	в2012	в2012	NUM	_	_	13	nummod	_	_
+13	и2016году	и2016год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 79018
+# text = Фотографии показывают, что зачетыре года цвет одного изкрупнейших антициклонов Солнечной системы-- Гигантского гексагона-- значительно изменился.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	зачетыре	зачетыре	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+8	одного	один	NUM	_	Case=Gen|Gender=Masc	7	nummod	_	_
+9	изкрупнейших	изкрупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	10	amod	_	_
+10	антициклонов	антициклон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	Солнечной	солнечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	Гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	appos	_	_
+16	гексагона-	гексагона-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	значительно	значительно	ADV	_	Degree=Pos	19	advmod	_	_
+19	изменился	изменяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79019
+# text = Точная причина этих изменений неизвестна, ноастрономы связывают еесосменой сезонов.
+1	Точная	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	неизвестна	неизвестный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ноастрономы	ноастроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	еесосменой	еесосмена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	сезонов	сезон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79020
+# text = Кристина Уласович
+1	Кристина	Кристина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

@@ -1,0 +1,584 @@
+# sent_id = 75083
+# text = Европейское космическое агентство подтвердило успешное отделение зонда "Скиапарелли" отTrace Gas Orbiter.
+1	Европейское	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpacesBefore=\n
+2	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	подтвердило	подтверждать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	успешное	успешной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	отделение	отделение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	отTrace	отTrace	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Gas	Gas	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Orbiter	Orbiter	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75084
+# text = Разделение аппаратов произошло в 17:42 по московскому времени.
+1	Разделение	разделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	17	17	NUM	_	_	6	nummod	_	SpaceAfter=No
+6	:42	:42	NOUN	_	_	3	obl	_	_
+7	по	по	ADP	_	_	9	case	_	_
+8	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75085
+# text = Посадка "Скиапарелли" на Марс ожидается 19 октября в 17:48.
+1	Посадка	посадка	ADP	_	_	3	case	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	ожидается	ожидавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	19	19	NUM	_	_	7	nummod	_	_
+9	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	17	17	NUM	_	_	12	nummod	_	SpaceAfter=No
+12	:48	:48	NOUN	_	_	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 75086
+# text = Главная цель зонда -- демонстрация технологий посадки на Марс.
+1	Главная	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	зонда	зонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	демонстрация	демонстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75087
+# text = Аппараты являются частью совместной миссии Роскосмоса и ЕКА -- "ЭкзоМарс".Если посадка пройдет согласно плану и модуль выйдет на связь, то "Скиапарелли" станет первым аппаратом Европейского космического агентства, совершившим успешную мягкую посадку на Марс.
+1	Аппараты	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+4	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Роскосмоса	Роскосмос	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	ЕКА	ека	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	ЭкзоМарс	ЭкзоМарс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	Если	если	SCONJ	_	_	2	mark	_	_
+15	посадка	посадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+17	согласно	согласно	ADP	_	_	18	case	_	_
+18	плану	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	выйдет	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	то	то	SCONJ	_	_	0	cc	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+30	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+32	Европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+33	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	совершившим	совершить	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	34	amod	_	_
+37	успешную	успешной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+38	мягкую	мягкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+40	на	на	ADP	_	_	41	case	_	_
+41	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 75088
+# text = На данный момент разделение подтверждено по данным доплеровского сдвига сигнала.
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	разделение	разделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+5	подтверждено	подтверждать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	5	obl	_	_
+8	доплеровского	доплеровский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	сдвига	сдвиг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75089
+# text = Данные отTrace Gas Orbiter анализируются.
+1	Данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	5	nsubj:pass	_	_
+2	отTrace	отTrace	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Gas	Gas	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Orbiter	Orbiter	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	анализируются	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 75090
+# text = Сигнал от аппарата получен, но он не содержит телеметрии, ожидавшейся инженерами.Торможение и посадка будут происходитьследующим образом.
+1	Сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	от	от	ADP	_	_	3	case	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	получен	получать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	но	но	CCONJ	_	_	9	cc	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	телеметрии	телеметрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ожидавшейся	ожидаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	10	amod	_	_
+13	инженерами	инженер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	12	obl:agent	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Торможение	торможение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	appos	_	_
+16	и	и	CCONJ	_	_	20	cc	_	_
+17	посадка	посадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+19	происходитьследующим	происходитьследуть	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75091
+# text = На первом этапеаппарат будет использовать трение об атмосферу, которое снизит его скорость с 21 тысячи километров в час до 1700 километров в час.
+1	На	на	ADP	_	_	3	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	этапеаппарат	этапеаппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	трение	трение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	об	о	ADP	_	_	8	case	_	_
+8	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которое	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	снизит	снижать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	21	21	NUM	_	_	16	nummod	_	_
+16	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nummod:gov	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+20	до	до	ADP	_	_	22	case	_	_
+21	1700	1700	NUM	_	_	22	nummod	_	_
+22	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 75092
+# text = После этого, примерно на высоте 11 километров, будет выброшен парашют.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	примерно	примерно	ADV	_	Degree=Pos	6	advmod	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+7	11	11	NUM	_	_	8	nummod	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	выброшен	выбрашивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	парашют	парашют	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 75093
+# text = На последней стадии снижения, при скорости 250 километров в час, откроется капсула, в которой находится сам зонд, и на оставшейся дистанции торможением будут заниматься реактивные двигатели.Инженеры предполагают, что на высоте двух метров аппарат отключит двигатели и затем перейдет в свободное падение.
+1	На	на	ADP	_	_	3	case	_	_
+2	последней	последний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+4	снижения	снижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	при	при	ADP	_	_	7	case	_	_
+7	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+8	250	250	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	откроется	открываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	капсула	капсула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	которой	который	PRON	_	Case=Loc	18	obl	_	_
+18	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	_
+19	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	и	и	CCONJ	_	_	28	cc	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	оставшейся	оставаться	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	25	amod	_	_
+25	дистанции	дистанция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+26	торможением	торможение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	obl	_	_
+27	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	_	_
+28	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	_
+29	реактивные	реактивной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	_
+30	двигатели.	двигатели.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	Инженеры	Инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+32	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	32	mark	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+37	двух	два	NUM	_	Case=Gen	38	nummod	_	_
+38	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+39	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	_
+40	отключит	отключивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	32	advcl	_	_
+41	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+42	и	и	CCONJ	_	_	44	cc	_	_
+43	затем	затем	ADV	_	Degree=Pos	44	advmod	_	_
+44	перейдет	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	40	conj	_	_
+45	в	в	ADP	_	_	47	case	_	_
+46	свободное	свободный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	47	amod	_	_
+47	падение	падение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	44	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 75094
+# text = Столкновение с поверхностью произойдет на скорости несколько метров в секунду -- этот удар поглотит специальная сминаемая структура на нижней части аппарата.
+1	Столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	удар	удар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	поглотит	поглощать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	специальная	специальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	сминаемая	сминаемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	нижней	нижний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+21	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 75095
+# text = "Скиапарелли" несет на себе несколько научных приборов.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	себе	себя	PRON	_	Case=Loc	4	obl	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+8	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75096
+# text = Часть из них будут работать во время посадки -- это датчики температуры, давления и тепловых потоков, показывающие состояние аппарата при спуске.
+1	Часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	во	во	ADP	_	_	8	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	датчики	датчик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
+12	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	тепловых	тепловой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	показывающие	показывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	спуске	спуск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75097
+# text = Они помогут лучше понять, что будет происходить с основным аппаратом миссии -- ровером -- который будет отправлен к Марсу в 2020 году.Другие приборы предназначены для исследования параметров окружающей среды на Марсе: температуры, скорости ветра, влажности и других.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	помогут	могуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	лучше	хорошо	ADV	_	Degree=Cmp	4	advmod	_	_
+4	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	PRON	_	Case=Nom	8	nsubj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	происходить	происходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+12	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	ровером	ровер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	appos	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	отправлен	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	Марсу	марс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	2020	2020	NUM	_	_	23	nummod	_	_
+23	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+24	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	приборы	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj:pass	_	_
+26	предназначены	предназначать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+29	параметров	параметер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	31	amod	_	_
+31	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	Марсе	марс	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+34	:	:	PUNCT	_	_	33	punct	_	_
+35	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	conj	_	_
+38	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	влажности	влажность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	conj	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 75098
+# text = "Скиапарелли"проработает на поверхности планеты всего несколько дней, впервые сделав замеры электрических полей, чтобы определить их роль в пылевых бурях.Через несколько часов после отделения "Скиапарелли" Trace Gas Orbiter включит свои двигатели для того, чтобы выполнить маневр уклонения от столкновения с Марсом.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	проработает	проработать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	всего	всего	PART	_	_	9	advmod	_	_
+9	несколько	несколько	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	впервые	впервые	ADV	_	Degree=Pos	10	advmod	_	_
+13	сделав	делать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	advcl	_	_
+14	замеры	замер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	электрических	электрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	полей	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	_
+19	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	advcl	_	_
+20	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	21	nmod	_	_
+21	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	пылевых	пылевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	бурях	буря	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Через	через	ADP	_	_	28	case	_	_
+27	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	28	nummod:gov	_	_
+28	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+29	после	после	ADP	_	_	30	case	_	_
+30	отделения	отделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Скиапарелли	Скиапарелли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	_
+34	Trace	Trace	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+35	Gas	Gas	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+36	Orbiter	Orbiter	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	включит	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+38	свои	свой	DET	_	Case=Acc|Number=Plur	39	amod	_	_
+39	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	37	obj	_	_
+40	для	для	ADP	_	_	41	case	_	_
+41	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	чтобы	чтобы	SCONJ	_	Mood=Cnd	41	mark	_	_
+44	выполнить	выполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	41	advcl	_	_
+45	маневр	маневр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	obj	_	_
+46	уклонения	уклонение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	от	от	ADP	_	_	48	case	_	_
+48	столкновения	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+49	с	с	ADP	_	_	50	case	_	_
+50	Марсом	марс	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	SpaceAfter=No
+
+# sent_id = 75099
+# text = Это произойдет примерно в 5:42 по московскому времени.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	примерно	примерно	ADV	_	Degree=Pos	5	advmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	5	5	NUM	_	_	8	nummod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	42	42	NUM	_	_	5	nummod	_	_
+8	по	по	ADP	_	_	10	case	_	_
+9	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75100
+# text = После этого он перейдет на длинную вытянутую орбиту вокруг Марса с малой осью около 250 километров и большой осью в 100 тысяч километров.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	перейдет	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	8	case	_	_
+6	длинную	длинный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	вытянутую	вытягивать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+9	вокруг	вокруг	ADP	_	_	10	case	_	_
+10	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	малой	малый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	осью	ось	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	250	250	NUM	_	_	16	nummod	_	_
+16	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	осью	ось	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	100	100	NUM	_	_	22	nummod	_	_
+22	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75101
+# text = Один оборот на ней занимает около четырех дней.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	оборот	оборот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+5	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	четырех	четыре	NUM	_	Case=Gen	8	nummod	_	_
+8	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 75102
+# text = Аппарат выйдет на короткую научную орбиту в январе 2017 года.На борту Trace Gas Orbiter находятся четыре научных эксперимента: два российских и два европейских.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	выйдет	выходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	6	case	_	_
+4	короткую	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	научную	научный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	январе	январь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+9	2017	2017	NUM	_	_	10	nummod	_	_
+10	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	На	на	ADP	_	_	12	case	_	_
+12	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+13	Trace	Trace	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Gas	Gas	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Orbiter	Orbiter	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+17	четыре	четыре	NUM	_	Case=Nom	19	nummod:gov	_	_
+18	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	два	два	NUM	_	Case=Nom|Gender=Masc	22	nummod:gov	_	_
+22	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	parataxis	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	два	два	NUM	_	Case=Nom|Gender=Masc	22	conj	_	_
+25	европейских	европейский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 75103
+# text = Основная цель аппарата --спектроскопический анализ атмосферы и поиск в ней следов метана.Первые аппараты миссии "ЭкзоМарс" стартовалис космодрома 14 марта в 12:31 по московскому времени.
+1	Основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	--спектроскопический	--спектроскопический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+11	следов	след	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	метана.	метана.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+13	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+15	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	ЭкзоМарс	ЭкзоМарс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	стартовалис	стартовалис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+20	космодрома	космодром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	14	14	NUM	_	_	20	nummod	_	_
+22	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	12	12	NUM	_	_	25	nummod	_	SpaceAfter=No
+25	:31	:31	NOUN	_	_	21	nmod	_	_
+26	по	по	ADP	_	_	28	case	_	_
+27	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 75104
+# text = После запуска полет аппарата удалось наблюдатьс помощью наземных телескопов.
+1	После	после	ADP	_	_	2	case	_	_
+2	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+3	полет	погод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	наблюдатьс	наблюдатьс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	наземных	наземный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	телескопов	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75105
+# text = НедавноTrace Gas Orbiter передал первые снимки Краснойпланеты.
+1	НедавноTrace	НедавноTrace	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	Gas	Gas	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Orbiter	Orbiter	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	Краснойпланеты	Краснойпланета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 75106
+# text = Это совместный российско-европейский проект, предназначенный для изучения атмосферы Марса, его поверхности и климата.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	совместный	совместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+3	российско-	российско-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	предназначенный	предназначать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 75107
+# text = Главная цель миссии -- поиск следов существования жизни на планете.Владимир Королёв
+1	Главная	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	поиск	поиск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	следов	след	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	планете.	планетбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+11	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+

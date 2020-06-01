@@ -1,0 +1,234 @@
+# sent_id = 86660
+# text = Компания Amazon запатентовала воздушные склады для доставки грузов с помощью беспилотных летательных аппаратов.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n|SpacesAfter=\n
+2	Amazon	Amazon	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	запатентовала	запатентовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	воздушные	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	склады	склад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	с	с	ADP	_	_	13	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	SpacesAfter=\n
+11	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86661
+# text = Склады также могут служить гаванью для дронов, обеспечивая быструю доставку пользователю.
+1	Склады	склад	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	гаванью	гавань	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	для	для	ADP	_	_	7	case	_	SpacesAfter=\n
+7	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	обеспечивая	обеспечивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+10	быструю	быстрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	доставку	доставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpacesAfter=\n
+12	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86662
+# text = Патент был выдан еще в мае, но только недавно на него обратила внимание специалист из исследовательской компании CB Insights.
+1	Патент	патент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выдан	выдавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	6	advmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	мае	май	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	13	cc	_	_
+9	только	только	PART	_	_	8	advmod	_	_
+10	недавно	недавно	ADV	_	Degree=Pos	13	advmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+13	обратила	обращать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	специалист	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	исследовательской	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+19	CB	Cb	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Insights	Insights	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86663
+# text = Текст документа опубликован на сайте Патентного ведомства США.
+1	Текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	Патентного	Патентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	ведомства	ведомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 86664
+# text = Судя по тексту патента, компания планирует оптимизировать время на доставку беспилотными аппаратами за счет создания воздушных складов, на которых будет храниться запас товаров и будут припаркованы дроны.
+1	Судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	тексту	текст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpacesAfter=\n
+4	патента	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	планирует	планирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	оптимизировать	оптимизировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	SpacesAfter=\n
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	доставку	доставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	беспилотными	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+13	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	obl	_	SpacesAfter=\n
+14	за	за	ADP	_	_	16	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+17	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	складов	склад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	21	case	_	SpacesAfter=\n
+21	которых	который	PRON	_	Case=Loc	23	obl	_	_
+22	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+23	храниться	храниться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	acl:relcl	_	_
+24	запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+25	товаров	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpacesAfter=\n
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	припаркованы	припарковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+29	дроны	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86665
+# text = Amazon планирует поднимать помещение склада с помощью большого дирижабля, и стационарно размещать его там, где по прогнозам будет расти спрос на те или иные товары.
+1	Amazon	Amazon	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	поднимать	поднимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	помещение	помещение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	склада	склад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	дирижабля	дирижабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	стационарно	стационарно	ADV	_	Degree=Pos	13	advmod	_	_
+13	размещать	размещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+14	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
+15	там	там	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	где	где	ADV	_	Degree=Pos	21	advmod	_	_
+18	по	по	ADP	_	_	19	case	_	SpacesAfter=\n
+19	прогнозам	прогноз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+21	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
+22	спрос	спрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	на	на	ADP	_	_	27	case	_	_
+24	те	тот	DET	_	Case=Acc|Number=Plur	27	amod	_	_
+25	или	или	CCONJ	_	_	26	cc	_	SpacesAfter=\n
+26	иные	иной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	conj	_	_
+27	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 86666
+# text = На складах можно будет хранить скоропортящиеся продукты или товары ежедневного спроса для быстрой доставки жителям близлежащих населенных пунктов.
+1	На	на	ADP	_	_	2	case	_	_
+2	складах	склад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	SpacesAfter=\n
+5	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+6	скоропортящиеся	скоропортиться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+7	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	или	или	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+9	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
+10	ежедневного	ежедневный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	спроса	спрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\n
+14	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	жителям	житель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	0	obl	_	_
+16	близлежащих	близлежащий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	населенных	населять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	SpacesAfter=\n
+18	пунктов	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86667
+# text = Составители патента предлагают разместить дирижабли на большой высоте (около 13 700 метров), чтобы не мешать полетам коммерческой авиации.
+1	Составители	составитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	патента	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	предлагают	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	разместить	размескать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	дирижабли	дирижабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	большой	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	SpacesAfter=\n
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	около	около	ADP	_	_	13	case	_	_
+11	13	13	NUM	_	_	13	nummod	_	_
+12	700	700	NUM	_	_	13	nummod	_	_
+13	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	мешать	мешать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	advcl	_	SpacesAfter=\n
+19	полетам	полет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
+20	коммерческой	коммерческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86668
+# text = Между наземными и воздушными складами, предположительно, будут курсировать челночные дирижабли поменьше.
+1	Между	между	ADP	_	_	5	case	_	SpacesAfter=\n
+2	наземными	наземный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	воздушными	воздушный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	conj	_	_
+5	складами	склада	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	предположительно	предположительно	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	курсировать	курсировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	SpacesAfter=\n
+11	челночные	челночный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	дирижабли	дирижабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+13	поменьше	малый	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86669
+# text = Они будут доставлять необходимые товары, сотрудников склада, а также беспилотные аппараты.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	SpacesAfter=\n
+3	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	SpacesAfter=\n
+8	склада	склад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	13	cc	_	_
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	_
+12	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86670
+# text = Дроны, доставившие посылку, предположительно, будут возвращаться на дирижабли-челноки и в них подзаряжаться.
+1	Дроны	Дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	доставившие	доставить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+4	посылку	посылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	предположительно	предположительно	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	возвращаться	возвращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	дирижабли-	дирижабли-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	челноки	челнок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	SpacesAfter=\n
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	16	obl	_	_
+16	подзаряжаться	подзаряжаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+

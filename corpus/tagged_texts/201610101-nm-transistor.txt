@@ -1,0 +1,617 @@
+# sent_id = 74252
+# text = Физики из Национальной лаборатории Лоуренса в Беркли, а также университетов Калифорнии, Техаса и Стэнфорда создали транзистор с рекордно малым размером затвора -- части устройства, отвечающей за включение и отключение.
+1	Физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	4	case	_	_
+3	Национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Лоуренса	Лоуренс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	в	в1	ADP	_	_	7	case	_	_
+7	Беркли	беркли	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	conj	_	_
+12	Калифорнии	калифорния	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Техаса	Техас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	Стэнфорда	стэнфорд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+17	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	транзистор	транзистор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	с	с	ADP	_	_	22	case	_	_
+20	рекордно	рекордно	ADV	_	Degree=Pos	21	advmod	_	_
+21	малым	малый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	_
+23	затвора	затвор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+26	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	отвечающей	отвечать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+29	за	за	ADP	_	_	30	case	_	_
+30	включение	включение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	отключение	отключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 74253
+# text = Его длина составила всего один нанометр -- в 20 раз меньше, чем в современных устройствах.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всего	всего	PART	_	_	5	advmod	_	_
+5	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	нанометр	нанометр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	20	20	NUM	_	_	10	nummod	_	_
+10	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+11	меньше	малый	ADJ	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чем	чем	SCONJ	_	_	16	cc	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 74254
+# text = Ключевым для создания транзистора стало использование в качестве основного материала атомарно тонких слоев дисульфида молибдена.
+1	Ключевым	ключевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	транзистора	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	основного	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	атомарно	атомарно	ADV	_	Degree=Pos	12	advmod	_	_
+12	тонких	тонкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	дисульфида	дисульфид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	молибдена	молибден	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74255
+# text = В случае традиционных кремниевых транзисторов минимальный размер затвора ограничен пятью нанометрами.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+3	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	кремниевых	кремниевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	транзисторов	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	минимальный	минимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	затвора	затвор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	ограничен	ограникать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	пятью	пять	NUM	_	Case=Ins	11	nummod	_	_
+11	нанометрами	нанометр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 74256
+# text = Исследователи отмечают, что разработанная технология не адаптирована для массового производства, но тем не менее работа показывает, что предел миниатюризации транзисторов еще не достигнут.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	адаптирована	адаптироывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	массового	массовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	но	но	CCONJ	_	_	18	cc	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	discourse	_	_
+15	не	не	PART	_	Polarity=Neg	14	fixed	_	_
+16	менее	менее	ADV	_	Degree=Cmp	15	fixed	_	_
+17	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	предел	предел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+22	миниатюризации	миниатюризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	транзисторов	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	еще	еще	ADV	_	Degree=Pos	26	advmod	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	достигнут	достигать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 74257
+# text = Исследование опубликовано в журнале Science, кратко о нем сообщает пресс-релиз лаборатории.Основной деталью современных микроэлектронных устройств являются транзисторы -- полупроводниковые приборы, способные изменять свою электропроводность под действием приложенного управляющего напряжения.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Science	science	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	кратко	кратко	ADV	_	Degree=Pos	10	advmod	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+10	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+11	пресс-релиз	пресс-релиз	ADP	_	_	12	case	_	_
+12	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	деталью	деталь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+16	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	микроэлектронных	микроэлектронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+19	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
+20	транзисторы	транзистор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	полупроводниковые	полупроводниковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	приборы	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+26	изменять	изменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	28	amod	_	_
+28	электропроводность	электропроводность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+29	под	под	ADP	_	_	30	case	_	_
+30	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	obl	_	_
+31	приложенного	приложенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	управляющего	управляющий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	напряжения	напряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 74258
+# text = Полевые транзисторы (самый распространенный тип) состоят из трех основных частей -- истока, затвора и стока.
+1	Полевые	полевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	транзисторы	транзистор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	распространенный	распространенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	тип	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	из	из	ADP	_	_	12	case	_	_
+10	трех	три	NUM	_	Case=Gen	12	nummod	_	_
+11	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	истока	исток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	затвора	затвор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	стока	сток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 74259
+# text = В простейшем случае в транзисторе есть два разных типа проводников с различными видами проводимости.
+1	В	в	ADP	_	_	2	mark	_	_
+2	простейшем	простейшть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	транзисторе	транзистор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+7	два	два	NUM	_	Case=Nom|Gender=Masc	9	nummod:gov	_	_
+8	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+10	проводников	проводник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	видами	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	_
+14	проводимости	проводимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74260
+# text = Между истоком и стоком есть канал, через который могут перемещаться носители заряда, часть этого канала контактирует с полупроводником другого типа проводимости.
+1	Между	между	ADP	_	_	2	case	_	_
+2	истоком	исток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	стоком	сток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	канал	канал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	через	через	ADP	_	_	9	case	_	_
+9	который	который	PRON	_	Case=Acc	10	obl	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	носители	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+16	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	amod	_	_
+17	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	контактирует	контактировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	полупроводником	полупроводник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+21	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	проводимости	проводимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74261
+# text = Если приложить к последнему напряжение, то возникает запирающий слой, повышающий сопротивление канала -- транзистор "отключается".Современные транзисторы имеют размеры порядка десятков нанометров -- на таких расстояниях начинают сказываться различные побочные эффекты, связанные с квантовой природой носителей зарядов, электронов.
+1	Если	если	SCONJ	_	_	8	mark	_	_
+2	приложить	прикладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+3	к	к	ADP	_	_	5	case	_	_
+4	последнему	последний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	то	то	SCONJ	_	_	2	cc	_	_
+8	возникает	возникавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+9	запирающий	запиравать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	повышающий	повышать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	транзистор	транзистор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	отключается	отключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	conj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+21	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	транзисторы	транзистор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+24	размеры	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+25	порядка	порядка	ADP	_	_	26	case	_	_
+26	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	нанометров	нанометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	на	на	ADP	_	_	31	case	_	_
+30	таких	такой	DET	_	Case=Loc|Number=Plur	31	amod	_	_
+31	расстояниях	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	obl	_	_
+32	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	сказываться	сказываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	32	xcomp	_	_
+34	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
+35	побочные	побочной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	36	amod	_	_
+36	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	36	amod	_	_
+39	с	с	ADP	_	_	41	case	_	_
+40	квантовой	квантовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	природой	природа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	38	obl	_	_
+42	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+43	зарядов	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 74262
+# text = Так, при малых длинах канала, расположенного рядом с затвором, электроны могут "не обращать внимания" на запирающий слой и попросту туннелировать сквозь него.
+1	Так	так	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	при	при	ADP	_	_	5	case	_	_
+4	малых	малый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	длинах	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+6	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+9	рядом	рядом	ADV	_	Degree=Pos	8	advmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	затвором	затвор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	не	не	PART	_	_	17	advmod	_	_
+17	обращать	обращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+18	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	запирающий	запирать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+22	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	попросту	попросту	PART	_	_	25	advmod	_	_
+25	туннелировать	туннелировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	_
+26	сквозь	сквозь	ADP	_	_	27	case	_	_
+27	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 74263
+# text = Такой транзистор невозможно выключить.
+1	Такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	транзистор	транзистор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	выключить	выключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 74264
+# text = Этот эффект можно подавить, увеличив эффективную массу электронов и сделав их менее подвижными.
+1	Этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	подавить	подавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	увеличив	увеличивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	advcl	_	_
+7	эффективную	эффективный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	сделав	делать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	conj	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	менее	менее	ADV	_	Degree=Cmp	14	advmod	_	_
+14	подвижными	подвижный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74265
+# text = Эффективная масса носителей заряда -- это такая масса, имея которую в вакууме частицы двигались бы так же, как двигаются в реальном материале.
+1	Эффективная	эффективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	это	это	PART	_	_	8	cop	_	_
+7	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	имея	иметь	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+11	которую	который	PRON	_	Case=Acc	10	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	вакууме	вакуум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	частицы	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	двигались	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+16	бы	бы	PART	_	Mood=Cnd	15	aux	_	_
+17	так	так	ADV	_	Degree=Pos	21	advmod	_	_
+18	же	же	PART	_	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	как	как	SCONJ	_	_	21	mark	_	_
+21	двигаются	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	advcl	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	реальном	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 74266
+# text = Изменить ее можно, выбрав другой материал для транзистора.В новой работе авторы использовали для канала транзистора слой дисульфид молибдена толщиной в несколько атомных слоев.
+1	Изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+2	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	выбрав	выбирать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+6	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	транзистора	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	В	в	ADP	_	_	13	case	_	_
+12	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+14	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	транзистора	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+20	дисульфид	дисульфида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	молибдена	молибдать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	conj	_	_
+22	толщиной	толщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+23	в	в	ADP	_	_	26	case	_	_
+24	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	26	nummod:gov	_	_
+25	атомных	атомной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 74267
+# text = Эффективная масса носителей заряда в нем в несколько раз выше, чем в кремнии.
+1	Эффективная	эффективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	носителей	носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+7	в	в1	ADP	_	_	9	case	_	_
+8	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+10	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	чем	чем	SCONJ	_	_	14	cc	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	кремнии	кремние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74268
+# text = Роль управляющего электрода, изменявшего состояние затвора, играла одиночная углеродная нанотрубка.
+1	Роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	управляющего	управлять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	электрода	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	изменявшего	изменявать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	_
+6	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	затвора	затвор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	играла	играть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	одиночная	одиночный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	углеродная	углеродный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	нанотрубка	нанотрубка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74269
+# text = От затвора она отделена слоем диэлектрика -- оксида циркония.Чтобы собрать подобное устройство, ученые пользовались высокоточными техниками -- на первом этапе одиночную углеродную нанотрубку переносили на подложку.
+1	От	от	ADP	_	_	2	case	_	_
+2	затвора	затвор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj:pass	_	_
+4	отделена	отделивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	диэлектрика	диэлектрик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	оксида	оксид	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+9	циркония.	циркония.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+10	Чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	_
+11	собрать	собирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+12	подобное	подобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	пользовались	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+17	высокоточными	высокоточный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	техниками	техниок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+23	одиночную	одиночной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	углеродную	углеродный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	нанотрубку	нанотрубка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+26	переносили	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	подложку	подложка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74270
+# text = Затем с помощью сканирующей электронной микроскопии физики устанавливали точное положение нанотрубки на подложке и напыляли на ее концы палладий.
+1	Затем	затем	ADV	_	Degree=Pos	8	advmod	_	_
+2	с	с	ADP	_	_	6	case	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	_
+4	сканирующей	сканируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+5	электронной	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+7	физики	физика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	устанавливали	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	точное	точной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+11	нанотрубки	нанотрубка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	подложке	подложка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	напыляли	напылять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	18	nmod	_	_
+18	концы	конец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+19	палладий	палладий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74271
+# text = Образовывались контакты большой площади, благодаря которым можно было подавать напряжение на затвор.
+1	Образовывались	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	контакты	контакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+3	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	площади	площадь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	благодаря	благодаря	ADP	_	_	7	case	_	_
+7	которым	который	PRON	_	Case=Dat	8	obl	_	_
+8	можно	можно	ADV	_	Degree=Pos	1	acl:relcl	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	подавать	подавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+11	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	obj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	затвор	затвор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 74272
+# text = Затем с помощью техники атомного послойного осаждения авторы наносили слой оксида циркония требуемой толщины.
+1	Затем	затем	ADV	_	Degree=Pos	9	advmod	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	_
+4	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+5	атомного	атомный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	послойного	послойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	осаждения	осаждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	наносили	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	циркония	цирконий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	требуемой	требовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	толщины	толщина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 74273
+# text = Следом за этим на диэлектрик помещали дисульфид молибдена и напыляли контакты -- исток и сток.Эксперименты с устройством показали, что проводимость транзистора управляется напряжением на затворе.
+1	Следом	следом	ADV	_	Degree=Pos	6	advmod	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	диэлектрик	диэлектрик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	дисульфид	дисульфид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	молибдена	молибден	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	напыляли	напылять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	контакты	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	исток	истка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	сток.	стокей	DET	_	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+16	Эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	_
+19	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	19	mark	_	_
+22	проводимость	проводимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+23	транзистора	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	управляется	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	advcl	_	_
+25	напряжением	напряжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl:agent	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	затворе	затвор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 74274
+# text = Ток, проходящий через транзистор в выключенном состоянии, в миллион раз меньше, чем ток включенного транзистора.Авторы отмечают, что хотя разработанные транзисторы гораздо меньше, чем используемые в современных устройствах, их массовое производство на сегодняшний день потребует значительных усовершенствований техник литографии.
+1	Ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	проходящий	проходить	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+4	через	через	ADP	_	_	5	case	_	_
+5	транзистор	транзистор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	выключенном	выключать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	миллион	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+12	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+13	меньше	мало	NUM	_	_	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чем	чем	SCONJ	_	_	16	cc	_	_
+16	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+17	включенного	включять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+18	транзистора.	транзистора.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	Авторы	Автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	хотя	хотя	SCONJ	_	_	24	mark	_	_
+24	разработанные	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	транзисторы	транзистор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+26	гораздо	гораздо	ADV	_	Degree=Pos	27	advmod	_	_
+27	меньше	мало	NUM	_	_	20	advcl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	чем	чем	SCONJ	_	_	37	cc	_	_
+30	используемые	использовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	37	amod	_	_
+31	в	в	ADP	_	_	33	case	_	_
+32	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	33	amod	_	_
+33	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	37	nmod	_	_
+36	массовое	массовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	advmod	_	_
+38	на	на	ADP	_	_	40	case	_	_
+39	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	nmod	_	_
+41	потребует	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	_
+42	значительных	значительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	усовершенствований	усовершенствование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	41	obl	_	_
+44	техник	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	43	nmod	_	_
+45	литографии	литография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 74275
+# text = Так, сложность представляет рост больших по площади моноатомных слоев дисульфида молибдена, а также технология нанесения на них металлических контактов.
+1	Так	так	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	сложность	сложность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	площади	площадь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+9	моноатомных	моноатомный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	дисульфида	дисульфид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	молибдена	молибден	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	advmod	_	_
+16	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+17	нанесения	нанесение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	nmod	_	_
+20	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	контактов	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+

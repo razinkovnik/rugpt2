@@ -1,0 +1,288 @@
+# sent_id = 79896
+# text = Археологи нашли на восточном побережье Каспийского моря в Казахстане каменный комплекс, по-видимому, построенный кочевыми племенами, возможно гуннами, около 1500 лет тому назад.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	на	на	ADP	_	_	5	case	_	_
+4	восточном	восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	побережье	побережье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	Каспийского	каспийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Казахстане	казахстан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+10	каменный	каменный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	по-видимому	по-видимому	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	построенный	строить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+16	кочевыми	кочевый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	SpacesAfter=\n
+17	племенами	племя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	conj	_	_
+20	гуннами	гунна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	около	около	ADP	_	_	24	case	_	_
+23	1500	1500	NUM	_	_	24	nummod	_	SpacesAfter=\n
+24	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+25	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	_
+26	назад	назад	ADV	_	Degree=Pos	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79897
+# text = По мнению ученых, здесь находилось святилище и место погребения умерших.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	здесь	здесь	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+6	находилось	находиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	святилище	святилище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+10	погребения	погребение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpacesAfter=\n
+11	умерших	умерший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79898
+# text = Исследование опубликовано в Ancient Civilizations from Scythia to Siberia, кратко о находке рассказывает Live Science.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	Ancient	Ancient	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Civilizations	Civilizations	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	from	from	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	Scythia	Scythia	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	to	to	X	_	Foreign=Yes	7	flat:foreign	_	SpacesAfter=\n
+9	Siberia	Siberia	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	кратко	кратко	ADV	_	Degree=Pos	14	advmod	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpacesAfter=\n
+14	рассказывает	рассказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpacesAfter=\n
+15	Live	live	PROPN	_	Foreign=Yes	14	nsubj	_	_
+16	Science	science	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 79899
+# text = В 2010 году житель казахстанского города Актау, расположенного на полуострове Мангистау, нашел в степи недалеко от города древние артефакты -- фрагменты серебряной отделки седла.
+1	В	в	ADP	_	_	3	case	_	_
+2	2010	2010	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+4	житель	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpacesAfter=\n
+5	казахстанского	казахстанский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Актау	Актау	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n
+10	на	на	ADP	_	_	11	case	_	_
+11	полуострове	полуостров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Мангистау	Мангистау	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	нашел	находить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	степи	степь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+17	недалеко	недалеко	ADV	_	Degree=Pos	14	advmod	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+20	древние	древний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	SpacesAfter=\n
+21	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	conj	_	_
+24	серебряной	серебряный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	SpacesAfter=\n
+25	отделки	отделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	седла	седть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79900
+# text = Археологи, которым он принес свои находки, съездили на место открытия и обнаружили там остатки каменных структур, разбросанных на площади свыше 120 гектаров.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которым	который	PRON	_	Case=Dat	5	obl	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	SpacesAfter=\n
+5	принес	приносить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	свои	свой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	находки	находка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	съездили	съездить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpacesAfter=\n
+12	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	обнаружили	обнаружить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+15	там	там	ADV	_	Degree=Pos	14	advmod	_	_
+16	остатки	остатки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpacesAfter=\n
+17	каменных	каменный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	разбросанных	разбрасывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+21	на	на	ADP	_	_	22	case	_	SpacesAfter=\n
+22	площади	площадь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	свыше	свыше	ADP	_	_	25	case	_	_
+24	120	120	NUM	_	_	25	nummod	_	_
+25	гектаров	гектар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79901
+# text = Предварительное исследование показало, что комплекс состоит из восьми структур.
+1	Предварительное	Предварительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesAfter=\n
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpacesAfter=\n
+7	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	из	из	ADP	_	_	10	case	_	_
+9	восьми	восемь	NUM	_	Case=Gen	10	nummod	_	_
+10	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79902
+# text = В одной из них, расположенной в центральной части, и были найдены артефакты.
+1	В	в	ADP	_	_	2	case	_	_
+2	одной	один	NUM	_	Case=Loc|Gender=Fem	13	nummod	_	_
+3	из	из	ADP	_	_	4	case	_	SpacesAfter=\n
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	расположенной	расположенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	центральной	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+14	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 79903
+# text = По экономическим причинам археологи смогли открыть раскопки только в 2014 году и начали исследования с центральной части комплекса, где были найдены артефакты.
+1	По	по	ADP	_	_	3	case	_	_
+2	экономическим	экономический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	SpacesAfter=\n
+3	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
+4	археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	открыть	открывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpacesAfter=\n
+7	раскопки	раскопка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	только	только	PART	_	_	11	advmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	2014	2014	NUM	_	_	11	nummod	_	_
+11	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpacesAfter=\n
+14	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	центральной	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpacesAfter=\n
+18	комплекса	комплекс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	где	где	ADV	_	Degree=Pos	22	advmod	_	_
+21	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	aux:pass	_	_
+22	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+23	артефакты	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 79904
+# text = Структура представляла собой стену, ограждавшую территорию 15,5 х 11 метров.
+1	Структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	представляла	представлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	стену	стена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	ограждавшую	ограждавать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	amod	_	_
+7	территорию	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	15,5	15,5	NUM	_	_	7	nummod	_	_
+9	х	х	ADP	_	_	11	case	_	_
+10	11	11	NUM	_	_	11	nummod	_	_
+11	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79905
+# text = Она была сложена из плит песчаника, которые были вертикально поставлены в два ряда, параллельно друг другу, и неглубоко вкопаны в землю.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	сложена	складывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	плит	пливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	obl	_	_
+6	песчаника	песчаник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+10	вертикально	вертикально	ADV	_	Degree=Pos	11	advmod	_	_
+11	поставлены	ставить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+12	в	в	ADP	_	_	14	case	_	SpacesAfter=\n
+13	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	14	nummod:gov	_	_
+14	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	параллельно	параллельно	ADV	_	Degree=Pos	3	advmod	_	_
+17	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	fixed	_	_
+18	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	SpacesAfter=\n
+21	неглубоко	неглубоко	ADV	_	Degree=Pos	22	advmod	_	_
+22	вкопаны	вкопывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79906
+# text = Толщина стены составляла от 80 до 120 сантиметров.
+1	Толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	стены	стена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	составляла	составлять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	80	80	NUM	_	_	8	nummod	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	120	120	NUM	_	_	8	nummod	_	_
+8	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 79907
+# text = С наружной стороны ограждения ученые обнаружили катакомбы с захоронениями, а также яму, в которой ранее были найдены фрагменты седла.
+1	С	с	ADP	_	_	3	case	_	SpacesAfter=\n
+2	наружной	наружный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+4	ограждения	ограждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	катакомбы	катакомб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	obj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	захоронениями	захоронение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	13	cc	_	_
+12	также	также	ADV	_	Degree=Pos	13	advmod	_	_
+13	яму	яма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	в	в	ADP	_	_	16	case	_	_
+16	которой	который	PRON	_	Case=Loc	19	obl	_	_
+17	ранее	ранее	ADV	_	Degree=Pos	19	advmod	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+20	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpacesAfter=\n
+21	седла	седл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79908
+# text = Археологи изучили ее содержимое, и нашли мелкие серебряные детали, а также подгнившую деревянную основу седла и бронзовые части кнута.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	изучили	изучивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	obj	_	_
+4	содержимое	содержим	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	и	и	CCONJ	_	_	4	cc	_	_
+7	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	мелкие	мелкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	серебряные	серебряный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	подгнившую	дгнить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	conj	_	_
+15	деревянную	деревянный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpacesAfter=\n
+17	седла	седл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	бронзовые	бронзовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	_
+21	кнута	кнут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+

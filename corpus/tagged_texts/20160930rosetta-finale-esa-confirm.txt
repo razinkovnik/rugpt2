@@ -1,0 +1,115 @@
+# sent_id = 73157
+# text = Центр управления полетами Европейского космического агентства подтвердил столкновение "Розетты" с кометой Чурюмова -- Герасименко и конец 12-летней миссии аппарата.
+1	Центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpacesBefore=\n
+2	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	полетами	полет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
+4	Европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	подтвердил	подтверждать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Розетты	Розетт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+14	Чурюмова	Чурюмов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	Герасименко	Герасименко	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	конец	конец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+19	12-летней	12-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73158
+# text = Столкновение произошло в 13:39 по московскому времени, еще около 40 минут потребовалось последнему сигналу от "Розетты" чтобы достигнуть Земли.Финальная скорость, на которой произошло столкновение составила 0,9 метра в секунду -- 3,24 километра в час.
+1	Столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	8	case	_	_
+4	13	13	NUM	_	_	8	nummod	_	SpaceAfter=No
+5	:39	:39	NUM	_	_	4	nummod	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+11	около	около	ADP	_	_	13	case	_	_
+12	40	40	NUM	_	_	13	nummod	_	_
+13	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+14	потребовалось	требоваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+15	последнему	последний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	сигналу	сигнал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+17	от	от	ADP	_	_	16	case	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Розетты	Розетт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	appos	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+22	достигнуть	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+23	Земли.	земли.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+24	Финальная	Финальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	которой	который	PRON	_	Case=Loc	29	obl	_	_
+29	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
+30	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_
+31	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+32	0,9	0,9	NUM	_	_	0	nummod	_	_
+33	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	_
+36	--	--	PUNCT	_	_	35	punct	_	_
+37	3,24	3,24	NUM	_	_	38	nummod	_	_
+38	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 73159
+# text = Сразу после посадки антенна аппарата перестала быть направленной на Землю, что сделало связь с "Розеттой" невозможной.
+1	Сразу	сразу	ADV	_	Degree=Pos	4	advmod	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+4	антенна	антенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	6	nsubj	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	перестала	переставать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	aux:pass	_	_
+8	направленной	направлять	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+9	на	на	ADP	_	_	8	case	_	_
+10	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	сделало	делать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	с	с	ADP	_	_	19	case	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Розеттой	Розеттый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	невозможной	невозможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73160
+# text = За два дня до этого ученые загрузили на устройство программный патч, который навсегда выключит радиовещание "Розетты".
+1	За	за	ADP	_	_	3	case	_	_
+2	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	3	nummod:gov	_	_
+3	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	загрузили	загружать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+10	программный	программный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	патч	патч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+14	навсегда	навсегда	ADV	_	Degree=Pos	15	advmod	_	_
+15	выключит	выключать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	радиовещание	радиовещание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Розетты	Розетт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	appos	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+

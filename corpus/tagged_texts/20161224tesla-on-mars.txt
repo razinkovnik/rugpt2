@@ -1,0 +1,281 @@
+# sent_id = 86228
+# text = В программном обеспечении автомобилей Tesla обнаружили пасхальное яйцо в виде марсианского навигатора, который отображается вместо штатной карты.
+1	В	в	ADP	_	_	3	case	_	SpacesBefore=\n
+2	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+4	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	Tesla	Tesla	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	обнаружили	обнаружать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	пасхальное	пасхальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	яйцо	яйцо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	_	_
+11	марсианского	марсианский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	навигатора	навигатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	отображается	отображаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+16	вместо	вместо	ADP	_	_	18	case	_	_
+17	штатной	штатной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	карты	карта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86229
+# text = Демонстрационное видео опубликовано на YouTube.Пасхальное яйцо -- незадокументированная функция в программном обеспечении, которая встраивается разработчиками в качестве шутки и обычно никак не влияет на основную функциональность программы.
+1	Демонстрационное	Демонстрационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	YouTube	ютьюб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Пасхальное	Пасхальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	яйцо	яйцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	незадокументированная	незадокументированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которая	который	PRON	_	Case=Nom	17	nsubj:pass	_	_
+17	встраивается	встраивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	acl:relcl	_	_
+18	разработчиками	разработчик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	obl:agent	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	шутки	шутка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+22	и	и	CCONJ	_	_	26	cc	_	_
+23	обычно	обычно	ADV	_	Degree=Pos	26	advmod	_	_
+24	никак	никак	ADV	_	Degree=Pos	25	advmod	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	основную	основной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	функциональность	функциональность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+30	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 86230
+# text = В качестве одного из примеров можно привести многочисленные "пасхалки" в продуктах Adobe или пентаграмму, которую в этом годуобнаружили в саундтреке нового Doom.В одной из последних версий программного обеспечения Tesla "пасхальное яйцо" оказалось встроено в штатный навигатор.
+1	В	в	ADP	_	_	3	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	6	nummod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	примеров	пример	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	многочисленные	многочисленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	пасхалки	пасхалка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+14	Adobe	Adobe	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	пентаграмму	пентаграмм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которую	который	PRON	_	Case=Acc	21	obj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+21	годуобнаружили	годуобнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	саундтреке	саундтрек	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+24	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	Doom	Doom	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	В	в	ADP	_	_	28	case	_	_
+28	одной	один	NUM	_	Case=Loc|Gender=Fem	33	nummod	_	_
+29	из	из	ADP	_	_	31	case	_	_
+30	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	версий	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+32	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	obl	_	_
+34	Tesla	Tesla	PROPN	_	Foreign=Yes	39	nsubj	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	пасхальное	пасхальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	яйцо	яйцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	39	appos	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	21	parataxis	_	_
+40	встроено	встраивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+41	в	в	ADP	_	_	43	case	_	_
+42	штатный	штатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+43	навигатор	навигатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 86231
+# text = Для его активации необходимо ввести код "Mars" на экране запроса пароля на доступ к инженерному меню.
+1	Для	для	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	активации	активация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+4	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Mars	Mars	PROPN	_	Foreign=Yes	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	экране	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+12	запроса	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	пароля	пароль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	nmod	_	_
+16	к	к	ADP	_	_	18	case	_	_
+17	инженерному	инженерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	меню	меень	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86232
+# text = После этого на экране вместо обычной карты появится поверхность Марса, составленная, судя по всему, из спутниковых снимков планеты.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	экране	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+5	вместо	вместо	ADP	_	_	7	case	_	_
+6	обычной	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	карты	карта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	появится	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	составленная	составлять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	всему	все	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	спутниковых	спутниковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+21	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86233
+# text = В центре экрана штатный значок автомобиля превратится в пиктограмму в виде ровера.
+1	В	в	ADP	_	_	2	case	_	_
+2	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	штатный	штатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	значок	значок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	превратится	превращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	пиктограмму	пиктограмму	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	ровера	ровер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86234
+# text = При этом навигатор продолжит работать -- если автомобиль тронется с места, то ровер на экране тоже будет двигаться.Это не первая "пасхалка", размещенная в программном обеспечении Tesla.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	навигатор	навигатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	продолжит	продолжать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	если	если	SCONJ	_	_	0	mark	_	_
+8	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	тронется	трогаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	19	advcl	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	то	то	SCONJ	_	_	9	cc	_	_
+14	ровер	ровер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	экране	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	тоже	тоже	PART	_	_	19	advmod	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	dep	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Это	это	PART	_	_	23	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	пасхалка	пасхалка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	advcl	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	размещенная	размещать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	программном	программный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	obl	_	_
+32	Tesla	Tesla	PROPN	_	Foreign=Yes	31	flat:foreign	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 86235
+# text = В 2015 году Илон Маск лично рассказал о незадокументированной функции превращения Tesla Model X в светомузыкальную установку -- кроссовер начинает играть музыку, двигать дверями и моргать светомыми приборами в такт звучащей композиции "Wizards in Winter" группы Trans-Siberian Orchestra.
+1	В	в	ADP	_	_	3	case	_	_
+2	2015	2015	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	Илон	Илон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	лично	лично	ADV	_	Degree=Pos	7	advmod	_	_
+7	рассказал	рассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	о	о	ADP	_	_	10	case	_	_
+9	незадокументированной	незадокументированный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	функции	функция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	превращения	превращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	Tesla	Tesla	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Model	model	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	X	x	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	светомузыкальную	светомузыкальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	кроссовер	кроссовер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+21	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	двигать	двигать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	conj	_	_
+25	дверями	дверь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	моргать	моргать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+28	светомыми	светомой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	приборами	прибор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	такт	такт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
+32	звучащей	звучащий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	композиции	композиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	Wizards	Wizards	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+36	in	in	X	_	Foreign=Yes	35	flat:foreign	_	_
+37	Winter	Winter	PROPN	_	Foreign=Yes	36	flat:foreign	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	37	punct	_	_
+39	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+40	Trans	Trans	PROPN	_	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
+41	-Siberian	-Siberian	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	Orchestra	Orchestra	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 86236
+# text = Изначально для активации режима светомузыкальной установки необходимо было ввести код доступа "Holiday", однако в новой версии программного обеспечения код изменился на "Modelxmas".Николай Воронцов
+1	Изначально	изначально	ADV	_	Degree=Pos	3	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	активации	активация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+4	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	светомузыкальной	светомузыкальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+9	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+10	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	доступа	доступ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Holiday	Holiday	PROPN	_	Foreign=Yes	11	appos	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+20	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	код	код	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+23	изменился	изменяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Modelxmas	Modelxmas	PROPN	_	Foreign=Yes	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+30	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	SpaceAfter=No
+

@@ -1,0 +1,384 @@
+# sent_id = 85854
+# text = Шлемы летчиков истребителей F-35B/C Lightning II в ночном режиме оказались ослепляющими.
+1	Шлемы	шлема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpacesBefore=\n
+2	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	F-35B	F-35b	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	/C	/c	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Lightning	Lightning	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	II	ii	NUM	_	_	6	nummod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	ночном	ночной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+11	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	ослепляющими	ослеплять	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85855
+# text = К такому выводу, как сообщает DoDBuzz, пришли летчики-испытатели ВМС и Морской пехоты США.
+1	К	к	ADP	_	_	3	case	_	_
+2	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	6	mark	_	_
+6	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+7	DoDBuzz	DoDBuzz	PROPN	_	Foreign=Yes	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	испытатели	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	appos	_	_
+13	ВМС	Вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	_
+17	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85856
+# text = Во время испытаний выяснилось, что ночной режим, специально разработанный для облегчения посадки на палубу корабля в темное время суток, наоборот существенно усложняет ее.При посадке ночью на палубу на корабле включают специальную световую индикацию.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	ночной	ночной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	специально	специально	ADV	_	Degree=Pos	11	advmod	_	_
+11	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	облегчения	облегчение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	палубу	палуба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	темное	темный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+21	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	наоборот	наоборот	ADV	_	Degree=Pos	25	advmod	_	_
+24	существенно	существенно	ADV	_	Degree=Pos	25	advmod	_	_
+25	усложняет	усложнявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+26	ее.	ебыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	SpaceAfter=No
+27	При	при	ADP	_	_	28	case	_	_
+28	посадке	посадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+29	ночью	ночь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	палубу	палуб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	_
+32	на	на	ADP	_	_	33	case	_	_
+33	корабле	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	_
+34	включают	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	_
+35	специальную	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+36	световую	световый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	индикацию	индикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 85857
+# text = Она позволяет летчикам ориентироваться при заходе на посадку, но в некоторых условиях ее может быть недостаточно.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	летчикам	летчик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	ориентироваться	ориентироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	заходе	заход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	15	cc	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	13	amod	_	_
+13	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+14	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	cop	_	_
+17	недостаточно	недостаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85858
+# text = По этой причине в некоторых самолетах палубной авиации реализован ночной режим, при котором летчики с помощью тепловизионных камер могут видеть не только световую индикацию, но очертания кораблей.Такой режим сделан и в шлемах летчиков F-35, в которых изображение с тепловизионных камер выводится на нашлемный дисплей.
+1	По	по	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	6	amod	_	_
+6	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+7	палубной	палубный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	реализован	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	ночной	ночной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	котором	который	PRON	_	Case=Loc	20	obl	_	_
+15	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+16	с	с	ADP	_	_	19	case	_	_
+17	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	fixed	_	_
+18	тепловизионных	тепловизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+20	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+21	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	только	только	PART	_	_	24	advmod	_	_
+24	световую	световый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	индикацию	индикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	но	но	CCONJ	_	_	28	cc	_	_
+28	очертания	очертание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	_
+29	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	32	amod	_	_
+32	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj:pass	_	_
+33	сделан	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	шлемах	шлем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	41	conj	_	_
+37	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	_
+38	F-35	f-35	X	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	которых	который	PRON	_	Case=Loc	42	obl	_	_
+42	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	46	nsubj:pass	_	_
+43	с	с	ADP	_	_	45	case	_	_
+44	тепловизионных	тепловизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	_
+46	выводится	выводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	33	acl:relcl	_	_
+47	на	на	ADP	_	_	49	case	_	_
+48	нашлемный	нашлемный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	дисплей	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 85859
+# text = На это изображение накладывается и различная полетная информация.
+1	На	на	ADP	_	_	3	case	_	_
+2	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	накладывается	накладывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	различная	различной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	полетная	полетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	информация	информация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85860
+# text = По данным испытателей, именно символы выводимой на дисплей информации ослепляют летчиков.Во время испытаний летчики обнаружили, что символы имеют яркое зеленое свечение, которое сильно отвлекает внимание и своей яркостью может "забивать" световую индикацию кораблей.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	11	parataxis	_	_
+3	испытателей	испытатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	именно	именно	PART	_	_	6	advmod	_	_
+6	символы	символ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	выводимой	выводить	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	дисплей	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	ослепляют	ослеплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	летчиков.	летчиковек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+13	Во	во	ADP	_	_	15	case	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	obl	_	_
+16	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	mark	_	_
+20	символы	символ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+22	яркое	яркий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+23	зеленое	зеленой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	свечение	свечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	которое	который	PRON	_	Case=Nom	28	nsubj	_	_
+27	сильно	сильно	ADV	_	Degree=Pos	28	advmod	_	_
+28	отвлекает	отвлекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+29	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
+30	и	и	CCONJ	_	_	33	cc	_	_
+31	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	32	amod	_	_
+32	яркостью	яркость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	obl	_	_
+33	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	conj	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	забивать	забивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37	световую	световый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	индикацию	индикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+39	кораблей	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 85861
+# text = Американская компания Lockheed Martin уже выпустила новое программное обеспечение, призванное исправить эту проблему, однако ночной режим все равно пока остается ослепляющим.Истребители F-35B уже приняты на вооружение Морской пехоты США.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Lockheed	Lockheed	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Martin	Martin	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	выпустила	выпускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	призванное	призванный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	amod	_	_
+12	исправить	исправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	22	advmod	_	_
+17	ночной	ночной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+19	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	_
+20	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	fixed	_	_
+21	пока	пока	ADV	_	Degree=Pos	22	advmod	_	_
+22	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+23	ослепляющим.	ослепляющимечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj:pass	_	SpaceAfter=No
+24	Истребители	Истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+25	F-35B	F-35b	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	уже	уже	ADV	_	Degree=Pos	27	advmod	_	_
+27	приняты	принимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	parataxis	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+30	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 85862
+# text = Версия F-35C для ВМС пока только проходит испытания, а ее принятие на вооружение запланировано на 2018 год.
+1	Версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	F-35C	F-35цельсий-знак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	ВМС	Вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	пока	пока	ADV	_	Degree=Pos	7	advmod	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	проходит	проходять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	15	cc	_	_
+11	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
+12	принятие	принятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	запланировано	планировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	2018	2018	NUM	_	_	18	nummod	_	_
+18	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85863
+# text = Разработка F-35 ведется с 2001 года.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	F-35	F-35	NUM	_	_	1	nummod	_	_
+3	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	2001	2001	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 85864
+# text = Самолет создается в трех базовых версиях: F-35A с обычным взлетом для ВВС, F-35B с укороченным взлетом и вертикальной посадкой для Морской пехоты и F-35C палубного базирования для ВМС.Максимальная взлетная масса F-35 при длине 15,4 и размахе крыла 10,7 метра составляет 27,3 тонны.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	создается	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	трех	три	NUM	_	Case=Loc	6	nummod	_	_
+5	базовых	базовой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	версиях	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	F-35A	F-35a	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	обычным	обычный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	взлетом	взлет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	F-35B	F-35b	NOUN	_	_	6	parataxis	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	укороченным	укорачивать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	взлетом	взлет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	вертикальной	вертикальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	посадкой	посадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	conj	_	_
+22	для	для	ADP	_	_	24	case	_	_
+23	Морской	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	пехоты	пехота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+25	и	и	CCONJ	_	_	28	cc	_	_
+26	F-35C	F-35с	ADP	_	_	28	case	_	_
+27	палубного	палубный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	базирования	базирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	conj	_	_
+29	для	для	ADP	_	_	30	case	_	_
+30	ВМС.	Вмсяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	Максимальная	Максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+32	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+34	F-35	F-35	NUM	_	_	33	nummod	_	_
+35	при	при	ADP	_	_	36	case	_	_
+36	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+37	15,4	15,4	NUM	_	_	36	nummod	_	_
+38	и	и	CCONJ	_	_	39	cc	_	_
+39	размахе	размах	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	conj	_	_
+40	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	_
+41	10,7	10,7	NUM	_	_	42	nummod	_	_
+42	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+43	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+44	27,3	27,3	NUM	_	_	45	nummod	_	_
+45	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nsubj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 85865
+# text = Самолет может развивать скорость до 1,9 тысячи километров в час, а его боевой радиус составляет 845 километров.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	8	case	_	_
+6	1,9	1,9	NUM	_	_	7	nummod	_	_
+7	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nummod:gov	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	16	cc	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+14	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	радиус	радиус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	845	845	NUM	_	_	18	nummod	_	_
+18	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85866
+# text = F-35 может нести ракеты и бомбы и авиапушки общей массой до 8,1 тонны -- 6,8 тонны на шести подкрыльевых точках подвески и 1,3 тонны на двух пилонах во внутренних отсеках вооружения.Василий Сычёв
+1	F-	F-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	35	35	NUM	_	_	3	nummod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	ракеты	ракет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	бомбы	бомба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	авиапушки	авиапушка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	_
+10	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+12	до	до	ADP	_	_	14	case	_	_
+13	8,1	8,1	NUM	_	_	14	nummod	_	_
+14	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	6,8	6,8	NUM	_	_	17	nummod	_	_
+17	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+18	на	на	ADP	_	_	21	case	_	_
+19	шести	шесть	NUM	_	Case=Loc	21	nummod	_	_
+20	подкрыльевых	подкрыльевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	точках	точка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+22	подвески	подвески	ADV	_	Degree=Pos	31	advmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	1,3	1,3	NUM	_	_	22	conj	_	_
+25	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	на	на	ADP	_	_	28	case	_	_
+27	двух	два	NUM	_	Case=Loc	28	nummod	_	_
+28	пилонах	пилон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	25	nmod	_	_
+29	во	в	ADP	_	_	31	case	_	_
+30	внутренних	внутренний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	31	amod	_	_
+31	отсеках	отсек	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+32	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+35	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	flat:name	_	SpaceAfter=No
+

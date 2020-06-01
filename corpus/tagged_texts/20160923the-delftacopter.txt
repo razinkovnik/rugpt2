@@ -1,0 +1,220 @@
+# sent_id = 72231
+# text = Исследователи из Делфтского технического университета построили беспилотный биплан, который способен осуществлять вертикальный взлет и посадку.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	5	case	_	_
+3	Делфтского	Делфтский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	технического	технический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	биплан	биплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	acl:relcl	_	_
+12	осуществлять	осуществлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	вертикальный	вертикальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	взлет	взлет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 72232
+# text = Кратко о новом дроне рассказывает IEEE Spectrum.Традиционные мультикоптеры способны вертикально взлетать и садиться, однако неэффективны при полетах на большие расстояния.
+1	Кратко	кратко	ADV	_	Degree=Pos	4	advmod	_	_
+2	о	о	ADP	_	_	4	case	_	_
+3	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	дроне	дрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	рассказывает	рассказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+6	IEEE	Ieee	PROPN	_	Foreign=Yes	5	nsubj	_	_
+7	Spectrum.	spectrum.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+8	Традиционные	Традиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	мультикоптеры	мультикоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+11	вертикально	вертикально	ADV	_	Degree=Pos	12	advmod	_	_
+12	взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	садиться	садиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	однако	однако	ADV	_	Degree=Pos	17	advmod	_	_
+17	неэффективны	неэффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	conj	_	_
+18	при	при	ADP	_	_	19	case	_	_
+19	полетах	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	nmod	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72233
+# text = Беспилотники самолетного типа эффективны для перевозки грузов на большие расстояния, но для таких дронов нужны специальные катапульты, требушеты или взлетно-посадочные полосы.
+1	Беспилотники	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	эффективны	эффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	16	cc	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	таких	такой	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+15	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+16	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	_
+17	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	катапульты	катапульта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	требушеты	требушет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	_
+21	или	или	CCONJ	_	_	23	cc	_	_
+22	взлетно-посадочные	взлетно-посадочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	полосы	полоса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72234
+# text = Разработчики грузовых беспилотников по-разному пытаются найти наиболее оптимальное промежуточное решение.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	грузовых	грузовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	по-разному	по-разному	ADV	_	Degree=Pos	5	advmod	_	_
+5	пытаются	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	наиболее	наиболее	ADV	_	Degree=Pos	8	advmod	_	_
+8	оптимальное	оптимальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	промежуточное	промежуточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72235
+# text = Например, можно использовать отдельные двигатели для вертикального и горизонтального перемещения дрона или построить "тейлситтер" для вертикального взлета и посадки на хвост -- это позволяет проектировать беспилотник самолетного типа с минимальными доработками.Новый дрон, названный Delftacopter ("Делфтакоптер"), представляет собой биплан-"тейлситтер".
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	для	для	ADP	_	_	11	case	_	_
+8	вертикального	вертикальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	горизонтального	горизонтальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
+11	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+12	дрона	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	построить	строить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	тейлситтер	тейлситтер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	вертикального	вертикальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	хвост	хвост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+27	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+28	проектировать	ектировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+30	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	минимальными	минимальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	amod	_	_
+34	доработками	доработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	дрон	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	названный	называть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	amod	_	_
+40	Delftacopter	Delftacopter	PROPN	_	Foreign=Yes	37	nsubj	_	_
+41	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	Делфтакоптер	Делфтакоптер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	appos	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	43	punct	_	_
+47	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+48	собой	себя	PRON	_	Case=Ins	47	dep	_	_
+49	биплан	биплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	47	nsubj	_	SpaceAfter=No
+50	-	-	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
+52	тейлситтер	тейлситтер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	49	appos	_	SpaceAfter=No
+53	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	52	punct	_	SpaceAfter=No
+
+# sent_id = 72236
+# text = В конструкции используется один маршевый двигатель и два маневровых, которые используются для стабилизации беспилотника в полете, а также в поворотах корпуса при взлете и посадке.
+1	В	в	ADP	_	_	2	case	_	_
+2	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	один	один	NUM	_	Case=Nom|Gender=Masc	6	nummod:gov	_	_
+5	маршевый	маршевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	два	два	NUM	_	Case=Nom|Gender=Masc	9	nummod:gov	_	_
+9	маневровых	маневровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которые	который	PRON	_	Case=Nom	12	nsubj:pass	_	_
+12	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	стабилизации	стабилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+15	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	22	cc	_	_
+20	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	поворотах	поворот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	_
+23	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	при	при	ADP	_	_	25	case	_	_
+25	взлете	взлета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	посадке	посадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72237
+# text = Благодаря двум крыльям, отмечают разработчики, у беспилотника лучше маневренность и устойчивость при переходе от вертикального полета к горизонтальному.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	двум	два	NUM	_	Case=Dat	3	nummod	_	_
+3	крыльям	крыло	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+10	лучше	хороший	ADJ	_	Degree=Cmp	5	conj	_	_
+11	маневренность	маневренность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	переходе	переход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	вертикального	вертикальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	горизонтальному	горизонтальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 72238
+# text = Дрон весит четыре килограмма, может провести в воздухе час и летает на расстояние до 60 километров.
+1	Дрон	Дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	весит	весить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	летает	летать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	60	60	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+

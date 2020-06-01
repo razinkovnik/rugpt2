@@ -1,0 +1,561 @@
+# sent_id = 87590
+# text = Нидерланды полностью перевели свои электрифицированные железные дороги на ветряную энергию, сообщает The Guardian со ссылкой на представителя голландского перевозчика NS.
+1	Нидерланды	Нидерланд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesBefore=\n
+2	полностью	полностью	ADV	_	Degree=Pos	3	advmod	_	_
+3	перевели	переводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	свои	свой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+5	электрифицированные	электрифицированный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+6	железные	железный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	дороги	дорога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	The	the	PROPN	_	Foreign=Yes	12	nsubj	_	_
+14	Guardian	Guardian	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	со	с	ADP	_	_	16	case	_	_
+16	ссылкой	ссылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	представителя	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	голландского	голландской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	перевозчика	перевозчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	NS	ns	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 87591
+# text = По словам источника издания, все электропоезда в стране начали передвигаться исключительно за счет электричества, вырабатываемого ветряными станциями, с 1 января 2017 года, хотя изначально такой переход планировалось завершить с 1 января 2018 года.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	parataxis	_	_
+3	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	все	весь	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	электропоезда	электропоездо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	исключительно	исключительно	ADV	_	Degree=Pos	11	advmod	_	_
+13	за	за	ADP	_	_	15	case	_	_
+14	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	электричества	электричество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	вырабатываемого	вырабатывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	ветряными	ветряный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	станциями	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	obl:agent	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	1	1	NUM	_	_	0	nummod	_	_
+23	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	2017	2017	NUM	_	_	25	nummod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	хотя	хотя	SCONJ	_	_	0	mark	_	_
+28	изначально	изначально	ADV	_	Degree=Pos	31	advmod	_	_
+29	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	30	amod	_	_
+30	переход	переход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	_
+31	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	advcl	_	_
+32	завершить	завершать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	nsubj:pass	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	1	1	NUM	_	_	32	nummod	_	_
+35	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	2018	2018	NUM	_	_	37	nummod	_	_
+37	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 87592
+# text = Ранее некоторые СМИ ошибочно сообщили, что абсолютно все поезда Нидерландов перешли на ветряную энергию.В настоящее время в Нидерландах работает сеть железных дорог общей протяженностью 2,9 тысячи километров.
+1	Ранее	рано	ADV	_	Degree=Cmp	5	advmod	_	_
+2	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	СМИ	сми	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	ошибочно	ошибочно	ADV	_	Degree=Pos	5	advmod	_	_
+5	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	абсолютно	абсолютно	ADV	_	Degree=Pos	10	advmod	_	_
+9	все	весь	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+10	поезда	поезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+11	Нидерландов	Нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	перешли	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	В	в	ADP	_	_	22	advmod	_	_
+18	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	fixed	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Нидерландах	Нидерланда	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	obl	_	_
+22	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+24	железных	железный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	дорог	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	протяженностью	протяженность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+28	2,9	2,9	NUM	_	_	29	nummod	_	_
+29	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nummod:gov	_	_
+30	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 87593
+# text = Из них полностью электрифицированы чуть больше 2,1 тысячи километров.
+1	Из	из	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+3	полностью	полностью	ADV	_	Degree=Pos	4	advmod	_	_
+4	электрифицированы	электрифицировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	чуть	чуть	ADV	_	Degree=Pos	6	advmod	_	_
+6	больше	больше	ADV	_	Degree=Cmp	7	advmod	_	_
+7	2,1	2,1	NUM	_	_	8	nummod	_	_
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87594
+# text = На неэлектрифицированных участках местные железнодорожные перевозчики используют поезда с локомотивами на дизельной тяге.
+1	На	на	ADP	_	_	3	case	_	_
+2	неэлектрифицированных	неэлектрифицированный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	местные	местный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	железнодорожные	железнодорожной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	перевозчики	перевозчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	поезда	поезд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	локомотивами	локомотив	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	дизельной	дизельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	тяге	тяга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87595
+# text = Эти же локомотивы используются и на электрифицированных участках для перевозки длинных и тяжелых составов.В июне 2015 года в Нидерландах завершилось рассмотрение дела о защите прав и гражданских свобод граждан, проводившееся Верхновным судом несколько лет.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	локомотивы	локомотив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	и	и	PART	_	_	8	advmod	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	электрифицированных	электрифицированный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+11	длинных	длинный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	conj	_	_
+14	составов.	составованица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+17	2015	2015	NUM	_	_	18	nummod	_	_
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	Нидерландах	Нидерланд	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+21	завершилось	завершиваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+22	рассмотрение	рассмотрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+23	дела	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	о	о	ADP	_	_	25	case	_	_
+25	защите	защита	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	прав	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	свобод	свобода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	conj	_	_
+30	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	проводившееся	проводляться	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	21	amod	_	_
+33	Верхновным	Верхновный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	судом	суд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+35	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	36	nummod:gov	_	_
+36	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 87596
+# text = Эта судебная инстанция обязала правительство страны сократить выбросы вредных веществ в атмосферу по меньшей мере на 25 процентов к 2020 году.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+2	судебная	судебный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	инстанция	инстанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	обязала	обязывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	правительство	правительство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	вредных	вредный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+13	по	по	ADP	_	_	18	advmod	_	_
+14	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	fixed	_	_
+15	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	fixed	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	25	25	NUM	_	_	18	nummod	_	_
+18	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+19	к	к	ADP	_	_	21	case	_	_
+20	2020	2020	NUM	_	_	21	nummod	_	_
+21	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 87597
+# text = Для исполнения судебного постановления, в частности, власти Нидерландов занялись переводом железнодорожного электротранспорта на ветряную энергию.Изначально план предусматривал, что в 2015 году за счет электричества от ветряных станций должны передвигаться 50 процентов электропоездов, в 2016-м -- 70 процентов, а в 2017-м -- 95 процентов.
+1	Для	для	ADP	_	_	2	case	_	_
+2	исполнения	исполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+3	судебного	судебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	постановления	постановление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	9	discourse	_	_
+7	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+10	Нидерландов	Нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	занялись	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	переводом	перевод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	железнодорожного	железнодорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	электротранспорта	электротранспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Изначально	изначально	ADV	_	Degree=Pos	21	advmod	_	_
+20	план	план	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	предусматривал	предусматривать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	2015	2015	NUM	_	_	26	nummod	_	_
+26	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+27	за	за	ADP	_	_	29	case	_	_
+28	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	fixed	_	_
+29	электричества	электричество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+30	от	от	ADP	_	_	32	case	_	_
+31	ветряных	ветряной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	станций	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+33	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	21	advcl	_	_
+34	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	33	nsubj	_	_
+35	50	50	NUM	_	_	36	nummod	_	_
+36	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	_
+37	электропоездов	электропоезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	2016-м	2016-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	43	amod	_	_
+41	--	--	PUNCT	_	_	40	punct	_	_
+42	70	70	NUM	_	_	43	nummod	_	_
+43	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	а	а	CCONJ	_	_	47	cc	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	2017-м	2017-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+48	--	--	PUNCT	_	_	47	punct	_	_
+49	95	95	NUM	_	_	50	nummod	_	_
+50	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	47	nsubj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	SpaceAfter=No
+
+# sent_id = 87598
+# text = Абсолютно все электропоезда планировалось перевести на ветряную энергию с начала 2018 года.
+1	Абсолютно	Абсолютно	ADV	_	Degree=Pos	4	advmod	_	_
+2	все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	электропоезда	электропоезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	планировалось	планировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	перевести	переводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj:pass	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+9	с	с	ADP	_	_	8	case	_	_
+10	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	2018	2018	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 87599
+# text = В действительности, уже в 2016 году благодаря ветрякам передвигались чуть больше 80 процентов электропоездов.
+1	В	в	ADP	_	_	2	case	_	_
+2	действительности	действительность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	2016	2016	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+8	благодаря	благодаря	ADP	_	_	9	case	_	_
+9	ветрякам	ветряк	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+10	передвигались	передвигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	чуть	чуть	ADV	_	Degree=Pos	12	advmod	_	_
+12	больше	больше	ADV	_	Degree=Cmp	14	nummod:gov	_	_
+13	80	80	NUM	_	_	14	nummod	_	_
+14	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+15	электропоездов	электропоезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87600
+# text = По данным оператора NS, за один час работы одна ветряная электростанция может обеспечить ход поезда на расстояние 190 километров.Каким образом Нидерландам удалось раньше времени перевести весь железнодорожный электротранспорт на ветряную энергию, не уточняется.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	13	parataxis	_	_
+3	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	NS	ns	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	за	за	ADP	_	_	8	case	_	_
+7	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	8	nummod:gov	_	_
+8	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+9	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	ветряная	ветряной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	электростанция	электростанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	ход	ход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	поезда	поезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	nmod	_	_
+19	190	190	NUM	_	_	20	nummod	_	_
+20	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	Каким	Какий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+23	Нидерландам	Нидерландам	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+24	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+25	раньше	раньше	ADV	_	Degree=Pos	27	advmod	_	_
+26	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	перевести	переведать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	nsubj	_	_
+28	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	30	amod	_	_
+29	железнодорожный	железнодорожный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	электротранспорт	электротранспорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	не	не	PART	_	_	36	advmod	_	_
+36	уточняется	уточняуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 87601
+# text = Ежегодное потребление электроэнергии электрифицированными железными дорогами Нидерландов составляет чуть больше 1,4 тераватт-часа.
+1	Ежегодное	ежегодный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	потребление	потребление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	электрифицированными	электрифицированный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+5	железными	железный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	дорогами	дорог	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
+7	Нидерландов	Нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	чуть	чуть	ADV	_	Degree=Pos	10	advmod	_	_
+10	больше	больше	ADV	_	Degree=Cmp	12	nummod:gov	_	_
+11	1,4	1,4	NUM	_	_	12	nummod	_	_
+12	тераватт-часа	тераватт-час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 87602
+# text = При этом в 2016 году ветряные станции обеспечивали только около 60 процентов потребности электрических железных дорог.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	2016	2016	NUM	_	_	5	nummod	_	_
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+6	ветряные	ветряной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	станции	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	обеспечивали	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	только	только	PART	_	_	12	advmod	_	_
+10	около	около	ADP	_	_	12	case	_	_
+11	60	60	NUM	_	_	12	nummod	_	_
+12	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	потребности	потребность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+14	электрических	электрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	железных	железный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	дорог	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 87603
+# text = Ранее власти Нидерландов утверждали, что к 2018 году нехватка ветряной электроэнергии будет компенсироваться ветряками в Бельгии и странах Скандинавии.В декабре 2016 года в экспериментальном режиме заработала 600-мегаваттная ветряная электростанция, строящаяся у побережья нидерландской Фрисландии по проекту Gemini с июля 2014 года.
+1	Ранее	ранее	ADV	_	Degree=Cmp	4	advmod	_	_
+2	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Нидерландов	Нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	утверждали	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	2018	2018	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+10	нехватка	нехватка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+11	ветряной	ветряной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	компенсироваться	компенсировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	4	advcl	_	_
+15	ветряками	ветряк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	obl:agent	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Бельгии	бельгия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	conj	_	_
+20	Скандинавии	Скандинавия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	В	в	ADP	_	_	23	case	_	_
+23	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+24	2016	2016	NUM	_	_	25	nummod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	экспериментальном	экспериментальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+29	заработала	работать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	600-мегаваттная	600-мегаваттный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+31	ветряная	ветряной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	электростанция	электростанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	строящаяся	строиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	32	amod	_	_
+35	у	у	ADP	_	_	36	case	_	_
+36	побережья	побережье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	obl	_	_
+37	нидерландской	нидерландский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	Фрисландии	Фрисландия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+39	по	по	ADP	_	_	40	case	_	_
+40	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	29	obl	_	_
+41	Gemini	Gemini	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	с	с	ADP	_	_	43	case	_	_
+43	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	_
+44	2014	2014	NUM	_	_	45	nummod	_	_
+45	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 87604
+# text = В этот проект вложено около 2,8 миллиарда евро.
+1	В	в	ADP	_	_	3	case	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	вложено	вкладывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	2,8	2,8	NUM	_	_	7	nummod	_	_
+7	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+8	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 87605
+# text = Согласно действующему графику, ветряная электростанция проекта Gemini, состоящая из 150 турбин, должна заработать в полную мощность в первом квартале 2017 года.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	действующему	действовать	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	графику	графика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ветряная	ветряной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	электростанция	электростанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+7	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Gemini	Gemini	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	состоящая	состоять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+11	из	из	ADP	_	_	13	case	_	_
+12	150	150	NUM	_	_	13	nummod	_	_
+13	турбин	турбина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+16	заработать	заработать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	полную	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	квартале	квартал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+23	2017	2017	NUM	_	_	24	nummod	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 87606
+# text = Номинальное генерируемое напряжении станции составит 220 киловольт.
+1	Номинальное	Номинальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	генерируемое	генерируемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	напряжении	напряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	220	220	NUM	_	_	7	nummod	_	_
+7	киловольт	кило-вольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 87607
+# text = На подстанции оно будет повышаться до 380 киловольт.Несмотря на перевод электрифицированных железных дорог на ветряную электроэнергию Нидерланды занимают лишь 11-е место в Европе по объему выработки электричества ветряными станциями.
+1	На	на	ADP	_	_	2	case	_	_
+2	подстанции	подстанция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+3	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	повышаться	повышаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+6	до	до	ADP	_	_	7	case	_	_
+7	380	380	NUM	_	_	19	nummod	_	_
+8	киловольт.	киловольто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+9	Несмотря	несмотря	ADV	_	Polarity=Neg	11	case	_	_
+10	на	на	ADP	_	_	9	fixed	_	_
+11	перевод	перевод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+12	электрифицированных	электрифицированный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	железных	железный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	дорог	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	ветряную	ветряный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	электроэнергию	электроэнергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+18	Нидерланды	Нидерланды	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	занимают	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+20	лишь	лишь	PART	_	_	21	advmod	_	_
+21	11-е	11-й	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	по	по	ADP	_	_	26	case	_	_
+26	объему	объем	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	_
+27	выработки	выработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	электричества	электричество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	ветряными	ветряный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+30	станциями	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 87608
+# text = По итогам 2015 года этот показатель в стране составил 3,4 гигаватта.
+1	По	по	ADP	_	_	2	case	_	_
+2	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+3	2015	2015	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	составил	составлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	3,4	3,4	NUM	_	_	11	nummod	_	_
+11	гигаватта	гигаватт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 87609
+# text = Для сравнения, в Германии, занимающей первое место в Европе, выработка ветряной электроэнергии составила 44,9 гигаватта, в Испании -- 23 гигаватта, а в Великобритании -- 13,6 гигаватта.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Германии	германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	занимающей	занимать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+8	первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	выработка	выработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+14	ветряной	ветряной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	44,9	44,9	NUM	_	_	18	nummod	_	_
+18	гигаватта	гигаватт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Испании	испания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	23	23	NUM	_	_	24	nummod	_	_
+24	гигаватта	гигаватт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	а	а	CCONJ	_	_	28	cc	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	conj	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	13,6	13,6	NUM	_	_	28	nummod	_	_
+31	гигаватта	гигаватт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 87610
+# text = К 2023 году Нилерланды намерены довести выработку ветряной электроэнергии до 4,5 гигаватта.Василий Сычёв
+1	К	к	ADP	_	_	3	case	_	_
+2	2023	2023	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	Нилерланды	Нилерланд	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	довести	доводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	выработку	выработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	ветряной	ветряной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	электроэнергии	электроэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	4,5	4,5	NUM	_	_	12	nummod	_	_
+12	гигаватта.	гектигаваттар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+14	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+

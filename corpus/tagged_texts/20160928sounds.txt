@@ -1,0 +1,653 @@
+# sent_id = 72824
+# text = Шведская компания Volvo разработала "тихий" сигнал для перспективных городских электрических и гибридных автобусов, с помощью которого они в автоматическом режиме смогут предупреждать пешеходов об опасности.
+1	Шведская	Шведский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Volvo	Volvo	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	тихий	тихий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+9	для	для	ADP	_	_	15	case	_	_
+10	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+11	городских	городской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+12	электрических	электрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	conj	_	_
+15	автобусов	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	_
+19	которого	который	PRON	_	Case=Gen	24	obl	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	автоматическом	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+24	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+25	предупреждать	предупреждавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	пешеходов	пешеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+27	об	о	ADP	_	_	28	case	_	_
+28	опасности	опасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72825
+# text = Об этом, как сообщает Autocar, заявил директор по функциям и безопасности транспортных средств компании Питер Даниелссон.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	ADV	_	Degree=Pos	8	mark	_	_
+5	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+6	Autocar	Autocar	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	функциям	функция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	транспортных	транспортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	Питер	питер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+18	Даниелссон	Даниелссон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 72826
+# text = Новый сигнал будет устанавливаться на автобусы уже со следующего года.В настоящее время в Евросоюзе действует программа по сокращению вредных выбросов в ходе эксплуатации транспортных средств.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	устанавливаться	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	автобусы	автобус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+7	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+8	со	с	ADP	_	_	10	case	_	_
+9	следующего	следующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+11	В	в	ADP	_	_	16	advmod	_	_
+12	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	fixed	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Евросоюзе	евросоюз	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+16	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+18	по	по	ADP	_	_	19	case	_	_
+19	сокращению	сокращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	вредных	вредный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	fixed	_	_
+24	эксплуатации	эксплуатация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+25	транспортных	транспортный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 72827
+# text = В рамках программы, например, с 2017 года в городах Германии будет запрещено движение автомобилей с дизельными двигателями.
+1	В	в	ADP	_	_	2	case	_	_
+2	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+3	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	2017	2017	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
+12	Германии	Германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	запрещено	запрещивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+16	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	дизельными	дизельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72828
+# text = В некоторых европейских городах с будущего года начнут ездить гибридные и электрические автобусы.Электроавтобусы при малых скоростях практически не издают звуков, а значит, повышается вероятность того, что пешеходы или велосипедисты его не заметят.
+1	В	в	ADP	_	_	4	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	4	amod	_	_
+3	европейских	европейский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ездить	ездить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	электрические	электрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	conj	_	_
+13	автобусы	автобус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Электроавтобусы	Электроавтобус	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+16	при	при	ADP	_	_	18	case	_	_
+17	малых	малый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	скоростях	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+19	практически	практически	ADV	_	Degree=Pos	21	advmod	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	издают	издаять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	а	а	CCONJ	_	_	27	cc	_	_
+25	значит	значит	ADV	_	Degree=Pos	27	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	повышается	повышаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+29	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	29	mark	_	_
+32	пешеходы	пешеход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+33	или	или	CCONJ	_	_	34	cc	_	_
+34	велосипедисты	велосипедист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	conj	_	_
+35	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	34	nmod	_	_
+36	не	не	PART	_	_	37	advmod	_	_
+37	заметят	метить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	29	advcl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 72829
+# text = Поскольку ожидается, что сигналить такому транспорту придется чаще, Volvo разработала "тихий" сигнал, чтобы не доставлять неудобства горожанам.По словам Даниелссона, компании удалось создать устройство, синтезирующее звуковой сигнал такой частоты, которая "не воспринимается как шум".
+1	Поскольку	поскольку	SCONJ	_	_	12	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	сигналить	сигналивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+6	такому	такой	DET	_	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	_
+7	транспорту	транспорт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+8	придется	придуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+9	чаще	часто	ADV	_	Degree=Cmp	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Volvo	Volvo	PROPN	_	Foreign=Yes	12	nsubj	_	_
+12	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	тихий	тихий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	доставлять	доставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	_
+21	неудобства	неудобство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+22	горожанам.	горожанамя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	По	по	ADP	_	_	24	case	_	_
+24	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	28	parataxis	_	_
+25	Даниелссона	Даниелссон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+28	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+29	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	nsubj	_	_
+30	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	синтезирующее	синтезируть	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	звуковой	звуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+35	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	36	amod	_	_
+36	частоты	частота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	которая	который	PRON	_	Case=Nom	41	nsubj:pass	_	_
+39	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	не	не	PART	_	_	41	advmod	_	_
+41	воспринимается	воспринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	36	acl:relcl	_	_
+42	как	как	SCONJ	_	_	43	cc	_	_
+43	шум	шум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	advmod	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 72830
+# text = Благодаря этому звук не проникает через тройное оконное остекление домов.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+3	звук	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	проникает	проникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	через	через	ADP	_	_	9	case	_	_
+7	тройное	тройный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	оконное	оконный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	остекление	остекление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+10	домов	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72831
+# text = Технические подробности о новом сигнале шведская компания пока не раскрывает.
+1	Технические	технический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	сигнале	сигнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	шведская	шведский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	пока	пока	ADV	_	Degree=Pos	10	advmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	раскрывает	раскрывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72832
+# text = "Тихий" сигнал станет частью новой автоматической системы безопасного движения.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Тихий	тихий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	безопасного	безопасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72833
+# text = Она способна обнаруживать и распознавать пешеходов и велосипедистов и предупреждать о них водителя.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	обнаруживать	обнаруживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+6	пешеходов	пешеход	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	велосипедистов	велосипедист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	предупреждать	предупреждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	10	obl	_	_
+13	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 72834
+# text = В состав системы входят камера переднего обзора, блок обработки видеоизображения и индикатор на ветровом стекле.Во время движения система будет отмечать на ветровом стекле пешеходов и велосипедистов, чья траектория движения пересекается с траекторией движения автобуса.
+1	В	в	ADP	_	_	2	case	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	камера	камер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	переднего	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+10	обработки	обработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	видеоизображения	видеоизображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	индикатор	индикатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	ветровом	ветров	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+16	стекле.	стеклеаница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+17	Во	во	ADP	_	_	16	case	_	_
+18	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	fixed	_	_
+19	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+20	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	_
+22	отмечать	отмечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	ветровом	ветровой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	стекле	стекл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+26	пешеходов	пешеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	велосипедистов	велосипедист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	чья	чей	DET	_	Case=Nom|Gender=Fem|Number=Sing	31	amod	_	_
+31	траектория	траектория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+32	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	пересекается	пересекаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	траекторией	траектория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	obl	_	_
+36	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 72835
+# text = Одновременно в кабине водителя будет раздаваться звуковой сигнал.
+1	Одновременно	одновременно	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	кабине	кабина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+4	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	раздаваться	раздаваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+7	звуковой	звуковой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 72836
+# text = Движение каждого распознанного пешехода или велосипедиста будет оцениваться как безопасное, потенциально опасное или опасное.В случае, если система автобуса распознает пешехода, переходящего улицу по "зебре", он будет отмечен пунктирной рамкой зеленого цвета.
+1	Движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	распознанного	распознать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	пешехода	пешеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	или	или	CCONJ	_	_	6	cc	_	_
+6	велосипедиста	велосипедист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	оцениваться	оценивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	безопасное	безопасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	потенциально	потенциально	ADV	_	Degree=Pos	13	advmod	_	_
+13	опасное	опасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	опасное.	опаснобыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
+16	В	в	ADP	_	_	17	case	_	_
+17	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	если	если	SCONJ	_	_	8	mark	_	_
+20	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	распознает	распознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	advcl	_	_
+23	пешехода	пешеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	переходящего	переходить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	улицу	улица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+27	по	по	ADP	_	_	29	case	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	зебре	зебрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	29	punct	_	_
+32	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+33	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	отмечен	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	advcl	_	_
+35	пунктирной	пунктирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	рамкой	рамка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	obl	_	_
+37	зеленого	зеленый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 72837
+# text = Если же такой человек резко изменит траекторию движения, "бросившись" под колеса, система отметит его красной рамкой и включит "тихий" наружный звуковой сигнал.
+1	Если	если	SCONJ	_	_	17	mark	_	_
+2	же	же	PART	_	_	6	advmod	_	_
+3	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	резко	резко	ADV	_	Degree=Pos	6	advmod	_	_
+6	изменит	изменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	advcl	_	_
+7	траекторию	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+8	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	бросившись	бросаться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	17	advcl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	под	под	ADP	_	_	14	case	_	_
+14	колеса	колесо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	отметит	отметать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+18	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	17	obj	_	_
+19	красной	красный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	рамкой	рамка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	включит	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	conj	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	тихий	тихий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	наружный	наружный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+27	звуковой	звуковой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72838
+# text = Если столкновение будет расценено как неизбежное, система автоматически включит систему торможения автобуса.В настоящее время Volvo выпускает гибридные автобусы 7900 Electric Hybrid.
+1	Если	если	SCONJ	_	_	10	mark	_	_
+2	столкновение	столкновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	расценено	расценивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	advcl	_	_
+5	как	как	SCONJ	_	_	4	cc	_	_
+6	неизбежное	неизбежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	автоматически	автоматически	ADV	_	Degree=Pos	10	advmod	_	_
+10	включит	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	торможения	торможение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	автобуса.	автобуса.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+14	В	в	ADP	_	_	18	advmod	_	_
+15	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	fixed	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	Volvo	Volvo	PROPN	_	Foreign=Yes	18	nsubj	_	_
+18	выпускает	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+19	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	автобусы	автобус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+21	7900	7900	NUM	_	_	20	nummod	_	_
+22	Electric	electric	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Hybrid	Hybrid	PROPN	_	Foreign=Yes	22	flat:foreign	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72839
+# text = Они оснащены дизельным двигателем Volvo D5K 240 мощностью 240 лошадиных сил, соединенным через трансмиссию с ходовой частью, а также генератором.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj:pass	_	_
+2	оснащены	оснащать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	дизельным	дизельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	двигателем	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+5	Volvo	volvo	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	D5K	D5k	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	240	240	NUM	_	_	8	nummod	_	_
+8	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+9	240	240	NUM	_	_	11	nummod	_	_
+10	лошадиных	лошадиный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	соединенным	соединять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+14	через	через	ADP	_	_	15	case	_	_
+15	трансмиссию	трансмиссия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	ходовой	ходовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	22	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	генератором	генератор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72840
+# text = Генератор заряжает литий-ионные аккумуляторы и питает электромотор мощностью 150 киловатт (203 лошадиные силы).За счет только лишь электромотора при полной загрузке автобус может проехать семь километров.
+1	Генератор	генератор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	заряжает	заряжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	литий	литий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	ионные	ионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	аккумуляторы	аккумуляторы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	appos	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	питает	питать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	электромотор	электромотор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+11	150	150	NUM	_	_	12	nummod	_	_
+12	киловатт	киловатт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	203	203	NUM	_	_	16	nummod	_	_
+15	лошадиные	лошадиный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	За	за	ADP	_	_	23	case	_	_
+20	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	fixed	_	_
+21	только	только	PART	_	_	22	advmod	_	_
+22	лишь	лишь	PART	_	_	23	advmod	_	_
+23	электромотора	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
+24	при	при	ADP	_	_	26	case	_	_
+25	полной	полный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	загрузке	загрузка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+27	автобус	автобус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+29	проехать	проезжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	семь	семь	NUM	_	Case=Acc	31	nummod:gov	_	_
+31	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 72841
+# text = В гибридном режиме, когда движение автобуса производится при помощи электромотора и дизельного двигателя, существенно уменьшаются расход топлива и выбросы вредных веществ.
+1	В	в	ADP	_	_	3	case	_	_
+2	гибридном	гибридный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	когда	когда	SCONJ	_	_	3	mark	_	_
+6	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+7	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	advcl	_	_
+9	при	при	ADP	_	_	11	case	_	_
+10	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	fixed	_	_
+11	электромотора	электромотор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	дизельного	дизельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	существенно	существенно	ADV	_	Degree=Pos	17	advmod	_	_
+17	уменьшаются	уменьшаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+18	расход	расход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	conj	_	_
+22	вредных	вредный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 72842
+# text = Благодаря этому экологический класс автобуса соответствует Euro 6.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+3	экологический	экологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	автобуса	автобус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	соответствует	соответствуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Euro	Euro	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	6.	6	NUM	_	_	7	nummod	_	SpaceAfter=No
+
+# sent_id = 72843
+# text = Длина 7900 Electric Hybrid составляет 12 метров.Гибридный автобус рассчитан на перевозку 95 пассажиров.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	7900	7900	NUM	_	_	1	nummod	_	_
+3	Electric	electric	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Hybrid	Hybrid	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	12	12	NUM	_	_	7	nummod	_	_
+7	метров.	метровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	Гибридный	Гибридный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	автобус	автобус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+10	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	перевозку	перевозка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	95	95	NUM	_	_	14	nummod	_	_
+14	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72844
+# text = В его салоне установлены 36 кресел.
+1	В	в	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	салоне	салон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	36	36	NUM	_	_	6	nummod	_	_
+6	кресел	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nsubj:pass	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72845
+# text = 7900 Electric Hybrid оснащен климат-контролем с двумя раздельными зонами: для водителя и для пассажирского салона.В июне текущего года американская компания Google представила новый алгоритм управления беспилотными автомобилями.
+1	7900	7900	NUM	_	_	4	nummod	_	_
+2	Electric	electric	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Hybrid	Hybrid	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	климат-контролем	климат-контроль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	двумя	два	NUM	_	Case=Ins	9	nummod	_	_
+8	раздельными	раздельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	зонами	зон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	пассажирского	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	салона.	салонаатья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+17	В	в	ADP	_	_	18	case	_	_
+18	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+19	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+23	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+24	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+25	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	беспилотными	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	автомобилями	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 72846
+# text = Он позволяет машинам использовать звуковой сигнал для оповещения пешеходов, велосипедистов и других участников дорожного движения.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	машинам	машин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	звуковой	звуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	оповещения	оповещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	пешеходов	пешеход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	велосипедистов	велосипедист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+15	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 72847
+# text = При этом алгоритм по разному использует сигнал в зависимости от ситуации.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	по	по	ADP	_	_	6	case	_	_
+5	разному	разный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72848
+# text = Например, если другой автомобиль начнет медленно сближаться с беспилотным автомобилем, тот подаст два коротких негромких сигнала.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	если	если	SCONJ	_	_	14	mark	_	_
+4	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	начнет	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	_
+7	медленно	медленно	ADV	_	Degree=Pos	8	advmod	_	_
+8	сближаться	сближаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	беспилотным	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	подаст	подавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+15	два	два	NUM	_	Case=Nom|Gender=Masc	18	nummod:gov	_	_
+16	коротких	короткий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	негромких	негромкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 72849
+# text = В более опасной ситуации, которую система машины распознает как потенциально аварийную, гугломобиль подаст более громкий и длительный звуковой сигнал.Василий Сычёв
+1	В	в	ADP	_	_	4	case	_	_
+2	более	более	ADV	_	Degree=Cmp	3	advmod	_	_
+3	опасной	опасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которую	который	PRON	_	Case=Acc	9	obj	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	распознает	распознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	как	как	SCONJ	_	_	11	mark	_	_
+11	потенциально	потенциально	ADV	_	Degree=Pos	12	advmod	_	_
+12	аварийную	аварийный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	гугломобиль	гугломобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	подаст	дасть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+16	более	более	ADV	_	Degree=Cmp	17	advmod	_	_
+17	громкий	громкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	длительный	длительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_
+20	звуковой	звуковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	сигнал.	сигналаница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+22	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+

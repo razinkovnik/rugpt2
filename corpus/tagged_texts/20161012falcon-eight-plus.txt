@@ -1,0 +1,156 @@
+# sent_id = 74603
+# text = Компания Intel представила свой первый мультироторный беспилотник.
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	Intel	intel	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+5	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	мультироторный	мультироторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74604
+# text = Коммерческий октокоптер IntelFalcon 8+ был представлен на конференции INTERGEO 2016 в Гамбурге.Несмотря на то что выпуском любительских беспилотников занимается достаточно большое число различных компаний, коммерческие аппараты производят немногие.
+1	Коммерческий	коммерческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	октокоптер	октокоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	IntelFalcon	IntelFalcon	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	8+	8+	PUNCT	_	_	3	punct	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+9	INTERGEO	Intergeo	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	2016	2016	NUM	_	_	9	nummod	_	_
+11	в	в1	ADP	_	_	12	mark	_	_
+12	Гамбурге.	Гамбургбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	xcomp	_	SpaceAfter=No
+13	Несмотря	несмотря	ADV	_	Polarity=Neg	12	advmod	_	_
+14	на	на	ADP	_	_	13	fixed	_	_
+15	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+16	что	что	SCONJ	_	_	15	fixed	_	_
+17	выпуском	выпуск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+18	любительских	любительский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	parataxis	_	_
+21	достаточно	достаточно	ADV	_	Degree=Pos	22	advmod	_	_
+22	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+24	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	коммерческие	коммерческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+29	производят	производять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+30	немногие	немногие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 74605
+# text = Из-за высоких требований к надежности и заявленным характеристикам специализированные коммерческие беспилотники представляют собой нишевый продукт и в подавляющем большинстве случаев выпускаются отдельными компаниями, не известными широкой публике.
+1	Из-за	из-за	ADP	_	_	3	case	_	_
+2	высоких	высокий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	требований	требование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	надежности	надежность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	заявленным	заявлать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	характеристикам	характеристика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	conj	_	_
+9	специализированные	специализированный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+10	коммерческие	коммерческой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	собой	себя	PRON	_	Case=Ins	12	obl	_	_
+14	нишевый	нишевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	подавляющем	подавляющий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	conj	_	_
+20	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	выпускаются	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+22	отдельными	отдельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	компаниями	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	известными	известный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+27	широкой	широкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	публике	публика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74606
+# text = Однако вэтом году стало известно, что Intel приобрелаAscending Technologies -- по-видимому, теперь компания намерена выпускать беспилотники под брендом Intel.Новый беспилотникIntel Falcon 8+ стал первым дроном, выпущенным Intel под собственным брендом.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	вэтом	вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	Intel	Intel	PROPN	_	Foreign=Yes	16	nsubj	_	_
+9	приобрелаAscending	приобрелаAscending	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Technologies	Technologies	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	по-видимому	по-видимому	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	теперь	теперь	ADV	_	Degree=Pos	16	advmod	_	_
+15	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	advcl	_	_
+17	выпускать	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	беспилотники	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	под	под	ADP	_	_	20	case	_	_
+20	брендом	бренд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+21	Intel.	intel.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	SpaceAfter=No
+22	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	беспилотникIntel	беспилотникIntel	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+24	Falcon	Falcon	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	_
+25	8+	8+	PUNCT	_	_	24	punct	_	_
+26	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+27	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	дроном	дрон	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	выпущенным	выпущять	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	amod	_	_
+31	Intel	Intel	PROPN	_	Foreign=Yes	28	parataxis	_	_
+32	под	под	ADP	_	_	34	case	_	_
+33	собственным	собственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	брендом	бренд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 74607
+# text = Необходимо отметить, что, несмотря на официальное название, фактически это модифицированная версия выпускавшегося ранее октокоптера AscTec Falcon 8.
+1	Необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	несмотря	несмотря	ADV	_	Polarity=Neg	9	case	_	_
+7	на	на	ADP	_	_	6	fixed	_	_
+8	официальное	официальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	фактически	фактически	ADV	_	Degree=Pos	14	advmod	_	_
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	модифицированная	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	_
+15	выпускавшегося	выпускаваться	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	17	amod	_	_
+16	ранее	ранее	ADV	_	Degree=Pos	15	advmod	_	_
+17	октокоптера	октокоптер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+18	AscTec	AscTec	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	Falcon	Falcon	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	8	8	NUM	_	_	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 74608
+# text = Октокоптер позиционируется как платформа для инспекции состояния сооружений и конструкций на промышленных объектах.
+1	Октокоптер	Октокоптер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	позиционируется	позиционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	как	как	SCONJ	_	_	4	cc	_	_
+4	платформа	платформа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	инспекции	инспекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	сооружений	сооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	конструкций	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	промышленных	промышленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	объектах	объект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+

@@ -1,0 +1,365 @@
+# sent_id = 85055
+# text = Британские инженеры отправили вчера в стратосферу пирог с мясом и картошкой.
+1	Британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	отправили	отправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вчера	вчера	ADV	_	Degree=Pos	3	advmod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	стратосферу	стратосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n
+7	пирог	пирог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	мясом	мяс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	картошкой	картошка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85056
+# text = Запуск проводили в 11.30 по местному времени в Вигане, пригороде Манчестера, который знаменит тем, что здесь ежегодно проходит мировой чемпионат по поеданию пирогов.
+1	Запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpacesAfter=\n
+2	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	11.30	11.30	NUM	_	_	2	nummod	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	местному	местный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+8	в	в	ADP	_	_	7	case	_	SpacesAfter=\n
+9	Вигане	Виган	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	пригороде	пригород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_
+12	Манчестера	манчестер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	который	который	PRON	_	Case=Nom	15	nsubj	_	SpacesAfter=\n
+15	знаменит	знаменить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+16	тем	тот	DET	_	Case=Dat|Number=Plur	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	PRON	_	Case=Nom	21	nsubj	_	_
+19	здесь	здесь	ADV	_	Degree=Pos	21	advmod	_	_
+20	ежегодно	ежегодно	ADV	_	Degree=Pos	21	advmod	_	_
+21	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpacesAfter=\n
+22	мировой	мировой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	поеданию	поедание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
+26	пирогов	пирог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 85057
+# text = Следующий чемпионат пройдет здесь 20 декабря.
+1	Следующий	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	_
+5	20	20	NUM	_	_	3	nummod	_	SpacesAfter=\n
+6	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 85058
+# text = О запуске сообщает BBC News.
+1	О	о	ADP	_	_	2	case	_	_
+2	запуске	запуск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+3	сообщает	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	BBC	bbc	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	News	news	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85059
+# text = Мировой чемпионат по поеданию пирогов проходит в "Харрис баре" (Harry's bar) в Вигане с 1992 года.
+1	Мировой	мировой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	чемпионат	чемпионат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpacesAfter=\n
+3	по	по	ADP	_	_	4	case	_	_
+4	поеданию	поедание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+5	пирогов	пирог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	в	в	ADP	_	_	9	case	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Харрис	Харрис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
+10	баре	бара	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Harry's	Harry's	PROPN	_	Foreign=Yes	10	appos	_	_
+14	bar	bar	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	SpacesAfter=\n
+17	Вигане	Виган	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	1992	1992	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85060
+# text = Участники должны съесть на скорость пирог с мясом и картошкой диаметром 12 сантиметров.
+1	Участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	съесть	съедать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	SpacesAfter=\n
+4	на	на	ADP	_	_	5	case	_	_
+5	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	пирог	пирога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	мясом	мяс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	картошкой	картошка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpacesAfter=\n
+11	диаметром	диаметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+12	12	12	NUM	_	_	13	nummod	_	_
+13	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85061
+# text = С 2006 года в соревнованиях стали принимать участие и вегетарианцы.
+1	С	с	ADP	_	_	3	case	_	_
+2	2006	2006	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	SpacesAfter=\n
+5	соревнованиях	соревнование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+6	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpacesAfter=\n
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	вегетарианцы	вегетарианец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85062
+# text = Для них создали отдельную номинацию.
+1	Для	для	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	obl	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	отдельную	отдельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	номинацию	номинация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85063
+# text = Среди победителей разных лет -- Энтони "Анаконда" Дэнсон, который съел семь пирогов за три минуты, а также мировой рекордсмен Мартин Клэр, съевший пирог за 22,53 секунды.
+1	Среди	среди	ADP	_	_	2	case	_	_
+2	победителей	победитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+3	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	Энтони	Энтони	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Анаконда	Анаконда	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	Дэнсон	Дэнсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	SpacesAfter=\n
+13	съел	съедать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+14	семь	семь	NUM	_	Case=Acc	15	nummod:gov	_	_
+15	пирогов	пирог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+16	за	за	ADP	_	_	18	case	_	_
+17	три	три	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	23	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	SpacesAfter=\n
+22	мировой	мировой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	рекордсмен	рекордсмен	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+24	Мартин	Мартин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
+25	Клэр	Клэр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	съевший	ъеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	amod	_	SpacesAfter=\n
+28	пирог	пирог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	за	за	ADP	_	_	31	case	_	_
+30	22,53	22,53	NUM	_	_	31	nummod	_	_
+31	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 85064
+# text = В этом году устроители конкурса решили запустить пирог с мясом и картошкой на высоту около 30 километров, чтобы проверить, повлияет ли пребывание пирога в стратосфере на скорость его поедания.
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	устроители	устроитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesAfter=\n
+5	конкурса	конкурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	пирог	пирог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	мясом	мяс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\n
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	картошкой	картошка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+15	около	около	ADP	_	_	17	case	_	_
+16	30	30	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+20	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	повлияет	влиять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+23	ли	ли	PART	_	_	22	advmod	_	SpacesAfter=\n
+24	пребывание	пребывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+25	пирога	пирог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	стратосфере	стратосфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
+28	на	на	ADP	_	_	27	case	_	_
+29	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+30	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	31	nmod	_	SpacesAfter=\n
+31	поедания	поедание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 85065
+# text = Запуск пирога осуществляли сотрудники компании "SentIntoSpace" из Шеффилда, которая занимается продажей оборудования для полетов, а также проводит запуски и обучает их проведению.
+1	Запуск	запуск	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	пирога	пирог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	осуществляли	осуществлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\n
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	SentIntoSpace	SentIntoSpace	PROPN	_	Foreign=Yes	5	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	Шеффилда	Шеффилд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	_
+14	продажей	продажа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+15	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpacesAfter=\n
+16	для	для	ADP	_	_	17	case	_	_
+17	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	21	cc	_	_
+20	также	также	ADV	_	Degree=Pos	21	advmod	_	_
+21	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+22	запуски	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpacesAfter=\n
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	обучает	обучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+25	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	24	obj	_	_
+26	проведению	проведение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 85066
+# text = К метеозонду с пирогом прикрепили видеокамеру и GPS-трекер, который позволил отслеживать маршрут стратостата с земли.
+1	К	к	ADP	_	_	2	case	_	_
+2	метеозонду	метеозонд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\n
+3	с	с	ADP	_	_	4	case	_	_
+4	пирогом	пирог	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+5	прикрепили	прикреплять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	видеокамеру	видеокамера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	SpacesAfter=\n
+8	GPS-трекер	GPS-трекер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpacesAfter=\n
+12	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	стратостата	стратостат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	с	с	ADP	_	_	14	case	_	SpacesAfter=\n
+16	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85067
+# text = Полет занял около двух часов; за это время зонд поднялся на 29 километров и его отнесло на 61 километр на северо-восток, так что он приземлился на другом конце острова, в Северном Йоркшире.
+1	Полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	занял	занимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	около	около	ADP	_	_	5	case	_	_
+4	двух	два	NUM	_	Case=Gen	5	nummod	_	_
+5	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	;	;	PUNCT	_	_	5	punct	_	_
+7	за	за	ADP	_	_	9	case	_	SpacesAfter=\n
+8	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+10	зонд	зонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	поднялся	подниматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	29	29	NUM	_	_	14	nummod	_	_
+14	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+17	отнесло	относить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	61	61	NUM	_	_	20	nummod	_	_
+20	километр	километр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	северо-восток	северо-восток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	так	так	ADV	_	Degree=Pos	0	mark	_	_
+25	что	что	SCONJ	_	_	24	fixed	_	_
+26	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+27	приземлился	приземляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+31	острова	остров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	Северном	северный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	Йоркшире	Йоркшир	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 85068
+# text = По словам участников запуска, это был первый пирог, побывавший в верхних слоях атмосферы.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	SpacesAfter=\n
+3	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+8	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=\n
+9	пирог	пирог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	побывавший	побывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	amod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	верхних	верхний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	слоях	слой	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+15	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85069
+# text = Возможно, они правы насчет пирога, но хлебобулочные изделия бывали там и раньше.
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	правы	прав	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	насчет	насчет	ADP	_	_	6	case	_	_
+6	пирога	пирог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	хлебобулочные	хлебобулочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	изделия	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+11	бывали	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	там	там	ADV	_	Degree=Pos	11	advmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	раньше	рано	ADV	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85070
+# text = Весной прошлого года шведские энтузиасты запустили в стратосферу пончик, поднявшийся на высоту 32 километра.
+1	Весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+2	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	шведские	шведский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+5	энтузиасты	энтузиаст	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	запустили	запускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	в	в	ADP	_	_	8	case	_	_
+8	стратосферу	стратосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	пончик	пончик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поднявшийся	подняться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	9	amod	_	_
+12	на	на	ADP	_	_	13	case	_	SpacesAfter=\n
+13	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+14	32	32	NUM	_	_	0	nummod	_	_
+15	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85071
+# text = Также в прошлом году японский флорист Азума Макото отправил в полет деревце бонсай.
+1	Также	также	CCONJ	_	_	9	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\n
+5	японский	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	флорист	флорист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	Азума	Азум	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Макото	Макото	PROPN	_	_	7	appos	_	SpacesAfter=\n
+9	отправил	отправлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+10	в	в	ADP	_	_	11	case	_	_
+11	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	деревце	деревце	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+13	бонсай	бонсать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85072
+# text = Екатерина Русакова
+1	Екатерина	екатерина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Русакова	Русакова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+

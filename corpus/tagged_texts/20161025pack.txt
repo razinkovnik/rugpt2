@@ -1,0 +1,534 @@
+# sent_id = 76615
+# text = Американская компания Procyon-Alpha Squared провела демонстрационные испытания нового контейнера, который позволит безопасно перевозить самолетами литий-ионные аккумуляторы.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Procyon-	Procyon-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	Alpha	Alpha	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Squared	Squared	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	демонстрационные	демонстрационный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	контейнера	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	безопасно	безопасно	ADV	_	Degree=Pos	15	advmod	_	_
+15	перевозить	перевожать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+16	самолетами	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	_
+17	литий	литие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	ионные	ионный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 76616
+# text = Как пишет Aviation Week, проверки проводились в лаборатории Федерального управления гражданской авиации США и были признаны успешными.Литий-ионные аккумуляторы представляют серьезную опасность для грузоперевозок.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	_
+7	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+18	успешными.	успешными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl:agent	_	SpaceAfter=No
+19	Литий-	Литий-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	ионные	ионный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	аккумуляторы	аккумуляторы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+23	серьезную	серьезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	опасность	опасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	грузоперевозок	грузоперевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 76617
+# text = Повреждение такого аккумулятора с пробоем между анодом и катодом или короткое его замыкание может привести к быстрому разогреву батареи до температуры почти 600 градусов Цельсия, что чревато пожаром.
+1	Повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+2	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	пробоем	пробоь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	анодом	анод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	катодом	катод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	_
+10	или	или	CCONJ	_	_	13	cc	_	_
+11	короткое	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	замыкание	замыкание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	к	к	ADP	_	_	18	case	_	_
+17	быстрому	быстрый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	разогреву	разогрев	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+19	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	до	до	ADP	_	_	21	case	_	_
+21	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	почти	почти	ADV	_	Degree=Pos	23	advmod	_	_
+23	600	600	NUM	_	_	24	nummod	_	_
+24	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+25	Цельсия	Цельсие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	что	что	PRON	_	Case=Nom	28	nsubj	_	_
+28	чревато	чреватый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+29	пожаром	пожар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 76618
+# text = При этом разогрев соседних аккумуляторов до 200-230 градусов Цельсия может запускать аналогичный процесс и в них.Помимо сильного нагрева аккумулятора при повреждении или коротком замыкании, батареи также выделяют газовую смесь, на 30 процентов состоящую из водорода.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+3	разогрев	разогрев	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+4	соседних	соседний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	до	до	ADP	_	_	10	case	_	_
+7	200	200	NUM	_	_	10	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	230	230	NUM	_	_	7	nummod	_	_
+10	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+11	Цельсия	Цельсия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	аналогичный	аналогичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Помимо	помимо	ADP	_	_	22	case	_	_
+21	сильного	сильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	нагрева	нагрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+23	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	при	при	ADP	_	_	25	case	_	_
+25	повреждении	повреждение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+26	или	или	CCONJ	_	_	28	cc	_	_
+27	коротком	короткий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	замыкании	замыкание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	_
+31	также	также	ADV	_	Degree=Pos	32	advmod	_	_
+32	выделяют	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+33	газовую	газовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	смесь	смесь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	на	на	ADP	_	_	38	case	_	_
+37	30	30	NUM	_	_	38	nummod	_	_
+38	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	obl	_	_
+39	состоящую	состоять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	34	amod	_	_
+40	из	из	ADP	_	_	41	case	_	_
+41	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 76619
+# text = Один аккумулятор стандарта 18650 при повреждении способен выделить 2,2 литра газовой смеси.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	стандарта	стандарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	18650	18650	NUM	_	_	3	nummod	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	повреждении	повреждение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+7	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	выделить	выделять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	2,2	2,2	NUM	_	_	10	nummod	_	_
+10	литра	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nummod:gov	_	_
+11	газовой	газовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	смеси	смесь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 76620
+# text = При смешивании водорода с воздухом может образовываться взрывоопасная смесь.Сегодня перевозка аккумуляторов по воздуху сильно ограничена.
+1	При	при	ADP	_	_	2	case	_	_
+2	смешивании	смешивание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	образовываться	образовываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	взрывоопасная	взрывоопасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	смесь	смесь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Сегодня	сегодня	ADV	_	Degree=Pos	17	advmod	_	_
+12	перевозка	перевозка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+13	аккумуляторов	аккумуляторы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	воздуху	воздух	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+16	сильно	сильно	ADV	_	Degree=Pos	17	advmod	_	_
+17	ограничена	ограничивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76621
+# text = Их транспортируют либо морем, либо силами специализированных авиаперевозчиков.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	транспортируют	транспортировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	либо	либо	CCONJ	_	_	4	cc	_	_
+4	морем	море	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	либо	либо	CCONJ	_	_	7	cc	_	_
+7	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	conj	_	_
+8	специализированных	специализированный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	авиаперевозчиков	авиаперевозчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 76622
+# text = Во многих странах мира отправка аккумуляторов почтовыми службами строго запрещена.
+1	Во	в	ADP	_	_	3	case	_	_
+2	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+4	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	отправка	отправка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+6	аккумуляторов	аккумуляторы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	почтовыми	почтовой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	службами	служба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	_
+9	строго	строго	ADV	_	Degree=Pos	10	advmod	_	_
+10	запрещена	запрещать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76623
+# text = Например, в США запрещена отправка батарей отдельно от устройств, но при этом возможна, если аккумулятор вставлен в какой-либо электронный прибор.Для того чтобы перевозка литий-ионных аккумуляторов почтовыми самолетами вновь стала возможна, несколько компаний занялись разработкой и испытаниями специальных защитных контейнеров.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	5	obl	_	_
+5	запрещена	запрещивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	отправка	отправка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+7	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	отдельно	отдельно	ADV	_	Degree=Pos	10	advmod	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	15	cc	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+15	возможна	возможный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	если	если	SCONJ	_	_	5	mark	_	_
+18	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+19	вставлен	вставлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+20	в	в	ADP	_	_	23	case	_	_
+21	какой-либо	какой-либо	DET	_	Case=Acc|Gender=Masc|Number=Sing	23	amod	_	_
+22	электронный	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	прибор.	приборождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+24	Для	для	ADP	_	_	25	case	_	_
+25	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+26	чтобы	чтобы	SCONJ	_	Mood=Cnd	25	mark	_	_
+27	перевозка	перевозка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+28	литий	лития	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+32	почтовыми	почтовой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+33	самолетами	самолеты	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	27	nmod	_	_
+34	вновь	вновь	ADV	_	Degree=Pos	35	advmod	_	_
+35	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	25	advcl	_	_
+36	возможна	возможный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	несколько	несколько	NUM	_	Case=Nom	39	nummod:gov	_	_
+39	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nsubj	_	_
+40	занялись	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	36	conj	_	_
+41	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	obl	_	_
+42	и	и	CCONJ	_	_	43	cc	_	_
+43	испытаниями	испытание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	41	conj	_	_
+44	специальных	специальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+45	защитных	защитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+46	контейнеров	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 76624
+# text = Как ожидается, в ближайшее время Федеральное управление гражданской авиации США представит правила, по которым будут проводиться сертификационные испытания контейнеров.Новый контейнер компании Procyon-Alpha Squared получил название Omega Pak.
+1	Как	как	ADV	_	Degree=Pos	12	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+7	Федеральное	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	гражданской	гражданской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+12	представит	представлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+13	правила	правило	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	которым	который	PRON	_	Case=Dat	18	obl	_	_
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	acl:relcl	_	_
+19	сертификационные	сертификационный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	_
+21	контейнеров.	контейнеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+24	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	Procyon-	Procyon-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Alpha	Alpha	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+27	Squared	Squared	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+29	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
+30	Omega	Omega	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	Pak	Pak	PROPN	_	Foreign=Yes	30	flat:foreign	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 76625
+# text = Он выполнен из многослойных панелей, в которых слои алюминия чередуются с теплопоглощающими слоями.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	из	из	ADP	_	_	5	case	_	_
+4	многослойных	многослойный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	панелей	панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	которых	который	PRON	_	Case=Loc	11	obl	_	_
+9	слои	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	алюминия	алюминий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	чередуются	чередоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	теплопоглощающими	теплопоглощать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	слоями	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76626
+# text = Стандартный контейнер рассчитан на 52 литий-ионных аккумулятора стандарта 18650 с 50 процентным зарядом.Во время испытаний контейнер заполнили литий-ионными аккумуляторами и в одну из ячеек вместе с батареей положили и разогревающийся картридж.
+1	Стандартный	стандартный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	52	52	NUM	_	_	6	nummod	_	_
+6	литий	лития	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	-ионных	-ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	аккумулятора	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	стандарта	стандарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+10	18650	18650	NUM	_	_	9	nummod	_	_
+11	с	с	ADP	_	_	14	case	_	_
+12	50	50	NUM	_	_	14	nummod	_	_
+13	процентным	процентный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	зарядом.	зарядом.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	Во	во	ADP	_	_	17	case	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	obl	_	_
+18	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	заполнили	заполнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+20	литий	литий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	ионными	ионный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	аккумуляторами	аккумулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	одну	один	NUM	_	Case=Acc|Gender=Fem	32	nummod:gov	_	_
+27	из	из	ADP	_	_	28	case	_	_
+28	ячеек	ячейка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	вместе	вместе	ADV	_	Degree=Pos	32	advmod	_	_
+30	с	с	ADP	_	_	31	case	_	_
+31	батареей	батарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	obl	_	_
+32	положили	класть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	разогревающийся	разогреваться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	35	amod	_	_
+35	картридж	картридж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 76627
+# text = После этого контейнер закрыли, а рядом с ним поставили устройство, дающее электрическую искру.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	закрыли	закрывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	а	а	CCONJ	_	_	10	cc	_	_
+7	рядом	рядом	ADV	_	Degree=Pos	10	advmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+10	поставили	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	дающее	дать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	искру	искра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76628
+# text = Такое устройство должно было бы поджечь газ, если бы поврежденный аккумулятор начал его выделять.От нагрева картриджем литий-ионный аккумулятор получил внутренние повреждения, однако стенки контейнера Omega Pak сумели эффективно отвести от него тепло.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	бы	бы	PART	_	Mood=Cnd	3	aux	_	_
+6	поджечь	поджигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+7	газ	газ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	если	если	SCONJ	_	_	0	mark	_	_
+10	бы	бы	PART	_	Mood=Cnd	13	aux	_	_
+11	поврежденный	повреждать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	начал	начать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+14	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+15	выделять	выделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	От	от	ADP	_	_	18	case	_	_
+18	нагрева	нагрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+19	картриджем	картридж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+20	литий	литие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	ионный	ионный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+24	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+25	внутренние	внутренний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	повреждения	повреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	24	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	однако	однако	ADV	_	Degree=Pos	33	advmod	_	_
+29	стенки	стенка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	_
+30	контейнера	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	Omega	Omega	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	Pak	Pak	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	сумели	уметь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	эффективно	эффективно	ADV	_	Degree=Pos	35	advmod	_	_
+35	отвести	отводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+36	от	от	ADP	_	_	37	case	_	_
+37	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	35	obl	_	_
+38	тепло	тепло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 76629
+# text = В результате аккумуляторы в соседних ячейках не пострадали.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	соседних	соседний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	ячейках	ячейка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	пострадали	страдать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 76630
+# text = Кроме того, поврежденный аккумулятор не вошел в стадию саморазогрева (температурный выбег) и не начал выделять опасный газ.Procyon-Alpha Squared также провела испытания нескольких контейнеров Omega Pak, поставленных бок о бок и друг на друга.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	поврежденный	поврежденный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	вошел	входить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	стадию	стадия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	саморазогрева	саморазогрев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	температурный	температурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	выбег	выбег	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+18	выделять	выделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	опасный	опасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	газ.Procyon-Alpha	газ.Procyon-Alpha	PROPN	_	Foreign=Yes	23	nsubj	_	_
+21	Squared	Squared	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+23	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	_
+25	нескольких	несколько	NUM	_	Case=Gen	26	nummod	_	_
+26	контейнеров	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	Omega	Omega	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	Pak	Pak	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	поставленных	ставить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+31	бок	бок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+32	о	о	ADP	_	_	33	case	_	_
+33	бок	бок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	_
+34	и	и	CCONJ	_	_	37	cc	_	_
+35	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	fixed	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 76631
+# text = В этом случае поврежденные аккумуляторы в одном из контейнеров не привели к повреждению и температурному выбегу аккумуляторов в соседних.Собственную версию контейнера для перевозки литий-ионных аккумуляторов создает и лаборатория Федерального управления гражданской авиации США.
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+4	поврежденные	повреждать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	одном	один	NUM	_	Case=Loc|Gender=Masc	5	nummod	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	контейнеров	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	привели	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	повреждению	повреждение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	температурному	температурный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	выбегу	выбег	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	conj	_	_
+17	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	в	в	ADP	_	_	22	case	_	_
+19	соседних	соседний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+23	контейнера	контейнер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	для	для	ADP	_	_	23	case	_	_
+25	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	литий	литие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+30	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	и	и	PART	_	_	32	advmod	_	_
+32	лаборатория	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+33	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 76632
+# text = Контейнер, разработанный этим ведомством, представляет собой герметичную теплопроводящую упаковку на 16 аккумуляторов, которую нужно помещать в транспортировочный контейнер с водой.
+1	Контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	разработанный	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	5	amod	_	_
+5	ведомством	ведомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	собой	себя	PRON	_	Case=Ins	7	obl	_	_
+9	герметичную	герметичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	теплопроводящую	теплопроводящий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	упаковку	упаковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	16	16	NUM	_	_	14	nummod	_	_
+14	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которую	который	PRON	_	Case=Acc	17	obj	_	_
+17	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	acl:relcl	_	_
+18	помещать	помещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	транспортировочный	транспортировочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 76633
+# text = При перегреве одной батареи ее тепло будет передаваться воде.Василий Сычёв
+1	При	при	ADP	_	_	2	case	_	_
+2	перегреве	перегрев	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	одной	один	NUM	_	Case=Gen|Gender=Fem	4	amod	_	_
+4	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+6	тепло	тепло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+9	воде.	водбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+10	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+

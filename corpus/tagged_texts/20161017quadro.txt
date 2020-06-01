@@ -1,0 +1,289 @@
+# sent_id = 75240
+# text = Американская компания AeroVironment разработала новый карманный квадрокоптер для бойцов Армии США.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	AeroVironment	AeroVironment	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	карманный	карманный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	для	для	ADP	_	_	7	case	_	_
+9	бойцов	боец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 75241
+# text = Как пишетAviation Week, аппарат получил название Snipe; его серийное производство начнется в 2017 году.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	пишетAviation	пишетAviation	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+3	Week	Week	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	Snipe	Snipe	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	;	;	PUNCT	_	_	8	punct	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+11	серийное	серийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	производство	производство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+13	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	2017	2017	NUM	_	_	16	nummod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 75242
+# text = Новые беспилотники должны будут улучшить индивидуальную осведомленность военных.Военным при выполнении боевых задач нередко приходится носить с собой большие грузы: оружие, боеприпасы, медикаменты, паек, системы связи, компьютеры.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+6	индивидуальную	индивидуальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	осведомленность	осведомленность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Военным	военный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	obl	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	выполнении	выполнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+13	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	нередко	нередко	ADV	_	Degree=Pos	16	advmod	_	_
+16	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+17	носить	носить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	собой	себя	PRON	_	Case=Ins	17	obl	_	_
+20	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	грузы	груз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	медикаменты	медикамент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	паек	пака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+32	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 75243
+# text = Кроме того, бойцы получают один небольшой беспилотник на несколько человек.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	бойцы	боец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	8	nummod:gov	_	_
+7	небольшой	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 75244
+# text = Этот аппарат как правило переносится в рюкзаке и управляется с планшета.Предполагается, что новые беспилотники Snipe будут выдаваться каждому служащему Армии США перед отправкой на задание.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+3	как	как	SCONJ	_	_	12	mark	_	_
+4	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advmod	_	_
+5	переносится	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	advcl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	рюкзаке	рюкзак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	управляется	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	планшета.	планшета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+17	Snipe	Snipe	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	выдаваться	выдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	12	advcl	_	_
+20	каждому	каждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	служащему	служащема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+22	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	22	nmod	_	_
+24	перед	перед	ADP	_	_	25	case	_	_
+25	отправкой	отправка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	задание	задание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 75245
+# text = Масса одного аппарата составляет всего 130 граммов при ширине и длине в разложенном состоянии -- 15 сантиметров.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	одного	один	NUM	_	Case=Gen|Gender=Masc	3	nummod	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	всего	всего	PART	_	_	6	advmod	_	_
+6	130	130	NUM	_	_	7	nummod	_	_
+7	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	ширине	ширина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	разложенном	разложеть	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	15	15	NUM	_	_	17	nummod	_	_
+17	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 75246
+# text = Продолжительность полета Snipe составляет 20 минут, а дальность его действия -- один километр.
+1	Продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Snipe	Snipe	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	20	20	NUM	_	_	6	nummod	_	_
+6	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	14	orphan	_	_
+9	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	14	nummod:gov	_	_
+14	километр	километр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	orphan	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75247
+# text = На подготовку к запуску и запуск Snipe необходимо меньше минуты.В AeroVironment полагают, что бойцам следует выдавать по два новых аппарата, которые могут управляться с одного пульта.
+1	На	на	ADP	_	_	2	case	_	_
+2	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	запуску	запуск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
+7	Snipe	Snipe	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	_
+9	меньше	мало	NUM	_	_	8	nsubj	_	_
+10	минуты.	минуты.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	В	в	ADP	_	_	12	case	_	_
+12	AeroVironment	AeroVironment	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	бойцам	боец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+17	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+18	выдавать	выдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	по	по	ADP	_	_	22	case	_	_
+20	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	22	nummod:gov	_	_
+21	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которые	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+26	управляться	управляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	xcomp	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	одного	один	NUM	_	Case=Gen|Gender=Masc	29	nummod	_	_
+29	пульта	пульт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 75248
+# text = В настоящее время компания проводит испытания беспилотников, а в начале 2017 года намерена передать 18 таких аппаратов на проверку военным.В конце 2014 года норвежская компания Prox Dynamics представила новый карманный беспилотник PD-100 Black Hornet.
+1	В	в	ADP	_	_	5	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	14	cc	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+12	2017	2017	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	conj	_	_
+15	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	dep	_	_
+16	18	18	NUM	_	_	18	nummod	_	_
+17	таких	такой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+18	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	проверку	проверка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+21	военным.	военнымя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	В	в	ADP	_	_	23	case	_	_
+23	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	_
+24	2014	2014	NUM	_	_	25	nummod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+26	норвежская	норвежский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+28	Prox	Prox	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	Dynamics	Dynamics	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+32	карманный	карманный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+34	PD	Pd	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	-	-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	100	100	NUM	_	_	34	nummod	_	_
+37	Black	Black	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+38	Hornet	Hornet	PROPN	_	Foreign=Yes	37	flat:foreign	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 75249
+# text = Он представляет собой компактный вертолет массой 18 граммов.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	компактный	компактный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	вертолет	вертолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	18	18	NUM	_	_	8	nummod	_	_
+8	граммов	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 75250
+# text = Диаметр его несущего винта составляет 120 миллиметров.
+1	Диаметр	диаметр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	несущего	несущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	винта	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	120	120	NUM	_	_	7	nummod	_	_
+7	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 75251
+# text = Аппарат развивает скорость до 18 километров в час и может удаляться от оператора на расстояние до 1,5 километра.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	развивает	развивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	до	до	ADP	_	_	6	case	_	_
+5	18	18	NUM	_	_	6	nummod	_	_
+6	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	удаляться	удаляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	оператора	оператор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	1,5	1,5	NUM	_	_	18	nummod	_	_
+18	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75252
+# text = Автономность аппарата достигает 25 минут.Василий Сычёв
+1	Автономность	автономность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	25	25	NUM	_	_	5	nummod	_	_
+5	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+

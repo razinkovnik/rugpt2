@@ -1,0 +1,658 @@
+# sent_id = 75957
+# text = NASA и американский исследовательский центр UTRC в ближайшее время начнут продувочные испытания вентилятора, рассчитанного на всасывание воздушного пограничного слоя.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	7	appos	_	SpacesBefore=\n
+2	и	и	CCONJ	_	_	5	cc	_	_
+3	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	исследовательский	исследовательский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	UTRC	Utrc	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+10	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	продувочные	продувочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+13	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	рассчитанного	рассчитывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	всасывание	всасывание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+18	воздушного	воздушной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75958
+# text = Как пишет Aviation Week, такой вентилятор будет устанавливаться на новые турбовентиляторные двигатели для перспективных пассажирских и военных самолетов.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	вентилятор	вентилятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	устанавливаться	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+10	на	на	ADP	_	_	13	case	_	_
+11	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+12	турбовентиляторные	турбовентиляторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
+14	для	для	ADP	_	_	19	case	_	_
+15	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+16	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	военных	военный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	conj	_	_
+19	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75959
+# text = Продувочные испытания нового всасывающего устройства для силовых установок будут проводиться в аэродинамической трубе Исследовательского центра имени Гленна.На современных пассажирских и некоторых военных самолетах используются дозвуковые турбовентиляторные двигатели.
+1	Продувочные	Продувочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+3	нового	новой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+4	всасывающего	всасывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+6	для	для	ADP	_	_	8	case	_	_
+7	силовых	силовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	установок	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	аэродинамической	аэродинамический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	трубе	труба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+14	Исследовательского	исследовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	Гленна	Гленн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	На	на	ADP	_	_	21	case	_	_
+20	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	0	nmod	_	_
+22	и	и	CCONJ	_	_	25	cc	_	_
+23	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	25	amod	_	_
+24	военных	военный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	conj	_	_
+26	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+27	дозвуковые	дозвуковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+28	турбовентиляторные	турбовентиляторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj:pass	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 75960
+# text = В крейсерском режиме полета в силовых установках такого типа большую часть тяги создает воздушный поток, образуемый вентилятором.
+1	В	в	ADP	_	_	3	case	_	_
+2	крейсерском	крейсерский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+4	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	силовых	силовой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	установках	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
+8	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+12	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	поток	поток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	образуемый	образуть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	вентилятором	вентилятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75961
+# text = Если говорить упрощенно, то чем больше вентилятор, тем выше его вклад в создание тяги двигателя.
+1	Если	если	SCONJ	_	_	11	mark	_	_
+2	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	advcl	_	_
+3	упрощенно	упрощенне	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	то	то	SCONJ	_	_	2	cc	_	_
+6	чем	чем	SCONJ	_	_	2	cc	_	_
+7	больше	много	NUM	_	_	8	nummod:gov	_	_
+8	вентилятор	вентилятора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	тем	тем	SCONJ	_	_	2	cc	_	_
+11	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	тяги	тяга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 75962
+# text = Однако простое увеличение диаметра вентилятора ведет к возникновению другой проблемы -- существенного лобового сопротивления в полете.В полете набегающий воздух несколько тормозится вентилятором, а затем уже затягивается в двигатель.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	простое	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	диаметра	диаметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	возникновению	возникновение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+9	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	существенного	существенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	лобового	лобовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	полете.	полете.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+17	В	в	ADP	_	_	18	case	_	_
+18	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+19	набегающий	набегать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	воздух	воздух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+21	несколько	несколько	ADV	_	Degree=Pos	22	advmod	_	_
+22	тормозится	тормозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+23	вентилятором	вентилятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	28	cc	_	_
+26	затем	затем	ADV	_	Degree=Pos	28	advmod	_	_
+27	уже	уже	ADV	_	Degree=Pos	28	advmod	_	_
+28	затягивается	затягиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 75963
+# text = Такое торможение приводит к частичной потере эффективности силовой установки.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	торможение	торможение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	частичной	частичный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	потере	потеря	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 75964
+# text = Для соблюдения баланса между подачей воздуха в двигатель и его торможением на входе лопаткам вентилятора придают особую форму.
+1	Для	для	ADP	_	_	2	case	_	_
+2	соблюдения	соблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+3	баланса	баланс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	между	между	ADP	_	_	5	case	_	_
+5	подачей	подача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+6	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	торможением	торможение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	conj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	входе	вход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	лопаткам	лопатк	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+15	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	придают	придавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	особую	особый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75965
+# text = Обычно они имеют вид сабель с неравномерным изгибом для оптимизации воздушного потока по всей длине (подробнее о вентиляторах и турбовентиляторных двигателях можно почитать в нашем материале).В качестве одного из способов уменьшения лобового сопротивления турбовентиляторного двигателя разработчики видят его "утапливание" в корпус самолета.
+1	Обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	сабель	сабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	неравномерным	неравномерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	изгибом	изгиб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	оптимизации	оптимизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	по	по	ADP	_	_	15	case	_	_
+14	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_	_
+15	длине	длина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	подробнее	подробно	ADV	_	Degree=Cmp	19	advmod	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	вентиляторах	вентилятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	nmod	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	турбовентиляторных	турбовентиляторный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	двигателях	двигатели	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	conj	_	_
+23	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+24	почитать	почитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing	27	amod	_	_
+27	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	В	в	ADP	_	_	32	case	_	_
+31	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	fixed	_	_
+32	одного	один	NUM	_	Case=Gen|Gender=Masc	0	nummod	_	_
+33	из	из	ADP	_	_	34	case	_	_
+34	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+35	уменьшения	уменьшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	лобового	лобовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+38	турбовентиляторного	турбовентиляторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+40	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	41	nsubj	_	_
+41	видят	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+42	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	41	obj	_	_
+43	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	утапливание	утапливание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	44	punct	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	корпус	корпус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	nmod	_	_
+48	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+
+# sent_id = 75966
+# text = В этом случае силовая установка получит щелевой немного выступающий над поверхностью фюзеляжа самолета воздухозаборник.
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	силовая	силовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	щелевой	щелевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	_
+8	немного	немного	ADV	_	Degree=Pos	9	advmod	_	_
+9	выступающий	выступать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+10	над	над	ADP	_	_	11	case	_	_
+11	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	воздухозаборник	воздухозаборник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75967
+# text = Такое решение, по предварительным расчетам, существенно снизит общее лобовое сопротивление летательного аппарата и позволит повысить топливную эффективность по меньшей мере на восемь процентов.Однако невозможно взять один из существующих двигателей и "утопить" его в корпусе самолета, потому что это приведет к существенному падению мощности силовой установки и повышению расхода топлива.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	6	case	_	_
+5	предварительным	предварительный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	существенно	существенно	ADV	_	Degree=Pos	9	advmod	_	_
+9	снизит	снижать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	общее	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	лобовое	лобовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+13	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	повысить	повышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	топливную	топливный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	по	по	ADP	_	_	19	case	_	_
+21	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	fixed	_	_
+22	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	fixed	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	восемь	восемь	NUM	_	Case=Acc	25	nummod:gov	_	_
+25	процентов.	процентовент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+26	Однако	однако	ADV	_	Degree=Pos	25	advmod	_	_
+27	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	parataxis	_	_
+28	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	nsubj	_	_
+29	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	28	nummod:gov	_	_
+30	из	из	ADP	_	_	32	case	_	_
+31	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+33	и	и	CCONJ	_	_	35	cc	_	_
+34	"	"	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	утопить	утопать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	conj	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	35	obj	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	корпусе	корпус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+40	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	потому	потому	ADV	_	Degree=Pos	0	mark	_	_
+43	что	что	SCONJ	_	_	42	fixed	_	_
+44	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	45	nsubj	_	_
+45	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+46	к	к	ADP	_	_	48	case	_	_
+47	существенному	существенный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_
+48	падению	падение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	45	obl	_	_
+49	мощности	мощность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	_
+50	силовой	силовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	повышению	повышение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	conj	_	_
+54	расхода	расход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	54	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	SpaceAfter=No
+
+# sent_id = 75968
+# text = Дело в том, что вентиляторы на всех без исключения турбовентиляторных двигателях настроены на работу с набегающим свободным потоком воздуха.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	вентиляторы	вентилятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	6	nmod	_	_
+9	без	без	ADP	_	_	10	case	_	_
+10	исключения	исключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+11	турбовентиляторных	турбовентиляторный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	двигателях	двигатель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+13	настроены	настраивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	19	case	_	_
+17	набегающим	набегать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+18	свободным	свободный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	потоком	поток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+20	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75969
+# text = Но вентилятору "утопленного" в фюзеляж двигателя придется втягивать пограничный воздушный слой с ламинарным медленным течением.Пограничным воздушным слоем называют тонкий слой на поверхности летательного аппарата, характеризующийся сильным градиентом скорости от нуля до скорости потока вне пограничного слоя.
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	вентилятору	вентилятор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	утопленного	утоплять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	фюзеляж	фюзеляж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+8	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	втягивать	втягивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	пограничный	пограничный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	ламинарным	ламинарный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	медленным	медленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	течением.	течением.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	Пограничным	Пограничн	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	appos	_	_
+19	воздушным	воздушный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	слоем	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	_
+21	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+22	тонкий	тонкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	характеризующийся	характеризоваться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	23	amod	_	_
+30	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	градиентом	градиент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+32	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	от	от	ADP	_	_	34	case	_	_
+34	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+35	до	до	ADP	_	_	36	case	_	_
+36	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+37	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+38	вне	вне	ADP	_	_	40	case	_	_
+39	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 75970
+# text = Вентилятор, настроенный на прямой приток воздуха, в "утопленной" конфигурации будет создавать на входе сильный перепад давления, что в свою очередь будет нарушать ламинарное течение воздуха по фюзеляжу перед воздухозаборником и после него.
+1	Вентилятор	вентилятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	настроенный	настроенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	прямой	прямой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	приток	приток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	в	в	ADP	_	_	13	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	утопленной	утоплять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	конфигурации	конфигурация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+14	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	входе	вход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+18	сильный	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	перепад	перепад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	obj	_	_
+20	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	PRON	_	Case=Nom	27	nsubj	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	25	amod	_	_
+25	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
+26	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
+27	нарушать	нарушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	parataxis	_	_
+28	ламинарное	ламинарный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	_
+30	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	по	по	ADP	_	_	32	case	_	_
+32	фюзеляжу	фюзеляж	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	30	nmod	_	_
+33	перед	перед	ADP	_	_	34	case	_	_
+34	воздухозаборником	воздухозаборник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	nmod	_	_
+35	и	и	CCONJ	_	_	37	cc	_	_
+36	после	после	ADP	_	_	37	case	_	_
+37	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 75971
+# text = Частично эту проблему можно решить уменьшением глубины воздухозаборника.Для нормальной работы двигателя в условиях, когда на вход подается воздух из пограничного слоя, необходимо также изменить конфигурацию лопаток вентилятора.
+1	Частично	Частично	ADV	_	Degree=Pos	4	advmod	_	_
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	уменьшением	уменьшение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+7	глубины	глубина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	воздухозаборника.	воздухозаборника.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	SpaceAfter=No
+9	Для	для	ADP	_	_	11	case	_	_
+10	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+12	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	когда	когда	SCONJ	_	_	14	mark	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	вход	вход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+19	подается	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	advcl	_	_
+20	воздух	воздух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+21	из	из	ADP	_	_	23	case	_	_
+22	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	conj	_	_
+26	также	также	ADV	_	Degree=Pos	25	advmod	_	_
+27	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+28	конфигурацию	конфигурация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+29	лопаток	лопатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+30	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 75972
+# text = Лопатки типичного вентилятора турбовентиляторного двигателя имеют угол атаки 27 градусов.
+1	Лопатки	лопатки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	типичного	типичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	турбовентиляторного	турбовентиляторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	угол	угол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	атаки	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	27	27	NUM	_	_	10	nummod	_	_
+10	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75973
+# text = Разработчики провели серию вычислений и компьютерное моделирование, по итогам которых пришли к выводу, что оптимальным углом атаки лопаток вентилятора, оптимизированного для втягивания пограничного слоя, являются 17 градусов.Испытания вентилятора, оптимизированного для втягивания пограничного воздушного слоя, будут проводиться в аэродинамической трубе на имитированной скорости полета в 0,8 числа Маха (988 километров в час).
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	компьютерное	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	моделирование	моделирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	итогам	итог	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	_
+11	которых	который	PRON	_	Case=Gen	10	nmod	_	_
+12	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	12	mark	_	_
+17	оптимальным	оптимальной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+19	атаки	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	лопаток	лопатка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	оптимизированного	оптимизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+24	для	для	ADP	_	_	25	case	_	_
+25	втягивания	втягивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+26	пограничного	пограничный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+30	17	17	NUM	_	_	32	nummod	_	_
+31	градусов.	градусовадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	SpaceAfter=No
+32	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+33	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	оптимизированного	оптимизировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+36	для	для	ADP	_	_	37	case	_	_
+37	втягивания	втягивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	_
+38	пограничного	пограничной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+39	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	aux:pass	_	_
+43	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	12	nsubj	_	_
+44	в	в	ADP	_	_	46	case	_	_
+45	аэродинамической	аэродинамический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	трубе	труба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	43	obl	_	_
+47	на	на	ADP	_	_	49	case	_	_
+48	имитированной	имитированный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	43	obl	_	_
+50	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
+51	в	в	ADP	_	_	53	case	_	_
+52	0,8	0,8	NUM	_	_	53	nummod	_	_
+53	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	obl	_	_
+54	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	988	988	NUM	_	_	57	nummod	_	_
+57	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	53	parataxis	_	_
+58	в	в	ADP	_	_	59	case	_	_
+59	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+60	)	)	PUNCT	_	_	59	punct	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	59	punct	_	SpaceAfter=No
+
+# sent_id = 75974
+# text = Как ожидается, установка такого вентилятора на обычный турбовентиляторный двигатель, "утопленный" в фюзеляже, даст прирост топливной эффективности 4,5 процента.
+1	Как	как	ADV	_	Degree=Pos	18	mark	_	_
+2	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	установка	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+5	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	вентилятора	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	на	на	ADP	_	_	10	case	_	_
+8	обычный	обычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	турбовентиляторный	турбовентиляторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	утопленный	утопленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	фюзеляже	фюзеляж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	даст	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+19	прирост	прирост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	топливной	топливной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	4,5	4,5	NUM	_	_	23	nummod	_	_
+23	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75975
+# text = Прибавки еще в 3,5 процентных пункта разработчики намерены добиться изменением конфигурации лопаток вентилятора.В середине октября американская компания Lockheed Martin приступила к формированию концепции перспективного самолета-заправщика KC-Z.
+1	Прибавки	прибавка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+2	еще	еще	ADV	_	Degree=Pos	6	advmod	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	3,5	3,5	NUM	_	_	6	nummod	_	_
+5	процентных	процентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	dep	_	_
+10	изменением	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	конфигурации	конфигурация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	лопаток	лопатка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	вентилятора.	вентилятора.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+14	В	в	ADP	_	_	15	case	_	_
+15	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+16	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+19	Lockheed	Lockheed	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Martin	Martin	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	приступила	приступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	формированию	формирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
+24	концепции	концепция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	перспективного	перспективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	самолета-заправщика	самолета-заправщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	KC-Z	Kc-z	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 75976
+# text = В нем особое внимание планируется уделить малозаметности.
+1	В	в	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+3	особое	особый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+5	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	уделить	уделивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	малозаметности	малозаметность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 75977
+# text = Для ее снижения компания планирует оснастить танкеры "утопленными" в фюзеляж двигателями, воздухозаборники которых будут прикрыты от радаров гаргротом.
+1	Для	для	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	снижения	снижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	оснастить	оснаскать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	танкеры	танкер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	утопленными	утоплять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	фюзеляж	фюзеляж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+13	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	воздухозаборники	воздухозаборник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+16	которых	который	PRON	_	Case=Gen	15	nmod	_	_
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	прикрыты	прикрывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	радаров	радар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+21	гаргротом	гаргрот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl:agent	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 75978
+# text = За полет KC-Z будут отвечать турбовентиляторные двигатели с вентиляторами, оптимизированными для втягивания пограничного воздушного слоя.Василий Сычёв
+1	За	за	ADP	_	_	2	case	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	KC-Z	Kc-z	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	турбовентиляторные	турбовентиляторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	вентиляторами	вентилятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	оптимизированными	оптимизировать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	втягивания	втягивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+14	пограничного	пограничной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+19	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
+

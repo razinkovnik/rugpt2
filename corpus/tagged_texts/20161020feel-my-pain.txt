@@ -1,0 +1,486 @@
+# sent_id = 75760
+# text = Американские ученые обнаружили, что уздоровых мышей повышается болевая чувствительность, когда они находятся рядом ссородичами, испытывающими боль.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	уздоровых	уздоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	повышается	повышаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	_
+9	болевая	болевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	когда	когда	SCONJ	_	_	10	mark	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	SpacesAfter=\n
+14	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+15	рядом	рядом	ADV	_	Degree=Pos	14	advmod	_	_
+16	ссородичами	ссородич	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	испытывающими	испытывать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+19	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75761
+# text = Результаты работы опубликованы вжурнале Science Advances.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Science	Science	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Advances	Advances	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 75762
+# text = Механизмы восприятия боли хорошо известны.
+1	Механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	восприятия	восприятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	боли	боль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	хорошо	хорошо	ADV	_	Degree=Pos	5	advmod	_	_
+5	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 75763
+# text = Тем не менее, на них могут влиять разнообразные факторы, механизм действия которых до конца не уточнен.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	7	obl	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	разнообразные	разнообразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	факторы	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	которых	который	PRON	_	Case=Gen	13	nmod	_	_
+15	до	до	ADP	_	_	16	case	_	_
+16	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	уточнен	уточнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75764
+# text = Примером может служить феномен гипералгезии -- повышение чувствительности к боли при повреждении тканей или других болевых воздействиях.
+1	Примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	феномен	феномен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	гипералгезии	гипералгезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	повышение	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	nsubj	_	_
+8	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	боли	боль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	повреждении	повреждение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+13	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	или	или	CCONJ	_	_	17	cc	_	_
+15	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+16	болевых	болевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	воздействиях	воздействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 75765
+# text = Согласно наблюдениям, болевой порог животных и людей может снижаться при нахождении рядом со страдающим сородичем, однако за счет чего это происходит, до сих пор известно не было.Сотрудники Орегонского университета здоровья инауки провели ряд экспериментов, входе которых они помещали мышей, которые испытывали постоянную боль, вызванную химическим раздражителем или отменой алкоголя иопиатов, рядом создоровыми животными, ноневполе ихзрения.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	наблюдениям	наблюдение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	болевой	болевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	порог	порог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+6	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	снижаться	снижаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	нахождении	нахождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+13	рядом	рядом	ADV	_	Degree=Pos	12	advmod	_	_
+14	со	с	ADP	_	_	16	case	_	_
+15	страдающим	страдать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	сородичем	сородич	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+19	за	за	ADP	_	_	21	case	_	_
+20	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	fixed	_	_
+21	чего	что	PRON	_	Case=Gen	23	obl	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+23	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	до	до	ADP	_	_	28	advmod	_	_
+26	сих	сей	DET	_	Case=Gen|Number=Plur	25	fixed	_	_
+27	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	fixed	_	_
+28	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	36	advmod	_	_
+29	не	не	PART	_	_	30	advmod	_	_
+30	было.	былотец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+31	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	SpacesAfter=\n
+32	Орегонского	Орегонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+35	инауки	инаука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+37	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	_
+38	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	входе	входе	ADP	_	_	41	case	_	SpacesAfter=\n
+41	которых	который	PRON	_	Case=Loc	43	obl	_	_
+42	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	43	nsubj	_	_
+43	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	38	acl:relcl	_	_
+44	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	43	obj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	которые	который	PRON	_	Case=Nom	47	nsubj	_	_
+47	испытывали	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	44	acl:relcl	_	_
+48	постоянную	постоянный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	47	obj	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	49	punct	_	_
+51	вызванную	вызывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	49	amod	_	SpacesAfter=\n
+52	химическим	химический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	53	amod	_	_
+53	раздражителем	раздражитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	51	obl	_	_
+54	или	или	CCONJ	_	_	55	cc	_	_
+55	отменой	отмена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	53	conj	_	_
+56	алкоголя	алкоголь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	_
+57	иопиатов	иопиат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	56	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	рядом	рядом	ADV	_	Degree=Pos	36	advmod	_	_
+60	создоровыми	создоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	61	amod	_	SpacesAfter=\n
+61	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	36	nsubj	_	SpaceAfter=No
+62	,	,	PUNCT	_	_	61	punct	_	_
+63	ноневполе	ноневполе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	61	nsubj	_	_
+64	ихзрения	ихзрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	63	nmod	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	64	punct	_	SpaceAfter=No
+
+# sent_id = 75766
+# text = Увсех мышей проверяли болевую чувствительность алгезиметром фон Фрея (прибором спробами, оказывающими калибруемое механическое воздействие накожу).
+1	Увсех	Увсе	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	3	obj	_	_
+2	мышей	мыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	проверяли	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	болевую	болевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	алгезиметром	алгезиметр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+7	фон	фон	PART	_	_	0	advmod	_	_
+8	Фрея	Фрея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	прибором	прибор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	parataxis	_	_
+11	спробами	спроб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	оказывающими	оказывать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	SpacesAfter=\n
+14	калибруемое	калибруемый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+15	механическое	механический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	воздействие	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+17	накожу	накожать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 75767
+# text = Умышей сболевыми ощущениями закономерно развивалась гипералгезия.
+1	Умышей	Умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+2	сболевыми	сболевый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	SpacesAfter=\n
+3	ощущениями	ощущения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	1	nmod	_	_
+4	закономерно	закономерно	ADV	_	Degree=Pos	5	advmod	_	_
+5	развивалась	развиваться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	гипералгезия	гипералгезия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 75768
+# text = При нахождении рядом сними создоровыми животными происходило тоже самое: ихболевой порог снижался более чем на60процентов.
+1	При	при	ADP	_	_	2	case	_	_
+2	нахождении	нахождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	рядом	рядом	ADV	_	Degree=Pos	7	advmod	_	_
+4	сними	сний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+5	создоровыми	создоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	7	nsubj	_	SpacesAfter=\n
+7	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	тоже	тоже	PART	_	_	9	advmod	_	_
+9	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	ихболевой	ихболевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	порог	порог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	снижался	снижаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+14	более	более	ADV	_	Degree=Cmp	16	case	_	_
+15	чем	чем	SCONJ	_	_	14	fixed	_	_
+16	на60процентов	на60процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 75769
+# text = Причем этот эффект независел отпола животных, ихзнакомства между собой и наблюдался навсем протяжении экспериментов, продолжавшихся несколько недель.
+1	Причем	причем	CCONJ	_	_	4	cc	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	независел	независелый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	отпола	отпол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ихзнакомства	ихзнакомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj:pass	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	собой	себя	PRON	_	Case=Ins	8	nmod	_	_
+11	и	и	PART	_	_	12	advmod	_	SpacesAfter=\n
+12	наблюдался	наблюдать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+13	навсем	навсе	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl:agent	_	_
+14	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+15	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	продолжавшихся	продолжаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	14	amod	_	_
+18	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	19	nummod:gov	_	_
+19	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75770
+# text = Восстановление нормальной болевой чувствительности уобеих групп животных также совпадало повремени.
+1	Восстановление	восстановление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+2	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	болевой	болевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	уобеих	уоба	NUM	_	Case=Gen|Gender=Fem	6	nummod	_	_
+6	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	SpacesAfter=\n
+9	совпадало	совпадать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	повремени	повремеень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75771
+# text = Стандартные тесты науровень тревожности иизмерение уровня "гормона стресса" кортизола вкрови мышей показали, что "заразность" боли несвязана сострессорными реакциями.
+1	Стандартные	стандартный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	тесты	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+3	науровень	науровня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	тревожности	тревожность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	иизмерение	иизмерение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+6	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	гормона	гормон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	стресса	стресс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	кортизола	кортизол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	вкрови	вкровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\n
+13	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	заразность	заразность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	боли	боль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	несвязана	несвязывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	_
+22	сострессорными	сострессорный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	реакциями	реакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 75772
+# text = Чтобы выяснить механизм передачи гипералгезии, ученые помещали фрагменты подстилки страдающих отболи мышей вклетки здоровых животных, находящиеся вдругом помещении.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+2	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	SpacesAfter=\n
+3	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	гипералгезии	гипералгезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	помещали	помещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	подстилки	подстилка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	страдающих	страдать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	SpacesAfter=\n
+12	отболи	отболь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	вклетки	вклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	здоровых	здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	находящиеся	находиться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	20	amod	_	_
+19	вдругом	вдругом	ADV	_	Degree=Pos	18	advmod	_	_
+20	помещении	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75773
+# text = Через 24часа уних снижался порог болевой чувствительности, что свидетельствует о передаче гипералгезии обонятельными стимулами.
+1	Через	через	ADP	_	_	2	case	_	SpacesAfter=\n
+2	24часа	24час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	уних	оуни	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+4	снижался	снижаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	порог	порог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	болевой	болевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	PRON	_	Case=Nom	10	nsubj	_	_
+10	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+11	о	о	ADP	_	_	12	case	_	SpacesAfter=\n
+12	передаче	передача	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	гипералгезии	гипералгезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	обонятельными	обонятельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	стимулами	стимул	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75774
+# text = Полученные результаты свидетельствуют, что изменения болевой чувствительности в присутствии страдающего сородича могут передаваться помеханизмам, отличным от сопереживания или стресса.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	SpacesAfter=\n
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	свидетельствуют	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+7	болевой	болевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	SpacesAfter=\n
+10	присутствии	присутствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+11	страдающего	страдають	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	сородича	сородич	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+14	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	13	xcomp	_	_
+15	помеханизмам	помеханизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	отличным	отличный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+18	от	от	ADP	_	_	19	case	_	SpacesAfter=\n
+19	сопереживания	сопереживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	или	или	CCONJ	_	_	21	cc	_	_
+21	стресса	стресс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 75775
+# text = Это должны иметь ввиду экспериментаторы, исследующие болевые реакции-- испытывающих боль животных нельзя помещать рядом спредставителями контрольной группы, как это часто делается внастоящее время.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	ввиду	ввиду	ADP	_	_	5	case	_	_
+5	экспериментаторы	экспериментатор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	исследующие	исследовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+8	болевые	болевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	реакции	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	obj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	испытывающих	испытывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+13	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+15	нельзя	нельзя	ADV	_	Degree=Pos	0	conj	_	_
+16	помещать	помещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	рядом	рядом	ADV	_	Degree=Pos	16	advmod	_	SpacesAfter=\n
+18	спредставителями	спредставитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+19	контрольной	контрольной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	как	как	SCONJ	_	_	25	mark	_	_
+23	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj:pass	_	_
+24	часто	часто	ADV	_	Degree=Pos	25	advmod	_	_
+25	делается	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	advmod	_	_
+26	внастоящее	внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj:pass	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 75776
+# text = Кроме того, схожий механизм передачи гипералгезии может иметь место иулюдей, играя роль в развитии хронической боли необъяснимой природы.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	схожий	схожий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpacesAfter=\n
+5	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	гипералгезии	гипералгезия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	иулюдей	чеиуловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	играя	играть	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	_
+14	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+16	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+17	хронической	хронической	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	боли	боль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	необъяснимой	необъяснимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	природы	природа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 75777
+# text = Подтвердить или опровергнуть эту гипотезу должны будущие исследования.
+1	Подтвердить	дтвердить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+2	или	или	CCONJ	_	_	3	cc	_	_
+3	опровергнуть	опроверггать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	SpacesAfter=\n
+4	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	будущие	будущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	0	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 75778
+# text = "Мынезнаем, вовлеченоли обоняние улюдей, нонекоторые эксперименты четко показали, что люди чувствительны кзапахам, которые они невоспринимают сознательно, иэти запахи могут влиять наихповедение", -- пояснил руководитель работы Андрей Рябинин.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мынезнаем	Мынезнавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	вовлеченоли	вовлеченоть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	обоняние	обоняние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	улюдей	чеуловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	нонекоторые	нонекоторый	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+9	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+10	четко	четко	ADV	_	Degree=Pos	11	advmod	_	_
+11	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	SpacesAfter=\n
+14	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	чувствительны	чувствительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	11	advcl	_	_
+16	кзапахам	кзапаха	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Acc	20	obj	_	_
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	20	nsubj	_	_
+20	невоспринимают	невоспринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	сознательно	сознательно	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	иэти	иэтот	DET	_	Case=Nom|Number=Plur	24	amod	_	SpacesAfter=\n
+24	запахи	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+25	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	влиять	влиять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	наихповедение	наихповедение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	--	--	PUNCT	_	_	27	punct	_	_
+31	пояснил	пояснять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	SpacesAfter=\n
+32	руководитель	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+33	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	Андрей	андрей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	_
+35	Рябинин	Рябинин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 75779
+# text = Ранее ученые обнаружили, что чем больше учеловека социальных контактов, тем лучше онпереносит боль.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	SpacesAfter=\n
+6	чем	чем	SCONJ	_	_	7	cc	_	_
+7	больше	много	NUM	_	_	3	advmod	_	_
+8	учеловека	учеловек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	социальных	социальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	контактов	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	тем	тем	SCONJ	_	_	3	mark	_	_
+13	лучше	хорошо	ADV	_	Degree=Cmp	14	advmod	_	_
+14	онпереносит	онпереносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+15	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75780
+# text = А прием обезболивающих препаратов, вчастности парацетамола, снижает сопереживание чужим физическим ипсихологическим болезненным ощущениям.
+1	А	а	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+2	прием	прием	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	обезболивающих	обезболивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+4	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вчастности	вчастность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	_
+7	парацетамола	парацетамол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+10	сопереживание	сопереживание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	чужим	чужой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+12	физическим	физический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+13	ипсихологическим	ипсихологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+14	болезненным	болезненный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	ощущениям	ощущение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75781
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

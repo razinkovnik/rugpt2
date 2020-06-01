@@ -1,0 +1,571 @@
+# sent_id = 78121
+# text = Центры поконтролю ипрофилактике заболеваний США (CDC) выпустили Недельный доклад позаболеваемости исмертности (MMWR), в котором сообщается опоявлении натерритории страны новой разновидности кандидоза.
+1	Центры	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	поконтролю	поконтролть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ипрофилактике	ипрофилактика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	SpacesAfter=\n
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	CDC	Cdc	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	выпустили	выпускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpacesAfter=\n
+10	Недельный	Недельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	доклад	доклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	позаболеваемости	позаболеваемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	исмертности	исмертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	MMWR	Mmwr	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	в	в	ADP	_	_	19	case	_	SpacesAfter=\n
+19	котором	который	PRON	_	Case=Loc	20	obl	_	_
+20	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+21	опоявлении	опоявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	nsubj:pass	_	_
+22	натерритории	натерритория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	разновидности	разновидность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	кандидоза	кандидоз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 78122
+# text = Еевызывает грибок Candida auris, обладающий множественной лекарственной устойчивостью.
+1	Еевызывает	Еевызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	грибок	грибок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	Candida	Candida	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	auris	auris	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	обладающий	обладать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+7	множественной	множественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	лекарственной	лекарственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	устойчивостью	устойчивость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78123
+# text = Как говорится в докладе, смая 2013 года поавгуст 2016 года вСША зарегистрировано семь случаев заболевания.
+1	Как	как	ADV	_	Degree=Pos	13	mark	_	_
+2	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	parataxis	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	докладе	доклад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	смая	смая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+7	2013	2013	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	поавгуст	поавгуст	ADV	_	Degree=Pos	13	advmod	_	SpacesAfter=\n
+10	2016	2016	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+12	вСША	всша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+13	зарегистрировано	регистрировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+14	семь	семь	NUM	_	Case=Nom	15	nummod:gov	_	_
+15	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+16	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78124
+# text = Еще шесть случаев зафиксированы после подготовки документа.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	шесть	шесть	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	зафиксированы	фиксировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	документа	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 78125
+# text = C. auris впервые выделили вЯпонии в2009 году.
+1	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+2	auris	auris	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+4	выделили	выделять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вЯпонии	вЯпония	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	в2009	в2009	NUM	_	_	7	nummod	_	SpacesAfter=\n
+7	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 78126
+# text = Ретроспективный анализ коллекций грибков рода Candida показал, что первый изизвестных образцов был получен в1996 году вЮжной Корее.
+1	Ретроспективный	Ретроспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	коллекций	коллекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	грибков	грибок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Candida	Candida	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	изизвестных	изизвестный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	SpacesAfter=\n
+12	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	получен	получать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+15	в1996	в1996	NUM	_	_	16	nummod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+17	вЮжной	вЮжный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Корее	корея	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78127
+# text = Кнастоящему времени случаи вызываемой этим грибком инфекции зафиксированы вЯпонии, Южной Корее, Индии, Пакистане, ЮАР, Кении, Кувейте, Израиле, Венесуэле, Колумбии, Великобританиии, недавно, вСША иКанаде.
+1	Кнастоящему	Кнастоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+3	случаи	случая	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	вызываемой	вызывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+5	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	amod	_	_
+6	грибком	грибк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+7	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+8	зафиксированы	зафиксировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	вЯпонии	вЯпония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Корее	корея	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Индии	индия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	Пакистане	пакистан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	ЮАР	юар	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	Кении	Кения	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Кувейте	Куветь	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	Израиле	израиль	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	Венесуэле	венесуэла	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	Колумбии	колумбия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	Великобританиии	Великобританиия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+32	недавно	недавно	ADV	_	Degree=Pos	35	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	вСША	всша	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+35	иКанаде	иКанаде	ADV	_	Degree=Pos	0	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 78128
+# text = Анализ ДНК показал, что впределах одного региона штаммыC.
+1	Анализ	анализ	ADP	_	_	2	case	_	_
+2	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	впределах	впредел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+7	одного	один	NUM	_	Case=Gen|Gender=Masc	8	nummod	_	_
+8	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+9	штаммыC	штаммыс	ADP	_	_	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78129
+# text = auris весьма схожи, носущественно отличаются вразных областях мира.
+1	auris	auris	PROPN	_	Foreign=Yes	3	nsubj	_	_
+2	весьма	весьма	ADV	_	Degree=Pos	3	advmod	_	_
+3	схожи	схожий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	носущественно	носущественно	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+6	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+7	вразных	вразный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	областях	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+9	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78130
+# text = Это может свидетельствовать онезависимом появлении нового грибка внескольких регионах вблизкое время.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	свидетельствовать	свидетельствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	онезависимом	онезависимый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpacesAfter=\n
+5	появлении	появление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	грибка	грибок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	внескольких	внесколько	NUM	_	Case=Gen	9	nummod	_	_
+9	регионах	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+10	вблизкое	вблизкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78131
+# text = Изсеми первых американских случаев заболевания три наблюдались вНью-Йорке, два вИллинойсе ипоодному вМэриленде иНью-Джерси.
+1	Изсеми	тоИзс	DET	_	Case=Ins|Number=Plur	4	amod	_	_
+2	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+5	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	три	три	NUM	_	Case=Nom	4	nummod:gov	_	SpacesAfter=\n
+7	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	вНью-Йорке	вНью-Йорка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	два	два	NUM	_	Case=Nom|Gender=Masc	13	nummod:gov	_	_
+11	вИллинойсе	виллинойсе	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	ипоодному	ипоодный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	вМэриленде	вМэриленда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	conj	_	_
+14	иНью-Джерси	иНью-Джерсь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 78132
+# text = Упяти пациентовC.
+1	Упяти	Упять	NUM	_	Case=Loc	2	nummod	_	_
+2	пациентовC	пациентовс	ADP	_	_	0	case	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 78133
+# text = auris обнаружили вкрови, уоного-- вмоче, иеще у одного-- вухе.
+1	auris	auris	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вкрови	вкровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	уоного-	уоного-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	3	punct	_	_
+7	вмоче	вмоче	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	иеще	иеще	ADV	_	Degree=Pos	13	advmod	_	_
+10	у	у	ADP	_	_	13	case	_	SpacesAfter=\n
+11	одного-	одного-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	вухе	вух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78134
+# text = Все они страдали тяжелыми сопутствующими заболеваниями и длительно лечились встационаре.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	страдали	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	тяжелыми	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+5	сопутствующими	сопутствовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	_
+7	и	и	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+8	длительно	длительно	ADV	_	Degree=Pos	9	advmod	_	_
+9	лечились	лечиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+10	встационаре	встационара	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78135
+# text = Один изпациентов прибыл налечение сБлижнего Востока, остальные были местными иневыезжали запределы США вобозримом прошлом.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	3	nsubj	_	_
+2	изпациентов	изпациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	прибыл	прибывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	налечение	налечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	сБлижнего	сБлижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	Востока	восток	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	nsubj	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	местными	местной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	иневыезжали	иневыезжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	запределы	запредел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	12	nmod	_	_
+14	вобозримом	вобозримый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	SpacesAfter=\n
+15	прошлом	прошлое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78136
+# text = Посостоянию на31августа четыре заболевших скончались, причем смерть необязательно была связана сгрибком.
+1	Посостоянию	посостоянить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	на31августа	на31август	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	заболевших	заболевать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	xcomp	_	_
+5	скончались	скончаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	причем	причем	CCONJ	_	_	11	cc	_	_
+8	смерть	смерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpacesAfter=\n
+9	необязательно	необязательно	ADV	_	Degree=Pos	11	advmod	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	связана	связывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+12	сгрибком	сгрибок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78137
+# text = Полногеномный анализ возбудителей, проведенный ушести пациентов, показал, ихблизкое родство.
+1	Полногеномный	Полногеномный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	возбудителей	возбудитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	проведенный	проведять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+6	ушести	ушодить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ихблизкое	ихблизкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	родство	родство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78138
+# text = Шесть поздних случаев инфекции изучаются в настоящее время.
+1	Шесть	шесть	NUM	_	Case=Nom	3	nummod:gov	_	_
+2	поздних	поздний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	изучаются	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	5	advmod	_	_
+7	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	fixed	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 78139
+# text = C. auris вызывает инфекции упациентов стационаров.
+1	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	auris	auris	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	вызывает	вызывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	упациентов	упациент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	стационаров	стационар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 78140
+# text = Наибольшему риску подвергаются больные, длительно пребывающие вотделении интенсивной терапии, имеющие катетер в крупной вене или получавшие терапию антибиотиками ипротивогрибковыми препаратами.
+1	Наибольшему	наибольший	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	риску	риск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	подвергаются	подвергать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	больные	больная	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	длительно	длительно	ADV	_	Degree=Pos	7	advmod	_	_
+7	пребывающие	пребывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+8	вотделении	вотделение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+9	интенсивной	интенсивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	имеющие	иметь	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+13	катетер	катетер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+15	крупной	крупный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	вене	вена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	получавшие	получать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
+19	терапию	терапия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	антибиотиками	антибиотик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+21	ипротивогрибковыми	ипротивогрибковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	SpacesAfter=\n
+22	препаратами	препарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78141
+# text = Сгрибком связаны серьезные опасения, поскольку онустойчив кбольшинству распространенных лекарств, его практически невозможно идентифицировать традиционными методами (из-за этого его часто принимают за другие, менее опасные дрожжи) ивызывает внутрибольничные вспышки инфекции, требующие быстрого выявления илокализации.
+1	Сгрибком	Сгрибком	ADV	_	Degree=Pos	2	advmod	_	_
+2	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	серьезные	серьезный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	опасения	опасение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	поскольку	поскольку	SCONJ	_	_	0	mark	_	SpacesAfter=\n
+7	онустойчив	онустойчать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	14	advcl	_	_
+8	кбольшинству	кбольшинство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+9	распространенных	распространенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	_
+13	практически	практически	ADV	_	Degree=Pos	14	advmod	_	_
+14	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	SpacesAfter=\n
+15	идентифицировать	идентифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	традиционными	традиционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	из-за	из-за	ADP	_	_	20	case	_	_
+20	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+21	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obj	_	_
+22	часто	часто	ADV	_	Degree=Pos	23	advmod	_	_
+23	принимают	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+24	за	за	ADP	_	_	29	case	_	SpacesAfter=\n
+25	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	менее	менее	ADV	_	Degree=Cmp	28	advmod	_	_
+28	опасные	опасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	conj	_	_
+29	дрожжи	дрожжи	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	ивызывает	ивызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+32	внутрибольничные	внутрибольничный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	31	obj	_	_
+34	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\n
+36	требующие	требовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+37	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+39	илокализации	илокализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 78142
+# text = C. auris может вызывать воспаление ушей (видовое название отлат.
+1	C.	C.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+2	auris	auris	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	воспаление	воспаление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	ушей	ухо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	видовое	видовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	_
+10	отлат	отлата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78143
+# text = auris-- ухо), ран ипроникать в кровь, распространяясь поорганизму.
+1	auris--	auris--	PUNCT	_	_	2	punct	_	_
+2	ухо	ухо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	ран	рывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	ипроникать	ипроникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	в	в	ADP	_	_	8	case	_	SpacesAfter=\n
+8	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	распространяясь	распространяться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	6	advcl	_	_
+11	поорганизму	поорганизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78144
+# text = Его выделяли изанализов мочи имокроты, номожетли онвызывать инфекции дыхательных имочевыводящих путей, пока неясно.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	выделяли	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	изанализов	изанализ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	мочи	моча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	имокроты	имокрота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	номожетли	номожетть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	онвызывать	онвызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+10	дыхательных	дыхательной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	имочевыводящих	имочевыводящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пока	пока	ADV	_	Degree=Pos	15	advmod	_	SpacesAfter=\n
+15	неясно	неясный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78145
+# text = Большинство штаммовC.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	штаммовC	штаммовс	ADP	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = 78146
+# text = auris чувствительны кэхинокандинам, нонедругим противогрибковым средствам.
+1	auris	auris	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	чувствительны	чувствительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	кэхинокандинам	кэхинокандина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	нонедругим	нонедругой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+6	противогрибковым	противогрибковый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	средствам	средства	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 78147
+# text = Встречаются разновидности грибка, устойчивые ктрем основным классам противогрибковых средств, для ихлечения используют комбинации разных подействию препаратов вмаксимальных дозах.
+1	Встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	разновидности	разновидность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+3	грибка	грибок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	устойчивые	устойчивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+6	ктрем	ктри	NUM	_	Case=Dat	5	nummod	_	SpacesAfter=\n
+7	основным	основной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	классам	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	conj	_	_
+9	противогрибковых	противогрибковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	ихлечения	ихлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+14	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+15	комбинации	комбинация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	SpacesAfter=\n
+16	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	подействию	подействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	_
+18	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	вмаксимальных	вмаксимальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	20	amod	_	_
+20	дозах	доза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78148
+# text = Согласно сообщениям онемногих зафиксированных случаях инфекции, умерли около 60процентов страдавших ейпациентов.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщениям	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+3	онемногих	онемногий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	зафиксированных	зафиксировывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+5	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+6	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	умерли	умирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	около	около	ADP	_	_	10	case	_	_
+10	60процентов	60процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	страдавших	традать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+12	ейпациентов	ейпациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78149
+# text = Однако сколько изэтих случаев связано именно сC.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	SpacesAfter=\n
+2	сколько	сколько	ADV	_	Degree=Pos	5	nsubj:pass	_	_
+3	изэтих	изэтот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	именно	именно	PART	_	_	7	advmod	_	_
+7	сC.	сCей	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+
+# sent_id = 78150
+# text = auris, сказать сложно, поскольку онпоражал преимущественно людей ссерьезными заболеваниями, которые сами посебе могли привести ксмерти.
+1	auris	auris	X	_	Foreign=Yes	0	flat:foreign	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+4	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	поскольку	поскольку	SCONJ	_	_	4	mark	_	_
+7	онпоражал	онпоражать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpacesAfter=\n
+8	преимущественно	преимущественне	ADV	_	Degree=Pos	9	advmod	_	_
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	ссерьезными	ссерьезный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+14	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	посебе	посебе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+16	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpacesAfter=\n
+17	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	ксмерти	ксмерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78151
+# text = Сдеятельностью грибков связали еще одно недавно выявленное заболевание-- экзогенный аллергический альвеолит при длительной игре наволынке, получивший название "легкое волынщика".
+1	Сдеятельностью	Сдеятельность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	грибков	грибок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	связали	связать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+5	одно	один	NUM	_	Case=Nom|Gender=Neut	10	nummod:gov	_	SpacesAfter=\n
+6	недавно	недавно	ADV	_	Degree=Pos	7	advmod	_	_
+7	выявленное	выявлять	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	заболевание-	заболевание-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	экзогенный	экзогенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n
+11	аллергический	аллергический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	альвеолит	альвеолит	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	при	при	ADP	_	_	15	case	_	_
+14	длительной	длительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+16	наволынке	наволынка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	получивший	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	amod	_	_
+19	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpacesAfter=\n
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	легкое	легкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	волынщика	волынщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78152
+# text = Повреждение легких при нем вызвано реакцией иммунной системы наплесневые грибки, обитающие вмузыкальном инструменте.
+1	Повреждение	повреждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+2	легких	легкое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	1	nmod	_	_
+5	вызвано	вызывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	реакцией	реакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	иммунной	иммунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	наплесневые	наплесневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	грибки	грибок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	обитающие	обитать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	вмузыкальном	вмузыкальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	инструменте	инструмент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 78153
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

@@ -1,0 +1,461 @@
+# sent_id = 80722
+# text = Канадская компания Quest Rare Minerals, занимающаяся разведкой и добычей редкоземельных элементов, начиная с 2019 года начнет возить руду на перспективных гибридных летательных аппаратах LMH-1.
+1	Канадская	Канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+3	Quest	Quest	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Rare	Rare	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Minerals	Minerals	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	занимающаяся	заниматься	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	2	amod	_	_
+8	разведкой	разведка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	добычей	добыча	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	_
+11	редкоземельных	редкоземельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	2019	2019	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+18	начнет	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+19	возить	возить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	руду	руда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	на	на	ADP	_	_	25	case	_	_
+22	перспективных	перспективный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+23	гибридных	гибридный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+24	летательных	летательный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	25	amod	_	_
+25	аппаратах	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_
+26	LMH	Lmh	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	1	1	NUM	_	_	26	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 80723
+# text = Как пишет Aviation Week, соглашение об аренде гибридных аппаратов для перевозки канадская фирма заключила с британской компанией Straightline Aviation.Редкоземельными элементами называется группа из 17 металлов.
+1	Как	как	ADV	_	Degree=Pos	15	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+7	об	о	ADP	_	_	8	case	_	_
+8	аренде	аренда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	гибридных	гибридный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	перевозки	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	канадская	канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	фирма	фирма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	заключила	заключить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	британской	британский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+19	Straightline	Straightline	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+20	Aviation.	Aviation.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	Редкоземельными	Редкоземельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	элементами	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	_
+23	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	parataxis	_	_
+24	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+25	из	из	ADP	_	_	27	case	_	_
+26	17	17	NUM	_	_	27	nummod	_	_
+27	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80724
+# text = В Канаде Quest Rare Elements занимается добычей таких элементов в отдаленном районе провинции Квебек на озере Стрэндж.
+1	В	в	ADP	_	_	2	case	_	_
+2	Канаде	Канад	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	Quest	Quest	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Rare	Rare	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Elements	Elements	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	добычей	добыча	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	таких	такой	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	отдаленном	отдаленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+13	провинции	провинция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	Квебек	Квебек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	озере	озерь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+17	Стрэндж	Стрэндж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 80725
+# text = Добываемые элементы компании приходится транспортировать через несколько поселений к морю по железной дороге, а затем судами до завода в Беканкуре на юге Квебека.Благодаря новым гибридным летательным аппаратам транспортировка ископаемых существенно упростится.
+1	Добываемые	Добываемый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	транспортировать	транспортировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	через	через	ADP	_	_	8	case	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	поселений	поселение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	морю	море	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	железной	железный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	дороге	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	затем	затем	ADV	_	Degree=Pos	17	advmod	_	_
+17	судами	суд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	_
+18	до	до	ADP	_	_	19	case	_	_
+19	завода	завод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Беканкуре	Беканкур	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	юге	юг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+24	Квебека.	квебека.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	SpaceAfter=No
+25	Благодаря	благодаря	ADP	_	_	29	case	_	_
+26	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	29	amod	_	_
+27	гибридным	гибридный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	29	amod	_	_
+28	летательным	летательный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	29	amod	_	_
+29	аппаратам	аппарат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	24	nmod	_	_
+30	транспортировка	транспортировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+31	ископаемых	ископаемое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	_
+32	существенно	существенно	ADV	_	Degree=Pos	33	advmod	_	_
+33	упростится	упростяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 80726
+# text = С помощью LMH-1 Quest Rare Minerals намерена перевозить добываемые элементы, а также специальное оборудование и людей, причем гибридные аппараты будут летать напрямую между предприятием в Беканкуре и озером Стрэндж.Сумма сделки с Straightline Aviation составила 850 миллионов долларов.
+1	С	с	ADP	_	_	2	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	fixed	_	_
+3	LMH-	LMH-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	1	1	NUM	_	_	5	nummod	_	_
+5	Quest	Quest	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+6	Rare	Rare	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Minerals	Minerals	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+9	перевозить	перевожать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	добываемые	добываемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	элементы	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	16	cc	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	специальное	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	причем	причем	CCONJ	_	_	22	cc	_	_
+21	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	_	_
+23	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	nsubj	_	_
+25	напрямую	напрямую	ADV	_	Degree=Pos	27	advmod	_	_
+26	между	между	ADP	_	_	27	case	_	_
+27	предприятием	предприятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	Беканкуре	Беканкур	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	озером	озер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	conj	_	_
+32	Стрэндж.	стрэнджей	DET	_	Case=Gen|Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+33	Сумма	Сумм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	сделки	сделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	с	с	ADP	_	_	36	case	_	_
+36	Straightline	Straightline	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+37	Aviation	Aviation	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+39	850	850	NUM	_	_	40	nummod	_	_
+40	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	obl	_	_
+41	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 80727
+# text = Она подразумевает, что канадская компания сможет использовать гибридные аппараты на протяжении десяти с 2019 года.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	канадская	канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	гибридные	гибридной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+13	десяти	десять	NUM	_	Case=Gen	12	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	2019	2019	NUM	_	_	16	nummod	_	_
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80728
+# text = При этом соглашение можно быть продлено еще на 20 лет.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	соглашение	соглашение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	aux:pass	_	_
+6	продлено	продлять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	dep	_	_
+7	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	20	20	NUM	_	_	10	nummod	_	_
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80729
+# text = В Quest Rare Minerals полагают, что LMH-1 позволят несколько удешевить транспортировку ископаемых.LMH-1 разрабатываются с 2011 года американской компанией Lockheed Martin.
+1	В	в	ADP	_	_	2	case	_	_
+2	Quest	Quest	PROPN	_	Foreign=Yes	5	nsubj	_	_
+3	Rare	Rare	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Minerals	Minerals	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	LMH-	LMH-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	1	1	NUM	_	_	10	nummod	_	_
+10	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	несколько	несколько	ADV	_	Degree=Pos	12	advmod	_	_
+12	удешевить	удешевлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	транспортировку	транспортировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	ископаемых.	ископаемыхутор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	LMH-	LMH-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	1	1	NUM	_	_	17	nummod	_	_
+17	разрабатываются	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	2011	2011	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+21	американской	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+23	Lockheed	Lockheed	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Martin	Martin	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 80730
+# text = Они представляют собой летательные аппараты тяжелее воздуха взлет и полет которых производятся одновременно за счет двух подъемных сил -- аэростатической, как у дирижаблей, и аэродинамической, как у самолетов.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	летательные	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	тяжелее	тяжелый	ADJ	_	Degree=Cmp	5	amod	_	_
+7	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	взлет	взгод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	полет	погод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	conj	_	_
+11	которых	который	PRON	_	Case=Gen	10	nmod	_	_
+12	производятся	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
+13	одновременно	одновременно	ADV	_	Degree=Pos	12	advmod	_	_
+14	за	за	ADP	_	_	18	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	двух	два	NUM	_	Case=Gen	18	nummod	_	_
+17	подъемных	подъемный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj:pass	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	аэростатической	аэростатический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	как	как	SCONJ	_	_	24	cc	_	_
+23	у	у	ADP	_	_	24	case	_	_
+24	дирижаблей	дирижабль	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	аэродинамической	аэродинамический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	как	как	SCONJ	_	_	31	cc	_	_
+30	у	у	ADP	_	_	31	case	_	_
+31	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 80731
+# text = Газовые объемы в LMH-1 заполняются гелием.
+1	Газовые	Газовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	объемы	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	LMH	Lmh	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	1	1	NUM	_	_	4	nummod	_	_
+7	заполняются	заполнявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	гелием	гелие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 80732
+# text = Горизонтальный полет аппарата обеспечивается электродвигателями.Согласно планам Lockheed Martin, в 2017 году LMH-1 пройдет сертификацию Федерального управления гражданской авиации.
+1	Горизонтальный	Горизонтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	обеспечивается	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	электродвигателями	электродвигатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Согласно	согласно	ADP	_	_	5	case	_	_
+8	планам	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+9	Lockheed	Lockheed	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Martin	Martin	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	2017	2017	NUM	_	_	14	nummod	_	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+15	LMH	Lmh	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	1	1	NUM	_	_	15	nummod	_	_
+18	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	сертификацию	сертификация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80733
+# text = LMH-1 сможет развивать скорость до 111 узлов (206 километров в час).
+1	LMH-	LMH-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	1	1	NUM	_	_	3	nummod	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	111	111	NUM	_	_	8	nummod	_	_
+8	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	206	206	NUM	_	_	11	nummod	_	_
+11	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	parataxis	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80734
+# text = Аппарат рассчитан на перевозку до 21,3 тонны грузов и 19 пассажиров.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	рассчитан	рассчитывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	перевозку	перевозка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	21,3	21,3	NUM	_	_	7	nummod	_	_
+7	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+8	грузов	груз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	19	19	NUM	_	_	11	nummod	_	_
+11	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80735
+# text = Дальность полета гибридного летательного аппарата составит 2,6 тысячи километров.Помимо Lockheed Martin разработкой гибридного летательного аппарата схожего с LMH-1 класса занимается британская компания Hybrid Air Vehicles.
+1	Дальность	дальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	2,6	2,6	NUM	_	_	8	nummod	_	_
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nummod:gov	_	_
+9	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	Помимо	Помимо	ADP	_	_	11	case	_	_
+11	Lockheed	Lockheed	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+12	Martin	Martin	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+14	гибридного	гибридный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+17	схожего	схожий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+18	с	с	ADP	_	_	21	case	_	_
+19	LMH-	Lmh-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	SpaceAfter=No
+20	1	1	NUM	_	_	21	nummod	_	_
+21	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+22	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+23	британская	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+25	Hybrid	Hybrid	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	Air	air	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	Vehicles	Vehicles	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80736
+# text = Ее аппарат Airlander 10 создается на базе воздушного судна LEMV, разрабатывавшегося ранее американской компанией Northrop Grumman для Армии США.Длина Airlander 10 составляет 92 метра, а ширина -- 43,5 метра.
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	Airlander	Airlander	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	10	10	NUM	_	_	3	nummod	_	_
+5	создается	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	судна	судно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	LEMV	Lemv	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	разрабатывавшегося	разрабатывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+13	ранее	ранее	ADV	_	Degree=Pos	12	advmod	_	_
+14	американской	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+16	Northrop	Northrop	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Grumman	Grumman	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+20	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Длина	длина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+23	Airlander	Airlander	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	10	10	NUM	_	_	25	nummod	_	_
+25	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	92	92	NUM	_	_	27	nummod	_	_
+27	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	а	а	CCONJ	_	_	30	cc	_	_
+30	ширина	ширина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	43,5	43,5	NUM	_	_	30	nummod	_	_
+33	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 80737
+# text = С экипажем на борту аппарат может находиться в воздухе до пяти дней.
+1	С	с	ADP	_	_	2	case	_	_
+2	экипажем	экипаж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	пяти	пять	NUM	_	Case=Gen	12	nummod	_	_
+12	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 80738
+# text = Его грузоподъемность составляет десять тонн.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	грузоподъемность	грузоподъемность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	десять	десять	NUM	_	Case=Acc	5	nummod:gov	_	_
+5	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80739
+# text = Судно оснащено четырьмя турбодизельными двигателями мощностью 350 лошадиных сил каждый.
+1	Судно	судно	ADV	_	Degree=Pos	2	advmod	_	_
+2	оснащено	оснащать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	четырьмя	четыре	NUM	_	Case=Ins	5	nummod	_	_
+4	турбодизельными	турбодизельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	двигателями	двигатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+6	мощностью	мощность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+7	350	350	NUM	_	_	9	nummod	_	_
+8	лошадиных	лошадиный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80740
+# text = С их помощью оно может выполнять полеты на крейсерской скорости в 148 километров в час.Василий Сычёв
+1	С	с	ADP	_	_	3	case	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+4	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	крейсерской	крейсерский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	obl	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	148	148	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	час.Василий	час.Василие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+16	Сычёв	сычёво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+

@@ -1,0 +1,368 @@
+# sent_id = 89690
+# text = NASA модернизировало беспилотный летательный аппарат X-56A, на котором проводится отработка технологии подавления флаттера, опасного для безопасности полета самолета явления.
+1	NASA	Nasa	PROPN	_	Foreign=Yes	2	nsubj	_	SpacesBefore=\n
+2	модернизировало	модернизировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	X	x	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	56A	56a	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	котором	который	PRON	_	Case=Loc	12	obl	_	_
+12	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	acl:relcl	_	_
+13	отработка	отработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+14	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	подавления	подавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	флаттера	флаттер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	опасного	опасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	явления	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89691
+# text = Как пишет Aviation Week, модернизированная версия беспилотника приступит к летным испытаниям в ближайшее время.Флаттером называют самовозбуждающиеся незатухающие автоколебания конструкции самолета, возникающие при достижении критической скорости.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	модернизированная	модернизировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	приступит	приступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	к	к	ADP	_	_	12	case	_	_
+11	летным	летный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Флаттером	Флаттером	ADV	_	Degree=Pos	18	advmod	_	_
+18	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+19	самовозбуждающиеся	самовозбуждаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	21	amod	_	_
+20	незатухающие	незатухающий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	автоколебания	автоколебание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+22	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	возникающие	возникать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	_
+26	при	при	ADP	_	_	27	case	_	_
+27	достижении	достижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+28	критической	критический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 89692
+# text = Эта скорость зависит от самой конструкции самолета.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	от	от	ADP	_	_	6	case	_	_
+5	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+7	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 89693
+# text = Разработчики рассчитывают конструкцию самолета так, чтобы скорость возникновения флаттера была несколько выше предельной скорости полета летательного аппарата.Тем не менее, в пикировании или при сильных порывах ветра флаттер может возникать на меньших скоростях полета.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	так	так	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+8	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	флаттера	флаттер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+12	несколько	несколько	ADV	_	Degree=Pos	13	advmod	_	_
+13	выше	высокий	ADJ	_	Degree=Cmp	5	advcl	_	_
+14	предельной	предельной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	аппарата.	аппарата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	discourse	_	_
+20	не	не	PART	_	Polarity=Neg	19	fixed	_	_
+21	менее	менее	ADV	_	Degree=Cmp	20	fixed	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	пикировании	пикирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	obl	_	_
+25	или	или	CCONJ	_	_	28	cc	_	_
+26	при	при	ADP	_	_	28	case	_	_
+27	сильных	сильный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
+28	порывах	порыв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	conj	_	_
+29	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	флаттер	флаттер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+31	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+32	возникать	возникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	на	на	ADP	_	_	35	case	_	_
+34	меньших	меньший	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	35	amod	_	_
+35	скоростях	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	32	obl	_	_
+36	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 89694
+# text = При резонансе автоколебаний конструкции летательный аппарат может разрушиться.
+1	При	при	ADP	_	_	2	case	_	_
+2	резонансе	резонанс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	автоколебаний	автоколебание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	летательный	летательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	разрушиться	разрушаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 89695
+# text = Существует несколько приемов предотвращения флаттера, которым обучают летчиков, однако они не всегда позволяют справиться с этим явлением.С флаттером авиаконструкторы впервые столкнулись в 1930-х годах, когда происходил интенсивный рост максимальных скоростей полета по мере изобретения новых двигателей и новых конструкций воздушных винтов.
+1	Существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	несколько	несколько	NUM	_	Case=Nom	3	nummod:gov	_	_
+3	приемов	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+4	предотвращения	предотвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	флаттера	флаттер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которым	который	PRON	_	Case=Dat	8	obl	_	_
+8	обучают	обучить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	летчиков	летчик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	всегда	всегда	ADV	_	Degree=Pos	15	advmod	_	_
+15	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+16	справиться	справляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	19	amod	_	_
+19	явлением.	явлением.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	С	с	ADP	_	_	21	case	_	_
+21	флаттером	флаттер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+22	авиаконструкторы	авиаконструктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+23	впервые	впервые	ADV	_	Degree=Pos	24	advmod	_	_
+24	столкнулись	сталкиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	parataxis	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	1930-х	1930-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	когда	когда	SCONJ	_	_	24	mark	_	_
+30	происходил	происходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	_
+31	интенсивный	интенсивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+33	максимальных	максимальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	скоростей	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	_
+35	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	по	по	ADP	_	_	38	case	_	_
+37	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	36	fixed	_	_
+38	изобретения	изобретение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	_
+39	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	_
+41	и	и	CCONJ	_	_	43	cc	_	_
+42	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	конструкций	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	conj	_	_
+44	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	винтов	винт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 89696
+# text = С освоением реактивной авиации число летных происшествий, причиной которых стал флаттер, стало увеличиваться.Для подавления флаттера на крыле беспилотника установлены несколько эластичных элементов, которые позволяют управлять обтеканием.
+1	С	с	ADP	_	_	2	case	_	_
+2	освоением	освоенье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+3	реактивной	реактивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+6	летных	летный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	происшествий	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+10	которых	который	PRON	_	Case=Gen	9	nmod	_	_
+11	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+12	флаттер	флаттер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	увеличиваться	увеличиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	dep	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Для	для	ADP	_	_	18	case	_	_
+18	подавления	подавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+19	флаттера	флаттер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	крыле	крыло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	_
+22	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	установлены	устанавливать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+24	несколько	несколько	NUM	_	Case=Nom	26	nummod:gov	_	_
+25	эластичных	эластичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nsubj:pass	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	которые	который	PRON	_	Case=Nom	29	nsubj	_	_
+29	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+30	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	обтеканием	обтекание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 89697
+# text = Все элементы крыла работают автоматически.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	автоматически	автоматически	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 89698
+# text = Само крыло выполнено гибким, имеет большое удлинение и оснащено крупными законцовками, которые позволяют повысить подъемную силу на конце и снизить вихревое сопротивление, возникающее при срыве воздушного потока.В рамках модернизации беспилотника X-56A NASA оснастило все десять подвижных элементов крыла датчиками положения.
+1	Само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	крыло	крыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выполнено	выполнять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	гибким	гибкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	удлинение	удлинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	оснащено	оснащать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+11	крупными	крупный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	законцовками	законцовка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	повысить	повысить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	подъемную	подъемный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	conj	_	_
+23	вихревое	вихревой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	возникающее	возникать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	при	при	ADP	_	_	28	case	_	_
+28	срыве	срыв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+29	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	В	в	ADP	_	_	33	case	_	_
+33	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	40	obl	_	_
+34	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	X	x	PROPN	_	Foreign=Yes	35	flat:foreign	_	SpaceAfter=No
+37	-	-	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	56A	56a	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+39	NASA	Nasa	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	оснастило	оснасщать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+41	все	весь	DET	_	Case=Acc|Number=Plur	42	amod	_	_
+42	десять	десять	NUM	_	Case=Acc	44	nummod:gov	_	_
+43	подвижных	подвижный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	44	amod	_	_
+44	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	40	nsubj	_	_
+45	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nmod	_	_
+46	датчиками	датчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	45	nmod	_	_
+47	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 89699
+# text = Кроме того, в крыло установили 15 акселерометров, которые позволяют отслеживать движение каждого его участка на всем протяжении полета.Сегодня многие разработчики занимаются оптимизацией самолетного крыла и его механизации, чтобы упростить управление самолетом и сделать полеты безопаснее.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+6	установили	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	15	15	NUM	_	_	8	nummod	_	_
+8	акселерометров	акселерометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	участка	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	всем	весь	DET	_	Case=Loc|Gender=Neut|Number=Sing	19	amod	_	_
+19	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+20	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+21	Сегодня	сегодня	ADV	_	Degree=Pos	24	advmod	_	_
+22	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+25	оптимизацией	оптимизация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_
+26	самолетного	самолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+28	и	и	CCONJ	_	_	30	cc	_	_
+29	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	30	nmod	_	_
+30	механизации	механизация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	чтобы	чтобы	SCONJ	_	Mood=Cnd	24	mark	_	_
+33	упростить	упрощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	advcl	_	_
+34	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
+35	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+38	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	37	obj	_	_
+39	безопаснее	безопасно	ADV	_	Degree=Cmp	37	advmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 89700
+# text = В частности американская компания FlexSys разработала адаптивное крыло FlexFoil.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	FlexSys	FlexSys	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	адаптивное	адаптивной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	FlexFoil	FlexFoil	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89701
+# text = Оно представляет собой закрылки и элероны, выполненные едиными элементами с крылом.При установке в одну плоскость с крылом закрылки не образуют никаких щелей, позволяя ламинарное обтекание воздушного потока.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	закрылки	закрылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	элероны	элерон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	выполненные	выполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	_
+9	едиными	единый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	элементами	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	крылом.	крыломя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	При	при	ADP	_	_	14	case	_	_
+14	установке	установка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	одну	один	NUM	_	Case=Acc|Gender=Fem	17	nummod:gov	_	_
+17	плоскость	плоскость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	крылом	крыел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+20	закрылки	закрылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	образуют	образовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+23	никаких	никакой	DET	_	Case=Gen|Number=Plur	24	amod	_	_
+24	щелей	щель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	позволяя	позволять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	advcl	_	_
+27	ламинарное	ламинарный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	обтекание	обтекание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+29	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 89702
+# text = При отклонении закрылков крыло остается гладким.Василий Сычёв
+1	При	при	ADP	_	_	2	case	_	_
+2	отклонении	отклонение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	закрылков	закрылок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	крыло	крыть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	остается	остаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	гладким.	гладкимя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+

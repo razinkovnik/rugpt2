@@ -1,0 +1,322 @@
+# sent_id = 86190
+# text = Международная группа ученых сообщила обуспешном завершенииII иIII стадий клинических испытаний новой вакцины против лихорадки Эбола.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	сообщила	сообщать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	обуспешном	обуспешн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	завершенииII	завершенииii	NUM	_	_	8	nummod	_	_
+7	иIII	иiii	NUM	_	_	6	nummod	_	_
+8	стадий	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpacesAfter=\n
+9	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+11	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	против	против	ADP	_	_	14	case	_	_
+14	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+15	Эбола	Эбола	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86191
+# text = Препарат оказался абсолютно эффективным.
+1	Препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	абсолютно	абсолютно	ADV	_	Degree=Pos	4	advmod	_	SpacesAfter=\n
+4	эффективным	эффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 86192
+# text = Результаты испытаний опубликованы вжурнале Lancet.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+5	Lancet	Lancet	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 86193
+# text = Геморрагическая лихорадка Эбола вызывается вирусом из семейства филовирусов.
+1	Геморрагическая	Геморрагический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	лихорадка	лихорадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	Эбола	Эбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	вызывается	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	вирусом	вирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	из	из	ADP	_	_	5	case	_	SpacesAfter=\n
+7	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	филовирусов	филовирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 86194
+# text = Это одно изсамых тяжелых известных инфекционных заболеваний --при некоторых вспышках смертность достигала почти 90процентов.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	одно	один	NUM	_	Case=Nom|Gender=Neut	7	nummod:gov	_	_
+3	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+4	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+5	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	инфекционных	инфекционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	SpacesAfter=\n
+8	--при	--при	ADP	_	_	10	case	_	_
+9	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	10	amod	_	_
+10	вспышках	вспышка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+11	смертность	смертность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	почти	почти	ADV	_	Degree=Pos	14	advmod	_	_
+14	90процентов	90процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86195
+# text = Последняя на сегодняшний день, наиболее крупная эпидемия инфекции, начавшаяся вЗападной Африке, поразила почти 30тысяч человек, приведя ксмерти более 10тысяч из них, причем Всемирная организация здравоохранения (ВОЗ) признала эти показатели недооцененными.
+1	Последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+2	на	на	ADP	_	_	4	case	_	SpacesAfter=\n
+3	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	наиболее	наиболее	ADV	_	Degree=Pos	7	advmod	_	_
+7	крупная	крупный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	эпидемия	эпидемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+9	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	начавшаяся	начаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	8	amod	_	_
+12	вЗападной	вЗападный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpacesAfter=\n
+13	Африке	африка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	поразила	поражать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	почти	почти	ADV	_	Degree=Pos	17	advmod	_	_
+17	30тысяч	30тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+18	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	приведя	приводить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	23	advcl	_	_
+21	ксмерти	ксмерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	более	более	ADV	_	Degree=Cmp	23	advmod	_	_
+23	10тысяч	10тысячий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	conj	_	_
+24	из	из	ADP	_	_	25	case	_	SpacesAfter=\n
+25	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	причем	причем	CCONJ	_	_	29	cc	_	_
+28	Всемирная	всемирный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	организация	организация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+30	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	ВОЗ	воз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	parataxis	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	_
+34	признала	признавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+35	эти	этот	DET	_	Case=Acc|Number=Plur	36	amod	_	_
+36	показатели	показатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	37	obj	_	SpacesAfter=\n
+37	недооцененными	недооценивать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	34	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 86196
+# text = Поиском эффективной вакцины отлихорадки занимаются несколько мировых лабораторий, нопока ниодин препарат нелицензирован для клинического применения.
+1	Поиском	поиск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+2	эффективной	эффективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	отлихорадки	отлихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	SpacesAfter=\n
+7	мировых	мировой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	лабораторий	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нопока	нопок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nsubj	_	_
+11	ниодин	ниодин	NUM	_	Case=Nom|Gender=Masc	10	nummod:gov	_	_
+12	препарат	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	нелицензирован	нелицензированный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	клинического	клинический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	SpacesAfter=\n
+16	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86197
+# text = Рабочая группа ВОЗ при участии многочисленных научных центров изразных стран провела вАфрике клинические испытания вакцины-кандидата rVSV-ZEBOV.
+1	Рабочая	рабочий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	ВОЗ	воз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	участии	участие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+6	многочисленных	многочисленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	изразных	изразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	провела	провать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	вАфрике	вАфрика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+13	клинические	клинический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	SpacesAfter=\n
+15	вакцины-кандидата	вакцины-кандидат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	rVSV-ZEBOV.	rvsv-zebov.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+
+# sent_id = 86198
+# text = Она представляет собой геннотерапевтический препарат наоснове обезвреженного рекомбинантного вируса везикулярного стоматита (rVSV), который обеспечивает стабильный продолжительный синтез гликопротеина эболавируса штамма Заир.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	геннотерапевтический	геннотерапевтический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpacesAfter=\n
+5	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	наоснове	наоснов	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	7	obl:agent	_	_
+7	обезвреженного	обезврежять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	рекомбинантного	рекомбинантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	везикулярного	везикулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpacesAfter=\n
+11	стоматита	стоматит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	rVSV	rvsv	PROPN	_	Foreign=Yes	11	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+18	стабильный	стабильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+19	продолжительный	продолжительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+21	гликопротеина	гликопротеин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpacesAfter=\n
+22	эболавируса	эболавирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	штамма	штамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	Заир	Заир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 86199
+# text = Поитогам испытаний Ebola aSuffit!
+1	Поитогам	Поитог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	Ebola	Ebola	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	aSuffit	aSuffit	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 86200
+# text = (буквально "Эбола, хватит!")
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	буквально	буквально	ADV	_	Degree=Pos	4	advmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Эбола	Эбола	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	хватит	хватать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86201
+# text = изболее чем 5000 привитых участников, находящихся вкластерах вспышки заболевания, запериод с10по84день после вакцинации (это примерно вчетверо больше, чем инкубационный период лихорадки Эбола) незаболел ниодин.
+1	изболее	изболее	ADV	_	Degree=Pos	5	case	_	_
+2	чем	чем	SCONJ	_	_	1	fixed	_	_
+3	5000	5000	NUM	_	_	5	nummod	_	_
+4	привитых	прививать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	находящихся	находиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+8	вкластерах	вкластеро	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	SpacesAfter=\n
+9	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	запериод	запериод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+13	с10по84день	с10по84деня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	вакцинации	вакцинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+18	примерно	примерно	ADV	_	Degree=Pos	19	advmod	_	SpacesAfter=\n
+19	вчетверо	вчетверо	ADV	_	Degree=Pos	20	advmod	_	_
+20	больше	много	NUM	_	_	15	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	24	cc	_	_
+23	инкубационный	инкубационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	advmod	_	_
+25	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	Эбола	Эбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	_
+28	незаболел	незаболевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+29	ниодин	ниодин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86202
+# text = Более того, групповая вакцинация эффективно предотвращала передачу инфекции внутри кластера.
+1	Более	более	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	групповая	групповый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	вакцинация	вакцинация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	эффективно	эффективно	ADV	_	Degree=Pos	7	advmod	_	_
+7	предотвращала	предотвращать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	передачу	передача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\n
+10	внутри	внутри	ADV	_	Degree=Pos	11	advmod	_	_
+11	кластера	кластер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 86203
+# text = Таким образом, прививка обладала стопроцентной эффективностью.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	прививка	прививка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	обладала	обладать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	стопроцентной	стопроцентной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	эффективностью	эффективность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86204
+# text = Серьезные побочные эффекты при ееприменении наблюдались редко, ниодин изних непредставлял угрозы для жизни.
+1	Серьезные	серьезный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	побочные	побочной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	ееприменении	ееприменение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+6	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	редко	редко	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	ниодин	ниодин	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	_
+10	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	непредставлял	непредставлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+13	для	для	ADP	_	_	12	case	_	_
+14	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86205
+# text = Продолжительность действия вакцины вописываемых испытаниях нерегистрировалась.
+1	Продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	вакцины	вакцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	вописываемых	вописывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+5	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	_
+6	нерегистрировалась	нерегистрироваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86206
+# text = Ранее американо-канадскому научному коллективу удалось обнаружить эффективность вотношении вируса Эбола уряда имеющихся лекарственных препаратов.
+1	Ранее	рано	ADV	_	Degree=Cmp	6	advmod	_	_
+2	американо-	американо-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	канадскому	канадский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	научному	научной	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	коллективу	коллектив	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+6	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	SpacesAfter=\n
+8	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	вотношении	вотношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+10	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Эбола	Эбол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	уряда	уряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	имеющихся	иметься	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+14	лекарственных	лекарственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86207
+# text = Как показали эксперименты накультуре клеток, наиболее действенной оказалась комбинация интерферона-бета иламивудина.
+1	Как	как	ADV	_	Degree=Pos	13	mark	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+3	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	накультуре	накультура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	наиболее	наиболее	ADV	_	Degree=Pos	8	advmod	_	_
+8	действенной	действенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	SpacesAfter=\n
+9	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+10	комбинация	комбинация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+11	интерферона-	интерферона-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	бета	бета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	иламивудина	иламивудиный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86208
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

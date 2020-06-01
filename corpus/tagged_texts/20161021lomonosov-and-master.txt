@@ -1,0 +1,581 @@
+# newpar
+# sent_id = 76039
+# text = Российский университетский спутник "Ломоносов" иГлобальная сеть мониторинга космического пространства МГУ имени М.В.Ломоносова "МАСТЕР" провели синхронное наблюдение гамма-всплеска воптическом игамма диапазоне.
+1	Российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	университетский	университетский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Ломоносов	Ломоносов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	иГлобальная	иГлобальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+9	мониторинга	мониторинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	МГУ	мгу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	М.В.Ломоносова	М.В.Ломоносов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	appos	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	МАСТЕР	мастер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	синхронное	синхронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+21	гамма-всплеска	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+22	воптическом	воптическ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+23	игамма	игамма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	диапазоне	диапазонь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 76040
+# text = В пресс-релизе, поступившим вредакцию N+1, сообщается, что подобные наблюдения удается провести крайне редко.
+1	В	в	ADP	_	_	2	case	_	_
+2	пресс-релизе	пресс-релиза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	поступившим	ступить	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+5	вредакцию	вредакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	N+1	N+1	NOUN	_	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+13	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	_
+14	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+15	крайне	крайне	ADV	_	Degree=Pos	14	advmod	_	_
+16	редко	редко	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 76041
+# text = Гамма-всплески являются одним изнаиболее ярких электромагнитных событий внашей Вселенной.
+1	Гамма-	Гамма-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	всплески	всплески	ADV	_	Degree=Pos	3	advmod	_	_
+3	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	одним	один	NUM	_	Case=Ins|Gender=Masc	8	nummod	_	_
+5	изнаиболее	изнаиболее	ADV	_	Degree=Cmp	6	advmod	_	_
+6	ярких	яркий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	электромагнитных	электромагнитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	событий	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+9	внашей	внаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+10	Вселенной	вселенная	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76042
+# text = Они представляют собой внезапные кратковременные повышения интенсивности космического гамма-излучения сэнергией, которая порой достигает 1054эрг.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	внезапные	внезапной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	кратковременные	кратковременный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	повышения	повышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+7	интенсивности	интенсивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	сэнергией	сэнергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	порой	порой	ADV	_	Degree=Pos	14	advmod	_	_
+14	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	1054эрг	1054эрг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76043
+# text = Для сравнения, если все Солнце взорвется как термоядерная бомба, товыделится около 3.1051эрг.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	Солнце	солнце	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	взорвется	взорвуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+8	как	как	SCONJ	_	_	10	cc	_	_
+9	термоядерная	термоядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+10	бомба	бомба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	товыделится	товыделиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	около	около	ADP	_	_	14	case	_	_
+14	3.1051эрг.	3.1051эргород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+
+# sent_id = 76044
+# text = Завсплеском, как правило, следует "послесвечение", которое излучается наболее длинных волнах (рентгеновское, оптическое, ультрафиолетовое, инфракрасное ирадио).
+1	Завсплеском	Завсплеск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	4	cc	_	_
+4	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	послесвечение	послесвечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	которое	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	излучается	излучаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+13	наболее	наболее	ADV	_	Degree=Pos	14	advmod	_	_
+14	длинных	длинный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	волнах	волн	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	рентгеновское	рентгеновский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	оптическое	оптический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	ультрафиолетовое	ультрафиолетовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	инфракрасное	инфракрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	ирадио	ирадио	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 76045
+# text = Исследователи различают короткие (додвух секунд), длинные исверхдлинные (от10тысяч секунд) всплески.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	различают	различать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	короткие	короткий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	додвух	додва	NUM	_	Case=Gen	6	nummod	_	_
+6	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	длинные	длинный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+10	исверхдлинные	исверхдлинный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	conj	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	от10тысяч	от10тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	parataxis	_	_
+13	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	всплески	всплески	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76046
+# text = Длинные гамма-вспышки, помнению ученых, могут быть связаны сколлапсирующими сверхновыми.
+1	Длинные	длинный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	гамма-вспышки	гамма-вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	помнению	помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	conj	_	_
+5	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	aux:pass	_	_
+9	связаны	вязать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	xcomp	_	_
+10	сколлапсирующими	сколлапсировать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	сверхновыми	сверхновый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 76047
+# text = Такое излучение может наблюдаться, когда часть ядра массивной, лишенной водородной оболочки звезды превращается вчерную дыру, окруженную крупным аккреционным диском.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	наблюдаться	наблюдаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	когда	когда	SCONJ	_	_	4	mark	_	_
+7	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+8	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+9	массивной	массивной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	лишенной	лишенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+12	водородной	водородный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	оболочки	оболочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+14	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	превращается	превращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+16	вчерную	вчерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	дыру	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	окруженную	окружать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	крупным	крупный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	аккреционным	аккреционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	диском	диск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 76048
+# text = Втечение нескольких секунд она поглощает этот диск, вдоль оси которого вэто время рождаются релятивистские джеты, которые истановятся причиной всплеска.
+1	Втечение	Втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	нескольких	несколько	NUM	_	Case=Gen	3	nummod	_	_
+3	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+5	поглощает	поглощать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	диск	диск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	вдоль	вдоль	ADP	_	_	10	case	_	_
+10	оси	ось	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	вэто	вэтот	DET	_	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+14	рождаются	рождаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+15	релятивистские	релятивистский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	джеты	джет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	истановятся	истановиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	acl:relcl	_	_
+20	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+21	всплеска	всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 76049
+# text = Короткие гамма-вспышки связывают сослиянием нейтронных звёзд или нейтронной звезды ичёрной дыры.
+1	Короткие	короткий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	гамма-вспышки	гамма-вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	связывают	связывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сослиянием	сослияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	нейтронных	нейтронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	звёзд	звёздо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	или	или	CCONJ	_	_	9	cc	_	_
+8	нейтронной	нейтронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+10	ичёрной	ичёрный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 76050
+# text = Для регистрации гамма-всплесков и"послесвечения" используются как наземные, так икосмические обсерватории.
+1	Для	для	ADP	_	_	2	case	_	_
+2	регистрации	регистрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	гамма-всплесков	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	и"	и"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	послесвечения	послесвечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	как	как	SCONJ	_	_	9	cc	_	_
+9	наземные	наземный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+12	икосмические	икосмический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 76051
+# text = ВРоссии для этой задачи предназначены несколько инструментов, вчисло которых входит спутник "Ломоносов" и часть телескопов сети обсерваторий "МАСТЕР".
+1	ВРоссии	ВРоссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	для	для	ADP	_	_	4	case	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	предназначены	предназнакать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	несколько	несколько	NUM	_	Case=Nom	7	nummod:gov	_	_
+7	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	вчисло	вчисло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	которых	который	PRON	_	Case=Gen	9	nmod	_	_
+11	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Ломоносов	Ломоносов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+18	телескопов	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	обсерваторий	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	МАСТЕР	мастер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 76052
+# text = Согласно сообщению пресс-службы из МГУ, именно с их помощью удалось провести наблюдение гамма-всплеска одновременно и в оптическом, и в гамма-диапазоне.Космическая обсерватория "Ломоносов", работающая в гамма-диапазоне, зарегистрировала событие 17 октября текущего года в 20:52:17 по московскому времени.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+3	пресс-службы	пресс-служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	МГУ	мгу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	именно	именно	PART	_	_	10	advmod	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+11	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	гамма-всплеска	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	одновременно	одновременно	ADV	_	Degree=Pos	0	advmod	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	оптическом	оптический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	гамма-диапазоне.	гамма-диапазонбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+23	Космическая	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	обсерватория	обсерватория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Ломоносов	Ломоносов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	работающая	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	гамма-диапазоне	гамма-диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	зарегистрировала	регистрировать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	событие	событие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
+35	17	17	NUM	_	_	33	nummod	_	_
+36	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+37	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+39	в	в	ADP	_	_	44	case	_	_
+40	20:52	20:52	NUM	_	_	44	nummod	_	SpaceAfter=No
+41	:17	:17	NUM	_	_	40	nummod	_	_
+42	по	по	ADP	_	_	44	case	_	_
+43	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	33	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 76053
+# text = Спустя 21 секунду после обнаружения всплеска роботизированный наземный телескоп сети "МАСТЕР", находящийся под Благовещенском, начал запись GRB161017A в оптическом диапазоне.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	21	21	NUM	_	_	3	nummod	_	_
+3	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+6	всплеска	всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	роботизированный	роботизировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	advcl	_	_
+8	наземный	наземный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	МАСТЕР	мастер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	находящийся	находиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	_
+16	под	под	ADP	_	_	17	case	_	_
+17	Благовещенском	Благовещенское	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	запись	запись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	GRB161017A	Grb161017a	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	оптическом	оптический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 76054
+# text = Спустя 12 часов к наблюдениям подключился Большой Канарский телескоп.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	12	12	NUM	_	_	3	nummod	_	_
+3	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	наблюдениям	наблюдение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
+6	подключился	дключиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	Канарский	Канарский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	телескоп	телескоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 76055
+# text = Гамма-всплеск длился около 100 секунд и энергия излучения колебалась в диапазоне от 70 до 300 килоэлектронвольт (маскимум достигал около 4,8.10-7), что не позволяет его отнести к классу очень мощных вспышек.
+1	Гамма-	Гамма-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	всплеск	всплеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	длился	длиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	около	около	ADP	_	_	6	case	_	_
+5	100	100	NUM	_	_	6	nummod	_	_
+6	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	энергия	энергия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	колебалась	колебаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	70	70	NUM	_	_	20	nummod	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	300	300	NUM	_	_	17	nummod	_	_
+17	килоэлектронвольт	килоэлектронвольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	маскимум	маскимум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	достигал	достигать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	около	около	ADP	_	_	22	case	_	_
+22	4,8.10-7	4,8.10-7	NUM	_	_	20	nummod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	что	что	PRON	_	Case=Nom	27	nsubj	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+28	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	29	obj	_	_
+29	отнести	относить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+30	к	к	ADP	_	_	31	case	_	_
+31	классу	класс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	29	obl	_	_
+32	очень	очень	ADV	_	Degree=Pos	33	advmod	_	_
+33	мощных	мощный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	вспышек	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 76056
+# text = 161017A имела несколько пиков, ее максимальная оптическая яркость достигала 13,4 звездной величины, что сравнимо со звездной величиной самого яркого квазара.
+1	161017A	161017a	PROPN	_	Foreign=Yes	2	nsubj	_	_
+2	имела	иметь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+4	пиков	пик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+7	максимальная	максимальной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	оптическая	оптический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	13,4	13,4	NUM	_	_	13	nummod	_	_
+12	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	сравнимо	сравнимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+17	со	с	ADP	_	_	19	case	_	_
+18	звездной	звездный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	величиной	величина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	_
+20	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	яркого	яркий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	квазара	квазар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 76057
+# text = Согласно расчетам ученых, гамма-всплеск пришел к нам с расстояния 10 миллиардов световых лет.Полученные данные были переданы в центр по изучению гамма-всплесков в НАСА и сейчас анализируются учеными.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	расчетам	расчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	гамма-всплеск	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	пришел	приходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	6	obl	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+11	10	10	NUM	_	_	12	nummod	_	_
+12	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	19	nsubj	_	_
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	переданы	передавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	центр	центр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	изучению	изучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+24	гамма-всплесков	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	НАСА	наса	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	сейчас	сейчас	ADV	_	Degree=Pos	29	advmod	_	_
+29	анализируются	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+30	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	29	obl:agent	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 76058
+# text = Исследователи отмечают, что одновременная регистрация этого события в двух диапазонах -- большая редкость.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	одновременная	одновременный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	регистрация	регистрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+7	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+8	события	событие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	двух	два	NUM	_	Case=Loc	11	nummod	_	_
+11	диапазонах	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	редкость	редкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76059
+# text = Обычно удается зарегистрировать уже послесвечение, которое длится значительно дольше самой вспышки.Недавно двум российским и одному польскому проектам удалось получить снимки возникновения оптического свечения, пришедшего вслед за мощным гамма-всплеском.
+1	Обычно	обычно	ADV	_	Degree=Pos	2	advmod	_	_
+2	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	зарегистрировать	зарегистрировывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	послесвечение	послесвечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которое	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	длится	длиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+9	значительно	значительно	ADV	_	Degree=Pos	10	advmod	_	_
+10	дольше	долго	ADV	_	Degree=Cmp	12	advmod	_	_
+11	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Недавно	недавно	ADV	_	Degree=Pos	15	advmod	_	_
+15	двум	два	NUM	_	Case=Dat	20	nummod	_	_
+16	российским	российский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	20	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	одному	один	NUM	_	Case=Dat|Gender=Masc	16	conj	_	_
+19	польскому	польский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	проектам	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+21	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+22	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	nsubj	_	_
+23	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+24	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	оптического	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	свечения	свечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	пришедшего	пришедать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+29	вслед	вслед	ADV	_	Degree=Pos	28	advmod	_	SpacesAfter=\n\s
+30	за	за	ADP	_	_	32	case	_	_
+31	мощным	мощный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	гамма-всплеском	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 76060
+# text = Его энергия была сравнима с полной аннигиляцией Солнца, а яркость достигала около 9-й звездной величины.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	энергия	энергия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	сравнима	сравнимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	полной	полный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	аннигиляцией	аннигиляция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+8	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	достигала	достигать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	около	около	ADP	_	_	16	case	_	_
+14	9-й	9-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 76061
+# text = Анализ красного смещения послесвечения указывал, на то, что свет от источника шел примерно девять миллиардов лет.
+1	Анализ	анализ	ADP	_	_	3	case	_	_
+2	красного	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	смещения	смещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	послесвечения	послесвечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	указывал	указывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	шел	идти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	примерно	примерно	ADV	_	Degree=Pos	16	advmod	_	_
+16	девять	девять	NUM	_	Case=Acc	17	nummod:gov	_	_
+17	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76062
+# text = По словам ученых, запечатлеть возникновение оптического свечения, пришедшего вслед за мощным гамма-всплеском, удалось в третий раз в истории.Кристина Уласович
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	запечатлеть	запечатлевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+6	возникновение	возникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	оптического	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	свечения	свечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	пришедшего	пришедать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	amod	_	_
+11	вслед	вслед	ADV	_	Degree=Pos	10	advmod	_	_
+12	за	за	ADP	_	_	14	case	_	_
+13	мощным	мощный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	гамма-всплеском	гамма-всплеск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	третий	третий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	истории.	истории.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+22	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+

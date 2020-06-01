@@ -1,0 +1,508 @@
+# sent_id = 83209
+# text = Итальянские и канадские ученые подтвердили, что римляне болели малярией еще в эпоху Римской империи, в I-III веках нашей эры.
+1	Итальянские	итальянский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	канадские	канадский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	подтвердили	подтверждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	SpacesAfter=\n
+8	римляне	римлянин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	болели	болеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	малярией	малярия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	еще	еще	ADV	_	Degree=Pos	13	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	эпоху	эпоха	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpacesAfter=\n
+14	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	I-	i-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	SpaceAfter=No
+19	III	Iii	NUM	_	_	20	nummod	_	SpacesAfter=\n
+20	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+21	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
+22	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83210
+# text = Исследователи обнаружили в останках, найденных в древних захоронениях, ДНК паразита Plasmodium falciparum, вызывающего малярию у людей.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	останках	останки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	найденных	находить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+7	в	в	ADP	_	_	9	case	_	SpacesAfter=\n
+8	древних	древний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	захоронениях	захоронение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ДНК	Днк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+12	паразита	паразит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpacesAfter=\n
+13	Plasmodium	Plasmodium	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	falciparum	falciparum	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	вызывающего	вызывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	SpacesAfter=\n
+17	малярию	малярия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+18	у	у	ADP	_	_	17	case	_	_
+19	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 83211
+# text = Исследование опубликовано в Current Biology.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	Current	Current	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpacesAfter=\n
+5	Biology	Biology	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 83212
+# text = Ученые предполагают, что малярия возникла в Тропической Африке сначала у птиц и млекопитающих, включая шимпанзе и горилл, а затем болезнь передалась и людям.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	малярия	малярия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	возникла	возникать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	в	в	ADP	_	_	9	case	_	SpacesAfter=\n
+8	Тропической	Тропический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Африке	африка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+10	сначала	сначала	ADV	_	Degree=Pos	12	advmod	_	SpacesAfter=\n
+11	у	у	ADP	_	_	12	case	_	_
+12	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	включая	включая	ADV	_	Degree=Pos	24	advmod	_	SpacesAfter=\n
+17	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	горилл	горилл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	24	cc	_	_
+22	затем	затем	ADV	_	Degree=Pos	24	advmod	_	_
+23	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	SpacesAfter=\n
+24	передалась	передаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+25	и	и	PART	_	_	26	advmod	_	_
+26	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 83213
+# text = Как показали недавние исследования ДНК из захоронений, от нее страдали древние египтяне.
+1	Как	как	ADV	_	Degree=Pos	11	mark	_	_
+2	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+3	недавние	недавний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+5	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	захоронений	захоронение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	obl	_	SpacesAfter=\n
+11	страдали	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+12	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	египтяне	египтянин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 83214
+# text = Малярия была известна и в Древней Греции, "отец медицины" Гиппократ связывал возникновение болезни с климатическими и природными условиями и описывал ее симптомы.
+1	Малярия	Малярия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	известна	известный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n
+4	и	и	PART	_	_	7	advmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Древней	древний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Греции	греция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+11	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+13	Гиппократ	гиппократ	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	связывал	связывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpacesAfter=\n
+15	возникновение	возникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	с	с	ADP	_	_	21	case	_	_
+18	климатическими	климатический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	SpacesAfter=\n
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	природными	природный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	conj	_	_
+21	условиями	условие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	16	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	описывал	описывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+24	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	25	nmod	_	SpacesAfter=\n
+25	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 83215
+# text = Во времена Римской империи эпидемии малярии вспыхивали в болотистых местностях и прибрежных районах Италии, некоторые историки считают, что она стала одной из причин падения Западной Римской империи в V веке.
+1	Во	в	ADP	_	_	2	case	_	_
+2	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obl	_	_
+3	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\n
+5	эпидемии	эпидемия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	вспыхивали	вспыхивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	болотистых	болотистый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	местностях	местность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	прибрежных	прибрежный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	conj	_	_
+14	Италии	италия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	17	amod	_	_
+17	историки	историк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+18	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+20	что	что	SCONJ	_	_	18	mark	_	_
+21	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+22	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	advcl	_	_
+23	одной	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	obl	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	падения	падение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpacesAfter=\n
+27	Западной	западный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	V	v	NUM	_	_	32	nummod	_	SpacesAfter=\n
+32	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 83216
+# text = Однако до сих пор исследователи находили только косвенные доказательства существования малярии в древнем Риме: в литературных источниках и по исследованиям скелетов.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	до	до	ADP	_	_	6	advmod	_	_
+3	сих	сей	DET	_	Case=Gen|Number=Plur	2	fixed	_	_
+4	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	fixed	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	находили	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	только	только	PART	_	_	8	advmod	_	_
+8	косвенные	косвенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	доказательства	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpacesAfter=\n
+10	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	древнем	древний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Риме	рим	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	в	в	ADP	_	_	18	case	_	_
+17	литературных	литературный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	источниках	источник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	parataxis	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	по	по	ADP	_	_	21	case	_	SpacesAfter=\n
+21	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	18	conj	_	_
+22	скелетов	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83217
+# text = Также был неизвестен возбудитель болезни.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	SpacesAfter=\n
+3	неизвестен	неизвестный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	возбудитель	возбудитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 83218
+# text = Авторы новой работы исследовали ДНК, полученную из зубов римлян, которые жили в I-IV веках.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\n
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	полученную	получать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+8	из	из	ADP	_	_	9	case	_	_
+9	зубов	зуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	римлян	римлянин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	I-IV	I-iv	NUM	_	_	16	nummod	_	SpacesAfter=\n
+16	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 83219
+# text = Ученые отобрали останки 58 древних жителей Римской империи, похороненных в трех городах в Южной и Центральной Италии, два из которых были расположены в прибрежных районах, а третье -- в долине реки.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отобрали	отбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	останки	останк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	58	58	NUM	_	_	6	nummod	_	_
+5	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	похороненных	хоронить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	SpacesAfter=\n
+11	в	в	ADP	_	_	13	case	_	_
+12	трех	три	NUM	_	Case=Loc	13	nummod	_	_
+13	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+14	в	в	ADP	_	_	18	case	_	_
+15	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	Центральной	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	SpacesAfter=\n
+18	Италии	италия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	два	два	NUM	_	Case=Nom|Gender=Masc	24	nsubj	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	которых	который	PRON	_	Case=Gen	20	nmod	_	_
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	SpacesAfter=\n
+25	в	в	ADP	_	_	27	case	_	_
+26	прибрежных	прибрежный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	а	а	CCONJ	_	_	30	orphan	_	_
+30	третье	третий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	33	conj	_	_
+31	--	--	PUNCT	_	_	30	punct	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	долине	долина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	conj	_	SpacesAfter=\n
+34	реки	река	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 83220
+# text = В зубах двух человек, которые жили в I-II веках в селениях Велия и Ваньяри в Южной Италии, исследователи обнаружили фрагменты митохондриальной ДНК одноклеточного Plasmodium falciparum, возбудителя самой опасной формы малярии.
+1	В	в	ADP	_	_	2	case	_	_
+2	зубах	зуб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpacesAfter=\n
+8	в	в	ADP	_	_	11	case	_	_
+9	I-	I-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	II	Ii	NUM	_	_	11	nummod	_	SpacesAfter=\n
+11	веках	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	SpacesAfter=\n
+12	в	в	ADP	_	_	13	case	_	_
+13	селениях	селение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	obl	_	_
+14	Велия	Велий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	Ваньяри	Ваньяри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	Южной	южный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	Италии	италия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+23	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+24	митохондриальной	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpacesAfter=\n
+26	одноклеточного	одноклеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	Plasmodium	Plasmodium	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpacesAfter=\n
+28	falciparum	falciparum	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	возбудителя	возбудитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	SpacesAfter=\n
+31	самой	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+32	опасной	опасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+34	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 83221
+# text = В настоящий момент авторы статьи не могут сказать, вызывал ли болезнь местный подвид плазмодия или возбудителя периодически завозили из других стран.
+1	В	в	ADP	_	_	3	case	_	_
+2	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesAfter=\n
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вызывал	вызывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
+11	ли	ли	PART	_	_	10	advmod	_	_
+12	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	местный	местный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	подвид	подвид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obj	_	_
+15	плазмодия	плазмодие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	возбудителя	возбудитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	conj	_	_
+18	периодически	периодически	ADV	_	Degree=Pos	19	advmod	_	_
+19	завозили	завозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+20	из	из	ADP	_	_	22	case	_	_
+21	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 83222
+# text = "Наши данные подтверждают, что, по-видимому, возбудителем малярии был вид Plasmodium falciparum.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Наши	наш	DET	_	Case=Nom|Number=Plur	3	amod	_	SpacesAfter=\n
+3	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	4	nsubj	_	_
+4	подтверждают	подтверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	по-видимому	по-видимому	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	возбудителем	возбудитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	advcl	_	_
+11	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+13	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+14	Plasmodium	Plasmodium	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpacesAfter=\n
+15	falciparum	falciparum	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 83223
+# text = Болезнь затрагивала людей, живших в разном экологическом и культурном окружении.
+1	Болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpacesAfter=\n
+2	затрагивала	затрагивать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	живших	жить	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+6	в	в	ADP	_	_	11	case	_	_
+7	разном	разный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	SpacesAfter=\n
+8	экологическом	экологический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	культурном	культурный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
+11	окружении	окружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 83224
+# text = Эти результаты вызывают новые вопросы, в частности, насколько широко был распространен этот паразит и насколько тяжелые последствия вызывала болезнь в разных районах Италии времен Римской империи", -- говорит ведущий автор исследования Стефания Марчиняк.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	в	в	ADP	_	_	13	discourse	_	_
+8	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	насколько	насколько	ADV	_	Degree=Pos	13	advmod	_	_
+11	широко	широко	ADV	_	Degree=Pos	13	advmod	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	SpacesAfter=\n
+13	распространен	распространивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	advcl	_	_
+14	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
+15	паразит	паразит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	насколько	насколько	ADV	_	Degree=Pos	18	advmod	_	SpacesAfter=\n
+18	тяжелые	тяжелый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	последствия	последствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	conj	_	_
+20	вызывала	вызывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+21	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpacesAfter=\n
+22	в	в	ADP	_	_	24	case	_	_
+23	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	_
+25	Италии	италия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	времен	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nmod	_	_
+27	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	SpacesAfter=\n
+28	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	28	punct	_	_
+31	--	--	PUNCT	_	_	28	punct	_	_
+32	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+33	ведущий	ведущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpacesAfter=\n
+35	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+36	Стефания	Стефание	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	Марчиняк	Марчиняк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 83225
+# text = Малярию вызывают простейшие одноклеточные из рода плазмодиев (Plasmodium), которых переносят комары; чаще всего (~ в 75 процентах случаев) виновником заражения становится вид Plasmodium falciparum, инициирующий самую опасную форму болезни, с наибольшим количеством осложнений и самым высоким уровнем смертности.
+1	Малярию	Малярия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpacesAfter=\n
+2	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	простейшие	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	2	amod	_	_
+4	одноклеточные	одноклеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+5	из	из	ADP	_	_	6	case	_	SpacesAfter=\n
+6	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	плазмодиев	плазмодий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	parataxis	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Plasmodium	Plasmodium	X	_	Foreign=Yes	7	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+12	которых	который	PRON	_	Case=Acc	13	obj	_	_
+13	переносят	переносеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+14	комары	комар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	чаще	часто	ADV	_	Degree=Cmp	13	advmod	_	SpacesAfter=\n
+17	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	~	~	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+20	в	в	ADP	_	_	22	case	_	SpacesAfter=\n
+21	75	75	NUM	_	_	22	nummod	_	_
+22	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	parataxis	_	_
+23	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	виновником	виновник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+26	заражения	заражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpacesAfter=\n
+27	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+28	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+29	Plasmodium	Plasmodium	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpacesAfter=\n
+30	falciparum	falciparum	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	инициирующий	инициировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	35	amod	_	SpacesAfter=\n
+33	самую	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+34	опасную	опасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+36	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	с	с	ADP	_	_	40	case	_	_
+39	наибольшим	наибольший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	SpacesAfter=\n
+40	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	nmod	_	_
+41	осложнений	осложнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	40	nmod	_	_
+42	и	и	CCONJ	_	_	45	cc	_	_
+43	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	SpacesAfter=\n
+45	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	41	conj	_	_
+46	смертности	смертность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 83226
+# text = Для малярии характерны повторяющиеся лихорадка и озноб, головные боли, анемия, увеличение селезенки и печени; иногда болезнь заканчивается комой и смортью больного.
+1	Для	для	ADP	_	_	2	case	_	_
+2	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+3	характерны	характерный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpacesAfter=\n
+4	повторяющиеся	повторяться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	_
+5	лихорадка	лихорадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	озноб	озноб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	головные	головной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	боли	боль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	анемия	анемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+15	селезенки	селезенка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	SpacesAfter=\n
+17	печени	печень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	;	;	PUNCT	_	_	17	punct	_	_
+19	иногда	иногда	ADV	_	Degree=Pos	21	advmod	_	_
+20	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	заканчивается	заканчиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	SpacesAfter=\n
+22	комой	кома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	смортью	сморть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	conj	_	_
+25	больного	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 83227
+# text = По данным ВОЗ ежегодно малярией заболевает свыше 200 миллионов человек, из них около 400 тысяч человек умирает.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	6	parataxis	_	_
+3	ВОЗ	воз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	ежегодно	ежегодно	ADV	_	Degree=Pos	6	advmod	_	_
+5	малярией	малярия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+6	заболевает	заболевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	свыше	свыше	ADP	_	_	9	case	_	_
+8	200	200	NUM	_	_	9	nummod	_	SpacesAfter=\n
+9	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	400	400	NUM	_	_	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	SpacesAfter=\n
+17	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	умирает	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 83228
+# text = Екатерина Русакова
+1	Екатерина	екатерина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Русакова	Русакова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+

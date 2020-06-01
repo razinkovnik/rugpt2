@@ -1,0 +1,357 @@
+# sent_id = 85285
+# text = Российская компания "Океанос" разработала подводного робота "Глайдер 2.0", способного автономно действовать под водой до девяти месяцев.
+1	Российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Океанос	Океанос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	подводного	подводный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Глайдер	Глайдер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+11	2.	2	NUM	_	_	10	nummod	_	SpaceAfter=No
+12	0	0	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	способного	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+16	автономно	автономно	ADV	_	Degree=Pos	17	advmod	_	_
+17	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	parataxis	_	_
+18	под	под	ADP	_	_	19	case	_	_
+19	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+20	до	до	ADP	_	_	22	case	_	_
+21	девяти	девять	NUM	_	Case=Gen	22	nummod	_	_
+22	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85286
+# text = Как пишет газета "Известия", аппарат представляет собой планер, который в экономичном режиме способен передвигаться за счет подводного планирования со скоростью до одного километра в час.Большинство современных подводных роботов, не имеющих постоянного кабельного соединения с кораблем, не может находиться длительное время под водой.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	газета	газета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Известия	известия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	собой	себя	PRON	_	Case=Ins	9	dep	_	_
+11	планер	планер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	экономичном	экономичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+17	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	acl:relcl	_	_
+18	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	dep	_	_
+19	за	за	ADP	_	_	22	case	_	_
+20	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	fixed	_	_
+21	подводного	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	планирования	планирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+23	со	с	ADP	_	_	24	case	_	_
+24	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	nmod	_	_
+25	до	до	ADP	_	_	27	case	_	_
+26	одного	один	NUM	_	Case=Gen|Gender=Masc	27	nummod	_	_
+27	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	час.Большинство	час.Большинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+30	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	подводных	подводной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	не	не	PART	_	_	35	advmod	_	_
+35	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+36	постоянного	постоянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+37	кабельного	кабельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	соединения	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+39	с	с	ADP	_	_	40	case	_	_
+40	кораблем	корабль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	не	не	PART	_	_	43	advmod	_	_
+43	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+44	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	43	xcomp	_	_
+45	длительное	длительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_
+46	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj	_	_
+47	под	под	ADP	_	_	48	case	_	_
+48	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+
+# sent_id = 85287
+# text = Продолжительность их автономной работы зависит от емкости бортовых аккумуляторов, скорость разряда которых напрямую зависит от скорости передвижения роботов и задействованного оборудования.Новый робот "Глайдер 2.
+1	Продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	nmod	_	_
+3	автономной	автономный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	емкости	емкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	бортовых	бортовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	скорость	скорость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+12	разряда	разряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	которых	который	PRON	_	Case=Gen	12	nmod	_	_
+14	напрямую	напрямую	ADV	_	Degree=Pos	15	advmod	_	_
+15	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+16	от	от	ADP	_	_	17	case	_	_
+17	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
+18	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	задействованного	действовать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	amod	_	_
+22	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Глайдер	Глайдер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+28	2	2	NUM	_	_	27	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 85288
+# text = В режиме подводного планирования аппарат открывает клапан и заполняет балластную емкость, благодаря чему начинает погружаться.
+1	В	в	ADP	_	_	2	case	_	_
+2	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	подводного	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	планирования	планирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	клапан	клапан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	заполняет	заполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	балластную	балластный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	емкость	емкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	благодаря	благодаря	ADP	_	_	14	case	_	_
+14	чему	что	PRON	_	Case=Dat	15	obl	_	_
+15	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+16	погружаться	погружаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85289
+# text = Затем насос откачивает воду из емкости, которая одновременно заполняется воздухом; аппарат начинает всплывать.При погружениях и всплытиях робот может продвигаться вперед.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	насос	насос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	откачивает	откачивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+5	из	из	ADP	_	_	4	case	_	_
+6	емкости	емкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	одновременно	одновременно	ADV	_	Degree=Pos	10	advmod	_	_
+10	заполняется	заполняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+11	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	11	punct	_	_
+13	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+15	всплывать	всплывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	При	при	ADP	_	_	18	case	_	_
+18	погружениях	погружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	всплытиях	всплытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	conj	_	_
+21	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+23	продвигаться	продвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	22	xcomp	_	_
+24	вперед	вперед	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 85290
+# text = На каждые 20 метров вертикального движения аппарат может проплывать один метр по горизонтали.
+1	На	на	ADP	_	_	4	case	_	_
+2	каждые	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	20	20	NUM	_	_	4	nummod	_	_
+4	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+5	вертикального	вертикальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	проплывать	проплывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+11	метр	метр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	горизонтали	горизонталь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85291
+# text = Длина подводного робота составляет 2,5 метра.
+1	Длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	подводного	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	2,5	2,5	NUM	_	_	6	nummod	_	_
+6	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 85292
+# text = Аппарат оснащен двумя крыльями с размахом 1,5 метра.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	оснащен	оснащять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	двумя	два	NUM	_	Case=Ins	4	nummod	_	_
+4	крыльями	крыло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl:agent	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	размахом	размах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+7	1,5	1,5	NUM	_	_	8	nummod	_	_
+8	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85293
+# text = Масса аппарата составляет 150 килограммов.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	150	150	NUM	_	_	5	nummod	_	_
+5	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85294
+# text = "Глайдер 2.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Глайдер	Глайдер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	2	2	NUM	_	_	2	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = 85295
+# text = Этот аппарат получит электромотор и складной гребной винт.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	электромотор	электромотор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	складной	складной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	гребной	гребной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	винт	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85296
+# text = В случае, если потребуется существенно увеличить скорость передвижения, робот будет задействовать гребной винт.Помимо "Океаноса" разработкой роботов, передвигающихся за счет подводного планирования, занимаются еще несколько компаний в мире.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	5	mark	_	_
+5	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+6	существенно	существенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	увеличить	увеличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	dep	_	_
+8	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
+13	задействовать	задействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+14	гребной	гребной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	винт	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Помимо	Помимо	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Океаноса	Океаноса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	_
+22	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	передвигающихся	передвигаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	22	amod	_	_
+25	за	за	ADP	_	_	28	case	_	_
+26	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	fixed	_	_
+27	подводного	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	планирования	планирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	_
+31	еще	еще	ADV	_	Degree=Pos	32	advmod	_	_
+32	несколько	несколько	NUM	_	Case=Nom	33	nummod:gov	_	_
+33	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nsubj	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 85297
+# text = В частности, американская компания Liquid Robotics занимается созданием робота SHARC.
+1	В	в	ADP	_	_	8	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	Liquid	Liquid	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Robotics	Robotics	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	SHARC	Sharцельсий-знак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85298
+# text = Он представляет собой конструкцию из надводной и подводной частей, связанных друг с другом кабель-тросом.В надводной части установлена мачта с лидаром и антенной для связи, а также солнечные панели для питания электродвигателей и оборудования и подзарядки аккумуляторных батарей.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	из	из	ADP	_	_	9	case	_	_
+6	надводной	надводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	подводной	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+12	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	fixed	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+15	кабель-тросом.	кабель-тросомя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+16	В	в	ADP	_	_	18	case	_	_
+17	надводной	надводный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	_
+19	установлена	поустановать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+20	мачта	мачта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	лидаром	лидар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	антенной	антенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	conj	_	_
+25	для	для	ADP	_	_	26	case	_	_
+26	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	а	а	CCONJ	_	_	31	cc	_	_
+29	также	также	ADV	_	Degree=Pos	31	advmod	_	_
+30	солнечные	солнечный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	панели	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+34	электродвигателей	электродвигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	conj	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	_
+39	аккумуляторных	аккумуляторный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 85299
+# text = Подводная часть представляет собой вытянутый корпус с шестью подвижными подводными крыльями и хвостовым стабилизатором.
+1	Подводная	подводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собой	себя	PRON	_	Case=Ins	3	dep	_	_
+5	вытянутый	вытинать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	с	с	ADP	_	_	11	case	_	_
+8	шестью	шесть	NUM	_	Case=Ins	9	nummod	_	_
+9	подвижными	подвижной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	подводными	подводный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	крыльями	крыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	хвостовым	хвостовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	стабилизатором	стабилизатор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85300
+# text = В экономичном режиме подводная часть может двигаться за счет планирования.Василий Сычёв
+1	В	в	ADP	_	_	3	case	_	_
+2	экономичном	экономичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	подводная	подводный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	за	за	ADP	_	_	10	case	_	_
+9	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	планирования	планирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+13	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+

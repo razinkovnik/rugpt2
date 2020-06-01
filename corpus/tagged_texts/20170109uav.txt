@@ -1,0 +1,520 @@
+# sent_id = 87198
+# text = Американский беспилотный летательный аппарат VA001 во время испытательного полета, продолжительность которого должна была составить не менее 120 часов, совершил вынужденную посадку.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesBefore=\n
+2	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	летательный	летательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+5	VA001	VA001	NOUN	_	_	4	nmod	_	_
+6	во	во	ADP	_	_	9	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	испытательного	испытательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	продолжительность	продолжительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+13	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+15	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	менее	менее	ADV	_	Degree=Cmp	19	nummod:gov	_	_
+18	120	120	NUM	_	_	19	nummod	_	_
+19	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+22	вынужденную	вынуждать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 87199
+# text = Как пишет Aviation Week, причиной этого стал ледяной дождь.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+7	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	ледяной	ледяной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	дождь	дождь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 87200
+# text = Испытательный полет проводился в ноябре прошлого года, однако его подробности разработчики раскрыли только сейчас.
+1	Испытательный	испытательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	проводился	проводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	подробности	подробность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	раскрыли	раскрывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	только	только	PART	_	_	15	advmod	_	_
+15	сейчас	сейчас	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87201
+# text = Несмотря на прерванный полет беспилотник все равно успел установить мировой рекорд продолжительности полета среди аппаратов массой до 500 килограммов.Американские военные сегодня заинтересованы в разработке самолетов и беспилотных летательных аппаратов, способных взлететь с территории США и долететь до любой удаленной точки планеты.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	4	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	прерванный	прерванный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+5	беспилотник	беспилотника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	advmod	_	_
+7	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	fixed	_	_
+8	успел	успевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	мировой	мировой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	среди	среди	ADP	_	_	15	case	_	_
+15	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+16	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	500	500	NUM	_	_	19	nummod	_	_
+19	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+22	сегодня	сегодня	ADV	_	Degree=Pos	23	advmod	_	_
+23	заинтересованы	заинтересованный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	30	cc	_	_
+28	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+29	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+33	взлететь	взлетать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	dep	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	_
+36	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	35	nmod	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	долететь	долетать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	conj	_	_
+39	до	до	ADP	_	_	42	case	_	_
+40	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+41	удаленной	удаленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	obl	_	_
+43	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 87202
+# text = Такие аппараты нужны военным, потому что, по оценке Пентагона, в ближайшем будущем число баз союзников, которыми смогут пользоваться США, существенно сократится.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	нужны	нужен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+4	военным	военный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	потому	потому	ADV	_	Degree=Pos	3	mark	_	_
+7	что	что	SCONJ	_	_	6	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	по	по	ADP	_	_	10	case	_	_
+10	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	_
+11	Пентагона	пентагон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	ближайшем	ближайший	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+16	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+17	баз	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	союзников	союзник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которыми	который	PRON	_	Case=Ins	16	nmod	_	_
+21	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+22	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	21	xcomp	_	_
+23	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	существенно	существенно	ADV	_	Degree=Pos	26	advmod	_	_
+26	сократится	сокращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 87203
+# text = Кроме того, военные заинтересованы в долго летающих аппаратах, поскольку их можно будет использовать, например, в качестве ретрансляторов сигналов.Во время ноябрьского испытания новый беспилотник VA001 должен был провести в воздухе сто часов.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	заинтересованы	заинтересованный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	в	в	ADP	_	_	9	case	_	_
+7	долго	долго	ADV	_	Degree=Pos	8	advmod	_	_
+8	летающих	летать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	аппаратах	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	5	mark	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	13	obj	_	_
+13	можно	можно	ADV	_	Degree=Pos	5	advcl	_	_
+14	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
+15	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	например	например	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	ретрансляторов	ретранслятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+22	сигналов.	сигналовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	Во	во	ADP	_	_	26	case	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	ноябрьского	ноябрьский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+27	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	_
+29	VA001	VA001	NOUN	_	_	28	nmod	_	_
+30	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	13	conj	_	_
+31	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+32	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	_
+35	сто	сто	NUM	_	Case=Acc	36	nummod:gov	_	_
+36	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 87204
+# text = Аппарат летал над испытательным полигоном в Лас-Крусес в Нью-Мексико.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	летал	летать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	над	над	ADP	_	_	5	case	_	_
+4	испытательным	испытательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	полигоном	полигон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Лас-Крусес	Лас-Крусес	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Нью-Мексико	Нью-Мексико	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87205
+# text = Разработчики оснастили беспилотник топливными баками внутри крыла и заправили его 76,6 килограмма топлива.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	оснастили	оснаскать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	беспилотник	беспилотник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	топливными	топливной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	баками	бак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+6	внутри	внутри	ADV	_	Degree=Pos	7	advmod	_	_
+7	крыла	крывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	заправили	заправлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+11	76,6	76,6	NUM	_	_	12	nummod	_	_
+12	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+13	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87206
+# text = Этого запаса хватило бы на десять дней полета аппарата.
+1	Этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	запаса	запас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	хватило	хватать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	бы	бы	PART	_	Mood=Cnd	3	aux	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	десять	десять	NUM	_	Case=Acc	7	nummod:gov	_	_
+7	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87207
+# text = Однако в воздухе беспилотник провел всего 55,9 часа, после чего совершил вынужденную посадку.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	провел	проветать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	всего	всего	PART	_	_	7	advmod	_	_
+7	55,9	55,9	NUM	_	_	8	nummod	_	_
+8	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	12	obl	_	_
+12	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+13	вынужденную	вынуждать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87208
+# text = В топливных баках VA001 после посадки оставалось горючего еще на шесть суток полета.Во время испытательного полета аппарат развивал скорость до 57 узлов (105,6 километра в час) и держался на высоте 1,9-2,3 тысячи метров.
+1	В	в	ADP	_	_	3	case	_	_
+2	топливных	топливный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	баках	бак	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	VA001	VA001	NUM	_	_	3	nummod	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+7	оставалось	оставаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	parataxis	_	_
+8	горючего	горючее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	еще	еще	ADV	_	Degree=Pos	12	advmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	шесть	шесть	NUM	_	Case=Acc	12	nummod:gov	_	_
+12	суток	сутки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+13	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	Во	во	ADP	_	_	17	case	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	испытательного	испытательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+18	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	развивал	развивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	до	до	ADP	_	_	23	case	_	_
+22	57	57	NUM	_	_	23	nummod	_	_
+23	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	obl	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	105,6	105,6	NUM	_	_	26	nummod	_	_
+26	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	parataxis	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	час)	час)	PUNCT	_	_	26	punct	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	держался	держаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	conj	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	_
+33	1,9	1,9	NUM	_	_	36	nummod	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	2,3	2,3	NUM	_	_	33	nummod	_	_
+36	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nummod:gov	_	_
+37	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 87209
+# text = Летные испытания беспилотника были полностью согласованы с Федеральным управлением гражданской авиации США.
+1	Летные	летной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+3	беспилотника	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+5	полностью	полностью	ADV	_	Degree=Pos	6	advmod	_	_
+6	согласованы	согласовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	Федеральным	федеральный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	управлением	управленье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+10	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 87210
+# text = Во время испытаний беспилотник нес полезную нагрузку массой 2,6 килограмма -- систему ретрансляции радиосигнала и спектральную камеру.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+4	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	нес	носить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+9	2,6	2,6	NUM	_	_	10	nummod	_	_
+10	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+13	ретрансляции	ретрансляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	радиосигнала	радиосигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	спектральную	спектральный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87211
+# text = До конца января текущего года Vanilla Aircraft, разрабатывающая VA001, намерена вновь поднять аппарат в воздух и продержать его в полете не менее ста часов.Беспилотник VA001 имеет размах крыла 10,9 метра и максимальную взлетную массу 272,2 килограмма.
+1	До	до	ADP	_	_	2	case	_	_
+2	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+3	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Vanilla	Vanilla	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Aircraft	Aircraft	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разрабатывающая	разрабатывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	nsubj	_	_
+10	VA001	VA001	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+13	вновь	вновь	ADV	_	Degree=Pos	14	advmod	_	_
+14	поднять	поднимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+15	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	продержать	продержать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	conj	_	_
+20	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	менее	менее	ADV	_	Degree=Cmp	26	nummod:gov	_	_
+25	ста	сто	NUM	_	Case=Gen	26	nummod	_	_
+26	часов.Беспилотник	часов.Беспилотника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+27	VA001	VA001	NUM	_	_	26	nummod	_	_
+28	имеет	имевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+29	размах	разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	28	obl	_	_
+30	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	10,9	10,9	NUM	_	_	32	nummod	_	_
+32	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	и	и	CCONJ	_	_	36	cc	_	_
+34	максимальную	максимальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+35	взлетную	взлетный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_
+37	272,2	272,2	NUM	_	_	38	nummod	_	_
+38	килограмма	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 87212
+# text = Аппарат способен развивать скорость до 130 километров в час и нести полезную нагрузку массой до 23 килограммов.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+5	до	до	ADP	_	_	4	case	_	_
+6	130	130	NUM	_	_	7	nummod	_	_
+7	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+12	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+15	до	до	ADP	_	_	17	case	_	_
+16	23	23	NUM	_	_	17	nummod	_	_
+17	килограммов	килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87213
+# text = Беспилотник может подниматься на высоту до 6,1 тысячи метров.
+1	Беспилотник	Беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	подниматься	подниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	до	до	ADP	_	_	8	case	_	_
+7	6,1	6,1	NUM	_	_	8	nummod	_	_
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nummod:gov	_	_
+9	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87214
+# text = Взлет VA001 осуществляется с помощью буксира -- до взлета специальный автомобиль с помощью троса тянет аппарат по взлетно-посадочной полосе.
+1	Взлет	взлет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	VA001	VA001	NUM	_	_	1	nummod	_	_
+3	осуществляется	осуществлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	буксира	буксир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	до	до	ADP	_	_	9	case	_	_
+9	взлета	взлет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+10	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	fixed	_	_
+14	троса	трос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	тянет	тянуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	по	по	ADP	_	_	19	case	_	_
+18	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	полосе	полоса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87215
+# text = Трос отсоединяется после того, как VA001 поднимается на высоту 300 метров.Между тем, европейский авиастроительный концерн Airbus разрабатывает для министерства обороны Великобритании беспилотник Zephyr 8.
+1	Трос	трос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	отсоединяется	отсоединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	после	после	ADP	_	_	4	case	_	_
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	4	mark	_	_
+7	VA001	VA001	NUM	_	_	8	nummod	_	_
+8	поднимается	подниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	300	300	NUM	_	_	12	nummod	_	_
+12	метров.	метровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	Между	между	ADP	_	_	14	case	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	Airbus	Airbus	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	разрабатывает	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	министерства	министерство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+23	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	беспилотник	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+26	Zephyr	Zephyr	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	8	8	NUM	_	_	25	nummod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 87216
+# text = Этот аппарат сможет находиться в воздухе до трех месяцев.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	трех	три	NUM	_	Case=Gen	9	nummod	_	_
+9	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87217
+# text = Военные намерены использовать его в качестве летающего ретранслятора сигналов.
+1	Военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	в	в	ADP	_	_	7	mark	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	летающего	летать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	ретранслятора	ретранслятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+9	сигналов	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87218
+# text = Размах крыла Zephyr 8 составляет 28 метров.
+1	Размах	Разм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+2	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	Zephyr	Zephyr	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	8	8	NUM	_	_	1	nummod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	28	28	NUM	_	_	7	nummod	_	_
+7	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 87219
+# text = Вся верхняя поверхность консолей крыла беспилотника будет покрыта солнечными батареями.
+1	Вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+2	верхняя	верхний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	консолей	консуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	беспилотника	беспилотник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	покрыта	покрывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	солнечными	солнечный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	батареями	батарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 87220
+# text = Аппарат сможет выполнять полеты на высоте до 21,3 тысячи метров и нести полезную нагрузку массой до пяти килограммов.Василий Сычёв
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	21,3	21,3	NUM	_	_	9	nummod	_	_
+9	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+10	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+13	полезную	полезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	нагрузку	нагрузка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	пяти	пять	NUM	_	Case=Gen	18	nummod	_	_
+18	килограммов.	килограммовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+20	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+

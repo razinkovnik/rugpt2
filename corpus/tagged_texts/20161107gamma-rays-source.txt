@@ -1,0 +1,415 @@
+# sent_id = 78189
+# text = Астрофизики обнаружили самый далекий насегодняшний день источник высокоэнергетического гамма-излучения.
+1	Астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	далекий	далекий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	насегодняшний	насегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+7	источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+8	высокоэнергетического	высокоэнергетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78190
+# text = Как сообщают ученые встатье, опубликованной вжурнале Astronomy &Astrophysics, это блазар, свет откоторого шел кнам примерно семь миллиардов лет.
+1	Как	как	ADV	_	Degree=Pos	16	mark	_	_
+2	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	встатье	встатье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	опубликованной	опубликовывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+8	Astronomy	Astronomy	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	&Astrophysics	&Astrophysics	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	блазар	блазар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	откоторого	откоторый	PRON	_	Case=Gen	14	nmod	_	_
+16	шел	шеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	кнам	кн	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+18	примерно	примерно	ADV	_	Degree=Pos	19	advmod	_	_
+19	семь	семь	NUM	_	Case=Nom	20	nummod:gov	_	_
+20	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
+21	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78191
+# text = Подобное излучение далеких объектов удается зарегистрировать крайне редко, так как при преодолении больших расстояний гамма-кванты скорее всего будут поглощены в космическом пространстве.
+1	Подобное	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	далеких	далекий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	зарегистрировать	зарегистрировывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	крайне	крайне	ADV	_	Degree=Pos	8	advmod	_	_
+8	редко	редко	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	6	mark	_	_
+11	как	как	SCONJ	_	_	10	fixed	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	преодолении	преодоление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+14	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	расстояний	расстояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	гамма-кванты	гамма-квант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+17	скорее	скорее	ADV	_	Degree=Pos	20	advmod	_	_
+18	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	поглощены	поглощать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	advcl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	космическом	космический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78192
+# text = Блазары-- это редкий тип внегалактических объектов, который объединяет некоторые изквазаров илацертиды(один из видов галактик с активными ядрами).
+1	Блазары	Блазар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	это	это	PART	_	_	6	cop	_	_
+5	редкий	редкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	тип	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	внегалактических	внегалактический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	объединяет	объединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	13	amod	_	_
+13	изквазаров	изквазар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	илацертиды	илацертид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	parataxis	_	SpaceAfter=No
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	один	один	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	с	с	ADP	_	_	22	case	_	_
+21	активными	активный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	ядрами	ядры	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78193
+# text = Их ассоциируют с предполагаемой сверхмассивной черной дырой в центре активной эллиптической галактики.Блазары образуют обширный класс источников гамма-излучения, характеризующийся наличием джета, тоесть узкого потока плазмы, расположенного близко клучу зрения наблюдателя.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	ассоциируют	ассоцииревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	7	case	_	_
+4	предполагаемой	предполагать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+5	сверхмассивной	сверхмассивной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	черной	черный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	дырой	дыра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+10	активной	активный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	эллиптической	эллиптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	галактики.	галактики.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+13	Блазары	Блазара	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	образуют	образевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+15	обширный	обширный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+17	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	характеризующийся	характеризоваться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+21	наличием	наличие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl:agent	_	_
+22	джета	джет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	_
+25	узкого	узкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	потока	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+27	плазмы	плазма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+30	близко	близко	ADV	_	Degree=Pos	31	advmod	_	_
+31	клучу	клуча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+32	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	наблюдателя	наблюдатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 78194
+# text = Частицы вэтом джете разгоняются доскоростей, близких кскоростям света, иобладают огромными энергиями.
+1	Частицы	частица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	вэтом	вэтот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	amod	_	_
+3	джете	джет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	разгоняются	разгоняваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	доскоростей	доскорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	близких	близкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	кскоростям	кскорость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	conj	_	_
+9	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	иобладают	иобладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	огромными	огромный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	энергиями	энергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78195
+# text = Наблюдение загамма-излучением далеких блазаров помогает лучше понять, как именно черные дыры придают окружающему ихвеществу такие высокие энергии икакие процессы происходили в галактиках миллиарды лет назад.
+1	Наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	загамма-излучением	загамма-излучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	_
+3	далеких	далекий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	блазаров	блазар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	лучше	хорошо	ADV	_	Degree=Cmp	7	advmod	_	_
+7	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	7	mark	_	_
+10	именно	именно	PART	_	_	11	advmod	_	_
+11	черные	черный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	дыры	дыр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	придают	придавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+14	окружающему	окружать	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	_
+15	ихвеществу	ихвещество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+16	такие	такой	DET	_	Case=Acc|Number=Plur	18	amod	_	_
+17	высокие	высокой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	энергии	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+19	икакие	икакой	DET	_	Case=Nom|Number=Plur	20	amod	_	_
+20	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	происходили	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	галактиках	галактика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+24	миллиарды	миллиард	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+25	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	назад	назад	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 78196
+# text = Однако зарегистрировать высокоэнергетическое гамма-излучение далекого источника достаточно трудно, так как гамма-кванты имеют высокую вероятность поглощения вкосмическом пространстве.
+1	Однако	однако	ADV	_	Degree=Pos	2	advmod	_	_
+2	зарегистрировать	зарегистрировывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+3	высокоэнергетическое	высокоэнергетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	гамма-излучение	гамма-излучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	далекого	далекий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	достаточно	достаточно	ADV	_	Degree=Pos	8	advmod	_	_
+8	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	8	mark	_	_
+11	как	как	SCONJ	_	_	10	fixed	_	_
+12	гамма-кванты	гамма-квант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+14	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	поглощения	поглощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	вкосмическом	вкосмический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78197
+# text = Чем большее расстояние проходит высокоэнергетическое гамма-излучение блазара, тем вероятнее, что гамма-кванты "натолкнутся" нафотоны меньшей энергии иобразуют электрон-позитронные пары, азначит, уже несмогут быть обнаружены.
+1	Чем	что	SCONJ	_	_	4	advmod	_	_
+2	большее	больший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	высокоэнергетическое	высокоэнергетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	гамма-излучение	гамма-излучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	блазара	блазар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	тем	тем	SCONJ	_	_	4	cc	_	_
+10	вероятнее	вероятный	ADJ	_	Degree=Cmp	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	гамма-кванты	гамма-квант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	натолкнутся	натолкнуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	10	advcl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	нафотоны	нафотон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	меньшей	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	иобразуют	иобразовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+21	электрон	электрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+22	-позитронные	-позитронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	пары	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	азначит	азначит	ADV	_	Degree=Pos	28	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	уже	уже	ADV	_	Degree=Pos	28	advmod	_	_
+28	несмогут	несмочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+29	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	aux:pass	_	_
+30	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	28	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 78198
+# text = Ранее ученым удалось увидеть около 60источников очень мощного гамма-излучения, однако все они находились относительно близко кЗемле (космологическое красное смещение z 0,5).
+1	Ранее	ранее	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+3	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	около	около	ADP	_	_	6	case	_	_
+6	60источников	60источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+7	очень	очень	ADV	_	Degree=Pos	8	advmod	_	_
+8	мощного	мощный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	14	advmod	_	_
+12	все	весь	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+14	находились	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+15	относительно	относительно	ADV	_	Degree=Pos	16	advmod	_	_
+16	близко	близко	ADV	_	Degree=Pos	17	advmod	_	_
+17	кЗемле	кЗемля	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	космологическое	космологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+20	красное	красной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	смещение	смещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+22	z	z	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpacesAfter=\s\s
+23	0,5	0,5	NUM	_	_	22	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78199
+# text = Теперь астрофизики зарегистрировали объект, который, как они сообщают встатье, почти вдва раза расширяет границы известной "гамма-Вселенной".
+1	Теперь	теперь	ADV	_	Degree=Pos	3	advmod	_	_
+2	астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	зарегистрировали	регистрировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	объект	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	который	который	PRON	_	Case=Nom	16	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	ADV	_	Degree=Pos	10	advmod	_	_
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	10	nsubj	_	_
+10	сообщают	сообщавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+11	встатье	встатье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	почти	почти	ADV	_	Degree=Pos	14	advmod	_	_
+14	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	15	nummod:gov	_	_
+15	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	расширяет	расширять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+17	границы	граница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	известной	известный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	гамма-Вселенной	гамма-Вселенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78200
+# text = Спомощью телескопов MAGIC иFermi-LAT авторы статьи обнаружили мощный всплеск гамма-излучения, который исходил отблазара QSO B0218+357.
+1	Спомощью	Спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+2	телескопов	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	MAGIC	Magic	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	иFermi-	иFermi-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	LAT	Lat	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	мощный	мощный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	всплеск	всплеск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	исходил	исходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	отблазара	отблазар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	QSO	Qso	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	B0218+357	B0218+357	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78201
+# text = Анализ космологического красного смещения (z = 0,944 0,002) объекта показал, что свет отвспышки шел кнам примерно семь миллиардов лет.
+1	Анализ	анализ	ADP	_	_	4	case	_	_
+2	космологического	космологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+3	красного	красный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	смещения	смещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	z	z	PROPN	_	Foreign=Yes	12	nsubj	_	_
+7	=	=	SYM	_	_	12	advmod	_	_
+8	0,944	0,944	NUM	_	_	11	nummod	_	SpacesAfter=\s\s
+9	0,002	0,002	NUM	_	_	11	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+12	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	отвспышки	отвспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	шел	шеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+18	кнам	кн	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+19	примерно	примерно	ADV	_	Degree=Pos	20	advmod	_	_
+20	семь	семь	NUM	_	Case=Nom	21	nummod:gov	_	_
+21	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nsubj	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78202
+# text = Энергия "пойманных" телескопами фотонов находилась вдиапазоне от65до175гигаэлектронвольт, что позволяет отнести QSO B0218+357к классу источников высокоэнергетического гамма-излучения.
+1	Энергия	энергия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	пойманных	поймать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	телескопами	телескоп	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl:agent	_	_
+6	фотонов	фотон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+7	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	вдиапазоне	вдиапазона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+9	от65до175гигаэлектронвольт	от65до175гигаэлектрон-вольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+12	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+13	отнести	относить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	QSO	Qso	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	B0218+357к	B0218+357к	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	классу	класса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+17	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	высокоэнергетического	высокоэнергетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78203
+# text = Обнаруженный исследователями блазар также стал первым зарегистрированным источником высокоэнергетического гамма-излучения, свет которого был отклонен гравитационной линзой.
+1	Обнаруженный	обнаруживать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	исследователями	исследователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl:agent	_	_
+3	блазар	блазар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	первым	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	зарегистрированным	зарегистрированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	источником	источник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+9	высокоэнергетического	высокоэнергетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	гамма-излучения	гамма-излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+13	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	отклонен	отклонять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+16	гравитационной	гравитационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	линзой	линза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78204
+# text = Вкачестве линзы выступила галактика B0218+357G, своим мощным гравитационным полем искривившая направление распространения электромагнитного излучения.
+1	Вкачестве	Вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+2	линзы	линза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	выступила	выступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	галактика	галактика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	B0218+357G	B0218+357g	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing	10	amod	_	_
+8	мощным	мощной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	гравитационным	гравитационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	полем	поле	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+11	искривившая	искрививать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+12	направление	направление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+13	распространения	распространение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	электромагнитного	электромагнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78205
+# text = Врезультате, свет отвспышки разделился надве "порции", одна изкоторых пришла кнам задержкой в11дней.
+1	Врезультате	Врезультате	PART	_	_	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	отвспышки	отвспышка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	разделился	разделаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	надве	надва	NUM	_	Case=Nom|Gender=Fem	8	nummod:gov	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	порции	порция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	одна	один	NUM	_	Case=Nom|Gender=Fem	12	nummod:gov	_	_
+12	изкоторых	изкоторый	PRON	_	Case=Gen	13	nsubj	_	_
+13	пришла	приходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	кнам	кна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+15	задержкой	задержка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+16	в11дней	в11дний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+

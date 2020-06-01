@@ -1,0 +1,292 @@
+# sent_id = 76788
+# text = Американские ученые разработали метод генетической коррекции наоснове пептидонуклеиновых кислот, который вэксперименте эффективно устранил симптомы бета-талассемии умышей.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	генетической	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	коррекции	коррекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\n
+7	наоснове	наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+8	пептидонуклеиновых	пептидонуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+12	вэксперименте	вэксперименте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	эффективно	эффективно	ADV	_	Degree=Pos	14	advmod	_	_
+14	устранил	устранять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpacesAfter=\n
+15	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	бета-	бета-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	талассемии	талассемия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	conj	_	_
+18	умышей	умышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76789
+# text = Результаты работы опубликованы вжурнале Nature Communications.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 76790
+# text = Бета-талассемия-- это наследственное заболевание, при котором нарушается синтез бета-субъединицы гемоглобина (бета-глобина).
+1	Бета-талассемия	Бета-талассемия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	это	это	PART	_	_	6	cop	_	_
+5	наследственное	наследственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	при	при	ADP	_	_	9	case	_	SpacesAfter=\n
+9	котором	который	PRON	_	Case=Loc	10	obl	_	_
+10	нарушается	нарушаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+11	синтез	синтез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	бета-	бета-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	субъединицы	субъединица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+14	гемоглобина	гемоглобин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	бета-	бета-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	глобина	глобина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76791
+# text = Это приводит кдеформации инебольшому размеру эритроцитов иснижению продолжительности ихжизни, повышенному количеству ретикулоцитов (незрелых эритроцитов) вкрови, анемии разной степени тяжести иувеличению селезенки (иногда вдесятки раз посравнению снормой).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpacesAfter=\n
+2	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	кдеформации	кдеформация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	инебольшому	инебольшой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	размеру	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+6	эритроцитов	эритроцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	иснижению	иснижение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	ихжизни	ихжизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	повышенному	повышать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	количеству	количество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+13	ретикулоцитов	ретикулоцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	незрелых	незрелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	эритроцитов	эритроцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	вкрови	вкровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	анемии	анемия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+21	разной	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	степени	степень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	тяжести	тяжесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	иувеличению	иувеличение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
+25	селезенки	селезенка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	parataxis	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	иногда	иногда	ADV	_	Degree=Pos	25	advmod	_	SpacesAfter=\n
+28	вдесятки	вдесяток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+29	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+30	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	_
+31	снормой	снорма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 76792
+# text = Пептидонуклеиновые кислоты (ПНК)-- это синтетические аналоги нуклеиновых кислот, вкоторых цепь изсахара (рибозы или дезоксирибозы) и остатков фосфорной кислоты заменена полиамидной псевдопептидной последовательностью, несущей азотистые основания.
+1	Пептидонуклеиновые	Пептидонуклеиновый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	ПНК	Пнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	--	--	PUNCT	_	_	4	punct	_	_
+7	это	это	PART	_	_	9	cop	_	_
+8	синтетические	синтетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	аналоги	аналог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+10	нуклеиновых	нуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	вкоторых	вкоторый	PRON	_	Case=Acc	14	obj	_	_
+14	цепь	цепь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+15	изсахара	изсахар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	рибозы	рибоз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	parataxis	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	дезоксирибозы	дезоксирибоз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	SpacesAfter=\n
+22	остатков	остатки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	_
+23	фосфорной	фосфорный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	заменена	заменять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	conj	_	_
+26	полиамидной	полиамидный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+27	псевдопептидной	псевдопептидный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	SpacesAfter=\n
+28	последовательностью	последовательность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	несущей	несущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+31	азотистые	азотистый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	основания	основание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 76793
+# text = ПНК ввиде олигомеров способны комплементарно связываться снуклеиновыми кислотами.
+1	ПНК	ПНк	PROPN	_	Foreign=Yes	4	nsubj	_	_
+2	ввиде	ввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+3	олигомеров	олигомер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=\n
+4	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	комплементарно	комплементарно	ADV	_	Degree=Pos	6	advmod	_	_
+6	связываться	связываться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	dep	_	_
+7	снуклеиновыми	снуклеиновый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	кислотами	кислота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 76794
+# text = Вслучае двухцепочечной ДНК (ДНК/ДНК) некоторые ПНК могут вытеснять одну изцепей ДНК вкомплементарном участке, образуя трехцепочечную спираль (ПНК/ДНК/ПНК).
+1	Вслучае	вслучае	CCONJ	_	_	3	cc	_	_
+2	двухцепочечной	двухцепочечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpacesAfter=\n
+3	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+6	/ДНК	/днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	9	amod	_	_
+9	ПНК	Пнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	вытеснять	вытеснять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	одну	один	NUM	_	Case=Acc|Gender=Fem	13	nummod:gov	_	_
+13	изцепей	изцепя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+14	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+15	вкомплементарном	вкомплементарный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	участке	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	образуя	образовывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+19	трехцепочечную	трехцепочечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	спираль	спираль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	ПНК	Пнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	parataxis	_	SpaceAfter=No
+23	/ДНК/ПНК	/днк/пнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 76795
+# text = Вживой клетке это приводит кзапуску клеточных механизмов репарации (починки) ДНК.
+1	Вживой	Вживой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	клетке	клетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpacesAfter=\n
+4	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	кзапуску	кзапуска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	клеточных	клеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	репарации	репарация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	_
+9	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	починки	починка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	ДНК	днк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 76796
+# text = Вприсутствии "здорового" фрагмента ДНК эти механизмы восстанавливают геном всоответствии сним, что позволяет проводить коррекцию отдельных мутаций.
+1	Вприсутствии	Вприсутствии	ADV	_	Degree=Pos	3	advmod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	здорового	здоровый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	фрагмента	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+6	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	эти	этот	DET	_	Case=Nom|Number=Plur	8	amod	_	_
+8	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	восстанавливают	восстанавливавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	геном	геный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	всоответствии	всоответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	сним	снее	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	PRON	_	Case=Nom	15	nsubj	_	SpacesAfter=\n
+15	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	коррекцию	коррекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76797
+# text = Вотличие отраспространенных методов редактирования генома, например CRISPR/Cas9, этот подход нетребует привлечения сторонних ферментов-нуклеаз, что снижает риск нежелательных модификаций генома.
+1	Вотличие	Вотличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	отраспространенных	отраспространеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	SpacesAfter=\n
+3	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	например	например	ADV	_	Degree=Pos	8	advmod	_	_
+8	CRISPR	Crisпиар	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+9	/Cas9	/Cas9	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
+12	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	нетребует	нетребовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+14	привлечения	привлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+15	сторонних	сторонний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	ферментов-нуклеаз	ферментов-нуклеаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	PRON	_	Case=Nom	19	nsubj	_	_
+19	снижает	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	нежелательных	нежелательной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpacesAfter=\n
+22	модификаций	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 76798
+# text = Сотрудники Университетов Йеля, Массачусетса иКарнеги-Меллон использовали всвоей работе ПНК, замещенные вгамма-положении полиэтиленгликолем (гамма-ПНК) для лучшего связывания сДНК.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	Университетов	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Йеля	Йель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Массачусетса	Массачусетс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+6	иКарнеги-Меллон	иКарнеги-Меллон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	SpacesAfter=\n
+7	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	всвоей	всвой	DET	_	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	ПНК	Пнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	замещенные	замещать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	вгамма-положении	вгамма-положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+14	полиэтиленгликолем	полиэтиленгликоль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\n
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	гамма-ПНК	гамма-пнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	лучшего	лучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	связывания	связывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	parataxis	_	_
+21	сДНК	сднк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 76799
+# text = Гамма-ПНК, комплементарные несущему мутацию участку гена бета-глобина, вместе ссоответствующими нормальными одноцепочечными фрагментами ДНК, поместили внаночастицы изполилактида-ко-гликолида, которые обеспечивают ихпроникновение вкроветворные стволовые клетки (КСК).
+1	Гамма-ПНК	Гамма-пнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	комплементарные	комплементарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	несущему	нести	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	SpacesAfter=\n
+5	мутацию	мутация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+6	участку	участка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	conj	_	_
+7	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	бета-	бета-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	глобина	глобин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вместе	вместе	ADV	_	Degree=Pos	12	advmod	_	_
+12	ссоответствующими	ссоответствовать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	_
+13	нормальными	нормальной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+14	одноцепочечными	одноцепочечный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	фрагментами	фрагмент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	_
+16	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	внаночастицы	внаночастица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+20	изполилактида-	изполилактида-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	ко-гликолида	ко-гликолид	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	которые	который	PRON	_	Case=Nom	24	nsubj	_	SpacesAfter=\n
+24	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	ихпроникновение	ихпроникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	вкроветворные	вкроветворный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+27	стволовые	стволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	КСК	Кск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+

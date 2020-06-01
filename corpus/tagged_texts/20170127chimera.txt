@@ -1,0 +1,501 @@
+# sent_id = 89897
+# text = Ученые изинститута Солка (Salk Institute) вКалифорнии впервые официально сообщили о том, что им удалось вырастить химерные эмбрионы, состоящие изклеток свиньи ичеловека.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpacesBefore=\n
+2	изинститута	изинститут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Солка	солк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Salk	Salk	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Institute	Institute	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	вКалифорнии	вКалифорния	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+9	впервые	впервые	ADV	_	Degree=Pos	11	advmod	_	_
+10	официально	официально	ADV	_	Degree=Pos	11	advmod	_	_
+11	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	17	obl	_	_
+17	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+18	вырастить	выращивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	химерные	химерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	эмбрионы	эмбрион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	состоящие	состоять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+23	изклеток	изклеток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+24	свиньи	свинья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	ичеловека	ичеловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 89898
+# text = Статья опубликована вжурнале Cell, кратко оеесодержании рассказывается вредакционном материале журнала Science.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	Cell	Cell	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	кратко	кратко	ADV	_	Degree=Pos	7	advmod	_	_
+7	оеесодержании	оеесодержание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+8	рассказывается	рассказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+9	вредакционном	вредакционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	материале	материаль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Science	science	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 89899
+# text = "Химеры" представляют собой организмы изгенетически разнородных клеток.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Химеры	Химер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собой	себя	PRON	_	Case=Ins	4	dep	_	_
+6	организмы	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	изгенетически	изгенетически	ADV	_	Degree=Pos	8	advmod	_	_
+8	разнородных	разнородной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89900
+# text = Создание химерных организмов счеловеческими клетками уже давно интересует ученых, поскольку оно моглобы позволить нетолько проводить доклинические исследования лекарств, ноивыращивать неотторгаемые органы для трансплантации.
+1	Создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	химерных	химерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	организмов	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	счеловеческими	счеловеческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	nmod	_	_
+6	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+7	давно	давно	ADV	_	Degree=Pos	8	advmod	_	_
+8	интересует	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ученых	ученый	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	8	mark	_	_
+12	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	14	nsubj	_	_
+13	моглобы	моглобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+14	позволить	позволять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+15	нетолько	нетолько	ADV	_	Degree=Pos	16	advmod	_	_
+16	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	доклинические	доклинический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+19	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	ноивыращивать	ноивыращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+22	неотторгаемые	неотторгаемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	органы	орган	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+24	для	для	ADP	_	_	23	case	_	_
+25	трансплантации	трансплантация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 89901
+# text = Для создания человеко-животных химер клетки человека вживляют вэмбрион животного, находящийся нараннем этапе развития, после чего переносят его для вынашивания вматку животного (подробнее обэтом можно почитать здесь).
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+3	человеко-животных	человеко-животный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	химер	химера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	вживляют	вживлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	вэмбрион	вэмбрион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	находящийся	находиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	_
+12	нараннем	наранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	после	после	ADP	_	_	17	case	_	_
+17	чего	что	PRON	_	Case=Gen	18	obl	_	_
+18	переносят	переносеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	вынашивания	вынашивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+22	вматку	вматка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+23	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	подробнее	подробно	ADV	_	Degree=Cmp	27	advmod	_	_
+26	обэтом	обэто	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_
+27	можно	можно	ADV	_	Degree=Pos	22	parataxis	_	_
+28	почитать	почитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	nsubj	_	_
+29	здесь	здесь	ADV	_	Degree=Pos	28	advmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 89902
+# text = Авторы новой статьи использовали индуцированные плюрипотентные стволовые клетки человека (зрелые клетки, перепрограммированные встволовые, которые по универсальности схожи с эмбриональными) для пересадки всвиные эмбрионы.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	индуцированные	индуцировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	плюрипотентные	плюрипотентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	стволовые	стволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	nsubj	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	зрелые	зрелый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	27	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	перепрограммированные	перепрограммировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	_
+15	встволовые	встволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Nom	27	nsubj	_	_
+18	по	по	ADP	_	_	19	case	_	_
+19	универсальности	универсальность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	27	nmod	_	_
+20	схожи	схожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	эмбриональными	эмбриональный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	для	для	ADP	_	_	22	case	_	_
+25	пересадки	пересадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+26	всвиные	всвиный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	эмбрионы	эмбрион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 89903
+# text = Затем эмбрионы перенесли для вынашивания всвиные матки иоставили созревать на3--4недели, чтобы посмотреть, как вних развиваются человеческие клетки.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	эмбрионы	эмбрион	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	перенесли	переносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	вынашивания	вынашивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	всвиные	всвиный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	матки	матка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	иоставили	иоставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+9	созревать	созревать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	на3--	на3--	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	4недели	4неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+14	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	ADV	_	Degree=Pos	18	advmod	_	_
+17	вних	овни	PRON	_	Case=Acc|Number=Plur|Person=3	18	obj	_	_
+18	развиваются	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	ccomp	_	_
+19	человеческие	человеческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 89904
+# text = Всего исследователи имплантировали 2075 химерных эмбрионов, изкоторых 186 развились досрока 28дней (после этого ихудалили).
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	имплантировали	имплантировать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	2075	2075	NUM	_	_	6	nummod	_	_
+5	химерных	химерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	изкоторых	изкоторой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+9	186	186	NUM	_	_	6	nummod	_	_
+10	развились	разваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	16	conj	_	_
+11	досрока	досрок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+12	28дней	28день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	после	после	ADP	_	_	15	case	_	_
+15	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+16	ихудалили	ихудалить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 89905
+# text = Человеческие клетки вэтих эмбрионах были функциональны, хотя уровень ихвнедрения вэмбрионы был довольно низким.
+1	Человеческие	человеческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	вэтих	вэтот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	эмбрионах	эмбрион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	функциональны	функциональный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	хотя	хотя	SCONJ	_	_	6	mark	_	_
+9	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+10	ихвнедрения	ихвнедрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	вэмбрионы	вэмбриона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	довольно	довольно	ADV	_	Degree=Pos	14	advmod	_	_
+14	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 89906
+# text = Кроме того, многие эмбрионы были гораздо меньше нормальных иразвивались медленнее обычных.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	эмбрионы	эмбрион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	гораздо	гораздо	ADV	_	Degree=Pos	8	advmod	_	_
+8	меньше	мало	NUM	_	_	10	advmod	_	_
+9	нормальных	нормальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	иразвивались	иразвиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	медленнее	медленнее	ADV	_	Degree=Cmp	12	advmod	_	_
+12	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 89907
+# text = Как отмечают ученые, причина низкого процента человеческих клеток вхимерных эмбрионах, возможно, заключается втом, что усвиней беременность гораздо короче, чем учеловека: всего 114дней.
+1	Как	как	ADV	_	Degree=Pos	15	mark	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	низкого	низкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	человеческих	человеческой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	вхимерных	вхимерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	эмбрионах	эмбрион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	возможно	возможно	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+16	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	15	mark	_	_
+19	усвиней	усвиный	ADJ	_	Degree=Cmp	20	amod	_	_
+20	беременность	беременность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+21	гораздо	гораздо	ADV	_	Degree=Pos	22	advmod	_	_
+22	короче	короткий	ADJ	_	Degree=Cmp	15	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чем	чем	SCONJ	_	_	25	cc	_	_
+25	учеловека	учеловека	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	advmod	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	25	punct	_	_
+27	всего	всего	ADV	_	Degree=Pos	28	advmod	_	_
+28	114дней	114дный	ADJ	_	Degree=Cmp	15	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 89908
+# text = Кроме того, человек исвинья-- виды, генетически далекие друг отдруга.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	исвинья	исвинье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	виды	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	генетически	генетически	ADV	_	Degree=Pos	11	advmod	_	_
+11	далекие	далекий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	fixed	_	_
+13	отдруга	отдруг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89909
+# text = Тем неменее, тот факт, что через 28дней развития вхимерных эмбрионах вообще сохранялись функциональные человеческие клетки, говорит оперспективности такого рода исследований.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	факт	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	через	через	ADP	_	_	9	case	_	_
+9	28дней	28дняя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+10	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	вхимерных	вхимерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	эмбрионах	эмбрион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	_
+13	вообще	вообще	ADV	_	Degree=Pos	14	advmod	_	_
+14	сохранялись	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	_
+15	функциональные	функциональной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+16	человеческие	человеческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+20	оперспективности	оперспективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
+21	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	_
+22	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+23	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89910
+# text = Вдальнейших экспериментах ученые планируют отключать всвиных эмбрионах гены, ответственные заформирование определенных тканей, чтобы предоставить человеческим клеткам пространство для развития.
+1	Вдальнейших	Вдальный	ADJ	_	Case=Loc|Degree=Sup|Number=Plur	2	amod	_	_
+2	экспериментах	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отключать	отключать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	всвиных	всвиной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	эмбрионах	эмбрион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+8	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ответственные	ответственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	заформирование	заформирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	conj	_	_
+12	определенных	определенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+16	предоставить	предоставать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+17	человеческим	человеческий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	клеткам	клетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	obl	_	_
+19	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 89911
+# text = Работы посозданию химер счеловеческими клетками начались около 15лет назад, однако в2015 году Национальные институты здоровья США (NIH) наложили мораторий нафинансирование подобных работ.
+1	Работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	посозданию	посоздание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+3	химер	химирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	счеловеческими	счеловеческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+6	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+7	около	около	ADP	_	_	8	case	_	_
+8	15лет	15год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+9	назад	назад	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+12	в2015	в2015	NUM	_	_	13	nummod	_	_
+13	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+14	Национальные	национальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	институты	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+16	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	appos	_	_
+18	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	NIH	Nih	PROPN	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	наложили	накладывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+22	мораторий	мораторий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	нафинансирование	нафинансирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+24	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 89912
+# text = Вавгусте 2016 года NIH решили изменить свою позицию, заинтересовавшись экспериментами, которые "внесут значительные изменения вмозг животных путем добавления человеческих клеток".
+1	Вавгусте	Вавгувствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	NIH	Nih	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	позицию	позиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	заинтересовавшись	заинтересоваваться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	6	advcl	_	_
+11	экспериментами	эксперимент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которые	который	PRON	_	Case=Acc	15	obj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	внесут	вносить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	значительные	значительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+18	вмозг	вмозга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	путем	путем	ADP	_	_	21	case	_	_
+21	добавления	добавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+22	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89913
+# text = Предполагалось, что мораторий наработы посозданию химер будет снят вянваре 2017года, однако пока этого непроизошло.
+1	Предполагалось	предполагаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	мораторий	мораторий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	наработы	наработа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	посозданию	посоздание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+7	химер	химер	ADV	_	Degree=Pos	9	advmod	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	снят	снимать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	_
+10	вянваре	вянвара	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+11	2017года	2017год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	16	advmod	_	_
+14	пока	пока	ADV	_	Degree=Pos	16	advmod	_	_
+15	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	непроизошло	непроизоходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 89914
+# text = Несмотря намораторий NIH, вСША продолжают проводиться работы посозданию химер: пооценкам MIT Technology Review, в2015 году американские исследователи создали иперенесли для вынашивания около 20эмбрионов свиней иовец счеловеческими клетками.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	намораторий	намораторий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	NIH	Nih	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вСША	всша	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	продолжают	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+7	проводиться	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	6	xcomp	_	_
+8	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	посозданию	посоздание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+10	химер	химера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	пооценкам	пооценка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	3	nmod	_	_
+13	MIT	Mit	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Technology	technology	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Review	Review	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в2015	в2015	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+19	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	создали	создать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+22	иперенесли	иперенесли	SCONJ	_	_	24	cc	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	вынашивания	вынашивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+25	около	около	ADP	_	_	26	case	_	_
+26	20эмбрионов	20эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	свиней	свинья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+28	иовец	иовец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+29	счеловеческими	счеловеческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	_
+30	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 89915
+# text = Аналогичные исследования проводятся ивдругих странах.
+1	Аналогичные	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	_
+3	проводятся	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ивдругих	ивдругой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 89916
+# text = ВВеликобритании, например, подобные исследования одобрены соговоркой, что эмбрионов небудут подсаживать вматку человека или животного для дальнейшего развития, апроект испанского ученого, работающего над созданием животных-химер счеловеческими клетками, недавно получил личное благословение Папы Римского Франциска.
+1	ВВеликобритании	ВВеликобритания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	_
+7	одобрены	одобривать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	соговоркой	соговорка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	7	mark	_	_
+11	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+12	небудут	небыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+13	подсаживать	подсаживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	вматку	вматка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	животного	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	_
+18	для	для	ADP	_	_	20	case	_	_
+19	дальнейшего	дальнейший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	апроект	апроект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+23	испанского	испанский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	ученого	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	работающего	работать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	_
+27	над	над	ADP	_	_	28	case	_	_
+28	созданием	создание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	obl	_	_
+29	животных-	животных-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	химер	химер	ADV	_	Degree=Pos	31	advmod	_	_
+31	счеловеческими	счеловеческий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
+32	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	недавно	недавно	ADV	_	Degree=Pos	35	advmod	_	_
+35	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+36	личное	личный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	благословение	благословение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obj	_	_
+38	Папы	папа	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+39	Римского	Римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	Франциска	Франциск	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 89917
+# text = Софья Долотовская
+1	Софья	Софий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Долотовская	Долотовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+

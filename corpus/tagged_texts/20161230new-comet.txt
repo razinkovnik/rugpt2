@@ -1,0 +1,256 @@
+# sent_id = 86820
+# text = Миссия NEOWISE обнаружила два новых небесных тела в окрестностях Земли.
+1	Миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesBefore=\n
+2	NEOWISE	Neowise	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	обнаружила	обнаружать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	два	два	NUM	_	Case=Nom|Gender=Masc	7	nummod:gov	_	_
+5	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+6	небесных	небесный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	окрестностях	окрестность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+10	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 86821
+# text = Одно из них -- комета C/2016 U1, яркость которой в первые недели января может стать доступной для наблюдения в бинокль.
+1	Одно	один	NUM	_	Case=Nom|Gender=Neut	5	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	комета	комета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+6	C/2016	C/2016	NUM	_	_	7	nummod	_	_
+7	U1	U1	NOUN	_	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	яркость	яркость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+10	которой	который	PRON	_	Case=Gen	9	nmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	недели	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
+14	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	доступной	доступный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	бинокль	бинокль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 86822
+# text = Происхождение второго тела точно не определено -- оно может оказаться как астероидом, так и кометой.
+1	Происхождение	Происхождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+2	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	точно	точно	ADV	_	Degree=Pos	5	advmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	определено	определять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	9	nsubj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+10	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	как	как	SCONJ	_	_	10	cc	_	_
+12	астероидом	астероид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	16	advmod	_	_
+15	и	и	PART	_	_	16	advmod	_	_
+16	кометой	комета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86823
+# text = Об этом сообщает пресс-релиз NASA.Многие околоземные астероиды и кометы обладают очень низким альбедо -- способностью отражать свет.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пресс-релиз	пресс-релиз	ADP	_	_	8	case	_	_
+5	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	SpaceAfter=No
+6	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+7	околоземные	околоземный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	астероиды	астероид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	кометы	комет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	очень	очень	ADV	_	Degree=Pos	13	advmod	_	_
+13	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	альбедо	альбедо	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	способностью	способность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+17	отражать	отражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86824
+# text = В некоторых случаях доля отраженного света составляет всего несколько процентов от интенсивности падающего излучения.
+1	В	в	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	отраженного	отражять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+6	света	свет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	всего	всего	PART	_	_	9	advmod	_	_
+9	несколько	несколько	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	интенсивности	интенсивность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	падающего	падать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86825
+# text = Астрономы сравнивают их оптические свойства с асфальтом или еще менее отражающими поверхностями.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сравнивают	сравнивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+4	оптические	оптический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	асфальтом	асфальт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+8	или	или	CCONJ	_	_	10	cc	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	менее	менее	ADV	_	Degree=Cmp	11	advmod	_	_
+11	отражающими	отражать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	_
+12	поверхностями	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86826
+# text = Однако небесные тела нагреваются от поглощенного излучения и из-за этого хорошо видны в инфракрасном (тепловом) диапазоне.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	небесные	небесный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	тела	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	нагреваются	нагреваваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	поглощенного	поглощать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	12	cc	_	_
+9	из-за	из-за	ADP	_	_	10	case	_	_
+10	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+11	хорошо	хорошо	ADV	_	Degree=Pos	12	advmod	_	_
+12	видны	видный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	инфракрасном	инфракрасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	тепловом	тепловой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86827
+# text = Это и позволяет увидеть их спутнику широкоугольного инфракрасного обзора WISE --Wide-Field Infrared Survey Explorer.Новые небесные тела были обнаружены еще в ноябре 2016 года.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	dep	_	_
+5	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+6	спутнику	спутника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	широкоугольного	широкоугольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	инфракрасного	инфракрасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	WISE	Wise	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	--Wide-Field	--Wide-Field	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Infrared	infrared	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Survey	Survey	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Explorer	Explorer	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+17	небесные	небесный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	тела	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	обнаружены	обнаруживать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+21	еще	еще	ADV	_	Degree=Pos	23	advmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+24	2016	2016	NUM	_	_	25	nummod	_	_
+25	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86828
+# text = По словам специалистов NASA, у кометыC/2016 U1 NEOWISE есть все шансы достигнуть блеска порядка седьмой-восьмой звездной величины и оказаться видимой в любительские телескопы и бинокли.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	NASA	Nasa	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	кометыC	кометыc	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+8	/2016	/2016	X	_	Foreign=Yes	7	flat:foreign	_	_
+9	U1	U1	NOUN	_	_	0	root	_	_
+10	NEOWISE	Neowise	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+12	все	весь	DET	_	Case=Acc|Number=Plur	13	amod	_	_
+13	шансы	шанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+14	достигнуть	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+15	блеска	блесок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+16	порядка	порядок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+17	седьмой-	седьмой-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	восьмой	восьмой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	звездной	звездный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	величины	величина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	conj	_	_
+23	видимой	видима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	любительские	любительский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	телескопы	телескоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obl	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	бинокли	бинокль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 86829
+# text = Важно отметить, что блеск кометы предсказывается неточно и объект может оказаться как ярче, так и тусклее прогноза.
+1	Важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	блеск	блеск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	кометы	комета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	предсказывается	предсказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	неточно	неточно	ADV	_	Degree=Pos	7	advmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+12	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	ярче	ярко	ADV	_	Degree=Cmp	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	так	так	ADV	_	Degree=Pos	18	advmod	_	_
+17	и	и	PART	_	_	18	advmod	_	_
+18	тусклее	тускло	ADV	_	Degree=Cmp	0	advmod	_	_
+19	прогноза	прогноз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 86830
+# text = Это непериодическая комета с гиперболической орбитой.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	непериодическая	непериодический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	комета	комета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	гиперболической	гиперболический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	орбитой	орбита	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86831
+# text = Наблюдать ее можно будет перед рассветом в созвездии Змееносца, на востоке.
+1	Наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+2	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	1	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	перед	перед	ADP	_	_	6	case	_	_
+6	рассветом	рассвет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	созвездии	созвездие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	Змееносца	Змееносец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	востоке	восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86832
+# text = Перигелий кометы ожидается 14 января.
+1	Перигелий	Перигелий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	кометы	комет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	ожидается	ожидавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	14	14	NUM	_	_	3	nummod	_	_
+5	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+

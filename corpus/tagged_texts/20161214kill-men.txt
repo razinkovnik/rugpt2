@@ -1,0 +1,694 @@
+# sent_id = 84640
+# text = Многие инфекции чаще вызывают тяжелое заболевание исмерть у мужчин, чем уженщин.
+1	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	чаще	часто	ADV	_	Degree=Cmp	4	advmod	_	_
+4	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	тяжелое	тяжелый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	исмерть	исмерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	у	у	ADP	_	_	9	case	_	SpacesAfter=\n
+9	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чем	чем	SCONJ	_	_	12	cc	_	_
+12	уженщин	уженщин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 84641
+# text = Британские исследователи связали это явление свлиянием возможности вертикального пути передачи (отматери ребенку) наэволюцию возбудителя.
+1	Британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	связали	связывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	явление	явление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	свлиянием	свлияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpacesAfter=\n
+7	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	вертикального	вертикальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	отматери	отматирать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+13	ребенку	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	наэволюцию	наэволюция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obj	_	SpacesAfter=\n
+16	возбудителя	возбудитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 84642
+# text = Результаты работы опубликованы вжурнале Nature Communications.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	Nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n
+6	Communications	communications	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 84643
+# text = Тот факт, что многие патогенные микроорганизмы более вирулентны для мужчин, чем для женщин, зафиксирован множеством наблюдений.
+1	Тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	факт	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	патогенные	патогенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	более	более	ADV	_	Degree=Cmp	9	advmod	_	_
+9	вирулентны	вирулентный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	advcl	_	SpacesAfter=\n
+10	для	для	ADP	_	_	11	case	_	_
+11	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чем	чем	SCONJ	_	_	15	cc	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	зафиксирован	фиксировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+18	множеством	множество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+19	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 84644
+# text = Так, например, инфицирование туберкулезом убивает мужчин в1,5 раза чаще.
+1	Так	так	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	инфицирование	инфицирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpacesAfter=\n
+6	туберкулезом	туберкулез	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+7	убивает	убивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	в1,5	в1,5	NUM	_	_	10	nummod	_	_
+10	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	чаще	часто	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 84645
+# text = Унихже оральное заражение папилломавирусом впять раз чаще вызывает рак миндалин, апри наличии вируса Эпштейна-Барр лимфома Ходжкина развивается вдвое чаще, чем уженщин.
+1	Унихже	Унихже	PART	_	_	3	advmod	_	_
+2	оральное	оральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	заражение	заражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpacesAfter=\n
+4	папилломавирусом	папилломавирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+5	впять	впять	NUM	_	Case=Acc	6	nummod:gov	_	_
+6	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	чаще	часто	ADV	_	Degree=Cmp	8	advmod	_	_
+8	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	рак	рак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	миндалин	миндалина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	апри	апри	ADP	_	_	13	case	_	_
+13	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+14	вируса	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\n
+15	Эпштейна-Барр	Эпштейна-Барр	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	лимфома	лимфом	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	appos	_	_
+17	Ходжкина	Ходжкин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	_
+18	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+19	вдвое	вдвое	ADV	_	Degree=Pos	20	advmod	_	_
+20	чаще	часто	ADV	_	Degree=Cmp	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чем	чем	SCONJ	_	_	23	cc	_	_
+23	уженщин	уженщин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 84646
+# text = Механизмы этого явления недостаточно изучены, и, как правило, его связывают сразницей в силе иммунного ответа уразных полов.
+1	Механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	SpacesAfter=\n
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	явления	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	недостаточно	недостаточно	ADV	_	Degree=Pos	5	advmod	_	_
+5	изучены	изучать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	и	и	CCONJ	_	_	13	cc	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	13	mark	_	_
+10	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
+13	связывают	связывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	сразницей	сразница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+15	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+16	силе	сила	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+17	иммунного	иммунный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	ответа	ответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	уразных	уразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	полов	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 84647
+# text = При этом подходы клечению инфекционных заболеваний умужчин иженщин вцелом неотличаются.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	подходы	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+4	клечению	клечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+5	инфекционных	инфекционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	умужчин	умужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	иженщин	иженщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	вцелом	вцел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	_
+10	неотличаются	неотличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 84648
+# text = Франсиско Убеда (Francisco beda) иВинсент Янсен (Vincent Jansen) изЛондонского королевского университета Холлоуэй предложили сместить внимание сорганизма хозяина навозбудителя инфекции.
+1	Франсиско	Франсиско	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+2	Убеда	Убед	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Francisco	Francisco	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	beda	beda	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	иВинсент	иВинсент	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+8	Янсен	Янсен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Vincent	Vincent	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpacesAfter=\n
+11	Jansen	Jansen	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	изЛондонского	изЛондонский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	королевского	королевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+16	Холлоуэй	Холлоуэй	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+17	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	сместить	смесщать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	SpacesAfter=\n
+19	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	сорганизма	сорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	навозбудителя	навозбудитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	appos	_	_
+23	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 84649
+# text = Поскольку основная цель любого патогена-- заразить как можно большее число подверженных особей, он должен создать ворганизме хозяина максимальное количество собственных копий, что ивызывает проявления заболевания иобусловливает тяжесть его течения.
+1	Поскольку	поскольку	SCONJ	_	_	3	cc	_	_
+2	основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpacesAfter=\n
+4	любого	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	nmod	_	_
+5	патогена-	патогена-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	заразить	заражать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	dep	_	_
+8	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+9	можно	можно	ADV	_	Degree=Pos	11	advmod	_	_
+10	большее	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+12	подверженных	подверженный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	особей	особь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	SpacesAfter=\n
+16	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+17	создать	оздать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	dep	_	_
+18	ворганизме	ворганизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+19	хозяина	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	максимальное	максимальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+22	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	копий	копия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+25	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+26	ивызывает	ивызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+27	проявления	проявление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obj	_	_
+28	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	иобусловливает	иобусловливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	тяжесть	тяжесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	32	nmod	_	_
+32	течения	течение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 84650
+# text = При этом женщина является более ценным хозяином: как имужчина, она может заразить других членов популяции при каком-либо контакте сними (горизонтальный путь передачи), новтоже время она может передать инфекцию ребенку вовремя беременности, родов игрудного вскармливания.
+1	При	при	ADP	_	_	2	case	_	SpacesAfter=\n
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	более	более	ADV	_	Degree=Cmp	6	advmod	_	_
+6	ценным	ценный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	хозяином	хозяин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	имужчина	имужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+14	заразить	заразать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	SpacesAfter=\n
+15	других	другой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	членов	член	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	при	при	ADP	_	_	20	case	_	_
+19	каком-либо	какой-либо	DET	_	Case=Loc|Gender=Masc|Number=Sing	20	amod	_	_
+20	контакте	контакт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_
+21	сними	сний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	amod	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	горизонтальный	горизонтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	parataxis	_	SpacesAfter=\n
+25	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	новтоже	новтоже	PART	_	_	31	advmod	_	_
+29	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+30	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	31	nsubj	_	_
+31	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	инфекцию	инфекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	ребенку	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	35	obl	_	_
+35	вовремя	вовремя	ADV	_	Degree=Pos	32	advmod	_	SpacesAfter=\n
+36	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	родов	роды	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	conj	_	_
+39	игрудного	игрудный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	вскармливания	вскармливание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 84651
+# text = Учитывающая этот фактор математическая модель, построенная учеными, показала, что возбудители, способные передаваться игоризонтальным, и вертикальным путем, теоретически должны испытывать эволюционное давление в сторону уменьшения вирулентности для женщин (тоесть вызывать уних более легкие формы заболевания иреже приводить ксмерти).
+1	Учитывающая	Учитывають	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	фактор	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	математическая	математический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	построенная	строить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+8	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	возбудители	возбудитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	способные	способный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+16	передаваться	передаваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	dep	_	_
+17	игоризонтальным	игоризонтальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	20	cc	_	SpacesAfter=\n
+20	вертикальным	вертикальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_
+21	путем	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	теоретически	теоретически	ADV	_	Degree=Pos	24	advmod	_	_
+24	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	advcl	_	_
+25	испытывать	испытывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	dep	_	_
+26	эволюционное	эволюционный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	давление	давление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+28	в	в	ADP	_	_	29	case	_	SpacesAfter=\n
+29	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+30	уменьшения	уменьшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	вирулентности	вирулентность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	женщин	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	parataxis	_	_
+36	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	35	dep	_	_
+37	уних	оуни	PRON	_	Case=Acc|Number=Plur|Person=3	36	obj	_	_
+38	более	более	ADV	_	Degree=Cmp	39	advmod	_	SpacesAfter=\n
+39	легкие	легкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	40	amod	_	_
+40	формы	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
+41	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+42	иреже	иредко	ADV	_	Degree=Cmp	43	advmod	_	_
+43	приводить	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	conj	_	_
+44	ксмерти	ксмерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	43	obj	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 84652
+# text = Как правило, подобные эволюционные предсказания сложно проверить, однако враспоряжении исследователей был своеобразный естественный эксперимент.
+1	Как	как	ADV	_	Degree=Pos	7	cc	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	эволюционные	эволюционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n
+8	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+11	враспоряжении	враспоряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+14	своеобразный	своеобразный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	естественный	естественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 84653
+# text = Вмире существует два региона, эндемичных почеловеческому Т-лимфотропному вирусу 1типа (HTLV-1), который может передаваться половым путем ипри грудном вскармливании.
+1	Вмире	Вмироко	ADV	_	Degree=Cmp	2	advmod	_	_
+2	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	два	два	NUM	_	Case=Nom|Gender=Masc	4	nummod:gov	_	_
+4	региона	регион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	эндемичных	эндемичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+7	почеловеческому	почеловеческий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=\n
+8	Т-лимфотропному	Т-лимфотропный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	вирусу	вирус	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+10	1типа	1тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	HTLV-	HTLV-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	1	1	NUM	_	_	10	nummod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	17	xcomp	_	_
+19	половым	половой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	SpacesAfter=\n
+20	путем	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+21	ипри	ипри	ADP	_	_	23	case	_	_
+22	грудном	грудный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	вскармливании	вскармливание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 84654
+# text = Участи зараженных онвызывает рак крови-- Т-клеточную лимфому.
+1	Участи	участать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+2	зараженных	заражать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+3	онвызывает	онвызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	рак	рак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	крови	кровь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	Т-клеточную	Т-клеточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+9	лимфому	лимфый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 84655
+# text = Упомянутые регионы-- это острова Карибского моря иЯпония.
+1	Упомянутые	упоминать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+2	регионы--	регионы--	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	острова	остров	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+5	Карибского	Карибский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	иЯпония	иЯпоние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 84656
+# text = При этом вЯпонии заражение вирусом приводит кразвитию лимфомы умужчин в2--3,5 раза чаще, чем уженщин, анаКарибах особой разницы между полами не наблюдается.
+1	При	при	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	вЯпонии	вЯпоние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+4	заражение	заражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	вирусом	вирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	_
+6	приводит	приводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	кразвитию	кразвитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+8	лимфомы	лимфома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	умужчин	умужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	в2	в2	NUM	_	_	14	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	3,5	3,5	NUM	_	_	10	nummod	_	SpacesAfter=\n
+14	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+15	чаще	часто	ADV	_	Degree=Cmp	26	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	18	cc	_	_
+18	уженщин	уженщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	анаКарибах	анаКариб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	conj	_	_
+21	особой	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	разницы	разница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	между	между	ADP	_	_	24	case	_	_
+24	полами	пол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	_
+25	не	не	PART	_	_	26	advmod	_	SpacesAfter=\n
+26	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 84657
+# text = Никакими очевидными факторами (частотой выявления, доступностью медпомощи ит.п.)
+1	Никакими	никакой	DET	_	Case=Ins|Number=Plur	3	amod	_	_
+2	очевидными	очевидный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	факторами	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	root	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	parataxis	_	_
+6	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	доступностью	доступность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpacesAfter=\n
+9	медпомощи	медпомощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	ит.п.	ито	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 84658
+# text = это явление объяснить невозможно.
+1	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	явление	явление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
+3	объяснить	объясинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+4	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 84659
+# text = Однако как показывают прямые инепрямые наблюдения, вЯпонии преобладает вертикальный путь передачи HTLV-1, анаКарибах-- половой.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+3	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+4	прямые	прямой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+5	инепрямые	инепрямой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вЯпонии	вЯпоние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	SpacesAfter=\n
+9	преобладает	преобладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	вертикальный	вертикальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	HTLV-	HTLV-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	1	1	NUM	_	_	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	анаКарибах	анаКарибах	INTJ	_	_	19	orphan	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	_
+19	половой	полова	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	9	orphan	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 84660
+# text = Это хорошо укладывается вгипотезу исследователей: вЯпонии эволюция должна заставлять вирус "беречь" женщин, играющих важную роль вего распространении, наКарибахже такой потребности нет, что подтверждается половыми различиями в заболеваемости лимфомой.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpacesAfter=\n
+2	хорошо	хорошо	ADV	_	Degree=Pos	3	advmod	_	_
+3	укладывается	укладываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	вгипотезу	вгипотез	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+5	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	вЯпонии	вЯпония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	эволюция	эволюция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	parataxis	_	SpacesAfter=\n
+10	заставлять	заставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	вирус	вирус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	беречь	беречь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	женщин	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	13	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	играющих	играть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+20	вего	вий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	распространении	распространение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	наКарибахже	наКарибахже	ADV	_	Degree=Pos	26	advmod	_	_
+24	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_
+25	потребности	потребность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	подтверждается	подтверждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	advcl	_	_
+30	половыми	половой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	31	amod	_	_
+31	различиями	различие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	29	obl	_	_
+32	в	в	ADP	_	_	33	case	_	SpacesAfter=\n
+33	заболеваемости	заболеваемость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	_
+34	лимфомой	лимфома	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 84661
+# text = Каким образом вирус "понимает", что попал именно вженский организм, пока неизвестно.
+1	Каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+3	вирус	вирус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	понимает	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	что	что	SCONJ	_	_	5	mark	_	_
+9	попал	попадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	именно	именно	PART	_	_	11	advmod	_	_
+11	вженский	вженский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n
+12	организм	организм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пока	пока	SCONJ	_	_	15	cc	_	_
+15	неизвестно	неизвестный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 84662
+# text = Однако, пословам Янсена, вэтом нет ничего невозможного: мужской иженский орагнизмы имеют определенные различия вгормональных идругих молекулярных сигнальных путях, которые может распознать возбудитель ивсоответствии сэтим отрегулировать экспрессию факторов вирулентности.
+1	Однако	однако	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	пословам	послов	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpacesAfter=\n
+4	Янсена	Янсен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вэтом	вэто	PART	_	_	7	advmod	_	_
+7	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ничего	ничто	PRON	_	Case=Gen	7	nsubj	_	_
+9	невозможного	невозможный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	мужской	мужской	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	иженский	иженский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	орагнизмы	орагнизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+14	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpacesAfter=\n
+15	определенные	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	различия	различие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+17	вгормональных	вгормональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+18	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+19	молекулярных	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+20	сигнальных	сигнальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	путях	путь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	которые	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	распознать	распознать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+26	возбудитель	возбудитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+27	ивсоответствии	ивсоответствии	ADV	_	Degree=Pos	28	advmod	_	_
+28	сэтим	сэтимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	acl	_	_
+29	отрегулировать	регулировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	dep	_	SpacesAfter=\n
+30	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+31	факторов	факторы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+32	вирулентности	вирулентность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 84663
+# text = Внастоящее время ученые планируют продолжить поиски подтверждения своей гипотезы уживотных.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	продолжить	продолжять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	поиски	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpacesAfter=\n
+7	подтверждения	подтверждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	уживотных	уживотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 84664
+# text = Подходящим кандидатом могут стать куры, укоторых канцерогенные ретровирусы значительно чаще вызывают рак у самцов, чем усамок.
+1	Подходящим	подходящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	кандидатом	кандидат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	SpacesAfter=\n
+5	куры	кура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	укоторых	укоторый	PRON	_	Case=Acc	12	obj	_	_
+8	канцерогенные	канцерогенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	ретровирусы	ретровирусы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+10	значительно	значительно	ADV	_	Degree=Pos	11	advmod	_	_
+11	чаще	часто	ADV	_	Degree=Cmp	12	advmod	_	_
+12	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+13	рак	рак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+14	у	у	ADP	_	_	13	case	_	SpacesAfter=\n
+15	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	18	cc	_	_
+18	усамок	усамок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 84665
+# text = Гипотеза Убеды иЯнсена имеет несколько важных следствий.
+1	Гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Убеды	Убеда	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	иЯнсена	иЯнсен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	несколько	несколько	NUM	_	Case=Nom	7	nummod:gov	_	_
+6	важных	важный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	следствий	следствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 84666
+# text = Во-первых, она открывает путь кпоиску путей распознавания возбудителем пола организма-хозяина, аследовательно, квоздействию наэти пути сцелью профилактики илечения.
+1	Во-первых	во-первых	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	кпоиску	кпоиск	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+7	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	распознавания	распознавание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	возбудителем	возбудитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+10	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\n
+11	организма-хозяина	организма-хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	аследовательно	аследовательно	ADV	_	Degree=Pos	0	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	квоздействию	квоздействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	conj	_	_
+16	наэти	наэтот	DET	_	Case=Acc|Number=Plur	17	amod	_	_
+17	пути	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+18	сцелью	сцель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\n
+19	профилактики	профилактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	илечения	илечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 84667
+# text = Также возможные половые различия ввирулентности микроорганизмов необходимо учитывать при проведении клинических исследований, балансируя половой состав участников ирегистрируя возможные различия вэффективности лечения.
+1	Также	также	CCONJ	_	_	4	cc	_	_
+2	возможные	возможный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	половые	половой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	различия	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+5	ввирулентности	ввирулентность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	микроорганизмов	микроорганизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpacesAfter=\n
+7	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	учитывать	учитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	проведении	проведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+11	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	балансируя	балансировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	SpacesAfter=\n
+15	половой	половый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	ирегистрируя	ирегистрировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	_
+19	возможные	возможный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	различия	различие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+21	вэффективности	вэффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 84668
+# text = Это, всвою очередь может способствовать персонализации терапии.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	всвою	всвой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	способствовать	способствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	персонализации	персонализация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+8	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 84669
+# text = Ранее ученые обнаружили интересную зависимость между инфекционными заболеваниями ивопросами пола: оказалось, что улучшение контроля инфекций иснижение общей инфекционной заболеваемости является основным фактором, откоторого зависит равноправие мужчин иженщин в обществе.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	интересную	интересной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	зависимость	зависимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	между	между	ADP	_	_	8	case	_	SpacesAfter=\n
+7	инфекционными	инфекционный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	nmod	_	_
+9	ивопросами	ивопрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+10	пола	пол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	улучшение	улучшение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+16	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	иснижение	иснижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+19	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	инфекционной	инфекционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	заболеваемости	заболеваемость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpacesAfter=\n
+22	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+23	основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	фактором	фактор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	откоторого	откоторый	PRON	_	Case=Acc	27	obj	_	_
+27	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+28	равноправие	равноправие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+29	мужчин	мужчина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+30	иженщин	иженщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+31	в	в	ADP	_	_	32	case	_	SpacesAfter=\n
+32	обществе	общество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 84670
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

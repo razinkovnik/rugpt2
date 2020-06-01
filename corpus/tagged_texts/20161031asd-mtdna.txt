@@ -1,0 +1,467 @@
+# sent_id = 77414
+# text = Американские ученые уточнили связь между нарушением функций митохондрий иразвитием расстройств аутического спектра (РАС).
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	уточнили	уточнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	между	между	ADP	_	_	6	case	_	_
+6	нарушением	нарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+7	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpacesAfter=\n
+8	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	иразвитием	иразвитие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	nmod	_	_
+10	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	аутического	аутический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	спектра	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	РАС	рас	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 77415
+# text = Выяснилось, что определенные типы мутаций митохондриальной ДНК резко повышают риск этих заболеваний.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	SpacesAfter=\n
+4	определенные	определенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	типы	тип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+6	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	митохондриальной	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	резко	резко	ADV	_	Degree=Pos	10	advmod	_	_
+10	повышают	повышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+11	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	этих	этот	DET	_	Case=Gen|Number=Plur	13	amod	_	SpacesAfter=\n
+13	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77416
+# text = Результаты работы опубликованы вжурнале PLOS Genetics.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	PLOS	Plos	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Genetics	Genetics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 77417
+# text = Внескольких недавних исследованиях (1, 2, 3, 4) была показана возможная связь РАС (аутизма иблизких кнему состояний) снарушением функций митохондрий-- клеточных органелл, вырабатывающих энергию ввиде АТФ (аденозинтрифосфорной кислоты) иимеющих собственную ДНК (мтДНК).
+1	Внескольких	Внесколько	NUM	_	Case=Loc	3	nummod	_	_
+2	недавних	недавний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	1	1	NUM	_	_	3	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	2	2	NUM	_	_	5	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	3	3	NUM	_	_	7	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	4	4	NUM	_	_	9	nummod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	показана	показывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+15	возможная	возможный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	РАС	рас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	_
+20	иблизких	иблизкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	кнему	окн	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	22	nmod	_	_
+22	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	снарушением	снарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	conj	_	_
+25	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpacesAfter=\n
+26	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	compound	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	26	punct	_	_
+29	клеточных	клеточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	органелл	органелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	вырабатывающих	вырабатывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	ввиде	ввида	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	33	appos	_	_
+35	АТФ	атф	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	аденозинтрифосфорной	аденозинтрифосфорный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+38	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	parataxis	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	иимеющих	ииметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	SpacesAfter=\n
+41	собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_
+43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	мтДНК	мтднк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	parataxis	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 77418
+# text = Тем неменее, генетические основы этой взаимосвязи до сих пор выяснены небыли.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	основы	основа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+6	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	взаимосвязи	взаимосвязь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	до	до	ADP	_	_	11	advmod	_	SpacesAfter=\n
+9	сих	сей	DET	_	Case=Gen|Number=Plur	8	fixed	_	_
+10	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	fixed	_	_
+11	выяснены	выяснять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	небыли	небыль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 77419
+# text = Сотрудники Корнелловского иКолумбийского университетов провели анализ митохондриального генома удетей сРАС, ихматерей иодного избратьев или сестер, неимеющих схожих расстройств.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Корнелловского	Корнелловский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	иКолумбийского	иКолумбийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	анализ	анализ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	митохондриального	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	удетей	удеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	сРАС	срас	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ихматерей	ихматерь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	appos	_	_
+13	иодного	иодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	избратьев	избрат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpacesAfter=\n
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	сестер	сестра	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	неимеющих	неимеющий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	схожих	схожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 77420
+# text = Всего висследовании приняли участие 903 подобных тройки.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	висследовании	висследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpacesAfter=\n
+5	903	903	NUM	_	_	4	nummod	_	_
+6	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	тройки	тройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 77421
+# text = Выяснилось, что уучастников сРАС всреднем на53процента чаще встречаются гетероплазмические мутации (присутствие водной клетке нормальной и мутантной мтДНК), затрагивающие неполиморфные (имеющие постоянную структуру) участки митохондриального генома.
+1	Выяснилось	выясняться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	уучастников	уучастник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+5	сРАС	срас	ADV	_	Degree=Pos	9	advmod	_	_
+6	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+7	на53процента	на53процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	чаще	часто	ADV	_	Degree=Cmp	9	advmod	_	SpacesAfter=\n
+9	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+10	гетероплазмические	гетероплазмический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	мутации	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	присутствие	присутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	_
+14	водной	водный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	клетке	клетка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+16	нормальной	нормальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	SpacesAfter=\n
+18	мутантной	мутантный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	conj	_	_
+19	мтДНК	мтднк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	затрагивающие	затрагивать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+23	неполиморфные	неполиморфной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	имеющие	иметь	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	parataxis	_	_
+26	постоянную	постоянный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+29	участки	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	_
+30	митохондриального	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 77422
+# text = Мутации этих участков сбольшей вероятностью производят патогенный эффект, чем изменения вполиморфных участках.
+1	Мутации	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	сбольшей	сбольать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+5	вероятностью	вероятность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpacesAfter=\n
+6	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	патогенный	патогенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чем	чем	SCONJ	_	_	11	cc	_	_
+11	изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	advmod	_	_
+12	вполиморфных	вполиморфный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77423
+# text = Всоответствии сэтим удетей сРАС наблюдалось в1,5 раза больше несинонимичных мутаций (приводящих кзамене аминокислоты вкодируемом белке) ив2,2 раза больше предсказанных патогенных мутаций, чем уихздоровых братьев или сестер.
+1	Всоответствии	Всоответствии	ADV	_	Degree=Pos	2	advmod	_	_
+2	сэтим	сэтий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	удетей	удетя	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	сРАС	срас	ADV	_	Degree=Pos	5	advmod	_	_
+5	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	в1,5	в1,5	NUM	_	_	10	nummod	_	_
+7	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpacesAfter=\n
+8	больше	много	NUM	_	_	10	nummod:gov	_	_
+9	несинонимичных	несинонимичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	приводящих	приводить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+13	кзамене	кзамена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+14	аминокислоты	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	вкодируемом	вкодируть	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	amod	_	SpacesAfter=\n
+16	белке	белок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	ив2,2	ив2,2	NUM	_	_	14	nummod	_	_
+19	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	больше	много	NUM	_	_	23	nummod	_	_
+21	предсказанных	предсказанный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+22	патогенных	патогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	чем	чем	SCONJ	_	_	27	cc	_	_
+26	уихздоровых	уихздоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	SpacesAfter=\n
+27	братьев	брат	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	0	advmod	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	сестер	сестра	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 77424
+# text = Инесинонимичные, ипредсказанные патогенные мутации, которые наблюдались только уучастников сРАС, нонеуихродственников, оказались связаны сповышенным риском этих расстройств (на87и155 процентов соответственно).
+1	Инесинонимичные	Инесинонимичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ипредсказанные	ипредсказанный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	патогенные	патогенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	мутации	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	уучастников	уучастник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	сРАС	срас	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	нонеуихродственников	нонеуихродственник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+16	связаны	вязать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+17	сповышенным	сповышенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	риском	риск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+19	этих	этот	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	на87и155	на87и155	NUM	_	_	23	nummod	_	_
+23	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	parataxis	_	SpacesAfter=\n
+24	соответственно	соответственно	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 77425
+# text = Причем эта связь была наиболее выраженной удетей сРАС, имеющих сниженный коэффициент интеллекта или нарушения социального поведения по сравнению сбратьями или сестрами.
+1	Причем	причем	CCONJ	_	_	7	cc	_	_
+2	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	наиболее	наиболее	ADV	_	Degree=Pos	6	advmod	_	_
+6	выраженной	выражать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	удетей	удетя	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+8	сРАС	срас	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	сниженный	нижеть	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	коэффициент	коэффициент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+13	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	_
+16	социального	социальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	по	по	ADP	_	_	20	case	_	SpacesAfter=\n
+19	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	fixed	_	_
+20	сбратьями	сбратье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	nmod	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	сестрами	сестра	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 77426
+# text = Дальнейший анализ показал, что наследование гетероплазмий мтДНК свысоким патогенным потенциалом отматери различается между детьми сРАС иихздоровыми братьями или сестрами, азначит, они могут как наследоваться, так иприобретаться впроцессе индивидуального (втом числе внутриутробного) развития, пишут исследователи.
+1	Дальнейший	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	наследование	наследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+7	гетероплазмий	гетероплазмия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpacesAfter=\n
+8	мтДНК	мтднк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	свысоким	свысокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	патогенным	патогенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	потенциалом	потенциал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+12	отматери	отмать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	различается	различаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	_
+14	между	между	ADP	_	_	15	case	_	_
+15	детьми	ребенок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+16	сРАС	срасать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	parataxis	_	SpacesAfter=\n
+17	иихздоровыми	иихздоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	братьями	брат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	obl	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	сестрами	сестра	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	азначит	азначит	ADV	_	Degree=Pos	25	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	25	nsubj	_	_
+25	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+26	как	как	ADV	_	Degree=Pos	27	advmod	_	_
+27	наследоваться	наследоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	30	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+29	так	так	ADV	_	Degree=Pos	30	advmod	_	_
+30	иприобретаться	иприобретаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	xcomp	_	_
+31	впроцессе	впроцесса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	30	obl	_	_
+32	индивидуального	индивидуальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	38	advmod	_	_
+36	внутриутробного	внутриутробный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	_
+38	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+41	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 77427
+# text = Полученные результаты подтверждают связь развития РАС с дисфункцией митохондрий, хотя непосредственные молекулярные механизмы влияния мутаций мтДНК навозникновение итечение этих расстройств еще предстоит выяснить.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	подтверждают	подтверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	РАС	рас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	8	case	_	SpacesAfter=\n
+8	дисфункцией	дисфункция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+9	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	хотя	хотя	SCONJ	_	_	0	mark	_	_
+12	непосредственные	непосредственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+13	молекулярные	молекулярной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+15	влияния	влияние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpacesAfter=\n
+16	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	мтДНК	мтднк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	навозникновение	навозникновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+19	итечение	итечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+20	этих	этот	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+22	еще	еще	ADV	_	Degree=Pos	23	advmod	_	_
+23	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+24	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 77428
+# text = Помнению ученых, выявление мутаций митохондриального генома всемьях свысоким риском может улучшить диагностику илечение РАС.
+1	Помнению	Помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	выявление	выявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+5	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	митохондриального	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	всемьях	всемье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	_
+9	свысоким	свысокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpacesAfter=\n
+10	риском	риск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	диагностику	диагностика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	илечение	илечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	РАС.	РАС.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	nmod	_	SpaceAfter=No
+
+# sent_id = 77429
+# text = Мутации мтДНК-- неединственные генетические нарушения, для которых показана связь сРАС.
+1	Мутации	мутация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+2	мтДНК-	мтДНК-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	неединственные	неединственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	для	для	ADP	_	_	9	case	_	SpacesAfter=\n
+9	которых	который	PRON	_	Case=Gen	10	obl	_	_
+10	показана	показывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+11	связь	связь	ADP	_	_	12	case	_	_
+12	сРАС.	сРАСей	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+
+# sent_id = 77430
+# text = Так, например, недавно ученые выявили корреляцию между мутациями гена CHD8, регулирующего экспрессию других генов, иразвитием этих расстройств.
+1	Так	так	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	недавно	недавно	ADV	_	Degree=Pos	7	advmod	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	выявили	выявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	корреляцию	корреляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	между	между	ADP	_	_	10	case	_	_
+10	мутациями	мутация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	nmod	_	SpacesAfter=\n
+11	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	CHD8	CHD8	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	регулирующего	регулировать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+15	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	иразвитием	иразвитие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	conj	_	_
+20	этих	этот	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 77431
+# text = Насегодняшний день известны десятки участков генома, так или иначе связанные сриском РАС.
+1	Насегодняшний	Насегодняшний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpacesAfter=\n
+4	десятки	десяток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	так	так	ADV	_	Degree=Pos	11	advmod	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	иначе	иначе	ADV	_	Degree=Pos	8	conj	_	_
+11	связанные	связывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+12	сриском	срисок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	РАС.	Расяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+
+# sent_id = 77432
+# text = Это подтверждает господствующую всовременной медицине теорию отом, что развитие аутизма и схожих расстройств имеет многофакторную природу, включающую нарушения нагенетическом, когнитивном инейронном уровнях.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	подтверждает	подтверждавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	господствующую	господствуть	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+4	всовременной	всовременный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	медицине	медицина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+6	теорию	теория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	2	mark	_	_
+10	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+11	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+13	схожих	схожий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	расстройств	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	conj	_	_
+15	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpacesAfter=\n
+16	многофакторную	многофакторный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	включающую	включають	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+21	нагенетическом	нагенетический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	когнитивном	когнитивный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	conj	_	_
+24	инейронном	инейронный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	conj	_	SpacesAfter=\n
+25	уровнях	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 77433
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

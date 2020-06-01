@@ -1,0 +1,168 @@
+# sent_id = 73598
+# text = Сегодня в Стокгольме объявилилауреатов Нобелевской премии по химии 2016 года.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	SpacesBefore=\n
+2	в	в	ADP	_	_	3	case	_	_
+3	Стокгольме	стокгольм	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+4	объявилилауреатов	объявилилауреат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	химии	химия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+9	2016	2016	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 73599
+# text = 108-я премия будет вручена Жан-Пьеру Соважу (Jean-Pierre Sauvage), сэру Фрейзеру Стоддарту (Sir J. Fraser Stoddart) и Бернарду Феринга (Bernard L.
+1	108-я	108-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	вручена	вручать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	Жан-Пьеру	Жан-Пьер	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+6	Соважу	Соваж	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Jean-Pierre	Jean-Pierre	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+9	Sauvage	Sauvage	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	сэру	сэр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	0	appos	_	_
+13	Фрейзеру	Фрейзер	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	appos	_	_
+14	Стоддарту	Стоддарт	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Sir	Sir	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+17	J.	j.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	Fraser	Fraser	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+19	Stoddart	Stoddart	PROPN	_	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	Бернарду	Бернарду	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+23	Феринга	Феринг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	Bernard	Bernard	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+26	L.	l.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+
+# sent_id = 73600
+# text = Подробнее о работах лауреатов можно прочитатьв пресс-релизе комитета.Жан-Пьер Соваж разработал удобный метод для синтеза особого класса соединений -- катенанов.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	5	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+4	лауреатов	лауреат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	11	conj	_	_
+6	прочитатьв	читатьть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+7	пресс-релизе	пресс-релизе	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	комитета.	комитета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	Жан-Пьер	Жан-Пьер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	Соваж	Соваж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	удобный	удобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	катенанов	катенан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 73601
+# text = Молекулы этих веществ состоят из двух колец, сцепленных друг с другом.
+1	Молекулы	молекул	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	двух	два	NUM	_	Case=Gen	7	nummod	_	_
+7	колец	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	сцепленных	сцеплеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	fixed	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 73602
+# text = Такие связи называются топологическими, или механическими.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	связи	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	называются	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	топологическими	топологический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	или	или	CCONJ	_	_	7	cc	_	_
+7	механическими	механический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 73603
+# text = Работы Фрейзера Стоддарт расширяют список соединений с подобными "нехимическими" связями -- его группа занималась синтезом и исследованием ротаксанов.
+1	Работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	Фрейзера	Фрейзер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Стоддарт	Стоддарт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	flat:name	_	_
+4	расширяют	расширять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	с	с	ADP	_	_	12	case	_	_
+8	подобными	подобный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	нехимическими	нехимический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	связями	связь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	занималась	заниматься	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+17	синтезом	синтез	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	исследованием	исследование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+20	ротаксанов	ротаксан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 73604
+# text = Их молекулы состоят из длинной цепочки, на которую свободно надето кольцо.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	молекулы	молекулы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	длинной	длинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	цепочки	цепочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	которую	который	PRON	_	Case=Acc	11	obl	_	_
+10	свободно	свободно	ADV	_	Degree=Pos	11	advmod	_	_
+11	надето	надевать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+12	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 73605
+# text = Благодаря двум крупным конструкциям на концах цепочки кольцо не может "свалиться" с нее.
+1	Благодаря	благодаря	ADP	_	_	4	case	_	_
+2	двум	два	NUM	_	Case=Dat	4	nummod	_	_
+3	крупным	крупный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	4	amod	_	_
+4	конструкциям	конструкция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	концах	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+7	цепочки	цепочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	свалиться	сваливаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73606
+# text = Стоддарту удалось показать, что кольцо может свободно перемещаться вдоль цепочки.
+1	Стоддарту	Стоддарт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	свободно	свободно	ADV	_	Degree=Pos	9	advmod	_	_
+9	перемещаться	перемещаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+10	вдоль	вдоль	ADP	_	_	11	case	_	_
+11	цепочки	цепочка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+

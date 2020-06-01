@@ -1,0 +1,504 @@
+# sent_id = 85144
+# text = Инженеры из Массачусетского технологического института разработали микроэлектромеханическую платформу, единственным движущимся элементом в которой является капля воды или любой другой жидкости.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	5	case	_	_
+3	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	микроэлектромеханическую	микроэлектромеханический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	платформу	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	единственным	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	_
+11	движущимся	движущиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+12	элементом	элемент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	которой	который	PRON	_	Case=Loc	15	obl	_	_
+15	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+16	капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+17	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	или	или	CCONJ	_	_	21	cc	_	_
+19	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+20	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 85145
+# text = Под действием внешнего напряжения она может менять свою высоту с точностью в десять миллионных долей метра.
+1	Под	под	ADP	_	_	2	case	_	_
+2	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+3	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	напряжения	напряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	десять	десять	NUM	_	Case=Acc	15	nummod:gov	_	_
+14	миллионных	миллионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	долей	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	_
+16	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85146
+# text = Ученые подчеркивают, что в устройстве нет изнашивающихся от трения частей, как в традиционных МЭМС (микроэлектромеханических системах).
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	изнашивающихся	изнашиваться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	трения	трение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	частей	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	16	cc	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	традиционных	традиционный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	МЭМС	Мэмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	advmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	микроэлектромеханических	микроэлектромеханический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	parataxis	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85147
+# text = Платформа может найти применение для фокусировки микроскопов или точном управлении положением зеркал в оптических системах.
+1	Платформа	платформа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	фокусировки	фокусировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	микроскопов	микроскоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	или	или	CCONJ	_	_	10	cc	_	_
+9	точном	точный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	управлении	управление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	conj	_	_
+11	положением	положение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+12	зеркал	зеркать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	оптических	оптический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
+15	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 85148
+# text = Об исследовании сообщает пресс-релиз института, статья принята к публикации вApplied Physics Letters.Формой капли на поверхности того или иного материала управляет смачиваемость -- или, если точнее, контактный угол между жидкостью, поверхностью и окружающей средой.
+1	Об	о	ADP	_	_	2	case	_	_
+2	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+4	пресс-релиз	пресс-релиз	ADP	_	_	5	case	_	_
+5	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	принята	принимать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	публикации	публикация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+11	вApplied	вApplied	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Physics	Physics	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Letters	Letters	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Формой	формый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	капли	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	_
+20	или	или	CCONJ	_	_	21	cc	_	_
+21	иного	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	_
+22	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+23	управляет	управлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+24	смачиваемость	смачиваемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	--	--	PUNCT	_	_	24	punct	_	_
+26	или	или	CCONJ	_	_	29	cc	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	если	если	SCONJ	_	_	29	cc	_	_
+29	точнее	точно	ADV	_	Degree=Cmp	24	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	контактный	контактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	угол	угол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+33	между	между	ADP	_	_	34	case	_	_
+34	жидкостью	жидкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	conj	_	_
+37	и	и	CCONJ	_	_	39	cc	_	_
+38	окружающей	окружать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	39	amod	_	_
+39	средой	среда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	conj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 85149
+# text = К примеру, капля воды на гидрофильной поверхности стекла растекается, угол контакта между поверхностью капли и стеклом невелик.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+5	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	гидрофильной	гидрофильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+9	стекла	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	_
+10	растекается	растекавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	угол	угол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+13	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	между	между	ADP	_	_	15	case	_	_
+15	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+16	капли	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	стеклом	стекл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	_
+19	невелик	небольшой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85150
+# text = В случае гидрофобной поверхности (например, покрытой воском) капля собирается в шарик, а угол контакта превышает 90 градусов, доходя до 170 или почти 180 градусов в случае супергидрофобных поверхностей (эффект лотоса).Смачиваемость поверхности можно изменить, используя внешние воздействия.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+3	гидрофобной	гидрофобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	например	например	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	покрытой	покрывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	воском	воск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	собирается	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	шарик	шарик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	19	cc	_	_
+17	угол	угол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+20	90	90	NUM	_	_	21	nummod	_	_
+21	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	доходя	доходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+24	до	до	ADP	_	_	29	case	_	_
+25	170	170	NUM	_	_	29	nummod	_	_
+26	или	или	CCONJ	_	_	28	cc	_	_
+27	почти	почти	ADV	_	Degree=Pos	28	advmod	_	_
+28	180	180	NUM	_	_	25	conj	_	_
+29	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+32	супергидрофобных	супергидрофобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	поверхностей	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	appos	_	_
+36	лотоса	лотос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+39	Смачиваемость	Смачиваемость	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	appos	_	_
+40	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+41	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+42	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	41	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	используя	использовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	42	advcl	_	_
+45	внешние	внешний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	46	amod	_	_
+46	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 85151
+# text = Например, в каплю можно ввести электрод и подать напряжение между жидкостью и поверхностью.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	каплю	капля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	nsubj	_	_
+7	электрод	электрод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	подать	подавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+10	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	между	между	ADP	_	_	12	case	_	_
+12	жидкостью	жидкость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85152
+# text = Тогда в капле и на поверхности возникнут разноименные, притягивающиеся друг к другу заряды.
+1	Тогда	тогда	ADV	_	Degree=Pos	3	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	капле	капль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	conj	_	_
+7	возникнут	возникать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	разноименные	разноименный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	притягивающиеся	притягиваться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+11	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	fixed	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+14	заряды	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85153
+# text = Капля растечется и контактный угол уменьшится.
+1	Капля	капля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	растечется	растечуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	и	и	PART	_	_	4	advmod	_	_
+4	контактный	контактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	угол	угол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	уменьшится	уменьшаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 85154
+# text = В феврале 2016 года команда физиков из MIT, университетов Иллинойса и Твента обнаружила, что резким отключением напряжения (от 350 вольт до нуля) можно заставить каплю подпрыгнуть после растекания.
+1	В	в	ADP	_	_	2	case	_	_
+2	феврале	февраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+3	2016	2016	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+6	физиков	физик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	MIT	mit	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	университетов	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+11	Иллинойса	Иллинойс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	Твента	Твент	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+14	обнаружила	обнаруживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	14	mark	_	_
+17	резким	резкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	отключением	отключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+19	напряжения	напряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	от	от	ADP	_	_	23	case	_	_
+22	350	350	NUM	_	_	23	nummod	_	_
+23	вольт	-вольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	parataxis	_	_
+24	до	до	ADP	_	_	25	case	_	_
+25	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
+27	можно	можно	ADV	_	Degree=Pos	14	advcl	_	_
+28	заставить	заставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	nsubj	_	_
+29	каплю	капля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	подпрыгнуть	подпрыгать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+31	после	после	ADP	_	_	32	case	_	_
+32	растекания	растекание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 85155
+# text = Новая работа, при участии того же авторского коллектива из MIT, описывает более плавный контроль за поведением капли и необычное применение эффекта.Роль электрода в новом эксперименте выполняла тонкая медная пластинка, лежащая на поверхности капель жидкости.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	участии	участие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+6	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+7	же	же	PART	_	_	6	advmod	_	_
+8	авторского	авторской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	коллектива	коллективо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	MIT	mit	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	описывает	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	более	более	ADV	_	Degree=Cmp	15	advmod	_	_
+15	плавный	плавный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	контроль	контроль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	поведением	поведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	_
+19	капли	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	и	и	CCONJ	_	_	22	cc	_	_
+21	необычное	необычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	conj	_	_
+23	эффекта.	эффекта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	Роль	роль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	appos	_	_
+25	электрода	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	эксперименте	эксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	_
+29	выполняла	выполнять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+30	тонкая	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+31	медная	медный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	пластинка	пластинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	лежащая	лежать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+37	капель	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	nmod	_	_
+38	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 85156
+# text = На нее подавался переменный ток (около 150 вольт), заставлявший капли растекаться.
+1	На	на	ADP	_	_	2	case	_	_
+2	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	obl	_	_
+3	подавался	подавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	переменный	переменный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	около	около	ADP	_	_	9	case	_	_
+8	150	150	NUM	_	_	9	nummod	_	_
+9	вольт	-вольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	заставлявший	заставлявать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	amod	_	_
+13	капли	капля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+14	растекаться	растекаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	dep	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 85157
+# text = Для того, чтобы зафиксировать положение капель, вся поверхность была сделана из гидрофобного материала, кроме участков для капель -- они были гидрофильными.
+1	Для	для	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+5	зафиксировать	фиксировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+6	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	капель	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	гидрофобного	гидрофобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	кроме	кроме	ADP	_	_	18	case	_	_
+18	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	капель	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj	_	_
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	гидрофильными	гидрофильный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 85158
+# text = Изменяя приложенное напряжение физики контролировали высоту капель в диапазоне десятых долей миллиметра с точностью в десять микрон.Авторы подчеркивают, что изменение высоты капли под действием электрического тока -- не новая идея.
+1	Изменяя	изменять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+2	приложенное	приложать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	контролировали	контролировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	капель	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+10	десятых	десятый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	долей	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	миллиметра	миллиметер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	десять	десять	NUM	_	Case=Acc	17	nummod:gov	_	_
+17	микрон.	микронута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	19	mark	_	_
+22	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+23	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	капли	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	под	под	ADP	_	_	26	case	_	_
+26	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	nmod	_	_
+27	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	--	--	PUNCT	_	_	28	punct	_	_
+30	не	не	PART	_	_	31	advmod	_	_
+31	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 85159
+# text = Однако, ранее никто не использовал ее для создания подвижных платформ.
+1	Однако	однако	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ранее	ранее	ADV	_	Degree=Pos	6	advmod	_	_
+4	никто	никто	PRON	_	Case=Nom	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+10	подвижных	подвижный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	платформ	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85160
+# text = Подбирая размер капель можно добиться не только подъема и спуска платформы, но и ее наклона на точно заданный угол.Ранее физики изАвстрии, Бельгии и Швейцарии создали материал, меняющий свою смачиваемость под действием электрического тока из-за изменения структуры поверхности.
+1	Подбирая	подбирать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+2	размер	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	капель	капля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	только	только	PART	_	_	8	advmod	_	_
+8	подъема	подъем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	спуска	спусок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+11	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	но	но	CCONJ	_	_	16	cc	_	_
+14	и	и	PART	_	_	13	advmod	_	_
+15	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	16	nmod	_	_
+16	наклона	наклон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+17	на	на	ADP	_	_	20	case	_	_
+18	точно	точно	ADV	_	Degree=Pos	19	advmod	_	_
+19	заданный	задавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	угол.	уголица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+21	Ранее	рано	ADV	_	Degree=Cmp	28	advmod	_	_
+22	физики	физика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	изАвстрии	изАвстрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	Бельгии	бельгия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	Швейцарии	швейцария	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	conj	_	_
+28	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+29	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	меняющий	менять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+32	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	33	amod	_	_
+33	смачиваемость	смачиваемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+34	под	под	ADP	_	_	35	case	_	_
+35	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	obl	_	_
+36	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	из-за	из-за	ADP	_	_	39	case	_	_
+39	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obl	_	_
+40	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+41	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 85161
+# text = Он представляет собой нитрид бора, нанесенный на родиевую поверхность.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	нитрид	нитрид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	бора	бор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	нанесенный	наносить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	родиевую	родиевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 85162
+# text = Материал интересен в первую очередь своей стабильностью -- он способен выдерживатьтемпературу вплоть до тысячи градусов.Владимир Королёв
+1	Материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	интересен	интересный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	в	в	ADP	_	_	7	discourse	_	_
+4	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	fixed	_	_
+6	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	7	amod	_	_
+7	стабильностью	стабильность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	parataxis	_	_
+11	выдерживатьтемпературу	выдерживатьтемпература	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+12	вплоть	вплоть	ADV	_	Degree=Pos	14	case	_	_
+13	до	до	ADP	_	_	12	fixed	_	_
+14	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	градусов.	градусовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+17	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+

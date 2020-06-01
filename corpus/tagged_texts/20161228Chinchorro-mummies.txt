@@ -1,0 +1,475 @@
+# sent_id = 86548
+# text = Чилийские ученые исследовали 15 мумий народа чинчорро, преимущественно останков детей.
+1	Чилийские	чилийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	15	15	NUM	_	_	5	nummod	_	_
+5	мумий	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	народа	народ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpacesAfter=\n
+7	чинчорро	чинчорро	NUM	_	Case=Nom	10	nummod:gov	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	преимущественно	преимущественно	ADV	_	Degree=Pos	10	advmod	_	_
+10	останков	останк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	parataxis	_	SpacesAfter=\n
+11	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 86549
+# text = Это древнейшие из найденных до сих пор искусственно созданных мумий, возраст самой старой из них -- около 7400 лет.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+2	древнейшие	древний	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	12	amod	_	_
+3	из	из	ADP	_	_	10	case	_	SpacesAfter=\n
+4	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+5	до	до	ADP	_	_	9	advmod	_	_
+6	сих	сей	DET	_	Case=Gen|Number=Plur	5	fixed	_	_
+7	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	fixed	_	_
+8	искусственно	искусственно	ADV	_	Degree=Pos	9	advmod	_	SpacesAfter=\n
+9	созданных	создавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	мумий	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	возраст	возраст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+13	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	старой	старый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	nmod	_	SpacesAfter=\n
+15	из	из	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+17	--	--	PUNCT	_	_	16	punct	_	_
+18	около	около	ADP	_	_	20	case	_	_
+19	7400	7400	NUM	_	_	20	nummod	_	_
+20	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86550
+# text = Оказалось, что у одной из мумий не было скелета, она представляет собой глиняную фигурку.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	у	у	ADP	_	_	5	case	_	SpacesAfter=\n
+5	одной	один	NUM	_	Case=Gen|Gender=Fem	10	nummod	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	мумий	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+10	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	SpacesAfter=\n
+13	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+14	собой	себя	PRON	_	Case=Ins	13	obl	_	_
+15	глиняную	глиняный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	фигурку	фигурка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86551
+# text = Об исследовании сообщает AFP.
+1	Об	о	ADP	_	_	2	case	_	_
+2	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	AFP	Afp	PROPN	_	Foreign=Yes	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 86552
+# text = Культура чинчорро была названа по имени пляжа, где были найдены первые мумии.
+1	Культура	культура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	чинчорро	чинчорро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	названа	называть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+7	пляжа	пляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+10	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	SpacesAfter=\n
+11	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+12	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	мумии	мумия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86553
+# text = Она существовала на территории современных Перу и Чили в период от 11 000 до 3000 лет назад.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	существовала	существовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	территории	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	Перу	перу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Чили	чили	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpacesAfter=\n
+9	в	в	ADP	_	_	10	case	_	_
+10	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	11	11	NUM	_	_	10	nummod	_	_
+13	000	000	NUM	_	_	12	nummod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	3000	3000	NUM	_	_	16	nummod	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+17	назад	назад	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86554
+# text = Большинство из них обитали на побережье Тихого океана; судя по найденным каменным и костяным орудиям и анализу останков, они были рыболовами, собирали моллюсков и охотились на морских млекопитающих.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpacesAfter=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	обитали	обитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	побережье	побережье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	Тихого	тихий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\n
+8	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	;	;	PUNCT	_	_	8	punct	_	_
+10	судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+11	по	по	ADP	_	_	16	case	_	_
+12	найденным	найдять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+13	каменным	каменный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	SpacesAfter=\n
+15	костяным	костяной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	conj	_	_
+16	орудиям	орудия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	анализу	анализ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+19	останков	останки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	23	nsubj	_	_
+22	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	рыболовами	рыболова	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	собирали	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+26	моллюсков	моллюск	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpacesAfter=\n
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	охотились	охотиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	25	conj	_	_
+29	на	на	ADP	_	_	31	case	_	_
+30	морских	морской	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	31	amod	_	_
+31	млекопитающих	млекопитающее	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 86555
+# text = Народ чинчорро был одним из первых, мумифицировавших своих умерших; древние жители Южной Америки начали делать мумии на две тысячи лет раньше, чем египтяне.
+1	Народ	народ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	чинчорро	чинчорро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	мумифицировавших	мумифицировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	SpacesAfter=\n
+9	своих	свой	DET	_	Case=Acc|Number=Plur	10	amod	_	_
+10	умерших	умерший	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	;	;	PUNCT	_	_	10	punct	_	_
+12	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	жители	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+14	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	SpacesAfter=\n
+15	Америки	америка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	мумии	мумия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	21	nummod:gov	_	SpacesAfter=\n
+21	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	obl	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	раньше	рано	ADV	_	Degree=Cmp	0	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	чем	чем	SCONJ	_	_	26	cc	_	_
+26	египтяне	египтянин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 86556
+# text = Ученые считают, что чинчорро мумифицировали не только представителей элиты, как другие древние народы, а всех, включая младенцев, стариков и даже нерожденных детей (плодов).
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	чинчорро	чинчорро	ADV	_	Degree=Pos	6	advmod	_	_
+6	мумифицировали	мумифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	только	только	PART	_	_	9	advmod	_	SpacesAfter=\n
+9	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	элиты	элита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	как	как	SCONJ	_	_	15	cc	_	_
+13	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	народы	народ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	18	orphan	_	_
+18	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	20	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	включая	включая	ADV	_	Degree=Pos	6	acl	_	_
+21	младенцев	младенец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+23	стариков	старик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	conj	_	_
+24	и	и	CCONJ	_	_	27	cc	_	_
+25	даже	даже	PART	_	_	26	advmod	_	_
+26	нерожденных	нерожденный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	conj	_	SpacesAfter=\n
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	плодов	плод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	parataxis	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 86557
+# text = Возможно, семьи самостоятельно мумифицировали покойных.
+1	Возможно	возможно	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	семьи	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	самостоятельно	самостоятельно	ADV	_	Degree=Pos	5	advmod	_	_
+5	мумифицировали	мумифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	покойных	покойный	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86558
+# text = Технология изготовления древнейших мумий была довольно сложной.
+1	Технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpacesAfter=\n
+2	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	древнейших	древний	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	4	amod	_	_
+4	мумий	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	SpacesAfter=\n
+6	довольно	довольно	ADV	_	Degree=Pos	7	advmod	_	_
+7	сложной	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86559
+# text = Тело умершего высушивали, затем с него снимали кожу и удаляли мягкие ткани и внутренние органы.
+1	Тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	умершего	умерший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	высушивали	высушивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	затем	затем	ADV	_	Degree=Pos	8	advmod	_	_
+6	с	с	ADP	_	_	7	case	_	SpacesAfter=\s\s
+7	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	SpacesAfter=\n
+8	снимали	снимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	удаляли	удалять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	мягкие	мягкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	ткани	ткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+14	и	и	CCONJ	_	_	16	cc	_	SpacesAfter=\n
+15	внутренние	внутренний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	органы	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 86560
+# text = Скелет укрепляли деревянными прутами, реконструировали тело с помощью глины и травы и натягивали на него кожу.
+1	Скелет	скелет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	укрепляли	укреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	деревянными	деревянный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	amod	_	_
+4	прутами	прут	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	реконструировали	реконструировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpacesAfter=\n
+7	тело	тело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
+10	глины	глин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	травы	трава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	натягивали	натягивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpacesAfter=\n
+15	на	на	ADP	_	_	16	case	_	_
+16	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	obl	_	_
+17	кожу	кожа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86561
+# text = На лицо мумии накладывали глиняную маску.
+1	На	на	ADP	_	_	2	case	_	_
+2	лицо	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	мумии	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	накладывали	накладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	глиняную	глиняный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	маску	маска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 86562
+# text = Чилийские ученые изучили 15 древнейших мумий чинчорро, преимущественно младенцев и нерожденных детей.
+1	Чилийские	чилийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	изучили	изучивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	15	15	NUM	_	_	6	nummod	_	_
+5	древнейших	древний	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	6	amod	_	_
+6	мумий	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	чинчорро	чинчорро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	преимущественно	преимущественно	ADV	_	Degree=Pos	10	advmod	_	_
+10	младенцев	младенец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	0	obj	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	нерожденных	нерожденный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	SpacesAfter=\n
+13	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86563
+# text = Чтобы выяснить генетические связи людей чинчорро с современными жителями Южной Америки, исследователи взяли образцы ДНК из кожи и волос, а чтобы восстановить внешний облик древних людей, ученые сделали компьютерную томографию останков.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+2	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+3	генетические	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	чинчорро	чинчорро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	современными	современный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	жителями	житель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	_
+10	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Америки	америка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpacesAfter=\n\s
+14	взяли	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	образцы	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	из	из	ADP	_	_	18	case	_	_
+18	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	волос	волос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	31	cc	_	SpacesAfter=\n
+23	чтобы	чтобы	SCONJ	_	Mood=Cnd	31	mark	_	_
+24	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	advcl	_	_
+25	внешний	внешний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	облик	облик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	SpacesAfter=\n
+28	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+31	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
+32	компьютерную	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	SpacesAfter=\n
+33	томографию	томография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+34	останков	останки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 86564
+# text = Также ученые надеются, что томография поможет им точнее узнать детали технологии мумификации.
+1	Также	также	CCONJ	_	_	3	cc	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	надеются	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	томография	томография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	7	obl	_	SpacesAfter=\n
+9	точнее	точно	ADV	_	Degree=Cmp	10	advmod	_	_
+10	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+11	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\n
+13	мумификации	мумификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 86565
+# text = Оказалось, что самая маленькая мумия -- это глиняная фигурка, при сканировании ученые не обнаружили скелета.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	SpacesAfter=\n
+4	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	мумия	мумия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	глиняная	глиняной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpacesAfter=\n
+10	фигурка	фигурка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	сканировании	сканирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+14	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	SpacesAfter=\n
+16	обнаружили	обнаружять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+17	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86566
+# text = По мнению директора департамента антропологии Национального музея естественной истории Чили Вероники Сильва, возможно люди чинчорро сделали скульптуру ребенка, которого невозможно было мумифицировать.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	parataxis	_	_
+3	директора	директор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	департамента	департамент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	антропологии	антропология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Национального	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	музея	музей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	естественной	естественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Чили	чили	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	Вероники	Вероника	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpacesAfter=\n
+12	Сильва	Сильва	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	возможно	возможно	ADV	_	Degree=Pos	17	advmod	_	_
+15	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+16	чинчорро	чинчорро	ADV	_	Degree=Pos	17	advmod	_	_
+17	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+18	скульптуру	скульптура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которого	который	PRON	_	Case=Acc	22	obj	_	_
+22	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	acl:relcl	_	SpacesAfter=\n
+23	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	_
+24	мумифицировать	мумифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 86567
+# text = Ранее чилийские и французские ученые предложили объяснение, почему люди чинчорро начали делать мумии.
+1	Ранее	ранее	ADV	_	Degree=Cmp	2	advmod	_	_
+2	чилийские	чилийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	SpacesAfter=\n
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	французские	французский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	объяснение	объяснение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	почему	почему	ADV	_	Degree=Pos	12	advmod	_	_
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	чинчорро	чинчорро	ADV	_	Degree=Pos	12	advmod	_	_
+12	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpacesAfter=\n
+13	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	мумии	мумия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86568
+# text = В период с 7000 до 4000 лет засушливый климат на побережье, где жил народ чинчорро, стал мягче, увеличилась влажность и стала доступна пресная вода, вследствие чего возросла численность населения.
+1	В	в	ADP	_	_	2	case	_	_
+2	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	7000	7000	NUM	_	_	2	nummod	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	4000	4000	NUM	_	_	7	nummod	_	_
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpacesAfter=\n
+8	засушливый	засушливый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	климат	климат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	побережье	побережье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	где	где	ADV	_	Degree=Pos	14	advmod	_	_
+14	жил	жить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpacesAfter=\n
+15	народ	народ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	чинчорро	чинчорро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	мягче	мягко	ADV	_	Degree=Cmp	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	увеличилась	увеличиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	conj	_	SpacesAfter=\n
+22	влажность	влажность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	conj	_	_
+25	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	24	amod	_	_
+26	пресная	пресный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	SpacesAfter=\n
+27	вода	вода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	вследствие	вследствие	ADP	_	_	30	case	_	_
+30	чего	что	PRON	_	Case=Gen	31	obl	_	_
+31	возросла	возрастать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+32	численность	численность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	SpacesAfter=\n
+33	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 86569
+# text = Увеличение числа людей повлекло за собой технологическое и культурное развитие, а также появление более сложных погребальных ритуалов.Екатерина Русакова
+1	Увеличение	увеличение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=\n
+4	повлекло	влечь	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	собой	себя	PRON	_	Case=Ins	4	obl	_	_
+7	технологическое	технологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpacesAfter=\n
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	культурное	культурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	_
+10	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	14	cc	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	появление	появление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	SpacesAfter=\n
+15	более	более	ADV	_	Degree=Cmp	16	advmod	_	_
+16	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	погребальных	погребальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	ритуалов.	ритуаловарищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	Екатерина	Екатерин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	appos	_	_
+20	Русакова	Русаков	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+

@@ -1,0 +1,492 @@
+# sent_id = 73771
+# text = Клинические испытания, проведенные американскими учеными, показали, что онаботулотоксинА (действующее вещество "Ботокса") лучше помогает женщинам стяжелым недержанием мочи, чем электростимуляция крестцовых нервов.
+1	Клинические	клинический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	американскими	американский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl:agent	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	онаботулотоксинА	онаботулотоксина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	действующее	действовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	вещество	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	appos	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Ботокса	Ботокс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	16	punct	_	_
+19	лучше	хорошо	ADV	_	Degree=Cmp	20	advmod	_	_
+20	помогает	помогавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpacesAfter=\n
+21	женщинам	женщина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	20	obl	_	_
+22	стяжелым	стяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+23	недержанием	недержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	_
+24	мочи	мочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	чем	чем	SCONJ	_	_	27	cc	_	_
+27	электростимуляция	электростимуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	advmod	_	_
+28	крестцовых	крестцовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	нервов	нерв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 73772
+# text = Результаты испытаний опубликованы вJAMA.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+2	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вJAMA	вjama	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 73773
+# text = Недержание мочи-- это утрата контроля над сфинктерами мочеиспускательного канала, которая приводит кнепроизвольному испусканию того или иного объема мочи.
+1	Недержание	Недержание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	мочи	мочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	это	это	PART	_	_	6	cop	_	_
+6	утрата	утрата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	над	над	ADP	_	_	9	case	_	_
+9	сфинктерами	сфинктер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	SpacesAfter=\n
+10	мочеиспускательного	мочеиспускательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	канала	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	кнепроизвольному	кнепроизвольный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	испусканию	испускание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+17	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	20	amod	_	SpacesAfter=\n
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	иного	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	conj	_	_
+20	объема	объем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+21	мочи	мочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73774
+# text = Всилу анатомических особенностей, атакже перенесенных беременностей иродов женщины страдают имзначительно чаще, чем мужчины: по оценкам, заболевание наблюдается примерно утрети изних ввозрасте от30до60 лет.
+1	Всилу	Всил	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+2	анатомических	анатомический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	атакже	атакже	CCONJ	_	_	7	cc	_	_
+6	перенесенных	переносить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	SpacesAfter=\n
+7	беременностей	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	conj	_	_
+8	иродов	ирод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	страдают	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	имзначительно	имзначительно	ADV	_	Degree=Pos	12	advmod	_	_
+12	чаще	часто	ADV	_	Degree=Cmp	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	чем	чем	SCONJ	_	_	15	cc	_	_
+15	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	advmod	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	по	по	ADP	_	_	18	case	_	SpacesAfter=\n
+18	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	21	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+21	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	parataxis	_	_
+22	примерно	примерно	ADV	_	Degree=Pos	23	advmod	_	_
+23	утрети	утреть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+24	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	ввозрасте	ввозраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_
+26	от30до60	от30до60	NUM	_	_	27	nummod	_	SpacesAfter=\n
+27	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 73775
+# text = Взависимости отформы итяжести недержания для его лечения применяют особые диеты, упражнения или лекарственные препараты.
+1	Взависимости	Взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+2	отформы	отформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	итяжести	итяжесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	недержания	недержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+7	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	применяют	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+9	особые	особый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	диеты	диет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	упражнения	упражнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	conj	_	_
+13	или	или	CCONJ	_	_	15	cc	_	_
+14	лекарственные	лекарственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	препараты	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73776
+# text = Втяжелых случаях, устойчивых кэтим видам терапии, прибегают либо кхирургическому вмешательству, либо кэлектростимуляции крестцовых нервов, регулирующих тонус мочевого пузыря.
+1	Втяжелых	Втяжелый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	устойчивых	устойчивый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+5	кэтим	кэтот	DET	_	Case=Dat|Number=Plur	6	amod	_	_
+6	видам	вид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+7	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	прибегают	прибегать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	либо	либо	CCONJ	_	_	12	cc	_	_
+11	кхирургическому	кхирургический	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	вмешательству	вмешательство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	либо	либо	CCONJ	_	_	15	cc	_	_
+15	кэлектростимуляции	кэлектростимуляция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	conj	_	_
+16	крестцовых	крестцовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	нервов	нерв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	регулирующих	регулировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	тонус	тонус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	мочевого	мочевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	пузыря	пузырь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73777
+# text = Эффективность этих методов варьирует.
+1	Эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	варьирует	варьировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 73778
+# text = Втрехлетних мультицентровых открытых рандомизированных испытаниях, проведенных под руководством Университета Дьюка, приняла участие 381 женщина с рефрактерным недержанием мочи.
+1	Втрехлетних	Втрехлетний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+2	мультицентровых	мультицентровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+3	открытых	открытой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	рандомизированных	рандомизировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	проведенных	проводить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	_
+10	Университета	Университета	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Дьюка	Дьюк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	приняла	принимать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	381	381	NUM	_	_	16	nummod	_	_
+16	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+17	с	с	ADP	_	_	19	case	_	SpacesAfter=\n
+18	рефрактерным	рефрактерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	недержанием	недержание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	_
+20	мочи	мочь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 73779
+# text = Ихслучайным образом разделили надве группы: 192 участницам сделали инъекции онаботулотоксина вдетрузор (мышцу, сжимающую мочевой пузырь), а189 проводили электростимуляцию крестцовых нервов спомощью имплантируемого устройства.
+1	Ихслучайным	Ихслучайный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	разделили	разделать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	надве	надва	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	5	nummod:gov	_	_
+5	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	192	192	NUM	_	_	8	nummod	_	_
+8	участницам	участница	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+9	сделали	сделавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	инъекции	инъекция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+11	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	вдетрузор	вдетрузор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	parataxis	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	мышцу	мышца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	сжимающую	сжимать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	amod	_	SpacesAfter=\n
+17	мочевой	мочевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	пузырь	пузырь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	а189	а189	NUM	_	_	14	conj	_	_
+22	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+23	электростимуляцию	электростимуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	крестцовых	крестцовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	нервов	нерв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	SpacesAfter=\n
+27	имплантируемого	имплантируемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 73780
+# text = Анализ первичных результатов проводили по обязательному ежемесячному дневнику запервые полгода идвум опросникам, разработанным специально для оценки объективных исубъективных проявлений недержания иответа натерапию.
+1	Анализ	анализ	ADP	_	_	3	case	_	_
+2	первичных	первичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	по	по	ADP	_	_	8	case	_	SpacesAfter=\n
+6	обязательному	обязательный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	ежемесячному	ежемесячный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	дневнику	дневник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+9	запервые	запервый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+10	полгода	полгода	SCONJ	_	_	12	cc	_	_
+11	идвум	идва	NUM	_	Case=Dat	12	nummod	_	_
+12	опросникам	опросник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	разработанным	разрабатывать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	специально	специально	ADV	_	Degree=Pos	14	advmod	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	оценки	оценка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+18	объективных	объективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	исубъективных	исубъективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	проявлений	проявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	SpacesAfter=\n
+21	недержания	недержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	иответа	иответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	натерапию	натерапия	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	21	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 73781
+# text = Среди 364участниц, завершивших свое участие виспытаниях, число ежедневных эпизодов экстренного недержания оказалось значимо ниже в группе онаботулотоксина (при исходном уровне шесть и более эпизодов в день у пациенток из группы онаботулотоксина наблюдалось снижение в среднем на 3,9 эпизода, тогда как тот же показатель в группе электростимуляции составил лишь 3,3 эпизода).
+1	Среди	среди	ADP	_	_	2	case	_	_
+2	364участниц	364участница	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	завершивших	завершивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+5	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
+6	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	виспытаниях	виспытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+10	ежедневных	ежедневной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	эпизодов	эпизоды	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	экстренного	экстренный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	недержания	недержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	значимо	значимо	ADV	_	Degree=Pos	16	advmod	_	_
+16	ниже	низкий	ADJ	_	Degree=Cmp	14	amod	_	_
+17	в	в	ADP	_	_	18	case	_	SpacesAfter=\n
+18	группе	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	при	при	ADP	_	_	23	case	_	_
+22	исходном	исходный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	parataxis	_	_
+24	шесть	шесть	NUM	_	Case=Nom	27	nummod:gov	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	более	более	ADV	_	Degree=Cmp	27	nummod:gov	_	_
+27	эпизодов	эпизод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
+30	у	у	ADP	_	_	31	case	_	_
+31	пациенток	пациентка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	0	conj	_	_
+32	из	из	ADP	_	_	33	case	_	_
+33	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	наблюдалось	наблюдать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+36	снижение	снижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	nmod	_	_
+39	на	на	ADP	_	_	41	case	_	_
+40	3,9	3,9	NUM	_	_	41	nummod	_	_
+41	эпизода	эпизод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	тогда	тогда	ADV	_	Degree=Pos	45	mark	_	_
+44	как	как	SCONJ	_	_	43	fixed	_	_
+45	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	47	amod	_	_
+46	же	же	PART	_	_	45	advmod	_	_
+47	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	группе	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	51	nmod	_	_
+50	электростимуляции	электростимуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+51	составил	составлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+52	лишь	лишь	PART	_	_	53	advmod	_	_
+53	3,3	3,3	NUM	_	_	54	nummod	_	_
+54	эпизода	эпизод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+
+# sent_id = 73782
+# text = Также вгруппе онаботулотоксина наблюдался меньший уровень дискомфорта (46,7 против 38,6балла) и большие уровни удовлетворения лечением (67,7 против 59,8балла) и приверженности кнему (78,1 против 67,6балла).
+1	Также	также	CCONJ	_	_	4	cc	_	SpacesAfter=\n
+2	вгруппе	вгруппа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	наблюдался	наблюдать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	меньший	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7	дискомфорта	дискомфорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	46,7	46,7	NUM	_	_	11	nummod	_	_
+10	против	против	ADP	_	_	11	case	_	_
+11	38,6балла	38,6балл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	и	и	CCONJ	_	_	15	cc	_	SpacesAfter=\n
+14	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	уровни	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
+16	удовлетворения	удовлетворение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	лечением	лечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	67,7	67,7	NUM	_	_	21	nummod	_	_
+20	против	против	ADP	_	_	21	case	_	_
+21	59,8балла	59,8балл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	24	cc	_	SpacesAfter=\n
+24	приверженности	приверженность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	conj	_	_
+25	кнему	окно	PRON	_	Case=Dat|Gender=Neut|Number=Sing|Person=3	24	parataxis	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	78,1	78,1	NUM	_	_	25	nummod	_	_
+28	против	против	ADP	_	_	29	case	_	_
+29	67,6балла	67,6балл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 73783
+# text = Особого различия вудобстве, субъективных побочных эффектах ипредпочтении конкретного вида терапии между группами отмечено небыло.
+1	Особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	различия	различие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+3	вудобстве	вудобство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	субъективных	субъективный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+6	побочных	побочный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	эффектах	эффект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	conj	_	_
+8	ипредпочтении	ипредпочтение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+9	конкретного	конкретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	между	между	ADP	_	_	13	case	_	SpacesAfter=\n
+13	группами	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	nmod	_	_
+14	отмечено	отметывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	небыло	небыло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73784
+# text = Однако при назначении онаботулотоксина чаще проявлялись инфекции мочевыводящих путей (35против 11процентов) ивозникала потребность вэпизодической самокатетеризации наначальных стадиях лечения.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	при	при	ADP	_	_	3	case	_	_
+3	назначении	назначение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+4	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	чаще	часто	ADV	_	Degree=Cmp	6	advmod	_	SpacesAfter=\n
+6	проявлялись	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+8	мочевыводящих	мочевыводящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	путей	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	35против	35против	ADP	_	_	12	case	_	_
+12	11процентов	11процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	parataxis	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	ивозникала	ивозникать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpacesAfter=\n
+15	потребность	потребность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+16	вэпизодической	вэпизодический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	самокатетеризации	самокатетеризация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	наначальных	наначальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	стадиях	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+20	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 73785
+# text = Исследователи признают определенное преимущество онаботулотоксина перед электростимуляцией вповседневном улучшении состояния.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	признают	признавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	определенное	определенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	онаботулотоксина	онаботулотоксин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\n
+6	перед	перед	ADP	_	_	7	case	_	_
+7	электростимуляцией	электростимуляция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	вповседневном	вповседневный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	улучшении	улучшение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+10	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 73786
+# text = Однако, учитывая сопутствующую ситуацию синфекциями икатетеризациями, наданный момент считают клиническую роль препарата неопределенной.
+1	Однако	однако	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	SpacesAfter=\n
+4	сопутствующую	сопутствовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	синфекциями	синфекция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+7	икатетеризациями	икатетеризация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	наданный	надать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+12	клиническую	клинический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	неопределенной	неопределенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73787
+# text = Онаботулотоксин-- одна изфракций токсина, вырабатываемого почвенной анаэробной бактерией Clostridium botulinum, накопление которого вконсервированных продуктах приводит кразвитию опасного, часто летального поражения нервной системы, известного как ботулизм.
+1	Онаботулотоксин	Онаботулотоксин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	_
+5	изфракций	изфракция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+6	токсина	токсин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	вырабатываемого	вырабатывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+9	почвенной	почвенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	анаэробной	анаэробный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	бактерией	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl:agent	_	_
+12	Clostridium	Clostridium	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	botulinum	botulinum	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	накопление	накопление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+16	которого	который	PRON	_	Case=Gen	18	nmod	_	_
+17	вконсервированных	вконсервировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	SpacesAfter=\n
+18	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	_
+19	приводит	приводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+20	кразвитию	кразвитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+21	опасного	опасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	часто	часто	ADV	_	Degree=Pos	24	advmod	_	_
+24	летального	летальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	поражения	поражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+26	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	SpacesAfter=\n
+27	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	известного	известный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+30	как	как	SCONJ	_	_	31	cc	_	_
+31	ботулизм	ботулизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 73788
+# text = Всверхнизких терапевтических дозах токсин вызывает локальный паралич мускулатуры, что изначально нашло применение в борьбе сморщинами.
+1	Всверхнизких	Всверхнизкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+2	терапевтических	терапевтический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	дозах	доза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+4	токсин	токсин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+5	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+6	локальный	локальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	паралич	паралич	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+8	мускулатуры	мускулатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+11	изначально	изначально	ADV	_	Degree=Pos	12	advmod	_	_
+12	нашло	находить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	15	case	_	SpacesAfter=\n
+15	борьбе	борьба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	сморщинами	сморщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 73789
+# text = Кнастоящему времени препарат клинически или экспериментально применяется для лечения различных мышечных спазмов (втом числе приводящих кхроническим головным болям), избыточного потоотделения и невропатических болей.
+1	Кнастоящему	Кнастоить	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	клинически	клинически	ADV	_	Degree=Pos	7	advmod	_	_
+5	или	или	CCONJ	_	_	6	cc	_	SpacesAfter=\n
+6	экспериментально	экспериментально	ADV	_	Degree=Pos	4	conj	_	_
+7	применяется	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	мышечных	мышечной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	спазмов	спазм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	втом	втый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	SpacesAfter=\n
+15	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	parataxis	_	_
+16	приводящих	приводить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+17	кхроническим	кхронический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+18	головным	головный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	болям	боль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	избыточного	избыточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	потоотделения	потоотделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	conj	_	_
+24	и	и	CCONJ	_	_	26	cc	_	SpacesAfter=\n
+25	невропатических	невропатический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	болей	боль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 73790
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

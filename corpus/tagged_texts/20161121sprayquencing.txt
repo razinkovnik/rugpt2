@@ -1,0 +1,226 @@
+# sent_id = 80762
+# text = Американские ученые предложили теоретическое обоснование нового способа секвенирования белков идругих биополимеров, который вслучае практической реализации позволит значительно удешевить этот процесс.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	теоретическое	теоретической	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	обоснование	обоснование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	способа	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	секвенирования	секвенирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	белков	белки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	биополимеров	биополимер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+14	вслучае	вслучае	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	SpacesAfter=\n
+15	практической	практический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	реализации	реализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+18	значительно	значительно	ADV	_	Degree=Pos	19	advmod	_	_
+19	удешевить	удешевлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+21	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 80763
+# text = Описание метода опубликовано вжурнале Physical Review Applied.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	SpacesAfter=\n
+2	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	опубликовано	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Physical	Physical	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Review	Review	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Applied	Applied	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80764
+# text = Внастоящее время секвенирование нуклеиновых кислот стало рутинной процедурой впрофильных лабораториях.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	секвенирование	секвенирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	нуклеиновых	нуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+7	рутинной	рутинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	процедурой	процедура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	впрофильных	впрофильный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	лабораториях	лаборатория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80765
+# text = Однако расшифровка аминокислотной последовательности белка досих пор сопряжена сбольшими техническими сложностями, может занимать недели истоит порядка 70долларов заодну аминокислоту.
+1	Однако	однако	ADV	_	Degree=Pos	8	advmod	_	_
+2	расшифровка	расшифровка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	аминокислотной	аминокислотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+4	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	белка	белка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+6	досих	досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	сопряжена	сопрягать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	сбольшими	сбольший	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	техническими	технической	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	SpacesAfter=\n
+11	сложностями	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+14	занимать	занимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	недели	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+16	истоит	истоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	порядка	порядка	ADP	_	_	18	case	_	_
+18	70долларов	70доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+19	заодну	заодн	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	SpacesAfter=\n
+20	аминокислоту	аминокислот	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 80766
+# text = Сотрудники Брауновского университета предложили использовать для секвенирования белков, нуклеиновых кислот идругих макромолекул электроспрей.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	Брауновского	Брауновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	SpacesAfter=\n
+6	для	для	ADP	_	_	7	case	_	_
+7	секвенирования	секвенирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+8	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	нуклеиновых	нуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+12	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	макромолекул	макромолекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	электроспрей	электроспрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80767
+# text = Суть этого метода состоит втом, что под действием электрического поля наконце капилляра израствора выделяются отдельные ионы, которые ввакууме перемещаются кмасс-спектрометру.
+1	Суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+10	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	наконце	наконца	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpacesAfter=\n
+13	капилляра	капилляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	израствора	израствор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	выделяются	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	_
+16	отдельные	отдельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	ионы	ион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+20	ввакууме	ввакуума	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+21	перемещаются	перемещаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	SpacesAfter=\n
+22	кмасс-спектрометру	кмасс-спектрометр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80768
+# text = Позамыслу ученых, для успешной расшифровки структуры белка отнего навыходе изкапилляра нужно отщеплять поодной аминокислоте, которая под действием тока переместится кмасс-спектрометру.
+1	Позамыслу	Позамысл	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	успешной	успешный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	расшифровки	расшифровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+7	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	отнего	отний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	nmod	_	_
+10	навыходе	навыходе	ADP	_	_	11	case	_	_
+11	изкапилляра	изкапилляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+13	отщеплять	отщеплять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	поодной	поодный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	аминокислоте	аминокислота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	которая	который	PRON	_	Case=Nom	21	nsubj	_	_
+18	под	под	ADP	_	_	19	case	_	_
+19	действием	действие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+20	тока	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	переместится	переместяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
+22	кмасс-спектрометру	кмасс-спектрометр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80769
+# text = При этом электрическое поле непозволит броуновскому движению нарушить последовательность анализируемых аминокислот.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpacesAfter=\n
+3	электрическое	электрический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	поле	поле	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	непозволит	непозволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	броуновскому	броуновский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	движению	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+8	нарушить	нарушать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpacesAfter=\n
+9	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	анализируемых	анализируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	аминокислот	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80770
+# text = Исследователи смоделировали подобную технологию для двух способов отщепления аминокислот: лазером иферментом (протеазой вслучае белка, экзонуклеазой вслучае нуклеиновых кислот).
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	смоделировали	смоделировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	подобную	подобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	для	для	ADP	_	_	7	case	_	_
+6	двух	два	NUM	_	Case=Gen	7	nummod	_	SpacesAfter=\n
+7	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	отщепления	отщепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	аминокислот	аминокислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	лазером	лазер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+12	иферментом	ифермент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	appos	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	протеазой	протеаза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	parataxis	_	_
+15	вслучае	вслучай	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	белка	белка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	экзонуклеазой	экзонуклеаза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	_
+19	вслучае	вслучай	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+20	нуклеиновых	нуклеиновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	кислот	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 80771
+# text = Согласно ихрасчетам, точность анализа превысит 95процентов, если лазер будет действовать нарасстоянии трех нанометров отконца капилляра, афермент-- нарасстоянии 100нанометров.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	ихрасчетам	ихрасчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	точность	точность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\n
+5	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	превысит	превышать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	95процентов	95процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	если	если	SCONJ	_	_	6	mark	_	_
+10	лазер	лазер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	_
+13	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+14	трех	три	NUM	_	Case=Gen	15	nummod	_	SpacesAfter=\n
+15	нанометров	нанометер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	отконца	отконец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	капилляра	капилляр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	афермент	афермент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	compound	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	нарасстоянии	нарасстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+23	100нанометров	100нанометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80772
+# text = По словам ученых, это вполне достижимо сиспользованием современных технологий.
+1	По	по	ADP	_	_	2	case	_	SpacesAfter=\n
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	вполне	вполне	ADV	_	Degree=Pos	7	advmod	_	_
+7	достижимо	достижимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	сиспользованием	сиспользование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+9	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+

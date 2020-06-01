@@ -1,0 +1,370 @@
+# sent_id = 79803
+# text = Исследователи из Лаборатории беспроводных систем (Wireless Systems Lab) Стэнфордского университета создали мессенджер, передающий сообщения с помощью уксуса и жидкости для мытья стекол.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Лаборатории	лаборатория	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	беспроводных	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Wireless	Wireless	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Systems	Systems	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Lab	lab	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	Стэнфордского	стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+13	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	мессенджер	мессенджер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	передающий	передать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	сообщения	сообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
+18	с	с	ADP	_	_	17	case	_	_
+19	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	fixed	_	_
+20	уксуса	уксус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	мытья	мытье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	стекол	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 79804
+# text = Об этомсообщаетсяна сайте Стэнфордского университета.Целью разработок является создание недорогой беспроводной системы коммуникации, которая бы работала без использования электроники.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этомсообщаетсяна	этомсообщаетсяный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Стэнфордского	Стэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	университета.	университета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl:agent	_	SpaceAfter=No
+6	Целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl:agent	_	_
+7	разработок	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+9	создание	создание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	недорогой	недорогой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	беспроводной	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	17	nsubj	_	_
+16	бы	бы	PART	_	Mood=Cnd	17	aux	_	_
+17	работала	работать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	без	без	ADP	_	_	19	case	_	_
+19	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+20	электроники	электроника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 79805
+# text = Такая система сможет функционировать там, где невозможна или затруднена работа обычных электромагнитных приборов -- например, под водой или в местах с большим количеством металла.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	функционировать	функционировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	там	там	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	где	где	ADV	_	Degree=Pos	8	advmod	_	_
+8	невозможна	невозможный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	acl:relcl	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	затруднена	затруднать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+11	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+12	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	электромагнитных	электромагнитной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	например	например	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	под	под	ADP	_	_	19	case	_	_
+19	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	parataxis	_	_
+20	или	или	CCONJ	_	_	22	cc	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	conj	_	_
+23	с	с	ADP	_	_	25	case	_	_
+24	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	количеством	количество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	nmod	_	_
+26	металла	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79806
+# text = Для создания такого мессенджера исследователи решили использовать химические вещества.Как и многие другие системы коммуникации, химический мессенджер основан на использовании бинарного кода.
+1	Для	для	ADP	_	_	2	case	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	мессенджера	мессенджер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	химические	химической	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	вещества	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Как	как	ADV	_	Degree=Pos	15	cc	_	_
+12	и	и	PART	_	_	11	fixed	_	_
+13	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+16	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	химический	химический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	мессенджер	мессенджер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	_
+20	основан	основывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	бинарного	бинарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	кода	код	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79807
+# text = Однако вместо нулей и единиц он использует пульсацию химических веществ: кислоты или основания.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	вместо	вместо	ADP	_	_	3	case	_	_
+3	нулей	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	пульсацию	пульсация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	parataxis	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	основания	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 79808
+# text = Процесс передачи информации устроен следующим образом.
+1	Процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	устроен	устроить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	следующим	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 79809
+# text = Исследователи печатают сообщение на компьютере.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	печатают	печатать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сообщение	сообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 79810
+# text = Компьютер затем посылает сигнал специальному устройству, которое выбрасывает соответствующие "биты" химических вещества.
+1	Компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+3	посылает	посылать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	специальному	специальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	устройству	устройство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которое	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	выбрасывает	выбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	соответствующие	соответствующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	биты	бит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	химических	химической	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79811
+# text = Эти вещества по пластиковым трубкам направляются в большой контейнер с pH-сенсором.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	вещества	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj:pass	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	пластиковым	пластиковый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	трубкам	трубка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+6	направляются	направлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	контейнер	контейнер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	pH-сенсором	pH-сенсор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79812
+# text = Изменения pH затем передаются в компьютер, который дешифрует закодированное сообщение.В новой версии химического мессенджера, который исследователи разрабатывают сейчас, в качестве кислоты и основания используется уксус и жидкость для мытья стекол.
+1	Изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+2	pH	ph	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	затем	затем	ADV	_	Degree=Pos	4	advmod	_	_
+4	передаются	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	дешифрует	дешифровать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	закодированное	закодировывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	сообщение.	сообщениеаница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	В	в	ADP	_	_	14	case	_	_
+13	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+15	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	мессенджера	мессенджер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	который	который	PRON	_	Case=Acc	20	obj	_	_
+19	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	разрабатывают	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	сейчас	сейчас	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	кислоты	кислота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	основания	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	conj	_	_
+28	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+29	уксус	уксус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+32	для	для	ADP	_	_	33	case	_	_
+33	мытья	мытье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+34	стекол	стекло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 79813
+# text = Предыдущая версия мессенджера,созданнаятой же исследовательской группой в 2013 году, работала на основе водки.
+1	Предыдущая	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+3	мессенджера	мессенджер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,созданнаятой	,созданнаимать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+5	же	же	PART	_	_	4	advmod	_	_
+6	исследовательской	исследовательский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	2013	2013	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	работала	работать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	водки	водка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79814
+# text = По словам исследователей, новая версия работает быстрее.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	быстрее	быстро	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 79815
+# text = Уксус и жидкость для мытья стекол, попадая на приемный конец системы, нейтрализуют друг друга, в то время как в системе на основе водки на приемной стороне в конце концов наступало насыщение: система накапливала слишком много водки и не могла больше принимать сообщения.Исследователи также находятся в процессе разработки еще одного типа химического мессенджера, работающего на основе бактерий.
+1	Уксус	Уксус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	жидкость	жидкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	мытья	мытье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	стекол	стекоть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	попадая	попадать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	приемный	приемный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	конец	конец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	нейтрализуют	нейтрализовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	fixed	_	_
+16	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	в	в	ADP	_	_	33	cc	_	_
+19	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	как	как	SCONJ	_	_	20	fixed	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	nmod	_	_
+26	водки	водка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	приемной	приемный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	стороне	сторона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+30	в	в	ADP	_	_	33	advmod	_	_
+31	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	fixed	_	_
+32	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	fixed	_	_
+33	наступало	наступать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+34	насыщение	насыщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	SpaceAfter=No
+35	:	:	PUNCT	_	_	34	punct	_	_
+36	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+37	накапливала	накапливать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	parataxis	_	_
+38	слишком	слишком	ADV	_	Degree=Pos	39	advmod	_	_
+39	много	много	ADV	_	Degree=Pos	40	nummod:gov	_	_
+40	водки	водка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	obl	_	_
+41	и	и	CCONJ	_	_	43	cc	_	_
+42	не	не	PART	_	_	43	advmod	_	_
+43	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	50	conj	_	_
+44	больше	больше	ADV	_	Degree=Cmp	50	advmod	_	_
+45	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	50	dep	_	_
+46	сообщения	сообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	45	obj	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	50	nsubj	_	_
+49	также	также	ADV	_	Degree=Pos	50	advmod	_	_
+50	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	37	conj	_	_
+51	в	в	ADP	_	_	52	case	_	_
+52	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+53	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	52	nmod	_	_
+54	еще	еще	ADV	_	Degree=Pos	55	advmod	_	_
+55	одного	один	NUM	_	Case=Gen|Gender=Masc	56	nummod	_	_
+56	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
+57	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	58	amod	_	_
+58	мессенджера	мессенджер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	58	punct	_	_
+60	работающего	работать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	56	amod	_	_
+61	на	на	ADP	_	_	62	case	_	_
+62	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	60	obl	_	_
+63	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	62	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	63	punct	_	SpaceAfter=No
+
+# sent_id = 79816
+# text = Они надеются, что в будущем такие системы коммуникации можно будет использовать, например, для обмена секретными сообщениями, для общения роботов, которые будут оставлять друг другу жидкие следы из химических веществ,а также для экстренной коммуникации в случае отключения электросети в результате террористической атаки.Софья Долотовская
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	надеются	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	такие	такой	DET	_	Case=Nom|Number=Plur	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+12	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	например	например	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	_
+18	секретными	секретный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	сообщениями	сообщение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	общения	общение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+23	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	которые	который	PRON	_	Case=Nom	27	nsubj	_	_
+26	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	_
+27	оставлять	оставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	acl:relcl	_	_
+28	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	fixed	_	_
+29	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+30	жидкие	жидкой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	31	amod	_	_
+31	следы	след	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obl	_	_
+32	из	из	ADP	_	_	31	case	_	_
+33	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	SpaceAfter=No
+35	,а	,	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+36	также	также	ADV	_	Degree=Pos	27	advmod	_	_
+37	для	для	ADP	_	_	39	case	_	_
+38	экстренной	экстренный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+42	отключения	отключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	_
+43	электросети	электросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	nmod	_	_
+46	террористической	террористический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	атаки.	атаки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	45	obl:agent	_	SpaceAfter=No
+48	Софья	Софье	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	_
+49	Долотовская	Долотовская	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	48	flat:name	_	SpaceAfter=No
+

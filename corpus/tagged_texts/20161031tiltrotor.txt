@@ -1,0 +1,158 @@
+# sent_id = 77519
+# text = Американский авиастроительный концерн Boeing получил патент на безопасный пассажирский конвертоплан.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n
+2	авиастроительный	авиастроительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	патент	патент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	10	case	_	_
+8	безопасный	безопасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	пассажирский	пассажирский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 77520
+# text = В полете этот аппарат будет защищен от сбоев в работе двигателей.
+1	В	в	ADP	_	_	2	case	_	_
+2	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	защищен	защищать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	сбоев	сбой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+9	в	в	ADP	_	_	8	case	_	_
+10	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+11	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 77521
+# text = На земле же новый конвертоплан будет существенно проще и дешевле обслуживать, чем существующие сегодня аппараты такого класса.Конвертоплан представляет собой летательный аппарат с наклоняемыми воздушными винтами, который способен на вертикальные взлет и посадку по типу вертолета и на горизонтальный полет по типу самолета.
+1	На	на	ADP	_	_	2	case	_	_
+2	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	существенно	существенно	ADV	_	Degree=Pos	8	advmod	_	_
+8	проще	простой	ADJ	_	Degree=Cmp	0	root	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	дешевле	дешевый	ADJ	_	Degree=Cmp	11	conj	_	_
+11	обслуживать	обслуживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	dep	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чем	чем	SCONJ	_	_	11	mark	_	_
+14	существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+15	сегодня	сегодня	ADV	_	Degree=Pos	14	advmod	_	_
+16	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+17	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	класса.	класса.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl:agent	_	SpaceAfter=No
+19	Конвертоплан	Конвертоплан	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+20	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+21	собой	себя	PRON	_	Case=Ins	20	obl	_	_
+22	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+24	с	с	ADP	_	_	27	case	_	_
+25	наклоняемыми	наклонять	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	27	amod	_	_
+26	воздушными	воздушный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	винтами	винт	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	который	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	23	acl:relcl	_	_
+31	на	на	ADP	_	_	33	case	_	_
+32	вертикальные	вертикальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	взлет	взгод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	посадку	посадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	conj	_	_
+36	по	по	ADP	_	_	37	case	_	_
+37	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	35	nmod	_	_
+38	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	и	и	CCONJ	_	_	42	cc	_	_
+40	на	на	ADP	_	_	42	case	_	_
+41	горизонтальный	горизонтальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	conj	_	_
+43	по	по	ADP	_	_	44	case	_	_
+44	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	42	nmod	_	_
+45	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 77522
+# text = В настоящее время конвертопланы -- V-22 Osprey -- используются только американскими военными.
+1	В	в	ADP	_	_	4	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	конвертопланы	конвертоплан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	V-	V-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	22	22	NUM	_	_	4	nummod	_	_
+8	Osprey	Osprey	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	только	только	PART	_	_	12	advmod	_	_
+12	американскими	американский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	военными	военный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77523
+# text = Они считаются достаточно аварийными летательными аппаратами.Предполагается, что новый конвертоплан для пассажирских перевозок, запатентованный Boeing, будет более безопасным.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj:pass	_	_
+2	считаются	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	достаточно	достаточно	ADV	_	Degree=Pos	4	advmod	_	_
+4	аварийными	аварийной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+5	летательными	летательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	аппаратами.	аппаратами.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	перевозок	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	запатентованный	патентовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	Boeing	boeing	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
+20	более	более	ADV	_	Degree=Cmp	21	advmod	_	_
+21	безопасным	безопасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 77524
+# text = В частности, на него предполагается устанавливать четыре небольших турбовальных двигателя, по два на каждой консоли крыла.
+1	В	в	ADP	_	_	5	case	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obl	_	_
+6	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+9	небольших	небольшой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	турбовальных	турбовальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	по	по	ADP	_	_	17	case	_	_
+14	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	17	nummod:gov	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	каждой	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	консоли	консоль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+18	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 77525
+# text = Каждая пара двигателей будет приводить воздушные винты только на свой консоли крыла.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	двигателей	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	приводить	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+6	воздушные	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	винты	винт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+8	только	только	PART	_	_	11	advmod	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	консоли	консоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+12	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

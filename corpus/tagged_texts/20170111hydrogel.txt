@@ -1,0 +1,217 @@
+# sent_id = 87439
+# text = Ученые из Инженерной школы Колумбийского университета Нью-Йорка разработали технологию трехмерной печати микромеханизмов из гидрогелей.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	4	case	_	_
+3	Инженерной	инженерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Колумбийского	Колумбийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Нью-Йорка	Нью-Йорк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	трехмерной	трехмерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	микромеханизмов	микромеханизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	гидрогелей	гидрогель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87440
+# text = Такие механизмы могут быть имплантированы в живой организм и использоваться для адресной и дозированной доставки лекарств.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	имплантированы	имплантировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	живой	живой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	организм	организм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	5	conj	_	_
+11	для	для	ADP	_	_	15	case	_	_
+12	адресной	адресный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	дозированной	дозировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	conj	_	_
+15	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+16	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 87441
+# text = Работа исследователей опубликована в Science Robotics, а краткое ее изложение приводит Robohub.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Science	Science	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Robotics	Robotics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	а	а	CCONJ	_	_	12	cc	_	_
+9	краткое	краткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+10	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod	_	_
+11	изложение	изложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	приводит	приводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	Robohub	Robohub	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87442
+# text = Преимуществом новых гидрогелевых механизмов является их полная биосовместимость.
+1	Преимуществом	преимущество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+2	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	гидрогелевых	гидрогелевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	механизмов	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+7	полная	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	биосовместимость	биосовместимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 87443
+# text = При этом механизмы можно контролировать извне.Сегодня существует уже большое количество различных имплантатов.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	amod	_	_
+3	механизмы	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	извне.	извнбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+7	Сегодня	Сегодня	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+12	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	имплантатов	имплантат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87444
+# text = Речь идет как о сложных водителях сердечного ритма и кардиовертерах-дефибриляторах, так и о более простых системах автоматического высвобождения лекарств.
+1	Речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	как	как	SCONJ	_	_	4	cc	_	_
+4	о	о	ADP	_	_	6	case	_	_
+5	сложных	сложный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	водителях	водитель	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+7	сердечного	сердечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ритма	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	кардиовертерах	кардиовертер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	дефибриляторах	дефибрилятор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	19	advmod	_	_
+15	и	и	PART	_	_	19	advmod	_	_
+16	о	о	ADP	_	_	19	case	_	_
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	простых	простой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	conj	_	_
+20	автоматического	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	высвобождения	высвобождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87445
+# text = При этом если простые имплантаты с проницаемой для лекарства стенкой могут без ограничений устанавливаться пациентам, различные электронные имплантаты имеют лишь частичную биосовместимость и могут использоваться ограниченно.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+3	если	если	SCONJ	_	_	20	mark	_	_
+4	простые	простой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	имплантаты	имплантат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	проницаемой	проницаема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+10	стенкой	стенка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl:agent	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+12	без	без	ADP	_	_	13	case	_	_
+13	ограничений	ограничение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	_
+14	устанавливаться	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	11	xcomp	_	_
+15	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+18	электронные	электронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	имплантаты	имплантат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	лишь	лишь	PART	_	_	22	advmod	_	_
+22	частичную	частичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	биосовместимость	биосовместимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	25	xcomp	_	_
+27	ограниченно	ограниченне	ADV	_	Degree=Pos	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 87446
+# text = В частности, в таких устройствах могут стоять бионесовместимые элементы питания.Новые механические устройства, которые можно печатать из гидрогелей, являются полностью биосовместимыми.
+1	В	в	ADP	_	_	7	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	таких	такой	DET	_	Case=Loc|Number=Plur	6	amod	_	_
+6	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	стоять	стоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	бионесовместимые	бионесовместимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	элементы	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+14	механические	механический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Acc	18	obj	_	_
+18	можно	можно	ADV	_	Degree=Pos	15	acl:relcl	_	_
+19	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	гидрогелей	гидрогель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+24	полностью	полностью	ADV	_	Degree=Pos	25	advmod	_	_
+25	биосовместимыми	биосовместимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 87447
+# text = Во время лабораторных исследований ученые из Колумбийского университета использовали проверенные и одобренные Управлением по контролю за продуктами и лекарствами США гидрогели на основе полиэтиленгликоля.
+1	Во	во	ADP	_	_	4	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	лабораторных	лабораторной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	Колумбийского	Колумбийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	проверенные	вереть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	одобренные	одобрять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+13	Управлением	управление	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl:agent	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	контролю	контроль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+16	за	за	ADP	_	_	17	case	_	_
+17	продуктами	продукт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	лекарствами	лекарство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	conj	_	_
+20	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	19	nmod	_	_
+21	гидрогели	гидрогель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+24	полиэтиленгликоля	полиэтиленгликоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 87448
+# text = Из этих гидрогелей ученые напечатали мальтийский механизм с внешним зацеплением, позволяющий реализовать прерывистое движение.
+1	Из	из	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	гидрогелей	гидрогель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	напечатали	напечатавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	мальтийский	мальтийский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	с	с	ADP	_	_	7	case	_	_
+9	внешним	внешний	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	зацеплением	зацепление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	позволяющий	позволять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+13	реализовать	реализовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	прерывистое	прерывистой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

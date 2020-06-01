@@ -1,0 +1,439 @@
+# sent_id = 75108
+# text = Команда миссии "Юнона" отложила маневр перехода на 14-дневные научные орбиты из-за проблем с системой сжатия топлива.
+1	Команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpacesBefore=\n
+2	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Юнона	Юнон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	отложила	откладывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	маневр	маневр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	перехода	переход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	12	case	_	_
+10	14-дневные	14-дневный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+11	научные	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	орбиты	орбит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+17	сжатия	сжатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75109
+# text = В следующий раз шанс для маневра появится в декабре, по плану миссии он должен был произойти в среду, 19 октября.
+1	В	в	ADP	_	_	3	case	_	_
+2	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+4	шанс	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	маневра	маневр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	появится	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	плану	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	_
+13	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	parataxis	_	_
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
+17	произойти	происходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	19	19	NUM	_	_	19	nummod	_	_
+22	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 75110
+# text = По словам инженеров, на научную программу "Юноны" это не повлияет.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	parataxis	_	_
+3	инженеров	инженер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	научную	научный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Юноны	Юнона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	повлияет	влиять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 75111
+# text = Об этом сообщает NASA.От точного времени срабатывания главного двигателя зависит орбита, на которую попадет "Юнона".
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	NASA.	NASA.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	От	от	ADP	_	_	4	case	_	_
+6	точного	точный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+8	срабатывания	срабатывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+12	орбита	орбита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	которую	который	PRON	_	Case=Acc	16	obl	_	_
+16	попадет	попадать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Юнона	Юнон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 75112
+# text = Поэтому перед основным маневром проходит тест всех основных систем, отвечающих за движение аппарата.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	5	advmod	_	_
+2	перед	перед	ADP	_	_	4	case	_	_
+3	основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	маневром	маневр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+5	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	тест	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	всех	весь	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+8	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	отвечающих	отвечать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	за	за	ADP	_	_	13	case	_	_
+13	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+14	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75113
+# text = В ходе проверки, состоявшейся 14 октября, два гелиевых клапана системы сжатия топлива не открылись сразу после подачи команды.Инженеры ожидали задержки открытия клапанов в несколько секунд, но клапаны открылись лишь спустя несколько минут.Эти клапаны играют важную роль в работе двигателя.Инженеры проконсультировались с компаниейLockheed Martin Space Systems, отвечавшей за сборку аппарата, и приняли решение отложить включение главного двигателя по меньшей мере на один оборот "Юноны" вокруг Юпитера -- 53,4 дня.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	состоявшейся	состояться	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	3	amod	_	_
+6	14	14	NUM	_	_	7	nummod	_	_
+7	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	два	два	NUM	_	Case=Nom|Gender=Masc	11	nummod:gov	_	_
+10	гелиевых	гелиевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	клапана	клапан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	сжатия	сжатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	открылись	открываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+18	после	после	ADP	_	_	19	case	_	_
+19	подачи	подача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+20	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	ожидали	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+24	задержки	задержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+25	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	клапанов	клапан	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	29	nummod:gov	_	_
+29	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	но	но	CCONJ	_	_	33	cc	_	_
+32	клапаны	клапан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	_
+33	открылись	открыться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	40	conj	_	_
+34	лишь	лишь	PART	_	_	37	advmod	_	_
+35	спустя	спустя	ADP	_	_	37	case	_	_
+36	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	37	nummod:gov	_	_
+37	минут.	минуто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	33	obl	_	SpaceAfter=No
+38	Эти	этот	DET	_	Case=Nom|Number=Plur	39	amod	_	_
+39	клапаны	клапан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+40	играют	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+41	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	nmod	_	_
+45	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	_
+48	проконсультировались	проконсультироваваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+49	с	с	ADP	_	_	50	case	_	_
+50	компаниейLockheed	компаниейLockheed	PROPN	_	Foreign=Yes	48	flat:foreign	_	_
+51	Martin	Martin	PROPN	_	Foreign=Yes	50	flat:foreign	_	_
+52	Space	“space	PROPN	_	Foreign=Yes	51	flat:foreign	_	_
+53	Systems	Systems	PROPN	_	Foreign=Yes	52	flat:foreign	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	53	punct	_	_
+55	отвечавшей	отвечать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	48	amod	_	_
+56	за	за	ADP	_	_	57	case	_	_
+57	сборку	сборка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	55	obl	_	_
+58	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	58	punct	_	_
+60	и	и	CCONJ	_	_	61	cc	_	_
+61	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+62	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	61	obj	_	_
+63	отложить	откладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	62	dep	_	_
+64	включение	включение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	63	obj	_	_
+65	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	66	amod	_	_
+66	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	64	nmod	_	_
+67	по	по	ADP	_	_	66	case	_	_
+68	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	67	fixed	_	_
+69	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	68	fixed	_	_
+70	на	на	ADP	_	_	72	case	_	_
+71	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	72	nummod:gov	_	_
+72	оборот	оборот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	61	obl	_	_
+73	"	"	PUNCT	_	_	74	punct	_	SpaceAfter=No
+74	Юноны	Юнона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	72	nmod	_	SpaceAfter=No
+75	"	"	PUNCT	_	_	74	punct	_	_
+76	вокруг	вокруг	ADP	_	_	77	case	_	_
+77	Юпитера	Юпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	80	nmod	_	_
+78	--	--	PUNCT	_	_	77	punct	_	_
+79	53,4	53,4	NUM	_	_	80	nummod	_	_
+80	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+81	.	.	PUNCT	_	_	80	punct	_	SpaceAfter=No
+
+# sent_id = 75114
+# text = Следующая такая возможность появится 11 декабря 2016 года.Перенос маневра не повлияет на научную программу аппарата в целом, но скажется на научной программе "Юноны" в момент перийовия, который произойдет 19 октября.
+1	Следующая	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	появится	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	11	11	NUM	_	_	8	nummod	_	_
+6	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	2016	2016	NUM	_	_	8	nummod	_	_
+8	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	Перенос	перенос	ADV	_	Degree=Pos	12	advmod	_	_
+10	маневра	маневер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	повлияет	влиять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	научную	научный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+16	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	но	но	CCONJ	_	_	21	cc	_	_
+21	скажется	сказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	научной	научный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	программе	программа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Юноны	Юнона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+30	перийовия	перийовие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	который	который	PRON	_	Case=Nom	33	nsubj	_	_
+33	произойдет	происходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	29	acl:relcl	_	_
+34	19	19	NUM	_	_	33	nummod	_	_
+35	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 75115
+# text = Изначально в момент максимального сближения с Юпитером команда планировала отключить большую часть приборов аппарата, чтобы не мешать маневру.
+1	Изначально	изначально	ADV	_	Degree=Pos	3	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+4	максимального	максимальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	сближения	сближение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	Юпитером	Юпитер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+8	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	планировала	планировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	отключить	отключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	мешать	мешать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	advcl	_	_
+19	маневру	маневра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75116
+# text = Поскольку маневра не будет, в ходе сближения будут работать все научные приборы миссии.Ученые подчеркивают, что размеры орбиты не влияют на качество данных, которые собирает аппарат.
+1	Поскольку	поскольку	SCONJ	_	_	10	mark	_	_
+2	маневра	маневра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	fixed	_	_
+8	сближения	сближение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+11	все	весь	DET	_	Case=Acc|Number=Plur	13	amod	_	_
+12	научные	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	приборы	прибор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+14	миссии.	миссии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+16	подчеркивают	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	размеры	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+20	орбиты	орбита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	качество	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+25	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	которые	который	PRON	_	Case=Nom	28	nsubj	_	_
+28	собирает	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+29	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 75117
+# text = "Миссия "Юноны" очень гибкая в этом смысле.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Миссия	миссия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	Юноны	Юнона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	_
+7	гибкая	гибкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	10	amod	_	_
+10	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75118
+# text = Данные, которые мы собрали 27 августа были для нас откровением, того же мы ожидаем и от сближения 19 октября", -- рассказывает Скотт Болтон, главный исследователь миссии.
+1	Данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которые	который	PRON	_	Case=Acc	5	obj	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	27	27	NUM	_	_	7	nummod	_	_
+7	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	0	root	_	_
+11	откровением	откровение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+14	же	же	PART	_	_	13	advmod	_	_
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+16	ожидаем	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	от	от	ADP	_	_	19	case	_	_
+19	сближения	сближение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+20	19	19	NUM	_	_	21	nummod	_	_
+21	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	--	--	PUNCT	_	_	19	punct	_	_
+25	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+26	Скотт	Скотт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	Болтон	Болтон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	исследователь	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+31	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 75119
+# text = "Юнона" стартовала с Земли 5 августа 2011 года.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Юнона	Юнона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	стартовала	стартовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+7	5	5	NUM	_	_	4	nummod	_	_
+8	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	2011	2011	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 75120
+# text = Этим летом она завершила свой пятилетний полет к газовому гиганту и вышла на орбиту около Юпитера.
+1	Этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	2	amod	_	_
+2	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	завершила	завершать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+6	пятилетний	пятилетний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	газовому	газовый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	гиганту	гигант	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	вышла	выходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	около	около	ADP	_	_	16	case	_	_
+16	Юпитера	Юпитер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 75121
+# text = За это время "Юнона" успела побить несколько рекордов: онасталасамым удаленным аппаратом, работающим на солнечной энергии, а также поставила рекорд скорости перехода на околопланетную орбиту -- 57,9 километра в секунду.Основная миссия аппарата -- анализ магнитного поля и атмосферы газового гиганта.
+1	За	за	ADP	_	_	3	case	_	_
+2	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Юнона	Юнон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	успела	успевать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	побить	побать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+10	рекордов	рекорд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	онасталасамым	онасталасамый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	удаленным	удаленный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	аппаратом	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	работающим	работать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	солнечной	солнечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	энергии	энергия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	а	а	CCONJ	_	_	23	cc	_	_
+22	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+23	поставила	ставить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	перехода	переход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	околопланетную	околопланетный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	nmod	_	_
+30	--	--	PUNCT	_	_	29	punct	_	_
+31	57,9	57,9	NUM	_	_	32	nummod	_	_
+32	километра	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	секунду	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	Основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	миссия	миссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+38	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	--	--	PUNCT	_	_	38	punct	_	_
+40	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+41	магнитного	магнитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
+42	поля	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	conj	_	_
+45	газового	газовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	гиганта	гигант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 75122
+# text = Подробнее о загадках, которые предстоит разгадать "Юноне", можно прочитать в нашем материале.Владимир Королёв
+1	Подробнее	подробно	ADV	_	Degree=Cmp	12	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	загадках	загадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	которые	который	PRON	_	Case=Acc	6	obj	_	_
+6	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	разгадать	разгадывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Юноне	Юнон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+13	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	nsubj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	нашем	наш	DET	_	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+16	материале.	материалбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+17	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+

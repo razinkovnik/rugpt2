@@ -1,0 +1,108 @@
+# sent_id = 87698
+# text = Агентство перспективных оборонных исследований (DARPA) Пентагона в ближайшее время приступит к испытаниям прототипов систем подводной волоконно-оптической связи, которая на море должна будет заменить обычную радиосвязь в случае, если та будет активно глушиться противником.
+1	Агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpacesBefore=\n
+2	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	DARPA	Darpa	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	Пентагона	пентагон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	ближайшее	ближайший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	приступит	приступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	_
+15	прототипов	прототип	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+16	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+17	подводной	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+18	волоконно-	волоконно-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	оптической	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которая	который	PRON	_	Case=Nom	25	nsubj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	море	море	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	_
+25	должна	должный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	parataxis	_	_
+26	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+27	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	dep	_	_
+28	обычную	обычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	радиосвязь	радиосвязь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	если	если	SCONJ	_	_	0	mark	_	_
+34	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+35	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	aux	_	_
+36	активно	активно	ADV	_	Degree=Pos	37	advmod	_	_
+37	глушиться	глушяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	0	advcl	_	_
+38	противником	противник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 87699
+# text = Согласно сообщению DARPA, часть компонентов перспективной системы уже прошла лабораторные и морские испытания.Радиоэлектронная борьба является одним из основных элементов современной войны.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+3	DARPA	Darpa	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+6	компонентов	компонент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	перспективной	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	лабораторные	лабораторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	морские	морской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	conj	_	_
+14	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Радиоэлектронная	Радиоэлектронный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	борьба	борьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
+19	одним	один	NUM	_	Case=Ins|Gender=Masc	18	nummod	_	_
+20	из	из	ADP	_	_	22	case	_	_
+21	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+23	современной	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 87700
+# text = Она позволяет глушить и перехватывать радиосообщения противника, нарушая его оперативное управление войсками.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	глушить	глушать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	перехватывать	перехватывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+6	радиосообщения	радиосообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+7	противника	противник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	нарушая	нарушать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+11	оперативное	оперативный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+13	войсками	войска	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87701
+# text = В условиях постановки помех относительно надежный радиообмен становится возможным только на небольшом расстоянии между передатчиком и приемником.
+1	В	в	ADP	_	_	2	case	_	_
+2	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	_
+3	постановки	постановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	помех	топом	DET	_	Case=Gen|Number=Plur	7	amod	_	_
+5	относительно	относительно	ADV	_	Degree=Pos	4	advmod	_	_
+6	надежный	надежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	радиообмен	радиообмен	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+10	только	только	PART	_	_	13	advmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	небольшом	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+14	между	между	ADP	_	_	15	case	_	_
+15	передатчиком	передатчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	приемником	приемник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+

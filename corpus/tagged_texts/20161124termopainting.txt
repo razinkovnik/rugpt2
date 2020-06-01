@@ -1,0 +1,297 @@
+# sent_id = 81462
+# text = Корейские ученые создали краску, которая способна конвертировать вэлектроэнергию остаточное тепло сокрашенных поверхностей.
+1	Корейские	Корейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	краску	краска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	acl:relcl	_	_
+8	конвертировать	конвертировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	вэлектроэнергию	вэлектроэнергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	остаточное	остаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+11	тепло	тепло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+12	сокрашенных	сокрашеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	поверхностей	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 81463
+# text = Описание новой технологии опубликовано вжурнале Nature Communications.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	опубликовано	опубликовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Communications	communications	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 81464
+# text = Воснове принципа работы термоэлектрогенераторов лежит эффект Зеебека: взамкнутой цепи, состоящей изразнородных проводников, при разных температурах вместах контактов возникает электродвижущая сила.
+1	Воснове	Воснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+2	принципа	принцип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	термоэлектрогенераторов	термоэлектрогенератор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	лежит	лежить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	Зеебека	Зеебек	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	взамкнутой	взамкнутый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	цепи	цепь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	состоящей	состоять	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+13	изразнородных	изразнородный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	проводников	проводник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	при	при	ADP	_	_	18	case	_	_
+17	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	температурах	температура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	nmod	_	_
+19	вместах	вмест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	parataxis	_	_
+20	контактов	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+22	электродвижущая	электродвижущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 81465
+# text = Если вдоль проводника существует градиент температур, тоэлектроны нагорячем конце приобретают более высокие энергии искорости, чем нахолодном; вполупроводниках вдополнение кэтому концентрация электронов проводимости растет стемпературой.
+1	Если	если	SCONJ	_	_	11	mark	_	_
+2	вдоль	вдоль	ADP	_	_	3	case	_	_
+3	проводника	проводник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+5	градиент	градиент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	температур	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	тоэлектроны	тоэлектрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	нагорячем	нагорячем	ADV	_	Degree=Pos	10	advmod	_	_
+10	конце	конца	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	приобретают	приобретать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	более	более	ADV	_	Degree=Cmp	13	advmod	_	_
+13	высокие	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+15	искорости	искорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	18	cc	_	_
+18	нахолодном	нахолодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	advmod	_	SpaceAfter=No
+19	;	;	PUNCT	_	_	18	punct	_	_
+20	вполупроводниках	вполупроводник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+21	вдополнение	вдополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+22	кэтому	кэто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
+23	концентрация	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+24	электронов	электроен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	проводимости	проводимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+27	стемпературой	стемпература	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 81466
+# text = Врезультате возникает поток электронов отгорячего конца кхолодному инахолодном конце накапливается отрицательный заряд, анагорячем остается некомпенсированный положительный заряд.
+1	Врезультате	Врезультате	PART	_	_	2	advmod	_	_
+2	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	отгорячего	отгорячий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	кхолодному	кхолодный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	инахолодном	инахолодный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+10	накапливается	накапливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+11	отрицательный	отрицательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	заряд	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	анагорячем	анагорячто	PRON	_	Case=Ins	15	obl	_	_
+15	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+16	некомпенсированный	некомпенсированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	положительный	положительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	заряд	заряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 81467
+# text = Всовременных термоэлектрогенераторах используются различные полупроводники наоснове сплавов теллура, висмута, селена идругих элементов.
+1	Всовременных	Всовременный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	термоэлектрогенераторах	термоэлектрогенератор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+3	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	полупроводники	полупроводник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+6	наоснове	наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+7	сплавов	сплав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	теллура	теллур	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	висмута	висмут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	селена	селена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+13	идругих	идругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 81468
+# text = Эффективность термоэлектрических материалов при этом прямо пропорциональна коэффициенту электрической проводимости используемого соединения иобратно пропорциональна его теплопроводимости, поэтому основная задача исследований вобласти термоэлектрогенерации-- поиск оптимального полупроводникового материала.
+1	Эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+2	термоэлектрических	термоэлектрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+6	прямо	прямо	ADV	_	Degree=Pos	7	advmod	_	_
+7	пропорциональна	порциональть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	коэффициенту	коэффициент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+9	электрической	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	проводимости	проводимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	используемого	использовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	соединения	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+13	иобратно	иобратно	ADV	_	Degree=Pos	14	advmod	_	_
+14	пропорциональна	порциональть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	теплопроводимости	теплопроводимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	поэтому	поэтому	ADV	_	Degree=Pos	20	advmod	_	_
+19	основная	основной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+21	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	вобласти	вобласть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	термоэлектрогенерации--	термоэлектрогенерации--	PUNCT	_	_	22	punct	_	_
+24	поиск	поиск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	conj	_	_
+25	оптимального	оптимальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	полупроводникового	полупроводниковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 81469
+# text = При попытке применения термоэлектрических генераторов для сбора остаточного тепла возникает еще одна проблема, неменее важная, чем состав базового материала.
+1	При	при	ADP	_	_	2	case	_	_
+2	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+3	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	термоэлектрических	термоэлектрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	генераторов	генератор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	сбора	сбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+8	остаточного	остаточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	тепла	тепло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	еще	еще	ADV	_	Degree=Pos	12	advmod	_	_
+12	одна	один	NUM	_	Case=Nom|Gender=Fem	13	nummod:gov	_	_
+13	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	неменее	неменее	ADV	_	Degree=Cmp	16	advmod	_	_
+16	важная	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чем	чем	SCONJ	_	_	19	cc	_	_
+19	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	advmod	_	_
+20	базового	базовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 81470
+# text = Традиционные термоэлектрические системы, как правило, сделаны изплоских жестких пластин.
+1	Традиционные	традиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	термоэлектрические	термоэлектрический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	как	как	SCONJ	_	_	6	cc	_	_
+6	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	изплоских	изплоский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	жестких	жесткий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	пластин	пластина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 81471
+# text = При использовании таких систем нанеровных поверхностях ихэффективность неможет быть высокой всилу недостаточного контакта снагретой поверхностью.
+1	При	при	ADP	_	_	2	case	_	_
+2	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+3	таких	такой	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	нанеровных	нанеровный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	поверхностях	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+7	ихэффективность	ихэффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	неможет	немочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	cop	_	_
+10	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	всилу	всила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	недостаточного	недостаточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	снагретой	снагретый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 81472
+# text = Один извариантов решения этой проблемы-- хорошо отработанная технология печати, которая позволила бы контролировать форму иразмеры термоэлектрических элементов настадии ихформирования.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	10	nsubj	_	_
+2	извариантов	извариант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	хорошо	хорошо	ADV	_	Degree=Pos	9	advmod	_	_
+9	отработанная	отрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	позволила	позволять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	бы	бы	PART	_	Mood=Cnd	14	aux	_	_
+16	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	иразмеры	иразмера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	термоэлектрических	термоэлектрический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	настадии	настадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	ихформирования	ихформирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 81473
+# text = Однако, эксперименты в этом направлении, например, опыт с нанесением термоэлементов на стеклоткань, показали невысокую эффективность по сравнению с классическими термоэлектрогенераторами (около 20-40 процентов).
+1	Однако	однако	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	эксперименты	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	6	amod	_	_
+6	направлении	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	например	например	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	опыт	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	нанесением	нанесение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+13	термоэлементов	термоэлемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	стеклоткань	стеклоткань	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	невысокую	невысокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+20	по	по	ADP	_	_	24	case	_	_
+21	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	fixed	_	_
+22	с	с	ADP	_	_	21	fixed	_	_
+23	классическими	классический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	термоэлектрогенераторами	термоэлектрогенератор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	_
+25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	около	около	ADP	_	_	30	case	_	_
+27	20	20	NUM	_	_	30	nummod	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	40	40	NUM	_	_	27	nummod	_	_
+30	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	parataxis	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 81474
+# text = Поэтому корейские ученые решили использовать краску, содержащую полупроводниковые соединения,-- ееможно нанести наповерхность любой формы.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	корейские	корейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	краску	краска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	содержащую	содержать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+9	полупроводниковые	полупроводниковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	соединения	соединения	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No
+11	,--	,--	PUNCT	_	_	10	punct	_	_
+12	ееможно	ееможно	ADV	_	Degree=Pos	13	advmod	_	_
+13	нанести	наносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+14	наповерхность	наповерхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	формы	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+

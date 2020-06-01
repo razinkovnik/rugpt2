@@ -1,0 +1,487 @@
+# sent_id = 74022
+# text = Перспективный американский конвертоплан V-280 Valor, разрабатываемый компанией Bell Helicopter, получит систему кругового обзора.
+1	Перспективный	перспективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n
+2	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+4	V-	V-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	280	280	NUM	_	_	3	nummod	_	_
+6	Valor	Valor	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	разрабатываемый	разрабатывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl:agent	_	_
+10	Bell	bell	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Helicopter	Helicopter	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	кругового	круговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 74023
+# text = Как сообщает Breaking Defense, эта система аналогична той, что устанавливается на истребители F-35 Lightning II.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Breaking	Breaking	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Defense	Defense	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	аналогична	аналогичный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+9	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+12	устанавливается	устанавливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	истребители	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+15	F-35	F-35	NOUN	_	_	12	obl	_	_
+16	Lightning	Lightning	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	II	ii	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 74024
+# text = Ее поставкой для конвертоплана занимается компания Lockheed Martin, разрабатывающая F-35.Принятая в США концепция ведения боевых действий предполагает повышение осведомленности экипажей и десанта боевых машин.
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	поставкой	поставка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	Lockheed	Lockheed	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Martin	Martin	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	разрабатывающая	разрабатывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+11	F-35	f-35	X	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	Принятая	принимать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	13	obl	_	_
+16	концепция	концепция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+17	ведения	ведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	повышение	повышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	осведомленности	осведомленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	экипажей	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	десанта	десант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	conj	_	_
+26	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 74025
+# text = Это означает, что десант должен быть визуально знаком с местностью в зоне высадки еще до того, как откроется дверь или аппарель.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	десант	десант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	advcl	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+8	визуально	визуально	ADV	_	Degree=Pos	9	advmod	_	_
+9	знаком	знакомый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	nmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	местностью	местность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	высадки	высадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	еще	еще	ADV	_	Degree=Pos	17	advmod	_	_
+16	до	до	ADP	_	_	17	case	_	_
+17	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	как	как	SCONJ	_	_	17	mark	_	_
+20	откроется	откроуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	17	advcl	_	_
+21	дверь	дверь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	аппарель	аппарель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74026
+# text = Системы кругового обзора позволят бойцам "осмотреться" еще до высадки, наметить укрытия и определить укрытия противника.Согласно проекту, новый конвертоплан V-280 получит две камеры в носовой части, две -- в хвостовой, а также по одной сверху и снизу фюзеляжа.
+1	Системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	кругового	круговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	бойцам	боец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	осмотреться	осмотреваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	еще	еще	ADV	_	Degree=Pos	11	advmod	_	_
+10	до	до	ADP	_	_	11	case	_	_
+11	высадки	высадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	наметить	намечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	_
+14	укрытия	укрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	_
+17	укрытия	укрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+18	противника.	противникаент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	Согласно	согласно	ADP	_	_	20	case	_	_
+20	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+24	V-	V-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	280	280	NUM	_	_	26	nummod	_	_
+26	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	28	nummod:gov	_	_
+28	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nsubj	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	носовой	носовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	36	nummod:gov	_	_
+34	--	--	PUNCT	_	_	33	punct	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	хвостовой	хвостовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	а	а	CCONJ	_	_	41	cc	_	_
+39	также	также	ADV	_	Degree=Pos	41	advmod	_	_
+40	по	по	ADP	_	_	41	case	_	_
+41	одной	один	NUM	_	Case=Dat|Gender=Fem	36	conj	_	_
+42	сверху	сверху	ADV	_	Degree=Pos	36	advmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	снизу	снизу	ADV	_	Degree=Pos	42	conj	_	_
+45	фюзеляжа	фюзеляж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 74027
+# text = Изображение с камер будет передаваться на нашлемные дисплеи на шести шлемах внутри конвертоплана, включая два пилотских.
+1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	передаваться	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	нашлемные	нашлемный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	дисплеи	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	шести	шесть	NUM	_	Case=Loc	11	nummod	_	_
+11	шлемах	шлем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+12	внутри	внутри	ADV	_	Degree=Pos	13	advmod	_	_
+13	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	включая	включая	ADV	_	Degree=Pos	17	nummod:gov	_	_
+16	два	два	NUM	_	Case=Nom|Gender=Masc	15	nummod:gov	_	_
+17	пилотских	пилотский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 74028
+# text = Изображение на дисплеях будет меняться в зависимости от поворота головы.Благодаря системе летчики и десант конвертоплана смогут в полете и во время посадки иметь 360-градусный обзор местности.
+1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	дисплеях	дисплея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	меняться	меняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	поворота	поворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	головы.	головы.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl:agent	_	SpaceAfter=No
+11	Благодаря	благодаря	ADP	_	_	12	case	_	_
+12	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+13	летчики	летчика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	17	cc	_	_
+15	десант	десант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	конвертоплана	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	смогут	смочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	полете	полет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	obl	_	_
+20	и	и	CCONJ	_	_	24	cc	_	_
+21	во	во	ADP	_	_	23	case	_	_
+22	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	fixed	_	_
+23	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+24	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+25	360-градусный	360-градусный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+27	местности	местность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 74029
+# text = Изображение с камер V-280 можно будет передавать наземным отрядам или другим летательным аппаратам, включая истребители F-16 Fighting Falcon и F/A-18 Hornet/Super Hornet.
+1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	V-	V-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	280	280	NUM	_	_	1	nummod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+8	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+9	наземным	наземной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	отрядам	отряд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+11	или	или	CCONJ	_	_	14	cc	_	_
+12	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+13	летательным	летательный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	аппаратам	аппарат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	включая	включая	ADV	_	Degree=Pos	6	parataxis	_	_
+17	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+18	F-16	F-16	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	Fighting	Fighting	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	Falcon	Falcon	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	F/A-	F/A-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	18	18	NUM	_	_	17	conj	_	_
+24	Hornet/Super	Hornet/Super	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Hornet	Hornet	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 74030
+# text = Система кругового обзора истребителя F-35 работает таким же образом.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	кругового	круговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	обзора	обзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	F-35	f-35	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	работает	работавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	amod	_	_
+8	же	же	PART	_	_	7	advmod	_	_
+9	образом.	образом.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+
+# sent_id = 74031
+# text = Ожидается, что этот аппарат сможет выполнять полеты на скорости до 519 километров в час, а его боевой радиус составит 1,5 тысячи километров при перегоночной дальности в 3,9 тысячи километров.
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	519	519	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	21	cc	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
+19	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	радиус	радиус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+22	1,5	1,5	NUM	_	_	23	nummod	_	_
+23	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nummod:gov	_	_
+24	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+25	при	при	ADP	_	_	27	case	_	_
+26	перегоночной	перегоночный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	дальности	дальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+28	в	в	ADP	_	_	30	case	_	_
+29	3,9	3,9	NUM	_	_	30	nummod	_	_
+30	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nummod:gov	_	_
+31	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 74032
+# text = У V-280 двигатели будут неподвижными: при переходе из вертолетного режима полета в самолетный наклоняться будут только винты.
+1	У	у	ADP	_	_	4	case	_	_
+2	V-	v-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	SpaceAfter=No
+3	280	280	NUM	_	_	2	nummod	_	_
+4	двигатели	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	неподвижными	неподвижный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	переходе	переход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	parataxis	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	вертолетного	вертолетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	в	в	ADP	_	_	19	case	_	_
+15	самолетный	самолетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+16	наклоняться	наклоняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	19	nsubj	_	_
+17	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	только	только	PART	_	_	19	advmod	_	_
+19	винты.	винты.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+
+# sent_id = 74033
+# text = Такая система, помимо прочего, в перспективе позволит без значительных доработок установить на конвертоплан оборудование для конвертации в беспилотный летательный аппарат.
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	помимо	помимо	ADP	_	_	5	case	_	_
+5	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	перспективе	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+9	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	без	без	ADP	_	_	12	case	_	_
+11	значительных	значительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	доработок	доработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+13	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+16	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	конвертации	конвертация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+19	в	в	ADP	_	_	22	case	_	_
+20	беспилотный	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74034
+# text = Машина получит убирающееся шасси, две боковые двери шириной 1,8 метра каждая и V-образное хвостовое оперение.США сегодня пока являются единственной страной, имеющей на вооружении конвертопланы.
+1	Машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	убирающееся	убираться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	_
+4	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	две	два	NUM	_	Case=Nom|Gender=Fem	8	nummod:gov	_	_
+7	боковые	боковой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	двери	дверь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+9	шириной	ширина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+10	1,8	1,8	NUM	_	_	11	nummod	_	_
+11	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	V-образное	V-образный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	_
+15	хвостовое	хвостовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	оперение.	оперенибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+17	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	16	obl	_	_
+18	сегодня	сегодня	ADV	_	Degree=Pos	20	advmod	_	_
+19	пока	пока	ADV	_	Degree=Pos	20	advmod	_	_
+20	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+21	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	страной	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	имеющей	иметь	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+27	конвертопланы	конвертоплана	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 74035
+# text = Эти летательные аппараты способны на вертикальный взлет по-вертолетному и горизонтальный полет по-самолетному.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	летательные	летательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	вертикальный	вертикальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	взлет	взлет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	по-вертолетному	по-вертолетному	ADV	_	Degree=Pos	12	advmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	горизонтальный	горизонтальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	_
+11	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	по-самолетному	по-самолетному	ADV	_	Degree=Pos	4	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74036
+# text = Американские военные располагают конвертопланами V-22 Osprey, разработанными и производящимися консорциумом Bell/Boeing.В июле 2015 года пять конвертопланов Osprey приобрела Япония.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	располагают	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	конвертопланами	конвертоплан	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+5	V-	V-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	22	22	NUM	_	_	3	nummod	_	_
+7	Osprey	Osprey	ADJ	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	разработанными	разработывать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	производящимися	производящими	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	3	conj	_	_
+12	консорциумом	консорциум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	Bell/Boeing	Bell/Boeing	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	В	в	ADP	_	_	16	case	_	_
+16	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+17	2015	2015	NUM	_	_	18	nummod	_	_
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	пять	пять	NUM	_	Case=Acc	20	nummod:gov	_	_
+20	конвертопланов	конвертоплан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nsubj	_	_
+21	Osprey	Osprey	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	приобрела	приобретать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+23	Япония	япония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74037
+# text = Военным этой страны такие аппараты понравились благодаря маневренности, скорости и нетребовательности к взлетно-посадочным площадкам.
+1	Военным	военный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	понравились	нравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	благодаря	благодаря	ADP	_	_	8	case	_	_
+8	маневренности	маневренность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	нетребовательности	нетребовательность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	к	к	ADP	_	_	15	case	_	_
+14	взлетно-посадочным	взлетно-посадочный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	площадкам	площадка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74038
+# text = Американские Osprey весной 2016 года использовались на юго-западе Японии в спасательной операции после серии землетрясений.Собственные конвертопланы в настоящее время разрабатывает итальянская компания Leonardo-Finmeccanica.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	Osprey	Osprey	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	весной	весна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+4	2016	2016	NUM	_	_	5	nummod	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	юго-западе	юго-запад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	Японии	япония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	спасательной	спасательной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	операции	операция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+13	после	после	ADP	_	_	12	case	_	_
+14	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	землетрясений	землетрясение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Собственные	собственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	конвертопланы	конвертоплан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+19	в	в	ADP	_	_	22	advmod	_	_
+20	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	fixed	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	разрабатывает	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+23	итальянская	итальянский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+25	Leonardo-	Leonardo-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Finmeccanica	Finmeccanica	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 74039
+# text = Она создает аппараты AW609, которые будут использоваться для пассажирских и медицинских перевозок.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	создает	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	AW609	AW609	NUM	_	_	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	4	acl:relcl	_	_
+9	для	для	ADP	_	_	13	case	_	_
+10	пассажирских	пассажирский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	conj	_	_
+13	перевозок	перевозка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 74040
+# text = В 2019 году несколько AW609 в поисково-спасательной версии будут поставлены Объединенному авиационному командованию вооруженных сил Объединенных Арабских Эмиратов.Василий Сычёв
+1	В	в	ADP	_	_	3	case	_	_
+2	2019	2019	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	AW609	AW609	NUM	_	_	8	nummod	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	поисково-спасательной	поисково-спасательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+9	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	поставлены	поставлать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	Объединенному	Объединенный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	авиационному	авиационный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	командованию	командование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+14	вооруженных	вооружать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	сил	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	Объединенных	Объединать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+17	Арабских	арабской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+18	Эмиратов.	Эмиратовадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+19	Василий	Василие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+20	Сычёв	сычёво	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+

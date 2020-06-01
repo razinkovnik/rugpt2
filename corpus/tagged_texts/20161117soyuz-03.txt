@@ -1,0 +1,311 @@
+# sent_id = 80276
+# text = В 23:20 по московскому времени с космодрома Байконур стартовал корабль "Союз МС-03" с экипажем 50/51 экспедиции.
+1	В	в	ADP	_	_	6	case	_	SpacesBefore=\n
+2	23	23	NUM	_	_	6	nummod	_	SpaceAfter=No
+3	:20	:20	NUM	_	_	2	nummod	_	_
+4	по	по	ADP	_	_	6	case	_	_
+5	московскому	московский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	космодрома	космодром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Байконур	Байконур	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpacesAfter=\n
+10	стартовал	стартовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	МС	Мс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	03	03	NUM	_	_	14	nummod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	экипажем	экипаж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+20	50	50	NUM	_	_	22	nummod	_	SpaceAfter=No
+21	/51	/51	NUM	_	_	22	nummod	_	_
+22	экспедиции	экспедиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80277
+# text = На борту корабля находятся Олег Новицкий (командир ТПК, Роскосмос), Тома Песке (бортинженер, ESA) и Пегги Уитсон (бортинженер, NASA).
+1	На	на	ADP	_	_	2	case	_	_
+2	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+5	Олег	олег	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	Новицкий	Новицкий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	командир	командир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
+9	ТПК	Тпк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Роскосмос	роскосмос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	Тома	тома	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+15	Песке	песка	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	flat:name	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	бортинженер	бортинженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	ESA	Esa	PROPN	_	Foreign=Yes	17	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	Пегги	Пегга	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+23	Уитсон	Уитсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpacesAfter=\n
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	бортинженер	бортинженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	NASA	Nasa	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 80278
+# text = Это 130-й пилотируемый полёт корабля "Союз" и третий для модификации "МС".
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpacesAfter=\n
+2	130-й	130-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	пилотируемый	пилотируемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	полёт	полать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	третий	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	conj	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	МС	Мс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80279
+# text = Отделение ступений прошло успешно, корабль вышел на заданную орбиту в 23:29, стыковка с МКС запланирована на 20 ноября в 01:01.
+1	Отделение	отделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	ступений	ступение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	прошло	проходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	успешно	успешно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	вышел	выходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	заданную	задавать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+11	в	в	ADP	_	_	15	case	_	_
+12	23	23	NUM	_	_	15	nummod	_	SpaceAfter=No
+13	:29	:29	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	стыковка	стыковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+18	запланирована	планировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+19	на	на	ADP	_	_	21	case	_	SpacesAfter=\n
+20	20	20	NUM	_	_	21	nummod	_	_
+21	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	01:01	01:01	NOUN	_	_	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80280
+# text = Запуск транслировалсяв прямом эфире.
+1	Запуск	Запуск	ADV	_	Degree=Pos	2	advmod	_	_
+2	транслировалсяв	транслировалсимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	root	_	_
+3	прямом	прямой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	эфире	эфир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 80281
+# text = Это будет второй полет для Олега Новицкого и первый для Тома Песке.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	Олега	олег	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Новицкого	Новицкий	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	Тома	Том	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\n
+12	Песке	песка	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 80282
+# text = Пегги Уитсон побывала в космосе уже трижды и после стыковки примет командование на МКС.
+1	Пегги	Пегга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	Уитсон	Уитсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+3	побывала	побывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	космосе	космос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+7	трижды	трижды	ADV	_	Degree=Pos	3	advmod	_	_
+8	и	и	CCONJ	_	_	11	cc	_	_
+9	после	после	ADP	_	_	10	case	_	_
+10	стыковки	стыковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+11	примет	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	SpacesAfter=\n
+12	командование	командование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	МКС	Мкс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80283
+# text = Астронавт станет первой женщиной, дважды командовавшей на международной станции.
+1	Астронавт	Астронавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	женщиной	женщина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	дважды	дважды	ADV	_	Degree=Pos	7	advmod	_	_
+7	командовавшей	командовать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	_
+8	на	на	ADP	_	_	10	case	_	SpacesAfter=\n
+9	международной	международный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80284
+# text = Впервые она получила это звание в 2007 году.
+1	Впервые	впервые	ADV	_	Degree=Pos	3	advmod	_	_
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	звание	звание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	2007	2007	NUM	_	_	8	nummod	_	_
+8	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 80285
+# text = Космонавты проведут на борту станции шесть месяцев.
+1	Космонавты	космонавт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	проведут	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+6	шесть	шесть	NUM	_	Case=Acc	5	nummod:gov	_	_
+7	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 80286
+# text = Сейчас на МКС также находятся Шейн Кимброу, Сергей Рыжиков и Андрей Борисенко, прибывшие на станцию 21 октября.
+1	Сейчас	сейчас	ADV	_	Degree=Pos	5	advmod	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	МКС	мкс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	Шейн	Шейн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	Кимброу	Кимброу	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	Сергей	сергей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+10	Рыжиков	Рыжиков	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Андрей	андрей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+13	Борисенко	Борисенко	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	прибывшие	прибывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	станцию	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	21	21	NUM	_	_	19	nummod	_	_
+19	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80287
+# text = "Союз МС-03" пристыкуется к модулю "Рассвет".
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Союз	союз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	МС	Мс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	-03	-03	NUM	_	_	3	nummod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	пристыкуется	пристыкуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Рассвет	рассвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 80288
+# text = После стыковки, к МКС окажутся одновременно присоединены сразу четыре космических корабля: "Союз МС-03", "Союз МС-02", грузовые корабли Cygnus и "Прогресс-64".
+1	После	после	ADP	_	_	2	case	_	_
+2	стыковки	стыковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	к	к	ADP	_	_	5	case	_	_
+5	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	окажутся	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	одновременно	одновременне	ADV	_	Degree=Pos	8	advmod	_	_
+8	присоединены	присоединать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+9	сразу	сразу	ADV	_	Degree=Pos	10	advmod	_	_
+10	четыре	четыре	NUM	_	Case=Nom	12	nummod:gov	_	_
+11	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Союз	союз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+16	МС-03	МС-03	NUM	_	_	15	nummod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Союз	союз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpacesAfter=\n
+21	МС-02	МС-02	NUM	_	_	20	nummod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	21	punct	_	_
+24	грузовые	грузовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	корабли	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	parataxis	_	_
+26	Cygnus	Cygnus	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	Прогресс	прогресс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	64"	64"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 80289
+# text = Кроме того, на МКС находится надувной модуль BEAM.Первый запуск модификации "Союз МС" к МКС состоялсяв июле этого года.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	МКС	МКс	PROPN	_	_	6	obl	_	_
+6	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	надувной	надувной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	BEAM.	Beam.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	SpaceAfter=No
+10	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	запуск	запуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+12	модификации	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Союз	союз	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+15	МС	Мс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	МКС	мкс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+19	состоялсяв	состоялсимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	_
+20	июле	июль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+21	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	22	amod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80290
+# text = На его борту на орбиту отправились Анатолий Иванишин (Роскосмос), Такуя Ониши (JAXA) и Кэтлин Рубинс (NASA).Владимир Королёв
+1	На	на	ADP	_	_	3	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	отправились	отправаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Анатолий	анатолий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	Иванишин	Иванишин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Роскосмос	роскосмос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	Такуя	Таковать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+14	Ониши	Ониша	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	JAXA	Jaxa	PROPN	_	Foreign=Yes	14	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	Кэтлин	Кэтлин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
+20	Рубинс	Рубинс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	NASA	наса	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+26	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	SpaceAfter=No
+

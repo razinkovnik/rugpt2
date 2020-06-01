@@ -1,0 +1,464 @@
+# sent_id = 73931
+# text = Американские ииспанские ученые разработали ииспытали программное обеспечение для раннего выявления болезни Паркинсона понабору текста наклавиатуре.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	SpacesBefore=\n
+2	ииспанские	ииспанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ииспытали	ииспытавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpacesAfter=\n
+6	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	раннего	ранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+11	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Паркинсона	Паркинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	понабору	понабор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	SpacesAfter=\n
+14	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	наклавиатуре	наклавиатура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73932
+# text = Результаты работы опубликованы вжурнале Scientific Reports.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Scientific	Scientific	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n
+6	Reports	reports	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 73933
+# text = Болезнь Паркинсона-- второе пораспространенности (после болезни Альцгеймера) нейродегенеративное заболевание, которым страдают до10миллионов жителей Земли.
+1	Болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Паркинсона-	Паркинсона-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	пораспространенности	пораспространенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpacesAfter=\n
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	после	после	ADP	_	_	8	case	_	_
+8	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	parataxis	_	_
+9	Альцгеймера	альцгеймер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	нейродегенеративное	нейродегенеративный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которым	который	PRON	_	Case=Ins	15	obl	_	_
+15	страдают	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	SpacesAfter=\n
+16	до10миллионов	до10миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 73934
+# text = Оно проявляется тремором, скованностью движений идругими расстройствами.
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	2	nsubj	_	_
+2	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	тремором	тремор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	скованностью	скованность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	conj	_	SpacesAfter=\n
+6	движений	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	идругими	идругой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	расстройствами	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 73935
+# text = Ихразвитие связано сгибелью вырабатывающих дофамин нейронов вдвигательных центрах мозга, впервую очередь полосатом теле ипокрышке.
+1	Ихразвитие	Ихразвитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	сгибелью	сгибель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\n
+4	вырабатывающих	вырабатывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+5	дофамин	дофаминута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	нейронов	нейрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	вдвигательных	вдвигательный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	центрах	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+9	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	впервую	впервой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+13	полосатом	полосатый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	SpacesAfter=\n
+14	теле	тело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	ипокрышке	ипокрышка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73936
+# text = Излечить болезнь Паркинсона внастоящее время невозможно, носвоевременно начатая терапия может надолго замедлить прогрессирование симптомов.
+1	Излечить	излечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+2	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	Паркинсона	Паркинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	внастоящее	внастоящий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+6	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	носвоевременно	носвоевременно	ADV	_	Degree=Pos	11	advmod	_	_
+9	начатая	начинать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	терапия	терапия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	надолго	надолго	ADV	_	Degree=Pos	13	advmod	_	_
+13	замедлить	замедлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	прогрессирование	прогрессирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpacesAfter=\n
+15	симптомов	симптом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 73937
+# text = Поэтому ранняя диагностика играет ключевую роль вуспешности лечения.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	ранняя	ранний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	диагностика	диагностика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ключевую	ключевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	вуспешности	вуспешность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 73938
+# text = Однако существующие методы непозволяют проводить мониторинг развития заболевания сдостаточной частотой иохватом.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	непозволяют	непозволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	мониторинг	мониторинг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	сдостаточной	сдостаточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+11	иохватом	иохват	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 73939
+# text = Чтобы исправить это положение, сотрудники Массачусетского технологического института создали программу, которая отслеживает время зажатия клавиш (промежуток между нажатием иотпусканием, обычно около 100миллисекунд) при наборе текста.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+2	исправить	исправливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+3	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+4	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+7	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=\n
+8	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	отслеживает	отслеживавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	зажатия	зажатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpacesAfter=\n
+17	клавиш	клавиша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	промежуток	промежуток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	parataxis	_	_
+20	между	между	ADP	_	_	21	case	_	_
+21	нажатием	нажатие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	nmod	_	_
+22	иотпусканием	иотпускание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	обычно	обычно	ADV	_	Degree=Pos	26	advmod	_	_
+25	около	около	ADP	_	_	26	case	_	_
+26	100миллисекунд	100миллисекунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpacesAfter=\n
+28	при	при	ADP	_	_	29	case	_	_
+29	наборе	набор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+30	текста	текст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 73940
+# text = Применить еедля выявления болезни Паркинсона они решили исходя из того, что неврологи с той же целью используют тесты нажатия наодну клавишу ипостукивания большим иуказательным пальцами, технически схожие сработой на клавиатуре.
+1	Применить	применять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+2	еедля	еедля	ADP	_	_	3	case	_	_
+3	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+4	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Паркинсона	Паркинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+7	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	исходя	исходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	неврологи	невролог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing	17	amod	_	_
+16	же	же	PART	_	_	15	advmod	_	_
+17	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+18	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+19	тесты	тест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+20	нажатия	нажатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	наодну	наодин	NUM	_	Case=Acc|Gender=Fem	22	nummod:gov	_	_
+22	клавишу	клавиша	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpacesAfter=\n
+23	ипостукивания	ипостукивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+25	иуказательным	иуказательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	технически	технически	ADV	_	Degree=Pos	30	advmod	_	_
+29	схожие	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	сработой	сработа	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+31	на	на	ADP	_	_	32	case	_	SpacesAfter=\n
+32	клавиатуре	клавиатура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 73941
+# text = Эффективность своей разработки американцы испытали вдвух мадридских клиниках.
+1	Эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	американцы	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	испытали	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	вдвух	вдва	NUM	_	Case=Loc	8	nummod	_	_
+7	мадридских	мадридский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	клиниках	клиника	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 73942
+# text = Вработе приняли участие 42пациента сранней стадией болезни Паркинсона и43здоровых добровольца, вошедших вконтрольную группу.
+1	Вработе	Вработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+2	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	42пациента	42пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	сранней	сранний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	стадией	стадия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+7	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	Паркинсона	Паркинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+9	и43здоровых	и43здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	добровольца	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	вошедших	входить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	amod	_	_
+13	вконтрольную	вконтрольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 73943
+# text = Всех участников попросили набирать произвольный текст втечение 10--15 минут на компьютерах сустановленной экспериментальной программой.
+1	Всех	весь	DET	_	Case=Acc|Number=Plur	2	amod	_	SpacesAfter=\n
+2	участников	участник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	попросили	просить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	набирать	набирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	произвольный	произвольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+8	10	10	NUM	_	_	11	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-15	-15	NUM	_	_	8	nummod	_	_
+11	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	SpacesAfter=\n
+13	компьютерах	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+14	сустановленной	установлеть	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+15	экспериментальной	экспериментальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	программой	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 73944
+# text = Оказалось, что упациентов сболезнью Паркинсона время зажатия клавиш сильно варьирует, втовремя как уздоровых добровольцев оно более или менее постоянно.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	упациентов	упациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	amod	_	_
+5	сболезнью	сболезнь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Паркинсона	Паркинсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	SpacesAfter=\n
+8	зажатия	зажатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	клавиш	клавиша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	сильно	сильно	ADV	_	Degree=Pos	11	advmod	_	_
+11	варьирует	варьировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	втовремя	втовремя	ADV	_	Degree=Pos	11	mark	_	_
+14	как	как	SCONJ	_	_	13	fixed	_	_
+15	уздоровых	уздоровый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+17	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	21	nsubj	_	SpacesAfter=\n
+18	более	более	ADV	_	Degree=Cmp	21	advmod	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	менее	менее	ADV	_	Degree=Cmp	18	conj	_	_
+21	постоянно	постоянно	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73945
+# text = Анализ этих данных специально созданным алгоритмом позволил выявить определенный "почерк", характерный для раннего паркинсонизма.
+1	Анализ	анализ	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	7	obl	_	_
+4	специально	специально	ADV	_	Degree=Pos	5	advmod	_	_
+5	созданным	создавать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	алгоритмом	алгоритм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	SpacesAfter=\n
+7	позволил	позволять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выявить	выявливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	определенный	определять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	почерк	почерк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	характерный	характерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	раннего	ранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	паркинсонизма	паркинсонизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 73946
+# text = Использование этого "почерка" позволило свысокой точностью отличить людей сзаболеванием отздоровых.
+1	Использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	почерка	почерк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	позволило	позволять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	свысокой	свысокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	точностью	точность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\n
+9	отличить	отличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	сзаболеванием	сзаболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	отздоровых	отздоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 73947
+# text = Площадь под ROC-кривой (ROC AUC -- показатель, количественно оценивающий пригодность методики для различения носителей ине-носителей какого-либо признака) для этого метода составила 0,81.
+1	Площадь	площадь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	под	под	ADP	_	_	3	case	_	_
+3	ROC-кривой	ROC-крива	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ROC	Roc	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	AUC	Auc	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	количественно	количественне	ADV	_	Degree=Pos	11	advmod	_	_
+11	оценивающий	оценивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	SpacesAfter=\n
+12	пригодность	пригодность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+13	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	различения	различение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	conj	_	_
+16	носителей	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	ине-носителей	ине-носитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	SpacesAfter=\n
+19	признака	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	для	для	ADP	_	_	23	case	_	_
+22	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	_
+23	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+24	составила	составлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+25	0,81	0,81	NUM	_	_	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 73948
+# text = Таким образом, его диагностическая ценность оказалась выше, чем утестов нажатия наодну клавишу (ROC AUC 0,61) ипостукивания большим иуказательным пальцами (ROC AUC 0,75).
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+5	диагностическая	диагностический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+6	ценность	ценность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	выше	высокий	ADJ	_	Degree=Cmp	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чем	чем	SCONJ	_	_	11	cc	_	_
+11	утестов	утест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	advmod	_	_
+12	нажатия	нажатие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	наодну	наодин	NUM	_	Case=Acc|Gender=Fem	14	nummod:gov	_	_
+14	клавишу	клавиша	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	ROC	Roс	ADP	_	_	17	case	_	_
+17	AUC	Auc	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+18	0,61	0,61	NUM	_	_	20	nummod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	ипостукивания	ипостукивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpacesAfter=\n
+21	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+22	иуказательным	иуказательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	ROC	Roс	ADP	_	_	26	case	_	_
+26	AUC	Auc	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+27	0,75	0,75	NUM	_	_	26	nummod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 73949
+# text = Разработанную диагностическую программу можно установить на любой компьютер, добавить впрошивку устройства или поместить навеб-страницу, чтобы вести мониторинг иколичественную оценку возможных симптомов вовремя повседневного пользования компьютером.
+1	Разработанную	разрабатывать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	диагностическую	диагностический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	на	на	ADP	_	_	8	case	_	SpacesAfter=\n
+7	любой	любой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	добавить	добавлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+11	впрошивку	впрошивка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	или	или	CCONJ	_	_	14	cc	_	_
+14	поместить	помещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	_
+15	навеб-страницу	навеб-страница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	0	mark	_	_
+18	вести	вебать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	advcl	_	_
+19	мониторинг	мониторинг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	иколичественную	иколичественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+22	возможных	возможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	симптомов	симптом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	вовремя	вовремя	ADV	_	Degree=Pos	0	advmod	_	SpacesAfter=\n
+25	повседневного	повседневный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 73950
+# text = Для обеспечения конфиденциальности набираемый текст неанализируется инесохраняется программой.
+1	Для	для	ADP	_	_	2	case	_	_
+2	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	конфиденциальности	конфиденциальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	набираемый	набираеть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+6	неанализируется	неанализируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	инесохраняется	инесохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+8	программой	программа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 73951
+# text = Это непервый случай, когда работу закомпьютером предложили использовать для диагностики нейродегенеративных заболеваний.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	непервый	непервый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случай	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	когда	когда	SCONJ	_	_	3	mark	_	_
+6	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	закомпьютером	закомпьютером	ADV	_	Degree=Pos	8	advmod	_	_
+8	предложили	предлагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	SpacesAfter=\n
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+12	нейродегенеративных	нейродегенеративный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 73952
+# text = Так, вмарте 2016 года ученые сообщили, что редкое пользование компьютером может служить ранним признаком развития деменции, например, при болезни Альцгеймера.
+1	Так	так	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	вмарте	вмарте	ADV	_	Degree=Pos	7	advmod	_	_
+4	2016	2016	NUM	_	_	5	nummod	_	SpacesAfter=\n
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	редкое	редкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	пользование	пользование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl:agent	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+14	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	ранним	ранний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	SpacesAfter=\n
+16	признаком	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+17	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	деменции	деменция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	например	например	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	при	при	ADP	_	_	23	case	_	_
+23	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+24	Альцгеймера	альцгеймер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 73953
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

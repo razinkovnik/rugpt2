@@ -1,0 +1,198 @@
+# sent_id = 72475
+# text = Аэрокосмическая компания SpaceX впервые провела огневые испытания метанового ракетного двигателя Raptor, который создавался для межпланетных перелетов.
+1	Аэрокосмическая	Аэрокосмической	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	SpaceX	Spacex	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+5	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	огневые	огневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+8	метанового	метановый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	ракетного	ракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+11	Raptor	Raptor	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj:pass	_	_
+14	создавался	создавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	межпланетных	межпланетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	перелетов	перелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72476
+# text = Об этом в своем твиттере сообщил Илон Маск.Ракетный двигатель Raptor использует в качестве топлива метан и кислород.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	_
+5	твиттере	твиттер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	сообщил	сообщивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Илон	Илон	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	Маск.	Масколо	ADP	_	_	10	case	_	SpaceAfter=No
+9	Ракетный	ракетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+11	Raptor	Raptor	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+16	метан	метан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	кислород	кислород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 72477
+# text = SpaceX планирует использовать новый двигатель для межпланетных перелетов, в том числе для полета к Марсу.
+1	SpaceX	Spacex	NUM	_	_	2	nummod	_	_
+2	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+4	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	для	для	ADP	_	_	5	case	_	_
+7	межпланетных	межпланетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	перелетов	перелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	12	amod	_	_
+12	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	advmod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	Марсу	марс	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 72478
+# text = Впервые о разработке Raptor стало известно еще в 2009 году, но точные характеристики двигателя до сих пор неизвестны.
+1	Впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	Raptor	Raptor	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	amod	_	_
+7	еще	еще	ADV	_	Degree=Pos	10	advmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	2009	2009	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	19	cc	_	_
+13	точные	точный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+15	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	до	до	ADP	_	_	19	advmod	_	_
+17	сих	сей	DET	_	Case=Gen|Number=Plur	16	fixed	_	_
+18	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	fixed	_	_
+19	неизвестны	неизвестный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 72479
+# text = SpaceX намерена использовать двигатель в своем проектеМежпланетной Транспортной Системы.Первые огневые испытания нового метанового двигателя прошли на испытательной площадке SpaceX в городе Мак-Грегор, штат Техас.
+1	SpaceX	Spacex	NUM	_	_	2	nummod	_	_
+2	намерена	намерен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+3	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	в	в	ADP	_	_	9	case	_	_
+6	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	9	amod	_	_
+7	проектеМежпланетной	проектеМежпланетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+8	Транспортной	транспортной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Системы	система	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+12	огневые	огневой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	_
+14	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	метанового	метановый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+17	прошли	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	испытательной	испытательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	площадке	площадка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+21	SpaceX	Spacex	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+24	Мак-Грегор	Мак-Грегор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	26	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	штат	штат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+27	Техас	Техас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72480
+# text = Точных данных о прожиге не сообщается, однако Илон Маск отметил, что запланированный удельная тяга Raptor составляет 382 секунды, а тяга -- три меганьютона.Ранее сообщалось, что SpaceX планирует отправить свой первый грузовойкорабль Red Dragon на Марс уже в 2018 году, а пилотируемый полет предварительно запланирован на 2024 год.
+1	Точных	точный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nsubj:pass	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	прожиге	прожига	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+9	Илон	Илон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	Маск	Маск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	отметил	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	запланированный	запланировывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+15	удельная	удельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	тяга	тяга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+17	Raptor	Raptor	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+19	382	382	NUM	_	_	20	nummod	_	_
+20	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	23	cc	_	_
+23	тяга	тяга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	три	три	NUM	_	Case=Nom	26	nummod:gov	_	_
+26	меганьютона.	меганьютона.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+27	Ранее	рано	ADV	_	Degree=Cmp	28	advmod	_	_
+28	сообщалось	сообщаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	что	что	SCONJ	_	_	28	mark	_	_
+31	SpaceX	Spacex	PROPN	_	Foreign=Yes	32	nsubj	_	_
+32	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
+33	отправить	отправать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+34	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	36	amod	_	_
+35	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	грузовойкорабль	грузовойкорабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+37	Red	red	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	Dragon	Dragon	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	Марс	марс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
+41	уже	уже	ADV	_	Degree=Pos	44	advmod	_	_
+42	в	в	ADP	_	_	44	case	_	_
+43	2018	2018	NUM	_	_	44	nummod	_	_
+44	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	а	а	CCONJ	_	_	50	cc	_	_
+47	пилотируемый	пилотируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	48	amod	_	_
+48	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	50	nsubj:pass	_	_
+49	предварительно	предварительно	ADV	_	Degree=Pos	50	advmod	_	_
+50	запланирован	планировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	conj	_	_
+51	на	на	ADP	_	_	53	case	_	_
+52	2024	2024	NUM	_	_	53	nummod	_	_
+53	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	50	obl	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpaceAfter=No
+
+# sent_id = 72481
+# text = Запуск с Земли будет производитьсяпри помощи тяжелой ракеты-носителя Falcon Heavy, первый демонстрационный полет которойзапланированна 2016 год.Николай Воронцов
+1	Запуск	Запуск	ADV	_	Degree=Pos	5	nsubj	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	производитьсяпри	производитьсяпре	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+6	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	тяжелой	тяжелой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+11	Falcon	Falcon	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Heavy	Heavy	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	демонстрационный	демонстрационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_
+17	которойзапланированна	которойзапланированн	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	2016	2016	NUM	_	_	17	nummod	_	_
+19	год.	годемик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+21	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

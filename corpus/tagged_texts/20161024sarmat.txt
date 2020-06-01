@@ -1,0 +1,128 @@
+# sent_id = 76402
+# text = Государственный ракетный центр имени Макеева опубликовал фотографию перспективной баллистической ракеты "Сармат", которая на вооружении Ракетных войск стратегического назначения должна будет заменить устаревшие Р-36М2 "Воевода".
+1	Государственный	государственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n
+2	ракетный	ракетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	центр	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	Макеева	Макеев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	опубликовал	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	перспективной	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	баллистической	баллистический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Сармат	Сармат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	которая	который	PRON	_	Case=Nom	22	nsubj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+18	Ракетных	ракетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	войск	войска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	стратегического	стратегический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	10	acl:relcl	_	_
+23	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	заменить	заменать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+25	устаревшие	устаревать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	26	amod	_	_
+26	Р-36М2	Р-36М2	NOUN	_	_	24	obj	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Воевода	Воевода	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	appos	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 76403
+# text = Согласно краткому описанию новой ракеты, предварительные работы над "Сарматом" начались в 2010 году.Согласно заявлениям военного руководства России, новая тяжелая баллистическая ракета предназначена для преодоления системы противоракетной обороны, которую США активно развивают на протяжении последнего десятилетия.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	краткому	краткий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	описанию	описание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	_	_
+4	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	предварительные	предварительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+9	над	над	ADP	_	_	11	case	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Сарматом	сармат	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	2010	2010	NUM	_	_	16	nummod	_	_
+16	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	Согласно	согласно	ADP	_	_	18	case	_	_
+18	заявлениям	заявление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
+19	военного	военный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	руководства	руководство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+24	тяжелая	тяжелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	SpacesAfter=\n
+25	баллистическая	баллистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	ракета	ракета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	_
+27	предназначена	предназначать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	conj	_	_
+28	для	для	ADP	_	_	29	case	_	_
+29	преодоления	преодоление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+30	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpacesAfter=\n
+31	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	которую	который	PRON	_	Case=Acc	32	obj	_	_
+35	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	34	nmod	_	_
+36	активно	активно	ADV	_	Degree=Pos	37	advmod	_	_
+37	развивают	развиваять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+38	на	на	ADP	_	_	39	case	_	_
+39	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+40	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	SpacesAfter=\n
+41	десятилетия	десятилетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 76404
+# text = Некоторые элементы многопозиционной системы американской противоракетной обороны размещаются в Европе.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	многопозиционной	многопозиционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	американской	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	размещаются	размещаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76405
+# text = Американские и европейские военные утверждают, что система должна перехватывать ракеты из Северной Кореи и Ирана.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	европейские	европейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+4	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	что	что	SCONJ	_	_	5	cc	_	_
+8	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	advcl	_	_
+10	перехватывать	перехватывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	из	из	ADP	_	_	14	case	_	_
+13	Северной	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Кореи	корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	Ирана	иран	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 76406
+# text = Однако руководство России считает новую систему ПРО угрозой именно своему ядерному щиту.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	руководство	руководство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpacesAfter=\n
+3	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	ПРО	про	ADP	_	_	8	case	_	_
+8	угрозой	угроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	именно	именно	PART	_	_	10	advmod	_	_
+10	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	_
+11	ядерному	ядерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	щиту	щит	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

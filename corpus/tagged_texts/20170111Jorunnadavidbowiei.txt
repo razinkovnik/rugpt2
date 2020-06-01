@@ -1,0 +1,150 @@
+# sent_id = 87449
+# text = Испанские ученые обнаружили на побережье Кубы новый вид голожаберного моллюска, который меняет цвет в случае опасности.
+1	Испанские	испанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	побережье	побережье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+6	Кубы	Куба	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\n
+9	голожаберного	голожаберный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	моллюска	моллюск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	меняет	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87450
+# text = Статья о находке опубликована в журнале VIERAEA, полный текст статьи доступенна портале Researchgate.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	о	о	ADP	_	_	3	case	_	SpacesAfter=\n
+3	находке	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	_
+4	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	VIERAEA	Vieraea	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	доступенна	доступенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	parataxis	_	SpacesAfter=\n
+13	портале	портале	ADP	_	_	14	case	_	_
+14	Researchgate	Researchgate	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87451
+# text = Голожаберные моллюски -- одни из самых красивых обитателей морского дна, они отличаются большим разнообразием форм и окрасок, могут быть похожими на водоросли, соревноваться в яркости с тропическими рыбками или напоминать милых пушистых зверьков, как Jorunna parva, пушистый морской кролик.
+1	Голожаберные	Голожаберный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	моллюски	моллюск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+3	--	--	PUNCT	_	_	2	punct	_	_
+4	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+5	из	из	ADP	_	_	8	case	_	_
+6	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	красивых	красивый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	обитателей	обитатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	морского	морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpacesAfter=\n
+10	дна	дно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	разнообразием	разнообразие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+16	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	окрасок	окраска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	cop	_	_
+22	похожими	похожий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	obl	_	SpacesAfter=\n
+23	на	на	ADP	_	_	24	case	_	_
+24	водоросли	водоросль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	соревноваться	соревноваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	36	dep	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	яркости	яркость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	тропическими	тропический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	31	amod	_	_
+31	рыбками	рыбка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	nmod	_	_
+32	или	или	CCONJ	_	_	33	cc	_	_
+33	напоминать	напоминать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	conj	_	SpacesAfter=\n
+34	милых	милой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+35	пушистых	пушистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	зверьков	зверек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	как	как	SCONJ	_	_	39	cc	_	_
+39	Jorunna	Jorunna	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+40	parva	parva	PROPN	_	Foreign=Yes	39	flat:foreign	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	SpacesAfter=\n
+42	пушистый	пушистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+43	морской	морской	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	кролик	кролик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 87452
+# text = Новый вид, Jorunna davidbowiei, открытый учеными в Карибском море недалеко от Гаванны, тоже принадлежит к роду Jorunna, но не отличается особой красотой.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Jorunna	Jorunna	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	davidbowiei	davidbowiei	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	открытый	открывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+8	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	Карибском	Карибский	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	море	море	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+12	недалеко	недалеко	ADV	_	Degree=Pos	17	advmod	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	Гаванны	Гаванна	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	тоже	тоже	PART	_	_	17	advmod	_	_
+17	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	к	к	ADP	_	_	19	case	_	_
+19	роду	род	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+20	Jorunna	Jorunna	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+22	но	но	CCONJ	_	_	24	cc	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	_
+25	особой	особый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	красотой	красота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 87453
+# text = Он скорее напоминает полупрозрачную лужицу белого цвета.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	скорее	скорее	ADV	_	Degree=Pos	3	advmod	_	_
+3	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	полупрозрачную	полупрозрачный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	лужицу	лужица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpacesAfter=\n
+6	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 87454
+# text = Но он обладает совершенно нетипичной для моллюсков особенностью.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	совершенно	совершенно	ADV	_	Degree=Pos	5	advmod	_	_
+5	нетипичной	нетипичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	моллюсков	моллюск	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	особенностью	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 87455
+# text = В случае опасности он меняет цвет.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	меняет	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+

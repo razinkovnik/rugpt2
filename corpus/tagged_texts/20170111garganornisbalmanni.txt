@@ -1,0 +1,363 @@
+# sent_id = 87423
+# text = Итальянские палеонтологи обнаружили кости древнего гигантского гуся, обитавшего насредиземноморских островах от6до9миллионов лет назад.
+1	Итальянские	итальянский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	палеонтологи	палеонтолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	кости	кость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
+5	древнего	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	обитавшего	обитать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	amod	_	_
+10	насредиземноморских	насредиземноморский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	островах	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+12	от6до9миллионов	от6до9миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	назад	назад	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87424
+# text = Особенности строения крыльев птицы говорят отом, что гусь немог летать, ноумел драться.
+1	Особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	строения	строение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	крыльев	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+4	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	5	mark	_	_
+9	гусь	гусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	немог	немогой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	advcl	_	_
+11	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ноумел	ноуметать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+14	драться	драться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87425
+# text = Описание работы опубликовано вжурнале The Royal Society Publishing.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликовано	опубликовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	The	the	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Royal	royal	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Society	society	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Publishing	Publishing	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 87426
+# text = Пооценкам ученых, вес гуся Garganornis ballmanni достигал 22килограммов при росте полтора метра-- это самый крупный представитель изкогда-либо живущих отряда гусеобразных, который включает всебя уток, гусей илебедей (для сравнения, изсовременных представителей отряда самым крупным является лебедь-шипун, достигающий массы 13килограммов).
+1	Пооценкам	Пооценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	conj	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	вес	вес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Garganornis	Garganornis	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	ballmanni	ballmanni	NUM	_	_	6	nummod	_	_
+8	достигал	достигать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	22килограммов	22килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	росте	рост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+12	полтора	полтора	NUM	_	Case=Acc|Gender=Masc	8	nummod	_	_
+13	метра-	метра-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	это	это	PART	_	_	18	cop	_	_
+16	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	крупный	крупный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+19	изкогда-либо	изкогда-либо	ADV	_	Degree=Pos	20	advmod	_	_
+20	живущих	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+21	отряда	отряда	ADV	_	Degree=Pos	20	advmod	_	_
+22	гусеобразных	гусеобразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	который	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+26	всебя	всы	PRON	_	Case=Acc|Number=Sing|Person=2	25	obj	_	_
+27	уток	утка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	гусей	гусь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	conj	_	_
+30	илебедей	илебедея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	для	для	ADP	_	_	33	case	_	_
+33	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	parataxis	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	изсовременных	изсовременный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	_
+37	отряда	отряда	ADV	_	Degree=Pos	38	advmod	_	_
+38	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+39	крупным	крупной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	obl	_	_
+40	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	parataxis	_	_
+41	лебедь-	лебедь-	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	шипун	шипун	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	достигающий	достигать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	42	amod	_	_
+45	массы	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	44	obj	_	_
+46	13килограммов	13килограмм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	SpaceAfter=No
+47	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 87427
+# text = Кости древнего гуся обнаружены вцентральной Италии-- регионе, покрытом островами вэпоху миоцена.
+1	Кости	кость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	древнего	древний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	обнаружены	обнаружать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	вцентральной	вцентральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Италии	италия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	регионе	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	покрытом	покрыт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+12	островами	остров	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+13	вэпоху	вэпоху	ADV	_	Degree=Pos	14	advmod	_	_
+14	миоцена	миоценный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87428
+# text = Кости крыльев обнаруженного гуся оказались сравнительно короткими-- скорее всего, гусь неумел летать.
+1	Кости	кость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	крыльев	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	обнаруженного	обнаруживать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	сравнительно	сравнительно	ADV	_	Degree=Pos	7	advmod	_	_
+7	короткими	короткий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	скорее	скорее	ADV	_	Degree=Pos	13	parataxis	_	_
+11	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	гусь	гиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	conj	_	_
+14	неумел	неумел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 87429
+# text = Характерное строение карпометакарпуса (эквивалента костей кисти рук человека) гигантского гуся со специфической шишкойнаблюдается усовременных птиц, которым приходится бороться ссородичами - это некоторые виды уток и гусей; таким же строением костей отличался ископаемый вид Pezophaps solitaria, ближайший родственник дронта.
+1	Характерное	характерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	строение	строение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	карпометакарпуса	карпометакарпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	эквивалента	эквивалента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+6	костей	кость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	кисти	кисть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	гигантского	гигантский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+13	со	с	ADP	_	_	15	case	_	_
+14	специфической	специфический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	шишкойнаблюдается	шишкойнаблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+16	усовременных	усовременный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nsubj:pass	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которым	который	PRON	_	Case=Ins	20	obl	_	_
+20	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
+21	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	20	nsubj	_	_
+22	ссородичами	ссородич	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	_
+23	-	-	PUNCT	_	_	22	punct	_	_
+24	это	это	PART	_	_	26	cop	_	_
+25	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	26	amod	_	_
+26	виды	вида	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+27	уток	утка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	гусей	гуся	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+30	;	;	PUNCT	_	_	29	punct	_	_
+31	таким	такой	DET	_	Case=Ins|Gender=Neut|Number=Sing	33	amod	_	_
+32	же	же	PART	_	_	31	advmod	_	_
+33	строением	строение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	obl	_	_
+34	костей	кость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	_
+35	отличался	отличаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	26	parataxis	_	_
+36	ископаемый	ископаемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+38	Pezophaps	Pezophaps	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+39	solitaria	solitaria	PROPN	_	Foreign=Yes	38	flat:foreign	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	ближайший	близкий	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	42	amod	_	_
+42	родственник	родственник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	parataxis	_	_
+43	дронта	дронт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 87430
+# text = Кость, покрытая жесткой кожей, действительно может быть опасным оружием, способным ломать кости противнику.
+1	Кость	кость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	покрытая	покрытать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+4	жесткой	жесткий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	кожей	кожа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	действительно	действительно	ADV	_	Degree=Pos	8	advmod	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+10	опасным	опасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	оружием	оружие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	способным	способный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	ломать	ломать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	кости	кость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+16	противнику	противник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 87431
+# text = Ученые предполагают, что основной причиной такой специфической боевой адаптации крыльев угигантских гусей была борьба затерриторию.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	основной	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	advcl	_	_
+7	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+8	специфической	специфический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	адаптации	адаптация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+11	крыльев	крылья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+12	угигантских	угигантский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	гусей	гусь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+15	борьба	борьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+16	затерриторию	затерритория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 87432
+# text = Утки игуси, живущие наостровах, часто переходят отводного кназемному образу жизни-- из-за нехватки пресной воды птицы перебираются влеса.
+1	Утки	утка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+2	игуси	игуси	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	живущие	жить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	наостровах	наострово	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	часто	часто	ADV	_	Degree=Pos	8	advmod	_	_
+8	переходят	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	отводного	отводный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	кназемному	кназемный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образу	образ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+12	жизни--	жизни--	PUNCT	_	_	11	punct	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	нехватки	нехватка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	пресной	пресный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	птицы	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+18	перебираются	перебираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	parataxis	_	_
+19	влеса	влесо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87433
+# text = Вэтом случае птицы вынуждены защищать свою территорию для того, чтобы обеспечить достаточное пропитание для своего потомства.
+1	Вэтом	Вэто	PART	_	_	4	advmod	_	_
+2	случае	случай	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+4	вынуждены	вынуждать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	территорию	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+12	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+13	достаточное	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	пропитание	пропитание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	17	amod	_	_
+17	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87434
+# text = Скорее всего, хищников наостровах было немного-- так что гигантский гусь постепенно утратил способность летать.
+1	Скорее	скорее	ADV	_	Degree=Cmp	4	parataxis	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	наостровах	наострово	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nmod	_	_
+6	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	cop	_	_
+7	немного-	немного-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	так	так	ADV	_	Degree=Pos	0	mark	_	_
+10	что	что	SCONJ	_	_	9	fixed	_	_
+11	гигантский	гигантский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	гусь	гусь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	постепенно	постепенно	ADV	_	Degree=Pos	14	advmod	_	_
+14	утратил	утрачивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+15	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 87435
+# text = Опасность для птенцов могли представлять сипухи иорлы, новзрослые особи были всостоянии защитить потомство засчет своих внушительных размеров.
+1	Опасность	опасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	птенцов	птенец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	представлять	представлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	сипухи	сипух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	иорлы	иорл	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	новзрослые	новзрослый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	всостоянии	всостояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	conj	_	_
+13	защитить	защищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	потомство	потомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	засчет	засчть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	своих	свой	DET	_	Case=Gen|Number=Plur	18	amod	_	_
+17	внушительных	внушительной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 87436
+# text = Вероятно, размеры можно объяснить исезонным питанием-- птицы наедались залето впрок, чтобы пережить холодный зимний сезон.
+1	Вероятно	вероятно	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	исезонным	исезонный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	питанием	питание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	наедались	наедаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+12	залето	залето	PART	_	_	13	advmod	_	_
+13	впрок	впрок	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	_
+16	пережить	переживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+17	холодный	холодный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+18	зимний	зимний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	сезон	сезон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 87437
+# text = Помнению ученых, эти специфические островные условия привели кформированию гигантского агрессивного гуся, способного защитить птенцов отлюбых хищников, асвою территорию отконкурентов.
+1	Помнению	Помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+5	специфические	специфический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	островные	островный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+8	привели	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	кформированию	кформирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+10	гигантского	гигантской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	агрессивного	агрессивной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	гуся	гусь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	способного	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+15	защитить	защикать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	dep	_	_
+16	птенцов	птенец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	отлюбых	отлюбой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	асвою	асвой	DET	_	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+21	территорию	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+22	отконкурентов	отконкурент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87438
+# text = Надежда Бессонова
+1	Надежда	надежда	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Бессонова	бессонова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+

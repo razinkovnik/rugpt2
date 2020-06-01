@@ -1,0 +1,161 @@
+# sent_id = 81188
+# text = Сотрудники Министерства древностей Египта обнаружили в 400 километрах южнее Каира жилые дома и некрополь возрастом около 5300 лет.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	Министерства	Министерство	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	древностей	древность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	Египта	Египет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	400	400	NUM	_	_	8	nummod	_	SpacesAfter=\n
+8	километрах	километры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+9	южнее	южный	ADJ	_	Degree=Cmp	12	amod	_	_
+10	Каира	Каир	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	жилые	жилой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	дома	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+14	некрополь	некрополь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+15	возрастом	возраст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	_
+16	около	около	ADP	_	_	18	case	_	_
+17	5300	5300	NUM	_	_	18	nummod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 81189
+# text = Постройки были найдены рядом с древней египетской столицей Абидосом.
+1	Постройки	постройка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	найдены	находить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	рядом	рядом	ADV	_	Degree=Pos	3	advmod	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	древней	древний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+7	египетской	египетский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	столицей	столица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+9	Абидосом	Абидос	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 81190
+# text = По словам археологов, найденные в некрополе гробницы-мастабы -- древнейшие из найденных до сих пор.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	SpacesAfter=\n
+3	археологов	археолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	найденные	найдять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	некрополе	некропол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\n
+8	гробницы	гробница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	мастабы	мастаб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	appos	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	древнейшие	древний	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	0	root	_	_
+13	из	из	ADP	_	_	14	mark	_	SpacesAfter=\n
+14	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	nmod	_	_
+15	до	до	ADP	_	_	14	advmod	_	_
+16	сих	сей	DET	_	Case=Gen|Number=Plur	15	fixed	_	_
+17	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	fixed	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 81191
+# text = О находках сообщает Egypt Independent.
+1	О	о	ADP	_	_	2	case	_	_
+2	находках	находка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	Egypt	Egypt	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Independent	independent	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 81192
+# text = Абидос был одним из древнейших городов Египта.
+1	Абидос	Абидос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\n
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	древнейших	древний	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	6	amod	_	_
+6	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	Египта	египет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 81193
+# text = Здесь жили правители додинастического периода (примерно до 3100 года до нашей эры), а после объединения царств Верхнего и Нижнего Египта в Абидосе жили фараоны I и II династий.
+1	Здесь	здесь	ADV	_	Degree=Pos	2	advmod	_	_
+2	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	правители	правитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	додинастического	додинастический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpacesAfter=\n
+5	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	примерно	примерно	ADV	_	Degree=Pos	10	advmod	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	3100	3100	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	parataxis	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	SpacesAfter=\n
+13	эры	эра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	а	а	CCONJ	_	_	26	cc	_	_
+17	после	после	ADP	_	_	18	case	_	_
+18	объединения	объединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	_
+19	царств	царство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	Верхнего	верхний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	SpacesAfter=\n
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	Нижнего	нижний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	_
+23	Египта	египет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	Абидосе	Абидос	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+26	жили	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+27	фараоны	фараон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpacesAfter=\n
+28	I	i	NUM	_	Case=Gen|Gender=Masc	27	nummod	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	II	Ii	NUM	_	_	31	nummod	_	_
+31	династий	династия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 81194
+# text = Город также был одним из крупнейших религиозных центров страны, центром культа Осириса и Изиды.
+1	Город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+5	из	из	ADP	_	_	8	case	_	_
+6	крупнейших	крупный	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	8	amod	_	SpacesAfter=\n
+7	религиозных	религиозный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	центром	центр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	SpacesAfter=\n
+12	культа	культ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Осириса	Осирис	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Изиды	Изида	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 81195
+# text = Фараоны Нового царства, Сети I и Рамзес II построили в Абидосе грандиозный храмовый комплекс, посвященный шести основным египетским божествам и частично сохранившийся до сих пор.
+1	Фараоны	Фараон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	Нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpacesAfter=\n
+3	царства	царство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Сети	сеть	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	I	i	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	Рамзес	рамзес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\n
+9	II	ii	NUM	_	_	8	nummod	_	_
+10	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Абидосе	Абидос	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpacesAfter=\n
+13	грандиозный	грандиозный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	храмовый	храмовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	посвященный	посвящать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	SpacesAfter=\n
+18	шести	шесть	NUM	_	Case=Dat	17	nummod	_	_
+19	основным	основной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+20	египетским	египетский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	божествам	божество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	obl	_	_
+22	и	и	CCONJ	_	_	24	cc	_	SpacesAfter=\n
+23	частично	частично	ADV	_	Degree=Pos	24	advmod	_	_
+24	сохранившийся	сохраняться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	0	amod	_	_
+25	до	до	ADP	_	_	24	advmod	_	_
+26	сих	сей	DET	_	Case=Gen|Number=Plur	25	fixed	_	_
+27	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	fixed	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+

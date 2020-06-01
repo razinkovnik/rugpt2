@@ -1,0 +1,526 @@
+# sent_id = 77445
+# text = Исследователи из Университета Карнеги-Меллон разработали новый язык программирования, с помощью которого можно писать программы для компьютеров, не имеющих надежного источника питания.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Карнеги-Меллон	Карнеги-Меллон	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	программирования	программирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	fixed	_	_
+12	которого	который	PRON	_	Case=Gen	0	nmod	_	_
+13	можно	можно	ADV	_	Degree=Pos	0	acl:relcl	_	_
+14	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+15	программы	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	имеющих	иметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+21	надежного	надежный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+23	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 77446
+# text = Согласно сообщению университета, новый язык получил название Chain.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	язык	язык	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	Chain	Chain	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 77447
+# text = Написанные с его помощью программы после потери компьютером питания все равно могут без каких-либо ошибок завершить свое исполнение, выдав при этом корректные данные.Исследователи предположили, что в будущем могут быть созданы компьютеры, которые используют для своей работы энергию, добываемую из окружающей среды.
+1	Написанные	писать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+2	с	с	ADP	_	_	5	case	_	_
+3	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	_
+5	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+6	после	после	ADP	_	_	7	case	_	_
+7	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+9	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	advmod	_	_
+11	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	fixed	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	без	без	ADP	_	_	15	case	_	_
+14	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+15	ошибок	ошибка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+16	завершить	завершать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+17	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	_
+18	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	выдав	выдавать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	12	advcl	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+23	корректные	корректное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	20	obj	_	_
+24	данные.	данныбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	SpaceAfter=No
+25	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+26	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	SCONJ	_	_	26	mark	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	obl	_	_
+31	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	_
+32	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	aux:pass	_	_
+33	созданы	создавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	31	xcomp	_	_
+34	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	которые	который	PRON	_	Case=Nom	37	nsubj	_	_
+37	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	acl:relcl	_	_
+38	для	для	ADP	_	_	40	case	_	_
+39	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	40	amod	_	_
+40	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	obl	_	_
+41	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	добываемую	добывать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	41	amod	_	_
+44	из	из	ADP	_	_	46	case	_	_
+45	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	46	amod	_	_
+46	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 77448
+# text = Такие системы могут использоваться, например, для космических исследований.
+1	Такие	такой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	космических	космический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	исследований	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 77449
+# text = Новые компьютеры не всегда смогут обеспечивать себя необходимой энергией, а значит, будут терять питание.
+1	Новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	всегда	всегда	ADV	_	Degree=Pos	5	advmod	_	_
+5	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	обеспечивать	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	себя	себя	PRON	_	Case=Acc	6	obj	_	_
+8	необходимой	необходимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	энергией	энергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	а	а	CCONJ	_	_	15	cc	_	_
+12	значит	значит	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	терять	терять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+16	питание	питание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77450
+# text = Это в свою очередь будет приводить к некорректному исполнению программ, выдаче неправильных вычислений или масштабным программным сбоям.Все существующие сегодня языки программирования не учитывают возможности потери компьютером питания и не производят надежного сохранения данных промежуточных операций.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	приводить	приводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	к	к	ADP	_	_	9	case	_	_
+8	некорректному	некорректный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	исполнению	исполнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+10	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	выдаче	выдаче	CCONJ	_	_	25	cc	_	_
+13	неправильных	неправильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	25	nsubj	_	_
+15	или	или	CCONJ	_	_	18	cc	_	_
+16	масштабным	масштабный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+17	программным	программной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	сбоям.	сбояматья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	Все	весь	DET	_	Case=Nom|Number=Plur	22	amod	_	_
+20	существующие	существовать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+21	сегодня	сегодня	ADV	_	Degree=Pos	20	advmod	_	_
+22	языки	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+23	программирования	программирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	учитывают	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+26	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+27	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	_
+29	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+30	и	и	CCONJ	_	_	32	cc	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	надежного	надежный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+35	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	34	nmod	_	_
+36	промежуточных	промежуточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 77451
+# text = При этом существуют программы и операционные системы, предполагающие возможность потери питания компьютером.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	программы	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	операционные	операционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	предполагающие	предполагать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77452
+# text = Они работают по принципу контрольных точек, сохраняя результаты своей работы через строго заданные промежутки времени.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	принципу	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	контрольных	контрольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	сохраняя	сохранять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	_
+9	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	через	через	ADP	_	_	15	case	_	_
+13	строго	строго	ADV	_	Degree=Pos	14	advmod	_	_
+14	заданные	задавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	промежутки	промежуток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+16	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77453
+# text = Такие программы расходуют много энергии и вычислительной мощности на восстановление после сбоя.Новый язык программирования Chain, как утверждают его разработчики, учитывает возможность потери компьютером питания и лишен недостатков операционных систем, работающих по принципу контрольных точек.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	программы	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	расходуют	расходовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	много	много	ADV	_	Degree=Pos	5	nummod:gov	_	_
+5	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	вычислительной	вычислительной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	мощности	мощность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	восстановление	восстановление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+11	после	после	ADP	_	_	12	case	_	_
+12	сбоя	сбое	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	Новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+16	программирования	программирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+17	Chain	Chain	PROPN	_	Foreign=Yes	24	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	как	как	SCONJ	_	_	24	mark	_	_
+20	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	parataxis	_	_
+21	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	22	nmod	_	_
+22	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	учитывает	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+25	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	потери	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	_
+28	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	лишен	лишать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	27	conj	_	_
+31	недостатков	недостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	obl	_	_
+32	операционных	операционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	работающих	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	_
+36	по	по	ADP	_	_	37	case	_	_
+37	принципу	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	35	obl	_	_
+38	контрольных	контрольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 77454
+# text = В нем реализованы сразу два механизма сохранения промежуточных данных: разделение процесса на небольшие задачи с сохранением состояния задачи (завершена или нет) и результатов ее исполнения (например, итогов вычисления).При нормальном питании любая программа, написанная с помощью Chain, исполняется от задачи к задаче.
+1	В	в	ADP	_	_	2	case	_	_
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+3	реализованы	реализовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	сразу	сразу	ADV	_	Degree=Pos	5	advmod	_	_
+5	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+7	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	промежуточных	промежуточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	разделение	разделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	47	nsubj	_	_
+12	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	небольшие	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	сохранением	сохранение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+18	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	завершена	завершать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	parataxis	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	нет	нет	PART	_	_	25	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	результатов	результаты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	conj	_	_
+27	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	28	nmod	_	_
+28	исполнения	исполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	например	например	ADV	_	Degree=Pos	32	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	итогов	итоги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	parataxis	_	_
+33	вычисления	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+36	При	при	ADP	_	_	38	case	_	_
+37	нормальном	нормальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	питании	питание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_
+39	любая	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj:pass	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	написанная	писать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	amod	_	_
+43	с	с	ADP	_	_	45	case	_	_
+44	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	43	fixed	_	_
+45	Chain	Chain	PROPN	_	Foreign=Yes	42	flat:foreign	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	_
+47	исполняется	исполняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+48	от	от	ADP	_	_	49	case	_	_
+49	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	obl	_	_
+50	к	к	ADP	_	_	51	case	_	_
+51	задаче	задача	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	49	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	SpaceAfter=No
+
+# sent_id = 77455
+# text = Произведя необходимые вычисления, одна задача сохраняет свой статус и результат работы, а затем передает данные следующей.
+1	Произведя	производить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	вычисления	вычисление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	одна	один	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+6	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	сохраняет	сохранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
+12	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	затем	затем	ADV	_	Degree=Pos	16	advmod	_	_
+16	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	16	obj	_	_
+18	следующей	следующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 77456
+# text = Та, в свою очередь, получив данные, проверяет их: если предыдущая задача поставила статус о завершении, то производится чтение ее данных и использование в рамках новой задачи.
+1	Та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	получив	получать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	_	_
+8	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	проверяет	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	если	если	SCONJ	_	_	16	mark	_	_
+14	предыдущая	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+16	поставила	ставить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	_	_
+17	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	завершении	завершение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	то	то	SCONJ	_	_	16	cc	_	_
+22	производится	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	parataxis	_	_
+23	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj:pass	_	_
+24	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	25	nmod	_	_
+25	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	23	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	conj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	27	nmod	_	_
+30	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 77457
+# text = Так по цепочки результаты каждого этапа передаются до конца программы.В случае если происходит сбой, исполнение программы возобновляется с той задачи, на которой было потеряно питание.
+1	Так	так	ADV	_	Degree=Pos	7	advmod	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	цепочки	цепочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	_
+4	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+5	каждого	каждой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	передаются	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	до	до	ADP	_	_	9	case	_	_
+9	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+10	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	В	в	ADP	_	_	13	case	_	_
+13	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+14	если	если	SCONJ	_	_	20	mark	_	_
+15	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+16	сбой	сба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+19	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	возобновляется	возобновляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
+23	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	которой	который	PRON	_	Case=Loc	28	obl	_	_
+27	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	потеряно	потерять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+29	питание	питание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 77458
+# text = При этом перезапускаемый процесс сперва проверяет статус предыдущей задачи и результаты ее вычислений и только после этого переходит к собственным вычислениям.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	перезапускаемый	перезапускать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	сперва	сперва	ADV	_	Degree=Pos	6	advmod	_	_
+6	проверяет	проверять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	предыдущей	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\s\n
+9	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+12	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	13	nmod	_	_
+13	вычислений	вычисление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+14	и	и	CCONJ	_	_	18	cc	_	_
+15	только	только	PART	_	_	17	advmod	_	_
+16	после	после	ADP	_	_	17	case	_	_
+17	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+18	переходит	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+19	к	к	ADP	_	_	21	case	_	SpacesAfter=\s\n
+20	собственным	собственный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	_
+21	вычислениям	вычисление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 77459
+# text = По оценке разработчиков, такой подход позволяет экономить потребление энергии и вычислительные мощности при возобновлении работы компьютера.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	экономить	экономить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	потребление	потребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	вычислительные	вычислительной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	мощности	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	возобновлении	возобновление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 77460
+# text = Более подробно с принцип работы Chain можно ознакомиться здесь.Сегодня существует несколько операционных систем, предполагающих ту или иную степень защищенности от сбоев питания.
+1	Более	более	ADV	_	Degree=Cmp	2	advmod	_	_
+2	подробно	подробно	ADV	_	Degree=Pos	7	advmod	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	принцип	принцип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Chain	Chain	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	ознакомиться	ознакоматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	nsubj	_	_
+9	здесь	здесь	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Сегодня	сегодня	ADV	_	Degree=Pos	12	advmod	_	_
+12	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+13	несколько	несколько	NUM	_	Case=Nom	15	nummod:gov	_	_
+14	операционных	операционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	предполагающих	предполагать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+18	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	иную	иной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	conj	_	_
+21	степень	степень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+22	защищенности	защищенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+23	от	от	ADP	_	_	24	case	_	_
+24	сбоев	сбой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+25	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 77461
+# text = Они работают по принципу контрольных точек или постоянного сохранения состояния системы со всеми процессами.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	по	по	ADP	_	_	4	case	_	_
+4	принципу	принцип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+5	контрольных	контрольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	или	или	CCONJ	_	_	9	cc	_	_
+8	постоянного	постоянный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	сохранения	сохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	_
+10	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	со	с	ADP	_	_	14	case	_	_
+13	всеми	весь	DET	_	Case=Ins|Number=Plur	14	amod	_	_
+14	процессами	процесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 77462
+# text = Таковыми, в частности, являются американские IBM i и EROS, а также российская "Фантом".
+1	Таковыми	таков	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	6	discourse	_	_
+4	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	fixed	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	IBM	ibm	PROPN	_	Foreign=Yes	6	nsubj	_	_
+9	i	i	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	EROS	Eros	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	17	cc	_	_
+14	также	также	ADV	_	Degree=Pos	15	advmod	_	_
+15	российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Фантом	Фант	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 77463
+# text = Ни одна из них не распространена среди пользователей и имеет небольшой набор поддерживаемого программного обеспечения.Василий Сычёв
+1	Ни	ни	PART	_	_	2	advmod	_	_
+2	одна	один	NUM	_	Case=Nom|Gender=Fem	6	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	распространена	распространенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+7	среди	среди	ADP	_	_	8	case	_	_
+8	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	небольшой	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	поддерживаемого	поддерживать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	amod	_	_
+14	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+18	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+

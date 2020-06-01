@@ -1,0 +1,540 @@
+# sent_id = 78668
+# text = Французские нейробиологи выяснили, какие отделы мозга отвечают заотвращение кеде.
+1	Французские	французский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n|SpacesAfter=\n
+2	нейробиологи	нейробиолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	какие	какой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	отделы	отдела	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpacesAfter=\n
+7	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	отвечают	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+9	заотвращение	заотвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	кеде	кеде	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78669
+# text = Если показать человеку нелюбимую еду (ученые использовали для этой цели сыр), унего активируются определенные структуры вбазальных ядрах, которые входят в "систему вознаграждения" вмозге.
+1	Если	если	SCONJ	_	_	8	mark	_	SpacesAfter=\n
+2	показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	_
+3	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+4	нелюбимую	нелюбимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	еду	еда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesAfter=\n
+8	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	цели	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+12	сыр	сыр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	унего	оун	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	SpacesAfter=\n
+16	активируются	активируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+17	определенные	определенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	SpacesAfter=\n
+19	вбазальных	вбазальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	20	amod	_	_
+20	ядрах	ядры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	в	в	ADP	_	_	26	case	_	SpacesAfter=\n
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+27	вознаграждения	вознаграждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	вмозге	вмозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 78670
+# text = Исследование опубликовано воFrontiers inHuman Neuroscience.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	SpacesAfter=\n
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	воFrontiers	воFrontiers	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	inHuman	inHuman	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Neuroscience	Neuroscience	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 78671
+# text = Отвращение, как одну избазовых эмоций, описал еще Дарвин вXIXвеке.
+1	Отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	как	как	SCONJ	_	_	4	cc	_	_
+4	одну	один	NUM	_	Case=Acc|Gender=Fem	6	nummod:gov	_	_
+5	избазовых	избазовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	эмоций	эмоция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	описал	описывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	еще	еще	ADV	_	Degree=Pos	10	advmod	_	SpacesAfter=\n
+10	Дарвин	Дарвин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	вXIXвеке	вXIXвеке	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78672
+# text = Внешне определить, что человек испытывает отвращение кчему-либо, можно по специфической гримасе налице, физиологической реакции (тошноте) и попыткам избегать предмета, вызывающего негативную реакцию.
+1	Внешне	внешне	ADV	_	Degree=Pos	2	advmod	_	SpacesAfter=\n
+2	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	испытывает	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	SpacesAfter=\n
+7	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	кчему-либо	кчему-либо	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+11	по	по	ADP	_	_	13	case	_	SpacesAfter=\n
+12	специфической	специфический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	гримасе	гримаса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+14	налице	налица	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	физиологической	физиологический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	реакции	реакция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	conj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	тошноте	тошнота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	SpacesAfter=\n
+22	попыткам	попытка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	23	conj	_	_
+23	избегать	избегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	_
+24	предмета	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	вызывающего	вызывать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	SpacesAfter=\n
+27	негативную	негативный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	реакцию	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 78673
+# text = Отвращение кеде может быть обусловлено разными причинами: неприятным запахом или вкусом несвежей пищи, аллергией наконкретный продукт или его непереносимостью (тоесть нарушением усвоения этого продукта).
+1	Отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	кеде	кеде	ADV	_	Degree=Pos	3	advmod	_	SpacesAfter=\n
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	обусловлено	обусловливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	причинами	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl:agent	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	неприятным	неприятный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	запахом	запах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	вкусом	вкус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	conj	_	_
+13	несвежей	несвежий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\n
+14	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	аллергией	аллергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+17	наконкретный	наконкретный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\n
+19	или	или	CCONJ	_	_	21	cc	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+21	непереносимостью	непереносимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	conj	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	parataxis	_	SpacesAfter=\n
+24	нарушением	нарушенье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	nmod	_	_
+25	усвоения	усвоение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	27	amod	_	_
+27	продукта	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 78674
+# text = В последнем случае человек, скорее всего, "научился" испытывать отвращение копределенной еде, так как она вызывала неприятные физиологические реакции в прошлом.
+1	В	в	ADP	_	_	3	case	_	SpacesAfter=\n
+2	последнем	последний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	скорее	скорее	ADV	_	Degree=Pos	10	parataxis	_	SpacesAfter=\n
+7	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	научился	научаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	испытывать	испытывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpacesAfter=\n
+14	копределенной	копределенный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	еде	еда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	так	так	ADV	_	Degree=Pos	0	mark	_	_
+18	как	как	SCONJ	_	_	17	fixed	_	_
+19	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
+20	вызывала	вызывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	SpacesAfter=\n
+21	неприятные	неприятный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+22	физиологические	физиологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	реакции	реакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+24	в	в	ADP	_	_	25	case	_	SpacesAfter=\n
+25	прошлом	прошлое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78675
+# text = Авторы новой работы задались вопросом, какие процессы происходят вмозге, когда человек испытывает такое "приобретенное" отвращение Ранее исследования, изучающие отвращение кеде, проводились редко, прежде всего поэтическим причинам.
+1	Авторы	автор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\n
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	задались	задаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	вопросом	вопрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	какие	какой	DET	_	Case=Nom|Number=Plur	8	amod	_	SpacesAfter=\n
+8	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	происходят	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	вмозге	вмозга	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	когда	когда	SCONJ	_	_	0	mark	_	SpacesAfter=\n
+13	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	испытывает	испытывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+15	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	приобретенное	приобретать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+20	Ранее	Раний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	изучающие	изучать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	25	amod	_	SpacesAfter=\n
+24	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	кеде	кеде	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	14	conj	_	_
+28	редко	редко	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+30	прежде	прежде	ADP	_	_	32	advmod	_	_
+31	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	fixed	_	_
+32	поэтическим	поэтический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	33	amod	_	_
+33	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	27	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 78676
+# text = Еслиже исследователи всеже его изучали, тоони сосредотачивались только навнешних проявлениях отвращения при виде нелюбимой еды или вдыхании ее запаха.
+1	Еслиже	Еслизко	ADV	_	Degree=Cmp	5	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	всеже	вседко	ADV	_	Degree=Cmp	5	advmod	_	_
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+5	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	тоони	тоонь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	сосредотачивались	сосредотачиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+9	только	только	PART	_	_	10	advmod	_	_
+10	навнешних	навнешний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	проявлениях	проявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	obl	_	_
+12	отвращения	отвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpacesAfter=\n
+13	при	при	ADP	_	_	16	case	_	_
+14	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	_	_
+15	нелюбимой	нелюбимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	вдыхании	вдыхания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+19	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	20	nmod	_	SpacesAfter=\n
+20	запаха	запах	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78677
+# text = Работ, которые изучалибы процессы, происходящие вэтот момент в мозге, практически нет.
+1	Работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+4	изучалибы	изучалиба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpacesAfter=\n
+5	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	происходящие	происходить	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+8	вэтот	вэтот	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	в	в	ADP	_	_	11	case	_	SpacesAfter=\n
+11	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	практически	практически	ADV	_	Degree=Pos	14	advmod	_	_
+14	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 78678
+# text = Поэтому авторы статьи решили провести сравнительное исследование активности мозга людей, которые любят сыр, итех, кто испытывает отвращение кэтому продукту.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	4	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\n
+3	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	провести	проводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	сравнительное	сравнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	исследование	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	активности	активность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	любят	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	сыр	сыр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	итех	итех	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	кто	кто	PRON	_	Case=Nom	19	nsubj	_	_
+19	испытывает	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpacesAfter=\n
+20	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	кэтому	кэтый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	продукту	продукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78679
+# text = Ученые пригласили для предварительного исследования 332 человека (145 мужчин и 187женщин) ввозрасте от16до74лет.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	пригласили	приглашать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	предварительного	предварительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpacesAfter=\n
+5	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+6	332	332	NUM	_	_	7	nummod	_	_
+7	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	145	145	NUM	_	_	10	nummod	_	_
+10	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	parataxis	_	_
+11	и	и	CCONJ	_	_	12	cc	_	SpacesAfter=\n
+12	187женщин	187женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	от16до74лет	от16до74лет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78680
+# text = Участники должны были оценить, насколько они любят продукты изразных категорий (фрукты, овощи, сыр, блюда изрыбы или мяса) иуточнить, чем была вызвана их оценка (аллергией напродукт, особенностями диеты, непереносимостью или другими причинами).
+1	Участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	насколько	насколько	ADV	_	Degree=Pos	8	advmod	_	SpacesAfter=\n
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	любят	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+9	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	parataxis	_	_
+10	изразных	изразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	категорий	категория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\n
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	фрукты	фрукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	овощи	овощ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	сыр	сыр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	блюда	блюда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+20	изрыбы	изрыба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	или	или	CCONJ	_	_	22	cc	_	SpacesAfter=\n
+22	мяса	мясо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	иуточнить	иуточнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	чем	что	PRON	_	Case=Ins	28	obl	_	_
+27	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	вызвана	вызывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	ccomp	_	_
+29	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	30	nmod	_	SpacesAfter=\n
+30	оценка	оценка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	аллергией	аллергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	parataxis	_	_
+33	напродукт	напродукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	особенностями	особенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	33	conj	_	SpacesAfter=\n
+36	диеты	диета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	непереносимостью	непереносимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	conj	_	_
+39	или	или	CCONJ	_	_	41	cc	_	_
+40	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	41	amod	_	SpacesAfter=\n
+41	причинами	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 78681
+# text = Затем исследователи перешли косновной части эксперимента-- они выбрали 15человек, которые, пособственным оценкам, испытывали отвращение ксыру и15человек, признавшихся втом, что они его любят.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	SpacesAfter=\n
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	перешли	переходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	косновной	косновный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n
+6	эксперимента-	эксперимента-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	выбрали	выбирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	SpacesAfter=\n
+10	15человек	15человек	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	17	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пособственным	пособственный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	SpacesAfter=\n
+15	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	испытывали	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+18	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	ксыру	ксыр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	SpacesAfter=\n
+20	и15человек	и15человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	признавшихся	признаваться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	20	amod	_	_
+23	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	17	mark	_	_
+26	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	28	nsubj	_	SpacesAfter=\n
+27	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obj	_	_
+28	любят	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 78682
+# text = Голодным участникам исследования делали магнитно-резонансную томографию мозга, авовремя процедуры имдавали подышать либо запахом одного изшести сортов сыра (исследователи использовали грюйер, пармезан, сыр сголубой плесенью, чеддер, козий сыр исыр том), либо запахом нейтральной еды (огурцов, фенхеля, грибов, паштета, арахиса или пиццы).
+1	Голодным	голодный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\n
+4	делали	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	магнитно-	магнитно-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	резонансную	резонансный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	томографию	томография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpacesAfter=\n
+8	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	авовремя	авовремя	ADV	_	Degree=Pos	12	advmod	_	_
+11	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	имдавали	имдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpacesAfter=\n
+13	подышать	подышать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	либо	либо	CCONJ	_	_	15	cc	_	_
+15	запахом	запах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+16	одного	один	NUM	_	Case=Gen|Gender=Masc	17	nummod	_	_
+17	изшести	изшесть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\n
+18	сортов	сорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	сыра	сыр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	SpacesAfter=\n
+23	грюйер	грюйер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	пармезан	пармезан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	сыр	сыр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	conj	_	_
+28	сголубой	сголубый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	плесенью	плесень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	чеддер	чеддер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\n
+33	козий	козий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	сыр	сыр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	conj	_	_
+35	исыр	исыр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	34	appos	_	_
+36	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	36	punct	_	_
+39	либо	либо	CCONJ	_	_	40	cc	_	_
+40	запахом	запах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	conj	_	_
+41	нейтральной	нейтральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	SpacesAfter=\n
+42	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+43	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	огурцов	огурец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	фенхеля	фенхель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	грибов	гриб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	conj	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	паштета	паштет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	50	punct	_	SpacesAfter=\n
+52	арахиса	арахис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	conj	_	_
+53	или	или	CCONJ	_	_	54	cc	_	_
+54	пиццы	пицец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	44	conj	_	SpaceAfter=No
+55	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+
+# sent_id = 78683
+# text = Вдругой серии экспериментов участникам вдополнение кзапаху показывали фотографии сыров или нейтральной еды.
+1	Вдругой	Вдругий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpacesAfter=\n
+3	экспериментов	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	участникам	участник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+5	вдополнение	вдополнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpacesAfter=\n
+6	кзапаху	кзапаху	ADV	_	Degree=Pos	7	advmod	_	_
+7	показывали	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	сыров	сыр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpacesAfter=\n
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	нейтральной	нейтральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78684
+# text = Оказалось, что реакция испытуемых (как положительная, так иотрицательная) назапах еды была практически одинаковой.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	реакция	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+5	испытуемых	испытуемый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	как	как	SCONJ	_	_	8	cc	_	_
+8	положительная	положительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	так	так	ADV	_	Degree=Pos	11	advmod	_	_
+11	иотрицательная	иотрицательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	назапах	назап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	_
+14	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	SpacesAfter=\n
+16	практически	практически	ADV	_	Degree=Pos	17	advmod	_	_
+17	одинаковой	одинаковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78685
+# text = Еслиже участников стимулировали одновременно изапахом ивидом сыра, тоулюдей, испытывающих отвращение кнему, активировались структуры вбазальных ядрах мозга -- черная субстанция ибледный шар.
+1	Еслиже	Еслиже	ADP	_	_	2	case	_	_
+2	участников	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpacesAfter=\n
+3	стимулировали	стимулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	одновременно	одновременне	ADV	_	Degree=Pos	5	advmod	_	_
+5	изапахом	изапах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\n
+6	ивидом	ивид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+7	сыра	сыр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	тоулюдей	тоулюдея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	испытывающих	испытывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	SpacesAfter=\n
+12	отвращение	отвращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	кнему	окно	PRON	_	Case=Dat|Gender=Neut|Number=Sing|Person=3	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	активировались	активироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpacesAfter=\n
+16	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+17	вбазальных	вбазальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+18	ядрах	ядра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_
+19	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	--	--	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	субстанция	субстанция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+23	ибледный	ибледный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	шар	шар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78686
+# text = У любителей сыра эти участки мозга во время эксперимента были гораздо менее активны.
+1	У	у	ADP	_	_	2	case	_	SpacesAfter=\n
+2	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+3	сыра	сыр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	эти	этот	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	участки	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+6	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	во	во	ADP	_	_	9	case	_	SpacesAfter=\n
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+11	гораздо	гораздо	ADV	_	Degree=Pos	12	advmod	_	_
+12	менее	менее	ADV	_	Degree=Cmp	13	advmod	_	SpacesAfter=\n
+13	активны	активный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78687
+# text = Втоже время еще одна структура вбазальных ядрах-- вентральный паллидум --активировалась у"сыроненавистников" гораздо сильнее вовремя экспериментов снейтральными продуктами, чем при "испытаниях сыром".
+1	Втоже	Втоже	PART	_	_	5	advmod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	еще	еще	ADV	_	Degree=Pos	4	advmod	_	_
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	_
+5	структура	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpacesAfter=\n
+6	вбазальных	вбазальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	ядрах	ядры	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	вентральный	вентральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	паллидум	паллидум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpacesAfter=\n
+12	--активировалась	--активироваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	у	у	ADP	_	_	15	case	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	сыроненавистников	сыроненавистник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	гораздо	гораздо	ADV	_	Degree=Pos	18	advmod	_	_
+18	сильнее	сильно	ADV	_	Degree=Cmp	19	advmod	_	_
+19	вовремя	вовремя	ADV	_	Degree=Pos	22	advmod	_	_
+20	экспериментов	эксперименты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpacesAfter=\n
+21	снейтральными	снейтральный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	продуктами	продукт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	чем	чем	SCONJ	_	_	27	cc	_	_
+25	при	при	ADP	_	_	27	case	_	SpacesAfter=\n
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	22	advmod	_	_
+28	сыром	сыр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+

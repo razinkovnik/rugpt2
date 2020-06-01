@@ -1,0 +1,323 @@
+# sent_id = 84116
+# text = Инженеры Массачусетского технологического института (MIT) создали высокоточный метод печати электронных схем на твердых и гибких поверхностях.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesBefore=\n
+2	Массачусетского	массачусетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	MIT	mit	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	высокоточный	высокоточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	SpacesAfter=\n
+10	метод	метод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	схем	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	на	на	ADP	_	_	18	case	_	_
+15	твердых	твердый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	18	amod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	гибких	гибкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	conj	_	_
+18	поверхностях	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 84117
+# text = Для этого разработчики используют штампы из углеродных нанотрубок и электропроводящие чернила.
+1	Для	для	ADP	_	_	2	case	_	SpacesAfter=\n
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	штампы	штамп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+6	из	из	ADP	_	_	5	case	_	_
+7	углеродных	углеродный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	нанотрубок	нанотрубка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	электропроводящие	электропроводящий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	SpacesAfter=\n
+11	чернила	чернила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 84118
+# text = Разрешение метода достигает двух-трех микрон -- в десятки раз лучше аналогичных способов печати.
+1	Разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	двух-	двух-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	трех	три	NUM	_	Case=Gen	6	nummod	_	_
+6	микрон	микрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	nmod	_	_
+10	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	лучше	хорошо	ADV	_	Degree=Cmp	12	advmod	_	SpacesAfter=\n
+12	аналогичных	аналогичный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+14	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 84119
+# text = Описание методики и полученных результатов опубликовано в журнале Science Advances.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+2	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	полученных	получать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	результатов	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
+6	опубликовано	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+7	в	в	ADP	_	_	8	case	_	_
+8	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	Science	science	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Advances	Advances	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 84120
+# text = По словам создателей, новый метод позволит печатать микроскопические сенсоры и транзисторы для управления работой пикселей на экранах высокого разрешения, а также обеспечит относительно дешевую и быструю промышленную печать электронных поверхностей с интерактивными функциями: например, чашки с индикатором температуры.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	создателей	создатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	печатать	печатать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	микроскопические	микроскопический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	сенсоры	сенсор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	транзисторы	транзистор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	работой	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	_
+16	пикселей	пиксель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	экранах	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	SpacesAfter=\n
+19	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	24	cc	_	_
+23	также	также	ADV	_	Degree=Pos	24	advmod	_	_
+24	обеспечит	обеспечивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	относительно	относительно	ADV	_	Degree=Pos	24	advmod	_	_
+26	дешевую	дешевый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	быструю	быстрий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	conj	_	SpacesAfter=\n
+29	промышленную	промышленный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	печать	печать	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+31	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	поверхностей	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	с	с	ADP	_	_	35	case	_	_
+34	интерактивными	интерактивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+35	функциями	функция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	35	punct	_	_
+37	например	например	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\n
+39	чашки	чашка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+40	с	с	ADP	_	_	41	case	_	_
+41	индикатором	индикатор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	39	nmod	_	_
+42	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 84121
+# text = Новый метод, по сути, является флексографией, история которой уходит в древний Китай, где была изобретена рельефная печать: иероглифы вырезались на дереве или камне, углубления в форме заполнялись типографской краской, и отпечатки получались при надавливании формой на бумагу.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	флексографией	флексография	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	которой	который	PRON	_	Case=Gen	10	nmod	_	_
+12	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	SpacesAfter=\n
+13	в	в	ADP	_	_	15	case	_	_
+14	древний	древний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	Китай	китай	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	где	где	ADV	_	Degree=Pos	19	advmod	_	_
+18	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	изобретена	изобреитать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+20	рельефная	рельефный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	печать	печать	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	иероглифы	иероглиф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj:pass	_	SpacesAfter=\n
+24	вырезались	вырезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	дереве	дерев	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	камне	камень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	углубления	углубление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	33	nsubj:pass	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	форме	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	nmod	_	_
+33	заполнялись	заполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	24	conj	_	SpacesAfter=\n
+34	типографской	типографский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	краской	краска	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	и	и	CCONJ	_	_	39	cc	_	_
+38	отпечатки	отпечаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	39	nsubj	_	_
+39	получались	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+40	при	при	ADP	_	_	41	case	_	_
+41	надавливании	надавливание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	39	obl	_	_
+42	формой	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	41	nmod	_	SpacesAfter=\n
+43	на	на	ADP	_	_	44	case	_	_
+44	бумагу	бумага	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 84122
+# text = Затем в XIII веке в Европе появилась печать на основе металлических форм -- это открытие привело к массовой книгопечати, а изобретение резиновой основы для печатных форм в середине XIX века дало основу современной высококачественной флексографии.
+1	Затем	затем	ADV	_	Degree=Pos	7	advmod	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	XIII	xiii	NUM	_	_	4	nummod	_	_
+4	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	появилась	появляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	печать	печать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	SpacesAfter=\n
+11	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	--	--	PUNCT	_	_	12	punct	_	_
+14	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	15	amod	_	_
+15	открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	к	к	ADP	_	_	19	case	_	_
+18	массовой	массовой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	книгопечати	книгопечать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	а	а	CCONJ	_	_	22	cc	_	_
+22	изобретение	изобретение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+23	резиновой	резиновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	основы	основа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	для	для	ADP	_	_	27	case	_	_
+26	печатных	печатный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+30	XIX	xix	NUM	_	_	31	nummod	_	_
+31	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpacesAfter=\n
+32	дало	давать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+33	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	современной	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+35	высококачественной	высококачественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	флексографии	флексография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 84123
+# text = Опыты флексографической и струйной печати электронных схем проводились и раньше, но, из-за сложности контроля точности при микропечати, результаты оказывались недостаточно качественными.
+1	Опыты	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+2	флексографической	флексографический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	струйной	струйный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	_
+5	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+6	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	схем	схема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+9	и	и	PART	_	_	10	advmod	_	_
+10	раньше	рано	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	но	но	CCONJ	_	_	10	cc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	из-за	из-за	ADP	_	_	15	case	_	_
+15	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+16	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	точности	точность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	при	при	ADP	_	_	19	case	_	_
+19	микропечати	микропечать	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+22	оказывались	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+23	недостаточно	недостаточно	ADV	_	Degree=Pos	24	advmod	_	_
+24	качественными	качественный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 84124
+# text = В частности, отпечатки обладали размытыми границами и непропечатанными областями.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	отпечатки	отпечаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	обладали	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	размытыми	размытой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	границами	граница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	непропечатанными	непропечатанный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	областями	область	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 84125
+# text = Специалисты отмечают, что контроль размеров и толщины линии при печати особенно важны при создании транзисторов или тонких пленок со специальными электрическими или оптическими свойствами.
+1	Специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	контроль	контроль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+6	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	толщины	толщина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+9	линии	линия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	при	при	ADP	_	_	11	case	_	_
+11	печати	печать	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+12	особенно	особенно	ADV	_	Degree=Pos	13	advmod	_	_
+13	важны	важный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	advcl	_	_
+14	при	при	ADP	_	_	15	case	_	SpacesAfter=\n
+15	создании	создание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+16	транзисторов	транзистор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	или	или	CCONJ	_	_	19	cc	_	_
+18	тонких	тонкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	пленок	пленка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_
+20	со	с	ADP	_	_	25	case	_	_
+21	специальными	специальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+22	электрическими	электрический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	SpacesAfter=\n
+24	оптическими	оптический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	conj	_	_
+25	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84126
+# text = При этом некоторые недавние работы достигали хорошей точности, но имели ограничения по масштабированию для применения в промышленной печати: например, проводились опыты со струйной электродинамической печатью, микроконтрастной печатью, нанолитографией.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+3	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+4	недавние	недавний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	достигали	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	хорошей	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+8	точности	точность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	но	но	CCONJ	_	_	11	cc	_	_
+11	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	масштабированию	масштабирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpacesAfter=\n
+17	в	в	ADP	_	_	19	case	_	_
+18	промышленной	промышленный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	печати	печать	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	например	например	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	19	parataxis	_	_
+24	опыты	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+25	со	с	ADP	_	_	28	case	_	_
+26	струйной	струйный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+27	электродинамической	электродинамический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	печатью	печать	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	микроконтрастной	микроконтрастный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	печатью	печать	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	нанолитографией	нанолитография	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 84127
+# text = Ограничения же разрешения флексографической печати составляют десятки микрометров.
+1	Ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	флексографической	флексографический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	печати	печать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	микрометров	микрометр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+

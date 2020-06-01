@@ -1,0 +1,120 @@
+# sent_id = 89340
+# text = Разработчики голосового помощника Amazon Echo добавили в список кодовых слов, используемых для активации гаджета голосом, слово "Компьютер".
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	голосового	голосовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	помощника	помощник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Amazon	Amazon	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Echo	Echo	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	добавили	добавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+9	кодовых	кодовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	активации	активация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+15	гаджета	гаджет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	голосом	голос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Компьютер	компьютер	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 89341
+# text = Об этом сообщает The Verge.Впервые голосовой помощник Alexa использовался в центре умного дома Amazon Echo, который был представленв 2014 году.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	The	the	PROPN	_	Foreign=Yes	3	nsubj	_	_
+5	Verge	Verge	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	Впервые	впервые	ADV	_	Degree=Pos	9	advmod	_	_
+8	голосовой	голосовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	помощник	помощник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+10	Alexa	Alexa	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	использовался	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	amod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	умного	умный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	дома	дома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	Amazon	Amazon	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Echo	Echo	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	который	который	PRON	_	Case=Nom	21	nsubj	_	_
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	представленв	представленв	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	acl:relcl	_	_
+22	2014	2014	NUM	_	_	23	nummod	_	_
+23	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89342
+# text = Устройство при наличии подключения к интернету может управлять другими умными устройствами, транслировать музыку, отвечать на устные поисковые запросы, рассказывать новости, управлять календарем и совершать покупки в интернете с помощью голосовых команд.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	при	при	ADP	_	_	3	case	_	_
+3	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	интернету	интернет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+10	умными	умный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	устройствами	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	транслировать	транслировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	conj	_	_
+14	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+17	на	на	ADP	_	_	20	case	_	_
+18	устные	устный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+19	поисковые	поисковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	запросы	запрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	рассказывать	рассказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+23	новости	новость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	conj	_	_
+26	календарем	календарь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+29	покупки	покупка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	интернете	интернет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+32	с	с	ADP	_	_	35	case	_	_
+33	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	fixed	_	_
+34	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	35	amod	_	_
+35	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 89343
+# text = Несмотря на то, что изначально сервис Alexa создавался для Amazon Echo, он может использоваться и в других устройствах, также существует браузерная версия.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	изначально	изначально	ADV	_	Degree=Pos	9	advmod	_	_
+7	сервис	сервис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	Alexa	Alexa	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	создавался	создавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	15	advcl	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	Amazon	Amazon	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Echo	Echo	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+16	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	xcomp	_	_
+17	и	и	PART	_	_	20	advmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	20	amod	_	_
+20	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+23	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+24	браузерная	браузерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+

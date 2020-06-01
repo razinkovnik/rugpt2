@@ -1,0 +1,467 @@
+# sent_id = 78531
+# text = Разработчик заменителей пищи американская компания Soylent рассказала овозможной причине недомогания употребителей своей продукции.
+1	Разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpacesBefore=\n
+2	заменителей	заменитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+6	Soylent	Soylent	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	рассказала	рассказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+8	овозможной	овозможный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	причине	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	недомогания	недомогание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	употребителей	употребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78532
+# text = Помнению представителей компании, оно может быть связано сналичием морских водорослей вновых версиях продуктов, пишет Bloomberg.
+1	Помнению	помненить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+2	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	aux:pass	_	_
+8	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	xcomp	_	_
+9	сналичием	сналичие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	морских	морский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	водорослей	водоросль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\n
+12	вновых	вновый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	версиях	версиь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+14	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpacesAfter=\n
+17	Bloomberg	bloomberg	PROPN	_	Foreign=Yes	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78533
+# text = Продукция Soylent появилась впродаже в2014году.
+1	Продукция	продукция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Soylent	Soylent	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	появилась	появляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	впродаже	впродаже	PART	_	_	5	advmod	_	_
+5	в2014году	в2014год	NOUN	_	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 78534
+# text = По замыслу создателей, она должна заменить полноценное питание людям, которым некогда или лень высчитывать содержание питательных веществ врационе и готовить пищу самостоятельно.
+1	По	по	ADP	_	_	2	case	_	SpacesAfter=\n
+2	замыслу	замысел	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	parataxis	_	_
+3	создателей	создатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
+6	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+7	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	полноценное	полноценный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	питание	питание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которым	который	PRON	_	Case=Dat	16	obl	_	SpacesAfter=\n
+13	некогда	некогда	ADV	_	Degree=Pos	16	advmod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	лень	лень	ADV	_	Degree=Pos	16	advmod	_	_
+16	высчитывать	высчитать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	_
+17	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	питательных	питательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	врационе	врациона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	SpacesAfter=\n
+22	готовить	готовить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+23	пищу	пища	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	самостоятельно	самостоятельно	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78535
+# text = Одна порция напитка Soylent2.0 содержит сбалансированный состав нутриентов иэнергии: 20граммов белка, 37граммов углеводов и21грамм жиров, что дает 400килокалорий, плюс около 20 процентов дневной потребности ввитаминах, минералах иклетчатке.
+1	Одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	порция	порция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	напитка	напитк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Soylent2.0	Soylent2.0	NUM	_	_	3	nummod	_	_
+5	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	сбалансированный	балансировать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	нутриентов	нутриент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	иэнергии	иэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	20граммов	20грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	parataxis	_	SpacesAfter=\n
+12	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	37граммов	37грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpacesAfter=\n
+15	углеводов	углевод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	и21грамм	и21грамма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	жиров	жир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	PRON	_	Case=Nom	20	nsubj	_	_
+20	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+21	400килокалорий	400килокалория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	плюс	плюс	ADV	_	Degree=Pos	26	advmod	_	_
+24	около	около	ADP	_	_	26	case	_	_
+25	20	20	NUM	_	_	26	nummod	_	SpacesAfter=\n
+26	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+27	дневной	дневной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	потребности	потребность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	ввитаминах	ввитамина	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	28	appos	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	минералах	минерал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	29	conj	_	_
+32	иклетчатке	иклетчатк	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 78536
+# text = Поначалу Soylent выпускали только ввиде напитков, нолетом 2016 года линейка продукции пополнилась порошком для его самостоятельного приготовления ипитательной плиткой.
+1	Поначалу	поначалу	ADV	_	Degree=Pos	3	advmod	_	_
+2	Soylent	Soylent	PROPN	_	Foreign=Yes	3	nsubj	_	_
+3	выпускали	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	только	только	PART	_	_	5	advmod	_	_
+5	ввиде	ввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	напитков	напиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	нолетом	нолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\n
+9	2016	2016	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	линейка	линейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	пополнилась	полниться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+14	порошком	порошк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	для	для	ADP	_	_	18	case	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+17	самостоятельного	самостоятельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	приготовления	приготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpacesAfter=\n
+19	ипитательной	ипитательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	плиткой	плитка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78537
+# text = Нарекания появились из-за двух последних изделий: некоторые их потребители начали жаловаться насильную тошноту, рвоту, понос идругие расстройства пищеварения вскоре после употребления.
+1	Нарекания	нарекание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	из-за	из-за	ADP	_	_	6	case	_	_
+4	двух	два	NUM	_	Case=Gen	6	nummod	_	_
+5	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	изделий	изделие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	SpacesAfter=\n
+10	потребители	потребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+12	жаловаться	жаловаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	насильную	насильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	тошноту	тошнота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	рвоту	рвота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	понос	понос	ADV	_	Degree=Pos	19	advmod	_	_
+19	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	SpacesAfter=\n
+20	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	nsubj	_	_
+21	пищеварения	пищеварение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	вскоре	вскоре	ADV	_	Degree=Pos	24	advmod	_	_
+23	после	после	ADP	_	_	24	case	_	_
+24	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78538
+# text = Воктябре эти виды продукции были отозваны иизъяты изпродажи.
+1	Воктябре	Воктябра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	виды	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesAfter=\n
+4	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	отозваны	отозвать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	иизъяты	иизъят	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	изпродажи	изпродажа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 78539
+# text = Пословам автора идеи, сооснователя иисполнительного директора Soylent Роба Райнхарта (Rob Rhinehart), причиной недомогания потребителей стал новый ингредиент-- мука изводорослей, поставляемая компанией TerraVia.
+1	Пословам	Послова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	conj	_	_
+2	автора	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	идеи	идея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	сооснователя	сооснователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+6	иисполнительного	иисполнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	директора	директор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Soylent	Soylent	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Роба	Роб	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+10	Райнхарта	Райнхарт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Rob	Rob	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	Rhinehart	Rhinehart	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+17	недомогания	недомогание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpacesAfter=\n
+18	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	ингредиент	ингредиент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	мука	мука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	_
+25	изводорослей	изводоросль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	поставляемая	поставлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	amod	_	SpacesAfter=\n
+28	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	obl	_	_
+29	TerraVia	TerraVia	PROPN	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 78540
+# text = Онрассказал, что схожие побочные эффекты наблюдались у людей после употребления продукции Honey Stinger, также содержащей водорослевую муку этой компании.
+1	Онрассказал	Онрассказывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	схожие	схожий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	побочные	побочной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	эффекты	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	наблюдались	наблюдаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+8	у	у	ADP	_	_	9	case	_	SpacesAfter=\n
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+12	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	Honey	Honey	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Stinger	Stinger	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	также	также	ADV	_	Degree=Pos	17	advmod	_	_
+17	содержащей	содержать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	amod	_	_
+18	водорослевую	водорослевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpacesAfter=\n
+19	муку	мука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78541
+# text = Пословам Райнхарта, порошок иплитка собновленным составом, несодержащие водорослей, появятся впродаже вначале 2017года.
+1	Пословам	Послова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+2	Райнхарта	Райнхарт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	порошок	порошок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	иплитка	иплиток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	собновленным	обновлеть	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+7	составом	состав	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	несодержащие	несодержащий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	водорослей	водоросль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	появятся	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	впродаже	впродаже	ADV	_	Degree=Pos	12	advmod	_	_
+14	вначале	вначале	ADV	_	Degree=Pos	13	advmod	_	_
+15	2017года	2017годой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78542
+# text = Вответ наэто старший вице-президент TerraVia Марк Брукс (Mark Brooks) заявил, что ихпродукты изводорослей одобрены Управлением попродуктам илекарствам США (FDA) и безопасны для употребления.
+1	Вответ	Вотть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+2	наэто	наэто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	старший	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	вице-президент	вице-президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	TerraVia	TerraVia	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Марк	марк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	Брукс	Брукс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Mark	Mark	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpacesAfter=\n
+10	Brooks	Brooks	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	ихпродукты	ихпродукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+16	изводорослей	изводоросль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	одобрены	одобривать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	_
+18	Управлением	Управление	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl:agent	_	_
+19	попродуктам	попродукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	obl	_	SpacesAfter=\n
+20	илекарствам	илекарство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	19	nmod	_	_
+21	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	20	appos	_	_
+22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	FDA)	FDA)	PUNCT	_	_	21	punct	_	_
+24	и	и	CCONJ	_	_	25	cc	_	SpacesAfter=\n
+25	безопасны	безопасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	17	conj	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	употребления	употребление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 78543
+# text = Поего словам, произведенная компанией мука из водорослей кнастоящему времени использовалась для приготовления более 20 миллионов порций различных продуктов, илишь внебольшом числе случаев развивались побочные реакции, причем ниводном изних причиной небыла названа именно мука.
+1	Поего	Пий	DET	_	Case=Gen|Gender=Neut|Number=Sing	2	amod	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	произведенная	производить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+5	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl:agent	_	_
+6	мука	мука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+7	из	из	ADP	_	_	8	case	_	SpacesAfter=\n
+8	водорослей	водоросль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	кнастоящему	кнастоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	использовалась	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	приготовления	приготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+14	более	более	ADV	_	Degree=Cmp	16	advmod	_	_
+15	20	20	NUM	_	_	16	nummod	_	SpacesAfter=\n
+16	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+17	порций	порция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	_
+18	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	илишь	илишь	PART	_	_	23	advmod	_	_
+22	внебольшом	внебольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+23	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+24	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpacesAfter=\n
+25	развивались	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	11	conj	_	_
+26	побочные	побочной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	реакции	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	причем	причем	CCONJ	_	_	34	cc	_	_
+30	ниводном	ниводный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	30	nmod	_	_
+32	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	obl	_	_
+33	небыла	небыть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	aux:pass	_	_
+34	названа	называть	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpacesAfter=\n
+35	именно	именно	PART	_	_	36	advmod	_	_
+36	мука	мука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 78544
+# text = Брукс также отметил, что продукты Soylent содержат экстракт соевого белка иглицерин, которые могут раздражать пищеварительный тракт (стоит отметить, что экстракт может иметь такое действие только при индивидуальной непереносимости сои ипризнан безопасным продуктом питания, аглицерин впищевых концентрациях нетоксичен вообще-- прим.
+1	Брукс	Брукс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	отметил	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	Soylent	Soylent	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	экстракт	экстракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpacesAfter=\n
+10	соевого	соевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	белка	бел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	иглицерин	иглицерина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+16	раздражать	раздражать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	пищеварительный	пищеварительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	тракт	тракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	SpacesAfter=\n
+21	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	SCONJ	_	_	21	mark	_	_
+24	экстракт	экстракт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	parataxis	_	_
+26	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	42	nsubj	_	_
+27	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	_
+28	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+29	только	только	PART	_	_	32	advmod	_	_
+30	при	при	ADP	_	_	32	case	_	_
+31	индивидуальной	индивидуальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	SpacesAfter=\n
+32	непереносимости	непереносимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+33	сои	сой	DET	_	Case=Nom|Number=Plur	34	nsubj:pass	_	_
+34	ипризнан	ипризнавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	42	advcl	_	SpacesAfter=\n
+35	безопасным	безопасной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	36	amod	_	_
+36	продуктом	продукт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+37	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	аглицерин	аглицерин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	_
+40	впищевых	впищевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	концентрациях	концентрациь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	39	nmod	_	_
+42	нетоксичен	нетоксичный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	45	conj	_	SpacesAfter=\n
+43	вообще-	вообще-	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	-	-	PUNCT	_	_	42	punct	_	_
+45	прим	прим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 78545
+# text = ред.).
+1	ред.	редемик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 78546
+# text = Показать, какая изкомпаний права, должны подробные анализы продукции.
+1	Показать	показывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	изкомпаний	изкомпание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	obl	_	_
+5	права	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	подробные	подробный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	анализы	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	conj	_	SpacesAfter=\n
+10	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78547
+# text = Незадолго довыпуска порошка иплитки Soylent представила напиток для завтрака Coffiest.
+1	Незадолго	незадолго	ADV	_	Degree=Pos	6	advmod	_	_
+2	довыпуска	довыпуска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	порошка	порошок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	иплитки	иплитка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Soylent	Soylent	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	напиток	напиток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+8	для	для	ADP	_	_	7	case	_	SpacesAfter=\n
+9	завтрака	завтрак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Coffiest	Coffiest	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78548
+# text = Онпредставляет собой стандартный Soylent2.0с добавлением кофейного ароматизатора, психостимулятора кофеина иL-теанина, которому приписывают ноотропный эффект.
+1	Онпредставляет	Онпредставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	собой	себя	PRON	_	Case=Ins	1	dep	_	_
+3	стандартный	стандартный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	Soylent2.	soylent2.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+5	0с	0с	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpacesAfter=\n
+6	добавлением	добавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	_
+7	кофейного	кофейный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ароматизатора	ароматизатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	психостимулятора	психостимулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+11	кофеина	кофеин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	иL	иL	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	-теанина	-теанин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	которому	который	PRON	_	Case=Dat	16	obl	_	_
+16	приписывают	приписывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	ноотропный	ноотропный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78549
+# text = Питаться продукцией Soylent пробовали журналисты многих гастрономических инаучных изданий.
+1	Питаться	питаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+2	продукцией	продукция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	_
+3	Soylent	Soylent	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	пробовали	пробовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	журналисты	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+7	гастрономических	гастрономический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	инаучных	инаучный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	изданий	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78550
+# text = Большинство изних в своих рецензиях признали, что она съедобна, ноочень быстро приедается из-за однообразного вкуса.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	изних	изний	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	своих	свой	DET	_	Case=Loc|Number=Plur	5	amod	_	_
+5	рецензиях	рецензия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+6	признали	признавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	SpacesAfter=\n
+10	съедобна	съедобный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ноочень	ноочень	ADV	_	Degree=Pos	14	advmod	_	_
+13	быстро	быстро	ADV	_	Degree=Pos	14	advmod	_	_
+14	приедается	приедаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+15	из-за	из-за	ADP	_	_	17	case	_	_
+16	однообразного	однообразный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 78551
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

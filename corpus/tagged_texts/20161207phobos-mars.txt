@@ -1,0 +1,291 @@
+# sent_id = 83568
+# text = Орбитальный аппарат миссии "ЭкзоМарс" передал на Землю свои первые снимки спутника Марса -- Фобоса.
+1	Орбитальный	Орбитальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	миссии	миссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	ЭкзоМарс	ЭкзоМарс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	передал	передавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+10	свои	свой	DET	_	Case=Acc|Number=Plur	12	amod	_	_
+11	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	снимки	снимок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+13	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	Фобоса	Фобос	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 83569
+# text = Фотографии были сделаны для калибровки основной камеры Trace Gas Orbiter, расстояние до небесного тела составило 7,7 тысячи километров.
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+6	основной	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	камеры	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	Trace	Trace	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Gas	Gas	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Orbiter	Orbiter	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+13	до	до	ADP	_	_	15	case	_	_
+14	небесного	небесный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	тела	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+16	составило	составлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+17	7,7	7,7	NUM	_	_	18	nummod	_	_
+18	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nummod:gov	_	_
+19	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 83570
+# text = Об этом сообщает Европейское космическое агентство.Главный инструмент для фотосъемки на борту Trace Gas Orbiter --камера CaSSIS.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Европейское	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	космическое	космический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	фотосъемки	фотосъемка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+14	Trace	Trace	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Gas	Gas	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Orbiter	Orbiter	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	--камера	--камер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	CaSSIS	Cassis	PROPN	_	Foreign=Yes	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 83571
+# text = Она делает стереофотографии объектов в нескольких спектральных диапазонах, после чего снимки складываются при обработке.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	стереофотографии	стереофотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	нескольких	несколько	NUM	_	Case=Loc	8	nummod	_	_
+7	спектральных	спектральный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	диапазонах	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	после	после	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	13	obl	_	_
+12	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	складываются	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	_
+14	при	при	ADP	_	_	15	case	_	_
+15	обработке	обработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 83572
+# text = С ее помощью ученые надеются получить объемные изображения возможных источников газов (в особенности, метана) и исследовать геологические процессы -- эрозию почв.
+1	С	с	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+4	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	надеются	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	dep	_	_
+7	объемные	объемной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	изображения	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+9	возможных	возможной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	газов	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	в	в	ADP	_	_	14	case	_	_
+14	особенности	особенность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	метана	метан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	исследовать	исследовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	_
+20	геологические	геологической	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	процессы	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	эрозию	эрозия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+24	почв	чть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	5	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 83573
+# text = Аппарат задействовал камеру и начал процесс ее калибровки во время двух оборотов вокруг Марса, происходивших с 20 по 28 ноября: на Землю уже были переданы первые снимки рельефа планеты.На новую фотографию, сделанную с помощью CaSSIS, попал крупнейший из двух спутников Марса -- Фобос.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	задействовал	задействовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	начал	начывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	процесс	процесс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
+8	калибровки	калибровка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	во	во	ADP	_	_	12	case	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	оборотов	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	obl	_	_
+13	вокруг	вокруг	ADP	_	_	14	case	_	_
+14	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	происходивших	исходить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	14	amod	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	20	20	NUM	_	_	16	nummod	_	_
+19	по	по	ADP	_	_	18	case	_	_
+20	28	28	NUM	_	_	18	nummod	_	_
+21	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	Землю	земля	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+25	уже	уже	ADV	_	Degree=Pos	27	advmod	_	_
+26	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	переданы	передывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+28	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+30	рельефа	рельеф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	планеты	планета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	На	на	ADP	_	_	35	case	_	_
+34	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	фотографию	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	сделанную	делать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	35	amod	_	_
+38	с	с	ADP	_	_	40	case	_	_
+39	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	38	fixed	_	_
+40	CaSSIS	Cassis	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	попал	попадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	_	_
+43	крупнейший	крупный	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	42	amod	_	_
+44	из	из	ADP	_	_	46	case	_	_
+45	двух	два	NUM	_	Case=Gen	46	nummod	_	_
+46	спутников	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	43	nmod	_	_
+47	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+48	--	--	PUNCT	_	_	47	punct	_	_
+49	Фобос	фобос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 83574
+# text = Разрешение фотографии составляет 86 метров на пиксель.
+1	Разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	86	86	NUM	_	_	5	nummod	_	_
+5	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	пиксель	пиксель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 83575
+# text = Исходные снимки были сделаны в четырех спектральных диапазонах: ближнем и дальнем инфракрасных, а также в сине-зеленом и панхроматическом диапазоне.
+1	Исходные	Исходный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	8	case	_	_
+6	четырех	четыре	NUM	_	Case=Loc	8	nummod	_	_
+7	спектральных	спектральный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	диапазонах	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	ближнем	ближний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	дальнем	дальний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+13	инфракрасных	инфракрасной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	21	cc	_	_
+16	также	также	ADV	_	Degree=Pos	21	advmod	_	_
+17	в	в	ADP	_	_	21	case	_	_
+18	сине-зеленом	сине-зеленый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	панхроматическом	панхроматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	_
+21	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 83576
+# text = Ученые отмечают, что различные цвета на снимке отвечают различным по химическому составу минералам.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	цвета	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	снимке	снимка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	отвечают	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	различным	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	химическому	химический	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	составу	состав	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+14	минералам	минерал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 83577
+# text = К примеру, окрестности кратера Стикни (крупнейший кратер на Фобосе) выглядят голубоватыми.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	окрестности	окрестность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+5	кратера	кратер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Стикни	Стикнь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	крупнейший	крупный	ADJ	_	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	9	amod	_	_
+9	кратер	кратер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	Фобосе	Фобос	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	голубоватыми	голубоватый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 83578
+# text = Точный состав минералов неизвестен.Эксперты ESA замечают, что это не уникальные снимки Фобоса -- спутник Марса был детально сфотографирован другими марсианскими миссиями: Mars Reconnaissance Orbiter (NASA) иMars Express (ESA).
+1	Точный	точный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	состав	состав	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	минералов	минерал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	неизвестен.	неизвестенаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+5	Эксперты	Эксперта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	ESA	Esa	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	замечают	замечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	уникальные	уникальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	снимки	снимок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+14	Фобоса	Фобос	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	--	--	PUNCT	_	_	14	punct	_	_
+16	спутник	спутник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+17	Марса	марс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+19	детально	детально	ADV	_	Degree=Pos	20	advmod	_	_
+20	сфотографирован	сфотографировывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+21	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+22	марсианскими	марсианский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	миссиями	миссия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	_
+25	Mars	Mars	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+26	Reconnaissance	Reconnaissance	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+27	Orbiter	Orbiter	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	NASA	Nasa	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	иMars	иMars	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+32	Express	express	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	ESA	Esa	PROPN	_	Foreign=Yes	32	flat:foreign	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 83579
+# text = Однако это хорошая демонстрация того, на что способны инструменты TGO.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	демонстрация	демонстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	что	что	PRON	_	Case=Acc	9	nmod	_	_
+9	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl	_	_
+10	инструменты	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	TGO	Tgo	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+

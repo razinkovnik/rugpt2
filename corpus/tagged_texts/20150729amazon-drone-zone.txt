@@ -1,0 +1,46 @@
+# sent_id = 12608
+# text = Вице-президент и сооснователь Amazon Prime AirГур Кимчи (Gur Kimchi) предложил выделить в воздушном пространстве отдельную зону для полета беспилотников.
+1	Вице-президент	вице-президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpacesBefore=\n
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	сооснователь	сооснователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	Amazon	amazon	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+5	Prime	prime	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	AirГур	AirГура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+7	Кимчи	Кимча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Gur	Gur	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Kimchi	Kimchi	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	предложил	предлагать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	выделить	выделять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	воздушном	воздушный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+17	отдельную	отдельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	зону	зона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 12609
+# text = Предложение прозвучало в рамках выступления представителя Amazon на организованнойNASAКонвенции по управлению движением беспилотных летательных аппаратов UTM 2015.
+1	Предложение	предложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	прозвучало	звучать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+5	выступления	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	представителя	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Amazon	Amazon	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	организованнойNASAКонвенции	организованнойNASAКонвенция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	управлению	управление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
+12	движением	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	_	_
+13	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	UTM	Utm	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	2015	2015	NUM	_	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+

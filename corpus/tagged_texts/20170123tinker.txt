@@ -1,0 +1,347 @@
+# sent_id = 89292
+# text = Тайваньская компания ASUS выпустила в продажу нового конкурента популярным одноплатным микрокомпьютерам Raspberry Pi.
+1	Тайваньская	тайваньский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ASUS	Asus	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	выпустила	выпускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	продажу	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	конкурента	конкурент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	популярным	популярный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+10	одноплатным	одноплатный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	микрокомпьютерам	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+12	Raspberry	Raspberry	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Pi	Pi	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89293
+# text = Как сообщает Hexus, новое устройство получило название Tinker Board, его стоимость составляет около 68 долларов.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Hexus	Hexus	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+7	получило	получать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	Tinker	Tinker	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Board	Board	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	около	около	ADP	_	_	17	case	_	_
+16	68	68	NUM	_	_	17	nummod	_	_
+17	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 89294
+# text = В отличие от Rapsberry Pi компьютер от ASUS имеет существенно большую вычислительную мощность.Сегодня существует большое количество различных микрокомпьютеров, предназначенных для выполнения самых разных задач: от управления компонентами "умного дома" до исполнения функций сервера.
+1	В	в	ADP	_	_	4	case	_	_
+2	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	от	ADP	_	_	2	fixed	_	_
+4	Rapsberry	Rapsberry	PROPN	_	Foreign=Yes	9	nsubj	_	_
+5	Pi	Pi	NUM	_	_	6	nummod	_	_
+6	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	ASUS	Asus	PROPN	_	Foreign=Yes	6	nmod	_	_
+9	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	существенно	существенно	ADV	_	Degree=Pos	11	advmod	_	_
+11	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	вычислительную	вычислительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	Сегодня	сегодня	ADV	_	Degree=Pos	16	advmod	_	_
+16	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+17	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+19	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	микрокомпьютеров	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	предназначенных	предназначать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	_
+25	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	27	punct	_	_
+29	от	от	ADP	_	_	30	case	_	_
+30	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+31	компонентами	компонент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	30	obl:agent	_	_
+32	"	"	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	умного	умный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	_
+36	до	до	ADP	_	_	30	case	_	_
+37	исполнения	исполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+38	функций	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	_
+39	сервера	сервер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 89295
+# text = Некоторые из них имеют собственные интерфейсы ввода-вывода, в то время как многие другие имеют стандартные интерфейсы, совместимые с Raspberry Pi.Именно благодаря такой совместимости производители новых микрокомпьютеров получают возможность попасть в экосистему Raspberry Pi, для которых выпускается огромное множество различных подключаемых модулей: от примитивных датчиков температуры и влажности до сложных систем видеонаблюдения с возможностью сопровождения заданных объектов.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	интерфейсы	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	ввода-	ввода-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	в	в	ADP	_	_	16	advmod	_	_
+11	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	как	как	SCONJ	_	_	12	fixed	_	_
+14	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+15	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+17	стандартные	стандартный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	интерфейсы	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	совместимые	совместимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	Raspberry	Raspberry	ADJ	_	Foreign=Yes	23	amod	_	_
+23	Pi.	Pi.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	Именно	именно	ADV	_	Degree=Pos	27	advmod	_	_
+25	благодаря	благодаря	ADP	_	_	27	case	_	_
+26	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	27	amod	_	_
+27	совместимости	совместимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+28	производители	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+29	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	микрокомпьютеров	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+32	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+33	попасть	попадать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	dep	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	экосистему	экосистема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
+36	Raspberry	Raspberry	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	Pi	Pi	NUM	_	_	36	nummod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	для	для	ADP	_	_	40	case	_	_
+40	которых	который	PRON	_	Case=Gen	33	obl	_	_
+41	выпускается	выпускавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+42	огромное	огромный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj:pass	_	_
+44	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	46	amod	_	_
+45	подключаемых	подключать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	46	amod	_	_
+46	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	43	nmod	_	SpaceAfter=No
+47	:	:	PUNCT	_	_	46	punct	_	_
+48	от	от	ADP	_	_	50	case	_	_
+49	примитивных	примитивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	50	amod	_	_
+50	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	obl	_	_
+51	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	_	_
+52	и	и	CCONJ	_	_	53	cc	_	_
+53	влажности	влажность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	conj	_	_
+54	до	до	ADP	_	_	56	case	_	_
+55	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	56	amod	_	_
+56	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	obl	_	_
+57	видеонаблюдения	видеонаблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	56	nmod	_	_
+58	с	с	ADP	_	_	59	case	_	_
+59	возможностью	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	57	nmod	_	_
+60	сопровождения	сопровождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	_
+61	заданных	задавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	62	amod	_	_
+62	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	60	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	SpaceAfter=No
+
+# sent_id = 89296
+# text = Новый микрокомпьютер Tinker Board, очевидно, нацелен на пользователей Raspberry Pi.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	микрокомпьютер	микрокомпьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	Tinker	Tinker	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Board	Board	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	очевидно	очевидно	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	нацелен	нацеливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+11	Raspberry	Raspberry	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Pi	Pi	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 89297
+# text = Устройство имеет 40-пиновый интерфейс, совместимый с подключаемыми модулями Raspberry.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	40-пиновый	40-пиновый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	интерфейс	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	совместимый	совместимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	подключаемыми	подключать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	модулями	модуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	_
+10	Raspberry	Raspberry	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 89298
+# text = Согласно описанию устройства, в интерфейсы размещены 28 портов ввода-вывода, два контакта шины обмена данными SPI, два контакта I2C, восемь пинов "земли", а также пины питания 3,3 и 5 вольт.На борту Tinker Board установлен мощный четырехъядерный процессор ARM Cortex-A17, работающий с тактовой частотой 1,8 гигагерца.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	описанию	описание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	интерфейсы	интерфейс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+7	размещены	размескать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	28	28	NUM	_	_	9	nummod	_	_
+9	портов	порт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	ввода-	ввода-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	вывода	вывод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	два	два	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	_
+15	шины	шина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	0	conj	_	_
+18	SPI	Spi	NUM	_	_	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	два	два	NUM	_	Case=Nom|Gender=Masc	21	nummod:gov	_	_
+21	контакта	контакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nsubj	_	_
+22	I2C	I2с	ADP	_	_	25	case	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	восемь	восемь	NUM	_	Case=Nom	25	nummod:gov	_	_
+25	пинов	пин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	27	punct	_	_
+30	а	а	CCONJ	_	_	32	cc	_	_
+31	также	также	ADV	_	Degree=Pos	32	advmod	_	_
+32	пины	пина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	conj	_	_
+33	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	3,3	3,3	NUM	_	_	33	nummod	_	_
+35	и	и	CCONJ	_	_	42	cc	_	_
+36	5	5	NUM	_	_	42	nummod	_	_
+37	вольт.	вольто	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	42	nsubj:pass	_	SpaceAfter=No
+38	На	на	ADP	_	_	39	case	_	_
+39	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	obl	_	_
+40	Tinker	Tinker	PROPN	_	Foreign=Yes	39	flat:foreign	_	_
+41	Board	Board	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+43	мощный	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+44	четырехъядерный	четырехъядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+45	процессор	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	nsubj:pass	_	_
+46	ARM	Arm	PROPN	_	Foreign=Yes	45	flat:foreign	_	_
+47	Cortex-A17	Cortex-A17	NUM	_	_	46	nummod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	45	amod	_	_
+50	с	с	ADP	_	_	52	case	_	_
+51	тактовой	тактовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	52	amod	_	_
+52	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	49	obl	_	_
+53	1,8	1,8	NUM	_	_	54	nummod	_	_
+54	гигагерца	гигагерец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+
+# sent_id = 89299
+# text = В качестве графического процессора используется ARM Mali-T764.
+1	В	в	ADP	_	_	4	case	_	_
+2	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	графического	графический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	процессора	процессор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	ARM	Arm	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Mali-	Mali-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	T764	T764	NUM	_	_	6	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 89300
+# text = Устройство способно проигрывать видео с разрешением 4K и аудио с качеством 24 бита.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	проигрывать	проигрывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+7	4K	4k	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	аудио	аудио	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	conj	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	качеством	качество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	_
+12	24	24	NUM	_	_	13	nummod	_	_
+13	бита	бит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89301
+# text = Характеристики Tinker Board указывают на то, что устройство оптимизировано для использования в составе мультимедийных систем.
+1	Характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	Tinker	Tinker	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Board	Board	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	указывают	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+10	оптимизировано	оптимизировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	advcl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+15	мультимедийных	мультимедийный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	систем.	системей	DET	_	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+
+# sent_id = 89302
+# text = Wi-Fi антенну на устройстве можно менять.
+1	Wi-Fi	Wi-Fi	NUM	_	_	2	nummod	_	_
+2	антенну	антенна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	устройстве	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 89303
+# text = Кроме того, компьютер имеет четыре разъема USB 2.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	7	nummod:gov	_	_
+7	разъема	разъем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	USB	Usb	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	2	2	NUM	_	_	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89304
+# text = Он получил четырехъядерный процессор ARM Cortex-A53 с частотой 1,2 гигагерца, видеопроцессор Broadcom VideoCore IV, поддержку Wi-Fi 802.11n, Bluetooth 4.1 и BLE.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	четырехъядерный	четырехъядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	процессор	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	ARM	Arm	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Cortex-A53	Cortex-A53	NUM	_	_	5	nummod	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	_
+9	1,2	1,2	NUM	_	_	10	nummod	_	_
+10	гигагерца	гигагерец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	видеопроцессор	видеопроцессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+13	Broadcom	Broadcom	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	VideoCore	VideoCore	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	IV	iv	NUM	_	_	14	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+18	Wi-Fi	wifi-	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+19	802.	802	NUM	_	_	18	nummod	_	SpaceAfter=No
+20	11n	11н-лат	NOUN	_	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Bluetooth	Bluetooth	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+23	4.1	4.1	NUM	_	_	22	nummod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	BLE	Ble	PROPN	_	Foreign=Yes	20	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 89305
+# text = Стоимость этого устройства составляет около 35 долларов.Василий Сычёв
+1	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	около	около	ADP	_	_	7	case	_	_
+6	35	35	NUM	_	_	7	nummod	_	_
+7	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+9	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+

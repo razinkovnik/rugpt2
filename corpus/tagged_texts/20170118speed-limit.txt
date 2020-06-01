@@ -1,0 +1,548 @@
+# sent_id = 88549
+# text = Психологи пришли квыводу, что строгий скоростной режим может снижать безопасность дорожного движения, заставляя водителей концентрироваться наскорости вождения, аненавозможных угрозах.
+1	Психологи	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	квыводу	квывода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	2	mark	_	_
+6	строгий	строгий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	скоростной	скоростной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	режим	режим	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	снижать	снижать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	заставляя	заставлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+16	водителей	водитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	концентрироваться	концентрироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+18	наскорости	наскорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+19	вождения	вождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	аненавозможных	аненавозможный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	угрозах	угрозы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 88550
+# text = Исследование опубликовано вжурнале Accident Analysis &Prevention.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	Accident	Accident	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Analysis	Analysis	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	&Prevention	&Prevention	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 88551
+# text = Ежегодно вдорожно-транспортных происшествиях погибает около 1,2 миллиона человек, причем значительная доля аварий происходит из-за превышения скорости.
+1	Ежегодно	ежегодно	ADV	_	Degree=Pos	5	advmod	_	_
+2	вдорожно-	вдорожно-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	транспортных	транспортный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	происшествиях	происшествие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+5	погибает	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	около	около	ADP	_	_	8	case	_	_
+7	1,2	1,2	NUM	_	_	8	nummod	_	_
+8	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nummod:gov	_	_
+9	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	причем	причем	CCONJ	_	_	15	cc	_	_
+12	значительная	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	аварий	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	из-за	из-за	ADP	_	_	17	case	_	_
+17	превышения	превышение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88552
+# text = Чтобы справиться с этим нарушением, правительства стран вводят штрафы для любителей быстрой езды.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+2	справиться	справляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	advcl	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	5	amod	_	_
+5	нарушением	нарушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	правительства	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+8	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	вводят	вводеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	штрафы	штраф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	езды	езда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88553
+# text = Основываясь натом, что эффективность этой меры была доказана, некоторые исследователи предлагают ужесточить ограничения инаказывать водителей даже занезначительное превышение скорости, чтобы дополнительно улучшить показатели безопасности.
+1	Основываясь	основываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	9	advcl	_	_
+2	натом	нат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	1	mark	_	_
+5	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	меры	мера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	доказана	доказывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	предлагают	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+14	ужесточить	ужесточать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+16	инаказывать	инаказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	dep	_	_
+17	водителей	водитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	даже	даже	PART	_	_	19	advmod	_	_
+19	занезначительное	занезначительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	превышение	превышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+21	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	_
+24	дополнительно	дополнительно	ADV	_	Degree=Pos	25	advmod	_	_
+25	улучшить	улучшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+26	показатели	показатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
+27	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 88554
+# text = Следуя этим рекомендациям, некоторые австралийские штаты стали штрафовать водителей, даже если они едут наодин километр вчас быстрее, чем положено.
+1	Следуя	следовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	этим	этот	DET	_	Case=Dat|Number=Plur	3	amod	_	_
+3	рекомендациям	рекомендация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	австралийские	австралийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	штаты	штат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	штрафовать	штрафовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	водителей	водитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	даже	даже	PART	_	_	13	advmod	_	_
+13	если	если	SCONJ	_	_	0	mark	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	едут	евать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	advcl	_	_
+16	наодин	наодин	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	17	nummod:gov	_	_
+17	километр	километр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	вчас	вчас	ADV	_	Degree=Pos	19	advmod	_	_
+19	быстрее	быстро	ADV	_	Degree=Cmp	15	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	22	cc	_	_
+22	положено	положенный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 88555
+# text = Авторы новой работы предположили, что столь строгие ограничения негативно скажутся надругих аспектах дорожной безопасности, поскольку когнитивные способности человека не безграничны.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	предположили	предполагать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	столь	столь	ADV	_	Degree=Pos	8	advmod	_	_
+8	строгие	строгий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+10	негативно	негативно	ADV	_	Degree=Pos	11	advmod	_	_
+11	скажутся	сказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+12	надругих	надругой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	аспектах	аспект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+14	дорожной	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+18	когнитивные	когнитивный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	способности	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+20	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	безграничны	безграничный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 88556
+# text = Вчастности, ученые говорят отом, что водители, концентрируясь наскорости автомобиля, будут уделять недостаточно внимания другим угрозам безопасности надорогах.
+1	Вчастности	Вчастность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	концентрируясь	концентрироваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	15	advcl	_	_
+11	наскорости	наскорость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+12	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	уделять	уделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	_
+16	недостаточно	недостаточно	ADV	_	Degree=Pos	17	advmod	_	_
+17	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	угрозам	угроз	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
+20	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	надорогах	надорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 88557
+# text = Чтобы проверить свою гипотезу, психологи провели эксперимент, вкотором 39мужчин вели машину всимуляторе.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+2	проверить	верить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	advcl	_	_
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	гипотезу	гипотеза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	психологи	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	вкотором	вкотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+11	39мужчин	39мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	вели	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	всимуляторе	всимуляторе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88558
+# text = Увсех добровольцев был начальный капитал, изкоторого вычиталась некоторая сумма занарушение скоростного режима.
+1	Увсех	Увсех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	добровольцев	доброволец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	начальный	начальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	капитал	капитал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	изкоторого	изкоторого	ADV	_	Degree=Pos	8	advmod	_	_
+8	вычиталась	вычитать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+9	некоторая	некоторый	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+11	занарушение	занарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+12	скоростного	скоростной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88559
+# text = Штраф мог назначаться вслучаях, когда водители превышали лимит 50километров вчас наодин, шесть или одиннадцать километров в час.
+1	Штраф	штраф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	назначаться	назначаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+4	вслучаях	вслучай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	когда	когда	SCONJ	_	_	2	mark	_	_
+7	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	превышали	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	лимит	лимит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	50километров	50километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	вчас	вчас	ADV	_	Degree=Pos	12	advmod	_	_
+12	наодин	наодин	NUM	_	Case=Nom|Gender=Masc	8	nummod:gov	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	шесть	шесть	NUM	_	Case=Nom	17	nummod:gov	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	одиннадцать	одиннадцать	NUM	_	Case=Acc	14	conj	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 88560
+# text = Параллельно участники исследования выполняли задание, также требующее внимания.
+1	Параллельно	параллельно	ADV	_	Degree=Pos	4	advmod	_	_
+2	участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	appos	_	_
+4	выполняли	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	задание	задание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	также	также	ADV	_	Degree=Pos	8	advmod	_	_
+8	требующее	требовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88561
+# text = Добровольцам необходимо было нажимать кнопку наруле каждый раз, когда сбоку экрана надве секунды появлялась небольшая красная точка.
+1	Добровольцам	доброволец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+2	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	нажимать	нажимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+5	кнопку	кнопка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	наруле	нарула	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+7	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	когда	когда	SCONJ	_	_	0	mark	_	_
+11	сбоку	сбоку	ADV	_	Degree=Pos	12	advmod	_	_
+12	экрана	экирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	advcl	_	_
+13	надве	надва	NUM	_	Case=Nom|Gender=Fem	14	nummod:gov	_	_
+14	секунды	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+15	появлялась	являться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	parataxis	_	_
+16	небольшая	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	красная	красный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	точка	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88562
+# text = Результаты эксперимента показали, что испытуемые, которых штрафовали запревышение скорости наодин километр вчас, реагировали накрасную точку всреднем на30миллисекунд медленнее посравнению сдругими группами.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	испытуемые	испытуемое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которых	который	PRON	_	Case=Acc	9	obj	_	_
+9	штрафовали	штрафовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	запревышение	запревышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	наодин	наодин	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	13	nummod:gov	_	_
+13	километр	километр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	вчас	вчас	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	реагировали	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+17	накрасную	накрасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	всреднем	всредень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+20	на30миллисекунд	на30миллисекунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	медленнее	медленно	ADV	_	Degree=Cmp	22	advmod	_	_
+22	посравнению	посравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+23	сдругими	сдругий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	группами	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 88563
+# text = Они также незаметили около 14процентов точек, втовремя как водители, которых наказывали запревышение наскорости наодиннадцать километров, упустили только 10процентов точек.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	незаметили	незамещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	около	около	ADP	_	_	5	case	_	_
+5	14процентов	14процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	втовремя	втовремя	ADV	_	Degree=Pos	10	advmod	_	_
+9	как	как	SCONJ	_	_	10	cc	_	_
+10	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которых	который	PRON	_	Case=Acc	13	obj	_	_
+13	наказывали	наказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	запревышение	запревышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	наскорости	наскорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	наодиннадцать	наодиннадцать	NUM	_	Case=Nom	17	nummod:gov	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	упустили	упускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	только	только	PART	_	_	21	advmod	_	_
+21	10процентов	10процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+22	точек	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 88564
+# text = Группа, которая могла ехать быстрее на шесть километров в час, не заметила 12 процентов угроз.
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которая	который	PRON	_	Case=Nom	4	nsubj	_	_
+4	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	ехать	ехать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	быстрее	быстро	ADV	_	Degree=Cmp	5	advmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	шесть	шесть	NUM	_	Case=Acc	9	nummod:gov	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	заметила	замечать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	12	12	NUM	_	_	16	nummod	_	_
+16	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	угроз	угроза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 88565
+# text = По мнению ученых, разница даже в два процента является существенной, когда речь идет о дорожной безопасности.Таким образом, работа ученых показывает, что слишком строгое регулирование скоростного режима может негативно отразиться на безопасности дорожного движения.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	даже	даже	PART	_	_	9	advmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+10	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	существенной	существенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	когда	когда	SCONJ	_	_	10	mark	_	_
+14	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
+16	о	о	ADP	_	_	18	case	_	_
+17	дорожной	дорожный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	21	amod	_	_
+21	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+24	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	что	что	SCONJ	_	_	25	mark	_	_
+28	слишком	слишком	ADV	_	Degree=Pos	29	advmod	_	_
+29	строгое	строгий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	регулирование	регулирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	_
+31	скоростного	скоростной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
+34	негативно	негативно	ADV	_	Degree=Pos	35	advmod	_	_
+35	отразиться	отражаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	33	xcomp	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_
+38	дорожного	дорожный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	39	amod	_	_
+39	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 88566
+# text = Психологи призывают представителей правительства обращать на это внимание при разработке соответствующих законов.Недавно другая группа исследователей изучила психологические особенности водителей, которые создают высокий риск возникновения аварии.
+1	Психологи	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	призывают	призывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	обращать	обращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	_
+8	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+9	при	при	ADP	_	_	10	case	_	_
+10	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+11	соответствующих	соответствующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	законов.	законоварищ	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	Недавно	недавно	ADV	_	Degree=Pos	17	advmod	_	_
+14	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	изучила	изучать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	психологические	психологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	obj	_	_
+20	водителей	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	высокий	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	возникновения	возникновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 88567
+# text = Оказалось, что каждой группе риска присущи свои характерные черты.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	каждой	каждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	группе	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+6	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	присущи	присущь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	свои	свой	DET	_	Case=Acc|Number=Plur	10	amod	_	_
+9	характерные	характерной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	черты	черта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 88568
+# text = Так, для любителей быстрой езды характерна склонность к поиску "острых" ощущений и раскрепощенность, а водители с двумя и более судимостями за вождение в нетрезвом виде предрасположены к злоупотреблению психоактивными веществами.Сегодня компании ведут разработки беспилотных автомобилей, которые самостоятельно контролируют скорость движения и следят за ситуацией на дорогах.
+1	Так	так	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	любителей	любитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+5	быстрой	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	езды	езда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	характерна	характерный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\s\n
+8	склонность	склонность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	к	к	ADP	_	_	10	case	_	_
+10	поиску	поиск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	острых	острый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	ощущений	ощущение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	раскрепощенность	раскрепощенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	а	а	CCONJ	_	_	30	cc	_	_
+19	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj:pass	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	двумя	два	NUM	_	Case=Ins	19	nummod	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	более	более	ADV	_	Degree=Cmp	24	advmod	_	_
+24	судимостями	судимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	conj	_	_
+25	за	за	ADP	_	_	26	case	_	_
+26	вождение	вождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	нетрезвом	нетрезвый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+30	предрасположены	предраспокладывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	38	conj	_	_
+31	к	к	ADP	_	_	32	case	_	_
+32	злоупотреблению	злоупотребление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	38	obl	_	_
+33	психоактивными	психоактивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	amod	_	_
+34	веществами	вещество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	38	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	Сегодня	сегодня	ADV	_	Degree=Pos	38	advmod	_	_
+37	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	38	nsubj	_	_
+38	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+39	разработки	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	38	nsubj	_	_
+40	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	amod	_	_
+41	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	которые	который	PRON	_	Case=Nom	45	nsubj	_	_
+44	самостоятельно	самостоятельно	ADV	_	Degree=Pos	45	advmod	_	_
+45	контролируют	контролировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	acl:relcl	_	_
+46	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	_
+47	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	_
+48	и	и	CCONJ	_	_	49	cc	_	_
+49	следят	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	conj	_	_
+50	за	за	ADP	_	_	51	case	_	_
+51	ситуацией	ситуация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	49	obl	_	_
+52	на	на	ADP	_	_	53	case	_	_
+53	дорогах	дорога	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	49	obl	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	53	punct	_	SpaceAfter=No
+
+# sent_id = 88569
+# text = Тем не менее, даже эти машины не могут полностью обезопасить пассажиров от аварии.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	эти	этот	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	полностью	полностью	ADV	_	Degree=Pos	11	advmod	_	_
+11	обезопасить	обезопасать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+12	пассажиров	пассажир	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88570
+# text = В прошлом году беспилотный автомобиль Google впервые стал виновником ДТП, передвигаясь в автономном режиме, а беспилотные автомобили на базе Volvo XC90 были признаны опасными для велосипедистов.Кристина Уласович
+1	В	в	ADP	_	_	3	case	_	_
+2	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+4	беспилотный	беспилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Google	Google	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	впервые	впервые	ADV	_	Degree=Pos	8	advmod	_	_
+8	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	виновником	виновник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+10	ДТП	дтп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	передвигаясь	передвигаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	8	advcl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	автономном	автономный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	25	cc	_	_
+18	беспилотные	беспилотный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	nsubj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Volvo	Volvo	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	XC90	XC90	NUM	_	_	22	nummod	_	_
+24	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+26	опасными	опасный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	велосипедистов.	велосипедистовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+

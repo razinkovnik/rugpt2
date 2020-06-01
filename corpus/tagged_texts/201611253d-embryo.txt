@@ -1,0 +1,84 @@
+# sent_id = 81475
+# text = Нидерландские ученые создали ивыложили воткрытый доступ 3D-атлас первых двух месяцев эмбрионального развития человека.
+1	Нидерландские	Нидерландский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ивыложили	ивыложивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+5	воткрытый	воткрытый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	3D	3d	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	атлас	атлас	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+10	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	двух	два	NUM	_	Case=Gen	12	nummod	_	_
+12	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpacesAfter=\n
+13	эмбрионального	эмбриональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 81476
+# text = Обэтом авторы сообщают на страницах журнала Science.
+1	Обэтом	Обэто	PART	_	_	3	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	SpacesAfter=\n
+5	страницах	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+6	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Science	science	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 81477
+# text = Иллюстрации всовременных учебниках поэмбриологии содержат множество неточностей.
+1	Иллюстрации	иллюстрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	всовременных	всовременный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	учебниках	учебник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+4	поэмбриологии	поэмбриология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	содержат	содержить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	неточностей	неточность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 81478
+# text = Попонятным причинам получение образцов человеческих эмбрионов ограничено, поэтому многие данные основаны назарисовках 50--100-летней давности или экстраполированы снаблюдений уживотных.
+1	Попонятным	Попонятный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	amod	_	_
+2	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+3	получение	получение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+4	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	человеческих	человеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	ограничено	ограничивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поэтому	поэтому	ADV	_	Degree=Pos	12	advmod	_	_
+10	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	12	nsubj:pass	_	_
+12	основаны	основать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+13	назарисовках	назарисовка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+14	50-	50-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	100-летней	100-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	SpacesAfter=\n
+17	давности	давность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	экстраполированы	экстраполировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	conj	_	_
+20	снаблюдений	снаблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	parataxis	_	_
+21	уживотных	уживотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 81479
+# text = Из-за этого намногих иллюстрациях некоторые развивающиеся органы расположены ненасвоем месте или появляются невсвое время.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+3	намногих	намногие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+4	иллюстрациях	иллюстрация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	nmod	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+6	развивающиеся	развиваться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	amod	_	_
+7	органы	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	расположены	расположенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	ненасвоем	ненасвой	DET	_	Case=Loc|Gender=Neut|Number=Sing	10	amod	_	_
+10	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	SpacesAfter=\n
+12	появляются	появляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+13	невсвое	невсвый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

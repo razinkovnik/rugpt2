@@ -1,0 +1,403 @@
+# sent_id = 88626
+# text = Пилотный эксперимент повозвращению вСахару саблерогой антилопы (сахарского орикса, Oryx dammah) признан успешным-- уживотных появилось первое потомство.
+1	Пилотный	Пилотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+3	повозвращению	повозвращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+4	вСахару	вСахар	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+5	саблерогой	саблерогий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+6	антилопы	антилопа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	сахарского	сахарский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	орикса	орикс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	Oryx	Oryx	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpacesAfter=\n
+12	dammah	dammah	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
+14	признан	признавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+15	успешным-	успешным-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	уживотных	уживотное	NOUN	_	Animacy=Anim|Case=Loc|Gender=Neut|Number=Plur	18	obl	_	_
+18	появилось	появляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+19	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	SpacesAfter=\n
+20	потомство	потомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 88627
+# text = Всвязи сэтим кдоставке вестественный ареал обитания подготовлена следующая группа антилоп, пишет New Scientist.
+1	Всвязи	Всвязь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сэтим	сэтимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	кдоставке	кдоставка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+4	вестественный	вестественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	ареал	ареал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+6	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	подготовлена	дготовлить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	dep	_	SpacesAfter=\n
+8	следующая	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	антилоп	антилоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpacesAfter=\n
+13	New	new	PROPN	_	Foreign=Yes	12	nsubj	_	_
+14	Scientist	Scientist	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88628
+# text = Саблерогие антилопы были широко распространены впустынях и степях Северной Африки.
+1	Саблерогие	Саблерогий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	антилопы	антилоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	широко	широко	ADV	_	Degree=Pos	5	advmod	_	_
+5	распространены	распространенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	впустынях	впустыня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	SpacesAfter=\n
+8	степях	степя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	conj	_	_
+9	Северной	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Африки	африка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 88629
+# text = Однако интенсивная охота привела ктому, что все дикие представители вида были истреблены к1990-м годам.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	интенсивная	интенсивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	охота	охота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	привела	приводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ктому	кто	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	все	весь	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+9	дикие	дикий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+10	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+11	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	истреблены	истреблять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	_
+14	к1990-м	к1990-й	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	годам	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 88630
+# text = Тем неменее, существенное количество особей продолжают жить вневоле вОбъединенных арабских эмиратах, США, Европе иАвстралии.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	существенное	существенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpacesAfter=\n
+5	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	особей	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	продолжают	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	вневоле	вневол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+10	вОбъединенных	вОбъединенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+11	арабских	арабский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	эмиратах	эмират	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	0	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+17	иАвстралии	иАвстралия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 88631
+# text = Кроме того, впоследнее время ихначали разводить на огороженных африканских территориях.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	впоследнее	впоследний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+6	ихначали	ихначать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	разводить	разводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	на	на	ADP	_	_	11	case	_	SpacesAfter=\n
+9	огороженных	огороженный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+10	африканских	африканский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	территориях	территория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 88632
+# text = Вавгусте 2016 года 23особи сдатчиками GPS выпустили в дикую природу натерритории заповедника вцентральном Чаде.
+1	Вавгусте	Вавгувствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	23особи	23особь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	сдатчиками	сдатчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	_
+6	GPS	Gps	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	выпустили	выпускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	в	в	ADP	_	_	10	case	_	SpacesAfter=\n
+9	дикую	дикий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+11	натерритории	натерритория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	заповедника	заповедник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	вцентральном	вцентральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Чаде	Чад	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88633
+# text = Наэтой территории в1960-х годах были отловлены 40-50 саблерогих антилоп, ибольшинство ныне живущих представителей вида считаются ихпотомками.
+1	Наэтой	Наэтот	DET	_	Case=Gen|Gender=Fem|Number=Sing	2	amod	_	_
+2	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nsubj	_	SpacesAfter=\n
+3	в1960-х	в1960-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	годах	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	отловлены	отловлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	40	40	NUM	_	_	10	nummod	_	SpaceAfter=No
+8	-50	-50	NUM	_	_	10	nummod	_	_
+9	саблерогих	саблерогий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	антилоп	антилоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ибольшинство	ибольшинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+13	ныне	ныне	ADV	_	Degree=Pos	14	advmod	_	SpacesAfter=\n
+14	живущих	жить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	считаются	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	_	_
+18	ихпотомками	ихпотомка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88634
+# text = Некоторые изсамок кмоменту освобождения были беременны, и всентябре насвет появился первый теленок.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	nsubj	_	_
+2	изсамок	изсамкий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	кмоменту	кмомент	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+4	освобождения	освобождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+6	беременны	беременный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	10	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	и	и	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+9	всентябре	всентябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	_
+10	насвет	насвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+11	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+12	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	теленок	теленок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88635
+# text = Пословам участника проекта, сотрудник Смитсоновского музея Джареда Старбака (Jared Stabach), все животные, включая новое поколение, выглядят абсолютно здоровыми ихорошо адаптируются к окружающей среде.
+1	Пословам	Послова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+2	участника	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	сотрудник	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+6	Смитсоновского	Смитсоновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	музея	музей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Джареда	Джаред	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+9	Старбака	Старбак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Jared	Jared	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+12	Stabach	Stabach	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	все	весь	DET	_	Case=Nom|Number=Plur	16	amod	_	_
+16	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	включая	включать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	advcl	_	_
+19	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	поколение	поколение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+23	абсолютно	абсолютно	ADV	_	Degree=Pos	24	advmod	_	_
+24	здоровыми	здоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	obl	_	_
+25	ихорошо	ихорошо	ADV	_	Degree=Pos	26	advmod	_	_
+26	адаптируются	адаптироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	conj	_	_
+27	к	к	ADP	_	_	29	case	_	SpacesAfter=\n
+28	окружающей	окружать	VERB	_	Aspect=Imp|Case=Dat|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+29	среде	среда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 88636
+# text = Несколько самок забеременели, уже находясь взаповеднике.
+1	Несколько	несколько	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	самок	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	забеременели	забеременеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	находясь	находиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	3	advcl	_	_
+7	взаповеднике	взаповедника	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 88637
+# text = Исследователи ожидают появление первых телят, зачатых насвободе, втечение одного-двух месяцев.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	ожидают	ожидаять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	появление	появление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	телят	теленок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	зачатых	зачавать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+8	насвободе	насвободе	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+11	одного-	одного-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	двух	два	NUM	_	Case=Gen	13	nummod	_	SpacesAfter=\n
+13	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88638
+# text = Состояние ихздоровья станет важным показателем успеха проекта и перспектив жизни антилоп вестественной среде.
+1	Состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	ихздоровья	ихздоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	показателем	показатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	успеха	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+9	перспектив	перспеккать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	_
+10	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+11	антилоп	антилоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	вестественной	вестественный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+13	среде	среда	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88639
+# text = Выпущенные наволю животные происходят изразных популяций, выращенных вневоле.
+1	Выпущенные	выпущать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	наволю	наволю	ADV	_	Degree=Pos	1	advmod	_	_
+3	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+4	происходят	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	изразных	изразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	популяций	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	выращенных	выращивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	вневоле	вневоле	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88640
+# text = Поэтому ученые рассчитывают, что несмотря нанебольшое число особей вдикой популяции будет достаточное генетическое разнообразие.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	несмотря	несмотря	ADV	_	Polarity=Neg	8	case	_	_
+7	нанебольшое	нанебольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	fixed	_	SpacesAfter=\n
+8	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+9	особей	особий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	вдикой	вдикий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+13	достаточное	достаточной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+14	генетическое	генетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	разнообразие	разнообразие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 88641
+# text = По мнению исследователей, перспективы проекта хорошие, поскольку антилоп ненадо учить охотиться, аихестественные враги-- львы игепарды-- натерритории заповедника были истреблены.
+1	По	по	ADP	_	_	2	case	_	SpacesAfter=\n
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	перспективы	перспектива	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+6	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	хорошие	хороший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	поскольку	поскольку	SCONJ	_	_	7	mark	_	_
+10	антилоп	антилоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+11	ненадо	ненадо	ADV	_	Degree=Pos	12	advmod	_	SpacesAfter=\n
+12	учить	учить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	_
+13	охотиться	охотиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	аихестественные	аихестественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	враги	врага	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	_
+19	львы	львый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	12	conj	_	_
+20	игепарды	игепарда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	compound	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	_
+23	натерритории	натерритория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	SpacesAfter=\n
+24	заповедника	заповедник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	aux:pass	_	_
+26	истреблены	истреблять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 88642
+# text = Местное население также недолжно представлять угрозы, поскольку заинтересовалось проектом иготово защищать животных.
+1	Местное	местный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	население	население	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	недолжно	недолжен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	представлять	представлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	SpacesAfter=\n
+6	угрозы	угроза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+9	заинтересовалось	заинтересовываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+10	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+11	иготово	иготовый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	_
+12	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+13	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88643
+# text = Внастоящее время другой международный научный коллектив занимается подготовкой квозрождению популяции тигров вЦентральной Азии.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+4	международный	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	коллектив	коллектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+8	подготовкой	подготовка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	квозрождению	квозрождение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+10	популяции	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	тигров	тигр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	вЦентральной	вЦентральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Азии	азия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88644
+# text = Жившие там раньше туранский (онже закавказский, или каспийский) тигр вымер врезультате охоты ихозяйственной деятельности человека к1970году.
+1	Жившие	Жять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+2	там	там	ADV	_	Degree=Pos	1	advmod	_	SpacesAfter=\n
+3	раньше	рано	ADV	_	Degree=Cmp	1	advmod	_	_
+4	туранский	туранский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	онже	онже	PART	_	_	7	advmod	_	_
+7	закавказский	закавказский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	каспийский	каспийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	тигр	тигражданин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	вымер	вымирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	врезультате	врезультате	PART	_	_	15	advmod	_	SpacesAfter=\n
+15	охоты	охот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+16	ихозяйственной	ихозяйственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	к1970году	к1970год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 88645
+# text = Живых представителей этого вида несохранилось, ноученые рассчитывают адаптировать натерритории его обитания близкого генетически амурского тигра.
+1	Живых	живой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	_
+2	представителей	представитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpacesAfter=\n
+3	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	несохранилось	несохраниваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ноученые	ноученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+9	адаптировать	адаптировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	натерритории	натерритория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpacesAfter=\n
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	близкого	близкой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	генетически	генетически	ADV	_	Degree=Pos	13	advmod	_	_
+15	амурского	амурской	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	тигра	тигор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 88646
+# text = Для этого вКазахстане ведется подготовка заповедника врайоне озера Балхаш.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	вКазахстане	вКазахстанин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpacesAfter=\n
+4	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	подготовка	подготовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+6	заповедника	заповедник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	врайоне	врайона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+8	озера	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	Балхаш	Балхаш	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88647
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

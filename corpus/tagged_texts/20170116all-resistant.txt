@@ -1,0 +1,547 @@
+# sent_id = 87970
+# text = Центры поконтролю ипрофилактике заболеваний США (CDC) сообщили ослучае смерти пожилой американки отинфекции, устойчивой практически ковсем имеющимся встране антибиотикам.
+1	Центры	центр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	поконтролю	поконтролть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ипрофилактике	ипрофилактика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+5	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	4	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	CDC	Cdc	PROPN	_	Foreign=Yes	4	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	сообщили	сообщать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	SpacesAfter=\n
+10	ослучае	ослучай	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	смерти	смерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	пожилой	пожилый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	американки	американка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	отинфекции	отинфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	устойчивой	устойчивый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	_
+17	практически	практически	ADV	_	Degree=Pos	18	advmod	_	_
+18	ковсем	ковсе	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	SpacesAfter=\n
+19	имеющимся	иметься	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	20	amod	_	_
+20	встране	встрана	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+21	антибиотикам	антибиотик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 87971
+# text = Проблема антибиотикоустойчивости становится острее скаждым годом: микроорганизмы постоянно вырабатывают новые типы устойчивости и эффективно обмениваются соответствующими генами.
+1	Проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	антибиотикоустойчивости	антибиотикоустойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	острее	остро	ADV	_	Degree=Cmp	5	advmod	_	_
+5	скаждым	скаждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	микроорганизмы	микроорганизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	постоянно	постоянно	ADV	_	Degree=Pos	10	advmod	_	_
+10	вырабатывают	вырабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	типы	тип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+13	устойчивости	устойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	SpacesAfter=\n
+15	эффективно	эффективно	ADV	_	Degree=Pos	16	advmod	_	_
+16	обмениваются	обменивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+17	соответствующими	соответствующий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	генами	гена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 87972
+# text = Из-за этого спектр действия противомикробных препаратов постоянно сужается, некоторые антибиотики стали практически бесполезными.
+1	Из-за	из-за	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+3	спектр	спектр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpacesAfter=\n
+5	противомикробных	противомикробный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	постоянно	постоянно	ADV	_	Degree=Pos	8	advmod	_	_
+8	сужается	сужаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+11	антибиотики	антибиотик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	_
+13	практически	практически	ADV	_	Degree=Pos	14	advmod	_	SpacesAfter=\n
+14	бесполезными	бесполезный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87973
+# text = Это происходит из-за бесконтрольного использования антимикробных средств вмедицине, ветеринарии исельском хозяйстве, атакже ихпопадание впочву иводу.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	из-за	из-за	ADP	_	_	5	case	_	_
+4	бесконтрольного	бесконтрольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+6	антимикробных	антимикробный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+7	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+8	вмедицине	вмедицина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ветеринарии	ветеринария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+11	исельском	исельский	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	хозяйстве	хозяйство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	атакже	атакже	CCONJ	_	_	15	cc	_	SpacesAfter=\n
+15	ихпопадание	ихпопадание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+16	впочву	впочво	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	_
+17	иводу	ивод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 87974
+# text = Поданным главы Экспертной комиссии поборьбе сантибиотикоустойчивыми бактериями при президенте США Мартина Блейзера (Martin Blaser), ежегодно вмире используется 300 тысяч тонн антибиотиков, или около 73миллиардов разовых доз.
+1	Поданным	поданный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+2	главы	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Экспертной	экспертный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+4	комиссии	комиссия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	поборьбе	поборьбе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	сантибиотикоустойчивыми	сантибиотикоустойчивый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	бактериями	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	nmod	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	президенте	президент	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\n
+10	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	_
+11	Мартина	Мартин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	Блейзера	Блейзер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Martin	Martin	PROPN	_	Foreign=Yes	7	appos	_	_
+15	Blaser	Blaser	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	ежегодно	ежегодно	ADV	_	Degree=Pos	20	advmod	_	_
+19	вмире	вмироко	ADV	_	Degree=Cmp	20	advmod	_	_
+20	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+21	300	300	NUM	_	_	22	nummod	_	SpacesAfter=\n
+22	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	_
+23	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+24	антибиотиков	антибиотик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	или	или	CCONJ	_	_	28	cc	_	_
+27	около	около	ADP	_	_	28	case	_	_
+28	73миллиардов	73миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	_
+29	разовых	разовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	доз	доза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 87975
+# text = Одним излидеров поназначению противомикробных средств иразвитию устойчивости кним является Индия, где существенная часть более чем миллиардного населения неимеет доступа кчистой воде иудовлетворительной гигиене.
+1	Одним	один	NUM	_	Case=Ins|Gender=Neut	2	nummod	_	_
+2	излидеров	излидер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpacesAfter=\n
+3	поназначению	поназначение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+4	противомикробных	противомикробный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	иразвитию	иразвитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+7	устойчивости	устойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	кним	окни	PRON	_	Case=Dat|Number=Plur|Person=3	9	obl	_	_
+9	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+10	Индия	индия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	где	где	ADV	_	Degree=Pos	19	advmod	_	_
+13	существенная	существенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+15	более	более	ADV	_	Degree=Cmp	17	case	_	_
+16	чем	чем	SCONJ	_	_	15	fixed	_	_
+17	миллиардного	миллиардный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+19	неимеет	неиметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+20	доступа	доступ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	SpacesAfter=\n
+21	кчистой	кчистый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+22	воде	воде	ADP	_	_	24	case	_	_
+23	иудовлетворительной	иудовлетворительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	гигиене	гигиена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 87976
+# text = Вописываемом случае жительница Невады ввозрасте 70с лишним лет два года провела вИндии, где неоднократно подвергалась хирургическим операциям поповоду перелома правой бедренной кости и осложнившего его остеомиелита (гнойного воспаления костного мозга).
+1	Вописываемом	Вописывать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	случае	случа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	жительница	жительница	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	Невады	Невада	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	ввозрасте	ввозравствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+6	70с	70с	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpacesAfter=\n
+7	лишним	лишний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	10	nummod:gov	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+11	провела	проводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	вИндии	вИндия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	где	где	ADV	_	Degree=Pos	16	advmod	_	_
+15	неоднократно	неоднократно	ADV	_	Degree=Pos	16	advmod	_	_
+16	подвергалась	подвергаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	SpacesAfter=\n
+17	хирургическим	хирургический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	18	amod	_	_
+18	операциям	операциь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
+19	поповоду	поповод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+20	перелома	перелом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	правой	правой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	бедренной	бедренный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	кости	кость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	SpacesAfter=\n
+25	осложнившего	осложнить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	27	amod	_	_
+26	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	nmod	_	_
+27	остеомиелита	остеомиелита	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	гнойного	гнойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	воспаления	воспаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	parataxis	_	_
+31	костного	костный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 87977
+# text = После очередной госпитализации она вавгусте 2016 года вернулась вСША.
+1	После	после	ADP	_	_	3	case	_	SpacesAfter=\n
+2	очередной	очередной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	госпитализации	госпитализация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+5	вавгусте	вавгувствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+6	2016	2016	NUM	_	_	7	nummod	_	_
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	вернулась	вернуться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+9	вСША	всша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 87978
+# text = Втомже месяце она поступила вместную больницу ссиндромом системной воспалительной реакции (вприсутствии инфекции онслужит признаком сепсиса), который развился напочве нагноившейся серомы (скопления жидкости под кожей после хирургического вмешательства).
+1	Втомже	Втомже	PART	_	_	2	advmod	_	SpacesAfter=\n
+2	месяце	месяца	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	поступила	поступить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	вместную	вместный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	больницу	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	ссиндромом	ссиндром	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+8	системной	системный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	воспалительной	воспалительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpacesAfter=\n
+10	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	вприсутствии	вприсутствии	ADV	_	Degree=Pos	14	advmod	_	_
+13	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	онслужит	онслуживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	признаком	признак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	_
+16	сепсиса	сепсис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	развился	разваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	SpacesAfter=\n
+21	напочве	напочва	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+22	нагноившейся	нагнояться	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	23	amod	_	_
+23	серомы	серома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	скопления	скопление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+26	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	под	под	ADP	_	_	28	case	_	_
+28	кожей	кожа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	_
+29	после	после	ADP	_	_	28	case	_	_
+30	хирургического	хирургический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	SpacesAfter=\n
+31	вмешательства	вмешательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 87979
+# text = Проводимое лечение оказалось неэффективным, ивначале сентября женщина умерла отсептического шока.
+1	Проводимое	проводить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	лечение	лечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	неэффективным	неэффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ивначале	ивначало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+7	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	женщина	женщина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	умерла	умирать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	отсептического	отсептический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	шока	шок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 87980
+# text = Бактериологический анализ выявил унее карбапенем-резистентную энтеробактерию (CRE) вида Klebsiella pneumoniae.
+1	Бактериологический	Бактериологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	выявил	выявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	унее	уный	ADJ	_	Degree=Cmp	5	amod	_	_
+5	карбапенем	карбапеень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	резистентную	резистентный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+8	энтеробактерию	энтеробактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	CRE	Cre	PROPN	_	Foreign=Yes	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	Klebsiella	Klebsiella	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	pneumoniae	pneumoniae	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 87981
+# text = Этот возбудитель оказался устойчивым к26 антибиотикам, включая все использованные ванализе аминогликозиды и полимиксины, атакже умеренно устойчивым ктигециклину (относительно новому препарату тетрациклинового ряда).
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	возбудитель	возбудитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	устойчивым	устойчивой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	к26	к26	NUM	_	_	6	nummod	_	SpacesAfter=\n
+6	антибиотикам	антибиотик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	включая	включая	ADV	_	Degree=Pos	3	advmod	_	_
+9	все	весь	DET	_	Case=Nom|Number=Plur	11	amod	_	_
+10	использованные	использовывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	ванализе	ванализа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+12	аминогликозиды	аминогликозида	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+14	полимиксины	полимиксина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	атакже	атакже	CCONJ	_	_	19	cc	_	_
+17	умеренно	умеренно	ADV	_	Degree=Pos	19	advmod	_	_
+18	устойчивым	устойчивый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	ктигециклину	ктигециклин	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	относительно	относительно	ADP	_	_	23	case	_	_
+22	новому	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	SpacesAfter=\n
+23	препарату	препарат	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	parataxis	_	_
+24	тетрациклинового	тетрациклиновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 87982
+# text = Относительная восприимчивость клебсиеллы была выявлена только кфосфомицину, однако вСША зарегистрирована только его форма для приема внутрь при неосложненном цистите, апри системной инфекции препарат необходимо вводить внутривенно.
+1	Относительная	относительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	восприимчивость	восприимчивость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	клебсиеллы	клебсиелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	SpacesAfter=\n
+5	выявлена	повыявать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	кфосфомицину	кфосфомицина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+10	вСША	всша	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+11	зарегистрирована	регистрировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+12	только	только	PART	_	_	14	advmod	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	SpacesAfter=\n
+15	для	для	ADP	_	_	16	case	_	_
+16	приема	прием	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	внутрь	внутрь	ADV	_	Degree=Pos	19	advmod	_	_
+18	при	при	ADP	_	_	19	case	_	_
+19	неосложненном	неосложненный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	цистите	цистить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	апри	апри	ADP	_	_	24	case	_	_
+23	системной	системный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	инфекции	инфекция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+25	препарат	препарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpacesAfter=\n
+26	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	conj	_	_
+27	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+28	внутривенно	внутривенно	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 87983
+# text = Дальнейшее исследование выявило увозбудителя наличие гена NDM-1 (New Delhi metallo-beta-lactamase 1), который кодирует фермент металло-бета-лактамазу.
+1	Дальнейшее	дальнейший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesAfter=\n
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	выявило	выявлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	увозбудителя	увозбудитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	наличие	наличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+6	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	NDM-	NDM-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	1	1	NUM	_	_	6	nummod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	New	new	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+11	Delhi	Delhi	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpacesAfter=\n
+12	metallo-beta-lactamase	metallo-beta-lactamase	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	1	1	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	кодирует	кодировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+18	фермент	фермент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	металло-бета-	металло-бета-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	лактамазу	лактамаза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 87984
+# text = Он разрушает любые бета-лактамные антибиотики (пенициллины, цефалоспорины, карбапенемы имонобактамы) иряд других противомикробных препаратов.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	SpacesAfter=\n
+2	разрушает	разрушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	любые	любой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+4	бета-	бета-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	лактамные	лактамный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	антибиотики	антибиотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	пенициллины	пенициллина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	цефалоспорины	цефалоспорина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	карбапенемы	карбапенема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+13	имонобактамы	имонобактама	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	иряд	иряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+16	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	противомикробных	противомикробный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 87985
+# text = Однако на тигециклин иполимиксинЕ этот фермент, как правило, недействует.
+1	Однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+2	на	на	ADP	_	_	3	case	_	SpacesAfter=\n
+3	тигециклин	тигециклин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+4	иполимиксинЕ	иполимиксинЕ	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	фермент	фермент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	11	cc	_	_
+9	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	недействует	недействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 87986
+# text = Гена MCR-1, обеспечивающего устойчивость к полимиксинам, убактерии небыло, тем неменее, она оказалась нечувствительной кэтой группе антибиотиков.
+1	Гена	генный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+2	MCR	Mcr	PROPN	_	Foreign=Yes	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	1	1	NUM	_	_	2	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	обеспечивающего	обеспечивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+7	устойчивость	устойчивость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+8	к	к	ADP	_	_	9	case	_	SpacesAfter=\n
+9	полимиксинам	полимиксина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	убактерии	убактерие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+12	небыло	небыть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	тем	тем	SCONJ	_	_	18	cc	_	_
+15	неменее	неменее	ADV	_	Degree=Cmp	18	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+18	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+19	нечувствительной	нечувствительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpacesAfter=\n
+20	кэтой	кэтот	DET	_	Case=Dat|Gender=Fem|Number=Sing	21	amod	_	_
+21	группе	группа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+22	антибиотиков	антибиотик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 87987
+# text = Как отмечается в сообщении CDC, из более чем 250 образцов CRE, выделенных вСША ранее, около 80 процентов оставались восприимчивыми хотябы кодному аминогликозиду иоколо 90 процентов-- ктигециклину.
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	_
+2	отмечается	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	SpacesAfter=\n
+4	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	CDC	Cdс	ADP	_	_	21	case	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	из	из	ADP	_	_	11	case	_	SpacesAfter=\n
+8	более	более	ADV	_	Degree=Cmp	10	case	_	_
+9	чем	чем	SCONJ	_	_	8	fixed	_	_
+10	250	250	NUM	_	_	11	nummod	_	_
+11	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+12	CRE	Cre	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	выделенных	выделять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	nmod	_	_
+15	вСША	всша	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+16	ранее	ранее	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	около	около	ADP	_	_	20	case	_	_
+19	80	80	NUM	_	_	20	nummod	_	SpacesAfter=\n
+20	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+21	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	28	parataxis	_	_
+22	восприимчивыми	восприимчивый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	хотябы	хотяб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+24	кодному	кодный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	аминогликозиду	аминогликозид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+26	иоколо	иоколо	ADP	_	_	28	case	_	_
+27	90	90	NUM	_	_	28	nummod	_	SpacesAfter=\n
+28	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	28	punct	_	_
+31	ктигециклину	ктигециклина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nsubj:pass	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 87988
+# text = Бактерий стаким спектром устойчивости, как в описываемом случае, доэтого встране невыявляли.
+1	Бактерий	бактерий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	стаким	стакий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	спектром	спектр	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+4	устойчивости	устойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	как	как	SCONJ	_	_	9	cc	_	_
+7	в	в	ADP	_	_	9	case	_	SpacesAfter=\n
+8	описываемом	описывать	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	доэтого	доэвать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	встране	встранин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	невыявляли	невыявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 87989
+# text = Повсеместное распространение антибиотикоустойчивости стало поводом для обсуждения этой проблемы наГенеральной ассамблее ООН (завсю историю организации это стало четвертой проблемой здравоохранения, обсуждавшейся на таком уровне, после ВИЧ-инфекции, лихорадки Эбола инеинфекционных заболеваний).
+1	Повсеместное	повсеместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	распространение	распространение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	антибиотикоустойчивости	антибиотикоустойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+6	для	для	ADP	_	_	7	case	_	SpacesAfter=\n
+7	обсуждения	обсуждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	наГенеральной	наГенеральный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	ассамблее	ассамблея	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	_
+12	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	завсю	завсть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+15	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpacesAfter=\n
+16	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	advcl	_	_
+19	четвертой	четвертый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+21	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	обсуждавшейся	обсуждаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	21	amod	_	_
+24	на	на	ADP	_	_	26	case	_	SpacesAfter=\n
+25	таком	такой	DET	_	Case=Loc|Gender=Masc|Number=Sing	26	amod	_	_
+26	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	после	после	ADP	_	_	29	case	_	_
+29	ВИЧ-инфекции	ВИЧ-инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	_
+32	Эбола	эбола	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+33	инеинфекционных	инеинфекционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	SpacesAfter=\n
+34	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 87990
+# text = Участники договорились усилить мониторинг устойчивых инфекций, ужесточить контроль применения антибиотиков вовсех сферах деятельности ишироко внедрять меры профилактики инфекционных заболеваний.
+1	Участники	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	договорились	договариваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	усилить	усиливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	мониторинг	мониторинг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	устойчивых	устойчивый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ужесточить	ужесточать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	SpacesAfter=\n
+9	контроль	контроль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	антибиотиков	антибиотик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	вовсех	веовсь	DET	_	Case=Gen|Number=Plur	13	amod	_	_
+13	сферах	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+14	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	ишироко	ишироко	ADV	_	Degree=Pos	16	advmod	_	_
+16	внедрять	внедрять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	nsubj	_	SpacesAfter=\n
+17	меры	мера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	профилактики	профилактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	инфекционных	инфекционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 87991
+# text = Подробнее обустойчивости кантибиотикам можно почитать внашем материале.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	обустойчивости	обустойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	кантибиотикам	кантибиотик	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	почитать	почитать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	SpacesAfter=\n
+6	внашем	внаш	DET	_	Case=Loc|Gender=Masc|Number=Sing	7	amod	_	_
+7	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 87992
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

@@ -1,0 +1,393 @@
+# sent_id = 88235
+# text = КомпанияRichard Mille представила 16 января наМеждународном салоне высокого часового искусства в Женеве часы с хронографом, весом всего 40 грамм.
+1	КомпанияRichard	КомпанияRichard	PROPN	_	Foreign=Yes	3	nsubj	_	SpacesBefore=\n
+2	Mille	Mille	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	16	16	NUM	_	_	7	nummod	_	_
+5	января	январь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	наМеждународном	наМеждународный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	салоне	салон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	высокого	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	часового	часовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	искусства	искусство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	Женеве	Женево	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	nmod	_	_
+13	часы	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	хронографом	хронограф	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	весом	вес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	nmod	_	_
+18	всего	всего	PART	_	_	19	advmod	_	_
+19	40	40	NUM	_	_	20	nummod	_	_
+20	грамм	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 88236
+# text = Семь грамм из них составляет масса основного механизма часов.
+1	Семь	семь	NUM	_	Case=Acc	2	nummod:gov	_	_
+2	грамм	грамм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	масса	масс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+7	основного	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	часов	часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88237
+# text = Небольшой вес обеспечивается благодаря композитному материалу на основе графена.
+1	Небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	вес	вес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	обеспечивается	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	благодаря	благодаря	ADP	_	_	6	case	_	_
+5	композитному	композитный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	материалу	материал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+9	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 88238
+# text = Об этом сообщает пресс-релиз университета Манчестера.Впервые графен был получен в лаборатории Андрея Гейма в Университете Манчестера в 2004 году.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пресс-релиз	пресс-релиз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Манчестера.	манчестера.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+7	Впервые	Впервые	ADV	_	Degree=Pos	8	advmod	_	_
+8	графен	графный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	получен	получать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	dep	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	Андрея	андрей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	Гейма	Гейм	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Университете	университет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+17	Манчестера	Манчестер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	2004	2004	NUM	_	_	20	nummod	_	_
+20	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 88239
+# text = Позднее, в 2010 году за исследование его свойств была вручена Нобелевская премия по физике -- Андрею Гейму и Константину Новоселову.
+1	Позднее	поздно	ADV	_	Degree=Cmp	11	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	2010	2010	NUM	_	_	5	nummod	_	_
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+6	за	за	ADP	_	_	7	case	_	_
+7	исследование	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+8	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+9	свойств	свойство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	вручена	вручать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	Нобелевская	нобелевский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+14	по	по	ADP	_	_	15	case	_	_
+15	физике	физика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	Андрею	андрей	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	conj	_	_
+18	Гейму	Гейм	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	Константину	Константин	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	conj	_	_
+21	Новоселову	Новоселов	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 88240
+# text = С тех пор материал привлекает к себе огромное внимание, отчасти благодаря своим механическим свойствам.
+1	С	с	ADP	_	_	5	advmod	_	_
+2	тех	тот	DET	_	Case=Gen|Number=Plur	1	fixed	_	_
+3	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	fixed	_	_
+4	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	привлекает	привлекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	себе	себя	PRON	_	Case=Dat	5	obl	_	_
+8	огромное	огромный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	отчасти	отчасти	ADV	_	Degree=Pos	15	advmod	_	_
+12	благодаря	благодаря	ADP	_	_	15	case	_	_
+13	своим	свой	DET	_	Case=Dat|Number=Plur	15	amod	_	_
+14	механическим	механический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	свойствам	свойство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 88241
+# text = При плотности в 6 раз меньше, чем у стали, он обладает в 200 раз большей прочностью.
+1	При	при	ADP	_	_	2	case	_	_
+2	плотности	плотность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	6	6	NUM	_	_	5	nummod	_	_
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+6	меньше	малый	ADJ	_	Degree=Cmp	13	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чем	чем	SCONJ	_	_	10	cc	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	стали	сталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+13	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	200	200	NUM	_	_	16	nummod	_	_
+16	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+17	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	прочностью	прочность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88242
+# text = С развитием технологий получения графена изделия из него начали появляться на потребительском рынке.
+1	С	с	ADP	_	_	2	case	_	_
+2	развитием	развитие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+3	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	изделия	изделие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+9	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	появляться	появляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	потребительском	потребительский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88243
+# text = К примеру, в ноябре итальянцы заявили о начале производство мотоциклетных шлемов с графеновым покрытием.Richard Mille вместе с Университетом Манчестера и гоночной командой McLaren F1 разработали на основе графенового композита Graph TPTчасы с хронографом итурбийоном(усложнением механизма, компенсирующим действие гравитации на часы) на основе графенового композита Graph TPT.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+6	итальянцы	итальянц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+10	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+11	мотоциклетных	мотоциклетной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	шлемов	шлем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	графеновым	графеновый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	покрытием.Richard	покрытием.Richard	PROPN	_	Foreign=Yes	0	flat:foreign	_	_
+16	Mille	Mille	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	вместе	вместе	ADV	_	Degree=Pos	26	advmod	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	Университетом	университет	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+20	Манчестера	Манчестер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	гоночной	гоночный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	командой	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	conj	_	_
+24	McLaren	McLaren	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	F1	F1	NUM	_	_	24	nummod	_	_
+26	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+29	графенового	графеновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	композита	композит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	Graph	Graph	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	TPTчасы	TPTчас	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	appos	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	хронографом	хронограф	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	nmod	_	_
+35	итурбийоном	итурбийон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	parataxis	_	SpaceAfter=No
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	усложнением	усложнение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	parataxis	_	_
+38	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	компенсирующим	компенсировать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+41	действие	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obj	_	_
+42	гравитации	гравитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
+43	на	на	ADP	_	_	44	case	_	_
+44	часы	часы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+45	)	)	PUNCT	_	_	44	punct	_	_
+46	на	на	ADP	_	_	47	case	_	_
+47	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	nmod	_	_
+48	графенового	графеновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	композита	композит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	_
+50	Graph	Graph	PROPN	_	Foreign=Yes	49	flat:foreign	_	_
+51	TPT	Tpt	PROPN	_	Foreign=Yes	50	flat:foreign	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	SpaceAfter=No
+
+# sent_id = 88244
+# text = Часы получили название RM 50-03, всего их было изготовлено 75 штук.
+1	Часы	час	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	RM	Rm	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	50-03	50-03	NUM	_	_	4	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	8	amod	_	_
+8	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nsubj	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	изготовлено	изготовлять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
+11	75	75	NUM	_	_	12	nummod	_	_
+12	штук	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 88245
+# text = Из графенового композита сделан корпус и ремешок часов, а в механизме использовались другие углеродные материалы и титан.
+1	Из	из	ADP	_	_	3	case	_	_
+2	графенового	графеновый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	композита	композит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	сделан	делать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	ремешок	ремешок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+8	часов	часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	13	cc	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	механизме	механизм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+13	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+15	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	материалы	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	титан	титан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 88246
+# text = Запас хода хронографа -- 70 часов.Роль ученых состояла в моделировании эффекта от добавки графена в детали часов, а также в анализе деталей, из которых был создан механизм.
+1	Запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	хронографа	хронограф	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	--	--	PUNCT	_	_	3	punct	_	_
+5	70	70	NUM	_	_	6	nummod	_	_
+6	часов.	часовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	Роль	роль	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+8	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	состояла	состоять	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	моделировании	моделирование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+12	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	от	от	ADP	_	_	14	case	_	_
+14	добавки	добавка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+15	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	детали	деталь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+18	часов	часы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	23	cc	_	_
+21	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	анализе	анализ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	conj	_	_
+24	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	которых	который	PRON	_	Case=Gen	29	obl	_	_
+28	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	aux:pass	_	_
+29	создан	создавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+30	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 88247
+# text = В частности, физики исследовали микроструктуру материала методами рентгеновской томографии и рамановской спектроскопии.Помимо прочности, графен интересен и своими электронными свойствами.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	микроструктуру	микроструктура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	conj	_	_
+9	рентгеновской	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	рамановской	рамановский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	спектроскопии.	спектроскопиианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+14	Помимо	помимо	ADP	_	_	15	case	_	_
+15	прочности	прочность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	графен	графный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+18	интересен	интересный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	conj	_	_
+19	и	и	CCONJ	_	_	22	cc	_	_
+20	своими	свой	DET	_	Case=Ins|Number=Plur	22	amod	_	_
+21	электронными	электронный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 88248
+# text = К примеру, электроны в материале ведут себя как безмассовые частицы, а их подвижность в тысячи раз превышает подвижность электронов в кремнии.
+1	К	к	ADP	_	_	2	case	_	_
+2	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	себя	себя	PRON	_	Case=Acc	7	obj	_	_
+9	как	как	SCONJ	_	_	11	cc	_	_
+10	безмассовые	безмассовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	частицы	частица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	7	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	19	cc	_	_
+14	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+15	подвижность	подвижность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	nmod	_	_
+18	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+20	подвижность	подвижность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	кремнии	кремние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 88249
+# text = Поэтому среди возможных вариантов применения графена -- гибкие дисплеи и другие электронные устройства (так, недавно немецкие физики заявили, что научились производить прозрачные гибкие электроды для OLED).
+1	Поэтому	поэтому	ADV	_	Degree=Pos	20	advmod	_	_
+2	среди	среди	ADP	_	_	4	case	_	_
+3	возможных	возможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+5	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	--	--	PUNCT	_	_	6	punct	_	_
+8	гибкие	гибкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	дисплеи	дисплей	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+12	электронные	электронный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	так	так	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	недавно	недавно	ADV	_	Degree=Pos	20	advmod	_	_
+18	немецкие	немецкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	научились	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	advcl	_	_
+24	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	nsubj	_	_
+25	прозрачные	прозрачный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+26	гибкие	гибкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	электроды	электрода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+28	для	для	ADP	_	_	27	case	_	_
+29	OLED	OLEd	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 88250
+# text = Исследователи из Кембриджского центра графена и итальянского Университета Триеста рассматривают его как перспективный материал для нейропротезирования.Владимир Королёв
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	Кембриджского	Кембриджский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	графена	графен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	итальянского	итальянский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	Триеста	Триест	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	как	как	SCONJ	_	_	14	cc	_	_
+13	перспективный	перспективной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	материал	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	advmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	нейропротезирования	нейропротезирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	Владимир	владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+19	Королёв	Королев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	SpaceAfter=No
+

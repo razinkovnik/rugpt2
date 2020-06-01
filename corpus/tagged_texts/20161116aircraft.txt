@@ -1,0 +1,319 @@
+# sent_id = 79771
+# text = Военно-морской флот Народно-освободительной армии Китая завершил все испытания авианосца "Ляонин", пока единственного корабля такого типа на вооружении страны.
+1	Военно-морской	военно-морской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	флот	флоты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+3	Народно-	Народно-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	освободительной	освободительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	армии	армия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	Китая	китай	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	завершил	завершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	все	весь	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	авианосца	авианосец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Ляонин	Ляонин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	пока	пока	SCONJ	_	_	17	cc	_	_
+16	единственного	единственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	_
+18	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	_
+19	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	_
+22	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 79772
+# text = Как сообщает AP, после завершения всех проверок корабль сменил статус с опытового и тренировочного на боевой.
+1	Как	как	ADV	_	Degree=Pos	5	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+3	AP	ap	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	после	после	ADP	_	_	6	case	_	_
+6	завершения	завершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+7	всех	весь	DET	_	Case=Gen|Number=Plur	8	amod	_	_
+8	проверок	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	сменил	сменять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+12	с	с	ADP	_	_	11	case	_	_
+13	опытового	опытовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	тренировочного	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79773
+# text = Планируется ли проводить какие-либо доработки авианосца после программы испытаний, не уточняется.
+1	Планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	ли	ли	PART	_	_	1	advmod	_	_
+3	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	nsubj:pass	_	_
+4	какие-либо	какой-либо	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	доработки	доработок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	авианосца	авианосец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	после	после	ADP	_	_	8	case	_	_
+8	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+9	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	уточняется	уточняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79774
+# text = "Ляонин" поступил на вооружение Китая в 2012 году.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Ляонин	Ляонин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	поступил	поступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	Китая	китай	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	2012	2012	NUM	_	_	10	nummod	_	_
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79775
+# text = Этот корабль проекта 1143.6 "Кречет" власти Китая выкупили у Украины в 1998 году.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	1143.6	1143.6	NUM	_	_	3	nummod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Кречет	Кречет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	Китая	китай	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	выкупили	выкупать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	Украины	украина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	1998	1998	NUM	_	_	15	nummod	_	_
+15	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79776
+# text = Он был заложен в 1985 году и до 1990 года носил имя "Рига", а затем был переименован в "Варяг".
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	заложен	закладывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	1985	1985	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	и	и	CCONJ	_	_	11	cc	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	1990	1990	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+11	носил	носить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Рига	Рига	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	а	а	CCONJ	_	_	20	cc	_	_
+18	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+19	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	переименован	переименовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Варяг	Варяг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 79777
+# text = В составе китайского флота авианосец получил имя "Ляонин" в честь провинции Ляонин.Водоизмещение "Ляонина" составляет 59,5 тысячи тонн при длине 304 и ширине 75 метров.
+1	В	в	ADP	_	_	2	case	_	_
+2	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	китайского	китайский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	авианосец	авианосец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Ляонин	Ляонин	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	честь	честь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	obl	_	_
+13	провинции	провинция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	Ляонин.	Ляонинаш	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+15	Водоизмещение	Водоизмещение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	appos	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Ляонина	Ляонина	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+20	59,5	59,5	NUM	_	_	21	nummod	_	_
+21	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nummod:gov	_	_
+22	тонн	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	_
+23	при	при	ADP	_	_	24	case	_	_
+24	длине	длина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+25	304	304	NUM	_	_	27	nummod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	ширине	ширина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	24	conj	_	_
+28	75	75	NUM	_	_	29	nummod	_	_
+29	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 79778
+# text = Корабль может развивать скорость до 29 узлов, а дальность его хода составляет около восьми тысяч миль.
+1	Корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	29	29	NUM	_	_	7	nummod	_	_
+7	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	а	а	CCONJ	_	_	13	cc	_	_
+10	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	восьми	восемь	NUM	_	Case=Gen	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+17	миль	миля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79779
+# text = "Ляонин" вооружен тремя зенитными артиллерийскими установками Type 1130 калибра 30 миллиметров, тремя пусковыми установками зенитных ракет FL-3000N и двумя установками противолодочного вооружения.В состав авиагруппы корабля входят 24 палубных истребителя J-15.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Ляонин	Ляонин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	вооружен	вооружать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	тремя	три	NUM	_	Case=Ins	6	nummod	_	_
+6	зенитными	зенитный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+7	артиллерийскими	артиллерийский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	установками	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+9	Type	Type	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+10	1130	1130	NUM	_	_	9	nummod	_	_
+11	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	30	30	NUM	_	_	13	nummod	_	_
+13	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	тремя	три	NUM	_	Case=Ins	13	nummod	_	_
+16	пусковыми	пусковый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	установками	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+18	зенитных	зенитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	FL	Fl	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	3000N	3000n	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	двумя	два	NUM	_	Case=Ins	25	nummod	_	_
+25	установками	установка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	_
+26	противолодочного	противолодочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	В	в	ADP	_	_	30	case	_	_
+30	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	_
+31	авиагруппы	авиагруппа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	входят	вхость	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	24	24	NUM	_	_	36	nummod	_	_
+35	палубных	палубный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nsubj	_	_
+37	J-	J-	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	15	15	NUM	_	_	36	nummod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 79780
+# text = Они разработаны на базе выкупленного у Украины прототипа истребителя Су-33.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj:pass	_	_
+2	разработаны	разрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	выкупленного	выкуплять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	Украины	украина	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	прототипа	прототип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+9	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+10	Су-33	су-33	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79781
+# text = Кроме того, авиагруппа корабля включает в себя два поисково-спасательных вертолета Z-9C, четыре вертолета дальнего радиолокационного обнаружения Z-18J и шесть противолодочных вертолетов Z-18F.В конце октября текущего года стало известно, что в Китае завершилась сборка корпуса авианосца проекта Type 001A.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	авиагруппа	авиагруппа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	себя	себя	PRON	_	Case=Acc	6	obl	_	_
+9	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+10	поисково-спасательных	поисково-спасательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+12	Z-9C	Z-9с	ADP	_	_	15	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+16	дальнего	дальний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	радиолокационного	радиолокационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	обнаружения	обнаружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+19	Z-18J	Z-18J	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	шесть	шесть	NUM	_	Case=Nom	19	conj	_	_
+22	противолодочных	противолодочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	вертолетов	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nsubj	_	_
+24	Z-18F.	Z-18f.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	SpaceAfter=No
+25	В	в	ADP	_	_	26	case	_	_
+26	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	_
+27	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	parataxis	_	_
+31	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	что	что	SCONJ	_	_	30	mark	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	Китае	китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	obl	_	_
+36	завершилась	завершаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	30	advcl	_	_
+37	сборка	сборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+38	корпуса	корпус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	авианосца	авианосец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+41	Type	Type	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+42	001A	001a	PROPN	_	Foreign=Yes	41	flat:foreign	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 79782
+# text = Это первый корабль такого класса, спроектированный и строящийся в Китае.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	корабль	корабль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	спроектированный	проектировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	строящийся	строеться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	7	conj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Китае	китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79783
+# text = В настоящее время на корабль устанавливается все необходимое оборудование.
+1	В	в	ADP	_	_	6	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	устанавливается	устанавливаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
+8	необходимое	необходимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 79784
+# text = Позже на нем разместится его авиагруппа.Василий Сычёв
+1	Позже	позже	PART	_	_	3	advmod	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+4	разместится	разместяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	авиагруппа.	авиагруппа.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+

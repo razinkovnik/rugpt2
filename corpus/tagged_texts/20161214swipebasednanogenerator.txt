@@ -1,0 +1,519 @@
+# sent_id = 84693
+# text = Инженеры из Университета штата Мичиган разработали наногенератор для автономных самозарядных устройств: он позволяет использовать энергию прикосновения к сенсорному экрану для его подсветки.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	штата	штат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Мичиган	Мичиган	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+6	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	наногенератор	наногенератор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+8	для	для	ADP	_	_	7	case	_	_
+9	автономных	автономный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	самозарядных	самозарядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+15	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	прикосновения	прикосновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	к	к	ADP	_	_	20	case	_	_
+19	сенсорному	сенсорный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	экрану	экран	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
+21	для	для	ADP	_	_	23	case	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	подсветки	подсветка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 84694
+# text = Описание работы опубликовано вжурнале Nano Energy.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликовано	опубликовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nano	Nano	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Energy	Energy	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 84695
+# text = Методы использования всевозможных форм энергии окружающей среды, которая тратится впустую, активно исследуются впоследние десятилетия.
+1	Методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+2	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	всевозможных	всевозможный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	форм	форма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+5	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+7	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	тратится	тратиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	_
+11	впустую	впустую	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	активно	активно	ADV	_	Degree=Pos	14	advmod	_	_
+14	исследуются	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+15	впоследние	впоследний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	десятилетия	десятилетие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj:pass	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 84696
+# text = Сопутствующая механическая энергия может быть обнаружена втаких незаметных процессах, как легкое дуновение ветра, движение морских волн, вращение автомобильных шин, печатание наклавиатуре.
+1	Сопутствующая	Сопутствующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	механическая	механический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	энергия	энергия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	aux:pass	_	_
+6	обнаружена	обнаружать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+7	втаких	втакой	DET	_	Case=Loc|Number=Plur	9	amod	_	_
+8	незаметных	незаметный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	как	как	SCONJ	_	_	13	cc	_	_
+12	легкое	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	дуновение	дуновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	advmod	_	_
+14	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	движение	движение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+17	морских	морский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	вращение	вращение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+21	автомобильных	автомобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	шин	шина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	печатание	печатание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+25	наклавиатуре	наклавиатура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84697
+# text = Даже базовые биологические функции организма-- колебания диафрагмы или биение сердца-- производят механическую работу, которую можно использовать ввозобновляемых источниках энергии.
+1	Даже	даже	PART	_	_	2	advmod	_	_
+2	базовые	базовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	биологические	биологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	функции	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+5	организма--	организма--	PUNCT	_	_	4	punct	_	_
+6	колебания	колебание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	conj	_	_
+7	диафрагмы	диафрагма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	биение	биение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	_
+10	сердца-	сердца-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	производят	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	механическую	механический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	которую	который	PRON	_	Case=Acc	17	obj	_	_
+17	можно	можно	ADV	_	Degree=Pos	14	acl:relcl	_	_
+18	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	nsubj	_	_
+19	ввозобновляемых	ввозобновлять	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	источниках	источник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
+21	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 84698
+# text = Особый интерес вызывают энергонезависимые устройства, которые способны переводить остаточную энергию вэлектропитание для своей работы и, таким образом, работать автономно без традиционных источников питания, -- они нужны для работы беспроводных сенсоров, биомедицинских имплантатов, атакже носимых электронных устройств.
+1	Особый	особый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	интерес	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	вызывают	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	энергонезависимые	энергонезависимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	_
+9	переводить	переводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	остаточную	остаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	вэлектропитание	вэлектропитание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+15	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	и	и	CCONJ	_	_	12	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	19	amod	_	_
+19	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+22	автономно	автономно	ADV	_	Degree=Pos	21	advmod	_	_
+23	без	без	ADP	_	_	25	case	_	_
+24	традиционных	традиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+26	питания	питание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	--	--	PUNCT	_	_	26	punct	_	_
+29	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	30	nsubj	_	_
+30	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	_
+31	для	для	ADP	_	_	32	case	_	_
+32	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+33	беспроводных	беспроводный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	сенсоров	сенсор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	биомедицинских	биомедицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	имплантатов	имплантат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	атакже	атакже	CCONJ	_	_	42	cc	_	_
+40	носимых	носимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+41	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	34	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 84699
+# text = Как правило, такие автономные устройства базируются напьезоэлектриках (вних электричество вырабатывается при деформации кристаллических материалов) или трибоэлектриках, производящих электричество при трении.
+1	Как	как	ADV	_	Degree=Pos	7	cc	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+5	автономные	автономной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	_
+7	базируются	базировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	напьезоэлектриках	напьезоэлектрик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	вних	вний	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	электричество	электричество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	вырабатывается	вырабатываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+13	при	при	ADP	_	_	14	case	_	_
+14	деформации	деформация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	кристаллических	кристаллический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	трибоэлектриках	трибоэлектрик	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	производящих	производить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+22	электричество	электричество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+23	при	при	ADP	_	_	24	case	_	_
+24	трении	трение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 84700
+# text = Недостатками таких устройств считается использование тяжелых металлов, таких как свинец, ивредных веществ-- например, втрибоэлектриках используются углеродные нанотрубки, известные своей токсичностью.
+1	Недостатками	недостаток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+6	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	таких	такой	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+10	как	как	SCONJ	_	_	9	fixed	_	_
+11	свинец	свинец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ивредных	ивредный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+14	веществ-	веществ-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	13	punct	_	_
+16	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	втрибоэлектриках	втрибоэлектрик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	_
+19	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+20	углеродные	углеродный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	нанотрубки	нанотрубка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	известные	известный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+24	своей	свой	DET	_	Case=Ins|Gender=Fem|Number=Sing	25	amod	_	_
+25	токсичностью	токсичность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84701
+# text = Поэтому инженеры решили разработать новую технологию пластичного самозаряжающегося материала, которая позволилабы создавать дешевые ибиосовместимые устройства, непричиняющие вреда здоровью.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+2	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	пластичного	пластичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	самозаряжающегося	самозаряжать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	позволилабы	позволилабый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	acl:relcl	_	_
+13	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	dep	_	_
+14	дешевые	дешевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	ибиосовместимые	ибиосовместимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	непричиняющие	непричинять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+19	вреда	вред	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+20	здоровью	здоровье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 84702
+# text = Полное название нового устройства-- биосовместимый ферроэлектретный наногенератор.
+1	Полное	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+3	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	nmod	_	_
+4	устройства-	устройства-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	биосовместимый	биосовместимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	ферроэлектретный	ферроэлектретный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	наногенератор	наногенератор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 84703
+# text = Онпредставляет собой тонкий лист изнескольких слоев полиимида, серебра итак называемого ферроэлектретного полипропилена-- пористой структуры, пустоты которой имеют ориентированные магнитные диполи, обеспечивающие материалу ферроэлектрические свойства.
+1	Онпредставляет	Онпредставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	собой	себя	PRON	_	Case=Ins	1	dep	_	_
+3	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	лист	лист	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	изнескольких	изнесколький	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	полиимида	полиимид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	серебра	серебро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	итак	итак	ADV	_	Degree=Pos	11	advmod	_	_
+11	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	ферроэлектретного	ферроэлектретный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	nmod	_	_
+13	полипропилена-	полипропилена-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	пористой	пориста	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	parataxis	_	_
+16	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	пустоты	пустота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+19	которой	который	PRON	_	Case=Gen	20	obl	_	_
+20	имеют	имевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	ориентированные	ориентировать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+22	магнитные	магнитный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	диполи	диполь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	обеспечивающие	обеспечивать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	amod	_	_
+26	материалу	материал	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	25	obl	_	_
+27	ферроэлектрические	ферроэлектрический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 84704
+# text = Тонкие слои металла, покрывающие пленку полипропилена, служат электродами, имагнитные диполи впленке индуцируют заряд противоположной полярности вкаждом электроде.
+1	Тонкие	тонкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	слои	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	металла	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	покрывающие	покрывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+6	пленку	пленка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	полипропилена	полипропилять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	служат	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+10	электродами	электрод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	имагнитные	имагнитный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	диполи	диполь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+14	впленке	впленко	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+15	индуцируют	индуцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	заряд	заряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+17	противоположной	противоположный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	полярности	полярность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	вкаждом	вкаждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	электроде	электрод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 84705
+# text = При деформации, например при надавливании, заряженные пустоты вслое пропилена меняют размери, соответственно, моменты диполей.
+1	При	при	ADP	_	_	2	case	_	_
+2	деформации	деформация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	например	например	ADV	_	Degree=Pos	6	advmod	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	надавливании	надавливание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	заряженные	заряжять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	пустоты	пустота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+10	вслое	вслый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+11	пропилена	пропилевать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
+12	меняют	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+13	размери	размь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	соответственно	соответственно	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	моменты	моменты	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+18	диполей	дипуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 84706
+# text = Изменение дипольных моментов направляет электроны отэлектрода сотрицательным зарядом кэлектроду сположительным зарядом, создавая разность потенциалов между электродами (генерируемое напряжение при открытом состоянии цепи) или поток заряда отодного электрода кдругому (генерируемый ток при коротком замыкании).
+1	Изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	дипольных	дипольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	моментов	моменты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	направляет	направлявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	электроны	электрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	отэлектрода	отэлектрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	сотрицательным	сотрицательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	зарядом	заряд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	кэлектроду	кэлектрод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+10	сположительным	сположительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	зарядом	заряд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	создавая	создавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+14	разность	разность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	потенциалов	потенциал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	между	между	ADP	_	_	17	case	_	_
+17	электродами	электрод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	генерируемое	генерируемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	напряжение	напряжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	parataxis	_	_
+21	при	при	ADP	_	_	23	case	_	_
+22	открытом	открытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	nmod	_	_
+24	цепи	цепь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	_
+26	или	или	CCONJ	_	_	27	cc	_	_
+27	поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_
+28	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+29	отодного	отодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	электрода	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	кдругому	кдругой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	генерируемый	генерируемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	_
+35	при	при	ADP	_	_	37	case	_	_
+36	коротком	короткий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	замыкании	замыкание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 84707
+# text = Новый материал удваивает производимую энергию скаждым складыванием: разработчики говорят, что если сложить лист материала внесколько раз ипоместить вкаблуки ботинок, тоэнергии, производимой при ходьбе, хватит для обеспечения работы телефонной гарнитуры.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	материал	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	удваивает	удваивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	производимую	производимий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	скаждым	скаждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	складыванием	складывание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	если	если	SCONJ	_	_	14	mark	_	_
+14	сложить	сложать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+15	лист	лист	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+16	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	внесколько	внесколько	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	nmod	_	_
+19	ипоместить	ипомещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	xcomp	_	_
+20	вкаблуки	вкаблука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+21	ботинок	ботинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	тоэнергии	тоэнергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	производимой	производить	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	0	amod	_	_
+26	при	при	ADP	_	_	27	case	_	_
+27	ходьбе	ходьба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	хватит	хватать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	для	для	ADP	_	_	31	case	_	_
+31	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+32	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	телефонной	телефонный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	гарнитуры	гарнитура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 84708
+# text = Проведенные тесты показали достаточно большую мощность нового наногенератора: тестовый образец изсеми слоев размером 36квадратных сантиметров обеспечил работу 20светодиодов (около 3,0--3,4 вольта каждый).
+1	Проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	тесты	тест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	достаточно	достаточно	ADV	_	Degree=Pos	5	advmod	_	_
+5	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	наногенератора	наногенератор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	тестовый	тестовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образец	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+12	изсеми	тоизс	DET	_	Case=Ins|Number=Plur	13	amod	_	_
+13	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+15	36квадратных	36квадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	сантиметров	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	обеспечил	обеспечивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+18	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	20светодиодов	20светодиод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	около	около	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	parataxis	_	_
+22	3,0-	3,0-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-3,4	-3,4	NUM	_	_	24	nummod	_	_
+24	вольта	вольт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+25	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84709
+# text = Наоснове наногенератора реализовали самозаряжаемый жидкокристаллический дисплей (LCD), который накапливает энергию за счет прикосновений к экрану, атакже гибкую клавиатуру, которая производит энергию для своей работы засчет силы давления пальцев пользователя накнопки: ееработа продемонстрирована навидео ниже.
+1	Наоснове	Наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+2	наногенератора	наногенератор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	реализовали	реализовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	самозаряжаемый	самозаряжаемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	жидкокристаллический	жидкокристаллический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	дисплей	дисплей	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	LCD	lcd	PROPN	_	Foreign=Yes	6	parataxis	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	накапливает	накапливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+13	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	за	за	ADP	_	_	16	case	_	_
+15	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	fixed	_	_
+16	прикосновений	прикосновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	экрану	экран	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	атакже	атакже	CCONJ	_	_	22	cc	_	_
+21	гибкую	гибкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	клавиатуру	клавиатура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которая	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+26	энергию	энергия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+27	для	для	ADP	_	_	29	case	_	_
+28	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	_
+29	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	засчет	засчть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	силы	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	30	obj	_	_
+32	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+33	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+34	пользователя	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	накнопки	накнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	35	punct	_	_
+37	ееработа	ееработа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	nsubj:pass	_	_
+38	продемонстрирована	демонстрировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	30	conj	_	_
+39	навидео	навидео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	_
+40	ниже	низкий	ADJ	_	Degree=Cmp	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 84710
+# text = Ученые рассчитывают, что новый наногенератор, обладая такими привлекательными свойствами, как гибкость, биосовместимость идешевизна изготовления, станет хорошей основой для носимых или даже имплантируемых электроустройств.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	наногенератор	наногенератор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	обладая	обладать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	20	advcl	_	_
+9	такими	такой	DET	_	Case=Ins|Number=Plur	11	amod	_	_
+10	привлекательными	привлекательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	как	как	SCONJ	_	_	14	cc	_	_
+14	гибкость	гибкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	биосовместимость	биосовместимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+17	идешевизна	идешевизн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+21	хорошей	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+23	для	для	ADP	_	_	28	case	_	_
+24	носимых	носимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+25	или	или	CCONJ	_	_	27	cc	_	_
+26	даже	даже	PART	_	_	27	advmod	_	_
+27	имплантируемых	имплантируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	24	conj	_	_
+28	электроустройств	электроустройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 84711
+# text = Надежда Бессонова
+1	Надежда	надежда	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Бессонова	бессонова	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+

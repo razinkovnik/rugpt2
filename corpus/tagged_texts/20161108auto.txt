@@ -1,0 +1,435 @@
+# sent_id = 78328
+# text = Американская компания Google доработала свое приложение-компаньон Android Auto таким образом, что теперь все его функции можно использовать в любом автомобиле.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Google	Google	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	доработала	доработавать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
+6	приложение-	приложение-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	компаньон	компаньон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+8	Android	Android	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Auto	Auto	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	PRON	_	Case=Nom	18	nsubj	_	_
+14	теперь	теперь	ADV	_	Degree=Pos	13	advmod	_	_
+15	все	весь	DET	_	Case=Acc|Number=Plur	17	amod	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+17	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+18	можно	можно	ADV	_	Degree=Pos	7	acl:relcl	_	_
+19	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	любом	любой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	автомобиле	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78329
+# text = Согласно записи в блоге Google, обновление приложения-компаньона до новой версии начнется в ближайшие несколько дней.Система Android Auto была впервые представлена в 2014 году.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	обновление	обновление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+8	приложения-	приложения-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	компаньона	компаньона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+10	до	до	ADP	_	_	12	case	_	_
+11	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	начнется	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	в	в	ADP	_	_	17	case	_	_
+15	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	17	nummod:gov	_	_
+17	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Система	система	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	appos	_	_
+20	Android	Android	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Auto	Auto	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+23	впервые	впервые	ADV	_	Degree=Pos	24	advmod	_	_
+24	представлена	представлять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	parataxis	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	2014	2014	NUM	_	_	27	nummod	_	_
+27	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 78330
+# text = Тогда же появились первые несколько автомобилей с ее поддержкой.
+1	Тогда	тогда	ADV	_	Degree=Pos	3	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	несколько	несколько	NUM	_	Case=Nom	6	nummod:gov	_	_
+6	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+9	поддержкой	поддержка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78331
+# text = До России эта система добралась в апреле 2016 года.
+1	До	до	ADP	_	_	2	case	_	_
+2	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+3	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	добралась	добираться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	2016	2016	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 78332
+# text = Она представляет собой связку мультимедийного устройства и специального приложения на смартфоне.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	obl	_	_
+4	связку	связка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	мультимедийного	мультимедийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	смартфоне	смартфон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78333
+# text = Благодаря этому с мультимедийной системы можно передавать некоторые данные на телефон с Android Auto.При этом пользователь получает и возможность управлять многими функциями автомобиля с поддержкой Android Auto, включая мультимедийную систему, систему навигации и климат-контроль.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	мультимедийной	мультимедийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+6	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+7	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	nsubj	_	_
+8	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	9	amod	_	_
+9	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	7	obj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	Android	Android	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Auto.	Auto.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+15	При	при	ADP	_	_	16	case	_	_
+16	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+17	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+18	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	и	и	PART	_	_	20	advmod	_	_
+20	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	dep	_	_
+22	многими	многие	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	функциями	функция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	obl	_	_
+24	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	поддержкой	поддержка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Android	Android	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	Auto	Auto	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	включая	включая	ADV	_	Degree=Pos	0	nmod	_	_
+31	мультимедийную	мультимедийный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	conj	_	_
+35	навигации	навигация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	климат-контроль	климат-контроль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 78334
+# text = Управлять доступными системами можно как с экрана смартфона, так и голосовыми командами.
+1	Управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	доступными	доступный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	1	obl	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	как	как	SCONJ	_	_	7	cc	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	advmod	_	_
+8	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+11	и	и	PART	_	_	12	advmod	_	_
+12	голосовыми	голосовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	командами	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78335
+# text = Управление возможно и в обратную сторону: с помощью кнопок на руле, водитель может контролировать смартфон.Обновленному приложению Android Auto наличие поддерживающего его автомобиля теперь не важно.
+1	Управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	и	и	PART	_	_	6	advmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	обратную	обратный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
+10	кнопок	кнопка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	руле	руль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+16	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Обновленному	Обновлать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	приложению	приложение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+21	Android	Android	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Auto	Auto	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	наличие	наличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	nsubj	_	_
+24	поддерживающего	поддерживавать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+25	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	26	nmod	_	_
+26	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+27	теперь	теперь	ADV	_	Degree=Pos	29	advmod	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 78336
+# text = После обновления пользователь сможет запустить приложение на смартфоне и установить его в держатель.
+1	После	после	ADP	_	_	2	case	_	_
+2	обновления	обновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	приложение	приложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	смартфоне	смартфон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	установить	установливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	держатель	держатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78337
+# text = Все основные функции Android Auto будут доступны на экране смартфона.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	основные	основной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	функции	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	Android	Android	PROPN	_	Foreign=Yes	3	appos	_	_
+5	Auto	Auto	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	экране	экран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78338
+# text = В частности речь идет о Google Maps, Google Play Music, Spotify и Pandora.С помощью голосовых команд водитель сможет выбирать проигрываемую музыку, прокладывать маршруты на картах или набирать телефонные номера.
+1	В	в	ADP	_	_	4	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	Google	Google	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	Maps	Maps	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	Google	Google	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	Play	Play	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Music	Music	PROPN	_	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	Spotify	Spotify	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Pandora.	Pandora.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+16	С	с	ADP	_	_	19	case	_	_
+17	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	fixed	_	_
+18	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	команд	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+20	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	проигрываемую	проигрываемый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	прокладывать	прокладывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	conj	_	_
+27	маршруты	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	картах	карта	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	26	obl	_	_
+30	или	или	CCONJ	_	_	31	cc	_	_
+31	набирать	набирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+32	телефонные	телефонный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	номера	номер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 78339
+# text = В случае, если магнитола автомобиля оснащена Bluetooth, то все голосовые подсказки Android Auto и музыка будут выводиться на колонки автомобиля.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	19	mark	_	_
+5	магнитола	магнитола	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	оснащена	оснаскать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	advcl	_	_
+8	Bluetooth	bluetooth	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	то	то	SCONJ	_	_	7	cc	_	_
+11	все	весь	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+12	голосовые	голосовой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	подсказки	подсказка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+14	Android	Android	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Auto	Auto	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	выводиться	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	колонки	колонка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
+22	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78340
+# text = При этом, как только водитель сядет в свой автомобиль с Bluetooth, Android Auto запустится автоматически.Обновиться до новой версии Android Auto смогут пользователи, смартфоны которых работают под управлением операционной системы Android версии 5.0 или более новой.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	2	mark	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	сядет	сядуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	advcl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	Bluetooth	bluetooth	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Android	Android	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+15	Auto	Auto	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	запустится	запустиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	автоматически.	автоматически.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	Обновиться	Обновяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	dep	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+22	Android	Android	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Auto	Auto	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	пользователи	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	смартфоны	смартфон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+28	которых	который	PRON	_	Case=Gen	27	nmod	_	_
+29	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	_	_
+30	под	под	ADP	_	_	31	case	_	_
+31	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	29	obl	_	_
+32	операционной	операционный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+34	Android	Android	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+35	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+36	5.0	5.0	NUM	_	_	39	nummod	_	_
+37	или	или	CCONJ	_	_	38	cc	_	_
+38	более	более	ADV	_	Degree=Cmp	39	advmod	_	_
+39	новой	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	33	parataxis	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 78341
+# text = О поддержке приложением Android Auto головных устройств автомобилей, изначально работающих на базе Android, в записи в блоге Google ничего не говорится.В том или ином виде возможность сопряжения головного устройства автомобиля и смартфона реализовывалась автопроизводителями и прежде.
+1	О	о	ADP	_	_	2	case	_	_
+2	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+3	приложением	приложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Android	Android	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+5	Auto	Auto	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	головных	головной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+8	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	изначально	изначально	ADV	_	Degree=Pos	11	advmod	_	_
+11	работающих	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	Android	Android	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	записи	запись	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	блоге	блог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	Google	Google	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+21	ничего	ничто	PRON	_	Case=Gen	23	obl	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	В	в	ADP	_	_	30	case	_	_
+26	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	29	amod	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	ином	иной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	conj	_	_
+29	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	fixed	_	_
+30	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj:pass	_	_
+31	сопряжения	сопряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+32	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	_
+34	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	conj	_	_
+37	реализовывалась	реализовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	23	conj	_	_
+38	автопроизводителями	автопроизводитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	37	obl:agent	_	_
+39	и	и	CCONJ	_	_	40	cc	_	_
+40	прежде	прежде	ADV	_	Degree=Pos	38	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 78342
+# text = Например, многие автомобили Ford, выпущенные после 2007 года получили систему Ford SYNC, в состав которой входит модуль Bleutooth, мультимедийная система и модуль связи с несколькими датчиками и системами машины, включая климат-контроль.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+5	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	выпущенные	выпущять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+8	после	после	ADP	_	_	10	case	_	_
+9	2007	2007	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+11	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	Ford	Ford	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	SYNC	Sync	PROPN	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+18	которой	который	PRON	_	Case=Gen	17	nmod	_	_
+19	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+20	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	Bleutooth	Bleutooth	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	мультимедийная	мультимедийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	appos	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	модуль	модуль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	conj	_	_
+27	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	с	с	ADP	_	_	30	case	_	_
+29	несколькими	несколько	NUM	_	Case=Ins	30	nummod	_	_
+30	датчиками	датчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	30	conj	_	_
+33	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	включая	включая	ADV	_	Degree=Pos	24	nmod	_	_
+36	климат-контроль.	климат-контроль.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl:agent	_	SpaceAfter=No
+
+# sent_id = 78343
+# text = Следует отметить, что значительная часть этих производителей в 2014-2015 годах объявила и об интеграции поддержки приложения-компаньона Android Auto.Василий Сычёв
+1	Следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	отметить	отмечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	значительная	значительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+7	этих	этот	DET	_	Case=Gen|Number=Plur	8	amod	_	_
+8	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	в	в	ADP	_	_	13	case	_	_
+10	2014	2014	NUM	_	_	13	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	2015	2015	NUM	_	_	10	nummod	_	_
+13	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+14	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+15	и	и	PART	_	_	17	advmod	_	_
+16	об	о	ADP	_	_	17	case	_	_
+17	интеграции	интеграция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+18	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	приложения-компаньона	приложения-компаньон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Android	Android	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+21	Auto.	auto.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	SpaceAfter=No
+22	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+

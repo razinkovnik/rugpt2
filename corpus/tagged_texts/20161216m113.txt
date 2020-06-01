@@ -1,0 +1,414 @@
+# sent_id = 85040
+# text = Американское подразделение британской компании BAE Systems провело презентацию нового многоцелевого бронетранспортера AMPV, сообщает Breaking Defense.
+1	Американское	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesBefore=\n
+2	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	британской	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	BAE	Bae	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Systems	Systems	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	провело	проводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	презентацию	презентация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	многоцелевого	многоцелевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	бронетранспортера	бронетранспортер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	AMPV	Ampv	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	Breaking	Breaking	PROPN	_	Foreign=Yes	14	nsubj	_	_
+16	Defense	Defense	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 85041
+# text = Новая машина разрабатывается на замену устаревшим бронетранспортерам M113, принятым на вооружение Армии США в 1960 году.Разработка AMPV ведется с 2013 года.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	устаревшим	устаревший	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	бронетранспортерам	бронетранспортер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+8	M113	M113	NUM	_	_	10	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	принятым	принимать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+13	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	1960	1960	NUM	_	_	17	nummod	_	_
+17	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+18	Разработка	Разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+19	AMPV	Ampv	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+20	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	2013	2013	NUM	_	_	23	nummod	_	_
+23	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 85042
+# text = По проекту планируется создать пять основных вариантов новой бронемашины: собственно бронетранспортера, санитарно-эвакуационной машины, медицинского пункта, самоходной минометной установки с минометом калибра 120 миллиметров и командно-штабной машины.Новый бронетранспортер создается на базе боевой машины M2 Bradley и унаследует некоторые технические характеристики этой платформы.
+1	По	по	ADP	_	_	2	case	_	_
+2	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	пять	пять	NUM	_	Case=Acc	7	nummod:gov	_	_
+6	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	бронемашины	бронемашина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	собственно	собственно	ADV	_	Degree=Pos	12	advmod	_	_
+12	бронетранспортера	бронетранспортер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	санитарно-	санитарно-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	эвакуационной	эвакуационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	медицинского	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	пункта	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	самоходной	самоходный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	минометной	минометный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	минометом	миномет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	_
+26	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	120	120	NUM	_	_	28	nummod	_	_
+28	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	и	и	CCONJ	_	_	32	cc	_	_
+30	командно-	командно-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	штабной	штабной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	бронетранспортер	бронетранспортер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	nsubj:pass	_	_
+36	создается	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+37	на	на	ADP	_	_	38	case	_	_
+38	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_
+39	боевой	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+41	M2	M2	NUM	_	_	42	nummod	_	_
+42	Bradley	bradley	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	nmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	унаследует	унаследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+45	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	47	amod	_	_
+46	технические	технической	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	47	amod	_	_
+47	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	44	obj	_	_
+48	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	49	amod	_	_
+49	платформы	платформа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 85043
+# text = В частности, AMPV получит усиленную противоминную защиту, а также стальную катаную броню толщиной 30 миллиметров.
+1	В	в	ADP	_	_	5	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	AMPV	Ampv	PROPN	_	Foreign=Yes	5	nsubj	_	_
+5	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	усиленную	усиливать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	противоминную	противоминный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	_
+12	стальную	стальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	катаную	катаный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	броню	броня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+15	толщиной	толщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	_
+16	30	30	NUM	_	_	17	nummod	_	_
+17	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85044
+# text = Поверх основной брони будет установлена динамическая защита.Предположительно бронетранспортер AMPV сможет развивать скорость до 50 километров в час, а запас его хода по топливу составит около 400 километров.
+1	Поверх	поверх	ADP	_	_	3	case	_	_
+2	основной	основной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	брони	броня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	установлена	устанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	динамическая	динамический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	защита.	защита.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	SpaceAfter=No
+8	Предположительно	Предположительно	ADV	_	Degree=Pos	6	advmod	_	_
+9	бронетранспортер	бронетранспортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	AMPV	Ampv	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	50	50	NUM	_	_	16	nummod	_	_
+16	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	26	cc	_	_
+21	запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	топливу	топливо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
+26	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+27	около	около	ADP	_	_	29	case	_	_
+28	400	400	NUM	_	_	29	nummod	_	_
+29	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 85045
+# text = Другие подробности о бронемашинах нового проекта пока не раскрываются.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	бронемашинах	бронемашина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	nmod	_	_
+5	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	пока	пока	ADV	_	Degree=Pos	9	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	раскрываются	раскрываваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 85046
+# text = В общей сложности американские военные намерены приобрести 2897 новых бронетранспортеров.Бронетранспортеры M113, основные транспортные машины Армии США, были разработаны во второй половине 1950-х годов и уже в 1962 году приняли участие в войне во Вьетнаме.
+1	В	в	ADP	_	_	6	advmod	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	намерены	намерен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	приобрести	приобредать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	2897	2897	NUM	_	_	10	nummod	_	_
+9	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	бронетранспортеров.	бронетранспортеровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	Бронетранспортеры	Бронетранспортера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	M113	M113	NUM	_	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	основные	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	транспортные	транспортный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+17	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	разработаны	разрабатывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	parataxis	_	_
+22	во	в	ADP	_	_	24	case	_	_
+23	второй	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+25	1950-х	1950-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	и	и	CCONJ	_	_	32	cc	_	_
+28	уже	уже	ADV	_	Degree=Pos	31	advmod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	1962	1962	NUM	_	_	31	nummod	_	_
+31	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	_
+32	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	conj	_	_
+33	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	войне	война	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	nmod	_	_
+36	во	в	ADP	_	_	37	case	_	_
+37	Вьетнаме	вьетнам	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 85047
+# text = С момента принятия на вооружение бронетранспортеры использовались практически во всех относительно крупных вооруженных конфликтах второй половины XX-го и начала XXI века.В общей сложности за все время серийного производства M113 были собраны более 80 тысяч таких машин.
+1	С	с	ADP	_	_	2	case	_	_
+2	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+3	принятия	принятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	вооружение	вооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+6	бронетранспортеры	бронетранспортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+7	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	практически	практически	ADV	_	Degree=Pos	9	advmod	_	_
+9	во	в	ADP	_	_	14	case	_	_
+10	всех	весь	DET	_	Case=Loc|Number=Plur	14	amod	_	_
+11	относительно	относительно	ADP	_	_	14	case	_	_
+12	крупных	крупный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+13	вооруженных	вооружать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	конфликтах	конфликт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	obl	_	_
+15	второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+17	XX-го	XX-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	conj	_	_
+20	XXI	xxi	NUM	_	_	21	nummod	_	_
+21	века.	века.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	32	obl:agent	_	SpaceAfter=No
+22	В	в	ADP	_	_	32	advmod	_	_
+23	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	fixed	_	_
+24	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	fixed	_	_
+25	за	за	ADP	_	_	27	case	_	_
+26	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	27	amod	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obl	_	_
+28	серийного	серийный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nsubj	_	_
+30	M113	M113	NUM	_	_	29	nummod	_	_
+31	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	32	aux:pass	_	_
+32	собраны	собирать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+33	более	более	ADV	_	Degree=Cmp	35	nummod:gov	_	_
+34	80	80	NUM	_	_	35	nummod	_	_
+35	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	obl	_	_
+36	таких	такой	DET	_	Case=Gen|Number=Plur	37	amod	_	_
+37	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 85048
+# text = В настоящее время такие бронетранспортеры стоят на вооружении 52 стран мира.
+1	В	в	ADP	_	_	6	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	бронетранспортеры	бронетранспортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	52	52	NUM	_	_	10	nummod	_	_
+10	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 85049
+# text = Бронетранспортеры имеют плохую защиту от мин, не оснащены круговым бронированием и могут защитить только от пулеметных пуль калибра 7,62 миллиметра.Тем не менее, несмотря на множество недостатков, эти машины продолжают стоять на вооружении.
+1	Бронетранспортеры	Бронетранспортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	плохую	плохой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	мин	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	оснащены	оснащать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+10	круговым	круговый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	бронированием	бронирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	защитить	защикать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	только	только	PART	_	_	18	advmod	_	_
+16	от	от	ADP	_	_	18	case	_	_
+17	пулеметных	пулеметный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	пуль	пуля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+19	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	7,62	7,62	NUM	_	_	21	nummod	_	_
+21	миллиметра.	миллиметра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+22	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	discourse	_	_
+23	не	не	PART	_	Polarity=Neg	22	fixed	_	_
+24	менее	менее	ADV	_	Degree=Cmp	23	fixed	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	несмотря	несмотря	ADV	_	Polarity=Neg	28	case	_	_
+27	на	на	ADP	_	_	26	fixed	_	_
+28	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obl	_	_
+29	недостатков	недостаток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	эти	этот	DET	_	Case=Acc|Number=Plur	32	amod	_	_
+32	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	33	obj	_	_
+33	продолжают	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	стоять	стоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 85050
+# text = Одной из причин этого является невысокая стоимость M113 и ремонтопригодность -- большую часть поломок можно устранить силами техников в условиях полевого лагеря.
+1	Одной	один	NUM	_	Case=Ins|Gender=Fem	5	nummod	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	невысокая	невысокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	M113	M113	NUM	_	_	7	nummod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	ремонтопригодность	ремонтопригодность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+14	поломок	поломка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	conj	_	_
+16	устранить	устранять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	_
+18	техников	техник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	obl	_	_
+21	полевого	полевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	лагеря	лагерь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85051
+# text = Тем не менее, некоторые страны, включая Германию и Израиль, уже занялись разработкой собственных бронетранспортеров на замену M113.M113 имеет алюминиевую броню с изменяющейся от 12 до 38 миллиметров толщиной.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	включая	включая	ADV	_	Degree=Pos	6	nmod	_	_
+9	Германию	германия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Израиль	израиль	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	уже	уже	ADV	_	Degree=Pos	14	advmod	_	_
+14	занялись	заниматься	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+16	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	бронетранспортеров	бронетранспортер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+20	M113.M113	M113.M113	NUM	_	_	19	nummod	_	_
+21	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+22	алюминиевую	алюминиевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	броню	броня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	с	с	ADP	_	_	31	case	_	_
+25	изменяющейся	изменяться	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	31	amod	_	_
+26	от	от	ADP	_	_	27	case	_	_
+27	12	12	NUM	_	_	25	nummod	_	_
+28	до	до	ADP	_	_	30	case	_	_
+29	38	38	NUM	_	_	30	nummod	_	_
+30	миллиметров	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+31	толщиной	толщина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 85052
+# text = Бронетранспортер вооружен пулеметом M2 калибра 12,7 миллиметра.
+1	Бронетранспортер	бронетранспортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	вооружен	вооружать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	пулеметом	пулемет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	M2	M2	NUM	_	_	3	nummod	_	_
+5	калибра	калибр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	12,7	12,7	NUM	_	_	7	nummod	_	_
+7	миллиметра	миллиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 85053
+# text = На суше машина может развивать скорость до 68 километров в час, а на воде -- до шести километров в час.
+1	На	на	ADP	_	_	2	case	_	_
+2	суше	суша	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	машина	машин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	68	68	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	15	cc	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+16	--	--	PUNCT	_	_	15	punct	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	шести	шесть	NUM	_	Case=Gen	19	nummod	_	_
+19	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	conj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 85054
+# text = Запас хода бронетранспортера по шоссе составляет 480 километров.Василий Сычёв
+1	Запас	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	хода	ход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	бронетранспортера	бронетранспортер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	шоссе	шоссе	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+6	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	480	480	NUM	_	_	8	nummod	_	_
+8	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+10	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+

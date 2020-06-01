@@ -1,0 +1,290 @@
+# sent_id = 73532
+# text = Химики из Университета Бристоля разработали систему микроскопических водорастворимых частиц, так называемых протоклеток, которые могут охотится и нападать друг на друга.
+1	Химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n|SpacesAfter=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Бристоля	бристоль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	микроскопических	микроскопический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	водорастворимых	водорастворимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+12	называемых	называть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	охотится	охотиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	16	parataxis	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	нападать	нападать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	_
+20	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	fixed	_	SpacesAfter=\n
+21	на	на	ADP	_	_	22	case	_	_
+22	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73533
+# text = Предполагается, что исследования протоклеток могут привести к созданию принципиально новых технологий для химической промышленности и фармацевтики, также могут быть использованы для устранения последствий разливов нефти или создания вычислительных химических систем.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	SpacesAfter=\n
+5	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+7	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	созданию	создание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	SpacesAfter=\n
+10	принципиально	принципиально	ADV	_	Degree=Pos	11	advmod	_	_
+11	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	для	для	ADP	_	_	15	case	_	SpacesAfter=\n
+14	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	фармацевтики	фармацевтика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	также	также	ADV	_	Degree=Pos	20	advmod	_	_
+20	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+21	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	aux:pass	_	_
+22	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	xcomp	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	устранения	устранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	SpacesAfter=\n
+25	последствий	последствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_
+26	разливов	разлив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	или	или	CCONJ	_	_	29	cc	_	_
+29	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	conj	_	SpacesAfter=\n
+30	вычислительных	вычислительной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	химических	химический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 73534
+# text = Описание работы бристольских ученых опубликовано в Nature Chemistry.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	бристольских	бристольский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=\n
+5	опубликовано	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+8	Chemistry	Chemistry	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 73535
+# text = Исследования протоклеток находятся на стыке коллоидной химии и биоинженерии.
+1	Исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	SpacesAfter=\n
+2	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	стыке	стык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	коллоидной	коллоидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	химии	химия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	биоинженерии	биоинженерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 73536
+# text = Этим термином называют микрочастицы очень разного состава, однако всех их объединяет способность проявлять свойства, напоминающие живые клетки.
+1	Этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	термином	термин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\n
+3	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	микрочастицы	микрочастица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	_
+6	разного	разный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+10	всех	весь	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	объединяет	объединявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpacesAfter=\n
+13	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	проявлять	проявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	dep	_	_
+15	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	напоминающие	напоминать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	живые	живый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73537
+# text = Например, протоклетки уже использовались для синтеза белка (в них упаковывают природную систему синтеза, выделенную из живых клеток), для закрепления на мембранах природных ферментов и селективных белков-каналов, для организации химического "общения" между коллоидными частицами и бактериями.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	протоклетки	протоклетк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	уже	уже	ADV	_	Degree=Pos	5	advmod	_	_
+5	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+8	белка	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	в	в	ADP	_	_	11	case	_	_
+11	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obl	_	_
+12	упаковывают	упаковывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	природную	природный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	синтеза	синтез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	выделенную	выделять	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+18	из	из	ADP	_	_	20	case	_	_
+19	живых	живой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	для	для	ADP	_	_	24	case	_	SpacesAfter=\n
+24	закрепления	закрепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	мембранах	мембрана	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	nmod	_	_
+27	природных	природный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	SpacesAfter=\n
+28	ферментов	фермент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	селективных	селективной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	conj	_	_
+31	белков-	белков-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	каналов	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+34	для	для	ADP	_	_	35	case	_	_
+35	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+36	химического	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+37	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	общения	общение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	38	punct	_	_
+40	между	между	ADP	_	_	42	case	_	_
+41	коллоидными	коллоидный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	42	amod	_	_
+42	частицами	частиец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	38	nmod	_	_
+43	и	и	CCONJ	_	_	44	cc	_	_
+44	бактериями	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	42	conj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 73538
+# text = Предполагается, что в будущем протоклетки смогут заполнить функциональную нишу между классическими химическими катализаторами и живыми бактериями, которые используются в биотехнологии.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	в	в	ADP	_	_	5	case	_	SpacesAfter=\n
+5	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+6	протоклетки	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	заполнить	заполнять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	SpacesAfter=\n
+9	функциональную	функциональный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	нишу	ниша	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	между	между	ADP	_	_	14	case	_	_
+12	классическими	классический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+13	химическими	химический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	катализаторами	катализатор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	живыми	живой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	SpacesAfter=\n
+17	бактериями	бактерия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	20	nsubj:pass	_	_
+20	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl:relcl	_	_
+21	в	в	ADP	_	_	22	case	_	SpacesAfter=\n
+22	биотехнологии	биотехнология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73539
+# text = По сравнению с последними, работа протоклеток должна быть гораздо более предсказуемой и они, возможно, будут способны функционировать в таких жестких условиях, где бактерии погибают.
+1	По	по	ADP	_	_	4	case	_	_
+2	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	fixed	_	_
+3	с	с	ADP	_	_	2	fixed	_	_
+4	последними	последний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+10	гораздо	гораздо	ADV	_	Degree=Pos	11	advmod	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	предсказуемой	предсказуть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+13	и	и	CCONJ	_	_	19	cc	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	возможно	возможно	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	8	conj	_	_
+20	функционировать	функционировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	в	в	ADP	_	_	24	case	_	_
+22	таких	такой	DET	_	Case=Loc|Number=Plur	24	amod	_	_
+23	жестких	жесткой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	где	где	ADV	_	Degree=Pos	28	advmod	_	_
+27	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+28	погибают	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 73540
+# text = Однако до сих пор исследования протоклеток были сосредоточены прежде всего на индивидуальных частицах, на том, чтобы наделить каждую из них все более и более сложными функциями.
+1	Однако	однако	ADV	_	Degree=Pos	8	advmod	_	SpacesAfter=\n
+2	до	до	ADP	_	_	8	advmod	_	_
+3	сих	сей	DET	_	Case=Gen|Number=Plur	2	fixed	_	_
+4	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	fixed	_	_
+5	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\n
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	сосредоточены	сосредоточивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	прежде	прежде	ADP	_	_	13	advmod	_	_
+10	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	fixed	_	_
+11	на	на	ADP	_	_	13	case	_	SpacesAfter=\n
+12	индивидуальных	индивидуальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	частицах	частица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	SpacesAfter=\n
+19	наделить	наделивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+20	каждую	каждый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	obj	_	_
+21	из	из	ADP	_	_	22	case	_	_
+22	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+23	все	все	PART	_	_	24	advmod	_	_
+24	более	более	ADV	_	Degree=Cmp	28	advmod	_	_
+25	и	и	CCONJ	_	_	28	cc	_	_
+26	более	более	ADV	_	Degree=Cmp	27	advmod	_	SpacesAfter=\n
+27	сложными	сложный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+28	функциями	функция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 73541
+# text = В новой работе авторы решили использовать другой подход -- исследовать возможности коллективного поведения частиц.
+1	В	в	ADP	_	_	3	case	_	_
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\n
+4	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\n
+8	подход	подход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	--	--	PUNCT	_	_	8	punct	_	_
+10	исследовать	исследовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+11	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpacesAfter=\n
+12	коллективного	коллективный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	частиц	частица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 73542
+# text = Для этого химики разработали систему из двух типов протоклеток, один из которых должен был "охотиться" на другой.
+1	Для	для	ADP	_	_	2	case	_	SpacesAfter=\n
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	из	из	ADP	_	_	8	case	_	SpacesAfter=\n
+7	двух	два	NUM	_	Case=Gen	8	nummod	_	_
+8	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+9	протоклеток	протоклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	один	один	NUM	_	Case=Nom|Gender=Masc	14	nsubj	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	которых	который	PRON	_	Case=Gen	11	nmod	_	SpacesAfter=\n
+14	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	acl:relcl	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	охотиться	охотиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	dep	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

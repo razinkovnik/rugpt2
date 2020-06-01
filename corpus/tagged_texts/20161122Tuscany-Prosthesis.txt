@@ -1,0 +1,371 @@
+# sent_id = 80965
+# text = Археологи из Университета Пизы нашли в усыпальнице средневекового семейства из города Лукки (Тоскана) зубные протезы, сделанные с помощью золотой полоски.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	Университета	университет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Пизы	Пиза	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	appos	_	_
+5	нашли	находить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	усыпальнице	усыпальница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\n
+8	средневекового	средневековый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpacesAfter=\n
+12	Лукки	Лукка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Тоскана	Тоскан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	зубные	зубный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	протезы	протез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	SpacesAfter=\n
+20	с	с	ADP	_	_	23	case	_	_
+21	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	fixed	_	_
+22	золотой	золотой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	полоски	полоска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80966
+# text = Точно определить возраст артефакта исследователям не удалось, но некоторые его элементы датируются началом XVII века.
+1	Точно	точно	ADV	_	Degree=Pos	2	advmod	_	SpacesAfter=\n
+2	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+3	возраст	возраст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	артефакта	артефакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpacesAfter=\n
+6	не	не	PART	_	_	7	advmod	_	_
+7	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	но	но	CCONJ	_	_	13	cc	_	_
+10	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj:pass	_	SpacesAfter=\n
+13	датируются	датировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	conj	_	_
+14	началом	начало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	_
+15	XVII	xvii	NUM	_	_	16	nummod	_	_
+16	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80967
+# text = По словам авторов работы, в средневековых источниках описывалась подобная технология изготовления протезов, но найденный артефакт -- это первое доказательство ее существования.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	средневековых	средневековый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	источниках	источник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+9	описывалась	описывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpacesAfter=\n
+11	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+12	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	протезов	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	но	но	CCONJ	_	_	17	cc	_	SpacesAfter=\n
+16	найденный	находить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+17	артефакт	артефакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+20	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpacesAfter=\s\n
+21	доказательство	доказательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	conj	_	_
+22	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+23	существования	существование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80968
+# text = Исследование опубликовано в Clinical Implant Dentistry and Related Research в начале ноября, но журналисты обратили на него внимание только сейчас.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	Clinical	Clinical	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Implant	Implant	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Dentistry	Dentistry	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	and	and	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	Related	Related	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpacesAfter=\n
+9	Research	Research	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpacesAfter=\n
+12	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	но	но	CCONJ	_	_	16	cc	_	_
+15	журналисты	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	обратили	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obl	_	SpacesAfter=\n
+19	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+20	только	только	PART	_	_	21	advmod	_	_
+21	сейчас	сейчас	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 80969
+# text = Семейство банкиров и купцов Гуиниджи было одним из самых богатых и влиятельных семейств в Лукке.
+1	Семейство	семейство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpacesAfter=\n
+2	банкиров	банкир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	купцов	купец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
+5	Гуиниджи	Гуиниджи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+8	из	из	ADP	_	_	13	case	_	_
+9	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	богатых	богатый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	влиятельных	влиятельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	conj	_	_
+13	семейств	семейства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	SpacesAfter=\n
+14	в	в	ADP	_	_	15	case	_	_
+15	Лукке	Лукк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80970
+# text = В 1358 году представитель семейства велел соорудить в монастыре Святого Франциска капеллу Гуиниджи, которая с конца XIV до первой половины XVII века служила усыпальницей для членов семьи.
+1	В	в	ADP	_	_	3	case	_	_
+2	1358	1358	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	семейства	семейство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpacesAfter=\n
+6	велел	велеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	соорудить	сооружать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	монастыре	монастырь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	Святого	Святый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpacesAfter=\n
+11	Франциска	Франциск	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	капеллу	капелла	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	Гуиниджи	Гуиниджи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	24	nsubj	_	_
+16	с	с	ADP	_	_	17	case	_	SpacesAfter=\n
+17	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+18	XIV	xiv	NUM	_	_	17	nummod	_	SpacesAfter=\n
+19	до	до	ADP	_	_	21	case	_	_
+20	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpacesAfter=\n
+21	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+22	XVII	xvii	NUM	_	_	21	nummod	_	SpacesAfter=\n
+23	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	служила	служить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpacesAfter=\n
+25	усыпальницей	усыпальница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	членов	член	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+28	семьи	семья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 80971
+# text = В 2010 году в капелле начались археологические раскопки, во время которых ученые обнаружили рядом с останками одного из Гуиниджи зубной протез.
+1	В	в	ADP	_	_	3	case	_	SpacesAfter=\n
+2	2010	2010	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	капелле	капелла	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	начались	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	археологические	археологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	SpacesAfter=\n
+8	раскопки	раскопка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	во	во	ADP	_	_	12	case	_	_
+11	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	которых	который	PRON	_	Case=Gen	14	obl	_	_
+13	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpacesAfter=\n
+14	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+15	рядом	рядом	ADV	_	Degree=Pos	14	advmod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	останками	останк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	nmod	_	_
+18	одного	один	NUM	_	Case=Gen|Gender=Masc	17	nummod	_	_
+19	из	из	ADP	_	_	20	case	_	SpacesAfter=\n
+20	Гуиниджи	Гуиниджи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	зубной	зубной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	протез	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 80972
+# text = Так как за века скелеты в усыпальнице неоднократно перемещали с места на место, восстановить целостность останков и определить, кому принадлежали вставные зубы, было уже невозможно.
+1	Так	так	ADV	_	Degree=Pos	9	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	за	за	ADP	_	_	4	case	_	_
+4	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\n
+5	скелеты	скелет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	усыпальнице	усыпальница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	неоднократно	неоднократно	ADV	_	Degree=Pos	9	advmod	_	SpacesAfter=\n
+9	перемещали	перемещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	SpacesAfter=\n
+16	целостность	целостность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	останков	останк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	кому	кто	PRON	_	Case=Dat	22	obl	_	SpacesAfter=\n
+22	принадлежали	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+23	вставные	вставный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	зубы	зуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
+27	уже	уже	ADV	_	Degree=Pos	28	advmod	_	_
+28	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 80973
+# text = Протез представляет собой пять нижних зубов (три резца и два клыка), скрепленных между собой металлической полоской.
+1	Протез	протез	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	пять	пять	NUM	_	Case=Acc	6	nummod:gov	_	_
+5	нижних	нижний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	зубов	зуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	три	три	NUM	_	Case=Nom	9	nummod:gov	_	_
+9	резца	резец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	parataxis	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	два	два	NUM	_	Case=Nom|Gender=Masc	12	nummod:gov	_	_
+12	клыка	клык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	скрепленных	скреплять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	SpacesAfter=\n
+16	между	между	ADP	_	_	17	case	_	_
+17	собой	себя	PRON	_	Case=Ins	15	obl	_	_
+18	металлической	металлический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	полоской	полоска	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80974
+# text = Размеры и симметрия зубов свидетельствовали о том, что они принадлежали разным людям.
+1	Размеры	размер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	симметрия	симметрия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	зубов	зуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter=\n
+5	свидетельствовали	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	SpacesAfter=\n
+11	принадлежали	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	SpacesAfter=\s\s
+12	разным	разной	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80975
+# text = Археологи исследовали протез с помощью сканирующей электронной микроскопии, оптической микроскопии и компьютерной томографии.
+1	Археологи	археолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	протез	протез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	8	case	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	fixed	_	_
+6	сканирующей	сканируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	SpacesAfter=\n
+7	электронной	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	оптической	оптический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	микроскопии	микроскопия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpacesAfter=\n
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	компьютерной	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80976
+# text = Оказалось что для того, чтобы зафиксировать вставные зубы, дантист в каждом из них спилил часть корня, просверил отверстия и прикрепил каждый зуб к соединявшей их полоске двумя иголками.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	что	что	PRON	_	Case=Acc	1	nsubj	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	_
+7	зафиксировать	фиксировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+8	вставные	вставный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	зубы	зуба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	дантист	дантист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	obl	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+16	спилил	спиливать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpacesAfter=\n
+18	корня	корень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	просверил	просверять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	отверстия	отверстие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	SpacesAfter=\n
+23	прикрепил	прикреплять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	зуб	зуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+26	к	к	ADP	_	_	29	case	_	_
+27	соединявшей	оединять	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	29	amod	_	_
+28	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	27	obj	_	SpacesAfter=\n
+29	полоске	полоска	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
+30	двумя	два	NUM	_	Case=Ins	31	nummod	_	_
+31	иголками	иголка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 80977
+# text = На обоих концах протеза полоске придали S-образную форму.
+1	На	на	ADP	_	_	3	case	_	_
+2	обоих	оба	NUM	_	Case=Loc|Gender=Masc	3	nummod	_	_
+3	концах	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	SpacesAfter=\n
+4	протеза	протез	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	полоске	полоска	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	придали	придавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	S-образную	S-образный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\n
+8	форму	форма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 80978
+# text = Получившимися "крючками" вставные зубы крепились к большим коренным зубам (молярам) владельца.
+1	Получившимися	Получиваться	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	6	amod	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	крючками	крючк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	вставные	вставный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	SpacesAfter=\n
+6	зубы	зуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	крепились	крепяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	к	к	ADP	_	_	11	case	_	_
+9	большим	большой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+10	коренным	коренный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	11	amod	_	_
+11	зубам	зуб	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	молярам	моляр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	владельца	владелец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 80979
+# text = Исследователи определили, что "зубная" полоска состояла из золота с небольшим добавлением серебра и меди.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	определили	определять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	зубная	зубный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	полоска	полоска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	состояла	состоять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	золота	золото	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	добавлением	добавление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	SpacesAfter=\n
+15	серебра	серебро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	SpacesAfter=\n
+17	меди	медь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 80980
+# text = Судя по налету зубного камня на протезе, его использовали в течение долгого времени.
+1	Судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	налету	налет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+4	зубного	зубный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	камня	камень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpacesAfter=\n
+6	на	на	ADP	_	_	7	case	_	_
+7	протезе	протез	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	SpacesAfter=\n
+13	долгого	долгий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+

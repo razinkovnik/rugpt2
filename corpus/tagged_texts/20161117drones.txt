@@ -1,0 +1,277 @@
+# sent_id = 80134
+# text = Австралийские компании Flirtey и Domino's Pizza Enterprises начали оказывать в Новой Зеландии услугу доставки пиццы с помощью дронов.
+1	Австралийские	австралийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	Flirtey	Flirtey	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	Domino's	Domino's	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Pizza	Pizza	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Enterprises	Enterprises	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	оказывать	оказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	Новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Зеландии	зеландия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	_
+13	услугу	услуга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+14	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	пиццы	пицца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	с	с	ADP	_	_	15	case	_	_
+17	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	fixed	_	_
+18	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 80135
+# text = Согласно сообщению Flirtey, пока что этот сервис работает в тестовом режиме в нескольких районах Окленда.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+3	Flirtey	Flirtey	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	пока	пока	ADV	_	Degree=Pos	0	mark	_	_
+6	что	что	SCONJ	_	_	5	fixed	_	_
+7	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	сервис	сервис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	тестовом	тестовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	нескольких	несколько	NUM	_	Case=Loc	15	nummod	_	_
+15	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+16	Окленда	Окленд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 80136
+# text = Позднее планируется запустить его во всех городах, где работают рестораны Domino's.Многие компании в мире рассматривают возможность доставки своей продукции покупателям с помощью беспилотников.
+1	Позднее	поздний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+5	во	в	ADP	_	_	7	case	_	_
+6	всех	весь	DET	_	Case=Loc|Number=Plur	7	amod	_	_
+7	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	10	advmod	_	_
+10	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	рестораны	ресторан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	Domino's.Многие	Domino's.Многий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	_
+20	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	покупателям	покупатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	0	nmod	_	_
+22	с	с	ADP	_	_	24	case	_	_
+23	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	fixed	_	_
+24	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 80137
+# text = Считается, что дроны позволят существенно ускорить доставку заказов.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	дроны	дрон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+6	существенно	существенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	ускорить	ускорять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+8	доставку	доставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	заказов	заказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 80138
+# text = Правда, во многих странах действует законодательство, ограничивающее полеты гражданских беспилотников, из-за чего использовать дроны для доставки либо сложно, либо невозможно.Для доставки пиццы Domino's и Flirtey используют гексакоптеры DRU Drone.
+1	Правда	правда	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	во	в	ADP	_	_	5	case	_	_
+4	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	_
+6	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	законодательство	законодательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ограничивающее	ограничивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	из-за	из-за	ADP	_	_	15	case	_	_
+15	чего	что	PRON	_	Case=Gen	16	obl	_	_
+16	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+17	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+20	либо	либо	CCONJ	_	_	21	cc	_	_
+21	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	либо	либо	CCONJ	_	_	24	cc	_	_
+24	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	Для	для	ADP	_	_	27	case	_	_
+27	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+28	пиццы	пицца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	Domino's	Domino's	PROPN	_	Foreign=Yes	28	flat:foreign	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	Flirtey	Flirtey	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+32	используют	используять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+33	гексакоптеры	гексакоптер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+34	DRU	Dru	X	_	Foreign=Yes	33	flat:foreign	_	_
+35	Drone	Drone	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 80139
+# text = По предварительной оценке, благодаря беспилотникам время от получения заказа до доставки его покупателю можно сократить до десяти минут.
+1	По	по	ADP	_	_	3	case	_	_
+2	предварительной	предварительный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	беспилотникам	беспилотник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	conj	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+10	заказа	заказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+14	покупателю	покупатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
+15	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+16	сократить	сокращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	до	до	ADP	_	_	19	case	_	_
+18	десяти	десять	NUM	_	Case=Gen	19	nummod	_	_
+19	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80140
+# text = По данным компаний, 70 процентов заказчиков Domino's заявили, что предпочли бы доставку пиццы дронами.В середине марта текущего года Domino's Pizza Enterprises объявила о запуске пилотного проекта по доставке пиццы с помощью четырехколесного робота.
+1	По	по	ADP	_	_	2	case	_	_
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	9	parataxis	_	_
+3	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	70	70	NUM	_	_	6	nummod	_	_
+6	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	заказчиков	заказчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	Domino's	Domino's	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	заявили	заявлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	предпочли	предпочитать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	_
+13	бы	бы	PART	_	Mood=Cnd	12	aux	_	_
+14	доставку	доставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	пиццы	пицца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	дронами	дрон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	В	в	ADP	_	_	19	case	_	_
+19	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+20	марта	март	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Domino's	Domino's	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	Pizza	Pizza	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Enterprises	Enterprises	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	объявила	объявлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+27	о	о	ADP	_	_	28	case	_	_
+28	запуске	запуск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+29	пилотного	пилотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	проекта	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+31	по	по	ADP	_	_	32	case	_	_
+32	доставке	доставка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+33	пиццы	пицца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+34	с	с	ADP	_	_	37	case	_	_
+35	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	fixed	_	_
+36	четырехколесного	четырехколесный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 80141
+# text = В настоящее время такие аппараты развозят пиццу в нескольких районах Веллингтона.
+1	В	в	ADP	_	_	6	advmod	_	_
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	развозят	разваживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	пиццу	пицца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	нескольких	несколько	NUM	_	Case=Loc	10	nummod	_	_
+10	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+11	Веллингтона	веллингтон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80142
+# text = Робот на одном заряде аккумуляторов может проехать до 30 километров.Аппарат имеет датчики и камеры, способен выбирать наиболее оптимальный маршрут к пункту назначения и умеет распознавать и объезжать препятствия.
+1	Робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	одном	один	NUM	_	Case=Loc|Gender=Masc	4	nummod	_	_
+4	заряде	заряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+5	аккумуляторов	аккумулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	проехать	ехать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	до	до	ADP	_	_	10	case	_	_
+9	30	30	NUM	_	_	10	nummod	_	_
+10	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	Аппарат	Аппарат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+13	датчики	датчик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	conj	_	_
+18	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	dep	_	_
+19	наиболее	наиболее	ADV	_	Degree=Pos	20	advmod	_	_
+20	оптимальный	оптимальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	маршрут	маршрут	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+22	к	к	ADP	_	_	23	case	_	_
+23	пункту	пункт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	_
+24	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	распознавать	распознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	объезжать	объезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	conj	_	_
+30	препятствия	препятствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80143
+# text = В багажном отсеке робота место для десяти готовых пицц.
+1	В	в	ADP	_	_	3	case	_	_
+2	багажном	багажный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	отсеке	отсек	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+4	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	для	для	ADP	_	_	9	case	_	_
+7	десяти	десять	NUM	_	Case=Gen	9	nummod	_	_
+8	готовых	готовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	пицц	пицца	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 80144
+# text = Получить доступ к багажнику покупатели могут при помощи PIN-кода, который они получают после оформления заказа по телефону или через интернет.Василий Сычёв
+1	Получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	_
+2	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	багажнику	багажник	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+5	покупатели	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	при	при	ADP	_	_	9	case	_	_
+8	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	fixed	_	_
+9	PIN	Pin	PROPN	_	Foreign=Yes	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	кода	код	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Acc	15	obj	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	после	после	ADP	_	_	17	case	_	_
+17	оформления	оформление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+18	заказа	заказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	телефону	телефон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	_
+21	или	или	CCONJ	_	_	23	cc	_	_
+22	через	через	ADP	_	_	23	case	_	_
+23	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+26	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	flat:name	_	SpaceAfter=No
+

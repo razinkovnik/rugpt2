@@ -1,0 +1,342 @@
+# sent_id = 75470
+# text = Американская компания Amazon получила патент на разработку дрона, который мог быть выступать напарником полицейских.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Amazon	Amazon	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	патент	патент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	дрона	дрон	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	aux:pass	_	_
+13	выступать	выступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	напарником	напарник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+15	полицейских	полицейский	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 75471
+# text = Такой аппарат можно было бы использовать в качестве "летающего видеорегистратора", поиска потерявшегося в толпе ребенка или автомобиля на парковке.
+1	Такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+5	бы	бы	PART	_	Mood=Cnd	3	aux	_	_
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+7	в	в	ADP	_	_	11	case	_	_
+8	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	летающего	летать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	видеорегистратора	видеорегистратор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+15	потерявшегося	потеряться	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	18	amod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	толпе	толпа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	парковке	парковка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 75472
+# text = Управлять дроном-напарником полицейский сможет с помощью голосовых команд.Сегодня различные службы все чаще используют дроны для выполнения различных задач: разведки пожаров, наблюдения за преступниками или осмотра местности.
+1	Управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	dep	_	_
+2	дроном-напарником	дроном-напарник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+3	полицейский	полицейский	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	голосовых	голосовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	команд.	командакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	Сегодня	сегодня	ADV	_	Degree=Pos	14	advmod	_	_
+10	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	службы	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+12	все	все	PART	_	_	13	advmod	_	_
+13	чаще	часто	ADV	_	Degree=Cmp	14	advmod	_	_
+14	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	выполнения	выполнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+22	пожаров	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+25	за	за	ADP	_	_	26	case	_	_
+26	преступниками	преступник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	24	nmod	_	_
+27	или	или	CCONJ	_	_	28	cc	_	_
+28	осмотра	осмотер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	_
+29	местности	местность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 75473
+# text = По оценке Amazon, развивающиеся технологии позволят сделать дроны легче, дешевле, универсальнее.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	Amazon	Amazon	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	развивающиеся	развиваться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	6	amod	_	_
+6	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	дроны	дрон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	легче	легкий	ADJ	_	Degree=Cmp	0	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	дешевле	дешевый	ADJ	_	Degree=Cmp	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	универсальнее	универсальный	ADJ	_	Degree=Cmp	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 75474
+# text = При этом аппаратам потребуются колоссальные вычислительные возможности.В своем патенте Amazon описала несколько десятков способов использования перспективных дронов, которые могут быть выполнены карманными.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	аппаратам	аппарат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	потребуются	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	колоссальные	колоссальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	вычислительные	вычислительной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	возможности	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	В	в	ADP	_	_	11	case	_	_
+10	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	11	amod	_	_
+11	патенте	патент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+12	Amazon	Amazon	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+13	описала	описывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+14	несколько	несколько	NUM	_	Case=Nom	15	nummod:gov	_	_
+15	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	_
+16	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	перспективных	перспективной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которые	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+23	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	aux:pass	_	_
+24	выполнены	выполнать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+25	карманными	карманный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 75475
+# text = В частности, такие миниатюрные аппараты покупатели смогут выпускать в магазинах, чтобы они искали определенные вещи или продукты для покупки.Дроны для полицейских, по мнению компании, могут использоваться я в качестве камер наблюдения над дорогами, причем такие апараты смогут обеспечить лучший обзор, чем стационарные камеры.
+1	В	в	ADP	_	_	8	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+5	миниатюрные	миниатюрный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+7	покупатели	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	выпускать	выпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	искали	искать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+16	определенные	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	conj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	покупки.	покупки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	Дроны	Дрона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	полицейских	полицейский	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	parataxis	_	_
+28	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+31	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	30	xcomp	_	_
+32	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	30	nsubj	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	33	fixed	_	_
+35	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	obl	_	_
+36	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	над	над	ADP	_	_	38	case	_	_
+38	дорогами	дорога	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	причем	причем	CCONJ	_	_	43	cc	_	_
+41	такие	такой	DET	_	Case=Nom|Number=Plur	42	amod	_	_
+42	апараты	апарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	43	nsubj	_	_
+43	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	30	conj	_	_
+44	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	43	xcomp	_	_
+45	лучший	лучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	чем	чем	SCONJ	_	_	50	cc	_	_
+49	стационарные	стационарной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	50	amod	_	_
+50	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	46	advmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	SpaceAfter=No
+
+# sent_id = 75476
+# text = Выпустив несколько карманных дронов полицейский сможет оперативно организовать преследование группы преступников.Конкретные технологии, которые могут быть использованы в перспективных дронах, Amazon в своем патенте не описывает.
+1	Выпустив	выпускать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	4	nummod:gov	_	_
+3	карманных	карманный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+5	полицейский	полицейский	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	оперативно	оперативно	ADV	_	Degree=Pos	8	advmod	_	_
+8	организовать	организовывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	преследование	преследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	преступников.	преступниковадратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+12	Конкретные	конкретный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	технологии	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	aux:pass	_	_
+18	использованы	использовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	xcomp	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	перспективных	перспективный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	дронах	дрон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	Amazon	Amazon	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	26	amod	_	_
+26	патенте	патент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	описывает	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 75477
+# text = Как отмечает GeekWire, в перспективных аппаратах может быть использован голосовой помощник Alexa, который, в зависимости от устройства на которое установлен, может выполнять различный набор команд.В настоящее время использование дронов полицейскими или пожарными в США существенно ограничено.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	GeekWire	GeekWire	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	перспективных	перспективный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	аппаратах	аппарат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	aux:pass	_	_
+10	использован	использовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	xcomp	_	_
+11	голосовой	голосовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	помощник	помощник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+13	Alexa	Alexa	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	23	nsubj:pass	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+19	от	от	ADP	_	_	20	case	_	_
+20	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	которое	который	PRON	_	Case=Acc	20	nmod	_	_
+23	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	acl:relcl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+26	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	различный	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+29	команд.	командемик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+30	В	в	ADP	_	_	41	advmod	_	_
+31	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	fixed	_	_
+32	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	fixed	_	_
+33	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj:pass	_	_
+34	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+35	полицейскими	полицейский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	nmod	_	_
+36	или	или	CCONJ	_	_	37	cc	_	_
+37	пожарными	пожарный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	conj	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	33	nmod	_	_
+40	существенно	существенно	ADV	_	Degree=Pos	41	advmod	_	_
+41	ограничено	ограничивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	41	punct	_	SpaceAfter=No
+
+# sent_id = 75478
+# text = Такие аппараты можно использовать за городом, но только в пределах прямой видимости оператора и на небольшой высоте полета.
+1	Такие	такой	DET	_	Case=Acc|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	городом	город	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	только	только	PART	_	_	11	advmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	пределах	предел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	conj	_	_
+12	прямой	прямой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	видимости	видимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+14	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	небольшой	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	conj	_	_
+19	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 75479
+# text = Большая часть территории американских городов для полетов дронов закрыта.В сентябре текущего года пожарная служба Нью-Йорка получила особую лицензию Федерального управления гражданской авиации США.
+1	Большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+3	территории	территория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+8	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	закрыта.	закрыта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl:agent	_	SpaceAfter=No
+10	В	в	ADP	_	_	11	case	_	_
+11	сентябре	сентябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+12	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	пожарная	пожарный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	служба	служба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	Нью-Йорка	Нью-Йорк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	особую	особый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	лицензию	лицензия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	Федерального	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	гражданской	гражданский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	авиации	авиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 75480
+# text = Благодаря ей пожарные могут оперативно запрашивать разрешение на использование дронов в черте города во время тушения пожара.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	4	obl	_	_
+3	пожарные	пожарный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	оперативно	оперативно	ADV	_	Degree=Pos	6	advmod	_	_
+6	запрашивать	запрашивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+10	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	черте	черт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+13	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	во	во	ADP	_	_	16	case	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	тушения	тушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+17	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 75481
+# text = На получение разрешения уходит не более 15 минут.Василий Сычёв
+1	На	на	ADP	_	_	2	case	_	_
+2	получение	получение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	разрешения	разрешение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	более	более	ADV	_	Degree=Cmp	8	nummod:gov	_	_
+7	15	15	NUM	_	_	8	nummod	_	_
+8	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+

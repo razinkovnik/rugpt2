@@ -1,0 +1,411 @@
+# sent_id = 89344
+# text = Британская компания BAE Systems занялась разработкой легкого цифрового индикатора на лобовом стекле для американских истребителей F-22 Raptor, сообщает Flightglobal.
+1	Британская	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	BAE	Bae	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Systems	Systems	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	легкого	легкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	цифрового	цифровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	индикатора	индикатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	лобовом	лобовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	стекле	стекель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	американских	американский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+16	F-22	f-22	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	Raptor	Raptor	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+20	Flightglobal	Flightglobal	PROPN	_	Foreign=Yes	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 89345
+# text = Новое индикаторное устройство должно будет заменить на боевых самолетах устаревшие устройства отображения информации, выполненные на основе электронно-лучевых трубок.Истребители F-22, разработанные в первой половине 1990-х годов, считаются наиболее совершенными боевыми машинами на вооружении ВВС США.
+1	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	индикаторное	индикаторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	боевых	боевой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+10	устаревшие	устаревать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+11	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+12	отображения	отображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	выполненные	выполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	электронно-лучевых	электронно-лучевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	nmod	_	_
+19	трубок.	трубоколо	ADP	_	_	30	case	_	SpaceAfter=No
+20	Истребители	Истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj:pass	_	_
+21	F-22	F-22	NOUN	_	_	20	appos	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	разработанные	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	первой	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+27	1990-х	1990-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	считаются	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	parataxis	_	_
+31	наиболее	наиболее	ADV	_	Degree=Pos	32	advmod	_	_
+32	совершенными	совершать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+33	боевыми	боев	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	34	amod	_	_
+34	машинами	машина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	32	obl	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+37	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	_
+38	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 89346
+# text = При этом в самолетах используется множество уже устаревших систем.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	самолетах	самолеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+5	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+8	устаревших	устаревать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	amod	_	_
+9	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89347
+# text = Например, центральный вычислительный блок истребителя построен на базе процессора Intel i960MX с тактовой частотой 100 мегагерц.В настоящее время действует программа модернизации истребителей F-22, в рамках которой самолеты должны получить новое современное оборудование и боеприпасы.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	центральный	центральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	вычислительный	вычислительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	блок	блок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+6	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	построен	строить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+10	процессора	процессор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Intel	intel	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	i960MX	i960mx	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	тактовой	тактовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	частотой	частота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+16	100	100	NUM	_	_	17	nummod	_	_
+17	мегагерц.	мегагерц.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+18	В	в	ADP	_	_	21	advmod	_	_
+19	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	fixed	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+22	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+23	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	F-22	F-22	NOUN	_	_	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	31	nmod	_	_
+29	которой	который	PRON	_	Case=Gen	31	nmod	_	_
+30	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+31	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	25	acl:relcl	_	_
+32	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	dep	_	_
+33	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+34	современное	современный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	боеприпасы	боеприпас	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 89348
+# text = В частности, в вычислительных блоках процессоры будут заменены новыми PowerPC.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	вычислительных	вычислительной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	_
+6	блоках	блока	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	_
+7	процессоры	процессор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	заменены	заменять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	PowerPC	Powerpc	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 89349
+# text = Разработка нового цифрового индикатора на лобовом стекле ведется в рамках масштабной программы модернизации самолетов.Новое индикаторное устройство будет установлено на все 184 истребителя F-22 на вооружении ВВС США.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+2	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	цифрового	цифровой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	индикатора	индикатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	лобовом	лобовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	стекле	стекл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+8	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+11	масштабной	масштабной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	самолетов.	самолетовей	DET	_	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+16	индикаторное	индикаторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+18	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	установлено	устанавливать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+22	184	184	NUM	_	_	23	nummod	_	_
+23	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+24	F-22	F-22	NOUN	_	_	26	nmod	_	_
+25	на	на	ADP	_	_	24	case	_	_
+26	вооружении	вооружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	nmod	_	_
+27	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 89350
+# text = Индикатор будет полностью совместим со старым устройством как по своим габаритам, так и на уровне интерфейсов подключения.
+1	Индикатор	индикатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	полностью	полностью	ADV	_	Degree=Pos	4	advmod	_	_
+4	совместим	совместимый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	со	с	ADP	_	_	7	case	_	_
+6	старым	старый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	_
+8	как	как	SCONJ	_	_	11	cc	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	своим	свой	DET	_	Case=Dat|Number=Plur	11	amod	_	_
+11	габаритам	габарит	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	так	так	ADV	_	Degree=Pos	16	advmod	_	_
+14	и	и	PART	_	_	16	advmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+17	интерфейсов	интерфейс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 89351
+# text = Благодаря этому все работы по модернизации будут сведены только к отключению старых индикаторов и подключению новых без необходимости перепрограммирования или доработки.Цифровой индикатор на лобовом стекле будет выполнен с использованием технологии Digital Light Engine.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+3	все	весь	DET	_	Case=Nom|Number=Plur	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	сведены	сведать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	только	только	PART	_	_	11	advmod	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	отключению	отключение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+12	старых	старый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	индикаторов	индикатор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	подключению	подключение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	conj	_	_
+16	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	nmod	_	_
+17	без	без	ADP	_	_	18	case	_	_
+18	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	перепрограммирования	перепрограммирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	или	или	CCONJ	_	_	21	cc	_	_
+21	доработки.	доработки.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+22	Цифровой	Цифровой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	индикатор	индикатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	лобовом	лобовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	стекле	стекл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux:pass	_	_
+28	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+29	с	с	ADP	_	_	30	case	_	_
+30	использованием	использованье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	obl	_	_
+31	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	Digital	digital	PROPN	_	Foreign=Yes	31	flat:foreign	_	_
+33	Light	Light	PROPN	_	Foreign=Yes	32	flat:foreign	_	_
+34	Engine	engine	PROPN	_	Foreign=Yes	33	flat:foreign	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 89352
+# text = В ней используется контрастный жидкокристаллическая матрица с светодиодной подсветкой.
+1	В	в	ADP	_	_	2	case	_	_
+2	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	3	obl	_	_
+3	используется	используть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	контрастный	контрастный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	жидкокристаллическая	жидкокристаллический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	матрица	матрица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	светодиодной	светодиодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	подсветкой	подсветка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 89353
+# text = Изображение с матрицы проецируется через специальную линзу на отражающее стекло индикатора.Благодаря линзе в индикаторе обеспечивается четкость изображения и его фокусировка на бесконечность.
+1	Изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	матрицы	матрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	проецируется	проецировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	через	через	ADP	_	_	7	case	_	_
+6	специальную	специальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	линзу	линза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	отражающее	отражать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	стекло	стекло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+11	индикатора.	индикатора.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+12	Благодаря	Благодаря	ADP	_	_	13	case	_	_
+13	линзе	линз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	индикаторе	индикатор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	обеспечивается	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+17	четкость	четкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+18	изображения	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+21	фокусировка	фокусировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	бесконечность	бесконечность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 89354
+# text = Это позволяет сделать изображение на индикаторе четким и читаемым независимо от того, на какой точке пространства за стеклом индикатора сфокусировано зрение летчика.В середине 2015 года командование ВВС США решило оснастить истребители F-22 нашлемными дисплеями с целеуказанием и системой планирования.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	индикаторе	индикатор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+7	четким	четкий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	читаемым	читать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	_
+10	независимо	независимо	ADV	_	Degree=Pos	9	advmod	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	какой	какой	DET	_	Case=Loc|Gender=Fem|Number=Sing	16	amod	_	_
+16	точке	точка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+17	пространства	пространство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	за	за	ADP	_	_	19	case	_	_
+19	стеклом	стекло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	_
+20	индикатора	индикатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	сфокусировано	сфокусировывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	acl	_	_
+22	зрение	зрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+23	летчика	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	В	в	ADP	_	_	26	case	_	_
+26	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+27	2015	2015	NUM	_	_	28	nummod	_	_
+28	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	командование	командование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+30	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	30	nmod	_	_
+32	решило	решать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+33	оснастить	оснаскать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+34	истребители	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+35	F-22	F-22	NUM	_	_	34	nummod	_	_
+36	нашлемными	нашлемный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	37	amod	_	_
+37	дисплеями	дисплей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	33	obl	_	_
+38	с	с	ADP	_	_	39	case	_	_
+39	целеуказанием	целеуказание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	37	nmod	_	_
+40	и	и	CCONJ	_	_	41	cc	_	_
+41	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	39	conj	_	_
+42	планирования	планирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpaceAfter=No
+
+# sent_id = 89355
+# text = Эти устройства планируется разработать к 2020 году.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	_
+3	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	разработать	разрабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	dep	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	2020	2020	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 89356
+# text = Благодаря нашлемным дисплеям летчики истребителей смогут получать информацию со всех датчиков F-22 и вооружения без опускания глаз на приборы.Согласно требованию военных, нашлемные дисплеи не должны будут ограничивать обзор летчика.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	нашлемным	нашлемный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	дисплеям	дисплеь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+4	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	со	с	ADP	_	_	11	case	_	_
+10	всех	весь	DET	_	Case=Gen|Number=Plur	11	amod	_	_
+11	датчиков	датчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	F-22	F-22	NOUN	_	_	8	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+15	без	без	ADP	_	_	16	case	_	_
+16	опускания	опускание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	conj	_	_
+17	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	приборы	прибор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	Согласно	согласно	ADP	_	_	22	case	_	_
+22	требованию	требование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	0	nmod	_	_
+23	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	нашлемные	нашлемный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	дисплеи	дисплея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	parataxis	_	_
+29	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	_
+30	ограничивать	ограничивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	dep	_	_
+31	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+32	летчика	летчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 89357
+# text = Система отображения информации на нашлемном дисплее должна быть полностью совместима с системой катапультирования из истребителя, включая быстрое отсоединение кабелей.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	отображения	отображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	нашлемном	нашлемный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	дисплее	дисплей	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+7	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	cop	_	_
+9	полностью	полностью	ADV	_	Degree=Pos	10	advmod	_	_
+10	совместима	совместимый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	7	nmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+13	катапультирования	катапультирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	из	из	ADP	_	_	15	case	_	_
+15	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	включая	включая	ADV	_	Degree=Pos	0	parataxis	_	_
+18	быстрое	быстрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	отсоединение	отсоединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+20	кабелей	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 89358
+# text = Испытания опытных образцов запланированы на 2017 год, проверки на тренажере -- на 2018-й, а на истребителе -- на 2019-й.Василий Сычёв
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+2	опытных	опытный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	запланированы	планировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	2017	2017	NUM	_	_	7	nummod	_	_
+7	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	тренажере	тренажер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	2018-й	2018-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	18	cc	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	истребителе	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	2019-й	2019-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+24	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	SpaceAfter=No
+

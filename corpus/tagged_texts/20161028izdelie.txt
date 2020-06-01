@@ -1,0 +1,478 @@
+# sent_id = 77170
+# text = Российские военные провели испытания нового гиперзвукового аппарата 15Ю71, также обозначаемого как "изделие 4202".
+1	Российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	obj	_	_
+5	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	гиперзвукового	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+8	15Ю71	15Ю71	NOUN	_	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	обозначаемого	обозначать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+12	как	как	SCONJ	_	_	14	cc	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	advmod	_	_
+15	4202	4202	NUM	_	_	14	nummod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 77171
+# text = Как пишет газета "Известия", аппарат запустили 25 октября 2016 года с Домбаровского полигона в Оренбургской области по полигону Кура на Камчатке.
+1	Как	как	ADV	_	Degree=Pos	9	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+3	газета	газета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Известия	известия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+9	запустили	запустывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	25	25	NUM	_	_	9	nummod	_	_
+11	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	2016	2016	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	Домбаровского	Домбаровский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	полигона	полигон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	Оренбургской	оренбургский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+20	по	по	ADP	_	_	21	case	_	_
+21	полигону	полигон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+22	Кура	Кур	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	Камчатке	камчатка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 77172
+# text = Испытания "изделия 4202", которое должно будет заменить обычные боевые части на перспективных баллистических ракетах, признаны успешными.Из-за быстрого развития систем противоракетной обороны обычные боевые части современных баллистических ракет теряют свою эффективность, поскольку могут быть перехвачены прежде, чем упадут на цель.
+1	Испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj:pass	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	изделия	изделия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+4	4202	4202	NUM	_	_	3	nummod	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	которое	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	19	acl:relcl	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+11	обычные	обычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+12	боевые	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	части	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+14	на	на	ADP	_	_	17	case	_	_
+15	перспективных	перспективный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+16	баллистических	баллистический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	ракетах	ракеты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	признаны	признавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+20	успешными.	успешными.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl:agent	_	SpaceAfter=No
+21	Из-за	из-за	ADP	_	_	23	case	_	_
+22	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+24	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+25	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+28	боевые	боевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	_
+30	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+33	теряют	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	35	amod	_	_
+35	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	поскольку	поскольку	SCONJ	_	_	33	mark	_	_
+38	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	_
+39	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	40	aux:pass	_	_
+40	перехвачены	перехвакать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	38	xcomp	_	_
+41	прежде	прежде	ADV	_	Degree=Pos	40	advmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	чем	чем	SCONJ	_	_	44	mark	_	_
+44	упадут	падать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	38	advmod	_	_
+45	на	на	ADP	_	_	46	case	_	_
+46	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	46	punct	_	SpaceAfter=No
+
+# sent_id = 77173
+# text = Существуют боевые части сложными целями, которые должны "отвлекать на себя" системы наведения ПРО.
+1	Существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	боевые	боевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+4	сложными	сложный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	целями	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	которые	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	отвлекать	отвлекать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	себя	себя	PRON	_	Case=Acc	14	obl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+15	наведения	наведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	ПРО	про	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77174
+# text = Однако и такие блоки уже морально устаревают -- с 2020 года на Аляске заработает американский радар селекции баллистических целей.
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	такие	такой	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	блоки	блок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+5	уже	уже	ADV	_	Degree=Pos	6	advmod	_	_
+6	морально	морально	ADV	_	Degree=Pos	7	advmod	_	_
+7	устаревают	устаревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	--	--	PUNCT	_	_	7	punct	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	2020	2020	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	Аляске	Аляск	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+14	заработает	заработать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	радар	радар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+17	селекции	селекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	целей	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 77175
+# text = Он с высокой долей вероятности сможет отличить ложные цели от ядерных блоков.Новый гиперзвуковой аппарат 15Ю71, вероятно, сможет преодолевать новые системы противоракетной обороны.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	высокой	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	долей	доля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+5	вероятности	вероятность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	отличить	отличивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	ложные	ложной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	цели	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	от	от	ADP	_	_	15	case	_	_
+11	ядерных	ядерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+12	блоков.	блоковадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+13	Новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	гиперзвуковой	гиперзвуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+16	15Ю71	15Ю71	NOUN	_	_	7	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	вероятно	вероятно	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	conj	_	_
+21	преодолевать	преодолевать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	nsubj	_	_
+22	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+23	системы	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+24	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 77176
+# text = Предполагается, что "изделие 4202", характеристики которого засекречены, сможет развивать скорость до 15 чисел Маха (18,5 тысячи километров в час).
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+6	4202	4202	NUM	_	_	5	nummod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+10	которого	который	PRON	_	Case=Gen	9	nmod	_	_
+11	засекречены	засекречивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	advcl	_	_
+14	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	до	до	ADP	_	_	18	case	_	_
+17	15	15	NUM	_	_	18	nummod	_	_
+18	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+19	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	18,5	18,5	NUM	_	_	22	nummod	_	_
+22	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nummod:gov	_	_
+23	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 77177
+# text = Ракета-носитель будет выводить его на высоту около ста километров, откуда аппарат будет пикировать на цель.
+1	Ракета-носитель	Ракета-носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	выводить	выводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	его	оно	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3	3	obj	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	ста	сто	NUM	_	Case=Gen	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	откуда	откуда	ADV	_	Degree=Pos	12	advmod	_	_
+12	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+14	пикировать	пикировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77178
+# text = Перед входом в атмосферу над целью "изделие 4202" должно будет начать маневрировать, чтобы резко снизить вероятность перехвата.Именно сочетание гиперзвуковой скорости и возможности маневрировать, теоретически, должны защитить "изделие 4202" от перехвата.
+1	Перед	перед	ADP	_	_	2	case	_	_
+2	входом	вход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	над	над	ADP	_	_	6	case	_	_
+6	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	4202	4202	NUM	_	_	11	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+14	маневрировать	маневрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+17	резко	резко	ADV	_	Degree=Pos	18	advmod	_	_
+18	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+19	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	перехвата.	перехвата.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	Именно	Именне	ADV	_	Degree=Pos	18	advmod	_	_
+22	сочетание	сочетание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+23	гиперзвуковой	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	conj	_	_
+27	маневрировать	маневрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	dep	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	теоретически	теоретически	ADV	_	Degree=Pos	31	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	18	parataxis	_	_
+32	защитить	защищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	dep	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	изделие	изделие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	_
+35	4202	4202	NUM	_	_	34	nummod	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	35	punct	_	_
+37	от	от	ADP	_	_	38	case	_	_
+38	перехвата	перехват	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 77179
+# text = Первое официальное упоминание о разработке нового гиперзвукового аппарата появилось в 2009 году в отчете о деятельности корпорации "НПО машиностроения".
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	официальное	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	упоминание	упоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	гиперзвукового	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+9	появилось	появляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	2009	2009	NUM	_	_	12	nummod	_	_
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	отчете	отчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	корпорации	корпорация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	НПО	Нпо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	appos	_	_
+20	машиностроения	машиностроение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 77180
+# text = По неподтвержденным данным, к настоящему времени с помощью модифицированных баллистических ракет УР-100Н УТТХ были произведены уже несколько запусков "изделия 4202".Предположительно, "изделие 4202" разрабатывается на базе крылатого гиперзвукового боевого блока, создававшегося в СССР в 1980-х годах по проекту "Альбатрос".
+1	По	по	ADP	_	_	3	case	_	_
+2	неподтвержденным	неподтвержденный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	17	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	к	к	ADP	_	_	7	case	_	_
+6	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+8	с	с	ADP	_	_	12	case	_	_
+9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
+10	модифицированных	модифицировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+11	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+13	УР-	Ур-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+14	100Н	100на	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	УТТХ	УТТх	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	произведены	производить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+18	уже	уже	ADV	_	Degree=Pos	19	advmod	_	_
+19	несколько	несколько	NUM	_	Case=Nom	20	nummod:gov	_	_
+20	запусков	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nsubj:pass	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	изделия	изделия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+23	4202	4202	NUM	_	_	22	nummod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	Предположительно	Предположительно	ADV	_	Degree=Pos	32	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj:pass	_	_
+30	4202	4202	NUM	_	_	29	nummod	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	разрабатывается	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+35	крылатого	крылатый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+36	гиперзвукового	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+37	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	блока	блок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	создававшегося	создавать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	38	amod	_	_
+41	в	в	ADP	_	_	42	case	_	_
+42	СССР	ссср	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	40	obl	_	_
+43	в	в	ADP	_	_	45	case	_	_
+44	1980-х	1980-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	45	amod	_	_
+45	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	40	obl	_	_
+46	по	по	ADP	_	_	47	case	_	_
+47	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	40	obl	_	_
+48	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	Альбатрос	Альбатрос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	47	appos	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 77181
+# text = Этот проект предполагал создание боевого блока, который бы на гиперзвуковой скорости планировал на цель периодически выполняя маневры.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	предполагал	предполагать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	создание	создание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	боевого	боевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	блока	блок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+9	бы	бы	PART	_	Mood=Cnd	13	aux	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	гиперзвуковой	гиперзвуковый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+13	планировал	планировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	периодически	периодически	ADV	_	Degree=Pos	17	advmod	_	_
+17	выполняя	выполнять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+18	маневры	маневр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 77182
+# text = Про боевое оснащение аппарата ничего не известно.
+1	Про	про	ADP	_	_	3	case	_	_
+2	боевое	боевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	оснащение	оснащение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	ничего	ничто	PRON	_	Case=Gen	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 77183
+# text = Вероятно, новый гиперзвуковой аппарат станет стандартным оснащением перспективных тяжелых российских баллистических ракет "Сармат".Сегодня помимо России разработкой гиперзвуковых боевых аппаратов занимаются США и Китай.
+1	Вероятно	вероятно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	гиперзвуковой	гиперзвуковой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	стандартным	стандартный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	оснащением	оснащение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+9	перспективных	перспективный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+10	тяжелых	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+11	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	баллистических	баллистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	ракет	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Сармат	Сармат	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	Сегодня	сегодня	ADV	_	Degree=Pos	21	advmod	_	_
+19	помимо	помимо	ADP	_	_	20	case	_	_
+20	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+21	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	obl	_	_
+22	гиперзвуковых	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+25	занимаются	занимаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+26	США	сша	PROPN	_	Animacy=Inan|Case=Acc|Number=Plur	25	obj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	Китай	китай	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 77184
+# text = В частности, американцы ранее провели несколько испытаний гиперзвуковых планеров HTV-2, способных планировать на цель на скорости до 20 чисел Маха.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	американцы	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	ранее	ранее	ADV	_	Degree=Pos	6	advmod	_	_
+6	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+9	гиперзвуковых	гиперзвуковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	планеров	планер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	HTV-	HTV-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	2	2	NUM	_	_	14	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+15	планировать	планировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	цель	цель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	до	до	ADP	_	_	22	case	_	_
+21	20	20	NUM	_	_	22	nummod	_	_
+22	чисел	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	obl	_	_
+23	Маха	мах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 77185
+# text = Китайцы же испытали собственный гиперзвуковой планирующий летательный аппарат DF-ZF в апреле текущего года.
+1	Китайцы	китаец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	же	же	PART	_	_	1	advmod	_	_
+3	испытали	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+5	гиперзвуковой	гиперзвуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+6	планирующий	планируть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+7	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+9	DF-ZF	Df-zf	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+12	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77186
+# text = США создают гиперзвуковой аппарат в рамках концепции быстрого глобального удара, а Китай -- по программе создания средств преодоления систем противоракетной обороны.Василий Сычёв
+1	США	сша	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	2	nsubj	_	_
+2	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	гиперзвуковой	гиперзвуковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+7	концепции	концепция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	глобального	глобальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	удара	удар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	13	cc	_	_
+13	Китай	китай	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	_
+14	--	--	PUNCT	_	_	13	punct	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	программе	программа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	nmod	_	_
+17	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	средств	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	преодоления	преодоление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	противоракетной	противоракетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	_
+25	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No
+

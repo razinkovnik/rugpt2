@@ -1,0 +1,483 @@
+# sent_id = 88739
+# text = Американские биотехнологи научились управлять активностью генов бактерий с помощью электричества.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	биотехнологи	биотехнолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	научились	научаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	активностью	активность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+6	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	с	с	ADP	_	_	7	case	_	_
+9	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	fixed	_	_
+10	электричества	электричество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 88740
+# text = Бактериальный переключатель, полученный с помощью новой технологии, можно встраивать в биосенсоры, медицинские приборы и различные гаджеты.
+1	Бактериальный	Бактериальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	переключатель	переключатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	полученный	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	_
+7	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	можно	можно	ADV	_	Degree=Pos	0	root	_	SpacesAfter=\n
+11	встраивать	встраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	биосенсоры	биосенсор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	медицинские	медицинский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	приборы	прибор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	гаджеты	гаджет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 88741
+# text = Статья о разработке опубликованав журнале Nature Communications.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	разработке	разработка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+4	опубликованав	опубликованать	VERB	_	Aspect=Imp|Tense=Past|VerbForm=Conv|Voice=Act	0	root	_	_
+5	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+6	Nature	Nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Communications	communications	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 88742
+# text = Бактерии широко применяются в молекулярной биологии, биохимии и генной инженерии.
+1	Бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	_
+2	широко	широко	ADV	_	Degree=Pos	3	advmod	_	_
+3	применяются	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	молекулярной	молекулярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	биологии	биология	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	биохимии	биохимия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	генной	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	инженерии	инженерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 88743
+# text = Самые изученные на сегодняшний день бактерии Escherichia coli с помощью генных модификаций могут синтезировать широкий спектр биомолекул.
+1	Самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+2	изученные	изучать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	Escherichia	escherichia	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	coli	coli	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	_
+11	генных	генный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	SpacesAfter=\n
+12	модификаций	модификация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	синтезировать	синтезировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	широкий	широкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	спектр	спектр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	биомолекул	биомолекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 88744
+# text = Благодаря модифицированным E. coli в промышленных объемах выпускаются аналог инсулина и некоторые ферменты.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	SpacesAfter=\n
+2	модифицированным	модифицировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	E.	E.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+4	coli	coli	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	промышленных	промышленный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	объемах	объем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+8	выпускаются	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	аналог	аналог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	инсулина	инсулин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	SpacesAfter=\n
+12	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+13	ферменты	фермент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 88745
+# text = Помимо промышленного применения, способность E. coli синтезировать необходимые человеку молекулы могла бы пригодиться в компактных системах, работающих "на месте", например, непосредственно в теле человека.
+1	Помимо	помимо	ADP	_	_	3	case	_	_
+2	промышленного	промышленный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	E.	e.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	coli	coli	NUM	_	_	5	nummod	_	_
+8	синтезировать	синтезировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	SpacesAfter=\n
+9	необходимые	необходимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+11	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+12	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	бы	бы	PART	_	Mood=Cnd	12	aux	_	_
+14	пригодиться	пригождаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	компактных	компактный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	системах	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	работающих	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	на	на	ADP	_	_	22	case	_	_
+22	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	например	например	ADV	_	Degree=Pos	27	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	непосредственно	непосредственно	ADV	_	Degree=Pos	29	advmod	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	теле	тело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	parataxis	_	_
+30	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 88746
+# text = Но для идеальной работы таких систем нужен переключатель, который контролировал бы выработку молекул.
+1	Но	но	CCONJ	_	_	7	cc	_	_
+2	для	для	ADP	_	_	4	case	_	_
+3	идеальной	идеальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+5	таких	такой	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpacesAfter=\n
+8	переключатель	переключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	который	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	контролировал	контролировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	бы	бы	PART	_	Mood=Cnd	11	aux	_	_
+13	выработку	выработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 88747
+# text = Такой переключатель, работающий от электрического сигнала, разработали авторы нового исследования.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	переключатель	переключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+5	от	от	ADP	_	_	7	case	_	_
+6	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+11	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 88748
+# text = Они положились на естественную способность E. coli реагировать на окислительный стресс: ситуацию, в которой чрезмерное окисление молекул бактерии угрожает ее жизни.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	положились	ложиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	естественную	естественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+6	E.	e.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+7	coli	coli	NUM	_	_	6	nummod	_	_
+8	реагировать	реагировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	SpacesAfter=\n
+9	на	на	ADP	_	_	11	case	_	_
+10	окислительный	окислительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	стресс	стресс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которой	который	PRON	_	Case=Loc	21	obl	_	_
+17	чрезмерное	чрезмерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	окисление	окисление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+19	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpacesAfter=\n
+21	угрожает	угрожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+22	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+23	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 88749
+# text = У E. coli чувствительный белок SoxR, окисляясь, взаимодействует с участком ДНК, который запускает синтез белков, регулирующих дыхательную активность бактерии, и помогает ей справиться с окислительным стрессом.
+1	У	у	ADP	_	_	5	case	_	_
+2	E.	e.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+3	coli	coli	NUM	_	_	5	nummod	_	_
+4	чувствительный	чувствительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	SoxR	Soxr	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	окисляясь	окисляться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	взаимодействует	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	с	с	ADP	_	_	12	case	_	SpacesAfter=\n
+12	участком	участок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	запускает	запускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+17	синтез	синтез	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	регулирующих	регулировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+21	дыхательную	дыхательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpacesAfter=\n
+23	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+27	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	26	obl	_	_
+28	справиться	справляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	26	xcomp	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	окислительным	окислительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	стрессом	стресс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 88750
+# text = Ученые использовали эту естественную систему чувствительности для того, чтобы управлять экспрессией любых требуемых генов.
+1	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+4	естественную	естественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+11	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	advcl	_	_
+12	экспрессией	экспрессия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	любых	любой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	требуемых	требуемый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 88751
+# text = После введения подходящих управляющих элементов в геном, модифицированные бактерии в ответ на окислительный стресс начинали синтезировать не только "противоокислительные" белки, но и те, что были введены учеными.
+1	После	после	ADP	_	_	2	case	_	_
+2	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+3	подходящих	подходять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+4	управляющих	управлять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	геном	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	модифицированные	модифицировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	окислительный	окислительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	стресс	стресс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	начинали	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	синтезировать	синтезировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	только	только	PART	_	_	21	advmod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	противоокислительные	противоокислительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	белки	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	но	но	CCONJ	_	_	27	cc	_	_
+26	и	и	PART	_	_	27	advmod	_	_
+27	те	тот	DET	_	Case=Nom|Number=Plur	0	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	PRON	_	Case=Nom	31	nsubj	_	_
+30	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	введены	вводить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	27	acl:relcl	_	_
+32	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 88752
+# text = Окислительный стресс при этом создавался с помощью простого электрода, введенного в питательную среду: когда на электрод подавали положительный заряд, переносчики электронов окисляли белок SoxR и запускали механизм борьбы со стрессом и экспрессию генов дополнительных белков.
+1	Окислительный	Окислительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	стресс	стресс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+5	создавался	создаваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	с	с	ADP	_	_	9	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	простого	простой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	электрода	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	введенного	вводить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	питательную	питательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+16	когда	когда	SCONJ	_	_	0	mark	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	электрод	электрод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+19	подавали	подавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	_
+20	положительный	положительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	заряд	заряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	переносчики	переносчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+24	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	окисляли	окислять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+26	белок	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	SoxR	Soxr	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	запускали	запускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+30	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+31	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	со	с	ADP	_	_	33	case	_	_
+33	стрессом	стресс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	nmod	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	conj	_	_
+36	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
+37	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+38	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 88753
+# text = При отключении электрода экспрессия прекращалась.
+1	При	при	ADP	_	_	2	case	_	_
+2	отключении	отключение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	электрода	электрод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	экспрессия	экспрессия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	прекращалась	прекращаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 88754
+# text = Таким образом, исследователи разработали "электрогенетический переключатель" устройство, которое может регулировать экспрессию генов с помощью электрического сигнала.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	электрогенетический	электрогенетический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	переключатель	переключатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которое	который	PRON	_	Case=Acc	13	obj	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	экспрессию	экспрессия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	с	с	ADP	_	_	16	case	_	_
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	_
+19	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 88755
+# text = Встраивая разные гены, кодирующие нужные белки, ученые добились того, что E. coli флуоресцировали и двигались по сигналу.
+1	Встраивая	Встраивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	SpacesAfter=\n
+2	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	кодирующие	кодировать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+6	нужные	нужный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	белки	белка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	добились	добиваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	E.	e.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	coli	coli	NUM	_	_	16	nummod	_	_
+16	флуоресцировали	флуоресцировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	SpacesAfter=\n
+18	двигались	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	16	conj	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	сигналу	сигнал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 88756
+# text = Ученые считают, что благодаря простоте и вариативности эта конструкция может найти применение в медицинской сфере и в области биотехнологий уже в течение пары лет.
+1	Ученые	ученый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	простоте	простот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	вариативности	вариативность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	SpacesAfter=\n
+10	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+12	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	медицинской	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	conj	_	SpacesAfter=\n
+20	биотехнологий	биотехнология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	уже	уже	ADV	_	Degree=Pos	24	advmod	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	_
+24	пары	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+25	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 88757
+# text = Устройство можно будет встраивать, например, в автономные и полуавтономные системы, пригодные для диагностики и терапии заболеваний: при обнаружении патогенных бактерий такая система сможет оперативно изготовить антибиотик и сразу же ввести его в кровь пациента.Бактерии применяются не только в производстве биомолекул, пищевой промышленности и медицине.
+1	Устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	встраивать	встраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	в	в	ADP	_	_	12	case	_	_
+9	автономные	автономный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	полуавтономные	полуавтономный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	conj	_	_
+12	системы	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	пригодные	пригодный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+15	для	для	ADP	_	_	14	case	_	_
+16	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	SpacesAfter=\n
+19	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	19	punct	_	_
+21	при	при	ADP	_	_	22	case	_	_
+22	обнаружении	обнаружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+23	патогенных	патогенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+25	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
+26	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	SpacesAfter=\n
+27	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+28	оперативно	оперативно	ADV	_	Degree=Pos	29	advmod	_	_
+29	изготовить	изготовлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+30	антибиотик	антибиотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+31	и	и	CCONJ	_	_	34	cc	_	_
+32	сразу	сразу	ADV	_	Degree=Pos	34	advmod	_	_
+33	же	же	PART	_	_	32	advmod	_	_
+34	ввести	вводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	conj	_	_
+35	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	obj	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obl	_	_
+38	пациента.	пациента.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+39	Бактерии	Бактерия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	_
+40	применяются	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+41	не	не	PART	_	_	42	advmod	_	_
+42	только	только	PART	_	_	44	advmod	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	obl	_	_
+45	биомолекул	биомолекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	44	nmod	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	45	punct	_	SpacesAfter=\n
+47	пищевой	пищевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	48	amod	_	_
+48	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	conj	_	_
+49	и	и	CCONJ	_	_	50	cc	_	_
+50	медицине	медицина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	SpaceAfter=No
+
+# sent_id = 88758
+# text = Их используют даже в строительстве, например при производстве цемента.Анна Маньшина
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	даже	даже	PART	_	_	5	advmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	строительстве	строительство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	например	например	ADV	_	Degree=Pos	9	advmod	_	SpacesAfter=\n
+8	при	при	ADP	_	_	9	case	_	_
+9	производстве	производство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	parataxis	_	_
+10	цемента.	цемента.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	Анна	Анн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Маньшина	Маньшин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+

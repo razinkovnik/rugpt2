@@ -1,0 +1,238 @@
+# sent_id = 77368
+# text = ВВС США заказали разработку новой системы управления, которая позволит отдавать команды стаям беспилотных летательных аппаратов жестами.
+1	ВВС	ввс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpacesBefore=\n
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	заказали	заказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+11	отдавать	отдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	команды	команда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+13	стаям	стая	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+14	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	жестами	жест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 77369
+# text = Как сообщает Flightglobal, разработкой системы управления занялось Экспериментальное подразделение оборонных инноваций Пентагона и несколько компаний игровой индустрии.Современные военные беспилотники управляются портативными станциями или из пунктов управления.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Flightglobal	Flightglobal	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	занялось	заняться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	Экспериментальное	Экспериментальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+11	оборонных	оборонный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	инноваций	инновация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	Пентагона	пентагон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	несколько	несколько	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	conj	_	_
+17	игровой	игровый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	индустрии.	индустрии.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+19	Современные	Современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+20	военные	военный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	беспилотники	беспилотник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+22	управляются	управлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+23	портативными	портативный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	станциями	станция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	22	obl	_	_
+25	или	или	CCONJ	_	_	27	cc	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	пунктов	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	_
+28	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 77370
+# text = Пока такое оборудование позволяет контролировать только отдельные аппараты.
+1	Пока	пока	SCONJ	_	_	4	advmod	_	_
+2	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 77371
+# text = Некоторые лаборатории занимаются разработкой специального программного обеспечения, которое позволит беспилотникам объединяться в стаи, а такими стаями можно будет управлять из одного наземного пункта.По оценке военных, управление беспилотными стаями взмахами руки существенно упростит использование беспилотных стай.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	программного	программный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	advcl	_	_
+11	беспилотникам	беспилотник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+12	объединяться	объединяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	стаи	стай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	а	а	CCONJ	_	_	19	cc	_	_
+17	такими	такой	DET	_	Case=Ins|Number=Plur	18	amod	_	_
+18	стаями	стаь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	19	obl	_	_
+19	можно	можно	ADV	_	Degree=Pos	3	conj	_	_
+20	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+21	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+22	из	из	ADP	_	_	25	case	_	_
+23	одного	один	NUM	_	Case=Gen|Gender=Masc	25	nummod	_	_
+24	наземного	наземной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	пункта.	пункта.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+26	По	по	ADP	_	_	27	case	_	_
+27	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+28	военных	военный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	управление	управление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	_
+31	беспилотными	беспилотный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
+32	стаями	стай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	30	nmod	_	_
+33	взмахами	взмах	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	32	nmod	_	_
+34	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
+35	существенно	существенно	ADV	_	Degree=Pos	36	advmod	_	_
+36	упростит	упрощать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+37	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	36	obj	_	_
+38	беспилотных	беспилотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+39	стай	стать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	36	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 77372
+# text = ВВС США рассчитывают, что новая технология на первом этапе будет реализована для разведывательных беспилотников, а также аппаратов, используемых для радиоэлектронной борьбы.
+1	ВВС	ввс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	рассчитывают	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	разведывательных	разведывательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	беспилотников	беспилотник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+19	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	19	amod	_	_
+22	для	для	ADP	_	_	24	case	_	_
+23	радиоэлектронной	радиоэлектронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 77373
+# text = Позднее таким же образом военные начнут управлять ударными аппаратами.Осенью прошлого года исследователи из лаборатории ARSENL испытали программное обеспечение, которое позволяет беспилотникам объединяться в стаи.
+1	Позднее	поздно	ADV	_	Degree=Cmp	6	advmod	_	_
+2	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+5	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	ударными	ударный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	аппаратами	аппарат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+12	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	ARSENL	Arsenl	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	испытали	испытывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+19	программное	программный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	которое	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+24	беспилотникам	беспилотник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
+25	объединяться	объединяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	23	xcomp	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	стаи	стай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 77374
+# text = Во время испытаний в группу объединились 50 аппаратов, которыми управлял один оператор при помощи наземной станции.Благодаря взаимодействию беспилотники способны самостоятельно выбирать лидера стаи и делить между собой задачи, в то время как оператор дает только общее задание для группы дронов.
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	группу	группа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	объединились	объединаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	50	50	NUM	_	_	8	nummod	_	_
+8	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которыми	который	PRON	_	Case=Ins	11	obl	_	_
+11	управлял	управлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	один	один	NUM	_	Case=Nom|Gender=Masc	13	nummod:gov	_	_
+13	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+14	при	при	ADP	_	_	17	case	_	_
+15	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	fixed	_	_
+16	наземной	наземный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	станции.	станциианица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	Благодаря	благодаря	ADP	_	_	19	case	_	_
+19	взаимодействию	взаимодействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	беспилотники	беспилотник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	6	conj	_	_
+22	самостоятельно	самостоятельно	ADV	_	Degree=Pos	23	advmod	_	_
+23	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	dep	_	_
+24	лидера	лидер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+25	стаи	стай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	делить	делить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	conj	_	_
+28	между	между	ADP	_	_	29	case	_	_
+29	собой	себя	PRON	_	Case=Ins	27	obl	_	_
+30	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	в	в	ADP	_	_	37	advmod	_	_
+33	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	fixed	_	_
+34	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	fixed	_	_
+35	как	как	SCONJ	_	_	34	fixed	_	_
+36	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+37	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+38	только	только	PART	_	_	39	advmod	_	_
+39	общее	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	задание	задание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+41	для	для	ADP	_	_	42	case	_	_
+42	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+43	дронов	дрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 77375
+# text = В случае, если несколько аппаратов из состава стаи выбывают, остальные перестраивают свою работу с учетом потерь.Василий Сычёв
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	13	mark	_	_
+5	несколько	несколько	NUM	_	Case=Nom	6	nummod:gov	_	_
+6	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	состава	состав	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	стаи	стая	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	выбывают	выбывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	nsubj	_	_
+13	перестраивают	перестраивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	с	с	ADP	_	_	15	case	_	_
+17	учетом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+18	потерь	потеря	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+21	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+

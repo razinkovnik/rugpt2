@@ -1,0 +1,680 @@
+# sent_id = 79309
+# text = Американские зоологи обнаружили, что самцы шимпанзе (Pan troglodytes) уделяют гораздо больше внимания своим детенышам, чем считалось ранее.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+7	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Pan	Pan	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpacesAfter=\n
+10	troglodytes	troglodytes	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	уделяют	уделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	SpacesAfter=\n
+13	гораздо	гораздо	ADV	_	Degree=Pos	14	advmod	_	_
+14	больше	больше	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+15	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+16	своим	свой	DET	_	Case=Dat|Number=Plur	17	amod	_	_
+17	детенышам	детеныш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	чем	чем	SCONJ	_	_	20	cc	_	_
+20	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	advmod	_	_
+21	ранее	ранее	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79310
+# text = Они проводят много времени со своим отпрыском и его матерью, особенно в первый год жизни детеныша.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	много	много	ADV	_	Degree=Pos	4	nummod:gov	_	SpacesAfter=\n
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	со	с	ADP	_	_	7	case	_	_
+6	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	7	amod	_	_
+7	отпрыском	отпрыск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	матерью	мать	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	особенно	особенно	ADV	_	Degree=Pos	2	advmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+16	жизни	жизня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	детеныша	детеныш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79311
+# text = Исследование опубликовано в Royal Society Open Science.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+3	в	в	ADP	_	_	4	case	_	_
+4	Royal	royal	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	Society	society	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Open	open	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Science	science	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 79312
+# text = Как самцы, так и самки шимпанзе, как и многие другие приматы, в течение жизни спариваются с разными особями и не образуют пары на период выращивания детенышей.
+1	Как	как	ADV	_	Degree=Pos	2	cc	_	_
+2	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	так	так	ADV	_	Degree=Pos	6	advmod	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	самки	самок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+7	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	как	как	SCONJ	_	_	13	cc	_	_
+10	и	и	PART	_	_	13	advmod	_	SpacesAfter=\n
+11	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+12	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	приматы	примат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+18	спариваются	спариваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	с	с	ADP	_	_	21	case	_	_
+20	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	особями	особь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	не	не	PART	_	_	24	advmod	_	SpacesAfter=\n
+24	образуют	образовывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+25	пары	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
+26	на	на	ADP	_	_	27	case	_	_
+27	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+28	выращивания	выращивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpacesAfter=\n
+29	детенышей	детенышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 79313
+# text = У приматов, образующих моногамные пары, самцы заботятся о своих детенышах и тем самым обеспечивают более высокую выживаемость своего потомства.
+1	У	у	ADP	_	_	2	case	_	_
+2	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	образующих	образовывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	SpacesAfter=\n
+5	моногамные	моногамной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	пары	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	заботятся	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	о	о	ADP	_	_	12	case	_	_
+11	своих	свой	DET	_	Case=Loc|Number=Plur	12	amod	_	SpacesAfter=\n
+12	детенышах	детеныша	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+15	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+16	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpacesAfter=\n
+17	более	более	ADV	_	Degree=Cmp	18	advmod	_	_
+18	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	выживаемость	выживаемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+20	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	21	amod	_	SpacesAfter=\n
+21	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 79314
+# text = В то же время ученые долгое время считали, что самцы промискуитетных приматов не тратят время на заботу о детенышах, так как они не знают их ли это отпрыск.
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+8	считали	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+12	промискуитетных	промискуитетный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpacesAfter=\n
+13	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	тратят	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+16	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+17	на	на	ADP	_	_	16	case	_	_
+18	заботу	забота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	о	о	ADP	_	_	20	case	_	SpacesAfter=\n
+20	детенышах	детенышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	так	так	ADV	_	Degree=Pos	0	mark	_	_
+23	как	как	SCONJ	_	_	22	fixed	_	_
+24	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	26	nsubj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+27	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	26	obj	_	_
+28	ли	ли	PART	_	_	27	advmod	_	SpacesAfter=\n
+29	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	_
+30	отпрыск	отпрыск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	parataxis	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 79315
+# text = Однако, в других исследованиях было показано, что самцы приматов, ведущих промискуитетный образ жизни (например, мандриллы или капуцины), способны узнавать своих детенышей, заботиться о них и защищать их.
+1	Однако	однако	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	SpacesAfter=\n
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+11	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	ведущих	вести	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	промискуитетный	промискуитетный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	образ	образ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\n
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	например	например	ADV	_	Degree=Pos	20	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	мандриллы	мандрилла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	parataxis	_	SpacesAfter=\n
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	капуцины	капуцина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+25	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	_
+26	узнавать	узнавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	dep	_	_
+27	своих	свой	DET	_	Case=Acc|Number=Plur	28	amod	_	_
+28	детенышей	детеныш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\n
+30	заботиться	заботиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	dep	_	_
+31	о	о	ADP	_	_	32	case	_	_
+32	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	30	obl	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	conj	_	_
+35	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	34	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 79316
+# text = Так, самцы желтых бабуинов во время конфликтов действуют "от имени" своего отпрыска.
+1	Так	так	ADV	_	Degree=Pos	9	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	желтых	желтой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	бабуинов	бабуин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	во	во	ADP	_	_	8	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	конфликтов	конфликты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter=\n
+9	действуют	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	от	от	ADP	_	_	12	case	_	_
+12	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	15	amod	_	_
+15	отпрыска	отпрыско	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 79317
+# text = Детенышам пустынных бабуинов в присутствии отца достается больше еды.
+1	Детенышам	Детеныш	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpacesAfter=\n
+2	пустынных	пустынный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	бабуинов	бабуин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	присутствии	присутствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+6	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpacesAfter=\n
+7	достается	доставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+8	больше	много	NUM	_	_	9	nummod:gov	_	_
+9	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 79318
+# text = С другой стороны, самцы приматов могут уделять внимание детенышу в расчете на последующую "благосклонность" самки.
+1	С	с	ADP	_	_	3	case	_	_
+2	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	SpacesAfter=\n
+6	приматов	примат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	уделять	уделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	детенышу	детеныша	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpacesAfter=\n
+11	в	в	ADP	_	_	12	case	_	_
+12	расчете	расчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+13	на	на	ADP	_	_	16	case	_	_
+14	последующую	последующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	благосклонность	благосклонность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	самки	самка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 79319
+# text = Исследование обезьян-маготов показало, что самцы, которые заботились о каком-то детеныше, потом чаще спаривались с его матерью, чем менее "заботливые" особи.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	обезьян-маготов	обезьян-магот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\n
+3	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	заботились	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	16	acl:relcl	_	_
+10	о	о	ADP	_	_	12	case	_	_
+11	каком-то	какой-то	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	SpacesAfter=\n
+12	детеныше	детеныш	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	потом	потом	ADV	_	Degree=Pos	16	advmod	_	_
+15	чаще	часто	ADV	_	Degree=Cmp	16	advmod	_	_
+16	спаривались	спариваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	SpacesAfter=\n
+19	матерью	мать	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	чем	чем	SCONJ	_	_	24	cc	_	_
+22	менее	менее	ADV	_	Degree=Cmp	24	advmod	_	_
+23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	заботливые	заботливый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	24	punct	_	_
+26	особи	особи	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79320
+# text = Исследования взаимоотношений отцов со своим потомством у человекообразных обезьян проводились намного реже.
+1	Исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	SpacesAfter=\n
+2	взаимоотношений	взаимоотношение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	отцов	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	со	с	ADP	_	_	6	case	_	_
+5	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing	6	amod	_	_
+6	потомством	потомство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+7	у	у	ADP	_	_	9	case	_	_
+8	человекообразных	человекообразный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	обезьян	обезьянин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+10	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+11	намного	намного	ADV	_	Degree=Pos	12	advmod	_	_
+12	реже	редко	ADV	_	Degree=Cmp	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79321
+# text = Известно, что детеныши шимпанзе рождаются совершенно беспомощными.
+1	Известно	известный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	детеныши	детеныш	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	рождаются	рождаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	SpacesAfter=\n
+7	совершенно	совершенно	ADV	_	Degree=Pos	8	advmod	_	_
+8	беспомощными	беспомощный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 79322
+# text = В первые пять-шесть месяцев жизни они висят на животе у матери, вцепившись в ее шерсть.
+1	В	в	ADP	_	_	5	case	_	_
+2	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	SpacesAfter=\n
+3	пять-	пять-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	шесть	шесть	NUM	_	Case=Acc	5	nummod:gov	_	_
+5	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+6	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	висят	висеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	на	на	ADP	_	_	10	case	_	SpacesAfter=\n
+10	животе	живот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	вцепившись	вцепляться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	8	advcl	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
+17	шерсть	шерсть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79323
+# text = Чаще всего детеныши погибают в первые полгода жизни, причем их могут убивать взрослые особи из той же группы, к которой принадлежит самка с детенышем.
+1	Чаще	часто	ADV	_	Degree=Cmp	4	advmod	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	детеныши	детеныш	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpacesAfter=\s\s
+4	погибают	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	SpacesAfter=\n
+7	полгода	полгод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	_
+8	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	причем	причем	CCONJ	_	_	12	cc	_	_
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obj	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	убивать	убивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	SpacesAfter=\n
+14	взрослые	взрослой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	из	из	ADP	_	_	19	case	_	_
+17	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+18	же	же	PART	_	_	17	advmod	_	_
+19	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	которой	который	PRON	_	Case=Dat	23	obl	_	SpacesAfter=\n
+23	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+24	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	детенышем	детеныш	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 79324
+# text = Самцы убивают детеныша, во-видимому, для того, чтобы у самки быстрее наступил эструс и она могла бы спариваться; если чужого детеныша убивает самка, это, по мнению зоологов, может быть связано с иерархией (у доминантных самок детеныши погибают реже).
+1	Самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\n
+2	убивают	убивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	детеныша	детеныш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	во-видимому	во-видимый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	самки	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+13	быстрее	быстро	ADV	_	Degree=Cmp	14	advmod	_	_
+14	наступил	наступлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+15	эструс	эструс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpacesAfter=\n
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+18	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
+19	бы	бы	PART	_	Mood=Cnd	18	aux	_	_
+20	спариваться	спариваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	SpaceAfter=No
+21	;	;	PUNCT	_	_	20	punct	_	_
+22	если	если	SCONJ	_	_	20	mark	_	_
+23	чужого	чужой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpacesAfter=\n
+24	детеныша	детеныш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+25	убивает	убивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+26	самка	самка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	44	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	по	по	ADP	_	_	31	case	_	SpacesAfter=\n
+31	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	34	parataxis	_	_
+32	зоологов	зоолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	parataxis	_	_
+35	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	36	aux:pass	_	_
+36	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	44	xcomp	_	SpacesAfter=\n
+37	с	с	ADP	_	_	38	case	_	_
+38	иерархией	иерархия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	44	obl	_	_
+39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	у	у	ADP	_	_	42	case	_	_
+41	доминантных	доминантный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	самок	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	44	obl	_	_
+43	детеныши	детеныша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	SpacesAfter=\n
+44	погибают	погибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	conj	_	_
+45	реже	редко	ADV	_	Degree=Cmp	44	parataxis	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
+# sent_id = 79325
+# text = В единственной работе, посвященной изучению подвида западных шимпанзе (Pan troglodytes verus), обитающих в Западной Африке, было показано, что самцы чаще играют со своими детенышами, чем с чужими, и они менее агрессивны по отношению к их матери, чем посторонние самцы.
+1	В	в	ADP	_	_	3	case	_	_
+2	единственной	единственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	посвященной	посвящать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+6	изучению	изучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+7	подвида	подвид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	западных	западный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	SpacesAfter=\n
+9	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Pan	Pan	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpacesAfter=\n
+12	troglodytes	troglodytes	X	_	Foreign=Yes	11	flat:foreign	_	_
+13	verus	verus	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+16	обитающих	обитать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	Западной	западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	Африке	африка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	aux:pass	_	SpacesAfter=\n
+22	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	что	что	SCONJ	_	_	22	mark	_	_
+25	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+26	чаще	часто	ADV	_	Degree=Cmp	27	advmod	_	_
+27	играют	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	_
+28	со	с	ADP	_	_	30	case	_	SpacesAfter=\n
+29	своими	свой	DET	_	Case=Ins|Number=Plur	30	amod	_	_
+30	детенышами	детеныш	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	чем	чем	SCONJ	_	_	34	cc	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	чужими	чужой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	и	и	CCONJ	_	_	39	cc	_	_
+37	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	39	nsubj	_	SpacesAfter=\n
+38	менее	менее	ADV	_	Degree=Cmp	39	advmod	_	_
+39	агрессивны	агрессивный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	27	conj	_	_
+40	по	по	ADP	_	_	44	case	_	_
+41	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	40	fixed	_	_
+42	к	к	ADP	_	_	41	fixed	_	_
+43	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	44	nmod	_	SpacesAfter=\n
+44	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	чем	чем	SCONJ	_	_	48	cc	_	_
+47	посторонние	посторонний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	48	amod	_	_
+48	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	44	advmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+
+# sent_id = 79326
+# text = В новой работе, исследователи решили проверить, ведут ли себя похожим образом самцы другого подвида шимпанзе -- восточного.
+1	В	в	ADP	_	_	3	case	_	SpacesAfter=\n
+2	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+7	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	ли	ли	PART	_	_	9	advmod	_	_
+11	себя	себя	PRON	_	Case=Acc	9	obj	_	_
+12	похожим	похожий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\n
+14	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+15	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	подвида	подвид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
+18	--	--	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	восточного	восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79327
+# text = Этот подвид обитает в центральной и восточной Африке и его ареал не пересекается с ареалом западного подвида.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	подвид	подвид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	обитает	обитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	8	case	_	SpacesAfter=\n
+5	центральной	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	восточной	восточный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
+8	Африке	африка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	SpacesAfter=\n
+11	ареал	ареал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	пересекается	пересекаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	ареалом	ареал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+16	западного	западный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	SpacesAfter=\n
+17	подвида	подвид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79328
+# text = Кроме того, исследователи хотели подтвердить или опровергнуть предположение о том, что самцы заботятся о детеныше не для того, чтобы его защитить, а чтобы иметь больше шансов на спаривание с его матерью.Ученые собрали результаты наблюдений за группой шимпанзе в Национальном парке Гомбе в Танзании за 25 лет (1989-2013 годы).
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+5	хотели	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	подтвердить	дтвердить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	опровергнуть	опровергать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+9	предположение	предположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	заботятся	заботиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	38	advcl	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	детеныше	детеныша	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	не	не	PART	_	_	17	advmod	_	_
+19	для	для	ADP	_	_	20	case	_	SpacesAfter=\n
+20	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	_
+23	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	24	obj	_	_
+24	защитить	защищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	а	а	CCONJ	_	_	24	cc	_	_
+27	чтобы	чтобы	SCONJ	_	Mood=Cnd	24	mark	_	_
+28	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	advcl	_	SpacesAfter=\n
+29	больше	много	NUM	_	_	30	nummod:gov	_	_
+30	шансов	шанс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	спаривание	спаривание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+33	с	с	ADP	_	_	35	case	_	_
+34	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	35	nmod	_	SpacesAfter=\n
+35	матерью	мать	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	Ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	38	nsubj	_	_
+38	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+39	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	38	obj	_	_
+40	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	39	nmod	_	SpacesAfter=\n
+41	за	за	ADP	_	_	42	case	_	_
+42	группой	группа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	nmod	_	_
+43	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	в	в	ADP	_	_	46	case	_	_
+45	Национальном	национальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	SpacesAfter=\n
+46	парке	парк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	nmod	_	_
+47	Гомбе	Гомбе	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	Танзании	Танзания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	38	obl	_	_
+50	за	за	ADP	_	_	52	case	_	_
+51	25	25	NUM	_	_	52	nummod	_	_
+52	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	49	nmod	_	_
+53	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
+54	1989	1989	NUM	_	_	56	nummod	_	SpaceAfter=No
+55	-2013	-2013	NUM	_	_	56	nummod	_	SpacesAfter=\n
+56	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	52	parataxis	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	56	punct	_	SpaceAfter=No
+
+# sent_id = 79329
+# text = В исследовании рассматривалось поведение самцов и детенышей, чьи родственные связи были подтверждены генетически.
+1	В	в	ADP	_	_	2	case	_	_
+2	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	рассматривалось	рассматриваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+4	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	детенышей	детенышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чьи	чей	DET	_	Case=Nom|Number=Plur	11	amod	_	SpacesAfter=\n
+10	родственные	родственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	связи	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	подтверждены	подтверждать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	SpacesAfter=\n
+14	генетически	генетически	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 79330
+# text = Наблюдатели следовали либо за парой мать-детеныш, либо за самцом в течение дня и фиксировали, сколько времени самец проводит со своим отпрыском и как он себя при этом ведет.
+1	Наблюдатели	наблюдатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	следовали	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+3	либо	либо	CCONJ	_	_	5	cc	_	_
+4	за	за	ADP	_	_	5	case	_	_
+5	парой	пара	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	мать-детеныш	мать-детеныша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	либо	либо	CCONJ	_	_	10	cc	_	_
+9	за	за	ADP	_	_	10	case	_	SpacesAfter=\n
+10	самцом	самец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	фиксировали	фиксировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+17	сколько	сколько	ADV	_	Degree=Pos	18	nummod:gov	_	_
+18	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+19	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	проводит	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+21	со	с	ADP	_	_	23	case	_	_
+22	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	23	amod	_	SpacesAfter=\n
+23	отпрыском	отпрыск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	obl	_	_
+24	и	и	CCONJ	_	_	30	cc	_	_
+25	как	как	ADV	_	Degree=Pos	30	advmod	_	_
+26	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+27	себя	себя	PRON	_	Case=Acc	30	obj	_	_
+28	при	при	ADP	_	_	29	case	_	_
+29	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	_
+30	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 79331
+# text = Для сравнения авторы работы изучали поведение самцов по отношению к парам мать-детеныш, в которых ни мать, ни детеныш не являлись родственниками самца.
+1	Для	для	ADP	_	_	2	case	_	_
+2	сравнения	сравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	изучали	изучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	по	по	ADP	_	_	11	case	_	_
+9	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	fixed	_	_
+10	к	к	ADP	_	_	9	fixed	_	_
+11	парам	пары	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	SpacesAfter=\n
+12	мать-детеныш	мать-детеныш	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	которых	который	PRON	_	Case=Loc	22	obl	_	_
+16	ни	ни	PART	_	_	17	advmod	_	_
+17	мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	ни	ни	CCONJ	_	_	20	cc	_	SpacesAfter=\n
+20	детеныш	детеныш	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	являлись	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+23	родственниками	родственник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	obl	_	SpacesAfter=\n
+24	самца	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79332
+# text = Наблюдения за взаимоотношениями самец-детеныш продолжались до тех пор, пока детенышу не исполнилось примерно 3,5 года.
+1	Наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	взаимоотношениями	взаимоотношение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	1	nmod	_	SpacesAfter=\n
+4	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	-детеныш	-детеныш	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+6	продолжались	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	тех	тот	DET	_	Case=Gen|Number=Plur	9	amod	_	_
+9	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	пока	пока	SCONJ	_	_	6	mark	_	_
+12	детенышу	детеныш	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	исполнилось	исполнаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+15	примерно	примерно	ADV	_	Degree=Pos	16	advmod	_	SpacesAfter=\n
+16	3,5	3,5	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79333
+# text = Всего исследователи изучили 15 самцов и 49 пар мать-детеныш, при этом самец был отцом 27 детенышей.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	изучили	изучивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	15	15	NUM	_	_	5	nummod	_	SpacesAfter=\n
+5	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	49	49	NUM	_	_	8	nummod	_	_
+8	пар	пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+9	мать-детеныш	мать-детеныша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	при	при	ADP	_	_	12	case	_	_
+12	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	SpacesAfter=\n
+13	самец	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	_
+15	отцом	отец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	parataxis	_	_
+16	27	27	NUM	_	_	17	nummod	_	_
+17	детенышей	детенышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+

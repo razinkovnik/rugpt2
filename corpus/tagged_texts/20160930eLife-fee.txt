@@ -1,0 +1,360 @@
+# sent_id = 73077
+# text = Общедоступный рецензируемый научный журнал eLife ввел плату запубликацию статей.
+1	Общедоступный	Общедоступный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesBefore=\n
+2	рецензируемый	рецензируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	amod	_	_
+3	научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	eLife	eLife	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ввел	вводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	плату	плата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpacesAfter=\n
+8	запубликацию	запубликация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 73078
+# text = Решение вступит всилу 1января 2017года, говорится в редакционном материале.
+1	Решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	вступит	вступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	всилу	всила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	1января	1январь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	2017года	2017годь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+8	в	в	ADP	_	_	10	case	_	SpacesAfter=\n
+9	редакционном	редакционный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 73079
+# text = Журнал eLife был основан в2012году.
+1	Журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	eLife	eLife	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	основан	основать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в2012году	в2012год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 73080
+# text = Согласно концепции, ондолжен облегчить распространение исследовательских данных, путем отбора статей наилучшего качества, упрощения иускорения процесса рецензирования (вредакцию издания входят только действующие ученые, консультирующие авторов; среднее время принятия работы для публикации составило в2015 году 116дней).
+1	Согласно	согласно	ADP	_	_	2	case	_	SpacesAfter=\n
+2	концепции	концепция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ондолжен	ондолжен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	облегчить	облегчать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	исследовательских	исследовательской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	путем	путем	ADP	_	_	11	case	_	SpacesAfter=\n
+11	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	_
+12	статей	стати	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	наилучшего	наилучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	качества	качество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	упрощения	упрощение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	_
+17	иускорения	иускорение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	процесса	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpacesAfter=\n
+19	рецензирования	рецензирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	вредакцию	вредакция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	parataxis	_	_
+22	издания	издание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	только	только	PART	_	_	25	advmod	_	_
+25	действующие	действовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+26	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	консультирующие	консультировать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	SpacesAfter=\n
+29	авторов	автор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+30	;	;	PUNCT	_	_	29	punct	_	_
+31	среднее	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+33	принятия	принятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+35	для	для	ADP	_	_	36	case	_	_
+36	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	_
+37	составило	составлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+38	в2015	в2015	NUM	_	_	39	nummod	_	SpacesAfter=\n
+39	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	_	_
+40	116дней	116день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 73081
+# text = Все работы снабжаются кратким конспектом надоступном языке иэкспертными комментариями.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	снабжаются	снабжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	кратким	краткий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	конспектом	конспект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+6	надоступном	надоступный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=\n
+7	языке	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	иэкспертными	иэкспертный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	_
+9	комментариями	комментарий	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl:agent	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 73082
+# text = Зачетыре года инвесторы иоснователи журнала-- американский Медицинский институт Говарда Хьюза, британский Фонд Wellcome инемецкое Общество имени Макса Планка-- вложили виздание 18миллионов фунтов стерлингов (примерно около 23,4 миллиона долларов потекущему курсу).
+1	Зачетыре	Зачетыре	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+2	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	инвесторы	инвестор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	иоснователи	иоснователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	appos	_	SpacesAfter=\n
+5	журнала-	журнала-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+8	Медицинский	медицинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+10	Говарда	Говард	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Хьюза	Хьюз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	британский	британский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Фонд	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	SpacesAfter=\n
+15	Wellcome	Wellcome	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	инемецкое	инемецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	Общество	общество	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	appos	_	_
+18	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	Макса	макс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	Планка-	Планка-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	вложили	вкладывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+23	виздание	виздание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	18миллионов	18миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	примерно	примерно	ADV	_	Degree=Pos	32	advmod	_	_
+29	около	около	ADP	_	_	32	case	_	_
+30	23,4	23,4	NUM	_	_	31	nummod	_	_
+31	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nummod:gov	_	SpacesAfter=\n
+32	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	parataxis	_	_
+33	потекущему	потекущий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	курсу	курс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	32	parataxis	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 73083
+# text = После этого они приняли решение продолжить финансирование, начто с2017 по2022 год уйдет 25миллионов фунтов стерлингов (более 32,5 миллиона долларов).
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	приняли	принимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	продолжить	продолжать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	dep	_	SpacesAfter=\n
+7	финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	начто	начто	SCONJ	_	_	4	mark	_	_
+10	с2017	с2017	NUM	_	_	12	nummod	_	_
+11	по2022	по2022	NUM	_	_	12	nummod	_	_
+12	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+13	уйдет	уйдать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+14	25миллионов	25миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpacesAfter=\n
+15	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	более	более	ADV	_	Degree=Cmp	21	advmod	_	_
+19	32,5	32,5	NUM	_	_	20	nummod	_	_
+20	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nummod:gov	_	_
+21	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73084
+# text = Как следует изсообщения, поводом для введения платы за публикации стал рост числа присланных статей ипубликаций, обработка которых требует дополнительных средств (издание ежегодно публикует насвоем сайте финансовые отчеты скомментариями).
+1	Как	как	ADV	_	Degree=Pos	11	mark	_	_
+2	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+3	изсообщения	изсообщение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	conj	_	_
+8	платы	плата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	за	за	ADP	_	_	10	case	_	SpacesAfter=\n
+10	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	присланных	прислать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	статей	стать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+16	ипубликаций	ипубликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+19	которых	который	PRON	_	Case=Gen	18	nmod	_	SpacesAfter=\n
+20	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+21	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	obl	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+25	ежегодно	ежегодно	ADV	_	Degree=Pos	26	advmod	_	_
+26	публикует	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+27	насвоем	насвой	DET	_	Case=Loc|Gender=Masc|Number=Sing	28	amod	_	_
+28	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	SpacesAfter=\n
+29	финансовые	финансовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+30	отчеты	отчет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+31	скомментариями	скомментария	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 73085
+# text = Также предполагается, что это позволит журналу направить часть спонсорских денег нацели, несвязанные непосредственно средакционной работой, такие как разработка новых открытых продуктов и сервисов для улучшения научных связей (например, eLife Continuum), повышение удобства работы сизданием (например, eLife Lens reader) идругие.
+1	Также	также	ADV	_	Degree=Pos	2	advmod	_	_
+2	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	advcl	_	SpacesAfter=\n
+7	журналу	журнал	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+8	направить	направлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+9	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	спонсорских	спонсорский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	нацели	нацеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	несвязанные	несвязанный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+15	непосредственно	непосредственне	ADV	_	Degree=Pos	16	advmod	_	SpacesAfter=\n
+16	средакционной	средакционный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	работой	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	такие	такой	DET	_	Case=Nom|Number=Plur	38	amod	_	_
+20	как	как	SCONJ	_	_	21	cc	_	_
+21	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	advmod	_	_
+22	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	открытых	открытой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+25	и	и	CCONJ	_	_	26	cc	_	SpacesAfter=\n
+26	сервисов	сервис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	улучшения	улучшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	научных	научный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	например	например	ADV	_	Degree=Pos	34	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	eLife	eLife	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+35	Continuum	Continuum	PROPN	_	Foreign=Yes	34	flat:foreign	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	35	punct	_	_
+38	повышение	повышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	SpacesAfter=\n
+39	удобства	удобство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	38	nmod	_	_
+40	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+41	сизданием	сиздание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	conj	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	например	например	ADV	_	Degree=Pos	49	parataxis	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	eLife	eLife	PROPN	_	Foreign=Yes	49	flat:foreign	_	_
+46	Lens	Lens	PROPN	_	Foreign=Yes	45	flat:foreign	_	_
+47	reader	reader	PROPN	_	Foreign=Yes	46	flat:foreign	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	_
+49	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	41	parataxis	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 73086
+# text = Сначала 2017 году закаждую публикацию вeLife придется платить 2500долларов.
+1	Сначала	сначала	ADV	_	Degree=Pos	3	advmod	_	_
+2	2017	2017	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+4	закаждую	закаждый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	публикацию	публикация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	вeLife	вeLife	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	придется	приходиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+8	платить	платить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+9	2500долларов	2500доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 73087
+# text = Порасчетам издателей, средняя себестоимость статьи в 2017 году составит 3085 фунтов стерлингов, изкоторых 1287 фунтов -- фиксированная цена (расходы наобработку статьи, дополнительные материалы, маркетинг) и1798 фунтов средняя маржинальная стоимость, идущая назарплаты сотрудников, техническую поддержку идругие нужды.
+1	Порасчетам	Порасчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+2	издателей	издатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	себестоимость	себестоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	SpacesAfter=\n
+8	2017	2017	NUM	_	_	9	nummod	_	_
+9	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+10	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	3085	3085	NUM	_	_	12	nummod	_	SpacesAfter=\n
+12	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	стерлингов	стерлинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	изкоторых	изкоторой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+16	1287	1287	NUM	_	_	17	nummod	_	_
+17	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+18	--	--	PUNCT	_	_	17	punct	_	SpacesAfter=\n
+19	фиксированная	фиксировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	расходы	расход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	parataxis	_	_
+23	наобработку	наобработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	_
+24	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	материалы	материал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	маркетинг	маркетинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpacesAfter=\n
+31	и1798	и1798	NUM	_	_	32	nummod	_	_
+32	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpacesAfter=\n
+33	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+34	маржинальная	маржинальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+35	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	идущая	идти	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+38	назарплаты	назарплата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	35	conj	_	_
+39	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	техническую	технический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	SpacesAfter=\n
+42	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+43	идругие	идругой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	44	amod	_	_
+44	нужды	нужда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	42	nsubj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	SpaceAfter=No
+
+# sent_id = 73088
+# text = Заявленная плата запубликацию должна покрыть маржинальную стоимость инебольшую часть фиксированной.
+1	Заявленная	заявлять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	плата	плата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	запубликацию	запубликация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+5	покрыть	крыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	dep	_	SpacesAfter=\n
+6	маржинальную	маржинальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	инебольшую	инебольший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	фиксированной	фиксировать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 73089
+# text = Издатели отмечают, что для ученых, которые невсостоянии внести указанную сумму будут сделаны исключения-- ихстатьи будут публиковаться бесплатно.
+1	Издатели	издатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	невсостоянии	невсостояния	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpacesAfter=\n
+10	внести	вносить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	указанную	указать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	сумму	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	сделаны	сделавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+15	исключения	исключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	ихстатьи	ихстатей	DET	_	Case=Nom|Number=Plur	20	nsubj	_	_
+19	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	публиковаться	публиковаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	conj	_	SpacesAfter=\n
+21	бесплатно	бесплатно	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 73090
+# text = Предполагается, что таких материалов окажется около 10процентов.
+1	Предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	таких	такой	DET	_	Case=Gen|Number=Plur	5	amod	_	_
+5	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+6	окажется	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+7	около	около	ADP	_	_	8	case	_	_
+8	10процентов	10процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+

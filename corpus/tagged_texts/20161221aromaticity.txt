@@ -1,0 +1,131 @@
+# sent_id = 85666
+# text = Химики из Оксфордского университета синтезировали вещество с рекордным размером ароматического молекулярного кольца.
+1	Химики	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	4	case	_	_
+3	Оксфордского	оксфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	синтезировали	синтезировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	вещество	вещество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	с	с	ADP	_	_	9	case	_	SpacesAfter=\n
+8	рекордным	рекордный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+10	ароматического	ароматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+11	молекулярного	молекулярной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	кольца	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85667
+# text = Олигомер порфирина содержит в своей системе 78 сопряженных электронов, в полтора раза больше, чем у предыдущего рекордсмена.
+1	Олигомер	Олигомер	ADV	_	Degree=Pos	3	advmod	_	_
+2	порфирина	порфирина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	6	amod	_	_
+6	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+7	78	78	NUM	_	_	9	nummod	_	_
+8	сопряженных	сопрягать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	полтора	полтора	NUM	_	Case=Acc|Gender=Masc	13	nummod:gov	_	_
+13	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	больше	большой	ADJ	_	Degree=Cmp	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чем	чем	SCONJ	_	_	19	cc	_	SpacesAfter=\n
+17	у	у	ADP	_	_	19	case	_	_
+18	предыдущего	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	рекордсмена	рекордсмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 85668
+# text = По словам авторов, такие системы позволяют выяснить, чем токи в молекулах отличаются от токов в наноразмерных металлических и полупроводниковых кольцах.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	чем	чем	SCONJ	_	_	11	cc	_	_
+11	токи	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	молекулах	молекула	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	nmod	_	_
+14	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	токов	ток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	в	в	ADP	_	_	22	case	_	_
+18	наноразмерных	наноразмерный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+19	металлических	металлический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	SpacesAfter=\n
+21	полупроводниковых	полупроводниковой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	conj	_	_
+22	кольцах	кольец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 85669
+# text = Исследование опубликовано в журнале Nature.
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Nature	nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85670
+# text = Ароматичность -- важное свойство органических соединений, связанное с устройством их электронной структуры.
+1	Ароматичность	Ароматичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	важное	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	свойство	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	органических	органический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+8	связанное	связывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	устройством	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+12	электронной	электронный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	структуры	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 85671
+# text = Помимо высокой химической стабильности, в ароматических соединениях существуют кольцевые токи, частично экранирующие центральную часть молекулы от магнитных полей.
+1	Помимо	помимо	ADP	_	_	4	case	_	_
+2	высокой	высокий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+4	стабильности	стабильность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	ароматических	ароматический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	8	amod	_	_
+8	соединениях	соединение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_
+9	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	кольцевые	кольцевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	токи	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	частично	частично	ADV	_	Degree=Pos	14	advmod	_	_
+14	экранирующие	экранируть	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	SpacesAfter=\n
+15	центральную	центральный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+17	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	от	от	ADP	_	_	20	case	_	_
+19	магнитных	магнитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	полей	поле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85672
+# text = Типичный представитель ароматических соединений -- бензол, молекула из шести атомов углерода.
+1	Типичный	типичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\n
+3	ароматических	ароматический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	бензол	бензола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	молекула	молекуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	из	из	ADP	_	_	11	case	_	_
+10	шести	шесть	NUM	_	Case=Gen	11	nummod	_	_
+11	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+12	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

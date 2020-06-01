@@ -1,0 +1,481 @@
+# sent_id = 89805
+# text = Американские ученые создали систему искусственного интеллекта, которая умеет отличать родинки от некоторых видов рака кожи лучше врачей.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+10	отличать	отличать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	родинки	родинок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	от	от	ADP	_	_	14	case	_	_
+13	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	14	amod	_	_
+14	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+15	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	кожи	кожь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	лучше	хорошо	ADV	_	Degree=Cmp	0	advmod	_	_
+18	врачей	врач	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 89806
+# text = Работа исследователей опубликована вжурнале Nature.
+1	Работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Nature	nature	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 89807
+# text = Напротяжении последних десятилетий число людей, укоторых обнаруживают рак кожи, постоянно увеличивается.
+1	Напротяжении	Напротяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+2	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	десятилетий	десятилетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	укоторых	укоторый	PRON	_	Case=Acc	8	obj	_	_
+8	обнаруживают	обнаруживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	рак	рак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	постоянно	постоянно	ADV	_	Degree=Pos	13	advmod	_	_
+13	увеличивается	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89808
+# text = Поданным Всемирной организации здравоохранения, раком кожи страдает каждый третий онкологический больной, а каждый пятый американец заболеет им в течение жизни.
+1	Поданным	поданный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+2	Всемирной	всемирный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	организации	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	раком	рак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	_
+7	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	страдает	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	третий	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	онкологический	онкологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	больной	больной	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+16	пятый	пятый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	американец	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpacesAfter=\s\n
+18	заболеет	заболеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+19	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	18	obl	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 89809
+# text = Это заболевание особенно опасно тем, что злокачественное образование легко не заметить и спутать с родинкой.
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	особенно	особенне	ADV	_	Degree=Pos	4	advmod	_	_
+4	опасно	опасть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	злокачественное	злокачественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	образование	образование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	_
+10	легко	легко	ADV	_	Degree=Pos	11	advmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	заметить	замечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	спутать	спутановиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	conj	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	родинкой	родинка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 89810
+# text = При этом, если вовремя обратить внимание на опухоль, шансы на выздоровление резко увеличиваются.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	если	если	SCONJ	_	_	2	mark	_	_
+5	вовремя	вовремя	ADV	_	Degree=Pos	6	advmod	_	_
+6	обратить	обращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	dep	_	_
+7	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	опухоль	опухоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	шансы	шанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpacesAfter=\s\n
+12	на	на	ADP	_	_	13	case	_	_
+13	выздоровление	выздоровление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	резко	резко	ADV	_	Degree=Pos	15	advmod	_	_
+15	увеличиваются	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 89811
+# text = Пациенты, у которых находят меланому (самый распространенный и злокачественный вид опухоли) на ранней стадии развития, выживают в 97 процентах случаев, в то время как при поздней диагностике заболевания эта доля сокращается до 14 процентов.Основным способом первичного выявления рака кожи до сих пор остается визуальный осмотр (закоторым обычно следует дерматоскопия или биопсия).
+1	Пациенты	пациент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	которых	который	PRON	_	Case=Gen	5	obl	_	_
+5	находят	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	меланому	меланый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	распространенный	распространенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	злокачественный	злокачественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
+12	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+13	опухоли	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpacesAfter=\n\s
+15	на	на	ADP	_	_	17	case	_	_
+16	ранней	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	стадии	стадия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+18	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	выживают	выживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	97	97	NUM	_	_	23	nummod	_	_
+23	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	_
+24	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	в	в	ADP	_	_	32	cc	_	_
+27	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	fixed	_	_
+28	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	fixed	_	SpacesAfter=\s\n
+29	как	как	SCONJ	_	_	28	fixed	_	_
+30	при	при	ADP	_	_	32	case	_	_
+31	поздней	поздний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	диагностике	диагностика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_
+33	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+34	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	35	amod	_	_
+35	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+36	сокращается	сокращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	SpacesAfter=\s\n
+37	до	до	ADP	_	_	39	case	_	_
+38	14	14	NUM	_	_	39	nummod	_	_
+39	процентов.	процентовент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+40	Основным	основной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	36	obl	_	_
+42	первичного	первичной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
+43	выявления	выявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	_
+44	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+45	кожи	кожь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_
+46	до	до	ADP	_	_	49	advmod	_	_
+47	сих	сей	DET	_	Case=Gen|Number=Plur	46	fixed	_	_
+48	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	47	fixed	_	_
+49	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+50	визуальный	визуальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+51	осмотр	осмотр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	55	nsubj	_	_
+52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	закоторым	закоторый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+54	обычно	обычно	ADV	_	Degree=Pos	55	advmod	_	_
+55	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	49	parataxis	_	_
+56	дерматоскопия	дерматоскопия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	55	nsubj	_	_
+57	или	или	CCONJ	_	_	58	cc	_	_
+58	биопсия	биопсия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	56	conj	_	SpaceAfter=No
+59	)	)	PUNCT	_	_	58	punct	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	58	punct	_	SpaceAfter=No
+
+# sent_id = 89812
+# text = Чтобы помочь пациентам самостоятельно обнаружить злокачественное образование наранней стадии, ученые изСтэнфордского университета создали систему искусственного интеллекта, которая анализирует фотографии "подозрительных" родинок.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+2	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+3	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	самостоятельно	самостоятельно	ADV	_	Degree=Pos	5	advmod	_	_
+5	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+6	злокачественное	злокачественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+8	наранней	наранний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	стадии	стадия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+12	изСтэнфордского	изСтэнфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которая	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	анализирует	анализировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+21	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	подозрительных	подозрительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	родинок	родинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 89813
+# text = Авторы новой работы использовали сверточную нейросеть Inceptionv3, которая была ранее разработана компанией Google.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сверточную	сверточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	Inceptionv3	Inceptionv3	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+11	ранее	ранее	ADV	_	Degree=Pos	12	advmod	_	_
+12	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+13	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+14	Google	гугл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 89814
+# text = Исследователи удалили ееверхний слой иобучили систему, изначально ориентированную нараспознавание различных объектов, определять некоторые виды рака кожи -- меланому и карциному.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	удалили	удалять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ееверхний	ееверхний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	слой	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	иобучили	иобучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	изначально	изначально	ADV	_	Degree=Pos	9	advmod	_	_
+9	ориентированную	ориентировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	нараспознавание	нараспознавание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	obj	_	_
+11	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	dep	_	_
+15	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	16	amod	_	_
+16	виды	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+17	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	меланому	меланый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	карциному	карциный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 89815
+# text = Для этого они использовали 130 тысяч фотографий более двух тысяч различных кожных заболеваний.После того, как программа научилась ставить диагноз, ееработу сравнили сработой двух ведущих дерматологов США.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	130	130	NUM	_	_	6	nummod	_	_
+6	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+7	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	более	более	ADV	_	Degree=Cmp	10	nummod:gov	_	_
+9	двух	два	NUM	_	Case=Gen	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+11	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+12	кожных	кожный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	После	после	ADP	_	_	16	case	_	_
+16	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	как	как	SCONJ	_	_	16	mark	_	_
+19	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	научилась	научаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	advcl	_	_
+21	ставить	ставить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	диагноз	диагноз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	ееработу	ееработа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+25	сравнили	сравнать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	сработой	сработа	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+27	двух	два	NUM	_	Case=Gen	29	nummod	_	_
+28	ведущих	ведущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	дерматологов	дерматолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+30	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 89816
+# text = Анализ показал, что система нетолько справляется нехуже специалистов, ноипревосходитих: нейросеть верно отличала родинки отзлокачественной меланомы икарциномы в72процентах случаев, втовремя как врачи успешно справились сзаданием лишь в66процентах случаев.
+1	Анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	нетолько	нетолько	ADV	_	Degree=Pos	7	advmod	_	_
+7	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	нехуже	плонехой	ADV	_	Degree=Cmp	7	advmod	_	_
+9	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ноипревосходитих	ноипревосходитихий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	amod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	верно	верно	ADV	_	Degree=Pos	15	advmod	_	_
+15	отличала	отличать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+16	родинки	родинок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	отзлокачественной	отзлокачественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	меланомы	меланома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	икарциномы	икарциномый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+20	в72процентах	в72процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	_
+21	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	втовремя	втовремя	ADV	_	Degree=Pos	25	advmod	_	_
+24	как	как	SCONJ	_	_	23	fixed	_	_
+25	врачи	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+26	успешно	успешно	ADV	_	Degree=Pos	27	advmod	_	_
+27	справились	справляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+28	сзаданием	сзадание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+29	лишь	лишь	PART	_	_	30	advmod	_	_
+30	в66процентах	в66процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	27	obl	_	_
+31	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 89817
+# text = Дополнительная проверка нейросети, вкоторой принял участие уже 21специалист, также показала, что, чувствительность и специфичность алгоритма (которая отражает способность корректно определить доброкачественную и злокачественную опухоль) не уступает чувствительности и специфичности дерматологов.Вбудущем компьютерная программа может быть адаптирована для смартфона или планшета, ипозволит любому желающему пройти первичную диагностику рака кожи.
+1	Дополнительная	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вкоторой	вкоторый	PRON	_	Case=Ins	6	obl	_	_
+6	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	21специалист	21специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+12	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чувствительность	чувствительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	специфичность	специфичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+19	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	которая	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	отражает	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis	_	_
+23	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	корректно	корректно	ADV	_	Degree=Pos	25	advmod	_	_
+25	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+26	доброкачественную	доброкачественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	злокачественную	злокачественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	conj	_	_
+29	опухоль	опухоль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	уступает	уступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+33	чувствительности	чувствительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	специфичности	специфичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	conj	_	_
+36	дерматологов.	дерматологовадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	SpaceAfter=No
+37	Вбудущем	вбудущем	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+38	компьютерная	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+40	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	48	parataxis	_	_
+41	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	42	aux:pass	_	_
+42	адаптирована	адаптироывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	xcomp	_	_
+43	для	для	ADP	_	_	44	case	_	_
+44	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	obl	_	_
+45	или	или	CCONJ	_	_	46	cc	_	_
+46	планшета	планшет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	ипозволит	ипозволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	_
+49	любому	любой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	желающему	желать	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	48	xcomp	_	_
+51	пройти	проходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	50	dep	_	_
+52	первичную	первичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
+53	диагностику	диагностика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	51	obj	_	_
+54	рака	рак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	SpaceAfter=No
+
+# sent_id = 89818
+# text = Тем неменее, доэтого момента системе будет необходимо пройти еще много дополнительных проверок.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	доэтого	доэвать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	системе	система	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	пройти	проходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	еще	еще	ADV	_	Degree=Pos	11	advmod	_	_
+11	много	много	ADV	_	Degree=Pos	13	nummod:gov	_	_
+12	дополнительных	дополнительной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	проверок	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 89819
+# text = Так, помнению авторов статьи, программа может плохо справляться сопределением редких типов типов карцином имеланом, покаким-либо причинам неокрашенным вчерный или коричневый цвет.Недавно американские ученые также создали алгоритм, который успешно справляется с ранней диагностикой меланомы.
+1	Так	так	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	помнению	помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+4	авторов	автор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	плохо	плохо	ADV	_	Degree=Pos	10	advmod	_	_
+10	справляться	справляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	xcomp	_	_
+11	сопределением	сопределение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	_
+12	редких	редкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	карцином	карцин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl:agent	_	_
+16	имеланом	имелан	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	покаким-	покаким-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	либо	либо	CCONJ	_	_	20	cc	_	_
+20	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	31	conj	_	_
+21	неокрашенным	неокрашенный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	_
+22	вчерный	вчерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	коричневый	коричневый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	conj	_	_
+25	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	Недавно	недавно	ADV	_	Degree=Pos	31	advmod	_	_
+28	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+30	также	также	ADV	_	Degree=Pos	31	advmod	_	_
+31	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+32	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	который	который	PRON	_	Case=Nom	36	nsubj	_	_
+35	успешно	успешно	ADV	_	Degree=Pos	36	advmod	_	_
+36	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	acl:relcl	_	_
+37	с	с	ADP	_	_	39	case	_	_
+38	ранней	ранний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	диагностикой	диагностика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	obl	_	_
+40	меланомы	меланома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 89820
+# text = В ходе эксперимента система смогла правильно определить меланому в 98 процентах случаев.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	эксперимента	эксперимент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+4	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	смогла	мочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	правильно	правильно	ADV	_	Degree=Pos	7	advmod	_	_
+7	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	SpacesAfter=\n
+8	меланому	меланый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	98	98	NUM	_	_	11	nummod	_	_
+11	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+12	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 89821
+# text = В то же время специфичность алгоритма оказалась не такой высокой -- диагностика доброкачественных образований была проведена верно лишь в 36 процентах случаев.Кристина Уласович
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+5	специфичность	специфичность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	алгоритма	алгоритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	10	amod	_	_
+10	высокой	высока	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	диагностика	диагностика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpacesAfter=\n
+13	доброкачественных	доброкачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	образований	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	проведена	проводить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+17	верно	верно	ADV	_	Degree=Pos	21	advmod	_	_
+18	лишь	лишь	PART	_	_	17	advmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	36	36	NUM	_	_	21	nummod	_	_
+21	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+22	случаев.	случаевей	DET	_	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+23	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+

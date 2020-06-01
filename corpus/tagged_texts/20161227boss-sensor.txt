@@ -1,0 +1,46 @@
+# sent_id = 86449
+# text = Разработчик Хироки Накаяма (Hiroki Nakayama) создал нейросеть, которая при приближении начальника автоматически прячет все окна нарабочем столе, выводя наэкран заданную пользователем картинку.
+1	Разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpacesBefore=\n
+2	Хироки	Хирока	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Накаяма	Накаяма	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Hiroki	Hiroki	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	Nakayama	Nakayama	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нейросеть	нейросеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	16	nsubj	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	приближении	приближение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+14	начальника	начальник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	автоматически	автоматически	ADV	_	Degree=Pos	16	advmod	_	_
+16	прячет	прякать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+17	все	весь	DET	_	Case=Acc|Number=Plur	18	amod	_	_
+18	окна	окно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+19	нарабочем	нарабочий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	столе	стол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	выводя	выводить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+23	наэкран	наэкран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+24	заданную	задавать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+25	пользователем	пользователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl:agent	_	_
+26	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 86450
+# text = Осистеме, которая получила название Boss Sensor, программист рассказывает всвоем блоге.
+1	Осистеме	Осистема	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	которая	который	PRON	_	Case=Nom	4	nsubj	_	_
+4	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	Boss	Boss	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Sensor	Sensor	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	программист	программист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	рассказывает	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	всвоем	всвой	DET	_	Case=Loc|Gender=Masc|Number=Sing	12	amod	_	_
+12	блоге	блог	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+

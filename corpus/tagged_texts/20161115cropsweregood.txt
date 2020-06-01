@@ -1,0 +1,456 @@
+# sent_id = 79467
+# text = Американец Джо Джоунз, работавший в компании iRobot и создавший робота-пылесоса Roomba, разработал нового робота, предназначенного для выпалывания сорняков на огороде.
+1	Американец	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpacesBefore=\n
+2	Джо	джо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Джоунз	Джоунз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	работавший	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	amod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	компании	компания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	iRobot	iRobot	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	создавший	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
+11	робота-	робота-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	пылесоса	пылесос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+13	Roomba	roomba	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	нового	новый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	предназначенного	предназначать	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	выпалывания	выпалывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+22	сорняков	сорняк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	огороде	огород	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 79468
+# text = Как пишет MIT Technology Review, начать серийное производство новых аппаратов и их продажу разработчик планирует в 2017 году.
+1	Как	как	ADV	_	Degree=Pos	16	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+3	MIT	Mit	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Technology	technology	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Review	Review	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+8	серийное	серийный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	производство	производство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	продажу	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+15	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	2017	2017	NUM	_	_	19	nummod	_	_
+19	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 79469
+# text = Их стоимость составит 250 долларов за штуку.Во многих странах мира сегодня ведется активная разработка различных роботов, которые помогут фермерам лучше выращивать и оберегать урожай.
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	250	250	NUM	_	_	5	nummod	_	_
+5	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	за	за	ADP	_	_	7	case	_	_
+7	штуку	штука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	Во	в	ADP	_	_	11	case	_	_
+10	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+12	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	сегодня	сегодня	ADV	_	Degree=Pos	14	advmod	_	_
+14	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+15	активная	активный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+17	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+21	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	фермерам	фермер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+23	лучше	хорошо	ADV	_	Degree=Cmp	24	advmod	_	_
+24	выращивать	выращивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+25	и	и	CCONJ	_	_	26	cc	_	_
+26	оберегать	оберегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	conj	_	_
+27	урожай	урожай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 79470
+# text = Такие аппараты позволят автоматизировать некоторые виды работ.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	позволят	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	автоматизировать	автоматизировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	6	amod	_	_
+6	виды	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 79471
+# text = В апреле текущего года Япония представила программу, согласно которой каждый ушедший на пенсию фермер будет заменен роботами.
+1	В	в	ADP	_	_	2	case	_	_
+2	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Япония	япония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	представила	представять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	согласно	согласно	ADP	_	_	10	case	_	_
+10	которой	который	PRON	_	Case=Dat	17	obl	_	_
+11	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+12	ушедший	уходить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	пенсию	пенсия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	фермер	фермер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	заменен	заменать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+18	роботами	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	obl:agent	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 79472
+# text = Для этого в стране создаются 20 новых типов аппаратов.Новый робот Джоунза, получивший название Tertill, представляет собой относительно простой аппарат.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	создаются	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	20	20	NUM	_	_	8	nummod	_	_
+7	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	типов	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	аппаратов.	аппаратовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	Новый	Новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+12	Джоунза	Джоунз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	получивший	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	amod	_	_
+15	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	Tertill	Tertill	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+19	собой	себя	PRON	_	Case=Ins	18	dep	_	_
+20	относительно	относительно	ADP	_	_	22	case	_	_
+21	простой	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 79473
+# text = Он оснащен аккумулятором, солнечной батареей для подзарядки, триммером с леской и несколькими датчиками приближения.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj:pass	_	_
+2	оснащен	оснаскать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	аккумулятором	аккумулятор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	солнечной	солнечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	батареей	батарея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	conj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	триммером	триммер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	_
+11	с	с	ADP	_	_	15	case	_	_
+12	леской	леский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	несколькими	несколько	NUM	_	Case=Ins	12	conj	_	_
+15	датчиками	датчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	nmod	_	_
+16	приближения	приближение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 79474
+# text = Аппарат способен передвигаться по огороду на четырех наклонных колесах, с помощью которых может передвигаться по сложной местности.При обнаружении сорняка робот включает триммер и срезает его.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	передвигаться	передвигаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	dep	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	огороду	огород	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	на	на	ADP	_	_	9	case	_	_
+7	четырех	четыре	NUM	_	Case=Loc	9	nummod	_	_
+8	наклонных	наклонный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	колесах	колесы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	fixed	_	_
+13	которых	который	PRON	_	Case=Gen	14	obl	_	_
+14	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+15	передвигаться	передвигаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	сложной	сложный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	местности	местность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	При	при	ADP	_	_	21	case	_	_
+21	обнаружении	обнаружение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+22	сорняка	сорняк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+24	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+25	триммер	триммер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	срезает	срезавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
+28	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 79475
+# text = Программное обеспечение настроено довольно просто: сорняком робот считает любое растение, проходящее в его клиренс.
+1	Программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	настроено	настраивать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	довольно	довольно	ADV	_	Degree=Pos	5	advmod	_	_
+5	просто	просто	PART	_	_	3	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	сорняком	сорняок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+8	робот	робота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+10	любое	любой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	растение	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	проходящее	проходить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	в	в1	ADP	_	_	16	case	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	клиренс	клиренс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 79476
+# text = Расстояние от поверхности земли до днища робота составляет три сантиметра.
+1	Расстояние	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	от	от	ADP	_	_	3	case	_	_
+3	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	до	до	ADP	_	_	6	case	_	_
+6	днища	днище	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	три	три	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	сантиметра	сантиметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79477
+# text = При этом робот способен объезжать высокие растения и сетку, огораживающую еще не взошедшие посевы.По словам Джоунза, когда робот будет готов к серийному производству, он получит две дополнительные функции.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+3	робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	объезжать	объезжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	dep	_	_
+6	высокие	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	растения	растение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	сетку	сетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	огораживающую	огораживать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+12	еще	еще	ADV	_	Degree=Pos	11	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	взошедшие	взоходить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	amod	_	_
+15	посевы	посев	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	По	по	ADP	_	_	18	case	_	_
+18	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	30	parataxis	_	_
+19	Джоунза	Джоунз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	когда	когда	SCONJ	_	_	18	mark	_	_
+22	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	готов	готовый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	18	advcl	_	_
+25	к	к	ADP	_	_	27	case	_	_
+26	серийному	серийный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	производству	производство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+30	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+31	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	33	nummod:gov	_	_
+32	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	функции	функция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 79478
+# text = Он сможет передавать на смартфон владельца информацию о состоянии посевов и почвы.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	передавать	передавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	смартфон	смартфон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	владельца	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	посевов	посев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	почвы	почва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 79479
+# text = Кроме того, аппарат будет работать пугалом, распугивая кроликов или белок, которые могут повредить посевам.По мнению разработчика, основавшего компанию Franklin Robotics для производства Tertill, новый робот будет интересен любителям робототехники, а также фермерам, выращивающим растения без применения удобрений и средств против сорняков.В середине июня текущего года американский инженер Рори Аронсон представил робота-садовника, способного самостоятельно сажать и поливать растения, а также следить за садом.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+7	пугалом	пугал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	распугивая	распугивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+10	кроликов	кролик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	белок	белка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	повредить	вредить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	nsubj	_	_
+17	посевам.	посевам.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+18	По	по	ADP	_	_	19	case	_	_
+19	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	33	parataxis	_	_
+20	разработчика	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	основавшего	основавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	amod	_	_
+23	компанию	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	Franklin	franklin	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Robotics	Robotics	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+28	Tertill	Tertill	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	cop	_	_
+33	интересен	интересный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	obl	_	_
+34	любителям	любитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	33	nmod	_	_
+35	робототехники	робототехника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	а	а	CCONJ	_	_	39	cc	_	_
+38	также	также	ADV	_	Degree=Pos	39	advmod	_	_
+39	фермерам	фермер	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	59	parataxis	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	выращивающим	выращивать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	42	amod	_	_
+42	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	59	nsubj	_	_
+43	без	без	ADP	_	_	44	case	_	_
+44	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	obl	_	_
+45	удобрений	удобрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	59	nmod	_	_
+46	и	и	CCONJ	_	_	47	cc	_	_
+47	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	59	conj	_	_
+48	против	против	ADP	_	_	51	case	_	_
+49	сорняков.	сорняковей	DET	_	Case=Gen|Gender=Masc|Number=Sing	51	amod	_	SpaceAfter=No
+50	В	в	ADP	_	_	51	case	_	_
+51	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	59	obl	_	_
+52	июня	июень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	59	obl	_	_
+53	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	54	amod	_	_
+54	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	_
+55	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	56	amod	_	_
+56	инженер	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	59	nsubj	_	_
+57	Рори	Рори	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	56	appos	_	_
+58	Аронсон	Аронсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	57	flat:name	_	_
+59	представил	представлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	parataxis	_	_
+60	робота-садовника	робота-садовник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	59	obj	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	способного	способный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	60	amod	_	_
+63	самостоятельно	самостоятельно	ADV	_	Degree=Pos	62	advmod	_	_
+64	сажать	сажать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	62	dep	_	_
+65	и	и	CCONJ	_	_	66	cc	_	_
+66	поливать	поливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	64	conj	_	_
+67	растения	растение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	66	obj	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	67	punct	_	_
+69	а	а	CCONJ	_	_	71	cc	_	_
+70	также	также	ADV	_	Degree=Pos	71	advmod	_	_
+71	следить	следить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	64	conj	_	_
+72	за	за	ADP	_	_	73	case	_	_
+73	садом	сад	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	71	obl	_	SpaceAfter=No
+74	.	.	PUNCT	_	_	73	punct	_	SpaceAfter=No
+
+# sent_id = 79480
+# text = Аппарат представляет собой раму с подвижными по ширине и высоте штангами.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собой	себя	PRON	_	Case=Ins	2	dep	_	_
+4	раму	рама	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	подвижными	подвижная	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	ширине	ширина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	высоте	высота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	conj	_	_
+11	штангами	штанг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 79481
+# text = На этих штангах закреплены сменные насадки для посадки семян, полива и удаления сорняков.Управлять роботом можно с помощью смартфона или настольного компьютера.
+1	На	на	ADP	_	_	3	case	_	_
+2	этих	этот	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+3	штангах	штанг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+4	закреплены	закреплать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	сменные	сменный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	насадки	насадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	посадки	посадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	семян	семя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	полива	полив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	удаления	удаление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	_
+14	сорняков.	сорняковей	DET	_	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	Управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	dep	_	_
+16	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	_
+17	можно	можно	ADV	_	Degree=Pos	4	conj	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	fixed	_	_
+20	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+21	или	или	CCONJ	_	_	23	cc	_	_
+22	настольного	настольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	компьютера	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 79482
+# text = С помощью специального приложения пользователь может выбрать растения, которые следует посадить, и места для них.
+1	С	с	ADP	_	_	4	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+5	пользователь	пользователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	выбрать	выбирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	растения	растение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 79483
+# text = Собрать робота можно самостоятельно, его проект опубликован на GitHub.
+1	Собрать	собирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	nsubj	_	_
+2	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+4	самостоятельно	самостоятельно	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+7	проект	проект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	опубликован	опубликовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	GitHub	GitHub	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 79484
+# text = При самостоятельной сборке в зависимости от метариалов стоимость робота может составить от 1,5 до четырех тысяч долларов.Василий Сычёв
+1	При	при	ADP	_	_	3	case	_	_
+2	самостоятельной	самостоятельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	сборке	сборка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	метариалов	метариал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+8	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	составить	составлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	1,5	1,5	NUM	_	_	11	nummod	_	_
+14	до	до	ADP	_	_	16	case	_	_
+15	четырех	четыре	NUM	_	Case=Gen	16	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+17	долларов.	долларовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+19	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
+

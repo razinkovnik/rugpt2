@@ -1,0 +1,502 @@
+# sent_id = 78773
+# text = Американские ученые пришли квыводу, что напостепенное уменьшение доли ДНК неандертальцев вгеноме современных людей повлияла изначальная разница вчисленностях ихпопуляций.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	квыводу	квывода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	3	mark	_	_
+7	напостепенное	напостепенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpacesAfter=\n
+8	уменьшение	уменьшение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	obj	_	_
+9	доли	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	вгеноме	вгеноме	ADP	_	_	14	case	_	_
+13	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+15	повлияла	повлиимать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	SpacesAfter=\n
+16	изначальная	изначальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+18	вчисленностях	вчисленность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	nmod	_	_
+19	ихпопуляций	ихпопуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78774
+# text = Результаты работы опубликованы вжурнале PLOS Genetics.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	PLOS	Plos	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Genetics	Genetics	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 78775
+# text = Неандертальцы разделились спредками людей современного типа более полумиллиона лет назад.
+1	Неандертальцы	неандерталец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	разделились	разделаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	спредками	спредка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+4	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	современного	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\n
+7	более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+8	полумиллиона	полумиллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	назад	назад	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78776
+# text = Спустя сотни тысяч лет раздельного обитания их популяции встретились вновь около 65--47 тысяч лет назад испаривались друг с другом.
+1	Спустя	спустя	ADP	_	_	2	case	_	_
+2	сотни	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
+3	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	раздельного	раздельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	SpacesAfter=\n
+8	популяции	популяция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	встретились	встречаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	вновь	вновь	ADV	_	Degree=Pos	12	advmod	_	_
+11	около	около	ADP	_	_	10	case	_	_
+12	65	65	NUM	_	_	16	nummod	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	47	47	NUM	_	_	12	nummod	_	_
+16	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+17	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+18	назад	назад	ADV	_	Degree=Pos	9	advmod	_	_
+19	испаривались	испариваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	amod	_	_
+20	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	fixed	_	_
+21	с	с	ADP	_	_	22	case	_	SpacesAfter=\n
+22	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78777
+# text = Благодаря этому геном современных людей неафриканского происхождения содержит от1,5 до2,1 процента неандертальской ДНК.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+3	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+4	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	неафриканского	неафриканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpacesAfter=\n
+8	содержит	содержеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	от1,5	от1,5	NUM	_	_	11	nummod	_	_
+10	до2,1	до2,1	NUM	_	_	11	nummod	_	_
+11	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	неандертальской	неандертальский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78778
+# text = Некоторые изэтих аллелей полезны, нобольшинство изних втой или иной степени снижают адаптацию сапиенсов ипостепенно вытесняются естественным отбором.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	изэтих	изэтот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	аллелей	аллель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	полезны	полезный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	нобольшинство	нобольшинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpacesAfter=\n
+7	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+8	втой	втый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	иной	иной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	_
+11	степени	степень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+12	снижают	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpacesAfter=\n
+13	адаптацию	адаптация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	сапиенсов	сапиенс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	ипостепенно	ипостепенно	ADV	_	Degree=Pos	16	advmod	_	_
+16	вытесняются	вытеснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+17	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	отбором	отбор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78779
+# text = Механизмы этого явления практически неизучены, хотя существует гипотеза отом, что для неандертальцев эти аллели небыли вредоносными, нооказались плохо совместимыми ссовременными людьми.
+1	Механизмы	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	явления	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	практически	практически	ADV	_	Degree=Pos	5	advmod	_	_
+5	неизучены	неизученный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	хотя	хотя	SCONJ	_	_	5	mark	_	_
+8	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+9	гипотеза	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	8	mark	_	_
+13	для	для	ADP	_	_	14	case	_	SpacesAfter=\n
+14	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	_
+15	эти	этот	DET	_	Case=Nom|Number=Plur	16	amod	_	_
+16	аллели	аллель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+17	небыли	небыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+18	вредоносными	вредоносный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	acl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	нооказались	нооказаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	8	advcl	_	_
+21	плохо	плохо	ADV	_	Degree=Pos	22	advmod	_	_
+22	совместимыми	совместимой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	SpacesAfter=\n
+23	ссовременными	ссовременный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78780
+# text = Сотрудники Калифорнийского университета вДевисе построили математическую модель, которая статистически описывает частоту неандертальских аллелей в современных геномах как функцию отсилы "очищающей" селекции вэкзонных участках, уровня рекомбинации, изначальной пропорции заимствованных генов и времени смомента разделения популяций.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	Калифорнийского	Калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	вДевисе	вДевисе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	математическую	математический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	статистически	статистически	ADV	_	Degree=Pos	11	advmod	_	_
+11	описывает	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	частоту	частота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	неандертальских	неандертальский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	аллелей	аллель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	SpacesAfter=\n
+16	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	геномах	геном	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+18	как	как	SCONJ	_	_	19	cc	_	_
+19	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	advmod	_	_
+20	отсилы	отсила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	очищающей	очищать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	24	amod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	_
+24	селекции	селекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+25	вэкзонных	вэкзонный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	SpacesAfter=\n
+26	участках	участок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	_
+29	рекомбинации	рекомбинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	изначальной	изначальной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	пропорции	пропорция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	conj	_	_
+33	заимствованных	заимствовывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+34	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	SpacesAfter=\n
+36	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	conj	_	_
+37	смомента	смомент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
+39	популяций	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 78781
+# text = Согласно этой модели, вытеснение неандертальской ДНК происходило неввиде сильного отбора против небольшого числа аллелей с выраженным негативным эффектом, аввиде слабого отбора, затрагивающего множество аллелей, которые снижают адаптацию незначительно.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	модели	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	вытеснение	вытеснение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	неандертальской	неандертальский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\n
+8	происходило	происходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	неввиде	неввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+10	сильного	сильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	против	против	ADP	_	_	14	case	_	_
+13	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+15	аллелей	аллель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	с	с	ADP	_	_	15	case	_	SpacesAfter=\n
+17	выраженным	выражять	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+18	негативным	негативный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	эффектом	эффект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	аввиде	аввид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_
+22	слабого	слабый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	отбора	отбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	затрагивающего	затрагивать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+26	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpacesAfter=\n
+27	аллелей	аллель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	которые	который	PRON	_	Case=Nom	30	nsubj	_	_
+30	снижают	снижать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+31	адаптацию	адаптация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+32	незначительно	незначительно	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 78782
+# text = Еслибы эти аллели были нейтральны для неандертальцев, ихнесовместимость ссапиенсами привелабы кбыстрому вытеснению сильным отбором, ноэтого не произошло.
+1	Еслибы	Еслиб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+3	аллели	аллель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	нейтральны	нейтральный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ихнесовместимость	ихнесовместимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpacesAfter=\n
+10	ссапиенсами	ссапиенсам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	привелабы	привелаб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+12	кбыстрому	кбыстрый	PRON	_	Case=Dat	19	obl	_	_
+13	вытеснению	вытеснение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+14	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	отбором	отбор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	ноэтого	ноэтот	DET	_	Case=Gen|Gender=Neut|Number=Sing	19	nsubj	_	_
+18	не	не	PART	_	_	19	advmod	_	SpacesAfter=\n
+19	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78783
+# text = Втаком случае аллели имели невыраженный негативный эффект иу неандертальцев, иусапиенсов (это подтверждает и анализ неандертальских геномов).
+1	Втаком	Втакой	DET	_	Case=Loc|Gender=Masc|Number=Sing	2	amod	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	аллели	аллель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	невыраженный	невыраженный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	негативный	негативный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	иу	и	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\n
+9	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	иусапиенсов	иусапиенс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	подтверждает	подтверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+15	и	и	PART	_	_	16	advmod	_	SpacesAfter=\n
+16	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+17	неандертальских	неандертальский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	геномов	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 78784
+# text = То, почему они сохранялись упервых и постепенно вытеснялись увторых, лучше всего объясняется большой разницей в численности ихпопуляций.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	почему	почему	ADV	_	Degree=Pos	5	advmod	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	сохранялись	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	упервых	упервых	ADV	_	Degree=Pos	5	advmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	SpacesAfter=\n
+8	постепенно	постепенно	ADV	_	Degree=Pos	9	advmod	_	_
+9	вытеснялись	вытесняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+10	увторых	увторый	PRON	_	Case=Acc	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	лучше	хорошо	ADV	_	Degree=Cmp	14	advmod	_	_
+13	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	объясняется	объяснявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	parataxis	_	_
+15	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	разницей	разница	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+17	в	в	ADP	_	_	16	case	_	SpacesAfter=\n
+18	численности	численность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	ихпопуляций	ихпопуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78785
+# text = Усравнительно малочисленных неандертальцев такие аллели эффективно передавались вряду поколений, поскольку лучших вариантов уних просто небыло.
+1	Усравнительно	Усравнительно	ADV	_	Degree=Pos	2	advmod	_	_
+2	малочисленных	малочисленный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	amod	_	_
+5	аллели	аллель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	SpacesAfter=\n
+6	эффективно	эффективно	ADV	_	Degree=Pos	7	advmod	_	_
+7	передавались	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	вряду	вряда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	поскольку	поскольку	SCONJ	_	_	0	mark	_	_
+12	лучших	лучший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
+14	уних	оуни	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	SpacesAfter=\n
+15	просто	просто	PART	_	_	16	advmod	_	_
+16	небыло	небыть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78786
+# text = Когда умеренно вредоносные аллели попали вгораздо более многочисленную игенетически разнообразную человеческую популяцию, они стали вытесняться естественным отбором, причем всилу большого числа людей иихгенетических вариантов этот отбор происходил втечение длительного времени.
+1	Когда	когда	ADV	_	Degree=Pos	15	mark	_	_
+2	умеренно	умеренно	ADV	_	Degree=Pos	5	advmod	_	_
+3	вредоносные	вредоносный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	аллели	аллель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	попали	попадать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+6	вгораздо	вгораздо	ADV	_	Degree=Pos	7	advmod	_	_
+7	более	более	ADV	_	Degree=Cmp	8	advmod	_	_
+8	многочисленную	многочисленный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpacesAfter=\n
+9	игенетически	игенетически	ADV	_	Degree=Pos	10	advmod	_	_
+10	разнообразную	разнообразный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	человеческую	человеческий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	популяцию	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+15	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	вытесняться	вытеснять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	15	xcomp	_	SpacesAfter=\n
+17	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	отбором	отбор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	причем	причем	CCONJ	_	_	29	cc	_	_
+21	всилу	всилу	ADV	_	Degree=Pos	23	advmod	_	_
+22	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	obl	_	_
+24	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	иихгенетических	иихгенетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	SpacesAfter=\n
+26	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+28	отбор	отбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+29	происходил	происхожать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	втечение	втечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	длительного	длительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 78787
+# text = "Таким образом, разница вчисленности популяций, ане гибридные несовместимости сапиенсов инеандертальцев сыграли ключевую роль воформлении нашего современного совместного генетического наследия",-- пишут авторы работы.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	_
+3	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+6	вчисленности	вчисленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	популяций	популяция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ане	анин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	SpacesAfter=\n
+10	гибридные	гибридной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	несовместимости	несовместимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	сапиенсов	сапиенс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	инеандертальцев	инеандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	сыграли	сыграть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	ключевую	ключевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	воформлении	воформление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpacesAfter=\n
+18	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	22	amod	_	_
+19	современного	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+20	совместного	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+21	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	наследия	наследие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,--	,--	PUNCT	_	_	22	punct	_	_
+25	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+26	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+27	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 78788
+# text = Ранее исследователи указывали нато, что само вымирание неандертальцев могло быть связано сихмалочисленностью, которая привела кнакоплению вредоносных мутаций, что привело кснижению общей приспособленности видаи, как следствие, кпроигрышу вэволюционной борьбе с сапиенсами.
+1	Ранее	рано	ADV	_	Degree=Cmp	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	нато	нато	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	SpacesAfter=\n
+7	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	вымирание	вымирание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	неандертальцев	неандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	aux:pass	_	_
+12	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	сихмалочисленностью	сихмалочисленность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	16	nsubj	_	SpacesAfter=\n
+16	привела	приводить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	кнакоплению	кнакопление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+18	вредоносных	вредоносный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	PRON	_	Case=Nom	22	nsubj	_	_
+22	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+23	кснижению	кснижение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+24	общей	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	SpacesAfter=\n
+25	приспособленности	приспособленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	видаи	видаи	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	как	как	SCONJ	_	_	22	mark	_	_
+29	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	кпроигрышу	кпроигрыш	DET	_	Case=Acc|Gender=Fem|Number=Sing	33	amod	_	_
+32	вэволюционной	вэволюционный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	борьбе	борьба	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	29	conj	_	_
+34	с	с	ADP	_	_	35	case	_	SpacesAfter=\n
+35	сапиенсами	сапиенс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 78789
+# text = Впрочем, наэтот счет имеются иальтернативные гипотезы.
+1	Впрочем	впрочем	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	наэтот	наэтот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	счет	счет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	имеются	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	иальтернативные	иальтернативный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	гипотезы	гипотеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 78790
+# text = Например, одна изних гласит, что людям помогло умение шить качественную теплую одежду, что значительно расширило географию ихприсутствия вхолодной ледниковой Европеи, соответственно, повысило доступ кпищевым идругим ресурсам.
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nsubj	_	_
+4	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nmod	_	_
+5	гласит	гласить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+9	помогло	помогать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	умение	умение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+11	шить	шать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	качественную	качественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	теплую	теплый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	одежду	одежда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	PRON	_	Case=Nom	18	nsubj	_	_
+17	значительно	значительно	ADV	_	Degree=Pos	18	advmod	_	SpacesAfter=\n
+18	расширило	расширять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	географию	география	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	ихприсутствия	ихприсутствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	вхолодной	вхолодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+22	ледниковой	ледниковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	Европеи	Европея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+25	соответственно	соответственно	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	повысило	повышать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+28	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	кпищевым	кпищевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	31	amod	_	_
+30	идругим	идругой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	31	amod	_	_
+31	ресурсам	ресурс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 78791
+# text = Кроме того, исследования показали, что при сопоставимом объеме мозга обмен веществ внем, азначит, и продуктивность работы, унеандертальцев был ниже, чем усапиенсов, что также могло сыграть невихпользу.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	при	при	ADP	_	_	10	case	_	_
+9	сопоставимом	сопоставимый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	объеме	объем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
+11	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	обмен	обмя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+14	внем	вень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	азначит	азначит	ADV	_	Degree=Pos	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	19	cc	_	SpacesAfter=\n
+19	продуктивность	продуктивность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+20	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	унеандертальцев	унеандерталец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	conj	_	_
+23	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	_
+24	ниже	низкий	ADJ	_	Degree=Cmp	5	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	чем	чем	SCONJ	_	_	27	cc	_	_
+27	усапиенсов	усапиенс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	PRON	_	Case=Nom	31	nsubj	_	_
+30	также	также	ADV	_	Degree=Pos	31	advmod	_	SpacesAfter=\n
+31	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+32	сыграть	играть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	невихпользу	невихпольза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 78792
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

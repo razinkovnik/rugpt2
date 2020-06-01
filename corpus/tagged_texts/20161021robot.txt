@@ -1,0 +1,362 @@
+# sent_id = 76099
+# text = Американская компания Juliet Marine Systems занялась разработкой первого настоящего двухсредного морского робота Guardian, сообщает Defense Aerospace.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Juliet	Juliet	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Marine	Marine	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Systems	Systems	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	занялась	заниматься	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	разработкой	разработка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	настоящего	настоящее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	двухсредного	двухсредный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	морского	морский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	Guardian	guardian	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+16	Defense	Defense	PROPN	_	Foreign=Yes	15	nsubj	_	_
+17	Aerospace	Aerospace	PROPN	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76100
+# text = Новый аппарат сможет одинаково эффективно действовать как на воде, так и под водой.
+1	Новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	одинаково	одинаково	ADV	_	Degree=Pos	3	advmod	_	_
+5	эффективно	эффективно	ADV	_	Degree=Pos	6	advmod	_	_
+6	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+7	как	как	SCONJ	_	_	9	cc	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+12	и	и	PART	_	_	14	advmod	_	_
+13	под	под	ADP	_	_	14	case	_	_
+14	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76101
+# text = Аппарат предназначен для разведки и наблюдения, поиска мин и диверсантов.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	предназначен	предназначать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	разведки	разведка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+9	мин	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	диверсантов	диверсант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 76102
+# text = Робот также получит пулемет.Существующие сегодня морские роботы делятся на несколько классов (подробнее читайте об этом в нашем материале): палубные, надводные, подводные и многосредные (гибридные).
+1	Робот	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пулемет.	пулемето	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	Существующие	существовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+6	сегодня	сегодня	ADV	_	Degree=Pos	5	advmod	_	_
+7	морские	морский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	роботы	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+9	делятся	делить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	классов	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	подробнее	подробно	ADV	_	Degree=Cmp	15	advmod	_	_
+15	читайте	читать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	9	acl	_	_
+16	об	о	ADP	_	_	17	case	_	_
+17	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing	20	amod	_	_
+20	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	20	punct	_	_
+23	палубные	палубный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	надводные	надводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	подводные	подводный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	conj	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	многосредные	многосредный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	conj	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	гибридные	гибридной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	conj	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 76103
+# text = Последние пока серийно не выпускаются и имеют крайне ограниченную функциональность.
+1	Последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj:pass	_	_
+2	пока	пока	ADV	_	Degree=Pos	5	advmod	_	_
+3	серийно	серийно	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	выпускаются	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+8	крайне	крайне	ADV	_	Degree=Pos	9	advmod	_	_
+9	ограниченную	ограничивать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	функциональность	функциональность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76104
+# text = Например, ВМС США разрабатывают разведывательный квадрокоптер, который способен плавать под водой, а потом всплывать и взлетать.
+1	Например	например	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	ВМС	вмс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	разрабатывают	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	разведывательный	разведывательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	квадрокоптер	квадрокоптер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	acl:relcl	_	_
+11	плавать	плавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	dep	_	_
+12	под	под	ADP	_	_	13	case	_	_
+13	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	17	cc	_	_
+16	потом	потом	ADV	_	Degree=Pos	17	advmod	_	_
+17	всплывать	всплывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	взлетать	взлетать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 76105
+# text = Аппарат может только вести видеосъемку.Состав бортового оборудования нового двухсредного робота пока не определен.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	только	только	PART	_	_	4	advmod	_	_
+4	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	видеосъемку.	видеосъемку.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	Состав	Состав	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
+7	бортового	бортовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	двухсредного	двухсредный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+12	пока	пока	ADV	_	Degree=Pos	14	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	определен	определять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 76106
+# text = Вероятно, Guardian получит сонар, несколько камер и манипуляторы.
+1	Вероятно	вероятно	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Guardian	Guardian	PROPN	_	Foreign=Yes	4	nsubj	_	_
+4	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	сонар	сонар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	несколько	несколько	NUM	_	Case=Nom	8	nummod:gov	_	_
+8	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	манипуляторы	манипулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 76107
+# text = Такое оборудование обычно устанавливается на подводных и надводных роботах, занимающихся разведкой и поиском мин.
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	_
+4	устанавливается	устанавливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	9	case	_	_
+6	подводных	подводный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	надводных	надводной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	conj	_	_
+9	роботах	робот	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	занимающихся	заниматься	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	_
+12	разведкой	разведка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	поиском	поиск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	_
+15	мин	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76108
+# text = Аппарат сможет действовать автономно, либо под управлением боевого ныряльщика на борту.Guardian получит основной двойной корпус.
+1	Аппарат	аппарат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	автономно	автономно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	либо	либо	CCONJ	_	_	8	cc	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	conj	_	_
+9	боевого	боевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	ныряльщика	ныряльщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	борту.Guardian	борту.Guardian	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	основной	основной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+15	двойной	двойной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	корпус	корпус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 76109
+# text = Он будет выполнен по типу подводной лодки с прочным и легким корпусом, разделенным объемом, который в надводном положении будет заполнен воздухом, а в подводном -- водой.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	типу	тип	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	подводной	подводный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	лодки	лодка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	с	с	ADP	_	_	12	case	_	_
+9	прочным	прочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	легким	легкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	_
+12	корпусом	корпус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	разделенным	разделять	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	объемом	объем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	22	nsubj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	надводном	надводный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux:pass	_	_
+22	заполнен	заполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+23	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	а	а	CCONJ	_	_	27	cc	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	подводном	подводн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	conj	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 76110
+# text = На корпус установят крыло, с помощью которого Guardian будет "летать" под водой.
+1	На	на	ADP	_	_	2	case	_	_
+2	корпус	корпус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	установят	устанавливать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	крыло	крыло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	которого	который	PRON	_	Case=Gen	12	obl	_	_
+9	Guardian	Guardian	ADJ	_	Foreign=Yes	12	nsubj	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	acl:relcl	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	под	под	ADP	_	_	15	case	_	_
+15	водой	вода	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76111
+# text = На законцовках крыла разместятся отсеки с электромоторами и различным оборудованием.При надводном режиме осадка Guardian составит 1,2 метра.
+1	На	на	ADP	_	_	2	case	_	_
+2	законцовках	законцовках	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+3	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	разместятся	разместяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	отсеки	отсек	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	электромоторами	электромотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	различным	различный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	оборудованием.	оборудованием.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	При	при	ADP	_	_	13	case	_	_
+12	надводном	надводный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+14	осадка	осадка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	Guardian	Guardian	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	1,2	1,2	NUM	_	_	18	nummod	_	_
+18	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76112
+# text = Робот длиной 13,7 метра в надводном положении сможет развивать скорость до 35 узлов.
+1	Робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	длиной	длина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+3	13,7	13,7	NUM	_	_	4	nummod	_	_
+4	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	надводном	надводный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+8	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	до	до	ADP	_	_	13	case	_	_
+12	35	35	NUM	_	_	13	nummod	_	_
+13	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 76113
+# text = Все системы двухсредного робота сделают модульными.
+1	Все	весь	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	двухсредного	двухсредный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	сделают	сделать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	модульными	модульный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 76114
+# text = Это позволит упростить его модернизацию и техническое обслуживание.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	упростить	упроскать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	модернизацию	модернизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	техническое	технический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	обслуживание	обслуживание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 76115
+# text = Аппарат сконструируют таким образом, чтобы его можно было легко транспортировать на автомобиле, корабле и самолете.По оценке Juliet Marine Systems, первый прототип робота Guardian будет собран и приступит к испытаниям через полтора-два года.
+1	Аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	сконструируют	сконструировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	4	amod	_	_
+4	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	_
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	_
+8	можно	можно	ADV	_	Degree=Pos	2	advcl	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+10	легко	легко	ADV	_	Degree=Pos	11	advmod	_	_
+11	транспортировать	транспортировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	автомобиле	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	корабле	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	самолете.	самолетеаница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+18	По	по	ADP	_	_	19	case	_	_
+19	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Juliet	Juliet	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	Marine	Marine	PROPN	_	Foreign=Yes	20	flat:foreign	_	_
+22	Systems	Systems	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	прототип	прототип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+26	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	Guardian	Guardian	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux:pass	_	_
+29	собран	собирать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	приступит	приступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	к	к	ADP	_	_	33	case	_	_
+33	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	31	obl	_	_
+34	через	через	ADP	_	_	37	case	_	_
+35	полтора-	полтора-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	37	nummod:gov	_	_
+37	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 76116
+# text = Другие подробности о проекте не уточняются.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	подробности	подробность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	уточняются	уточнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+

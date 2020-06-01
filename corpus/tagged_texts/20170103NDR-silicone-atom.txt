@@ -1,0 +1,358 @@
+# sent_id = 86910
+# text = Канадские физики создали систему, в которой на одиночных атомах наблюдается эффект отрицательного дифференциального сопротивления.
+1	Канадские	канадский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	которой	который	PRON	_	Case=Loc	11	obl	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	одиночных	одиночный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	атомах	атом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+11	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
+12	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+13	отрицательного	отрицательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+14	дифференциального	дифференциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 86911
+# text = Это означает, что с ростом электрического напряжения ток в системе падает (в отличие от закона Ома).
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+7	электрического	электрический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	напряжения	напряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	ток	тка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	падает	падать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+13	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	в	в	ADP	_	_	17	case	_	_
+15	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	от	от	ADP	_	_	15	fixed	_	_
+17	закона	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+18	Ома	Ом	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 86912
+# text = Подобные устройства могут найти применение в микроэлектронике.
+1	Подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	микроэлектронике	микроэлектроника	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 86913
+# text = Исследование опубликовано в журналеPhysical Review Letters, кратко о нем сообщает Physics.Элементы, в которых наблюдается отрицательное дифференциальное сопротивление, иначе называются "негатронами".
+1	Исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	опубликовано	публиковать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	журналеPhysical	журналеPhysical	NOUN	_	_	2	obl	_	_
+5	Review	Review	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Letters	Letters	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	кратко	кратко	ADV	_	Degree=Pos	11	advmod	_	_
+9	о	о	ADP	_	_	10	case	_	_
+10	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	11	obl	_	_
+11	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+12	Physics.	physics.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+13	Элементы	элемент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Loc	17	obl	_	_
+17	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	acl:relcl	_	_
+18	отрицательное	отрицательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+19	дифференциальное	дифференциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	иначе	иначе	CCONJ	_	_	23	cc	_	_
+23	называются	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	негатронами	негатрон	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 86914
+# text = Впервые этот эффект был обнаружен почти 60 лет назад в туннельных диодах.
+1	Впервые	впервые	ADV	_	Degree=Pos	5	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	эффект	эффект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	обнаружен	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	почти	почти	ADV	_	Degree=Pos	7	advmod	_	_
+7	60	60	NUM	_	_	8	nummod	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	назад	назад	ADV	_	Degree=Pos	8	advmod	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	туннельных	туннельный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	диодах	диод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86915
+# text = В них толщина переходной зоны между полупроводниками p-типа и n-типа оказывается настолько малой, (до сотни ангстрем) что через нее возможно туннелирование.
+1	В	в	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	11	obl	_	_
+3	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+4	переходной	переходной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	зоны	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	между	между	ADP	_	_	7	case	_	_
+7	полупроводниками	полупроводник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	_
+8	p-типа	p-тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	n-типа	n-тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+11	оказывается	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	настолько	настолько	ADV	_	Degree=Pos	13	advmod	_	_
+13	малой	малый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	до	до	ADP	_	_	17	case	_	_
+17	сотни	сотня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	_
+18	ангстрем	ангстрем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	11	mark	_	_
+21	через	через	ADP	_	_	22	case	_	_
+22	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+23	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	advcl	_	_
+24	туннелирование	туннелирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 86916
+# text = При малых напряжениях вероятность туннелирования растет и ток растет вместе с напряжением.
+1	При	при	ADP	_	_	3	case	_	_
+2	малых	малый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	напряжениях	напряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	obl	_	_
+4	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	туннелирования	туннелирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	PART	_	_	8	advmod	_	_
+8	ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+10	вместе	вместе	ADV	_	Degree=Pos	9	advmod	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	напряжением	напряжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86917
+# text = Затем, при определенном напряжении, напротив туннелирующих электронов оказываются запрещенные зоны и ток начинает падать вплоть до нулевых значений, несмотря на рост приложенной разности потенциалов -- наблюдается отрицательное дифференциальное сопротивление.
+1	Затем	затем	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	при	при	ADP	_	_	5	case	_	_
+4	определенном	определенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	напряжении	напряжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	напротив	напротив	ADV	_	Degree=Pos	8	advmod	_	_
+8	туннелирующих	туннелируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	электронов	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+10	оказываются	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	запрещенные	запрещать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	зоны	зона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	ток	ток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+15	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	падать	падать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	dep	_	_
+17	вплоть	вплоть	ADV	_	Degree=Pos	20	case	_	_
+18	до	до	ADP	_	_	17	fixed	_	_
+19	нулевых	нулевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	значений	значение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	несмотря	несмотря	ADV	_	Polarity=Neg	24	case	_	_
+23	на	на	ADP	_	_	22	fixed	_	_
+24	рост	рост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+25	приложенной	приложять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	amod	_	_
+26	разности	разность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	потенциалов	потенциал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+28	--	--	PUNCT	_	_	27	punct	_	_
+29	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	parataxis	_	_
+30	отрицательное	отрицательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+31	дифференциальное	дифференциальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	сопротивление	сопротивление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj:pass	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 86918
+# text = После этого туннельный диод ведет себя как обычный диод и ток снова начинает расти.
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+3	туннельный	туннельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	диод	диод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	себя	себя	PRON	_	Case=Acc	5	obj	_	_
+7	как	как	SCONJ	_	_	5	mark	_	_
+8	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	диод	диод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ток	ток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+12	снова	снова	ADV	_	Degree=Pos	13	advmod	_	_
+13	начинает	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+14	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 86919
+# text = Подробнее об этом можно прочесть здесь.Туннельные диоды позволяют вводить новые, более сложные отклики в различные схемы.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	прочесть	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	здесь	здесь	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	Туннельные	туннельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	диоды	диод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	более	более	ADV	_	Degree=Cmp	15	advmod	_	_
+15	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	отклики	отклик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	схемы	схема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 86920
+# text = Однако, как показала практика, их трудно интегрировать в микроэлектронные устройства.
+1	Однако	однако	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	4	mark	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+5	практика	практика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	4	obj	_	_
+8	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	интегрировать	интегрировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	микроэлектронные	микроэлектронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
+12	устройства	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 86921
+# text = Попытки создания наноразмерных негатронов приводили к приборам, которые либо плохо поддавались контролю, либо были ненадежными.
+1	Попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+2	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	наноразмерных	наноразмерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	негатронов	негатрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	приводили	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	приборам	прибор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	либо	либо	CCONJ	_	_	11	cc	_	_
+11	плохо	плохо	ADV	_	Degree=Pos	12	advmod	_	_
+12	поддавались	поддаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+13	контролю	контроль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	либо	либо	CCONJ	_	_	17	cc	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	ненадежными	ненадежный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 86922
+# text = Автором новой работы удалось решить эти проблемы, получив эффект отрицательного дифференциального сопротивления на туннельном токе от одного атома.Физики использовали в основе прибора монокристалл кремния, предварительно очищенный от оксидного слоя.
+1	Автором	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+2	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	эти	этот	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	получив	получать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	0	advcl	_	_
+10	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	отрицательного	отрицательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+12	дифференциального	дифференциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	туннельном	туннельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	токе	ток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+17	от	от	ADP	_	_	19	case	_	_
+18	одного	один	NUM	_	Case=Gen|Gender=Masc	19	nummod	_	_
+19	атома.	атома.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+20	Физики	физик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+24	прибора	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	монокристалл	монокристаллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	предварительно	предварительно	ADV	_	Degree=Pos	29	advmod	_	_
+29	очищенный	очищать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+30	от	от	ADP	_	_	32	case	_	_
+31	оксидного	оксидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 86923
+# text = Кремний поместили в разреженную среду горячего атомарного водорода, позволив частицам газа осесть на поверхность полупроводника и связаться с ним.
+1	Кремний	кремний	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	разреженную	разрежеть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+6	горячего	горячий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	атомарного	атомарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	позволив	позволять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	_
+11	частицам	частиец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+12	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	осесть	оседать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	полупроводника	полупроводник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	связаться	связываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	conj	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86924
+# text = Часть поверхностных атомов кремния при этом оказалась без атомов водорода -- их электронные свойства заметно отличались от остальных атомов кремния.
+1	Часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	поверхностных	поверхностный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	без	без	ADP	_	_	9	case	_	_
+9	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	водорода	водород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+13	электронные	электронный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+15	заметно	заметно	ADV	_	Degree=Pos	16	advmod	_	_
+16	отличались	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+17	от	от	ADP	_	_	19	case	_	_
+18	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	атомов	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+20	кремния	кремний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 86925
+# text = В частности, на них может находиться два электрона на разных энергетических уровнях.
+1	В	в	ADP	_	_	5	case	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	6	obl	_	_
+6	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	два	два	NUM	_	Case=Nom|Gender=Masc	9	nummod:gov	_	_
+9	электрона	электрон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
+10	на	на	ADP	_	_	13	case	_	_
+11	разных	разный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+12	энергетических	энергетический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	уровнях	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+

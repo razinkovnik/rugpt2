@@ -1,0 +1,550 @@
+# sent_id = 84985
+# text = Инженеры парижской лаборатории Sony Computer Science Laboratories научили нейронную сеть стилизовать музыку под произведения Баха-- результаты звучат настолько убедительно, что вполовине случаев слушатель неотличает ихоторигинальных хоралов.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpacesBefore=\n
+2	парижской	парижский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Sony	Sony	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Computer	computer	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Science	Science	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Laboratories	Laboratories	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	научили	научать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нейронную	нейронный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	стилизовать	стилизовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+12	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	под	под	ADP	_	_	14	case	_	_
+14	произведения	произведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obl	_	_
+15	Баха--	Баха--	PUNCT	_	_	14	punct	_	_
+16	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	звучат	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+18	настолько	настолько	ADV	_	Degree=Pos	19	advmod	_	_
+19	убедительно	убедительно	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	что	что	SCONJ	_	_	17	mark	_	_
+22	вполовине	вполовина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	25	obl	_	_
+23	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	слушатель	слушатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	неотличает	неотличать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+26	ихоторигинальных	ихоторигинальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	хоралов	хорал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 84986
+# text = Описание работы опубликовано вжурнале arXiv.org.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликовано	опубликовать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+5	arXiv.org	arXiv.org	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 84987
+# text = Сочинение полифонической хоральной музыки встиле Баха-- сложная задача вобласти автоматической композиции.
+1	Сочинение	сочинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	полифонической	полифонический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	хоральной	хоральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	встиле	встиле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Баха--	Баха--	PUNCT	_	_	5	punct	_	_
+7	сложная	сложный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	вобласти	вобласть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	автоматической	автоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	композиции	композиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 84988
+# text = Искусство хоральных сочинений Баха включает комбинацию четырех гармонических линий схарактерным ритмическим имелодическим рисунком, который начинается, развивается изаканчивается (каденция) вопределенном гармоничном ключе.
+1	Искусство	искусство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	хоральных	хоральный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	сочинений	сочинение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+4	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	комбинацию	комбинация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	четырех	четыре	NUM	_	Case=Gen	9	nummod	_	_
+8	гармонических	гармонический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	линий	линия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	схарактерным	схарактерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	ритмическим	ритмический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	имелодическим	имелодический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	рисунком	рисунок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	_
+19	изаканчивается	изаканчиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	parataxis	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	каденция	каденция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	вопределенном	вопределять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+24	гармоничном	гармоничный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	ключе	ключ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84989
+# text = Досих пор машинное обучение несправлялось собеспечением сразу всех перечисленных условий для написания стилизованной музыки.
+1	Досих	Досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+3	машинное	машинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	несправлялось	несправляться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	собеспечением	собеспечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+7	сразу	сразу	ADV	_	Degree=Pos	8	advmod	_	_
+8	всех	весь	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+9	перечисленных	перечислеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	написания	написание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	стилизованной	стилизовывать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 84990
+# text = Вновой работе инженеры демонстрируют разработку под названием DeepBach-- посути, это статистическая модель для написания полифонической музыки, аименно, четырехголосных гимноподобных сочинений.
+1	Вновой	Вновой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+3	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	демонстрируют	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	под	под	ADP	_	_	7	case	_	_
+7	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+8	DeepBach	DeepBach	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	посути	посути	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+14	статистическая	статистический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	написания	написание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	полифонической	полифонический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	аименно	аименно	ADV	_	Degree=Pos	25	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	четырехголосных	четырехголосный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+24	гимноподобных	гимноподобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	сочинений	сочинение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	0	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 84991
+# text = Для обучающей выборки инженеры взяли корпус хоралов Баха, замечательный своим размером: онсостоит из389произведений.
+1	Для	для	ADP	_	_	3	case	_	_
+2	обучающей	обучать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	выборки	выборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	взяли	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	корпус	корпус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	хоралов	хорал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	замечательный	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	12	amod	_	_
+12	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	онсостоит	онсостоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	из389произведений	из389произведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 84992
+# text = Каждый хорал примерно минутной длительности, написан для четырех голосов (сопрано, альт, тенор ибас) набазе общих композиционных принципов: композитор берет хорошо известную для своего времени мелодию лютеранского гимна игармонизируетее, тоесть пишет три нижних голоса (альт, тенор ибас), втовремя как линия сопрано исполняет основную мелодию гимна.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	хорал	хорал	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	примерно	примерно	ADV	_	Degree=Pos	4	advmod	_	_
+4	минутной	минутный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	длительности	длительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	написан	писать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	для	для	ADP	_	_	10	case	_	_
+9	четырех	четыре	NUM	_	Case=Gen	10	nummod	_	_
+10	голосов	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	сопрано	сопрано	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	альт	альт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	тенор	тенор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	ибас	ибас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	набазе	набаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	conj	_	_
+20	общих	общий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+21	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	принципов	принцип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	22	punct	_	_
+24	композитор	композитор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	берет	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+26	хорошо	хорошо	ADV	_	Degree=Pos	25	advmod	_	_
+27	известную	известный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+28	для	для	ADP	_	_	30	case	_	_
+29	своего	свой	DET	_	Case=Gen|Gender=Neut|Number=Sing	30	amod	_	_
+30	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+31	мелодию	мелодия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+32	лютеранского	лютеранский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	гимна	гимн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	игармонизируетее	игармонизируето	ADV	_	Degree=Cmp	37	parataxis	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+37	пишет	пихать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+38	три	три	NUM	_	Case=Nom	40	nummod:gov	_	_
+39	нижних	нижний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	obl	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	альт	альт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	52	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	тенор	тенор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	42	conj	_	_
+45	ибас	ибас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	45	punct	_	_
+48	втовремя	втовремя	ADV	_	Degree=Pos	52	advmod	_	_
+49	как	как	SCONJ	_	_	48	fixed	_	_
+50	линия	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	52	nsubj	_	_
+51	сопрано	сопрано	ADV	_	Degree=Pos	52	advmod	_	_
+52	исполняет	исполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	parataxis	_	_
+53	основную	основной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	54	amod	_	_
+54	мелодию	мелодия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	52	obj	_	_
+55	гимна	гимн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	54	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	55	punct	_	SpaceAfter=No
+
+# sent_id = 84993
+# text = Попытки алгоритмической стилизации Баха предпринимались ираньше: первая подобная работа 1988 года описывала алгоритм сочинения музыки набазе экспертных правил звучания "встиле Баха", который включал порядка 300ограничений, всумме обеспечивающих "бахоподобное" звучание.
+1	Попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+2	алгоритмической	алгоритмический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стилизации	стилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	предпринимались	предпринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	ираньше	ираньше	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	_
+8	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	1988	1988	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	описывала	описывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	сочинения	сочинение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	набазе	набазе	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	_
+18	экспертных	экспертный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	звучания	звучание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	встиле	встиле	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+23	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	который	который	PRON	_	Case=Nom	27	nsubj	_	_
+27	включал	включать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+28	порядка	порядка	ADP	_	_	29	case	_	_
+29	300ограничений	300ограничение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	всумме	всуммо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_
+32	обеспечивающих	обеспечивать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	31	dep	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	бахоподобное	бахоподобный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	_
+36	звучание	звучание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 84994
+# text = Алгоритм требовал исключительного знания особенностей композиции, арезультаты вцелом небыли похожи намузыку Баха, заисключением некоторых каденций имелодических рисунков.
+1	Алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	требовал	требовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	исключительного	исключительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	знания	знание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	композиции	композиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	арезультаты	арезультат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+9	вцелом	вцел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+10	небыли	небыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	похожи	похожий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+12	намузыку	намузыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nsubj	_	_
+13	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	заисключением	заисключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	conj	_	_
+16	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+17	каденций	каденция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	имелодических	имелодический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	рисунков	рисунок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 84995
+# text = Первые опыты поавтоматической композиции наоснове нейронных сетей были проведены позже в1992году: вработе использовалось несколько нейронных сетей, каждая была нацелена нарешение отдельной задачи: составление общего гармонического скелета, детализация ифинальная аранжировка.
+1	Первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	опыты	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+3	поавтоматической	поавтоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	композиции	композиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	наоснове	наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	проведены	проводить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	позже	позже	ADV	_	Degree=Pos	11	advmod	_	_
+11	в1992году	в1992год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	вработе	вработа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	использовалось	использоваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+15	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	17	nummod:gov	_	_
+16	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	нацелена	нацеливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+22	нарешение	нарешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+23	отдельной	отдельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	задачи	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	:	:	PUNCT	_	_	24	punct	_	_
+26	составление	составление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	parataxis	_	_
+27	общего	общий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+28	гармонического	гармонический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	скелета	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	детализация	детализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	conj	_	_
+32	ифинальная	ифинальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+33	аранжировка	аранжировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	appos	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 84996
+# text = Этот метод тоже использовал экспертные правила для своей работы.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	тоже	тоже	PART	_	_	4	advmod	_	_
+4	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	экспертные	экспертный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	правила	правило	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 84997
+# text = Наконец, агностический подход, нетребующий экспертных правил, был применен в2012году: работа основана наиспользовании рекурентных нейронных сетей, исамый свежий пример 2016-- Bachbot набазе LSTM-- показал хорошие результаты, однако, позволял сочинение водном музыкальном ключе инедавал возможностей пользователю задать ритм или начальные ноты.
+1	Наконец	наконец	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	агностический	агностический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	нетребующий	нетребуть	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	_
+7	экспертных	экспертной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	применен	применивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+12	в2012году	в2012год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+15	основана	основывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	parataxis	_	_
+16	наиспользовании	наиспользование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+17	рекурентных	рекурентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+18	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	исамый	исамый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+22	свежий	свежий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+24	2016	2016	NUM	_	_	27	nummod	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	24	punct	_	_
+27	Bachbot	Bachbot	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+28	набазе	набазе	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	27	appos	_	_
+29	LSTM-	LSTM-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	28	punct	_	_
+31	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+32	хорошие	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	однако	однако	ADV	_	Degree=Pos	37	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	позволял	позволять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	42	conj	_	_
+38	сочинение	сочинение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	_
+39	водном	водный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+40	музыкальном	музыкальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	ключе	ключ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	obl	_	_
+42	инедавал	инедавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	conj	_	_
+43	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	45	obl	_	_
+44	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	43	nmod	_	_
+45	задать	задавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	42	xcomp	_	_
+46	ритм	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	_
+47	или	или	CCONJ	_	_	49	cc	_	_
+48	начальные	начальной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	49	amod	_	_
+49	ноты	нота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	46	conj	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 84998
+# text = Модель DeepBach основана наметоде LSTM рекуррентных нейронных сетей (подробно о рекуррентных нейронных сетях мы писали здесь).
+1	Модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	DeepBach	DeepBach	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	основана	основывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	наметоде	наметоде	ADP	_	_	8	case	_	_
+5	LSTM	LSTM	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+6	рекуррентных	рекуррентный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	подробно	подробно	ADV	_	Degree=Pos	16	advmod	_	_
+11	о	о	ADP	_	_	14	case	_	_
+12	рекуррентных	рекуррентный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+13	нейронных	нейронный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+16	писали	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+17	здесь	здесь	ADV	_	Degree=Pos	16	advmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 84999
+# text = Каждый голос моделируется отдельно, что позволяет алгоритму принимать пользовательские ограничения ритма, нот, аккордов икаденций.
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	голос	голос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	моделируется	моделируть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	отдельно	отдельно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+7	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+8	алгоритму	алгоритма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	пользовательские	пользовательский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+12	ритма	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	нот	нота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	аккордов	аккорд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	_
+17	икаденций	икаденция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 85000
+# text = Модель реализована набазе библиотек Keras иTensorflow.
+1	Модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	набазе	набаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	библиотек	библиотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	Keras	Keras	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+6	иTensorflow.	иtensorflow.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No
+
+# sent_id = 85001
+# text = Вкачестве обучающей выборки используются отрывки оригинальных хоралов Баха, модель предсказывает высоту звука для каждого голоса вотдельности взависимости отсоседних нот, фиксированного ритма иналичия каденций.
+1	Вкачестве	Вкачество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+2	обучающей	обучать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	выборки	выборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	отрывки	отрывка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+6	оригинальных	оригинальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	хоралов	хорал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	предсказывает	предсказывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	звука	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	obl	_	_
+17	вотдельности	вотдельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	взависимости	взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	отсоседних	отсоседний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	нот	нота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	фиксированного	фиксировать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	amod	_	_
+23	ритма	ритм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+24	иналичия	иналичие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+25	каденций	каденция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 85002
+# text = Всего вмодели используется четыре нейронных сети-- две набазе LSTM строят предсказания набазе предыдущих ибудущих нот соответственно, одна сеть строит предсказание взависимости отнот, которые звучат одновременно спредсказываемой, иеще одна сеть суммирует предсказания предыдущих.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	вмодели	вмодель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	6	nummod:gov	_	_
+5	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	сети	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	10	nummod:gov	_	_
+10	набазе	набаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+11	LSTM	Lstm	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	строят	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+13	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+14	набазе	набаза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+15	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+16	ибудущих	ибудущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	нот	нота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+18	соответственно	соответственно	ADV	_	Degree=Pos	22	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	одна	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	строит	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+23	предсказание	предсказание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	взависимости	взависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	отнот	отнота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	которые	который	PRON	_	Case=Nom	28	nsubj	_	_
+28	звучат	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+29	одновременно	одновременно	ADV	_	Degree=Pos	30	advmod	_	_
+30	спредсказываемой	спредсказывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	28	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	иеще	иеще	ADV	_	Degree=Pos	35	advmod	_	_
+33	одна	один	NUM	_	Case=Nom|Gender=Fem	34	nummod:gov	_	_
+34	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+35	суммирует	суммировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+36	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	35	obj	_	_
+37	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 85003
+# text = Модель отличается несколькими преимуществами: например, можно зафиксировать голос сопрано ипоиграть состальными голосами, получая новые "аранжировки" косновному голосу, или указать желаемый ритм иточки, вкоторых музыкальные фразы должны заканчиваться.
+1	Модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	несколькими	несколько	NUM	_	Case=Ins	4	nummod	_	_
+4	преимуществами	преимущество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	например	например	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	parataxis	_	_
+9	зафиксировать	фиксировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	голос	голос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	сопрано	сопрано	ADV	_	Degree=Pos	12	advmod	_	_
+12	ипоиграть	ипоигирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	_
+13	состальными	состальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	голосами	голос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	получая	получать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+17	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	аранжировки	аранжировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	_
+21	косновному	косновный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	голосу	голос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	или	или	CCONJ	_	_	25	cc	_	_
+25	указать	указывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	conj	_	_
+26	желаемый	желать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	27	amod	_	_
+27	ритм	ритм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+28	иточки	иточка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	вкоторых	вкоторый	DET	_	Case=Gen|Number=Plur	32	amod	_	_
+31	музыкальные	музыкальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	фразы	фраза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	_
+33	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	conj	_	_
+34	заканчиваться	заканчиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	33	dep	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 85004
+# text = Инженеры отмечают быстродействие алгоритма-- новые образцы можно получать засчитанные секунды.
+1	Инженеры	инженер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	быстродействие	быстродействие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	алгоритма-	алгоритма-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	образцы	образец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	можно	можно	ADV	_	Degree=Pos	2	parataxis	_	_
+9	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	засчитанные	считать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	секунды	секунда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+

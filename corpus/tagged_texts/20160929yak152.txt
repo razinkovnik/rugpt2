@@ -1,0 +1,73 @@
+# sent_id = 73054
+# text = Российская корпорация "Иркут" обнародовала фотографии первого полета нового российского учебного самолета начальной летной подготовки Як-152.
+1	Российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	корпорация	корпорация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Иркут	Ирчь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	обнародовала	обнародовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+7	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+11	российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	учебного	учебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+14	начальной	начальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	летной	летной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+17	Як-	Як-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	152	152	NUM	_	_	16	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 73055
+# text = Во время первого полета самолетом управлял летчик-испытатель первого класса Василий Севастьянов, ранее участвовавший в подготовке пилотов ВКС России и ВВС Белоруссии.Обычно целью первого полета является проверка аэродинамических характеристик самолета, включая управляемость, а также надежность работы его основных бортовых систем и агрегатов.
+1	Во	во	ADP	_	_	4	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+5	самолетом	самолет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+6	управлял	управлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	летчик	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	испытатель	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+13	Севастьянов	севастьянов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	ранее	ранее	ADV	_	Degree=Pos	16	advmod	_	_
+16	участвовавший	участвовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	подготовке	подготовка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	ВКС	Вкс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+21	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	ВВС	Ввс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	conj	_	_
+24	Белоруссии.	белоруссии.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	SpaceAfter=No
+25	Обычно	обычно	ADV	_	Degree=Pos	24	advmod	_	_
+26	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+27	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
+30	проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+31	аэродинамических	аэродинамический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	включая	включая	ADV	_	Degree=Pos	29	advmod	_	_
+36	управляемость	управляемость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	а	а	CCONJ	_	_	40	cc	_	_
+39	также	также	ADV	_	Degree=Pos	40	advmod	_	_
+40	надежность	надежность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	conj	_	_
+41	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	45	nmod	_	_
+43	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+44	бортовых	бортовой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	45	amod	_	_
+45	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+46	и	и	CCONJ	_	_	47	cc	_	_
+47	агрегатов	агрегат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	conj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+

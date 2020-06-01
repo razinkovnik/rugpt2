@@ -1,0 +1,481 @@
+# sent_id = 80383
+# text = Федеральная торговая комиссия США (FTC) выпустила директиву, согласно которой производителей безрецептурных гомеопатических препаратов обяжут предоставлять надежные научные подтверждения эффективности и безопасности ихприменения также, как при регистрации обычных лекарств.
+1	Федеральная	федеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpacesBefore=\n
+2	торговая	торговый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	комиссия	комиссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	3	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	FTC	Ftc	PROPN	_	Foreign=Yes	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	выпустила	выпускать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+9	директиву	директива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	согласно	согласно	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Dat	13	obl	_	_
+13	производителей	производитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	acl:relcl	_	_
+14	безрецептурных	безрецептурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+15	гомеопатических	гомеопатический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	SpacesAfter=\n
+16	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	обяжут	обязывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	_
+18	предоставлять	предоставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	надежные	надежный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+20	научные	научный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	подтверждения	подтверждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+22	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	SpacesAfter=\n
+24	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	conj	_	_
+25	ихприменения	ихприменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	также	также	ADV	_	Degree=Pos	30	advmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	как	как	SCONJ	_	_	30	cc	_	_
+29	при	при	ADP	_	_	30	case	_	_
+30	регистрации	регистрация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	parataxis	_	_
+31	обычных	обычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	лекарств	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 80384
+# text = В противном случае они должны будут вявном виде указывать наупаковках, что применение препаратов неимеет научного обоснования.
+1	В	в	ADP	_	_	3	case	_	SpacesAfter=\n
+2	противном	противный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	вявном	вявный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+9	указывать	указывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+10	наупаковках	наупаковка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	10	mark	_	_
+13	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	SpacesAfter=\n
+14	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	неимеет	неиметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+16	научного	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	обоснования	обоснование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 80385
+# text = Концепция гомеопатии ("лечения подобным"), разработанная в конце 1770-х годов немецким врачом Самуэлем Ганеманом (Samuel Hahnemann) состоит в том, что сверхнизкие дозы веществ, вызывающих симптомы какого-либо заболевания, могут вылечить это заболевание.
+1	Концепция	концепция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+2	гомеопатии	гомеопатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	_
+6	подобным	подобный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	2	parataxis	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	1770-х	1770-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	немецким	немецкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	врачом	врач	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	_
+17	Самуэлем	Самуэль	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	appos	_	_
+18	Ганеманом	Ганеман	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Samuel	Samuel	PROPN	_	Foreign=Yes	18	flat:foreign	_	_
+21	Hahnemann	Hahnemann	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	что	что	SCONJ	_	_	25	mark	_	_
+28	сверхнизкие	сверхнизкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	amod	_	_
+29	дозы	доз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	37	nsubj	_	_
+30	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	вызывающих	вызывать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	_
+33	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	32	obj	_	_
+34	какого-либо	какой-либо	DET	_	Case=Gen|Gender=Neut|Number=Sing	35	amod	_	_
+35	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	advcl	_	_
+38	вылечить	вылечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+39	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	40	amod	_	_
+40	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 80386
+# text = Такие сверхнизкие дозы достигаются последовательными разведениями вещества в воде и в спирте: например, в 10 раз, потом каждую порцию еще в 10 раз и так далее.
+1	Такие	такой	DET	_	Case=Nom|Number=Plur	3	amod	_	_
+2	сверхнизкие	сверхнизкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	дозы	доз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	достигаются	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	последовательными	последовательный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	разведениями	разведение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	_
+7	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	воде	вода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	спирте	спирт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	например	например	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	10	10	NUM	_	_	18	nummod	_	_
+18	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	потом	потом	ADV	_	Degree=Pos	21	advmod	_	_
+21	каждую	каждый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	порцию	порция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+23	еще	еще	ADV	_	Degree=Pos	26	advmod	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	10	10	NUM	_	_	26	nummod	_	_
+26	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	так	так	ADV	_	Degree=Pos	29	fixed	_	_
+29	далее	далее	ADV	_	Degree=Pos	4	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 80387
+# text = Особое внимание уделяется ритуалу разведений, при которых сосуд с раствором на каждом этапе необходимо постукивать об эластичную поверхность.
+1	Особое	особый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	внимание	внимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+3	уделяется	уделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	ритуалу	ритуал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+5	разведений	разведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	при	при	ADP	_	_	8	case	_	_
+8	которых	который	PRON	_	Case=Loc	15	nmod	_	_
+9	сосуд	сосуд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	раствором	раствор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+15	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	acl:relcl	_	_
+16	постукивать	постукивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	nsubj	_	_
+17	об	о	ADP	_	_	19	case	_	_
+18	эластичную	эластичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	поверхность	поверхность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 80388
+# text = Полученные разведения зачастую оказываются такими, что наличие веществ невозможно определить аналитическими методиками, а в некоторых случаях каждая гранула препарата не может содержать даже одной молекулы вещества.
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	разведения	разведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	зачастую	зачастую	ADV	_	Degree=Pos	4	advmod	_	_
+4	оказываются	оказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	такими	такой	DET	_	Case=Ins|Number=Plur	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	cc	_	_
+8	наличие	наличие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	веществ	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	advcl	_	_
+11	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	аналитическими	аналитический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	методиками	методика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	20	cc	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	18	amod	_	_
+18	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	_
+19	каждая	каждий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	гранула	грануть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+21	препарата	препарата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+24	содержать	содержать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	даже	даже	PART	_	_	26	advmod	_	_
+26	одной	один	NUM	_	Case=Gen|Gender=Fem	27	nummod	_	_
+27	молекулы	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+28	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 80389
+# text = Современные гомеопаты часто объясняют эффективность своего метода псевдонаучной концепцией "памяти воды".
+1	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	гомеопаты	гомеопат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	часто	часто	ADV	_	Degree=Pos	4	advmod	_	_
+4	объясняют	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	_
+7	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	псевдонаучной	псевдонаучный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	концепцией	концепция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	памяти	память	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+12	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 80390
+# text = Ниводном двойном слепом рандомизированном контролируемом клиническом испытании (апроведено ихнемало) неудалось продемонстрировать отличие гомеопатических препаратов отплацебо.
+1	Ниводном	Ниводный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	двойном	двойн	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+3	слепом	слеп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+4	рандомизированном	рандомизировать	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+5	контролируемом	контролируть	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	SpacesAfter=\n
+6	клиническом	клинический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	испытании	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl:agent	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	апроведено	апроводить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	parataxis	_	_
+10	ихнемало	ихнемало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	_
+12	неудалось	неудаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	продемонстрировать	демонстрировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	SpacesAfter=\n
+14	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	гомеопатических	гомеопатический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	отплацебо	отплацебо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 80391
+# text = Это, однако, немешает гомеопатии быть всемирной индустрией смногомиллиардными оборотами.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	однако	однако	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	немешает	немешать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+6	гомеопатии	гомеопатия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+8	всемирной	всемирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	индустрией	индустрия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+10	смногомиллиардными	смногомиллиардный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	_
+11	оборотами	оборот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 80392
+# text = Поводом для решения FTC стало заключение специально созданной рабочей группы, которое гласит, что эффективность гомеопатии поддерживается только теориями самих гомеопатов, которые неразделяет современная доказательная медицина.
+1	Поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	FTC	Ftс	ADP	_	_	5	case	_	_
+5	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	заключение	заключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+7	специально	специально	ADV	_	Degree=Pos	8	advmod	_	_
+8	созданной	создавать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+9	рабочей	рабочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которое	который	PRON	_	Case=Nom	10	nsubj	_	SpacesAfter=\n
+13	гласит	гласить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+17	гомеопатии	гомеопатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	поддерживается	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	advcl	_	_
+19	только	только	PART	_	_	20	advmod	_	_
+20	теориями	теория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
+21	самих	сам	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	гомеопатов	гомеопат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\n
+24	которые	который	PRON	_	Case=Nom	25	nsubj	_	_
+25	неразделяет	неразделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+26	современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+27	доказательная	доказательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	медицина	медицина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 80393
+# text = При этом нет никаких оснований для того, чтобы делать для гомеопатии исключение, позволяя ееадептам заявлять обэффективности препаратов винструкциях ирекламе без научного ее подтверждения, тоесть вводить потребителей взаблуждение.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	никаких	никакой	DET	_	Case=Gen|Number=Plur	5	amod	_	SpacesAfter=\n
+5	оснований	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nsubj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+10	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	гомеопатии	гомеопатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	исключение	исключение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	позволяя	позволять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+16	ееадептам	ееадепт	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	SpacesAfter=\n
+17	заявлять	заявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	обэффективности	обэффективность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+19	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	винструкциях	винструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	nmod	_	_
+21	ирекламе	иреклама	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+22	без	без	ADP	_	_	25	case	_	_
+23	научного	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+24	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	25	nmod	_	SpacesAfter=\n
+25	подтверждения	подтверждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+28	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	dep	_	_
+29	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_
+30	взаблуждение	взаблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 80394
+# text = Чтобы избежать подобного обмана потребителей, производителям любого безрецептурного гомеопатического препарата предоставили две возможности.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+2	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	advcl	_	_
+3	подобного	подобный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	обмана	обман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	производителям	производитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpacesAfter=\n
+8	любого	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+9	безрецептурного	безрецептурный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	гомеопатического	гомеопатический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+12	предоставили	предоставивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	14	nummod:gov	_	_
+14	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80395
+# text = Первая-- предоставить результаты контролируемых клинических испытаний, подтверждающих его эффективность ибезопасность.
+1	Первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	1	punct	_	_
+4	предоставить	предоставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	dep	_	_
+5	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+6	контролируемых	контролируть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+7	клинических	клинический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	подтверждающих	подтверждать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	ибезопасность	ибезопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80396
+# text = Вторая-- прямо указывать в рекламе инаупаковке, что его применение неимеет научного обоснования и основано натеории 1770-х годов, которую современная медицина неразделяет.
+1	Вторая-	Вторая-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	прямо	прямо	ADV	_	Degree=Pos	4	advmod	_	_
+4	указывать	указывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	SpacesAfter=\n
+6	рекламе	реклам	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	инаупаковке	инаупаковка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	применение	применение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	неимеет	неиметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+13	научного	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	обоснования	обоснование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	SpacesAfter=\n
+16	основано	основать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+17	натеории	натеория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+18	1770-х	1770-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+19	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которую	который	PRON	_	Case=Acc	24	obj	_	_
+22	современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	медицина	медицина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	неразделяет	неразделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 80397
+# text = Подобная маркировка должна находиться внепосредственной близости кописанию заявленных эффектов препарата или быть включенной внего.
+1	Подобная	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	маркировка	маркировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	dep	_	_
+5	внепосредственной	внепосредственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\n
+6	близости	близость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	кописанию	кописание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+8	заявленных	заявлать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	эффектов	эффекты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	препарата	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	или	или	CCONJ	_	_	14	cc	_	_
+12	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	_
+13	включенной	включять	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+14	внего	овн	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	0	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 80398
+# text = При этом запрещается принижать значимость такой маркировки дополнительными позитивными заявлениями одостоинствах гомеопатического средства.
+1	При	при	ADP	_	_	2	case	_	SpacesAfter=\n
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	запрещается	запрещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	принижать	принижать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	nsubj:pass	_	_
+5	значимость	значимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	маркировки	маркировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	дополнительными	дополнительной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	SpacesAfter=\n
+9	позитивными	позитивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	заявлениями	заявление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	0	obl	_	_
+11	одостоинствах	одостоинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	_
+12	гомеопатического	гомеопатический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	средства	средство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80399
+# text = Комиссия проголосовала зановые требования единогласно.
+1	Комиссия	комиссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	проголосовала	проголосовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	зановые	зановый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	требования	требование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+5	единогласно	единогласно	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 80400
+# text = Она также предупредила производителей гомеопатических препаратов, что будет тщательно следить занеобоснованными заявлениями врекламе инаупаковках продукции, которые будут расцениваться как нарушение закона.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	SpacesAfter=\n
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	предупредила	предупреждать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	производителей	производитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	гомеопатических	гомеопатический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	препаратов	препарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	PRON	_	Case=Nom	11	nsubj	_	_
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	SpacesAfter=\n
+10	тщательно	тщательно	ADV	_	Degree=Pos	11	advmod	_	_
+11	следить	следить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	parataxis	_	_
+12	занеобоснованными	занеобосновывать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	заявлениями	заявление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	11	obl	_	_
+14	врекламе	вреклама	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+15	инаупаковках	инаупаковка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	conj	_	SpacesAfter=\n
+16	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которые	который	PRON	_	Case=Nom	20	nsubj	_	_
+19	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	расцениваться	расценивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	16	acl:relcl	_	_
+21	как	как	SCONJ	_	_	22	cc	_	_
+22	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	advmod	_	_
+23	закона	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 80401
+# text = ВРоссии гомеопатические препараты продаются свободно, многие изних включены вофициальный реестр лекарственных средств.
+1	ВРоссии	ВРоссия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	гомеопатические	гомеопатический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	препараты	препарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+4	продаются	продавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	свободно	свободно	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+7	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	nsubj:pass	_	_
+8	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
+9	включены	включать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+10	вофициальный	вофициальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	реестр	реестр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+12	лекарственных	лекарственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80402
+# text = Подробнее почитать отом, почему гомеопатия неотличается отлечения плацебо, можно здесь издесь.
+1	Подробнее	подробно	ADV	_	Degree=Cmp	2	advmod	_	SpacesAfter=\n
+2	почитать	читать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	nsubj	_	_
+3	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	почему	почему	ADV	_	Degree=Pos	7	advmod	_	_
+6	гомеопатия	гомеопатия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	неотличается	неотличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	отлечения	отлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+9	плацебо	плацебо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+12	здесь	здесь	ADV	_	Degree=Pos	13	advmod	_	_
+13	издесь	издесь	ADV	_	Degree=Pos	0	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80403
+# text = Олег Лищук
+1	Олег	олег	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Лищук	Лищук	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+

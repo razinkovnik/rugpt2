@@ -1,0 +1,370 @@
+# sent_id = 81065
+# text = Американские ученые разработали методику, позволяющую отслеживать клеточные линии insitu, то есть без перемещения клеток.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	позволяющую	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	SpacesAfter=\n
+7	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	клеточные	клеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	линии	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+10	insitu	insitu	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	mark	_	SpacesAfter=\n
+13	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	fixed	_	_
+14	без	без	ADP	_	_	15	case	_	_
+15	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+16	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 81066
+# text = Это позволит отслеживать траектории пролиферации отдельных клеток в ходе развития эмбрионов или опухолей, не разрушая их.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	траектории	траектория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	пролиферации	пролиферация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	obl	_	_
+11	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	опухолей	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	разрушая	разрушать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 81067
+# text = Описание метода приводится настраницах журнала Nature.
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+2	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	приводится	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	настраницах	настраница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	_
+5	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Nature	nature	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 81068
+# text = Клеточные линии (у прокариот -- штаммы) представляют собой совокупность клеток, произошедших отединственной клетки-прародителя.
+1	Клеточные	Клеточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	линии	линия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	у	у	ADP	_	_	5	case	_	_
+5	прокариот	прокариота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	parataxis	_	_
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	штаммы	штамм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	представляют	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	собой	себя	PRON	_	Case=Ins	9	dep	_	_
+11	совокупность	совокупность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+14	произошедших	происходить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	16	amod	_	_
+15	отединственной	отединственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	прародителя	прародитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 81069
+# text = Внастоящее время ихизучают понабору накопленных спонтанных точечных мутаций путем полногеномного анализа.
+1	Внастоящее	Внастоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	ихизучают	ихизучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+4	понабору	понабору	ADV	_	Degree=Pos	5	advmod	_	_
+5	накопленных	накоплеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	спонтанных	спонтанный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	точечных	точечный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+9	путем	путем	ADP	_	_	11	case	_	_
+10	полногеномного	полногеномный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	анализа	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 81070
+# text = Этот метод требует выделения клеток сизвлечением изних ДНК.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	требует	требать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выделения	выделение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	сизвлечением	сизвлечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl:agent	_	_
+7	изних	изний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 81071
+# text = Сотрудники Калифорнийского технологического университета иМединститута Говарда Хьюза разработали генетическую метку, названную ими barcoded scratchpad ("блокнот со штрихкодом"), благодаря которой можно отслеживать клеточные линии insitu.
+1	Сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+2	Калифорнийского	Калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	иМединститута	иМединститут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\n
+6	Говарда	Говард	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	Хьюза	Хьюз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	разработали	разрабатывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	генетическую	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	метку	метка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	названную	называть	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	amod	_	_
+13	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	12	obl:agent	_	_
+14	barcoded	barcoded	X	_	Foreign=Yes	10	nsubj	_	_
+15	scratchpad	scratchpad	X	_	Foreign=Yes	14	flat:foreign	_	_
+16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	блокнот	блокнот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+19	со	с	ADP	_	_	20	case	_	SpacesAfter=\n
+20	штрихкодом	штрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	благодаря	благодаря	ADP	_	_	25	case	_	_
+25	которой	который	PRON	_	Case=Gen	26	nmod	_	_
+26	можно	можно	ADV	_	Degree=Pos	18	acl:relcl	_	_
+27	отслеживать	отслеживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	nsubj	_	_
+28	клеточные	клеточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	линии	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
+30	insitu	insitu	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 81072
+# text = Эта метка представляет собой генетический элемент из10повторяющихся фрагментов (20шпилек).
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	метка	метка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	собой	себя	PRON	_	Case=Ins	3	obl	_	_
+5	генетический	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	элемент	элемент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	из10повторяющихся	из10повторяться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	8	amod	_	_
+8	фрагментов	фрагмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	20шпилек	20шпилька	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	parataxis	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 81073
+# text = Ккаждому изних прикреплена последовательность, служащая "штрихкодом".
+1	Ккаждому	Ккаждый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	изних	оизни	PRON	_	Case=Gen|Number=Plur|Person=3	3	obl	_	_
+3	прикреплена	прикреплять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	последовательность	последовательность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	служащая	служащая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	штрихкодом	штрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 81074
+# text = Помимо этих структур вДНК материнской клетки вводятся гены индуцируемой нуклеазы Cas9 инаправляющей еегидовой РНК (гРНК), которая экспрессируется вместе с флуоресцентным белком.
+1	Помимо	помимо	ADP	_	_	3	case	_	SpacesAfter=\n
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+4	вДНК	вднк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	материнской	материнской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	вводятся	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	гены	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+9	индуцируемой	индуцируемый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	нуклеазы	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	Cas9	Cas9	NUM	_	_	14	nummod	_	SpacesAfter=\n
+12	инаправляющей	инаправлять	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+13	еегидовой	еегидовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	гРНК	грнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	которая	который	PRON	_	Case=Nom	20	nsubj:pass	_	_
+20	экспрессируется	экспрессировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	acl:relcl	_	_
+21	вместе	вместе	ADV	_	Degree=Pos	20	advmod	_	_
+22	с	с	ADP	_	_	24	case	_	SpacesAfter=\n
+23	флуоресцентным	флуоресцентный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	белком	белок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 81075
+# text = Всего вразные участки генома вводится несколько десятков "блокнотов соштрихкодом" (вэксперименте слинией мышиных эмбриональных стволовых клеток ученые использовали 28).
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+2	вразные	вразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	участки	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	вводится	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	несколько	несколько	NUM	_	Case=Nom	7	nummod:gov	_	SpacesAfter=\n
+7	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	блокнотов	блокнот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	соштрихкодом	соштрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+13	вэксперименте	вэксперимент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	conj	_	_
+14	слинией	слиния	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	_
+15	мышиных	мышин	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpacesAfter=\n
+16	эмбриональных	эмбриональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+19	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+20	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	28	28	NUM	_	_	20	nummod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 81076
+# text = Направленная гРНК нуклеаза Cas9 способна вызывать необратимый коллапс отдельных шпилек ("вырывать листки изблокнота"), оставляя "штрихкоды" нетронутыми.
+1	Направленная	направливать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	гРНК	грнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	нуклеаза	нуклеаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Cas9	Cas9	NUM	_	_	3	nummod	_	_
+5	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+6	вызывать	вызывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	dep	_	_
+7	необратимый	необратимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpacesAfter=\n
+8	коллапс	коллапс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	отдельных	отдельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	шпилек	шпилька	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	вырывать	вырывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	dep	_	_
+14	листки	листок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	изблокнота	изблокнот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+19	оставляя	оставлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	штрихкоды	штрихкод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	_
+23	нетронутыми	нетронутой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 81077
+# text = Входе пролиферации клетки индуцированная активность нуклеазы постепенно ислучайно "вырывает" отдельные "листки" в каждом из десятков "блокнотов соштрихкодами" каждой дочерней клеточной линии, что приводит к появлению индивидуальных наборов "блокнотов соштрихкодами" вних.
+1	Входе	входе	ADP	_	_	2	case	_	_
+2	пролиферации	пролиферацие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	индуцированная	индуцировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	SpacesAfter=\n
+5	активность	активность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	нуклеазы	нуклеаза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	постепенно	постепенно	ADV	_	Degree=Pos	8	advmod	_	_
+8	ислучайно	ислучайно	ADV	_	Degree=Pos	10	advmod	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	вырывает	вырывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	листки	листок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	каждом	каждый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	блокнотов	блокнот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	соштрихкодами	соштрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	24	punct	_	_
+24	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+25	дочерней	дочерний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+26	клеточной	клеточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	линии	линия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	что	что	PRON	_	Case=Nom	30	nsubj	_	_
+30	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+31	к	к	ADP	_	_	32	case	_	_
+32	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	obl	_	_
+33	индивидуальных	индивидуальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	SpacesAfter=\n
+34	наборов	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	_
+35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	блокнотов	блокнот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+37	соштрихкодами	соштрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	39	punct	_	_
+39	вних	вний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 81078
+# text = Такие индивидуальные наборы можно визуализировать спомощью флуоресцентной гибридизации одиночных молекул РНК insitu (smFISH).
+1	Такие	такой	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+2	индивидуальные	индивидуальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	наборы	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	визуализировать	визуализировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\n
+7	флуоресцентной	флуоресцентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	гибридизации	гибридизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	одиночных	одиночный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	молекул	молекулы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	РНК	РНк	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	insitu	insitu	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	smFISH	smfish	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 81079
+# text = Эта технология позволяет определять отдельные транскрипты мРНК (вданном случае продукты "блокнотов соштрихкодами") спомощью набора олигонуклеотидов (около 20пар оснований), каждый изкоторых комплементарен одному флюорофору в заданной мРНК.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	SpacesAfter=\n
+2	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	транскрипты	транскрипт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	мРНК	мрнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	вданном	вданный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	parataxis	_	SpacesAfter=\n
+11	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	блокнотов	блокнот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	соштрихкодами	соштрихкод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	14	punct	_	_
+17	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_
+18	набора	набор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	олигонуклеотидов	олигонуклеотид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	около	около	ADP	_	_	22	case	_	SpacesAfter=\n
+22	20пар	20пара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	parataxis	_	_
+23	оснований	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	nsubj	_	_
+27	изкоторых	изкоторый	PRON	_	Case=Gen	26	nmod	_	_
+28	комплементарен	комплементарный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	parataxis	_	_
+29	одному	один	NUM	_	Case=Dat|Gender=Masc	30	nummod	_	_
+30	флюорофору	флюорофор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	28	nmod	_	_
+31	в	в	ADP	_	_	33	case	_	SpacesAfter=\n
+32	заданной	задавать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	amod	_	_
+33	мРНК	мрнк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 81080
+# text = Кискомой мРНК присоединяется много таких олигонуклеотидов (ане одиночные, как кслучайно совпавшим последовательностям вдругих мРНК), что приводит кееяркой флуоресценции внутри клетки.
+1	Кискомой	Кискомой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	мРНК	мрнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	присоединяется	присоединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	много	много	ADV	_	Degree=Pos	3	advmod	_	_
+5	таких	такой	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+6	олигонуклеотидов	олигонуклеотид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	ане	анин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpacesAfter=\n
+9	одиночные	одиночный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	как	как	SCONJ	_	_	12	cc	_	_
+12	кслучайно	кслучайно	ADV	_	Degree=Pos	9	advmod	_	_
+13	совпавшим	совпать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	16	amod	_	_
+14	последовательностям	последовательность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	16	obl	_	_
+15	вдругих	вдругий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	мРНК	мрнк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	что	что	PRON	_	Case=Nom	20	nsubj	_	SpacesAfter=\n
+20	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+21	кееяркой	кееярка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+22	флуоресценции	флуоресценция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	внутри	внутри	ADV	_	Degree=Pos	24	advmod	_	_
+24	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+

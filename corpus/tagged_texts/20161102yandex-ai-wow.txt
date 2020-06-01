@@ -1,0 +1,492 @@
+# sent_id = 77857
+# text = "Яндекс" запустил новый поисковый алгоритм "Палех", воснове которого лежит использование нейронных сетей.
+1	"	"	PUNCT	_	_	2	punct	_	SpacesBefore=\n|SpaceAfter=No
+2	Яндекс	Яндекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	"	"	PUNCT	_	_	2	punct	_	_
+4	запустил	запускать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	поисковый	поисковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Палех	Палех	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	воснове	воснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+13	которого	который	PRON	_	Case=Gen	12	nmod	_	_
+14	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+15	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+16	нейронных	нейронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	сетей	сеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 77858
+# text = Благодаря "Палеху" поиск лучше находит страницы, которые соответствуют нетолько ключевым словам, ноисмыслу запроса.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Палеху	Палех	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	поиск	поиск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	лучше	хорошо	ADV	_	Degree=Cmp	7	advmod	_	_
+7	находит	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	страницы	страница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	соответствуют	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	нетолько	нетолько	ADV	_	Degree=Pos	11	advmod	_	_
+13	ключевым	ключевой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	ноисмыслу	ноисмысло	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	conj	_	_
+17	запроса	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 77859
+# text = Обэтом компания сообщает всвоем блоге.
+1	Обэтом	Обэто	PART	_	_	3	advmod	_	_
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всвоем	всвой	DET	_	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	_
+5	блоге	блог	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 77860
+# text = Обработка поисковых запросов-- это сложная ипорой нетривиальная задача для решения которой, как правило, успешно используется машинное обучение.
+1	Обработка	обработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+2	поисковых	поисковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	это	это	PART	_	_	8	cop	_	_
+7	сложная	сложной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ипорой	ипора	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+9	нетривиальная	нетривиальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	которой	который	PRON	_	Case=Gen	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	SCONJ	_	_	10	cc	_	_
+16	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	успешно	успешно	ADV	_	Degree=Pos	19	advmod	_	_
+19	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	parataxis	_	_
+20	машинное	машинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 77861
+# text = Однако оно имеет некоторые ограничения: дело втом, что для обучения искусственного интеллекта необходимо большое количество разнообразной пользовательской статистики.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	3	nsubj	_	_
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	_
+8	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	0	mark	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+13	искусственного	искусственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	интеллекта	интеллект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	_
+16	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+18	разнообразной	разнообразный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+19	пользовательской	пользовательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	статистики	статистика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 77862
+# text = Эта статистика существует вбольшом объеме для популярных исреднечастотных запросов, нопрактически отсутствует для уникальных запросов-- тоесть тех, которые неповторяются хотябы дважды втечение всего периода наблюдений.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	статистика	статистика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вбольшом	вбольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	объеме	объем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	для	для	ADP	_	_	9	case	_	_
+7	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	исреднечастотных	исреднечастотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	нопрактически	нопрактически	ADV	_	Degree=Pos	12	advmod	_	_
+12	отсутствует	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	для	для	ADP	_	_	15	case	_	_
+14	уникальных	уникальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	nsubj	_	_
+19	тех	тот	DET	_	Case=Gen|Number=Plur	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	которые	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	неповторяются	неповторяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl:relcl	_	_
+23	хотябы	хотяб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+24	дважды	дважды	ADV	_	Degree=Pos	25	advmod	_	_
+25	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	amod	_	_
+26	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	27	amod	_	_
+27	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 77863
+# text = При этом, до40процентов поисковых запросов вЯндексе являются именно уникальными (ихеще называют "длинным хвостом", так как они составляют существенную долю обращений кпоиску): это могут быть запросы отдетей, которые обращаются ксистеме, как кживому собеседнику ("дорогой яндекс посоветуй пожалуйста новые интересные игры про фей для плантика"), или запросы отлюдей, которые хотят узнать название фильма или книги поэпизоду ("фильм про человека который выращивал картошку надругой планете").
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	до40процентов	до40процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	поисковых	поисковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	вЯндексе	вЯндексе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	именно	именно	PART	_	_	10	advmod	_	_
+10	уникальными	уникальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	amod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	ихеще	ихеще	ADV	_	Degree=Pos	13	advmod	_	_
+13	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	длинным	длинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	хвостом	хвост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	так	так	ADV	_	Degree=Pos	0	mark	_	_
+20	как	как	SCONJ	_	_	19	fixed	_	_
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	22	nsubj	_	_
+22	составляют	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	advcl	_	_
+23	существенную	существенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	долю	доля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	обращений	обращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_
+26	кпоиску	кпоиск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	26	punct	_	_
+29	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+30	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
+31	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	cop	_	_
+32	запросы	запрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+33	отдетей	отдеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	которые	который	PRON	_	Case=Nom	36	nsubj	_	_
+36	обращаются	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	33	acl:relcl	_	_
+37	ксистеме	ксистема	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	как	как	SCONJ	_	_	41	cc	_	_
+40	кживому	кживый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	41	amod	_	_
+41	собеседнику	собеседник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	37	advmod	_	_
+42	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+44	дорогой	дорогой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	_
+45	яндекс	яндекс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	_
+46	посоветуй	посоветуй	ADV	_	Degree=Pos	47	advmod	_	_
+47	пожалуйста	пожалуйста	ADV	_	Degree=Pos	45	advmod	_	_
+48	новые	новый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	50	amod	_	_
+49	интересные	интересной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	50	amod	_	_
+50	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	47	nsubj	_	_
+51	про	про	ADP	_	_	52	case	_	_
+52	фей	фя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	50	nmod	_	_
+53	для	для	ADP	_	_	54	case	_	_
+54	плантика	плантик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	54	punct	_	_
+58	или	или	CCONJ	_	_	59	cc	_	_
+59	запросы	запрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	52	conj	_	_
+60	отлюдей	чеотловек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	59	nmod	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	60	punct	_	_
+62	которые	который	PRON	_	Case=Nom	63	nsubj	_	_
+63	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	60	acl:relcl	_	_
+64	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	63	xcomp	_	_
+65	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	64	obj	_	_
+66	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	65	nmod	_	_
+67	или	или	CCONJ	_	_	68	cc	_	_
+68	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	66	conj	_	_
+69	поэпизоду	поэпизода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	65	conj	_	_
+70	(	(	PUNCT	_	_	72	punct	_	SpaceAfter=No
+71	"	"	PUNCT	_	_	72	punct	_	SpaceAfter=No
+72	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	76	nsubj	_	_
+73	про	про	ADP	_	_	74	case	_	_
+74	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	76	nmod	_	_
+75	который	который	PRON	_	Case=Nom	76	nsubj	_	_
+76	выращивал	выращивать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	69	parataxis	_	_
+77	картошку	картошка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	76	obj	_	_
+78	надругой	надругий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	79	amod	_	_
+79	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	76	obl	_	SpaceAfter=No
+80	"	"	PUNCT	_	_	79	punct	_	SpaceAfter=No
+81	)	)	PUNCT	_	_	79	punct	_	SpaceAfter=No
+82	.	.	PUNCT	_	_	79	punct	_	SpaceAfter=No
+
+# sent_id = 77864
+# text = Трудность ихобработки заключается втом, что поисковику втаком случае необходимо искать нетолько соответствие пословам, ноипосмыслу.
+1	Трудность	трудность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	ихобработки	ихобработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	поисковику	поисковику	ADV	_	Degree=Pos	8	advmod	_	_
+8	втаком	втакий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+10	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	advcl	_	_
+11	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	нетолько	нетолько	ADV	_	Degree=Pos	11	advmod	_	_
+13	соответствие	соответствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+14	пословам	послов	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	ноипосмыслу	ноипосмысло	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77865
+# text = Разработчики "Яндекса" запустили новый алгоритм, который позволяет справиться сэтой проблемой.
+1	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Яндекса	яндекс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	запустили	запускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	справиться	справиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	сэтой	сэтый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77866
+# text = Онбыл назван "Палех" вчесть Жар-птицы сдлинным хвостом, которая часто появляется напалехской миниатюре.
+1	Онбыл	Онбыл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	назван	называть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Палех	Палех	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	вчесть	вчесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	Жар-птицы	Жар-птица	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	сдлинным	сдлинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	хвостом	хвост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+12	часто	часто	ADV	_	Degree=Pos	13	advmod	_	_
+13	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	_
+14	напалехской	напалехский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	миниатюре	миниатюра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 77867
+# text = Воснове "Палеха" лежит использование нейросети иметод семантических векторов.
+1	Воснове	Воснов	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	Палеха	Палех	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	нейросети	нейросетя	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	иметод	иметода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	семантических	семантический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	векторов	вектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 77868
+# text = Разработка и обучение нейросети происходили в несколько этапов.
+1	Разработка	разработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+4	нейросети	нейросеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	происходили	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 77869
+# text = Сначала исследователи использовали модель разработчиков изMicrosoft Research под названием Deep Structured Semantic Model.
+1	Сначала	сначала	ADV	_	Degree=Pos	3	advmod	_	_
+2	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	разработчиков	разработчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	изMicrosoft	изMicrosoft	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Research	Research	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+10	Deep	deep	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	Structured	Structured	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	Semantic	Semantic	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Model	Model	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 77870
+# text = На ее вход подавались тексты запросов изаголовков, которые разбивались набуквенные триграммы (для запроса "палех" получаются триграммы "па", "але", "лех", "ех").
+1	На	на	ADP	_	_	3	case	_	_
+2	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	вход	вход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+4	подавались	подаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	тексты	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	запросов	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	изаголовков	изаголовк	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	разбивались	разбиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+11	набуквенные	набуквять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	триграммы	триграмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	для	для	ADP	_	_	15	case	_	_
+15	запроса	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	палех	палех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	17	punct	_	_
+19	получаются	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+20	триграммы	триграмма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	па	па	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	але	аль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	лех	лех	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	ех	ех	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 77871
+# text = Так как словарь всех известных триграмм ограничен, то текст запроса можно представить ввиде вектора размером внесколько десятков тысяч элементов, иотметить вхождение триграмм иззапроса всловарь (совпадающие триграммы отмечаются единицей, остальные-- нулем).
+1	Так	так	ADV	_	Degree=Pos	7	advmod	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	словарь	словарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+4	всех	весь	DET	_	Case=Gen|Number=Plur	6	amod	_	_
+5	известных	известной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	триграмм	триграмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+7	ограничен	ограничивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	то	то	SCONJ	_	_	7	cc	_	SpacesAfter=\n
+10	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	запроса	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+13	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	nsubj	_	_
+14	ввиде	ввид	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+15	вектора	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+17	внесколько	внесколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+18	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+20	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	иотметить	иотмещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	conj	_	_
+23	вхождение	вхождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	триграмм	триграмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+25	иззапроса	иззапрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	всловарь	всловарь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	совпадающие	совпадать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	29	amod	_	_
+29	триграммы	триграмм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+30	отмечаются	отмечаоться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	conj	_	_
+31	единицей	единица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	остальные-	остальные-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	31	punct	_	_
+35	нулем	нуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	31	parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 77872
+# text = Сравнивая эти векторы можно узнать оналичии совпадающих триграмм взаголовке страницы изапросе, однако для получения вектора со"свойствами семантической близости" исследователи выполняли преобразование.
+1	Сравнивая	сравнивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+2	эти	этот	DET	_	Case=Acc|Number=Plur	3	amod	_	_
+3	векторы	вектор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+6	оналичии	оналичия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	совпадающих	совпадавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+8	триграмм	триграмма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	взаголовке	взаголовка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	conj	_	_
+10	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	изапросе	изапроса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+14	для	для	ADP	_	_	15	case	_	_
+15	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+16	вектора	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	со"	со"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	свойствами	свойство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	23	obl	_	_
+19	семантической	семантический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	близости	близость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	выполняли	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	преобразование	преобразование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 77873
+# text = Его суть заключалась втом, что навыходе модель выдавала результат скалярного умножения последних векторов заголовка изапроса.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	заключалась	заключаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	3	mark	_	_
+7	навыходе	навыходе	ADV	_	Degree=Pos	9	advmod	_	_
+8	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	выдавала	выдавать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	скалярного	скалярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	умножения	умножение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	векторов	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	заголовка	заголовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	_
+16	изапроса	изапрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 77874
+# text = Система обучалась таким образом, что для положительных обучающих примеров выходное значение было большим, адля отрицательных-- маленьким.
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	обучалась	обучаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	4	amod	_	_
+4	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	2	mark	_	_
+7	для	для	ADP	_	_	10	case	_	_
+8	положительных	положительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+9	обучающих	обучать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	примеров	пример	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+11	выходное	выходный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	большим	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	адля	адля	ADP	_	_	17	case	_	_
+17	отрицательных	отрицательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	conj	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	маленьким	маленький	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	17	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 77875
+# text = Сравнивая векторы последнего слоя, исследователи могли вычислить ошибку предсказания и"подкрутить" нейросеть так, чтобы эта ошибка уменьшилась.
+1	Сравнивая	сравнивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	векторы	вектор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	слоя	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	вычислить	вычислять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	ошибку	ошибка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	предсказания	предсказание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	и"	и"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	подкрутить	подкрущать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	conj	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	нейросеть	нейросевать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	так	так	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	_
+18	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
+19	ошибка	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	уменьшилась	уменьшаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+

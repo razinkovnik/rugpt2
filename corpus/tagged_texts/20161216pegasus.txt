@@ -1,0 +1,215 @@
+# sent_id = 85105
+# text = Крылатая ракета-носительPegasus XL, разработанная американской компанией Orbital ATK, успешно доставила на орбиту все восемь спутников системы CYGNSS.
+1	Крылатая	Крылатый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	nsubj	_	SpacesBefore=\n
+2	ракета-	ракета-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	носительPegasus	носительPegasus	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	XL	Xl	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	разработанная	разрабатывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+7	американской	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl:agent	_	_
+9	Orbital	Orbital	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	ATK	Atk	PROPN	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	успешно	успешно	ADV	_	Degree=Pos	13	advmod	_	_
+13	доставила	доставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+16	все	весь	DET	_	Case=Acc|Number=Plur	17	amod	_	_
+17	восемь	восемь	NUM	_	Case=Acc	18	nummod:gov	_	_
+18	спутников	спутниок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+19	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	CYGNSS	Cygnss	PROPN	_	Foreign=Yes	19	flat:foreign	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85106
+# text = Об этом сообщается на сайте NASA.Cпутниковая системаCYGNSS разработана NASA и предназначена для мониторинга состояния воздушных потоков над поверхностью океанов.
+1	Об	о	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	NASA.	Nasa.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	SpaceAfter=No
+7	Cпутниковая	Cпутниковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	системаCYGNSS	системаcygnss	PROPN	_	Foreign=Yes	9	nsubj:pass	_	_
+9	разработана	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+10	NASA	Nasa	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	предназначена	предназначать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	мониторинга	мониторинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+15	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+18	над	над	ADP	_	_	19	case	_	_
+19	поверхностью	поверхность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+20	океанов	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85107
+# text = Полученные данные о взаимодействии атмосферы и океана помогут метеорологам лучше прогнозировать развитие и направление движения ураганов.Самолет-носитель L-1011 Stargazer с мыса Канаверал 15 декабря в 15:35, а в 16:37 ракета-носитель Pegasus XL отделилась от самолета (предыдущие две попытки запуска по разным причинам были отложены).
+1	Полученные	получать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	8	obj	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	взаимодействии	взаимодействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	_
+5	атмосферы	атмосфера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+8	помогут	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+9	метеорологам	метеоролог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+10	лучше	хорошо	ADV	_	Degree=Cmp	11	advmod	_	_
+11	прогнозировать	прогнозировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+12	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	направление	направление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_
+15	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	ураганов.	урагановек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	Самолет-носитель	Самолет-носитель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+18	L	l	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	1011	1011	NUM	_	_	18	nummod	_	_
+21	Stargazer	stargazer	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	мыса	мыс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	Канаверал	Канаверать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	15	15	NUM	_	_	24	nummod	_	_
+26	декабря	декабрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	в	в	ADP	_	_	29	case	_	_
+28	15	15	NUM	_	_	29	nummod	_	SpaceAfter=No
+29	:35	:35	NOUN	_	_	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	а	а	CCONJ	_	_	39	cc	_	_
+32	в	в	ADP	_	_	39	case	_	_
+33	16	16	NUM	_	_	39	nummod	_	SpaceAfter=No
+34	:37	:37	NUM	_	_	39	nummod	_	_
+35	ракета-	ракета-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	носитель	носитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+37	Pegasus	Pegasus	PROPN	_	Foreign=Yes	36	flat:foreign	_	_
+38	XL	Xl	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+39	отделилась	отделяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	51	conj	_	_
+40	от	от	ADP	_	_	41	case	_	_
+41	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	_
+42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	45	amod	_	_
+44	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	45	nummod:gov	_	_
+45	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nsubj	_	_
+46	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	nmod	_	_
+47	по	по	ADP	_	_	49	case	_	_
+48	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	49	amod	_	_
+49	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	46	nmod	_	_
+50	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	51	aux:pass	_	_
+51	отложены	вкладыотать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	SpaceAfter=No
+52	)	)	PUNCT	_	_	51	punct	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	51	punct	_	SpaceAfter=No
+
+# sent_id = 85108
+# text = Через 13 минут после отделения от самолета ракета доставила спутники на орбиту, где они начали попарную состыковку.
+1	Через	через	ADP	_	_	3	case	_	_
+2	13	13	NUM	_	_	3	nummod	_	_
+3	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	отделения	отделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	самолета	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	ракета	ракет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	доставила	доставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	спутники	спутник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	орбиту	орбита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	где	где	ADV	_	Degree=Pos	16	advmod	_	_
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
+16	начали	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	попарную	попарный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	состыковку	состыковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 85109
+# text = В течение ближайших двух месяцев системаCYGNSS будет проходить тестирование и приступит к плановой работе уже в 2017 году.Это был уже 43 по счету запуск крылатой ракеты-носителя Pegasus.
+1	В	в	ADP	_	_	5	case	_	_
+2	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	ближайших	ближайший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	двух	два	NUM	_	Case=Gen	5	nummod	_	_
+5	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+6	системаCYGNSS	системаcygnss	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	проходить	проходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+9	тестирование	тестирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	приступит	приступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	к	к	ADP	_	_	14	case	_	_
+13	плановой	плановой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+15	уже	уже	ADV	_	Degree=Pos	18	advmod	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	2017	2017	NUM	_	_	18	nummod	_	_
+18	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+19	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	_
+21	уже	уже	ADV	_	Degree=Pos	22	advmod	_	_
+22	43	43	NUM	_	_	25	nummod	_	_
+23	по	по	ADP	_	_	24	case	_	_
+24	счету	счет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+25	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	_
+26	крылатой	крылатый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	parataxis	_	_
+30	Pegasus	Pegasus	PROPN	_	Foreign=Yes	29	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 85110
+# text = Кроме Orbital ATK самолеты-носители используются для запуска и другими компаниями.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	Orbital	Orbital	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+3	ATK	Atk	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	носители	носитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+7	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	компаниями	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 85111
+# text = Virgin Galactic, например, планирует использовать переоборудованный Boeing 747-400 для запуска ракеты-носителя LauncherOne, а также использует самолет-носительWhite Knight Two, спроектированный для подъема суборбитального космического корабля SpaceShipTwo.Николай Воронцов
+1	Virgin	virgin	PROPN	_	Foreign=Yes	6	nsubj	_	_
+2	Galactic	Galactic	PROPN	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	например	например	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	dep	_	_
+8	переоборудованный	переоборудовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	Boeing	боинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+10	747	747	NUM	_	_	9	nummod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	400	400	NUM	_	_	10	nummod	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+15	ракеты	ракета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	LauncherOne	LauncherOne	PROPN	_	Foreign=Yes	17	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	а	а	CCONJ	_	_	22	cc	_	_
+21	также	также	ADV	_	Degree=Pos	22	advmod	_	_
+22	использует	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+23	самолет-	самолет-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	носительWhite	носительWhite	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	Knight	Knight	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+26	Two	Two	PROPN	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	спроектированный	проектировать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+29	для	для	ADP	_	_	30	case	_	_
+30	подъема	подъем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
+31	суборбитального	суборбитальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+32	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	корабля	корабль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+34	SpaceShipTwo.	SpaceShipTwo.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+35	Николай	николай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	appos	_	_
+36	Воронцов	Воронцов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	flat:name	_	SpaceAfter=No
+

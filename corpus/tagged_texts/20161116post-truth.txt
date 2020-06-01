@@ -1,0 +1,300 @@
+# sent_id = 80035
+# text = Оксфордские лексикографы назвали английское "слово 2016 года".
+1	Оксфордские	Оксфордской	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	лексикографы	лексикограф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	назвали	называть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	английское	английский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+7	2016	2016	NUM	_	_	8	nummod	_	_
+8	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 80036
+# text = Имстало "post-truth"-- прилагательное, которое сам словарь определяет как "относящееся к таким обстоятельствам или обозначающее такие обстоятельства, вкоторых объективные факты влияют наформирование общественного мнения меньше, чем апелляции кэмоциям иличным мнениям".
+1	Имстало	Имстало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	post-truth	post-truth	X	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
+4	"-	"-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	прилагательное	прилагательное	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которое	который	PRON	_	Case=Acc	11	obj	_	_
+9	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	словарь	словарь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+12	как	как	SCONJ	_	_	14	mark	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	относящееся	относиться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	15	amod	_	_
+15	к	к	ADP	_	_	17	case	_	_
+16	таким	такой	DET	_	Case=Dat|Number=Plur	17	amod	_	_
+17	обстоятельствам	обстоятельство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	обозначающее	обозначать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+20	такие	такой	DET	_	Case=Acc|Number=Plur	21	amod	_	_
+21	обстоятельства	обстоятельство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	вкоторых	вкоторый	PRON	_	Case=Acc	26	obj	_	_
+24	объективные	объективный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	факты	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+27	наформирование	наформирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+28	общественного	общественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	мнения	мнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+30	меньше	мало	NUM	_	_	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	чем	чем	SCONJ	_	_	33	cc	_	_
+33	апелляции	апелляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	advmod	_	_
+34	кэмоциям	кэмоция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	33	nmod	_	_
+35	иличным	иличный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	34	amod	_	_
+36	мнениям	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	34	nmod	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = 80037
+# text = По традиции "слово года" выбирает Oxford Dictionaries, лексикографическое подразделение Oxford University Press, издательского отдела Оксфордского университета.
+1	По	по	ADP	_	_	2	case	_	_
+2	традиции	традиция	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	7	punct	_	_
+7	выбирает	выбирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	Oxford	Oxford	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Dictionaries	Dictionaries	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	лексикографическое	лексикографический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	подразделение	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	_
+13	Oxford	Oxford	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	University	university	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Press	press	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	издательского	издательский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	отдела	отдел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+19	Оксфордского	оксфордский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 80038
+# text = Комментируя выбор слова года, лексикографы отметили, что сама концепция "post-truth" существует уже около десяти лет, когда префикс post стали применять к слову truth ("истина") не в простом хронологическом значении "после", а в смысле "за гранью значимости", "безотносительно к (истине)".
+1	Комментируя	комментировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+2	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	лексикографы	лексикограф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	отметили	отмечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	концепция	концепция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	post-truth	post-truth	X	_	Foreign=Yes	11	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+16	уже	уже	ADV	_	Degree=Pos	19	advmod	_	_
+17	около	около	ADP	_	_	19	case	_	_
+18	десяти	десять	NUM	_	Case=Gen	19	nummod	_	_
+19	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	когда	когда	SCONJ	_	_	15	mark	_	_
+22	префикс	префикс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	post	post	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+24	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+25	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	к	к	ADP	_	_	27	case	_	_
+27	слову	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	_	_
+28	truth	truth	X	_	Foreign=Yes	27	flat:foreign	_	_
+29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	истина	истина	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	appos	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	31	punct	_	_
+34	не	не	PART	_	_	38	advmod	_	_
+35	в	в	ADP	_	_	38	case	_	_
+36	простом	простой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+37	хронологическом	хронологический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	значении	значение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	obl	_	_
+39	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+40	после	после	ADP	_	_	45	case	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	40	punct	_	_
+43	а	а	CCONJ	_	_	45	cc	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	conj	_	_
+46	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+47	за	за	ADP	_	_	48	case	_	_
+48	гранью	грань	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	45	nmod	_	_
+49	значимости	значимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	49	punct	_	_
+52	"	"	PUNCT	_	_	53	punct	_	SpaceAfter=No
+53	безотносительно	безотносительно	ADV	_	Degree=Pos	45	advmod	_	_
+54	к	к	ADP	_	_	56	case	_	_
+55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	истине	истина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	53	nmod	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
+58	"	"	PUNCT	_	_	56	punct	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	56	punct	_	SpaceAfter=No
+
+# sent_id = 80039
+# text = Таким образом, прилагательное "post-truth" описывает ситуацию, в которой истинное положение дел говорящего больше не интересует -- правда для него и его слушателей стала понятием относительным.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	прилагательное	прилагательное	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	post-truth	post-truth	X	_	Foreign=Yes	4	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	описывает	описывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Loc	19	obl	_	_
+13	истинное	истинный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+16	говорящего	говорить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+17	больше	больше	ADV	_	Degree=Cmp	19	advmod	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	интересует	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+20	--	--	PUNCT	_	_	19	punct	_	_
+21	правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+24	и	и	CCONJ	_	_	26	cc	_	_
+25	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	26	nmod	_	_
+26	слушателей	слушатель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	_
+27	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+28	понятием	понятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+29	относительным	относительной	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 80040
+# text = В 2016 году, по мнению оксфордцев, прилагательное "post-truth" стало особенно популярным, превратившись из невсем понятного слова вопределение, которое используется вполитических статьях всерьезных изданиях инетребует дополнительных объяснений.
+1	В	в	ADP	_	_	3	case	_	_
+2	2016	2016	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	_	_
+7	оксфордцев	оксфордец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	прилагательное	прилагательное	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	post-truth	post-truth	X	_	Foreign=Yes	9	appos	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	особенно	особенно	ADV	_	Degree=Pos	15	advmod	_	_
+15	популярным	популярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	превратившись	превращаться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	30	advcl	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	невсем	невсе	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+20	понятного	понятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	вопределение	вопределение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	которое	который	PRON	_	Case=Nom	25	nsubj:pass	_	_
+25	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	acl:relcl	_	_
+26	вполитических	вполитический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	27	amod	_	_
+27	статьях	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	25	obl	_	_
+28	всерьезных	всерьезный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	изданиях	издание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	27	nmod	_	_
+30	инетребует	инетребовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+31	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	объяснений	объяснение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 80041
+# text = При этом прилагательное образовало устойчивое словосочетание сословом "политика" (post-truth politics).
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	прилагательное	прилагательное	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	образовало	образовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	устойчивое	устойчивый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	словосочетание	словосочетание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	сословом	сослово	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	политика	политика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	post-truth	post-truth	X	_	Foreign=Yes	9	appos	_	_
+13	politics	politics	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80042
+# text = Лексикографы связывают такую популярность слова с референдумом повыходу Великобритании изЕвросоюза ипрезидентскими выборами вСША.
+1	Лексикографы	Лексикограф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	связывают	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	популярность	популярность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	референдумом	референдум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	_
+8	повыходу	повыхода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+9	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	изЕвросоюза	изЕвросоюз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	ипрезидентскими	ипрезидентский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	выборами	выборы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	_
+13	вСША	всш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 80043
+# text = Вшорт-лист Oxford Dictionaries попали также такие слова как "brexiteer"-- человек, поддерживающий выход Великобритании изЕвросоюза, "chatbot"-- компьютерная программа-собеседник, "woke"-- быть внимательным ксоциальной несправедливости, особенно расизму.
+1	Вшорт-лист	Вшорт-лист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Oxford	Oxford	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Dictionaries	Dictionaries	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	попали	попадать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+6	такие	такой	DET	_	Case=Acc|Number=Plur	7	amod	_	_
+7	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+8	как	как	SCONJ	_	_	10	cc	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	brexiteer	brexiteer	X	_	Foreign=Yes	0	flat:foreign	_	SpaceAfter=No
+11	"-	"-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	поддерживающий	поддерживать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	_
+16	выход	выход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	parataxis	_	_
+17	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	изЕвросоюза	изЕвросоюз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	chatbot	chatbot	X	_	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+22	"-	"-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	компьютерная	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	программа-собеседник	программа-собеседник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	woke	woke	X	_	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
+29	"-	"-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	28	punct	_	_
+31	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	32	cop	_	_
+32	внимательным	внимательной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+33	ксоциальной	ксоциальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	несправедливости	несправедливость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	особенно	особенно	ADV	_	Degree=Pos	37	advmod	_	_
+37	расизму	расизм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 80044
+# text = Сполным списком слов, попавших вшорт-лист, можно ознакомиться насайте подразделения.
+1	Сполным	Сполный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	списком	список	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	_
+3	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	попавших	попадать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+6	вшорт-лист	вшорт-лист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	ознакомиться	ознакоматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	nsubj	_	_
+10	насайте	насать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+11	подразделения	подразделение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+

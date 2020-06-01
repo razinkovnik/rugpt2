@@ -1,0 +1,287 @@
+# sent_id = 73467
+# text = Американская компания Harris разработала нового робота-сапера T7 и систему управления для него с обратной связью.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Harris	Harris	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	нового	новый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	робота-	робота-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	сапера	сапер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	T7	T7	NUM	_	_	7	nummod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+11	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	обратной	обратный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	связью	связь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 73468
+# text = Как сообщает Breaking Defense, манипулятор робота оснащен тензодатчиками и резистивными датчиками давления, расположенными на кончиках "пальцев".
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	Breaking	Breaking	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Defense	Defense	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	манипулятор	манипулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	оснащен	оснащать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	тензодатчиками	тензодатчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	резистивными	резистивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	датчиками	датчик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	conj	_	_
+13	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	расположенными	расположенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	кончиках	кончик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 73469
+# text = Данные с эти датчиков поступают на пульт оператора, позволяя ему "почувствовать" предмет, с которым работает робот.Современные роботы-саперы могут использоваться для разминирования самодельных взрывных устройств.
+1	Данные	Дывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	nsubj	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	эти	этот	DET	_	Case=Acc|Number=Plur	4	amod	_	_
+4	датчиков	датчик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+5	поступают	поступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	пульт	пульт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	позволяя	позволять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	advcl	_	_
+11	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	почувствовать	почувствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	которым	который	PRON	_	Case=Ins	19	obl	_	_
+19	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	робот.	робото	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	Современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+22	роботы-	роботы-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	саперы	сапер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+24	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	24	xcomp	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	разминирования	разминирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+28	самодельных	самодельной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+29	взрывных	взрывной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 73470
+# text = Однако чаще всего роботов используют для перемещения бомб в безопасные зоны и их подрыва.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	чаще	часто	ADV	_	Degree=Cmp	5	advmod	_	_
+3	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+4	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+8	бомб	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	безопасные	безопасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	зоны	зона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	14	nmod	_	_
+14	подрыва	подрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 73471
+# text = Манипуляторы таких роботов не оснащены системой обратной связи, из-за чего оператору бывает крайне сложно ограничить силу, прилагаемую к объекту.Система управления манипулятором нового робота-сапера T7 выполнена в виде пистолета с несколькими клавишами, размещенного на трех пантографах.
+1	Манипуляторы	манипулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	оснащены	оснащать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+7	обратной	обратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	из-за	из-за	ADP	_	_	11	case	_	_
+11	чего	что	PRON	_	Case=Gen	13	obl	_	_
+12	оператору	оператор	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
+13	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	acl:relcl	_	_
+14	крайне	крайне	ADV	_	Degree=Pos	15	advmod	_	_
+15	сложно	сложно	ADV	_	Degree=Pos	16	advmod	_	_
+16	ограничить	ограничивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	nsubj	_	_
+17	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	прилагаемую	прилагать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	amod	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	объекту.	объекту.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	Система	Систем	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+24	манипулятором	манипулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	nmod	_	_
+25	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	робота-сапера	робота-саперо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+27	T7	T7	NUM	_	_	26	nummod	_	_
+28	выполнена	выполнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	fixed	_	_
+31	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	obl	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	несколькими	несколько	NUM	_	Case=Ins	34	nummod	_	_
+34	клавишами	клавиш	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	размещенного	размещать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	amod	_	_
+37	на	на	ADP	_	_	39	case	_	_
+38	трех	три	NUM	_	Case=Loc	39	nummod	_	_
+39	пантографах	пантограф	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 73472
+# text = При помощи клавиш на "пистолете" можно задавать скорость следования манипулятора за движениями оператора, а также управлять его "пальцами".
+1	При	при	ADP	_	_	3	case	_	_
+2	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	клавиш	клавиша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	пистолете	пистолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+9	задавать	задавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	nsubj	_	_
+10	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	следования	следование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	манипулятора	манипулятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	движениями	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	0	nmod	_	_
+15	оператора	оператор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	также	также	ADV	_	Degree=Pos	19	advmod	_	_
+19	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+20	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	19	obj	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	пальцами	палец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 73473
+# text = Перемещение "пистолета" передается на пантографы и обрабатывается программным обеспечением.В случае если манипулятор задевает какой-либо предмет или упирается в него, оператор "чувствует" это благодаря вибрациям и растущему сопротивлению на рукоятке управления роботом.
+1	Перемещение	перемещение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	передается	передаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	пантографы	пантограф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	обрабатывается	обрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
+10	программным	программный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	обеспечением.	обеспечениемечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
+12	В	в	ADP	_	_	13	case	_	_
+13	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+14	если	если	SCONJ	_	_	9	mark	_	_
+15	манипулятор	манипулятор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	задевает	задевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+17	какой-либо	какой-либо	DET	_	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	предмет	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	упирается	упираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	conj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	оператор	оператор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	чувствует	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
+28	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+29	благодаря	благодаря	ADP	_	_	30	case	_	_
+30	вибрациям	вибрация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	26	obl	_	_
+31	и	и	CCONJ	_	_	33	cc	_	_
+32	растущему	растуть	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	_	_
+33	сопротивлению	сопротивление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	conj	_	_
+34	на	на	ADP	_	_	35	case	_	_
+35	рукоятке	рукоятка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	nmod	_	_
+36	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	роботом	робот	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	36	obl:agent	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 73474
+# text = По оценке Harris, новый робот позволит расширить список задач, которые обычно выполняют люди-саперы при помощи таких аппаратов.Роботы-саперы сегодня используются саперными подразделениями во многих странах мира.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	parataxis	_	_
+3	Harris	Harris	PROPN	_	Foreign=Yes	2	flat:foreign	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	позволит	позволять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	расширить	расширять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	обычно	обычно	ADV	_	Degree=Pos	14	advmod	_	_
+14	выполняют	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	саперы	сапер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	appos	_	_
+18	при	при	ADP	_	_	21	case	_	_
+19	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	fixed	_	_
+20	таких	такой	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	аппаратов.	аппаратовек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+22	Роботы-саперы	Роботы-сапера	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	сегодня	сегодня	ADV	_	Degree=Pos	24	advmod	_	_
+24	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+25	саперными	саперный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	26	amod	_	_
+26	подразделениями	подразделение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	24	obl:agent	_	_
+27	во	в	ADP	_	_	29	case	_	_
+28	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	_	_
+29	странах	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	24	obl	_	_
+30	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 73475
+# text = Они позволяют не подвергать жизнь людей опасности во время осмотра и перемещения взрывных устройств.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	подвергать	подвергать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+5	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	опасности	опасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	во	во	ADP	_	_	10	case	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	осмотра	осмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	перемещения	перемещение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+13	взрывных	взрывный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 73476
+# text = Некоторые модели роботов оснащены системами подрыва бомб.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	модели	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+3	роботов	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	оснащены	оснаскать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+6	подрыва	подрыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	бомб	бомба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 73477
+# text = Например, американские аппараты могут иметь дробовик для стрельбы по взрывным устройствам.Василий Сычёв
+1	Например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	аппараты	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	дробовик	дробовик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+8	для	для	ADP	_	_	7	case	_	_
+9	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	по	по	ADP	_	_	12	case	_	_
+11	взрывным	взрывной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	устройствам.	устройствам.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+13	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+14	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
+

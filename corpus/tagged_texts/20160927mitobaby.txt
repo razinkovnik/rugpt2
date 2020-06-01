@@ -1,0 +1,798 @@
+# sent_id = 72544
+# text = Журнал New Scientist в своем эксклюзивном материале сообщил о первой успешно проведенной на человеке процедуре переноса ядра от одной яйцеклетки к другой.
+1	Журнал	Журнавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesBefore=\n|SpacesAfter=\n
+2	New	new	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	Scientist	Scientist	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	в	в	ADP	_	_	7	case	_	_
+5	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	7	amod	_	_
+6	эксклюзивном	эксклюзивной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	материале	материал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	SpacesAfter=\n
+8	сообщил	сообщать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+9	о	о	ADP	_	_	15	case	_	_
+10	первой	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+11	успешно	успешно	ADV	_	Degree=Pos	12	advmod	_	_
+12	проведенной	проводить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	SpacesAfter=\n
+13	на	на	ADP	_	_	14	case	_	_
+14	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	процедуре	процедур	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+16	переноса	перенос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	от	от	ADP	_	_	20	case	_	SpacesAfter=\n
+19	одной	один	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	другой	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 72545
+# text = У ребенка, рожденного в результате такой процедуры, присутствуют гены не только отца и матери, но и митохондриальная ДНК от женщины-донора.
+1	У	у	ADP	_	_	2	case	_	_
+2	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+4	рожденного	рождать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	гены	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	отца	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	SpacesAfter=\n
+16	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	но	но	CCONJ	_	_	21	cc	_	_
+19	и	и	PART	_	_	18	advmod	_	_
+20	митохондриальная	митохондриальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	ДНК	Днк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	conj	_	_
+22	от	от	ADP	_	_	23	case	_	SpacesAfter=\n
+23	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72546
+# text = Результаты работы еще не опубликованы в научном журнале, медики только планируют представить их на конференции Американского общества репродуктивной медицины в Солт-Лейк-Сити в октябре этого года.Митохондрии, так называемые "энергетические станции клетки", наследуются только по материнской линии, то есть каждый ребенок получает их от матери.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	еще	еще	ADV	_	Degree=Pos	5	advmod	_	SpacesAfter=\n
+4	не	не	PART	_	_	5	advmod	_	_
+5	опубликованы	публиковать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	научном	научный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	медики	медик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	только	только	PART	_	_	12	advmod	_	_
+12	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpacesAfter=\n
+14	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	13	obj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+17	Американского	Американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpacesAfter=\n
+19	репродуктивной	репродуктивной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	Солт-Лейк-Сити	солт-лейк-сити	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	SpacesAfter=\n
+23	в	в	ADP	_	_	24	case	_	_
+24	октябре	октябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+25	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	26	amod	_	_
+26	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	Митохондрии	митохондрия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+29	так	так	ADV	_	Degree=Pos	30	advmod	_	_
+30	называемые	называть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	33	amod	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	энергетические	энергетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	conj	_	SpacesAfter=\n
+34	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	34	punct	_	_
+37	наследуются	наследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	conj	_	_
+38	только	только	PART	_	_	41	advmod	_	_
+39	по	по	ADP	_	_	41	case	_	_
+40	материнской	материнский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	SpacesAfter=\n
+41	линии	линия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	41	punct	_	_
+43	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	47	mark	_	_
+44	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	fixed	_	_
+45	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	nsubj	_	_
+47	получает	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	SpacesAfter=\n
+48	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	47	obj	_	_
+49	от	от	ADP	_	_	50	case	_	_
+50	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	47	obl	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	50	punct	_	SpaceAfter=No
+
+# sent_id = 72547
+# text = Они имеют собственную ДНК, в которой имеется несколько десятков генов, кодирующих белки или малые РНК.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	ДНК	днк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+6	в	в	ADP	_	_	7	case	_	_
+7	которой	который	PRON	_	Case=Loc	8	obl	_	_
+8	имеется	имеваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+9	несколько	несколько	NUM	_	Case=Nom	10	nummod:gov	_	_
+10	десятков	десяток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	SpacesAfter=\n
+11	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	кодирующих	кодировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	белки	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+15	или	или	CCONJ	_	_	17	cc	_	_
+16	малые	малый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72548
+# text = Хотя митохондриальный геном очень небольшой (всего 16569 нуклеотидов), высокий уровень мутаций в этих органеллах и отсутствие половой рекомбинации таких генов ведет к появлению значительного числа наследственных заболеваний, связанных с изменениями в последовательности ДНК митохондрий.
+1	Хотя	хотя	PART	_	_	3	cc	_	_
+2	митохондриальный	митохондриальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	SpacesAfter=\n
+5	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	всего	всего	ADV	_	Degree=Pos	9	advmod	_	_
+8	16569	16569	NUM	_	_	9	nummod	_	_
+9	нуклеотидов	нуклеотид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	высокий	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpacesAfter=\n
+13	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+14	мутаций	мутация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	этих	этот	DET	_	Case=Loc|Number=Plur	17	amod	_	_
+17	органеллах	органелл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	nmod	_	SpacesAfter=\s\s
+18	и	и	CCONJ	_	_	19	cc	_	SpacesAfter=\n
+19	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
+20	половой	половый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	рекомбинации	рекомбинация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	таких	такой	DET	_	Case=Gen|Number=Plur	23	amod	_	SpacesAfter=\n
+23	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+24	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+25	к	к	ADP	_	_	26	case	_	_
+26	появлению	появление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+27	значительного	значительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	SpacesAfter=\n
+28	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	наследственных	наследственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+32	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	30	amod	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	изменениями	изменение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	32	obl	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	последовательности	последовательность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	SpacesAfter=\n
+37	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 72549
+# text = Теоретически, передачу детям наследуемых таким образом заболеваний можно исключить, если заменить митохондрии материнской яйцеклетки на митохондрии из яйцеклетки здоровой женщины-донора.
+1	Теоретически	теоретически	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	передачу	передача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpacesAfter=\n
+4	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	conj	_	_
+5	наследуемых	наследуть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	7	amod	_	_
+7	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpacesAfter=\n
+8	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	если	если	SCONJ	_	_	10	mark	_	SpacesAfter=\n
+13	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+14	митохондрии	митохондрия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	материнской	материнской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpacesAfter=\n
+16	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	на	на	ADP	_	_	18	case	_	_
+18	митохондрии	митохондрия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	nmod	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpacesAfter=\n
+21	здоровой	здоровый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 72550
+# text = Ребенок, рожденный в результате такой процедуры, будет нести генетическую информацию от трех родителей (хотя доля донорской митохондриальной ДНК, конечно, составляет лишь доли процента от родительской ядерной).
+1	Ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+3	рожденный	рождать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+6	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
+10	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+11	генетическую	генетический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpacesAfter=\n
+13	от	от	ADP	_	_	15	case	_	_
+14	трех	три	NUM	_	Case=Gen	15	nummod	_	_
+15	родителей	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	хотя	хотя	SCONJ	_	_	10	mark	_	_
+18	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+19	донорской	донорский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpacesAfter=\n
+20	митохондриальной	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	конечно	конечно	ADV	_	Degree=Pos	25	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	SpacesAfter=\n
+26	лишь	лишь	PART	_	_	27	advmod	_	_
+27	доли	доля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	obl	_	_
+28	процента	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	от	от	ADP	_	_	31	case	_	_
+30	родительской	родительский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	SpacesAfter=\n
+31	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 72551
+# text = Методы переноса митохондрий разрабатываются еще с середины 1980-х годов прошлого века.
+1	Методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpacesAfter=\n
+2	переноса	перенос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+4	разрабатываются	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+5	еще	еще	ADV	_	Degree=Pos	7	advmod	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	середины	середина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+8	1980-х	1980-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 72552
+# text = Первый опробованный на человеке подход -- цитоплазматическое донорство -- подразумевает инъекцию здоровых митохондрий в яйцеклетку будущей матери вместе с "клеточным соком", то есть цитоплазмой.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+2	опробованный	опробовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpacesAfter=\n
+6	--	--	PUNCT	_	_	5	punct	_	_
+7	цитоплазматическое	цитоплазматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	донорство	донорство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	appos	_	_
+9	--	--	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+10	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	инъекцию	инъекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	здоровых	здоровый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	SpacesAfter=\n
+13	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	яйцеклетку	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	nmod	_	_
+16	будущей	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\n
+18	вместе	вместе	ADV	_	Degree=Pos	0	advmod	_	_
+19	с	с	ADP	_	_	22	case	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	клеточным	клеточный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	соком	сок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	mark	_	_
+26	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	fixed	_	SpacesAfter=\n
+27	цитоплазмой	цитоплазма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 72553
+# text = Цитоплазматическое донорство активно исследовалось американским ученым Жаком Коэном в 90-х годах прошлого века, а в 1997 году в результате проведения такой процедурыродились первые в мире 30 человек.
+1	Цитоплазматическое	Цитоплазматический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpacesAfter=\n
+2	донорство	донорство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	активно	активно	ADV	_	Degree=Pos	4	advmod	_	_
+4	исследовалось	исследовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpacesAfter=\n
+5	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	ученым	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
+7	Жаком	Жак	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	appos	_	_
+8	Коэном	Коэн	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	90-х	90-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	SpacesAfter=\n
+11	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	nmod	_	_
+12	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	23	cc	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	1997	1997	NUM	_	_	18	nummod	_	_
+18	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+21	проведения	проведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	процедурыродились	процедурыродить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	conj	_	_
+24	первые	первый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	nmod	_	_
+27	30	30	NUM	_	_	28	nummod	_	_
+28	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nsubj:pass	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72554
+# text = Однако этот подход имеет существенный недостаток.
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	подход	подход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	существенный	существенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	недостаток	недостаток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 72555
+# text = Поскольку митохондрии матери в ходе процедуры не удаляются, а только дополняются здоровыми органеллами, то ребенок несет одновременно и здоровые, и испорченные органеллы.
+1	Поскольку	поскольку	SCONJ	_	_	8	cc	_	SpacesAfter=\n
+2	митохондрии	митохондрия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	_	_
+6	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+7	не	не	PART	_	_	8	advmod	_	SpacesAfter=\n
+8	удаляются	удаляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	а	а	CCONJ	_	_	12	cc	_	_
+11	только	только	PART	_	_	12	advmod	_	_
+12	дополняются	дополнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	conj	_	_
+13	здоровыми	здоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	SpacesAfter=\n
+14	органеллами	органелол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	то	то	SCONJ	_	_	8	cc	_	_
+17	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpacesAfter=\n
+18	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+19	одновременно	одновременно	ADV	_	Degree=Pos	18	advmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	здоровые	здоровый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	25	cc	_	SpacesAfter=\n
+24	испорченные	испорчать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	amod	_	_
+25	органеллы	органелла	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72556
+# text = В ходе деления митохондрии распределяются между дочерними клетками случайно, и в некоторых из них может оказаться значительное количество испорченных органелл, что способно привести к развитию болезни.
+1	В	в	ADP	_	_	3	case	_	_
+2	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	деления	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpacesAfter=\n
+4	митохондрии	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	распределяются	распределяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	между	между	ADP	_	_	8	case	_	SpacesAfter=\n
+7	дочерними	дочерний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	_
+9	случайно	случайно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	16	cc	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	16	obl	_	SpacesAfter=\n
+14	из	из	ADP	_	_	15	case	_	_
+15	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	nmod	_	_
+16	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+17	оказаться	оказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	16	xcomp	_	_
+18	значительное	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpacesAfter=\n
+20	испорченных	испорчеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	amod	_	_
+21	органелл	органелла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	что	что	PRON	_	Case=Nom	24	nsubj	_	_
+24	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	parataxis	_	_
+25	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	nsubj	_	_
+26	к	к	ADP	_	_	27	case	_	_
+27	развитию	развитие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	obl	_	_
+28	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 72557
+# text = Более перспективным методом на сегодняшний день является не инъекция митохондрий в яйцеклетку матери, а, наоборот, перенос самог ядра из яйцеклетки матери в яйцеклетку донора со здоровыми митохондриями (собственное ядро из него предварительно удаляют).
+1	Более	более	ADV	_	Degree=Cmp	2	advmod	_	SpacesAfter=\n
+2	перспективным	перспективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+4	на	на	ADP	_	_	6	case	_	_
+5	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\n
+6	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	инъекция	инъекция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+10	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\n
+11	в	в	ADP	_	_	12	case	_	_
+12	яйцеклетку	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+13	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	а	а	CCONJ	_	_	19	cc	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	наоборот	наоборот	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	перенос	перенос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	conj	_	SpacesAfter=\n
+20	самог	самог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+21	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	из	из	ADP	_	_	21	case	_	_
+23	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	в	в	ADP	_	_	26	case	_	SpacesAfter=\n
+26	яйцеклетку	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	_
+27	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	со	с	ADP	_	_	30	case	_	_
+29	здоровыми	здоровый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	SpacesAfter=\n
+30	митохондриями	митохондрия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	37	nmod	_	_
+31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	собственное	собственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	ядро	ядро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+34	из	из	ADP	_	_	35	case	_	_
+35	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	33	nmod	_	SpacesAfter=\n
+36	предварительно	предварительно	ADV	_	Degree=Pos	37	advmod	_	_
+37	удаляют	удалявать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = 72558
+# text = Этот метод существует в двух вариантах, которые можно условно назвать британском и американским.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	двух	два	NUM	_	Case=Loc	6	nummod	_	_
+6	вариантах	вариант	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Acc	9	obj	_	SpacesAfter=\n
+9	можно	можно	ADV	_	Degree=Pos	6	acl:relcl	_	_
+10	условно	условно	ADV	_	Degree=Pos	11	advmod	_	_
+11	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+12	британском	британск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+14	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = 72559
+# text = В первом случае (pronuclear transplantation, PNT) медики сначала оплодотворяют отцовской спермой две яйцеклетки -- будущей матери и донора -- а затем переносят ядро одной женщины в безъядерную яйцеклетку другой.
+1	В	в	ADP	_	_	3	case	_	_
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	pronuclear	pronuclear	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpacesAfter=\n
+6	transplantation	transplantation	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	PNT	Pnt	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	медики	медик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+11	сначала	сначала	ADV	_	Degree=Pos	12	advmod	_	_
+12	оплодотворяют	оплодотворять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+13	отцовской	отцовский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	спермой	сперма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+15	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	16	nummod:gov	_	_
+16	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nsubj	_	_
+17	--	--	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+18	будущей	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	_
+22	--	--	PUNCT	_	_	21	punct	_	_
+23	а	а	CCONJ	_	_	25	cc	_	_
+24	затем	затем	ADV	_	Degree=Pos	25	advmod	_	SpacesAfter=\n
+25	переносят	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+26	ядро	ядро	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	одной	один	NUM	_	Case=Gen|Gender=Fem	28	nummod	_	_
+28	женщины	женщина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	безъядерную	безъядерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	SpacesAfter=\n
+31	яйцеклетку	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+32	другой	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 72560
+# text = Во втором случае (maternal spindle transfer, MST) используются две неоплодотворенные яйцеклетки и хромосомы одной из них переносятся в другую в виде веретена деления.
+1	Во	в	ADP	_	_	3	case	_	_
+2	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpacesAfter=\n
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	maternal	maternal	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+6	spindle	spindle	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	transfer	transfer	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	MST	Mst	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	_
+11	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+12	две	два	NUM	_	Case=Nom|Gender=Fem	14	nummod:gov	_	SpacesAfter=\n
+13	неоплодотворенные	неоплодотворенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	яйцеклетки	яйцеклетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	хромосомы	хромосома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpacesAfter=\n
+17	одной	один	NUM	_	Case=Gen|Gender=Fem	16	nummod	_	_
+18	из	из	ADP	_	_	19	case	_	_
+19	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+20	переносятся	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	conj	_	_
+21	в	в	ADP	_	_	25	case	_	_
+22	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+23	в	в	ADP	_	_	22	case	_	_
+24	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	fixed	_	SpacesAfter=\n
+25	веретена	веретена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+26	деления	деление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 72561
+# text = Последний вариант был несколько лет назад опробован на макаках американским ученым советского происхождения Шухратом Миталиповым.
+1	Последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	5	nummod:gov	_	_
+5	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+6	назад	назад	ADV	_	Degree=Pos	5	advmod	_	_
+7	опробован	опробовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+8	на	на	ADP	_	_	9	case	_	_
+9	макаках	макака	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+10	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ученым	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl:agent	_	_
+12	советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	SpacesAfter=\n
+13	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	Шухратом	Шухрат	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	appos	_	_
+15	Миталиповым	Миталипов	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72562
+# text = Именно этим подходом сейчас воспользовались медики под руководством Джона Джанга.
+1	Именно	именно	ADV	_	Degree=Pos	2	advmod	_	SpacesAfter=\n
+2	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	_
+3	подходом	подход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+4	сейчас	сейчас	ADV	_	Degree=Pos	5	advmod	_	_
+5	воспользовались	пользоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\n
+6	медики	медик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	руководством	руководство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+9	Джона	джон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	Джанга	Джанг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72563
+# text = По сообщению New Scientist, выбор в пользу этого варианта сделали сами родители будущего ребенка на основании своих религиозных убеждений -- в отличие от британской версии процедуры, американская не подразумевает манипуляций с оплодотворенными яйцеклетками.
+1	По	по	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	parataxis	_	_
+3	New	new	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Scientist	Scientist	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	SpacesAfter=\n
+9	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	_
+10	варианта	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	родители	родитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	nsubj	_	SpacesAfter=\n
+14	будущего	будущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	nmod	_	_
+18	своих	свой	DET	_	Case=Gen|Number=Plur	20	amod	_	SpacesAfter=\n
+19	религиозных	религиозный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	убеждений	убеждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	в	в	ADP	_	_	26	case	_	_
+23	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	_
+24	от	от	ADP	_	_	23	fixed	_	SpacesAfter=\n
+25	британской	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	версии	версия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	nmod	_	_
+27	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	31	nsubj	_	SpacesAfter=\n
+30	не	не	PART	_	_	31	advmod	_	_
+31	подразумевает	подразумевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+32	манипуляций	манипуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obl	_	_
+33	с	с	ADP	_	_	35	case	_	SpacesAfter=\n
+34	оплодотворенными	оплодотворенный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+35	яйцеклетками	яйцеклетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 72564
+# text = Показанием к проведению процедуры стал статус носителя синдрома Лея у матери ребенка.
+1	Показанием	показание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	SpacesAfter=\n
+2	к	к	ADP	_	_	3	case	_	_
+3	проведению	проведение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+4	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	статус	статус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+7	носителя	носитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	синдрома	синдром	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Лея	Лей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+12	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 72565
+# text = Это редкое, но тяжелое неврологическое заболевание, которое примерно в 20 процентах случаев связано с мутациями именно в митохондриальной ДНК.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	редкое	редкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	но	но	CCONJ	_	_	5	cc	_	_
+5	тяжелое	тяжелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	_
+6	неврологическое	неврологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	SpacesAfter=\n
+7	заболевание	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	которое	который	PRON	_	Case=Nom	15	nsubj:pass	_	_
+10	примерно	примерно	ADV	_	Degree=Pos	13	advmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	20	20	NUM	_	_	13	nummod	_	SpacesAfter=\n
+13	процентах	процент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	15	obl	_	_
+14	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	мутациями	мутация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	SpacesAfter=\n
+18	именно	именно	PART	_	_	21	advmod	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	митохондриальной	митохондриальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 72566
+# text = Два первых ребенка пациентки умерли в результате развития этого заболевания.
+1	Два	два	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	SpacesAfter=\n
+2	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	пациентки	пациентка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	умерли	умирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	SpacesAfter=\n
+7	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	10	amod	_	_
+10	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 72567
+# text = Третьему, рожденному после процедуры переноса ядра в яйцеклетку донора, сейчас уже пять месяцев.
+1	Третьему	третий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	рожденному	рождать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	amod	_	_
+4	после	после	ADP	_	_	5	case	_	_
+5	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpacesAfter=\n
+6	переноса	перенос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	ядра	ядро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	яйцеклетку	яйцеклетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+10	донора	донор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+12	сейчас	сейчас	ADV	_	Degree=Pos	14	advmod	_	_
+13	уже	уже	ADV	_	Degree=Pos	14	advmod	_	_
+14	пять	пять	NUM	_	Case=Acc	15	nummod:gov	_	_
+15	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 72568
+# text = Всего медиками было получено пять эмбрионов, но только один из них выжил и был подсажен матери.
+1	Всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	медиками	медик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	получено	получять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	пять	пять	NUM	_	Case=Nom	6	nummod:gov	_	_
+6	эмбрионов	эмбрион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	но	но	CCONJ	_	_	13	cc	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	один	один	NUM	_	Case=Nom|Gender=Masc	13	nsubj	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+13	выжил	выживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+16	подсажен	дсажать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	SpacesAfter=\n
+17	матери	мать	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 72569
+# text = По словам ученых, анализ образцов говорит о том, что у ребенка сохранился только один процент испорченных материнских митохондрий, хотя для развития заболевания эта доля должна составлять не менее 18 процентов.
+1	По	по	ADP	_	_	2	case	_	_
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	образцов	образец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+8	о	о	ADP	_	_	9	case	_	_
+9	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	_
+14	сохранился	сохраняться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+15	только	только	PART	_	_	16	advmod	_	SpacesAfter=\n
+16	один	один	NUM	_	Case=Nom|Gender=Masc	17	nummod:gov	_	_
+17	процент	процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+18	испорченных	испорчеть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	20	amod	_	_
+19	материнских	материнский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	SpacesAfter=\n
+20	митохондрий	митохондрия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	хотя	хотя	SCONJ	_	_	14	mark	_	_
+23	для	для	ADP	_	_	24	case	_	_
+24	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpacesAfter=\n
+25	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	27	amod	_	_
+27	доля	доля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+28	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	advcl	_	_
+29	составлять	составлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	dep	_	SpacesAfter=\n
+30	не	не	PART	_	_	31	advmod	_	_
+31	менее	менее	ADV	_	Degree=Cmp	33	nummod:gov	_	_
+32	18	18	NUM	_	_	33	nummod	_	_
+33	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 72570
+# text = New Scientist подчеркивает, что описываемая процедура митохондриального донорства проводилась в Мексике, так как на данный момент легальный статус подобных операций в США неясен -- они не разрешены, но и не запрещены.
+1	New	new	PROPN	_	Foreign=Yes	3	nsubj	_	SpacesAfter=\n
+2	Scientist	Scientist	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	подчеркивает	подчеркивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	описываемая	описывать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	процедура	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	SpacesAfter=\n
+8	митохондриального	митохондриальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	донорства	донорство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	проводилась	проводить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	advcl	_	SpacesAfter=\n
+11	в	в	ADP	_	_	12	case	_	_
+12	Мексике	мексика	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	так	так	ADV	_	Degree=Pos	0	mark	_	_
+15	как	как	SCONJ	_	_	14	fixed	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	SpacesAfter=\n
+19	легальный	легальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	статус	статус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+21	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	в	в	ADP	_	_	24	case	_	SpacesAfter=\n
+24	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	20	nmod	_	_
+25	неясен	неясный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	advcl	_	_
+26	--	--	PUNCT	_	_	25	punct	_	_
+27	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	29	nsubj:pass	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	разрешены	разрешать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	25	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	но	но	CCONJ	_	_	34	cc	_	_
+32	и	и	PART	_	_	34	advmod	_	_
+33	не	не	PART	_	_	34	advmod	_	SpacesAfter=\n
+34	запрещены	запрещать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	29	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 72571
+# text = Первой страной, которая прямо разрешила проводить подобные процедуры и разработала процедуру лицензирования медицинских центров, которые их проводят, стала в прошлом году Великобритания.
+1	Первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	страной	страна	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	которая	который	PRON	_	Case=Nom	6	nsubj	_	_
+5	прямо	прямо	ADV	_	Degree=Pos	6	advmod	_	SpacesAfter=\n
+6	разрешила	разрешать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpacesAfter=\n
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	разработала	разрабатывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	процедуру	процедура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	лицензирования	лицензирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpacesAfter=\n
+14	медицинских	медицинский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	центров	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	которые	который	PRON	_	Case=Acc	19	obj	_	_
+18	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	19	obj	_	_
+19	проводят	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+21	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	nmod	_	_
+25	Великобритания	великобритания	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 72572
+# text = Подробнее о методе донорства и его легальном статусе можно прочитать здесь.Александр Ершов
+1	Подробнее	подробно	ADV	_	Degree=Cmp	9	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	методе	метод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	донорства	донорство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	SpacesAfter=\n
+7	легальном	легальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	статусе	статус	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
+9	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+10	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	nsubj	_	_
+11	здесь.	здесь.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+12	Александр	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+13	Ершов	Ершов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+

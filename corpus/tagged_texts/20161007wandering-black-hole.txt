@@ -1,0 +1,564 @@
+# sent_id = 74156
+# text = Астрономы обнаружили гиперсветящийся источник переменного рентгеновского излучения, расположенный наокраине линзовидной галактики.
+1	Астрономы	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpacesBefore=\n
+2	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	гиперсветящийся	гиперсветиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	amod	_	_
+4	источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	переменного	переменный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	рентгеновского	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	расположенный	расположенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+10	наокраине	наокраина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+11	линзовидной	линзовидный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74157
+# text = Исследователи предполагают, что этот объект может быть блуждающей черной дырой, которая направляется измаленькой родительской галактики вболее крупную.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+9	блуждающей	блуждать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+10	черной	черный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дырой	дыра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	направляется	направляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+15	измаленькой	измаленький	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	родительской	родительской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	_
+18	вболее	вболее	ADV	_	Degree=Pos	19	advmod	_	_
+19	крупную	крупный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74158
+# text = Статья ученых опубликована вжурнале The Astrophysical Journal.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	The	the	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Astrophysical	Astrophysical	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Journal	journal	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74159
+# text = Существование сверхмассивных и средних по массе перемещающихся черных дыр предсказывают различные астрофизические процессы, такие как коллапс звезд III типа населения в ранней Вселенной или слияние движущихся молодых звезд вкомпактных звездных скоплениях.
+1	Существование	существование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+2	сверхмассивных	сверхмассивной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	средних	средний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	conj	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	массе	масса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+7	перемещающихся	перемещаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	9	amod	_	_
+8	черных	черный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	дыр	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+10	предсказывают	предсказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+12	астрофизические	астрофизический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	процессы	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	такие	такой	DET	_	Case=Nom|Number=Plur	13	amod	_	_
+16	как	как	SCONJ	_	_	17	cc	_	_
+17	коллапс	коллапс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	advmod	_	_
+18	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+19	III	Iii	NUM	_	_	18	nummod	_	_
+20	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	ранней	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	Вселенной	вселенная	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+25	или	или	CCONJ	_	_	26	cc	_	_
+26	слияние	слияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	_
+27	движущихся	двигаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	29	amod	_	_
+28	молодых	молодой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+29	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+30	вкомпактных	вкомпактный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+31	звездных	звездной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	скоплениях	скопление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 74160
+# text = Однако одним изнаиболее распространенных явлений, способных породить "блуждающую" черную дыру, считается слияние галактик.
+1	Однако	однако	ADV	_	Degree=Pos	15	advmod	_	_
+2	одним	один	NUM	_	Case=Ins|Gender=Neut	5	nummod	_	_
+3	изнаиболее	изнаиболее	ADV	_	Degree=Pos	4	advmod	_	_
+4	распространенных	распространенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	явлений	явление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	способных	способный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+8	породить	порождать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	блуждающую	блуждающий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	дыру	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+16	слияние	слияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj:pass	_	_
+17	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 74161
+# text = Согласно современным представлениям ученых, в активных галактических центрах находятся крупные черные дыры с массами порядка 105--1010 масс Солнца.
+1	Согласно	согласно	ADP	_	_	3	case	_	_
+2	современным	современный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	представлениям	представление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	10	obl	_	_
+4	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	в	в	ADP	_	_	9	case	_	_
+7	активных	активный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+8	галактических	галактический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	центрах	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+10	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+12	черные	черный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	дыры	дыр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	массами	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	nmod	_	_
+16	порядка	порядка	ADP	_	_	21	case	_	_
+17	105	105	NUM	_	_	21	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	1010	1010	NUM	_	_	17	nummod	_	_
+21	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+22	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74162
+# text = Они могут начать двигаться вместе сгазом, звездами ипылью галактики, которая проходит сквозь их родительскую галактику, ипокинуть свое прежнее местоположение.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	начать	начинать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	вместе	вместе	ADV	_	Degree=Pos	4	advmod	_	_
+6	сгазом	сгаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	звездами	звезда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	conj	_	_
+9	ипылью	ипыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl:agent	_	_
+10	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	сквозь	сквозь	ADP	_	_	17	case	_	_
+15	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	nmod	_	_
+16	родительскую	родительский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	галактику	галактика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	ипокинуть	ипокинуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+20	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	_
+21	прежнее	прежний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	местоположение	местоположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74163
+# text = Тем неменее подобные объекты весьма трудно обнаружить.
+1	Тем	тем	SCONJ	_	_	2	cc	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	6	advmod	_	_
+3	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	объекты	объект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+5	весьма	весьма	ADV	_	Degree=Pos	6	advmod	_	_
+6	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74164
+# text = Впервую очередь это связано стем, что гравитационное притяжение черной дыры настолько велико, что заеепределы неможет выйти даже свет, поэтому ее присутствие отслеживают по косвенным признакам.Авторы новой работы с помощью космического телескопа Chandra и обсерватории XMM-Newton X-ray вели наблюдения за линзовидной галактикой GJ1417+52, которая находится на расстоянии 4,5 миллиарда световых лет от Земли.
+1	Впервую	Впервий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+4	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	стем	соть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	4	mark	_	_
+8	гравитационное	гравитационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	притяжение	притяжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+10	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	настолько	настолько	ADV	_	Degree=Pos	13	advmod	_	_
+13	велико	большой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	что	что	SCONJ	_	_	13	mark	_	_
+16	заеепределы	заеепредел	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+17	неможет	немочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+18	выйти	выходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	даже	даже	PART	_	_	20	advmod	_	_
+20	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	поэтому	поэтому	ADV	_	Degree=Pos	25	advmod	_	_
+23	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	25	obj	_	_
+24	присутствие	присутствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+25	отслеживают	отслеживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+26	по	по	ADP	_	_	28	case	_	_
+27	косвенным	косвенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	признакам.	признакам.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	Авторы	автор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	_
+30	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32	с	с	ADP	_	_	35	case	_	_
+33	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	fixed	_	_
+34	космического	космический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	телескопа	телескоп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+36	Chandra	Chandra	PROPN	_	Foreign=Yes	35	flat:foreign	_	_
+37	и	и	CCONJ	_	_	38	cc	_	_
+38	обсерватории	обсерватория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	conj	_	_
+39	XMM-Newton	XMM-Newton	PROPN	_	Foreign=Yes	38	flat:foreign	_	_
+40	X-ray	X-ray	PROPN	_	Foreign=Yes	39	flat:foreign	_	_
+41	вели	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	_
+42	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	41	obj	_	_
+43	за	за	ADP	_	_	45	case	_	_
+44	линзовидной	линзовидный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	галактикой	галактика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	41	obl	_	_
+46	GJ1417+52	GJ1417+52	NOUN	_	_	45	appos	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	которая	который	PRON	_	Case=Nom	49	nsubj	_	_
+49	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	46	acl:relcl	_	_
+50	на	на	ADP	_	_	51	case	_	_
+51	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	obl	_	_
+52	4,5	4,5	NUM	_	_	53	nummod	_	_
+53	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
+54	световых	световой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	55	amod	_	_
+55	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	53	nmod	_	_
+56	от	от	ADP	_	_	57	case	_	_
+57	Земли	земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	57	punct	_	SpaceAfter=No
+
+# sent_id = 74165
+# text = Источник рентгеновского излучения, получивший название XJ1417+52, был замечен во время изучения области, известной как Вытянутая полоса Грота.
+1	Источник	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	рентгеновского	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	получивший	получать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	amod	_	_
+6	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	XJ1417+52	XJ1417+52	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	замечен	замечать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+11	во	во	ADP	_	_	13	case	_	_
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+14	области	область	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	известной	известный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+17	как	как	SCONJ	_	_	19	cc	_	_
+18	Вытянутая	Вытинать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	_
+19	полоса	полоса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	advmod	_	_
+20	Грота	Грот	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 74166
+# text = Его высокая светимость, по мнению исследователей, указывает на то, что он скорее всего является черной дырой.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+2	высокая	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	светимость	светимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	parataxis	_	_
+7	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	указывает	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	что	что	SCONJ	_	_	11	mark	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+15	скорее	скорее	ADV	_	Degree=Pos	17	parataxis	_	_
+16	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+18	черной	черный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	дырой	дыра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74167
+# text = По оценкам ученых, ее масса достигает примерно 100 тысяч масс Солнца, а светимость в рентгеновском диапазоне близится к пределу Эддингтона.Астрофизики классифицировали XJ1417+52 как гиперсветящийся рентгеновский источник.
+1	По	по	ADP	_	_	2	case	_	_
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+6	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	примерно	примерно	ADV	_	Degree=Pos	9	advmod	_	_
+9	100	100	NUM	_	_	10	nummod	_	_
+10	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+11	масс	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+12	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	19	cc	_	_
+15	светимость	светимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	рентгеновском	рентгеновский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	диапазоне	диапазон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+19	близится	близиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	пределу	предел	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+22	Эддингтона.	эддингтона.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	nmod	_	SpaceAfter=No
+23	Астрофизики	астрофизик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+24	классифицировали	классифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	conj	_	_
+25	XJ1417+52	XJ1417+52	NUM	_	_	29	nummod	_	_
+26	как	как	SCONJ	_	_	29	cc	_	_
+27	гиперсветящийся	гиперсветиться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	29	amod	_	_
+28	рентгеновский	рентгеновский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	источник	источник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 74168
+# text = Его излучение примерно в 10 раз мощнее, чем у самого яркого кандидата в блуждающие черные дыры, и в 10--100 раз сильнее, чем у ультраярких рентгеновских источников.
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	примерно	примерно	ADV	_	Degree=Pos	6	advmod	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	10	10	NUM	_	_	6	nummod	_	_
+6	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+7	мощнее	мощный	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	чем	чем	SCONJ	_	_	13	cc	_	_
+10	у	у	ADP	_	_	13	case	_	_
+11	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+12	яркого	яркой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	кандидата	кандидат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	advmod	_	_
+14	в	в	ADP	_	_	17	case	_	_
+15	блуждающие	блуждающий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+16	черные	черный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	дыры	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	и	и	CCONJ	_	_	25	cc	_	_
+20	в	в	ADP	_	_	24	case	_	_
+21	10-	10-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	100	100	NUM	_	_	24	nummod	_	_
+24	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+25	сильнее	сильный	ADJ	_	Degree=Cmp	7	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	чем	чем	SCONJ	_	_	31	cc	_	_
+28	у	у	ADP	_	_	31	case	_	_
+29	ультраярких	ультраяркий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+30	рентгеновских	рентгеновский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 74169
+# text = Однако этот "свет" исходит не от самой черной дыры, а от вещества, падающего на нее.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	исходит	исходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	не	не	PART	_	_	11	advmod	_	_
+8	от	от	ADP	_	_	11	case	_	_
+9	самой	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	черной	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дыры	дыра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	15	cc	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	вещества	вещество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	падающего	падать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74170
+# text = Пик светимости объекта пришелся на период между 2000 и 2002 годом; во время последующих наблюдений исследователи больше не смогли его обнаружить.
+1	Пик	пик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	светимости	светимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	объекта	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	пришелся	приходиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	между	между	ADP	_	_	8	case	_	_
+8	2000	2000	NUM	_	_	6	nummod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	2002	2002	NUM	_	_	11	nummod	_	_
+11	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	11	punct	_	_
+13	во	во	ADP	_	_	16	case	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	последующих	последующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	наблюдений	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	obl	_	_
+17	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	больше	больше	ADV	_	Degree=Cmp	20	advmod	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+21	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	_
+22	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74171
+# text = По мнению ученых, рентгеновская вспышка объясняется тем, что рядом с черной дырой прошла звезда, которая была разорвана приливными силами.
+1	По	по	ADP	_	_	2	case	_	_
+2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	рентгеновская	рентгеновский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	вспышка	вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+7	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	рядом	рядом	ADV	_	Degree=Pos	15	advmod	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	черной	черный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	дырой	дыра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+15	прошла	проходить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+16	звезда	звезда	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которая	который	PRON	_	Case=Nom	20	nsubj	_	_
+19	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	разорвана	разорвать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+21	приливными	приливный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	22	amod	_	_
+22	силами	сила	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74172
+# text = Ее вещество было разогрето при аккреции на черную дыру, что и привело к многократному возрастанию светимости.
+1	Ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+2	вещество	вещество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	разогрето	разогревать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	аккреции	аккреция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	дыру	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+12	и	и	PART	_	_	13	advmod	_	_
+13	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	к	к	ADP	_	_	16	case	_	_
+15	многократному	многократный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	возрастанию	возрастание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+17	светимости	светимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 74173
+# text = В целом за 2000--2015 годы мощность излучения снизилась примерно в 14 раз.На основе расположения источника и его светимости исследователи предполагают, что черная дыра изначально могла принадлежать к небольшой галактике, которая столкнулась с галактикой GJ1417+52.
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+3	за	за	ADP	_	_	7	case	_	_
+4	2000-	2000-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+6	2015	2015	NUM	_	_	7	nummod	_	_
+7	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
+8	мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	излучения	излучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	снизилась	снижаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	примерно	примерно	ADV	_	Degree=Pos	14	advmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	14	14	NUM	_	_	14	nummod	_	_
+14	раз.	раз.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	На	на	ADP	_	_	16	case	_	_
+16	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+17	расположения	расположение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	источника	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+21	светимости	светимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+22	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	SCONJ	_	_	10	mark	_	_
+26	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	_
+28	изначально	изначально	ADV	_	Degree=Pos	29	advmod	_	_
+29	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+30	принадлежать	принадлежать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	к	к	ADP	_	_	33	case	_	_
+32	небольшой	небольшой	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	галактике	галактика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	которая	который	PRON	_	Case=Nom	36	nsubj	_	_
+36	столкнулась	сталкиваться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	33	acl:relcl	_	_
+37	с	с	ADP	_	_	38	case	_	_
+38	галактикой	галактика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	obl	_	_
+39	GJ1417+52	GJ1417+52	NUM	_	_	38	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 74174
+# text = В результате она потеряла большую часть звезд, однако черная дыра, находящаяся в центральном регионе, и окружающие ее небесные тела сохранились.Несколько лет назад исследователям удалось обнаружить черную дыру, которая была вытолкнута из своей родительской галактики и двигалась со скоростью несколько миллионов километров в час.
+1	В	в	ADP	_	_	2	case	_	_
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	потеряла	потерять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	однако	однако	ADV	_	Degree=Pos	11	advmod	_	_
+10	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	дыра	дыра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	находящаяся	находиться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	центральном	центральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	регионе	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	окружающие	окружать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+20	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	_
+21	небесные	небесный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	тела	тело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+23	сохранились	сохраняться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	Несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	26	nummod:gov	_	_
+26	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
+27	назад	назад	ADV	_	Degree=Pos	26	advmod	_	_
+28	исследователям	исследователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	29	obl	_	_
+29	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+30	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	nsubj	_	_
+31	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	дыру	дыра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	которая	который	PRON	_	Case=Nom	36	nsubj	_	_
+35	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	36	aux:pass	_	_
+36	вытолкнута	вытолкать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	32	acl:relcl	_	_
+37	из	из	ADP	_	_	40	case	_	_
+38	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	40	amod	_	_
+39	родительской	родительской	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	галактики	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	obl	_	_
+41	и	и	CCONJ	_	_	42	cc	_	_
+42	двигалась	двигаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	36	conj	_	_
+43	со	с	ADP	_	_	44	case	_	_
+44	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	42	obl	_	_
+45	несколько	несколько	NUM	_	Case=Nom	46	nummod:gov	_	_
+46	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	42	nsubj	_	SpacesAfter=\n
+47	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	49	punct	_	SpaceAfter=No
+
+# sent_id = 74175
+# text = Астрофизики предполагают, что этот объект появился при слиянии двух галактик, в центре каждой из которых находилось по черной дыре.Кристина Уласович
+1	Астрофизики	астрофизик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	предполагают	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	при	при	ADP	_	_	9	case	_	_
+9	слиянии	слияние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+10	двух	два	NUM	_	Case=Gen	11	nummod	_	_
+11	галактик	галактика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+15	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	nmod	_	_
+16	из	из	ADP	_	_	17	case	_	_
+17	которых	который	PRON	_	Case=Gen	15	nmod	_	_
+18	находилось	находиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	conj	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	черной	черный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	21	obl	_	_
+21	дыре.	дырбыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	SpaceAfter=No
+22	Кристина	Кристина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+23	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+

@@ -1,0 +1,425 @@
+# sent_id = 90110
+# text = Американский автомобильный концерн Ford разработал новый модуль для своих автомобилей.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpacesBefore=\n
+2	автомобильный	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	концерн	концерн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	модуль	модуль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	для	для	ADP	_	_	7	case	_	_
+9	своих	свой	DET	_	Case=Gen|Number=Plur	10	amod	_	_
+10	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 90111
+# text = Согласно сообщению компании, устройство получило название SmartLink.
+1	Согласно	согласно	ADP	_	_	2	case	_	_
+2	сообщению	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	_
+3	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	получило	получать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	SmartLink	SmartLink	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 90112
+# text = С его помощью старые машины марок Ford и Lincoln получат некоторые функции, реализованные в современных автомобилях, включая точку доступа Wi-Fi и дистанционный запуск двигателя.Сегодня автопроизводители оснащают свои автомобили новыми электронными системами.
+1	С	с	ADP	_	_	5	case	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+4	старые	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
+6	марок	марка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	Lincoln	Lincoln	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	получат	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	12	amod	_	_
+12	функции	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	реализованные	реализовать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	современных	современный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	17	amod	_	_
+17	автомобилях	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	включая	включать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+20	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	доступа	доступ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	Wi-Fi	Wi-Fi	NUM	_	_	21	nummod	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	дистанционный	дистанционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	запуск	запуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	conj	_	_
+26	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+28	Сегодня	сегодня	ADV	_	Degree=Pos	30	advmod	_	_
+29	автопроизводители	автопроизводитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+30	оснащают	оснащать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+31	свои	свой	DET	_	Case=Acc|Number=Plur	32	amod	_	_
+32	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	_
+33	новыми	новый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+34	электронными	электронной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	amod	_	_
+35	системами	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
+
+# sent_id = 90113
+# text = В частности, широкое распространение получают системы, позволяющие владельцам подключаться к своим машинам с помощью смартфонов.
+1	В	в	ADP	_	_	5	case	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	широкое	широкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+6	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволяющие	позволять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	владельцам	владелец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+11	подключаться	подключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	dep	_	_
+12	к	к	ADP	_	_	14	case	_	_
+13	своим	свой	DET	_	Case=Dat|Number=Plur	14	amod	_	_
+14	машинам	машина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+15	с	с	ADP	_	_	17	case	_	_
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	_
+17	смартфонов	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 90114
+# text = При этом автомобили предыдущих поколений такой функциональности не получают даже в виде комплектов модернизации.Новое устройство SmartLink можно подключить к интерфейсу OBD-II, который в автомобилях Ford, располагается под рулем и позволяет подключиться автомобильной шине обмена данными CAN (Controller Area Network, сеть контроллеров).
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	_
+3	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+4	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	функциональности	функциональность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	получают	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	даже	даже	PART	_	_	13	advmod	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	_
+13	комплектов	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+14	модернизации	модернизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+18	SmartLink	SmartLink	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	можно	можно	ADV	_	Degree=Pos	9	conj	_	_
+20	подключить	подключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	nsubj	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	интерфейсу	интерфейс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+23	OBD-II	Obd-ii	NUM	_	_	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	который	который	PRON	_	Case=Nom	30	nsubj	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	автомобилях	автомобиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	30	obl	_	_
+28	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	appos	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	располагается	располагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
+31	под	под	ADP	_	_	32	case	_	_
+32	рулем	руль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+35	подключиться	дключиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	34	xcomp	_	_
+36	автомобильной	автомобильный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	шине	шина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	35	obl	_	_
+38	обмена	обмен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	данными	данные	NOUN	_	Animacy=Inan|Case=Ins|Number=Plur	38	nmod	_	_
+40	CAN	Can	PROPN	_	Foreign=Yes	39	appos	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	Controller	Controller	PROPN	_	Foreign=Yes	40	flat:foreign	_	_
+43	Area	Area	PROPN	_	Foreign=Yes	42	flat:foreign	_	_
+44	Network	network	PROPN	_	Foreign=Yes	43	flat:foreign	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	44	punct	_	_
+46	сеть	сеть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+47	контроллеров	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+48	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 90115
+# text = Такими разъемами располагают все машины Ford, выпускаемые с 2010 года.Благодаря новому модулю пассажиры машин смогут получить доступ в интернет через сеть 4G, раздаваемую посредством точки доступа Wi-Fi.
+1	Такими	такой	DET	_	Case=Ins|Number=Plur	2	amod	_	_
+2	разъемами	разъема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	_
+3	располагают	располагавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	все	весь	DET	_	Case=Acc|Number=Plur	5	amod	_	_
+5	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	выпускаемые	выпускать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	2010	2010	NUM	_	_	11	nummod	_	_
+11	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	Благодаря	благодаря	ADP	_	_	14	case	_	_
+13	новому	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+15	пассажиры	пассажир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+16	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+18	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+22	через	через	ADP	_	_	21	case	_	_
+23	сеть	сеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+24	4G	4g	NOUN	_	_	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	раздаваемую	раздавать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	amod	_	_
+27	посредством	посредством	ADP	_	_	28	case	_	_
+28	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
+29	доступа	доступ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	Wi-Fi	wifi-	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 90116
+# text = К этой точке смогут подключаться одновременно до восьми устройств.
+1	К	к	ADP	_	_	3	case	_	_
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	3	amod	_	_
+3	точке	точка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	подключаться	подключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+6	одновременно	одновременно	ADV	_	Degree=Pos	5	advmod	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	восьми	восемь	NUM	_	Case=Gen	9	nummod	_	_
+9	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 90117
+# text = С помощью специального приложения для смартфона владелец машины сможет получить информацию о состоянии некоторых систем, включая температуру охлаждающей жидкости и уровень заряда аккумулятора.Кроме того, благодаря модулю SmartLink владелец машины сможет получать информацию о ее местонахождении.
+1	С	с	ADP	_	_	4	case	_	_
+2	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	fixed	_	_
+3	специального	специальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	приложения	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	15	amod	_	_
+15	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	включая	включая	ADV	_	Degree=Pos	33	advmod	_	_
+18	температуру	температура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+19	охлаждающей	охлаждать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	_
+20	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+23	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+24	аккумулятора.	аккумулятора.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+25	Кроме	Кроме	ADP	_	_	26	case	_	_
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	благодаря	благодаря	ADP	_	_	29	case	_	_
+29	модулю	модуль	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	33	obl	_	_
+30	SmartLink	SmartLink	PROPN	_	Foreign=Yes	29	flat:foreign	_	_
+31	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	_
+34	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+35	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+36	о	о	ADP	_	_	38	case	_	_
+37	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	38	nmod	_	_
+38	местонахождении	местонахождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 90118
+# text = Наконец, устройство добавит в автомобиль функцию ограничения неопытного водителя.
+1	Наконец	наконец	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	добавит	добавлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	неопытного	неопытный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 90119
+# text = Прежде, чем передать машину неопытному знакомому владелец со смартфона сможет настроить ограничение скорости.Как ожидается, новое устройство поступит в продажу летом текущего года.
+1	Прежде	прежде	ADV	_	Degree=Pos	11	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	чем	чем	SCONJ	_	_	11	mark	_	_
+4	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+5	машину	машин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+6	неопытному	неопытный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+7	знакомому	знакомый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	со	с	ADP	_	_	10	case	_	_
+10	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	21	parataxis	_	_
+12	настроить	настраивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+13	ограничение	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	Как	как	ADV	_	Degree=Pos	21	mark	_	_
+17	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	поступит	поступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	продажу	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+24	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	21	obl	_	_
+25	текущего	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 90120
+# text = Заказать его установку можно будет при очередном техническом обслуживании автомобиля у дилера.
+1	Заказать	заказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	при	при	ADP	_	_	9	case	_	_
+7	очередном	очередной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	техническом	технический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	обслуживании	обслуживание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+10	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	дилера	дилер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 90121
+# text = Сколько будет стоить SmartLink, Ford пока не раскрывает.С ноября 2015 года Ford оснащает некоторые свои автомобили новой системой SYNC Connect.
+1	Сколько	сколько	ADV	_	Degree=Pos	0	root	_	_
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	стоить	стоить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	nsubj	_	_
+4	SmartLink	SmartLink	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	пока	пока	ADV	_	Degree=Pos	8	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	раскрывает.	раскрываето	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	conj	_	SpaceAfter=No
+10	С	с	ADP	_	_	11	case	_	_
+11	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	2015	2015	NUM	_	_	13	nummod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Ford	форд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	оснащает	оснащать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+16	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	18	amod	_	_
+17	свои	свой	DET	_	Case=Acc|Number=Plur	18	amod	_	_
+18	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+19	новой	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+21	SYNC	Synс	ADP	_	_	22	case	_	_
+22	Connect	Connect	PROPN	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 90122
+# text = Она позволяет смартфонам владельцев подключаться к автомобилям и управлять некоторыми их функциями.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	смартфонам	смартфонин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	владельцев	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	подключаться	подключаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	автомобилям	автомобиль	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+10	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur	12	amod	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	функциями	функция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 90123
+# text = В частности, можно дистанционно запускать двигатель, определять местоположение автомобиля, блокировать и разблокировать замки дверей, а также получать данные о количестве топлива в баке и уровне масла.Кроме того, будет реализована и возможность запуска двигателя по расписанию -- нужное время можно будет задать в приложении для смартфона.
+1	В	в	ADP	_	_	4	discourse	_	_
+2	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	дистанционно	дистанционно	ADV	_	Degree=Pos	6	advmod	_	_
+6	запускать	запускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+7	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	определять	определять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	conj	_	_
+10	местоположение	местоположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	блокировать	блокировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	nsubj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	разблокировать	разблокировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	_
+16	замки	замка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+17	дверей	дверь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	а	а	CCONJ	_	_	21	cc	_	_
+20	также	также	ADV	_	Degree=Pos	21	advmod	_	_
+21	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	conj	_	_
+22	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	21	obj	_	_
+23	о	о	ADP	_	_	24	case	_	_
+24	количестве	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	_
+25	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	баке	бака	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	35	obl	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	conj	_	_
+30	масла.	масла.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+31	Кроме	Кроме	ADP	_	_	32	case	_	_
+32	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	parataxis	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux:pass	_	_
+35	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	conj	_	_
+36	и	и	PART	_	_	37	advmod	_	_
+37	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	44	conj	_	_
+38	запуска	запуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	по	по	ADP	_	_	41	case	_	_
+41	расписанию	расписание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	39	nmod	_	_
+42	--	--	PUNCT	_	_	41	punct	_	_
+43	нужное	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	44	amod	_	_
+44	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obj	_	_
+45	можно	можно	ADV	_	Degree=Pos	35	conj	_	_
+46	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	cop	_	_
+47	задать	задавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	45	nsubj	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	приложении	приложение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	47	obl	_	_
+50	для	для	ADP	_	_	49	case	_	_
+51	смартфона	смартфон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	SpaceAfter=No
+
+# sent_id = 90124
+# text = Для обеспечения безопасности телефон и автомобиль необходимо будет "спарить".
+1	Для	для	ADP	_	_	2	case	_	_
+2	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+3	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	телефон	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+7	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+8	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	спарить	спаривать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	dep	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 90125
+# text = Это можно будет сделать только сидя в машине.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	сидя	сидеть	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 90126
+# text = Во время процедуры сопряжения потребуется вводить сгенерированные системой коды.Василий Сычёв
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	процедуры	процедура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+4	сопряжения	сопряжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	потребуется	требоваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	вводить	вводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	сгенерированные	сгенерировавать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	коды.	коды.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+

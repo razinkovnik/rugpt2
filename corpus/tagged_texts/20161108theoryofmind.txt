@@ -1,0 +1,678 @@
+# sent_id = 78505
+# text = Международная группа ученых показала, что дети уже в возрасте 2,5 года обладают теорией сознания, то есть способны осознавать ложность чужих убеждений.
+1	Международная	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	2,5	2,5	NUM	_	_	12	nummod	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+14	теорией	теория	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+15	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	mark	_	_
+18	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	fixed	_	_
+19	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	parataxis	_	_
+20	осознавать	осознавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	dep	_	_
+21	ложность	ложность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+22	чужих	чужой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	убеждений	убеждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78506
+# text = Раньше считалось, что такие способности появляются у детей только к четырем годам.
+1	Раньше	рано	ADV	_	Degree=Cmp	2	advmod	_	_
+2	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	такие	такой	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	способности	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	только	только	PART	_	_	13	advmod	_	_
+11	к	к	ADP	_	_	13	case	_	_
+12	четырем	четыре	NUM	_	Case=Dat	13	nummod	_	_
+13	годам	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78507
+# text = Статья опубликована вжурнале Proceedings ofthe National Academy ofSciences.Теория разума (theory of mind), или теория понимания сознания, сформулированная в 1978 году психологами Дэвидом Примаком и Гаем Вудруфом, представляет собой способность понимать, что чужое сознание отличается от твоего, и действовать соответствующе.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+2	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+4	Proceedings	Proceedings	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	ofthe	ofthe	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	National	national	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	Academy	academy	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	ofSciences.	ofsciences.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	SpaceAfter=No
+9	Теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+10	разума	разум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	theory	theory	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+13	of	of	X	_	Foreign=Yes	12	flat:foreign	_	_
+14	mind	mind	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+19	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	сформулированная	формулировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	1978	1978	NUM	_	_	25	nummod	_	_
+25	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+26	психологами	психолог	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	obl:agent	_	_
+27	Дэвидом	дэвид	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	appos	_	_
+28	Примаком	Примак	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	и	и	CCONJ	_	_	30	cc	_	_
+30	Гаем	Гай	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+31	Вудруфом	Вудруф	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+34	собой	себя	PRON	_	Case=Ins	33	obl	_	_
+35	способность	способность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+36	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	что	что	SCONJ	_	_	36	mark	_	_
+39	чужое	чужой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	_
+40	сознание	сознание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	41	nsubj	_	_
+41	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	36	advcl	_	_
+42	от	от	ADP	_	_	43	case	_	_
+43	твоего	твой	DET	_	Case=Gen|Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	и	и	CCONJ	_	_	46	cc	_	_
+46	действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	_
+47	соответствующе	соответствующе	ADV	_	Degree=Pos	46	advmod	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	47	punct	_	SpaceAfter=No
+
+# sent_id = 78508
+# text = Это включает, например, понимание того, что другие люди могут не знать чего-то, что знаешь ты, или иметь другие желания.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	включает	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	например	например	ADV	_	Degree=Pos	2	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	понимание	понимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+7	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	что	что	SCONJ	_	_	7	mark	_	_
+10	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	чего-то	что-то	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	что	что	SCONJ	_	_	2	mark	_	_
+18	знаешь	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+19	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	18	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	conj	_	_
+23	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	желания	желание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78509
+# text = Эта способность ограничена или отсутствует у людей с расстройствами аутического спектра и шизофренией.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	ограничена	ограничивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	или	или	CCONJ	_	_	5	cc	_	_
+5	отсутствует	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	расстройствами	расстройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	obl	_	_
+10	аутического	аутический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	спектра	спектр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	шизофренией	шизофрения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78510
+# text = Считается, что теория сознания не является врожденной и развивается у детей только к возрасту около 4 лет -- хотя проверить это у детей, еще не умеющих говорить, довольно сложно.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	32	advcl	_	_
+8	врожденной	врожденный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+11	у	у	ADP	_	_	12	case	_	_
+12	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	только	только	PART	_	_	15	advmod	_	_
+14	к	к	ADP	_	_	15	case	_	_
+15	возрасту	возраст	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+16	около	около	ADP	_	_	18	case	_	_
+17	4	4	NUM	_	_	18	nummod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+19	--	--	PUNCT	_	_	18	punct	_	_
+20	хотя	хотя	SCONJ	_	_	10	mark	_	_
+21	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	у	у	ADP	_	_	24	case	_	_
+24	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	еще	еще	ADV	_	Degree=Pos	28	advmod	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	умеющих	уметь	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+29	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	довольно	довольно	ADV	_	Degree=Pos	32	advmod	_	_
+32	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 78511
+# text = До недавнего времени также считалось, что теория сознания -- уникальное свойство человека.
+1	До	до	ADP	_	_	3	case	_	_
+2	недавнего	недавний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	cc	_	_
+8	теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	уникальное	уникальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	свойство	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	_
+13	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78512
+# text = Однако недавно оказалось, что теорий сознания обладают также человекообразные обезьяны: шимпанзе, бонобо и орангутаны.Классический тест натеорию сознания заключается вследующем.
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	_
+2	недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	_
+3	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	теорий	теория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+7	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	также	также	ADV	_	Degree=Pos	8	advmod	_	_
+10	человекообразные	человекообразный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	обезьяны	обезьяна	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	шимпанзе	шимпанзе	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	22	appos	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	бонобо	бонобо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	орангутаны.	орангутаны.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	Классический	классический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	тест	тест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	натеорию	натеорие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	_
+21	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	parataxis	_	_
+23	вследующем	вследуть	VERB	_	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 78513
+# text = Ребенку показывают двух кукол: кукла Салли прячет игрушку иуходит, после чего кукла Энн перепрятывает игрушку итоже уходит.
+1	Ребенку	ребенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	показывают	показывавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+4	кукол	кукола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	кукла	кукл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+7	Салли	Салли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+8	прячет	прякать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+9	игрушку	игрушка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	иуходит	иуходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	после	после	ADP	_	_	13	case	_	_
+13	чего	что	PRON	_	Case=Gen	16	obl	_	_
+14	кукла	кукла	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	Энн	Эн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	appos	_	_
+16	перепрятывает	перепрятывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+17	игрушку	игрушка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	итоже	итоже	PART	_	_	19	advmod	_	_
+19	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78514
+# text = Когда кукла Салли возвращается, ребенка спрашивают, где она будет искать игрушку.
+1	Когда	когда	ADV	_	Degree=Pos	4	mark	_	_
+2	кукла	кукть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+3	Салли	Салли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	возвращается	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	спрашивают	спрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+13	игрушку	игрушка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78515
+# text = Вклассических исследованиях было показано, что дети дочетырех лет неспособны правильно ответить наэтот вопрос: она показывают натоместо, где игрушка находится насамом деле, аненато, где она находится впонимании куклы Салли.
+1	Вклассических	Вклассический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	2	amod	_	_
+2	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+8	дочетырех	дочетыре	NUM	_	Case=Gen	9	nummod	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	неспособны	неспособный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	_
+11	правильно	правильно	ADV	_	Degree=Pos	12	advmod	_	_
+12	ответить	отвечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	_
+13	наэтот	наэтот	DET	_	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
+14	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+17	показывают	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+18	натоместо	натоместо	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	где	где	ADV	_	Degree=Pos	22	advmod	_	_
+21	игрушка	игрушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	_
+23	насамом	насамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	аненато	аненато	ADV	_	Degree=Pos	24	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	где	где	ADV	_	Degree=Pos	30	advmod	_	_
+29	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	30	nsubj	_	_
+30	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	acl:relcl	_	_
+31	впонимании	впонимание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	_
+32	куклы	кукла	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_
+33	Салли	Салли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = 78516
+# text = Однако в2007 году использование новаторской упрощенной методики исследования показало, что насамом деле дети способны справляться сэтой задачей гораздо раньше, уже вдва года.
+1	Однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+2	в2007	в2007	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+4	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	новаторской	новаторский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	упрощенной	упрощать	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	методики	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+9	показало	показывать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	насамом	насамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+14	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	9	advcl	_	_
+16	справляться	справляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	15	dep	_	_
+17	сэтой	сэтый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	задачей	задача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+19	гораздо	гораздо	ADV	_	Degree=Pos	20	advmod	_	_
+20	раньше	рано	ADV	_	Degree=Cmp	16	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	уже	уже	ADV	_	Degree=Pos	23	advmod	_	_
+23	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	24	nummod:gov	_	_
+24	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78517
+# text = Новая методика заключалась втом, что вместо того чтобы задавать детям вопросы, ученые просто следили задвижением глаз детей.
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	методика	методика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	заключалась	заключаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	втом	вт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	3	mark	_	_
+7	вместо	вместо	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+10	задавать	задавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	advcl	_	_
+11	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+12	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+15	просто	просто	PART	_	_	16	advmod	_	_
+16	следили	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+17	задвижением	задвижение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+18	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78518
+# text = Впоследующих исследованиях вэту методику вносили разные модификации: например, использовали ЭЭГ вместо отслеживания движения глаз или просили детей помочь кукле Салли.
+1	Впоследующих	Впоследуть	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	5	obl	_	_
+3	вэту	вэтот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	методику	методика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	вносили	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	модификации	модификация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	например	например	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	ЭЭГ	Ээг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	вместо	вместо	ADP	_	_	14	case	_	_
+14	отслеживания	отслеживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+15	движения	движение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	или	или	CCONJ	_	_	18	cc	_	_
+18	просили	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+19	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+20	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+21	кукле	кукль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+22	Салли	Салли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 78519
+# text = Внекоторых изэтих работ было показано, что дети способны справляться стестом даже раньше двух лет.
+1	Внекоторых	Внекоторый	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+2	изэтих	изэтот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	работ	работы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	показано	показывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	advcl	_	_
+10	справляться	справляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	dep	_	_
+11	стестом	стест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+12	даже	даже	PART	_	_	13	advmod	_	_
+13	раньше	рано	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+14	двух	два	NUM	_	Case=Gen	15	nummod	_	_
+15	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 78520
+# text = Причины различий в результатах классического иноваторского подходов до сих пор оставались неясными.
+1	Причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+2	различий	различие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	_
+5	классического	классической	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	иноваторского	иноваторский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	подходов	подход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	до	до	ADP	_	_	11	advmod	_	_
+9	сих	сей	DET	_	Case=Gen|Number=Plur	8	fixed	_	_
+10	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	fixed	_	_
+11	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	неясными	неясный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 78521
+# text = Помнению многих ученых, все дело в том, что способность понимать ложность чужих убеждений развивается удетей только к4годам.
+1	Помнению	Помнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+2	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+12	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	dep	_	_
+13	ложность	ложность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	чужих	чужой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	убеждений	убеждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	_
+16	развивается	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	_
+17	удетей	удеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+18	только	только	PART	_	_	17	advmod	_	_
+19	к4годам	к4год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78522
+# text = Другие психологи считают, что теория сознания появляется у детей раньше -- а с тестом они не справляются только потому, что им сложно понять вопрос иответить нанего.
+1	Другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	психологи	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	3	mark	_	_
+6	теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+11	раньше	рано	ADV	_	Degree=Cmp	8	advmod	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	а	а	CCONJ	_	_	18	cc	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	тестом	тест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	справляются	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+19	только	только	PART	_	_	20	advmod	_	_
+20	потому	потому	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	что	что	SCONJ	_	_	20	mark	_	_
+23	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	25	obl	_	_
+24	сложно	сложно	ADV	_	Degree=Pos	25	advmod	_	_
+25	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	_
+26	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
+27	иответить	иотвещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	dep	_	_
+28	нанего	онан	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 78523
+# text = Последнее объясняется, во-первых, снеобходимостью обрабатывать большее количество информации, аво-вторых, стем, что удетей плохо развит ингибиторный контроль, или способность подавлять автоматические (доминирующие) реакции.
+1	Последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	во-первых	во-первых	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	снеобходимостью	снеобходимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+7	обрабатывать	обрабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	_
+8	большее	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	аво-вторых	аво-второй	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	стем	стема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	7	mark	_	_
+17	удетей	удеть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+18	плохо	плохо	ADV	_	Degree=Pos	19	advmod	_	_
+19	развит	развивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+20	ингибиторный	ингибиторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	контроль	контроль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	или	или	CCONJ	_	_	24	cc	_	_
+24	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	conj	_	_
+25	подавлять	подавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	30	dep	_	_
+26	автоматические	автоматический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	доминирующие	доминировать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	30	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	_
+30	реакции	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = 78524
+# text = Вслучае задачи скуклами такой автоматической реакцией является указание того места, где игрушка находится насамом деле.
+1	Вслучае	вслучае	CCONJ	_	_	7	cc	_	_
+2	задачи	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	скуклами	скукла	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	_
+4	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	6	amod	_	_
+5	автоматической	автоматический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	реакцией	реакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	указание	указание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+9	того	тот	DET	_	Case=Gen|Gender=Neut|Number=Sing	10	amod	_	_
+10	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	где	где	ADV	_	Degree=Pos	14	advmod	_	_
+13	игрушка	игрушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	acl:relcl	_	_
+15	насамом	насамый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78525
+# text = Чтобы упростить детям задачу, тоесть снизить количество подлежащей обработке информации иубрать необходимость применения ингибиторного контроля, ученые, прежде чем задать контрольный вопрос ("где кукла Салли будет искать игрушку"), задавали имсерию тренировочных вопросов.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	18	cc	_	_
+2	упростить	упроскать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	advcl	_	_
+3	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+4	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	тоесть	тоесть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+7	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	подлежащей	подлежащий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	обработке	обработка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	иубрать	иубирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	_
+13	необходимость	необходимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	применения	применение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	ингибиторного	ингибиторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	прежде	прежде	ADV	_	Degree=Pos	22	advmod	_	_
+21	чем	чем	SCONJ	_	_	20	fixed	_	_
+22	задать	задавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	nsubj	_	_
+23	контрольный	контрольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	где	где	ADV	_	Degree=Pos	28	advmod	_	_
+28	кукла	кукть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+29	Салли	Салли	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	_
+30	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	_
+31	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+32	игрушку	игрушка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	32	punct	_	_
+36	задавали	давать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	31	conj	_	_
+37	имсерию	имсерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	_
+38	тренировочных	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	39	amod	_	_
+39	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	SpaceAfter=No
+
+# sent_id = 78526
+# text = Вэтих тренировочных экспериментах дети учились отвечать навопрос "где" (например, "где сейчас находится игрушка" или "где игрушка находилась вначале").
+1	Вэтих	Вэтот	DET	_	Case=Loc|Number=Plur	3	amod	_	_
+2	тренировочных	тренировочный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	экспериментах	эксперименты	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+4	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	учились	учиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	навопрос	навопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	где	где	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	например	например	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+16	сейчас	сейчас	ADV	_	Degree=Pos	17	advmod	_	_
+17	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+18	игрушка	игрушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	или	или	CCONJ	_	_	24	cc	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	где	где	ADV	_	Degree=Pos	24	advmod	_	_
+23	игрушка	игрушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	18	conj	_	_
+25	вначале	вначале	ADV	_	Degree=Pos	24	advmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78527
+# text = Оказалось, что при наличии тренировочных вопросов дети возраста 2,5 года справляются стестом гораздо лучше, чем вотсутствие этих вопросов.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	наличии	наличие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+6	тренировочных	тренировочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+9	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	2,5	2,5	NUM	_	_	11	nummod	_	_
+11	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+12	справляются	справляваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	_
+13	стестом	стест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	гораздо	гораздо	ADV	_	Degree=Pos	15	advmod	_	_
+15	лучше	хороший	ADJ	_	Degree=Cmp	12	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чем	чем	SCONJ	_	_	18	cc	_	_
+18	вотсутствие	вотсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	advmod	_	_
+19	этих	этот	DET	_	Case=Gen|Number=Plur	20	amod	_	_
+20	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78528
+# text = Втестах стренировочными вопросами 78процентов детей давали правильный ответ, автестах без них сзадачей справлялись только 59процентов детей (что только немного лучше случайного результата).
+1	Втестах	Втест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+2	стренировочными	стренировочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	_
+3	вопросами	вопрос	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	1	nmod	_	_
+4	78процентов	78процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	давали	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	правильный	правильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	автестах	автест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	conj	_	_
+11	без	без	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+13	сзадачей	сзадача	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	справлялись	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	59процентов	59процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	что	что	PRON	_	Case=Nom	17	mark	_	_
+20	только	только	PART	_	_	21	advmod	_	_
+21	немного	немного	ADV	_	Degree=Pos	22	advmod	_	_
+22	лучше	хорошо	ADV	_	Degree=Cmp	24	advmod	_	_
+23	случайного	случайный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78529
+# text = Результаты говорят отом, что двухлетние дети уже имеют теорию сознания ихуже справляются стестами только потому, что имсложно правильно понять вопрос иответить нанего.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отом	от	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	2	mark	_	_
+6	двухлетние	двухлетний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	теорию	теория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	сознания	сознание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	ихуже	плоихой	ADV	_	Degree=Cmp	13	advmod	_	_
+13	справляются	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	conj	_	_
+14	стестами	стест	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	потому	потому	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	что	что	SCONJ	_	_	16	mark	_	_
+19	имсложно	имсложно	ADV	_	Degree=Pos	21	advmod	_	_
+20	правильно	правильно	ADV	_	Degree=Pos	21	advmod	_	_
+21	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+22	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+23	иответить	иотвещать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	нанего	онан	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78530
+# text = Софья Долотовская
+1	Софья	Софий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Долотовская	Долотовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+

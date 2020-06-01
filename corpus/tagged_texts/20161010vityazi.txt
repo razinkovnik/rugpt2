@@ -1,0 +1,296 @@
+# sent_id = 74382
+# text = Российская пилотажная группа "Русские витязи" получила четыре новых многофункциональных истребителя Су-30СМ с синими бортовыми номерами "30", "31", "32" и "33".
+1	Российская	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpacesBefore=\n
+2	пилотажная	пилотажный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Русские	русский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	витязи	витязи	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	3	appos	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+10	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+11	многофункциональных	многофункциональной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	истребителя	истребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+13	Су-30СМ	Су-30см	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	с	с	ADP	_	_	17	case	_	_
+15	синими	синий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+16	бортовыми	бортовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	номерами	номер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	nmod	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	30	30	NUM	_	_	17	nummod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	31	31	NUM	_	_	19	conj	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	32	32	NUM	_	_	19	nummod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	33"	33"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = 74383
+# text = Как пишет bmpd, все самолеты уже окрашены в цвета пилотажной группы.
+1	Как	как	ADV	_	Degree=Pos	8	mark	_	_
+2	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+3	bmpd	bmpd	PROPN	_	Foreign=Yes	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	amod	_	_
+6	самолеты	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+8	окрашены	окрашивать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	цвета	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	_
+11	пилотажной	пилотажный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74384
+# text = В общей сложности "Русским витязям" должны быть поставлены шесть новых самолетов, оставшиеся два группа получит в октябре-ноябре 2016 года.
+1	В	в	ADP	_	_	6	case	_	_
+2	общей	общий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+3	сложности	сложность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Русским	русский	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	витязям	витязь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	6	punct	_	_
+8	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	aux:pass	_	_
+10	поставлены	поставлать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	dep	_	_
+11	шесть	шесть	NUM	_	Case=Nom	13	nummod:gov	_	_
+12	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	оставшиеся	оставаться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	17	amod	_	_
+16	два	два	NUM	_	Case=Nom|Gender=Masc	17	nummod:gov	_	_
+17	группа	групп	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nsubj	_	_
+18	получит	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	dep	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	октябре-ноябре	октябре-ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	2016	2016	NUM	_	_	22	nummod	_	_
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = 74385
+# text = "Русские витязи" были сформированы в апреле 1991 года и выполняли полеты на тяжелых истребителях Су-27П/УБ, которые с тех пор проходили лишь незначительные ремонт и модернизацию.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Русские	русский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	витязи	витязи	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	сформированы	сформировывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	апреле	апрель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	1991	1991	NUM	_	_	10	nummod	_	_
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	выполняли	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+13	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	тяжелых	тяжелый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	16	amod	_	_
+16	истребителях	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	nmod	_	_
+17	Су-27П/УБ	су-27п/уб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+20	с	с	ADP	_	_	23	advmod	_	_
+21	тех	тот	DET	_	Case=Gen|Number=Plur	20	fixed	_	_
+22	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	fixed	_	_
+23	проходили	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+24	лишь	лишь	PART	_	_	25	advmod	_	_
+25	незначительные	незначительной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	ремонт	ремонт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	модернизацию	модернизация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74386
+# text = До недавнего времени пилотажная группа была единственной в мире, выполняющей фигуры высшего и сложного пилотажа на тяжелых истребителях.
+1	До	до	ADP	_	_	3	case	_	_
+2	недавнего	недавний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+4	пилотажная	пилотажный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	выполняющей	выполнять	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+12	фигуры	фигура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+13	высшего	высший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	сложного	сложный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	_
+16	пилотажа	пилотаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	тяжелых	тяжелый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	истребителях	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74387
+# text = В 2012 году в Казахстане появились "Барсы Жетысу", летающие на Су-27.Поводом для обновления парка самолетов пилотажной группы стала практически полная выработка ресурса Су-27П/УБ.
+1	В	в	ADP	_	_	3	case	_	_
+2	2012	2012	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	Казахстане	казахстан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+6	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Барсы	Барсы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	Жетысу	Жетыс	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	летающие	летать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	Су	су	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	-27.	-27	NUM	_	_	16	nummod	_	SpaceAfter=No
+16	Поводом	повод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	обновления	обновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+19	парка	парк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	пилотажной	пилотажный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	группы	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+24	практически	практически	ADV	_	Degree=Pos	23	advmod	_	_
+25	полная	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	выработка	выработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+27	ресурса	ресурс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	Су-27П/УБ	су-27п/уб	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# sent_id = 74388
+# text = После получения новых истребителей Су-30СМ "Русские витязи" проведут их облет.
+1	После	после	ADP	_	_	2	case	_	_
+2	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+3	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	истребителей	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	Су-30СМ	Су-30см	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Русские	русский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	витязи	витязи	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	5	appos	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	8	punct	_	_
+10	проведут	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	облет	облет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74389
+# text = Ранее главком ВКС России генерал-полковник Виктор Бондарев заявил, что выступать на новых самолетах летчики начнут с 2017 года.
+1	Ранее	ранее	ADV	_	Degree=Cmp	2	advmod	_	_
+2	главком	главк	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+3	ВКС	ВКс	PROPN	_	_	5	nmod	_	_
+4	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	генерал-полковник	генерал-полковник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	Виктор	виктор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	Бондарев	Бондарев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	8	mark	_	_
+11	выступать	выступать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	dep	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	новых	новый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	самолетах	самолет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+15	летчики	летчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	начнут	начинать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	advcl	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	2017	2017	NUM	_	_	19	nummod	_	_
+19	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74390
+# text = Прежде в качестве новых самолетов для "Русских витязей" военные рассматривали и Су-35С.
+1	Прежде	прежде	ADV	_	Degree=Pos	5	advmod	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+6	для	для	ADP	_	_	9	case	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Русских	русский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	витязей	витязь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	военные	военный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	рассматривали	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Су-35С.	су-35сотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	conj	_	SpaceAfter=No
+
+# sent_id = 74391
+# text = Максимальная взлетная масса истребителя при длине 21,9 метра и размахе крыла 14,7 метра составляет 38,8 тонны.
+1	Максимальная	максимальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	взлетная	взлетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+4	истребителя	истребитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	длине	длин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	21,9	21,9	NUM	_	_	8	nummod	_	_
+8	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	размахе	размах	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	_
+11	крыла	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	14,7	14,7	NUM	_	_	13	nummod	_	_
+13	метра	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	38,8	38,8	NUM	_	_	16	nummod	_	_
+16	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 74392
+# text = Самолет способен развивать скорость до 2,2 тысячи километров в час, а дальность его полета составляет около трех тысяч километров.
+1	Самолет	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	2,2	2,2	NUM	_	_	7	nummod	_	_
+7	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nummod:gov	_	_
+8	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	а	а	CCONJ	_	_	16	cc	_	_
+13	дальность	дальность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+17	около	около	ADP	_	_	19	case	_	_
+18	трех	три	NUM	_	Case=Gen	19	nummod	_	_
+19	тысяч	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	_
+20	километров.	километровек	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	nmod	_	SpaceAfter=No
+
+# sent_id = 74393
+# text = Она тоже была сформирована в 1991 году и выполняет полеты на устаревших легких истребителях МиГ-29/УБ.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+2	тоже	тоже	PART	_	_	4	advmod	_	_
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	сформирована	сформировывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	1991	1991	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	на	на	ADP	_	_	14	case	_	_
+12	устаревших	устаревать	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	14	amod	_	_
+13	легких	легкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	истребителях	истребитель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+15	МиГ-29/УБ	Миг-29/уб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74394
+# text = Предположительно, эта пилотажная группа пересядет на новые МиГ-29М2.Василий Сычёв
+1	Предположительно	предположительно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+4	пилотажная	пилотажный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	пересядет	пересядать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	на	на	ADP	_	_	10	case	_	_
+8	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	МиГ-29М2.	Миг-29м2.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+10	Василий	Василие	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+11	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+

@@ -1,0 +1,167 @@
+# sent_id = 11672
+# text = Юрий Мильнер,совладелец Mail.ru Group, объявил о том, что в ближайшие десять лет потратит сто миллионов долларов на поиски внеземной жизни.
+1	Юрий	юрий	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpacesBefore=\n
+2	Мильнер	Мильнер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,совладелец	,совладелец	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	Mail.ru	Mail.ru	X	_	Foreign=Yes	3	flat:foreign	_	_
+5	Group	group	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	объявил	объявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	десять	десять	NUM	_	Case=Acc	15	nummod:gov	_	_
+15	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+16	потратит	тратить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+17	сто	сто	NUM	_	Case=Acc	18	nummod:gov	_	_
+18	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nsubj	_	_
+19	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	поиски	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	nmod	_	_
+22	внеземной	внеземной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 11673
+# text = Партнером миллиардера в проекте Breakthrough ListenвыступаетСтивен Хокинг, ранее критиковавший попытки найти разумную жизнь за пределами Земли,сообщаетForbes.Руководить поисками будетФрэнк Дрейк, который1960 году сформулировал уравнение, позволяющее определить число внеземных цивилизаций в Млечном Пути, с которыми у человечества есть шанс вступить в контакт.Также в проекте участвует Джеффри Марси, американский астроном, открывший с двумя коллегами 70 из первых 100 найденных экзопланет.
+1	Партнером	партнер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+2	миллиардера	миллиардер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Breakthrough	Breakthrough	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	ListenвыступаетСтивен	ListenвыступаетСтивен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+7	Хокинг	хокинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	ранее	ранее	ADV	_	Degree=Pos	10	advmod	_	_
+10	критиковавший	критиковать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	_
+11	попытки	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	dep	_	_
+13	разумную	разумной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	за	за	ADP	_	_	16	case	_	_
+16	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
+17	Земли	Земля	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,сообщаетForbes.Руководить	,сообщаетForbes.Руководить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	nsubj	_	_
+19	поисками	поисок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
+20	будетФрэнк	будетФрэнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+21	Дрейк	дрейк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	который1960	который1960	NUM	_	_	24	nummod	_	_
+24	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+25	сформулировал	сформулировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+26	уравнение	уравнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	позволяющее	позволять	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	amod	_	_
+29	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	dep	_	_
+30	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	внеземных	внеземной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	цивилизаций	цивилизация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	в	в	ADP	_	_	35	case	_	_
+34	Млечном	Млечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	Пути	путь	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	35	punct	_	_
+37	с	с	ADP	_	_	38	case	_	_
+38	которыми	который	PRON	_	Case=Ins	40	nmod	_	_
+39	у	у	ADP	_	_	40	case	_	_
+40	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	nmod	_	_
+41	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	cop	_	_
+42	шанс	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+43	вступить	вступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	42	dep	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	контакт	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	Также	также	CCONJ	_	_	50	cc	_	_
+48	в	в	ADP	_	_	49	case	_	_
+49	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	obl	_	_
+50	участвует	участвать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	conj	_	_
+51	Джеффри	джеффри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	50	nsubj	_	_
+52	Марси	Марси	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	51	flat:name	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	52	punct	_	_
+54	американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	астроном	астроном	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	открывший	открывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	55	amod	_	_
+58	с	с	ADP	_	_	60	case	_	_
+59	двумя	два	NUM	_	Case=Ins	60	nummod	_	_
+60	коллегами	коллег	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	57	obl	_	_
+61	70	70	NUM	_	_	60	nummod	_	_
+62	из	из	ADP	_	_	66	case	_	_
+63	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	66	amod	_	_
+64	100	100	NUM	_	_	66	nummod	_	_
+65	найденных	находить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	66	amod	_	_
+66	экзопланет	экзопланета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	61	nmod	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	66	punct	_	SpaceAfter=No
+
+# sent_id = 11674
+# text = Участвовать в проекте будут и другие ученые и специалисты, ранее участвовавшие в проектах по поиску внеземных цивилизацийSETI.
+1	Участвовать	участвовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+4	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ранее	ранее	ADV	_	Degree=Pos	12	advmod	_	_
+12	участвовавшие	участвовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	amod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	проектах	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	поиску	поиск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+17	внеземных	внеземной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	цивилизацийSETI	цивилизацийSETI	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 11675
+# text = "С такой суммой у нас появляется самая лучшая из когда-либо предоставлявшихся возможностей найти разумную жизнь во вселенной", -- заявил Forbes Марси.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	С	с	ADP	_	_	4	case	_	_
+3	такой	такой	DET	_	Case=Ins|Gender=Fem|Number=Sing	4	amod	_	_
+4	суммой	сумма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+5	у	у	ADP	_	_	6	case	_	_
+6	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	7	obl	_	_
+7	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	nsubj	_	_
+10	из	из	ADP	_	_	13	case	_	_
+11	когда-либо	когда-либо	ADV	_	Degree=Pos	12	advmod	_	_
+12	предоставлявшихся	предоставлять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+14	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+15	разумную	разумной	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	во	во	ADP	_	_	18	case	_	_
+18	вселенной	вселенная	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	--	--	PUNCT	_	_	18	punct	_	_
+22	заявил	заявлять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+23	Forbes	forbes	PROPN	_	Foreign=Yes	22	nsubj	_	_
+24	Марси	Марси	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 11676
+# text = -- "Надеюсь, у них тоже есть средства на попытки связаться с нами".
+1	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	_
+8	тоже	тоже	PART	_	_	7	advmod	_	_
+9	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	средства	средства	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	попытки	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
+13	связаться	связываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	dep	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+

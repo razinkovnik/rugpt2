@@ -1,0 +1,490 @@
+# sent_id = 78650
+# text = Бразильские складчатогубы могут летать со скоростью до 160 километров в час -- гораздо быстрее, чем самые быстрые птицы.
+1	Бразильские	Бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	SpacesBefore=\n
+2	складчатогубы	складчатогуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	со	с	ADP	_	_	6	case	_	_
+6	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	до	до	ADP	_	_	9	case	_	_
+8	160	160	NUM	_	_	9	nummod	_	_
+9	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	obl	_	_
+12	--	--	PUNCT	_	_	11	punct	_	_
+13	гораздо	гораздо	ADV	_	Degree=Pos	14	advmod	_	_
+14	быстрее	быстро	ADV	_	Degree=Cmp	0	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чем	чем	SCONJ	_	_	19	cc	_	_
+17	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+18	быстрые	быстрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	14	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 78651
+# text = К таким выводам пришли ученые в статье, опубликованной в журнале Royal Society Open Science, хотя их текущие измерения, по мнению многих коллег, нуждаются в уточнениях.
+1	К	к	ADP	_	_	3	case	_	_
+2	таким	такой	DET	_	Case=Dat|Number=Plur	3	amod	_	_
+3	выводам	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	опубликованной	опубликовывать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	Royal	royal	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Society	society	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	Open	open	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	Science	science	PROPN	_	Foreign=Yes	14	flat:foreign	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	хотя	хотя	SCONJ	_	_	4	mark	_	_
+18	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	20	nmod	_	_
+19	текущие	текущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	измерения	измерение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	27	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	parataxis	_	_
+24	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	коллег	коллега	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	нуждаются	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	уточнениях	уточнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# sent_id = 78652
+# text = Досих пор исследователи считали, что другим животным трудно сравниться вскорости полета сптицами, чье тело обладает рядом особенностей, позволяющих импередвигаться крайне быстро.
+1	Досих	Досий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	amod	_	_
+2	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	считали	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	cc	_	_
+7	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	животным	животное	NOUN	_	Animacy=Anim|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+9	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	advcl	_	_
+10	сравниться	сравниться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	nsubj	_	_
+11	вскорости	вскорости	ADV	_	Degree=Pos	13	advmod	_	_
+12	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	сптицами	сптиец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	чье	чей	DET	_	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	_
+16	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	рядом	рядом	ADV	_	Degree=Pos	17	advmod	_	_
+19	особенностей	особенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+22	импередвигаться	импередвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	21	dep	_	_
+23	крайне	крайне	ADV	_	Degree=Pos	24	advmod	_	_
+24	быстро	быстро	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 78653
+# text = Например, во многих костях птиц присутствуют заполненные воздухом полости, что делает ихлегкими, акороткая изаостренная форма крыльев унекоторых видов обеспечивает высокую частоту взмахов.
+1	Например	например	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	во	в	ADP	_	_	5	case	_	_
+4	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	костях	кость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+6	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	присутствуют	присутствевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	заполненные	заполнять	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	полости	полость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+14	ихлегкими	ихлегкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	акороткая	акороткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	изаостренная	изаостренный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+19	крыльев	крыло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	_
+20	унекоторых	унекоторый	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+22	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+23	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	частоту	частота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	взмахов	взмах	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78654
+# text = Совокупность этих иряда других характеристик позволяет некоторым птицам летать соскоростью более 100 километров вчас: рекордсменом считается черный стриж (Apus Apus), который вовремя горизонтального полета может разгоняться до112 километров вчас (рекорд поскорости пикирующего полета принадлежит сапсану).
+1	Совокупность	совокупность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	3	amod	_	_
+3	иряда	иряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	характеристик	характеристика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	некоторым	некоторый	DET	_	Case=Dat|Number=Plur	8	amod	_	_
+8	птицам	птиец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+9	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+10	соскоростью	соскорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	более	более	ADV	_	Degree=Cmp	13	nummod:gov	_	_
+12	100	100	NUM	_	_	13	nummod	_	_
+13	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+14	вчас	вчас	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	рекордсменом	рекордсмен	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+17	считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	parataxis	_	_
+18	черный	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	стриж	стриж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Apus	Apus	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+22	Apus	Apus	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	22	punct	_	_
+25	который	который	PRON	_	Case=Nom	29	nsubj	_	_
+26	вовремя	вовремя	ADV	_	Degree=Pos	29	advmod	_	_
+27	горизонтального	горизонтальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+30	разгоняться	разгоняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	29	xcomp	_	_
+31	до112	до112	NUM	_	_	32	nummod	_	_
+32	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	obl	_	_
+33	вчас	вчас	ADV	_	Degree=Pos	39	advmod	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+36	поскорости	поскорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+37	пикирующего	пикируть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	amod	_	_
+38	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+39	принадлежит	принадлежить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	_
+40	сапсану	сапсана	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	40	punct	_	SpaceAfter=No
+
+# sent_id = 78655
+# text = Однако авторы новой работы заявляют, что летучие мыши могут передвигаться также быстро, как иптицы.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	заявляют	заявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	5	mark	_	_
+8	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	мыши	мышь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	передвигаться	передвигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+13	быстро	быстро	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	SCONJ	_	_	16	cc	_	_
+16	иптицы	иптица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78656
+# text = Такой вывод они сделали наоснове данных радиопередатчика, прикрепленного кспинам семи бразильских складчатогубов (Tadarida brasiliensis).
+1	Такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	вывод	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	наоснове	наоснова	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+6	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
+7	радиопередатчика	радиопередатчик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	прикрепленного	прикреплять	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_
+10	кспинам	кспин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+11	семи	семь	NUM	_	Case=Gen	13	nummod	_	_
+12	бразильских	бразильский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	складчатогубов	складчатогуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Tadarida	Tadarida	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+16	brasiliensis	brasiliensis	PROPN	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 78657
+# text = Спомощью этого устройства зоологи втечение недели отслеживали местоположение летучих мышей ичастоту взмахов ихкрыльев.
+1	Спомощью	Спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+2	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	зоологи	зоолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	втечение	втечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	отслеживали	отслеживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	местоположение	местоположение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	ичастоту	ичастота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+12	взмахов	взмах	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	ихкрыльев	ихкрылей	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = 78658
+# text = Врезультате, исследователи обнаружили, что почти все бразильские складчатогубы вовремя горизонтального полета способны разогнаться доскорости более 100 километров вчас.
+1	Врезультате	Врезультате	PART	_	_	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	почти	почти	ADV	_	Degree=Pos	8	advmod	_	_
+8	все	весь	DET	_	Case=Nom|Number=Plur	10	amod	_	_
+9	бразильские	бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	складчатогубы	складчатогуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+11	вовремя	вовремя	ADV	_	Degree=Pos	14	advmod	_	_
+12	горизонтального	горизонтальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	advcl	_	_
+15	разогнаться	разгоняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	dep	_	_
+16	доскорости	доскорость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+17	более	более	ADV	_	Degree=Cmp	19	nummod:gov	_	_
+18	100	100	NUM	_	_	19	nummod	_	_
+19	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+20	вчас	вчас	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 78659
+# text = При этом, одна излетучих мышей оказалась способна достигнуть скорости 158 километров вчас, тем самым установив рекорд среди своих сородичей.
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+5	излетучих	излетучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+7	оказалась	оказываться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	7	conj	_	_
+9	достигнуть	достигивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	dep	_	_
+10	скорости	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	158	158	NUM	_	_	12	nummod	_	_
+12	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	вчас	вчас	ADV	_	Degree=Pos	17	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	obl	_	_
+16	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+17	установив	устанавливать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	_
+18	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	среди	среди	ADP	_	_	21	case	_	_
+20	своих	свой	DET	_	Case=Gen|Number=Plur	21	amod	_	_
+21	сородичей	сородич	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78660
+# text = Тем неменее, исследование зоологов встретило критику состороны других ученых.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	nmod	_	_
+2	неменее	неменее	ADV	_	Degree=Cmp	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	зоологов	зоолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	встретило	встрещать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	критику	критика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	состороны	состорона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 78661
+# text = Так, профессор Андерс Хеденстрем (Anders Hedenstrom) изЛундского университета предполагает, что при оценке скорости полета бразильских складчатогубов могли быть допущены некоторые неточности.
+1	Так	так	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	профессор	профессор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Андерс	Андерс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	Хеденстрем	Хеденстирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Anders	Anders	PROPN	_	Foreign=Yes	5	parataxis	_	_
+8	Hedenstrom	Hedenstrom	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	изЛундского	изЛундский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+12	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	при	при	ADP	_	_	16	case	_	_
+16	оценке	оценка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+17	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	бразильских	бразильский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	складчатогубов	складчатогуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+22	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	aux:pass	_	_
+23	допущены	допускать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	xcomp	_	_
+24	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	25	amod	_	_
+25	неточности	неточность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 78662
+# text = Например, исследователи неследили заскоростью идвижением ветра вместах полета летучих мышей, поэтому нельзя исключить вероятности того, что бразильские складчатогубы разгонялись благодаря быстрым движениям воздушных потоков.
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	неследили	неслеждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+5	заскоростью	заскорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+6	идвижением	идвижение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	вместах	вмест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	_
+9	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	летучих	летучий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	поэтому	поэтому	ADV	_	Degree=Pos	14	advmod	_	_
+14	нельзя	нельзя	ADV	_	Degree=Pos	0	conj	_	_
+15	исключить	исключать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	nsubj	_	_
+16	вероятности	вероятность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+17	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	17	mark	_	_
+20	бразильские	бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	складчатогубы	складчатогуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	разгонялись	разгоняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	17	advcl	_	_
+23	благодаря	благодаря	ADP	_	_	25	case	_	_
+24	быстрым	быстрой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	25	amod	_	_
+25	движениям	движение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	22	obl	_	_
+26	воздушных	воздушный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	потоков	поток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+
+# sent_id = 78663
+# text = Авторы работы неотрицают такой возможности, однако они отмечают, что данные ополете животных собирались поночам, когда ветер почти отсутствовал.
+1	Авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	неотрицают	неотрицать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	однако	однако	ADV	_	Degree=Pos	9	advmod	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	отмечают	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	9	mark	_	_
+12	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	13	nsubj	_	_
+13	ополете	ополть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	13	obl	_	_
+15	собирались	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+16	поночам	поноч	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	когда	когда	SCONJ	_	_	15	mark	_	_
+19	ветер	ветер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	почти	почти	ADV	_	Degree=Pos	21	advmod	_	_
+21	отсутствовал	отсутствовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = 78664
+# text = Исследователи немогут объяснить, зачем бразильские складчатогубы развивают такую высокую скорость.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	немогут	немочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	зачем	зачем	ADV	_	Degree=Pos	8	advmod	_	_
+6	бразильские	бразильский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	складчатогубы	складчатогуб	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	развивают	развивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+9	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
+10	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78665
+# text = "Мынезнаем, почему именно летучие мыши делают это, однако уних должны быть веские причины, так как полет-- это один изсамых "затратных" способов передвижения среди животных",-- комментирует автор исследования.Ранее ученым удалось установить, что черные стрижи являются рекордсменами среди птиц не толькопо скорости горизонтального полета, но также ипо продолжительности полета без остановки.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мынезнаем	Мынезнать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	почему	почему	ADV	_	Degree=Pos	8	advmod	_	_
+5	именно	именно	PART	_	_	4	advmod	_	_
+6	летучие	летучий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	мыши	мыш	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+12	уних	оуни	PRON	_	Case=Acc|Number=Plur|Person=3	13	obj	_	_
+13	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	_
+14	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	cop	_	_
+15	веские	веский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	так	так	ADV	_	Degree=Pos	20	mark	_	_
+19	как	как	SCONJ	_	_	18	fixed	_	_
+20	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	nsubj	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	20	punct	_	_
+23	это	это	PART	_	_	29	cop	_	_
+24	один	один	NUM	_	Case=Nom|Gender=Masc	29	nummod:gov	_	_
+25	изсамых	изсамый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	затратных	затратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	способов	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	obl	_	_
+30	передвижения	передвижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	среди	среди	ADP	_	_	32	case	_	_
+32	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	,--	,--	PUNCT	_	_	32	punct	_	_
+35	комментирует	комментировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	parataxis	_	_
+36	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+37	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	Ранее	рано	ADV	_	Degree=Cmp	41	advmod	_	_
+40	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	41	obl	_	_
+41	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+42	установить	устанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	41	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	что	что	SCONJ	_	_	42	mark	_	_
+45	черные	черный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	46	amod	_	_
+46	стрижи	стриж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	47	nsubj	_	_
+47	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	42	advcl	_	_
+48	рекордсменами	рекордсмен	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	47	obl	_	_
+49	среди	среди	ADP	_	_	50	case	_	_
+50	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	47	obl	_	_
+51	не	не	PART	_	_	52	advmod	_	_
+52	толькопо	толькопо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	50	nmod	_	_
+53	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	52	nmod	_	_
+54	горизонтального	горизонтальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	55	amod	_	_
+55	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	но	но	CCONJ	_	_	63	cc	_	_
+58	также	также	ADV	_	Degree=Pos	59	advmod	_	_
+59	ипо	ипо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	63	nsubj	_	_
+60	продолжительности	продолжительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	59	nmod	_	_
+61	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	_	_
+62	без	без	ADP	_	_	63	case	_	_
+63	остановки	остановка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	conj	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	63	punct	_	SpaceAfter=No
+
+# sent_id = 78666
+# text = Оказалось, что черные стрижи способны проводить в воздухеоколо десяти месяцев.
+1	Оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	SCONJ	_	_	1	mark	_	_
+4	черные	черный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	стрижи	стриж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	advcl	_	_
+7	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	dep	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	воздухеоколо	воздухеоколо	ADP	_	_	11	case	_	_
+10	десяти	десять	NUM	_	Case=Gen	11	nummod	_	_
+11	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 78667
+# text = Поподсчетам зоологов, за жизнь эти птицы пролетаютрасстояние в семь раз превышающее дистанцию, которую преодолевает космический корабль при путешествии на Луну и обратно.Кристина Уласович
+1	Поподсчетам	Поподсчет	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	conj	_	_
+2	зоологов	зоолог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	за	за	ADP	_	_	5	case	_	_
+5	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+6	эти	этот	DET	_	Case=Nom|Number=Plur	7	amod	_	_
+7	птицы	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	пролетаютрасстояние	пролетаютрасстояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	conj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	семь	семь	NUM	_	Case=Acc	11	nummod:gov	_	_
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	превышающее	превышать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	_	_
+13	дистанцию	дистанция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которую	который	PRON	_	Case=Acc	16	obj	_	_
+16	преодолевает	преодолевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	космический	космический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	корабль	корабль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	при	при	ADP	_	_	20	case	_	_
+20	путешествии	путешествие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+21	на	на	ADP	_	_	22	case	_	_
+22	Луну	луна	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	обратно.	обратнотец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+25	Кристина	Кристин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	Уласович	Уласович	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+

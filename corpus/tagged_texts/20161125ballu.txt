@@ -1,0 +1,193 @@
+# sent_id = 81510
+# text = Исследователи из лаборатории RoMeLa Калифорнийского университета в Лос-Анджелесе построили устойчивого робота в виде воздушного шара с ногами.
+1	Исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	SpacesBefore=\n
+2	из	из	ADP	_	_	3	case	_	_
+3	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	RoMeLa	RoMeLa	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Калифорнийского	Калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Лос-Анджелесе	лос-анджелес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	устойчивого	устойчивой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	робота	робот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	в	в	ADP	_	_	15	case	_	_
+13	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	fixed	_	_
+14	воздушного	воздушный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	шара	шар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	ногами	нога	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 81511
+# text = Робот был представлен на конференции Humanoids 2016 в Канкуне (Мексика), сообщает IEEE Spectrum.Антропоморфные шагающие роботы, как правило, обладают большой массой, из-за чего при падении могут частично или полностью выйти из строя.
+1	Робот	робот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	представлен	представлять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	конференции	конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	Humanoids	Humanoids	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	2016	2016	NUM	_	_	6	nummod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Канкуне	Канкун	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Мексика	мексика	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	parataxis	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	IEEE	IEEE	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+16	Spectrum.	spectrum.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	SpaceAfter=No
+17	Антропоморфные	антропоморфные	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	_
+18	шагающие	шагать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+19	роботы	робот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	как	как	SCONJ	_	_	3	mark	_	_
+22	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	обладают	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+25	большой	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	массой	масса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	из-за	из-за	ADP	_	_	29	case	_	_
+29	чего	что	PRON	_	Case=Gen	32	obl	_	_
+30	при	при	ADP	_	_	31	case	_	_
+31	падении	падение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+32	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+33	частично	частично	ADV	_	Degree=Pos	36	advmod	_	_
+34	или	или	CCONJ	_	_	36	cc	_	_
+35	полностью	полностью	ADV	_	Degree=Pos	36	advmod	_	_
+36	выйти	выходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+37	из	из	ADP	_	_	38	case	_	_
+38	строя	строй	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
+
+# sent_id = 81512
+# text = При с проблемой потери равновесия сталкиваются даже современные роботы -- например, устройства,участвовавшиев соревнованиях DARPA Robotics Challenge в 2015 году.Разработчики нового робота под названием BALLU оригинально подошли к проблеме устойчивости.
+1	При	При	ADV	_	Degree=Pos	6	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	проблемой	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	потери	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+5	равновесия	равновесие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	сталкиваются	сталкиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	даже	даже	PART	_	_	8	advmod	_	_
+8	современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	роботы	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+10	--	--	PUNCT	_	_	9	punct	_	_
+11	например	например	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+14	,участвовавшиев	,участвовавший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	соревнованиях	соревнование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	nmod	_	_
+16	DARPA	Darpa	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	Robotics	robotics	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Challenge	Challenge	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	2015	2015	NUM	_	_	21	nummod	_	_
+21	году.	году.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+22	Разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+23	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	робота	робот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	под	под	ADP	_	_	26	case	_	_
+26	названием	название	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	nmod	_	_
+27	BALLU	Ballu	PROPN	_	Foreign=Yes	26	flat:foreign	_	_
+28	оригинально	оригинально	ADV	_	Degree=Pos	29	advmod	_	_
+29	подошли	подходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+30	к	к	ADP	_	_	31	case	_	_
+31	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_
+32	устойчивости	устойчивость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 81513
+# text = Вместо сложных систем, отвечающих за сохранение вертикального положения, авторы использовали воздушный шар, который постоянно тянет робота вверх.
+1	Вместо	вместо	ADP	_	_	3	case	_	_
+2	сложных	сложный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	отвечающих	отвечать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+6	за	за	ADP	_	_	7	case	_	_
+7	сохранение	сохранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+8	вертикального	вертикальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	положения	положение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	воздушный	воздушный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	шар	шар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+17	постоянно	постоянно	ADV	_	Degree=Pos	18	advmod	_	_
+18	тянет	тянуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	робота	робота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+20	вверх	вверх	ADV	_	Degree=Pos	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 81514
+# text = В нижней части шара закреплены ноги с одной степенью свободы, которые сгибаются в колене с помощью кабеля.
+1	В	в	ADP	_	_	3	case	_	_
+2	нижней	нижний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	шара	шар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	закреплены	закреплять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	ноги	нога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	одной	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	степенью	степень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+10	свободы	свобода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	сгибаются	сгибаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	acl:relcl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	колене	колена	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	fixed	_	_
+18	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 81515
+# text = Сам актуатор, тянущий кабель, установлен в стопе, вместе с аккумуляторами и модулем связи.
+1	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	актуатор	актуатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	тянущий	тянущий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	стопе	стоп	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	вместе	вместе	ADV	_	Degree=Pos	7	advmod	_	_
+12	с	с	ADP	_	_	13	case	_	_
+13	аккумуляторами	аккумулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	модулем	модуль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	conj	_	_
+16	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 81516
+# text = Таким образом, большая часть массы робота сосредоточена в ступнях и вся конструкция, которая немного тяжелее воздуха, практически никогда не может упасть.
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	amod	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+6	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	робота	робота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+8	сосредоточена	сосредоточивать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	ступнях	ступня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	конструкция	конструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	которая	который	PRON	_	Case=Nom	17	nsubj	_	_
+16	немного	немного	ADV	_	Degree=Pos	17	advmod	_	_
+17	тяжелее	тяжелый	ADJ	_	Degree=Cmp	13	acl:relcl	_	_
+18	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	практически	практически	ADV	_	Degree=Pos	21	advmod	_	_
+21	никогда	никогда	ADV	_	Degree=Pos	23	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+24	упасть	падать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+

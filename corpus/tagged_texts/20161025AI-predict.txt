@@ -1,0 +1,295 @@
+# sent_id = 76484
+# text = Искусственный интеллект научился предсказывать решения Европейского суда поправам человека о перспективах поступивших к нему жалоб сточностью до79процентов.
+1	Искусственный	искусственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpacesBefore=\n
+2	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	научился	научаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	предсказывать	предсказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+6	Европейского	европейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	поправам	поправ	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	перспективах	перспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+12	поступивших	поступать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	15	amod	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	12	obl	_	_
+15	жалоб	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+16	сточностью	сточность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	_
+17	до79процентов	до79процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76485
+# text = Добиться такого результата удалось благодаря алгоритму, специально разработанному учеными изВеликобритании иСША.
+1	Добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	nsubj:pass	_	_
+2	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
+3	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	удалось	удать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	алгоритму	алгоритма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	специально	специально	ADV	_	Degree=Pos	9	advmod	_	_
+9	разработанному	разрабатывать	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+10	учеными	ученый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	obl:agent	_	_
+11	изВеликобритании	изВеликобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	иСША	исш	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 76486
+# text = Статья исследователей опубликована вжурнале Computer Science.
+1	Статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	исследователей	исследователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Computer	Computer	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	Science	science	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 76487
+# text = Европейский суд поправам человека, известный также как Страсбургский суд,-- это международный судебный орган, который занимается рассмотрением жалоб нанарушение основополагающих прав человека.
+1	Европейский	европейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	суд	суд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	поправам	поправ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+4	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+7	также	также	ADV	_	Degree=Pos	6	advmod	_	_
+8	как	как	SCONJ	_	_	6	cc	_	_
+9	Страсбургский	страсбургский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	суд	суд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	SpaceAfter=No
+11	,--	,--	PUNCT	_	_	10	punct	_	_
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+13	международный	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	судебный	судебный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	орган	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	занимается	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	_
+19	рассмотрением	рассмотрение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+20	жалоб	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	нанарушение	нанарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+22	основополагающих	основополагать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
+23	прав	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+24	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 76488
+# text = Статистика показала, что впрошлом году вСтрасбургский суд было подано вдва раза больше жалоб, чем в2014году.
+1	Статистика	статистика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	показала	показывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	2	mark	_	_
+5	впрошлом	впрошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+7	вСтрасбургский	вСтрасбургский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	суд	суд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	подано	подавать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+11	вдва	вдва	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	12	nummod:gov	_	_
+12	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	больше	много	NUM	_	_	14	nummod:gov	_	_
+14	жалоб	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	чем	чем	SCONJ	_	_	17	cc	_	_
+17	в2014году	в2014год	NOUN	_	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	14	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = 76489
+# text = Большинство заявлений небыли приняты крассмотрению, так как они были либо неправильно составлены, либо решения поним уже были приняты, либо втексте несодержалось состава преступления.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	заявлений	заявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	небыли	небыть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	приняты	принимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	крассмотрению	крассмотрение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	так	так	ADV	_	Degree=Pos	4	mark	_	_
+8	как	как	SCONJ	_	_	7	fixed	_	_
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+10	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+11	либо	либо	CCONJ	_	_	12	cc	_	_
+12	неправильно	неправильно	ADV	_	Degree=Pos	13	advmod	_	_
+13	составлены	составлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	либо	либо	CCONJ	_	_	17	cc	_	_
+16	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	_
+17	поним	понить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+18	уже	уже	ADV	_	Degree=Pos	20	advmod	_	_
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	_
+20	приняты	принимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	либо	либо	CCONJ	_	_	23	cc	_	_
+23	втексте	втеквствовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	24	conj	_	_
+24	несодержалось	несодержаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	conj	_	_
+25	состава	составо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	nsubj	_	_
+26	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 76490
+# text = Витоге только 15процентов отобщего числа обращений дошли досуда.
+1	Витоге	витоге	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+2	только	только	PART	_	_	3	advmod	_	_
+3	15процентов	15процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	отобщего	отобщий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	обращений	обращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	дошли	доходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	досуда	досуда	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 76491
+# text = Поток заявлений вСтрасбургий суд увеличивается скаждым годом, асудьям необходимо выбирать изних только достойные внимания.
+1	Поток	поток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	заявлений	заявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+3	вСтрасбургий	вСтрасбургий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	суд	суд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	увеличивается	увеличиваваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	скаждым	скаждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	годом	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	асудьям	асуд	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+10	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	conj	_	_
+11	выбирать	выбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+12	изних	оизни	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	достойные	достойной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	внимания	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 76492
+# text = Чтобы решить эту проблему, авторы новой статьи создали искусственный интеллект, который сможет анализировать заявления вавтоматическом режиме.
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+2	решить	решать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	авторы	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	создали	создавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	искусственный	искусственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	анализировать	анализировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	заявления	заявление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+17	вавтоматическом	вавтоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+18	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76493
+# text = Для этого исследователи использовали SVM-классификатор, обученный спомощью дел потрем статьям Конвенции озащите прав человека: статье 3о запрете пыток иобращения, унижающего достоинство человека;статье 6о праве насправедливое судебное разбирательство;статье 8об уважении частной жизни.SVM-метод, или метод опорных векторов, позволяет классифицировать случаи (вданном случае судебные дела), представляя ихподробности как данные вмногомерном пространстве.
+1	Для	для	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	исследователи	исследователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	SVM	Svm	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	-классификатор	-классификатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	обученный	обучать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	_
+9	спомощью	спомощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+11	потрем	потрь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+12	статьям	статья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	_
+13	Конвенции	Конвенция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	озащите	озащить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	amod	_	_
+15	прав	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+16	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
+18	статье	статье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+19	3о	3о	ADV	_	Degree=Pos	20	advmod	_	_
+20	запрете	запрть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+21	пыток	пыток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	иобращения	иобращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	унижающего	унижать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	22	amod	_	_
+25	достоинство	достоинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	;статье	;статий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+28	6о	6о	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	nmod	_	_
+29	праве	право	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	nmod	_	_
+30	насправедливое	насправедливый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+31	судебное	судебный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	разбирательство	разбирательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+33	;статье	;статий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+34	8об	8о	ADP	_	_	35	case	_	_
+35	уважении	уважение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	33	nmod	_	_
+36	частной	частный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	38	amod	_	_
+37	жизни.SVM-	жизни.svm-	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	SpaceAfter=No
+38	метод	метода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	или	или	CCONJ	_	_	41	cc	_	_
+41	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	conj	_	_
+42	опорных	опорный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	векторов	вектор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+46	классифицировать	классифицировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	45	xcomp	_	_
+47	случаи	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	46	obj	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	вданном	вданный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	50	amod	_	_
+50	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	52	obl	_	_
+51	судебные	судебный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	52	amod	_	_
+52	дела	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	46	obj	_	SpaceAfter=No
+53	)	)	PUNCT	_	_	52	punct	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	52	punct	_	_
+55	представляя	представлять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+56	ихподробности	ихподробность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	55	obj	_	_
+57	как	как	SCONJ	_	_	58	cc	_	_
+58	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	55	advmod	_	_
+59	вмногомерном	вмногомерный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	60	amod	_	_
+60	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	58	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	60	punct	_	SpaceAfter=No
+
+# sent_id = 76494
+# text = Задача обучения классификатора при этом сводится кпоиску такой многомерной плоскости, которая разделилабы эти случаи с минимальной ошибкой.
+1	Задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	классификатора	классификатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	при	при	ADP	_	_	5	case	_	_
+5	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+6	сводится	сводаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	кпоиску	кпоиска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+9	многомерной	многомерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	плоскости	плоскость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которая	который	PRON	_	Case=Nom	15	nsubj	_	_
+13	разделилабы	разделилабы	SCONJ	_	_	15	cc	_	_
+14	эти	этот	DET	_	Case=Nom|Number=Plur	15	amod	_	_
+15	случаи	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	минимальной	минимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ошибкой	ошибка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = 76495
+# text = Классификатор в итоге определяет, ккакому классуиз как минимум двух изначально известных (здесь "нарушение" или "отсутствие нарушения") относится данный объект.
+1	Классификатор	Классификатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	определяет	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ккакому	кткако	PRON	_	Case=Dat	7	obl	_	_
+7	классуиз	классуиз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	как	как	SCONJ	_	_	10	advmod	_	_
+9	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	fixed	_	_
+10	двух	два	NUM	_	Case=Gen	16	nummod	_	_
+11	изначально	изначально	ADV	_	Degree=Pos	12	advmod	_	_
+12	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	здесь	здесь	ADV	_	Degree=Pos	16	advmod	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	нарушение	нарушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	_
+18	или	или	CCONJ	_	_	20	cc	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	отсутствие	отсутствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+21	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	21	punct	_	_
+24	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+25	данный	данный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	объект	объект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+

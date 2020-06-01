@@ -1,0 +1,470 @@
+# sent_id = 74488
+# text = Американская компания Sikorsky Aircraft приступила к расширенным летным испытаниям перспективного высокоскоростного вертолета-разведчика S-97 Raider.
+1	Американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpacesBefore=\n
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Sikorsky	Sikorsky	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Aircraft	Aircraft	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	приступила	приступать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	9	case	_	_
+7	расширенным	расширять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+8	летным	летный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	9	amod	_	_
+9	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
+10	перспективного	перспективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+11	высокоскоростного	высокоскоростный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	вертолета-разведчика	вертолета-разведчик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	S-	S-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	97	97	NUM	_	_	12	nummod	_	_
+15	Raider	Raider	PROPN	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = 74489
+# text = Как сообщает Aviation Week, вертолет выполнил полет с полностью убранным шасси.
+1	Как	как	ADV	_	Degree=Pos	7	mark	_	_
+2	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+3	Aviation	Aviation	PROPN	_	Foreign=Yes	2	nsubj	_	_
+4	Week	Week	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	вертолет	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	выполнил	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	с	с	ADP	_	_	12	case	_	_
+10	полностью	полностью	ADV	_	Degree=Pos	11	advmod	_	_
+11	убранным	убрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = 74490
+# text = S-97 пролетел на небольшой высоте над взлетно-посадочной полосой и выполнил несколько маневров, включая висение.Испытания авиационной техники обычно проходят в несколько этапов.
+1	S-97	S-97	NUM	_	_	2	nummod	_	_
+2	пролетел	пролетать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	небольшой	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	высоте	высота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	над	над	ADP	_	_	8	case	_	_
+7	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	полосой	полоса	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	выполнил	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	маневров	маневр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	включая	включая	ADV	_	Degree=Pos	20	advmod	_	_
+15	висение.	висенибыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	SpaceAfter=No
+16	Испытания	испытание	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+17	авиационной	авиационный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	обычно	обычно	ADV	_	Degree=Pos	20	advmod	_	_
+20	проходят	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	23	nummod:gov	_	_
+23	этапов	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74491
+# text = Успешное прохождение одного этапа открывает возможность для участия в следующем.
+1	Успешное	успешной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	прохождение	прохождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	одного	один	NUM	_	Case=Gen|Gender=Masc	4	nummod	_	_
+4	этапа	этап	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = 74492
+# text = Обычно испытания начинаются с пробежек по взлетно-посадочной полосе, затем аппарат совершает непродолжительный первый полет с неубранным шасси, потом -- с убранным.
+1	Обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	_
+2	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	начинаются	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	пробежек	пробежка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	взлетно-посадочной	взлетно-посадочный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	полосе	полоса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	затем	затем	ADV	_	Degree=Pos	12	advmod	_	_
+11	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	совершает	совершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	parataxis	_	_
+13	непродолжительный	непродолжительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	полет	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+16	с	с	ADP	_	_	15	case	_	_
+17	неубранным	неубранный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	потом	потом	ADV	_	Degree=Pos	23	advmod	_	_
+21	--	--	PUNCT	_	_	20	punct	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	убранным	убрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = 74493
+# text = Затем испытатели увеличивают высоту и скорость полета.Основной целью таких ступенчатых испытаний является проверка работоспособности всех систем и агрегатов летательного аппарата в штатных режимах полета.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	испытатели	испытатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	увеличивают	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	высоту	высота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	скорость	скорость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+7	полета.	полета.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	obl:agent	_	SpaceAfter=No
+8	Основной	основный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	_
+10	таких	такой	DET	_	Case=Gen|Number=Plur	12	amod	_	_
+11	ступенчатых	ступенчатый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	испытаний	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
+13	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+14	проверка	проверка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+15	работоспособности	работоспособность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	всех	весь	DET	_	Case=Gen|Number=Plur	17	amod	_	_
+17	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	агрегатов	агрегат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	_
+20	летательного	летательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	штатных	штатной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	24	amod	_	_
+24	режимах	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+25	полета	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+
+# sent_id = 74494
+# text = Кроме того, авиационную технику испытывают и под предельными нагрузками, которые могут возникать из-за погодных условий или во время боя.Во время первых полетов шасси не убирают специально, чтобы летательный аппарат в случае отказа какой-либо системы можно было аварийно посадить.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	авиационную	авиационный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	технику	техника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	испытывают	испытывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	PART	_	_	10	advmod	_	_
+8	под	под	ADP	_	_	10	case	_	_
+9	предельными	предельный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	нагрузками	нагрузка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	которые	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	возникать	возникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	из-за	из-за	ADP	_	_	17	case	_	_
+16	погодных	погодный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	условий	условие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	obl	_	_
+18	или	или	CCONJ	_	_	21	cc	_	_
+19	во	во	ADP	_	_	21	case	_	_
+20	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	_
+21	боя	бой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	Во	во	ADP	_	_	26	case	_	_
+24	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	fixed	_	_
+25	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	_
+27	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	не	не	PART	_	_	29	advmod	_	_
+29	убирают	убирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	conj	_	_
+30	специально	специально	ADV	_	Degree=Pos	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	чтобы	чтобы	SCONJ	_	Mood=Cnd	29	mark	_	_
+33	летательный	летательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	_
+35	в	в	ADP	_	_	36	case	_	_
+36	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	nmod	_	_
+37	отказа	отказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
+38	какой-либо	какой-либо	DET	_	Case=Gen|Gender=Fem|Number=Sing	39	amod	_	_
+39	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+40	можно	можно	ADV	_	Degree=Pos	29	advcl	_	_
+41	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	40	cop	_	_
+42	аварийно	аварийный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	40	parataxis	_	_
+43	посадить	сажать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	42	nsubj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = 74495
+# text = То, что S-97 совершил полет с убранным шасси, означает, что разработчики убедились в надежности основных систем вертолета и готовы к интенсивным испытаниям.
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	что	что	PRON	_	Case=Nom	1	mark	_	_
+4	S-	S-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	97	97	NUM	_	_	6	nummod	_	_
+6	совершил	совершивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	_
+7	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	убранным	убрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	_
+10	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	что	что	SCONJ	_	_	12	mark	_	_
+15	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	убедились	убеждаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	надежности	надежность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+19	основных	основной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	систем	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	16	conj	_	_
+24	к	к	ADP	_	_	26	case	_	_
+25	интенсивным	интенсивный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	amod	_	_
+26	испытаниям	испытание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+
+# sent_id = 74496
+# text = Полет с убранным шасси состоялся 10 октября 2016 года и признан успешным.Как ожидается, в ближайшие несколько недель S-97 выполнит еще серию полетов, после чего начнутся скоростные испытания вертолета.
+1	Полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	с	с	ADP	_	_	4	case	_	_
+3	убранным	убрать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	_
+4	шасси	шасси	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+5	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	10	10	NUM	_	_	5	nummod	_	_
+7	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	2016	2016	NUM	_	_	9	nummod	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	22	cc	_	_
+11	признан	признан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+12	успешным.	успешнымя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	Как	как	ADV	_	Degree=Pos	22	mark	_	_
+14	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+18	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	19	nummod:gov	_	_
+19	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	_
+20	S-	S-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	97	97	NUM	_	_	14	nsubj:pass	_	_
+22	выполнит	выполнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+23	еще	еще	ADV	_	Degree=Pos	24	advmod	_	_
+24	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	полетов	полет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	после	после	ADP	_	_	28	case	_	_
+28	чего	что	PRON	_	Case=Gen	29	obl	_	_
+29	начнутся	начинаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	parataxis	_	_
+30	скоростные	скоростной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	_
+31	испытания	испытание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	29	nsubj	_	_
+32	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+
+# sent_id = 74497
+# text = Во время этих проверок разработчики разгонят его до максимальной расчетной скорости в 220 узлов (408 километров в час).
+1	Во	во	ADP	_	_	4	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	amod	_	_
+4	проверок	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+5	разработчики	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	разгонят	разгонять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+8	до	до	ADP	_	_	11	case	_	_
+9	максимальной	максимальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	расчетной	расчетной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	220	220	NUM	_	_	14	nummod	_	_
+14	узлов	узел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	408	408	NUM	_	_	17	nummod	_	_
+17	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	parataxis	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = 74498
+# text = Первый полет высокоскоростного вертолета состоялся 22 мая 2015 года.Сборка прототипов S-97 ведется американской компанией Sikorsky с 2012 года.
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	полет	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	высокоскоростного	высокоскоростный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	состоялся	состояться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	22	22	NUM	_	_	5	nummod	_	_
+7	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	2015	2015	NUM	_	_	9	nummod	_	_
+9	года.	гектодар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+10	Сборка	Сборк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	прототипов	прототип	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	S-	S-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	97	97	NUM	_	_	6	nummod	_	_
+14	ведется	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	parataxis	_	_
+15	американской	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+17	Sikorsky	Sikorsky	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	2012	2012	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 74499
+# text = Масса пустого S-97 составляет 4,9 тонны.
+1	Масса	масса	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	пустого	пустой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	_
+3	S-	S-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	97	97	NUM	_	_	1	nummod	_	_
+5	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	4,9	4,9	NUM	_	_	7	nummod	_	_
+7	тонны	тонна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74500
+# text = Вертолет построен по соосной схеме с толкающим винтом в хвостовой части.
+1	Вертолет	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	построен	строить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	соосной	соосный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	схеме	схема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	толкающим	толкающий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	винтом	винт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	хвостовой	хвостовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = 74501
+# text = Машину планируется оснастить различными типами вооружения и разведывательной аппаратуры.Согласно проекту, кабина пилотов рассчитана на двух человек с посадкой бок о бок.
+1	Машину	машин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+2	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	оснастить	оснащать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	nsubj:pass	_	_
+4	различными	различный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	типами	тип	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+6	вооружения	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	разведывательной	разведывательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	аппаратуры	аппаратура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	Согласно	согласно	ADP	_	_	12	case	_	_
+12	проекту	проект	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	кабина	кабина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+15	пилотов	пилот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	рассчитана	рассчитывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	parataxis	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	двух	два	NUM	_	Case=Gen	19	nummod	_	_
+19	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+20	с	с	ADP	_	_	19	case	_	_
+21	посадкой	посадка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+22	бок	бка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+23	о	о	ADP	_	_	24	case	_	_
+24	бок	бок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
+
+# sent_id = 74502
+# text = Транспортный отсек сможет вмещать до шести десантников.
+1	Транспортный	транспортный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	отсек	отсек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вмещать	вмещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	до	до	ADP	_	_	7	case	_	_
+6	шести	шесть	NUM	_	Case=Gen	7	nummod	_	_
+7	десантников	десантник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = 74503
+# text = Фюзеляж вертолета будет выполнен из композиционных материалов, позволяющих снизить массу Raider и уменьшить его радиолокационную заметность.В настоящее время S-97 участвует в тендере Армии США на разработку и поставку новых разведывательных винтокрылых летательных аппаратов, которые должны будут заменить устаревшие вертолеты OH-58D Kiowa Warrior.Помимо Sikorsky в тендере участвуют американские компании AVX Aircraft, Bell Helicopter и Karem Aircraft.
+1	Фюзеляж	Фюзеляж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	вертолета	вертолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	выполнен	выполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	композиционных	композиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	позволяющих	позволять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+10	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	dep	_	_
+11	массу	масса	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	Raider	Raider	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	уменьшить	уменьшать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+16	радиолокационную	радиолокационный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	заметность	заметность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	В	в	ADP	_	_	24	advmod	_	_
+20	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	fixed	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	_
+22	S-	S-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	97	97	NUM	_	_	24	nummod	_	_
+24	участвует	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	тендере	тендер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	_
+27	Армии	армия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	27	nmod	_	_
+29	на	на	ADP	_	_	30	case	_	_
+30	разработку	разработка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	поставку	поставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	conj	_	_
+33	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+34	разведывательных	разведывательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+35	винтокрылых	винтокрылый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+36	летательных	летательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	аппаратов	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	которые	который	PRON	_	Case=Nom	40	nsubj	_	_
+40	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	52	acl:relcl	_	_
+41	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	cop	_	_
+42	заменить	заменать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	dep	_	_
+43	устаревшие	устаревать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	44	amod	_	_
+44	вертолеты	вертолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	52	nsubj	_	_
+45	OH-58D	oh-58d	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+46	Kiowa	kiowa	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	_
+47	Warrior.	warrior.	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	amod	_	SpaceAfter=No
+48	Помимо	помимо	ADP	_	_	49	case	_	_
+49	Sikorsky	sikorsky	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	obl	_	_
+50	в	в	ADP	_	_	51	case	_	_
+51	тендере	тендер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	52	obl	_	_
+52	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	acl:relcl	_	_
+53	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	54	amod	_	_
+54	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	52	nsubj	_	_
+55	AVX	Avx	PROPN	_	Foreign=Yes	54	flat:foreign	_	_
+56	Aircraft	Aircraft	PROPN	_	Foreign=Yes	55	flat:foreign	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	Bell	bell	PROPN	_	Foreign=Yes	56	flat:foreign	_	_
+59	Helicopter	Helicopter	PROPN	_	Foreign=Yes	58	flat:foreign	_	_
+60	и	и	CCONJ	_	_	61	cc	_	_
+61	Karem	Karem	PROPN	_	Foreign=Yes	54	flat:foreign	_	_
+62	Aircraft	Aircraft	PROPN	_	Foreign=Yes	61	flat:foreign	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	62	punct	_	SpaceAfter=No
+
+# sent_id = 74504
+# text = Из них пока только Bell Helicopter подробно представила свой проект -- новый конвертоплан V-280 Valor.
+1	Из	из	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	obl	_	_
+3	пока	пока	ADV	_	Degree=Pos	8	advmod	_	_
+4	только	только	PART	_	_	3	advmod	_	_
+5	Bell	Bell	NOUN	_	_	8	nsubj	_	_
+6	Helicopter	Helicopter	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+7	подробно	подробно	ADV	_	Degree=Pos	8	advmod	_	_
+8	представила	представлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	проект	проект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	--	--	PUNCT	_	_	10	punct	_	_
+12	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	конвертоплан	конвертоплан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+14	V-	V-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	280	280	NUM	_	_	16	nummod	_	_
+16	Valor	Valor	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = 74505
+# text = Конвертоплан сможет совершать полеты на крейсерской скорости в 520 километров в час, а боевой радиус машины составит до 1481 километра.Василий Сычёв
+1	Конвертоплан	Конвертоплан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	совершать	совершать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	крейсерской	крейсерский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	скорости	скорость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	520	520	NUM	_	_	10	nummod	_	_
+10	километров	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	час	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	боевой	боевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	радиус	радиус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	составит	составлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+19	до	до	ADP	_	_	21	case	_	_
+20	1481	1481	NUM	_	_	21	nummod	_	_
+21	километра.	километра.	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	Василий	василий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+23	Сычёв	Сычев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	SpaceAfter=No
+

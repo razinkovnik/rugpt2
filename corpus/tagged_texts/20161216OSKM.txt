@@ -1,0 +1,184 @@
+# sent_id = 85077
+# text = Американские ииспанские ученые обнаружили, что временное "включение" факторов, преобразующих зрелые клетки встволовые, способно частично обратить признаки старения ипродлить жизнь умышей смоделью преждевременного старения (прогерии) ипожилых обычных животных.
+1	Американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	SpacesBefore=\n
+2	ииспанские	ииспанский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	4	mark	_	_
+7	временное	временный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	включение	включение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+11	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	преобразующих	преобразовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+14	зрелые	зрелый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+16	встволовые	встволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	способно	способный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	advcl	_	_
+19	частично	частично	ADV	_	Degree=Pos	20	advmod	_	_
+20	обратить	обращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	dep	_	SpacesAfter=\n
+21	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+22	старения	старение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	ипродлить	ипродлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	dep	_	_
+24	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	умышей	умыша	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obl	_	_
+26	смоделью	смодель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+27	преждевременного	преждевременный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	старения	старение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	SpacesAfter=\n
+29	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	прогерии	прогерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	ипожилых	ипожилой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+33	обычных	обычной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	_
+34	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	SpaceAfter=No
+
+# sent_id = 85078
+# text = Результаты работы опубликованы вжурнале Cell.
+1	Результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpacesAfter=\n
+4	вжурнале	вжурнала	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+5	Cell	Cell	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = 85079
+# text = Ряд предыдущих работ привели кфундаментальному открытию, что индукция совместной экспрессии четырех тесно связанных сосновными этапами жизненного цикла клетки факторов транскрипции: Oct4, Sox2, Klf4 иc-Myc (OSKM, или факторы Яманаки), переводит зрелые соматические клетки вплюрипотентные стволовые путем эпигенетической регуляции клеточных процессов.
+1	Ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	привели	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+5	кфундаментальному	кфундаментальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	открытию	открытие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	6	mark	_	_
+9	индукция	индукция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	38	nsubj	_	_
+10	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	экспрессии	экспрессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	четырех	четыре	NUM	_	Case=Gen	14	nummod	_	_
+13	тесно	тесно	ADV	_	Degree=Pos	14	advmod	_	SpacesAfter=\n
+14	связанных	связывать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+15	сосновными	сосновный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	этапами	этап	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	_
+17	жизненного	жизненный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	цикла	цикл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	факторов	факторы	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	транскрипции	транскрипция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	21	punct	_	_
+23	Oct4	Oct4	NUM	_	_	9	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\n
+25	Sox2	Sox2	NUM	_	_	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	Klf4	Klf4	NUM	_	_	23	conj	_	_
+28	иc-	иc-	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	Myc	Myc	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	OSKM	Oskm	PROPN	_	Foreign=Yes	29	flat:foreign	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	или	или	CCONJ	_	_	34	cc	_	_
+34	факторы	факторы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	conj	_	_
+35	Яманаки	Яманака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\n
+38	переводит	переводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+39	зрелые	зрелой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	41	amod	_	_
+40	соматические	соматический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	41	amod	_	_
+41	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	38	obj	_	_
+42	вплюрипотентные	вплюрипотентный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	43	amod	_	_
+43	стволовые	стволовый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	41	amod	_	_
+44	путем	путем	ADP	_	_	46	case	_	SpacesAfter=\n
+45	эпигенетической	эпигенетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	регуляции	регуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_
+47	клеточных	клеточной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	48	amod	_	_
+48	процессов	процесс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	48	punct	_	SpaceAfter=No
+
+# sent_id = 85080
+# text = Эти клетки, названные индуцированными плюрипотентными стволовыми клетками (iPSC), подобно эмбриональным могут дифференцироваться практически влюбые клетки организма.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	amod	_	_
+2	клетки	клетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	названные	называть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	SpacesAfter=\n
+5	индуцированными	индуцировать	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	amod	_	_
+6	плюрипотентными	плюрипотентный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+7	стволовыми	стволовый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	клетками	клетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	iPSC	ipsc	PROPN	_	Foreign=Yes	8	appos	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	подобно	подобно	ADP	_	_	14	case	_	_
+14	эмбриональным	эмбриональный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+16	дифференцироваться	дифференцироваваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	15	xcomp	_	_
+17	практически	практически	ADV	_	Degree=Pos	16	advmod	_	_
+18	влюбые	влюбой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	клетки	клетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+20	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = 85081
+# text = Заихполучение Синъя Яманака в2012 году удостоился Нобелевской премии.
+1	Заихполучение	Заихполучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpacesAfter=\n
+2	Синъя	Синъе	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	Яманака	Яманак	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	в2012	в2012	NUM	_	_	5	nummod	_	_
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+6	удостоился	удостоиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = 85082
+# text = Однако попытки запустить тотже механизм вживых организмах, анеклеточных культурах, могут привести кпечальным последствиям: во-первых, перевод большого числа зрелых функциональных клеток вплюрипотентные неминуемо приведет котказу органов, аво-вторых, бурная пролиферация стволовых клеток вызовет развитие злокачественных опухолей изэмбриональных тканей-- тератом.
+1	Однако	однако	ADV	_	Degree=Pos	12	advmod	_	_
+2	попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+3	запустить	запускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	dep	_	_
+4	тотже	тотже	PART	_	_	5	advmod	_	_
+5	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	вживых	вживый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	организмах	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+9	анеклеточных	анеклеточный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	культурах	культура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	кпечальным	кпечальный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	последствиям	последствие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	15	punct	_	_
+17	во-первых	во-первых	ADV	_	Degree=Pos	19	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	перевод	перевод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	conj	_	SpacesAfter=\n
+20	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+22	зрелых	зрелый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+23	функциональных	функциональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
+24	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
+25	вплюрипотентные	вплюрипотентный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	nsubj	_	_
+26	неминуемо	неминуемо	ADV	_	Degree=Pos	27	advmod	_	_
+27	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	SpacesAfter=\n
+28	котказу	котказа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+29	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	аво-вторых	аво-второй	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	бурная	бурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	пролиферация	пролиферация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	nsubj	_	_
+35	стволовых	стволовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	клеток	клетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	вызовет	вызывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	conj	_	SpacesAfter=\n
+38	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	_
+39	злокачественных	злокачественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	опухолей	опухоль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+41	изэмбриональных	изэмбриональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	_
+42	тканей	ткань	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	40	nmod	_	SpaceAfter=No
+43	-	-	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	-	-	PUNCT	_	_	42	punct	_	_
+45	тератом	терат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
+
