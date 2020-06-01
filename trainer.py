@@ -31,7 +31,6 @@ def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch
         mask = tokenizer.mask(batch).cuda()
         with torch.no_grad():
             loss += model(batch, attention_mask=mask, labels=batch)[0].item()
-        sleep(0.01)
     model.train()
     return loss / iter_count
 
