@@ -8,7 +8,6 @@ from torch.utils.tensorboard import SummaryWriter
 from training_arguments import TrainingArguments
 import logging
 import os
-import shutil
 from tqdm import tqdm as tqdm_base
 import argparse
 
@@ -45,20 +44,16 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     dataset = get_corpus(args.corpus_path)
     n = int(len(dataset) * 0.9)
     train_dataset, test_dataset = dataset[:n], dataset[n:]
-    iterator = build_data_iterator(tokenizer, train_dataset, args.eval_batch_size, args.block_size)
     optimizer = AdamW(model.parameters(), lr=args.learning_rate)
-    num_training_steps = len(iterator) // args.num_train_epochs
+    num_training_steps = len(train_dataset) // args.train_batch_size * args.num_train_epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=num_training_steps)
     i = 0
-    # try:
-    #     shutil.rmtree(args.output_dir, ignore_errors=True)
-    # except PermissionError:
-    #     pass
     try:
         os.mkdir(args.output_dir)
     except FileExistsError:
         pass
     for _ in range(args.num_train_epochs):
+        iterator = build_data_iterator(tokenizer, train_dataset, args.eval_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
             ids = ids.cuda()
             loss = model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0]
