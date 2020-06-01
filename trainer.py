@@ -108,7 +108,7 @@ if __name__ == "__main__":
     logger = logging.getLogger("rugpt2")
     writer = SummaryWriter()
     tokenizer = Tokenizer("tokenizer.model")
-    config = GPT2Config(vocab_size=tokenizer.vocab_size)
+    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=512, n_ctx=512)
     model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
     train(tokenizer, model.cuda(), train_args, writer, logger)
     torch.cuda.empty_cache()
