@@ -21,4 +21,3 @@ class TrainingArguments:
     warmup_steps = 0
     logging_steps = 50
     save_steps = 100
-    vocab_size = 5000
