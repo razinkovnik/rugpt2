@@ -11,8 +11,8 @@ class TrainingArguments:
     tokenizer_path = "tokenizer.model"
     corpus_path = "corpus.txt"
     evaluate_during_training = True
-    train_batch_size = 4
-    eval_batch_size = 8
+    train_batch_size = 1
+    eval_batch_size = 1
     block_size = 256
     n_eval_batch = 100
     learning_rate = 5e-5

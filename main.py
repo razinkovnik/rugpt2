@@ -2,7 +2,6 @@ from transformers import GPT2LMHeadModel, GPT2Config, AdamW, get_linear_schedule
 from tokenizer import Tokenizer
 from dataset import build_data_iterator, MyDataset
 import torch
-from tqdm import tqdm
 from typing import List
 import random
 from torch.utils.tensorboard import SummaryWriter
@@ -10,6 +9,15 @@ from training_arguments import TrainingArguments
 import logging
 import os
 import shutil
+from time import sleep
+from tqdm import tqdm as tqdm_base
+
+
+def tqdm(*args, **kwargs):
+    if hasattr(tqdm_base, '_instances'):
+        for instance in list(tqdm_base._instances):
+            tqdm_base._decr_instances(instance)
+    return tqdm_base(*args, **kwargs)
 
 
 def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch_size: int, block_size: int, n_batch=1):
@@ -18,11 +26,12 @@ def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch
     iter_count = min(len(dataset) // batch_size, n_batch)
     data = dataset[:]
     random.shuffle(data)
-    for i in tqdm(range(iter_count)):
+    for i in tqdm(range(iter_count), desc="eval"):
         batch = tokenizer.encode(data[i*batch_size:(i+1)*batch_size], block_size).cuda()
         mask = tokenizer.mask(batch).cuda()
         with torch.no_grad():
             loss += model(batch, attention_mask=mask, labels=batch)[0].item()
+        sleep(0.01)
     model.train()
     return loss / iter_count
 
@@ -47,8 +56,8 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     except PermissionError:
         pass
     os.mkdir(args.output_dir)
-    for epoch in range(args.num_train_epochs):
-        for ids, attention_mask in tqdm(iterator):
+    for _ in range(args.num_train_epochs):
+        for ids, attention_mask in tqdm(iterator, desc='train'):
             ids = ids.cuda()
             loss = model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0]
             loss.backward()
@@ -69,6 +78,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 os.mkdir(dir)
                 model.save_pretrained(dir)
             i += 1
+            sleep(0.01)
     eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
     logger.info(f"eval loss: {eval_loss}")
     model.save_pretrained(args.output_dir)
