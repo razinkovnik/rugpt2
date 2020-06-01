@@ -9,8 +9,8 @@ from training_arguments import TrainingArguments
 import logging
 import os
 import shutil
-from time import sleep
 from tqdm import tqdm as tqdm_base
+import argparse
 
 
 def tqdm(*args, **kwargs):
@@ -51,11 +51,14 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     num_training_steps = len(iterator) // args.num_train_epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps, num_training_steps=num_training_steps)
     i = 0
+    # try:
+    #     shutil.rmtree(args.output_dir, ignore_errors=True)
+    # except PermissionError:
+    #     pass
     try:
-        shutil.rmtree(args.output_dir, ignore_errors=True)
-    except PermissionError:
+        os.mkdir(args.output_dir)
+    except FileExistsError:
         pass
-    os.mkdir(args.output_dir)
     for _ in range(args.num_train_epochs):
         for ids, attention_mask in tqdm(iterator, desc='train'):
             ids = ids.cuda()
@@ -78,7 +81,6 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 os.mkdir(dir)
                 model.save_pretrained(dir)
             i += 1
-            sleep(0.01)
     eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
     logger.info(f"eval loss: {eval_loss}")
     model.save_pretrained(args.output_dir)
@@ -86,14 +88,31 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
 
 
 if __name__ == "__main__":
+    train_args = TrainingArguments()
+    parser = argparse.ArgumentParser(description='Тренировка модели')
+    parser.add_argument('--load', help='загрузить модель', action='store_true')
+    parser.add_argument('--output_dir', type=str, default="model", help='место для модели')
+    parser.add_argument('--train_batch_size', type=int, default=8, help='размер тренировочного батча')
+    parser.add_argument('--eval_batch_size', type=int, default=8, help='размер тестового батча')
+    parser.add_argument('--block_size', type=int, default=512, help='размер блока текста')
+    parser.add_argument('--num_train_epochs', type=int, default=3, help='количество эпох')
+    parser.add_argument('--logging_steps', type=int, default=100, help='шаг проверки и информирования')
+    parser.add_argument('--save_steps', type=int, default=500, help='шаг сохранения')
+    args = parser.parse_args()
+    train_args.output_dir = args.output_dir
+    train_args.train_batch_size = args.train_batch_size
+    train_args.eval_batch_size = args.eval_batch_size
+    train_args.block_size = args.block_size
+    train_args.num_train_epochs = args.num_train_epochs
+    train_args.logging_steps = args.logging_steps
+    train_args.save_steps = args.save_steps
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
     logger = logging.getLogger("rugpt2")
-    args = TrainingArguments()
     writer = SummaryWriter()
     tokenizer = Tokenizer("tokenizer.model")
     config = GPT2Config(vocab_size=tokenizer.vocab_size)
-    model = GPT2LMHeadModel(config).cuda()
-    train(tokenizer, model, args, writer, logger)
+    model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
+    train(tokenizer, model.cuda(), train_args, writer, logger)
 # tensorboard --logdir=runs

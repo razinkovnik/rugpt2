@@ -2,6 +2,7 @@ import youtokentome as yttm
 import torch
 from typing import List
 from training_arguments import TrainingArguments
+import argparse
 
 
 class Tokenizer:
@@ -36,5 +37,10 @@ def train(train_data_path: str, model_path: str, vocab_size: int):
 
 
 if __name__ == "__main__":
-    args = TrainingArguments()
-    train(args.corpus_path, args.tokenizer_path, args.vocab_size)
+    parser = argparse.ArgumentParser(description='Тренировка токенизатора')
+    parser.add_argument('--vocab_size', type=int, help='размер словаря')
+    args = parser.parse_args()
+    train_args = TrainingArguments()
+    if args.vocab_size:
+        train_args.vocab_size = args.vocab_size
+    train(train_args.corpus_path, train_args.tokenizer_path, train_args.vocab_size)
