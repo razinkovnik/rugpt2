@@ -8,15 +8,8 @@ from torch.utils.tensorboard import SummaryWriter
 from training_arguments import TrainingArguments
 import logging
 import os
-from tqdm import tqdm as tqdm_base
+from utils import tqdm
 import argparse
-
-
-def tqdm(*args, **kwargs):
-    if hasattr(tqdm_base, '_instances'):
-        for instance in list(tqdm_base._instances):
-            tqdm_base._decr_instances(instance)
-    return tqdm_base(*args, **kwargs)
 
 
 def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch_size: int, block_size: int, n_batch=1):
