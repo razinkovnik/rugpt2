@@ -60,14 +60,16 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             if args.evaluate_during_training and i % args.logging_steps == 0 and i > 0:
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {loss.item()}")
-                logger.info(f"lr: {scheduler.get_last_lr()}")
-                if scheduler.get_last_lr()[0] < 1e-7:
+                lr = scheduler.get_last_lr()[0]
+                logger.info(f"lr: {lr}")
+                if lr < 1e-7:
                     model.save_pretrained(args.output_dir)
                     return
                 eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size,
                                  args.n_eval_batch)
                 logger.info(f"eval loss: {eval_loss}")
                 writer.add_scalar('Loss/eval', eval_loss, i)
+                writer.add_scalar('LR', lr, i)
             if i % args.save_steps == 0 and i > 0:
                 dir = args.output_dir + "/" + f"iter{i}"
                 os.mkdir(dir)
@@ -83,6 +85,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Тренировка модели')
     parser.add_argument('--load', help='загрузить модель', action='store_true')
     parser.add_argument('--output_dir', type=str, default="model", help='место для модели')
+    parser.add_argument('--log_dir', type=str, default="runs", help='логи')
     parser.add_argument('--train_batch_size', type=int, default=8, help='размер тренировочного батча')
     parser.add_argument('--eval_batch_size', type=int, default=8, help='размер тестового батча')
     parser.add_argument('--block_size', type=int, default=512, help='размер блока текста')
@@ -101,10 +104,10 @@ if __name__ == "__main__":
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
     logger = logging.getLogger("rugpt2")
-    writer = SummaryWriter()
+    writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
     config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=512, n_ctx=512,
-                        n_embd=384, n_layer=6, n_head=6)
+                        n_embd=384*2, n_layer=6, n_head=6)
     model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
     train(tokenizer, model.cuda(), train_args, writer, logger)
     torch.cuda.empty_cache()
