@@ -56,7 +56,6 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             optimizer.step()
             scheduler.step()
             model.zero_grad()
-            writer.add_scalar('Loss/train', loss.item(), i)
             if args.evaluate_during_training and i % args.logging_steps == 0 and i > 0:
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {loss.item()}")
@@ -68,6 +67,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size,
                                  args.n_eval_batch)
                 logger.info(f"eval loss: {eval_loss}")
+                writer.add_scalar('Loss/train', loss.item(), i)
                 writer.add_scalar('Loss/eval', eval_loss, i)
                 writer.add_scalar('LR', lr, i)
             if i % args.save_steps == 0 and i > 0:
@@ -106,8 +106,8 @@ if __name__ == "__main__":
     logger = logging.getLogger("rugpt2")
     writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
-    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=512, n_ctx=512,
-                        n_embd=384*2, n_layer=6, n_head=6)
+    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
+                        n_embd=300, n_layer=6, n_head=6)
     model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
     train(tokenizer, model.cuda(), train_args, writer, logger)
     torch.cuda.empty_cache()
