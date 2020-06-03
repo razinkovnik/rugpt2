@@ -62,9 +62,6 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 logger.info(f"train loss: {loss.item()}")
                 lr = scheduler.get_last_lr()[0]
                 logger.info(f"lr: {lr}")
-                if lr < 1e-7:
-                    model.save_pretrained(args.output_dir)
-                    return
                 eval_loss = eval(tokenizer, model, test_dataset, args)
                 logger.info(f"eval loss: {eval_loss}")
                 writer.add_scalar('Loss/train', loss.item(), i)
