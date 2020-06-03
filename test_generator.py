@@ -73,5 +73,5 @@ if __name__ == "__main__":
         )
 
     for i, sample_output in enumerate(outputs):
-        print("{}: {}".format(i, tokenizer.decode(sample_output)))
+        print("{}: {}".format(i, tokenizer.decode(sample_output)[0].split('<EOS>')[0]))
 
