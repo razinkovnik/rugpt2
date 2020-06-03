@@ -1,5 +1,5 @@
 from collections import namedtuple
-from torch.utils.data import Dataset, DataLoader, SequentialSampler
+from torch.utils.data import Dataset, DataLoader, SequentialSampler, RandomSampler
 from typing import List
 from tokenizer import Tokenizer
 from typing import Optional
@@ -32,9 +32,8 @@ def collate(data: List[str], tokenizer: Tokenizer, block_size: int) -> Batch:
     return Batch(ids=ids, attention_mask=mask)
 
 
-def build_data_iterator(tokenizer, dataset, batch_size, block_size) -> DataLoader:
-    dataset = MyDataset(dataset, tokenizer, block_size)
-    sampler = SequentialSampler(dataset)
+def build_data_iterator(tokenizer, dataset, batch_size, block_size, random_sampler=False) -> DataLoader:
+    sampler = RandomSampler(dataset) if random_sampler else SequentialSampler(dataset)
     iterator = DataLoader(
         dataset, sampler=sampler, batch_size=batch_size, collate_fn=lambda data: collate(data, tokenizer, block_size),
     )

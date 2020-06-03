@@ -12,19 +12,18 @@ from utils import tqdm
 import argparse
 
 
-def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: List[str], batch_size: int, block_size: int, n_batch=1):
+def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: MyDataset, args: TrainingArguments):
     model.eval()
     loss = 0
-    iter_count = min(len(dataset) // batch_size, n_batch)
-    data = dataset[:]
-    random.shuffle(data)
-    for i in tqdm(range(iter_count), desc="eval"):
-        batch = tokenizer.encode(data[i * batch_size:(i + 1) * batch_size], block_size).cuda()
-        mask = tokenizer.mask(batch).cuda()
+    iterator = build_data_iterator(tokenizer, dataset, args.eval_batch_size, args.block_size, random_sampler=True)
+    n = min(args.n_eval_batch, len(dataset))
+    for _ in tqdm(range(n), desc="eval"):
+        ids, attention_mask = next(iter(iterator))
+        ids = ids.cuda()
         with torch.no_grad():
-            loss += model(batch, attention_mask=mask, labels=batch)[0].item()
+            loss += model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0].item()
     model.train()
-    return loss / iter_count
+    return loss / n
 
 
 def get_corpus(path: str) -> List[str]:
@@ -66,8 +65,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 if lr < 1e-7:
                     model.save_pretrained(args.output_dir)
                     return
-                eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size,
-                                 args.n_eval_batch)
+                eval_loss = eval(tokenizer, model, test_dataset, args)
                 logger.info(f"eval loss: {eval_loss}")
                 writer.add_scalar('Loss/train', loss.item(), i)
                 writer.add_scalar('Loss/eval', eval_loss, i)
@@ -77,7 +75,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 os.mkdir(dir)
                 model.save_pretrained(dir)
             i += 1
-    eval_loss = eval(tokenizer, model, test_dataset, args.eval_batch_size, args.block_size, args.n_eval_batch)
+    eval_loss = eval(tokenizer, model, test_dataset, args)
     logger.info(f"eval loss: {eval_loss}")
     model.save_pretrained(args.output_dir)
 
