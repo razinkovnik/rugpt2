@@ -19,9 +19,9 @@ def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: MyDataset, args:
     n = min(args.n_eval_batch, len(dataset))
     for _ in tqdm(range(n), desc="eval"):
         ids, attention_mask = next(iter(iterator))
-        ids = ids.cuda()
+        ids = ids.to(args.device)
         with torch.no_grad():
-            loss += model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0].item()
+            loss += model(ids, attention_mask=attention_mask.to(args.device), labels=ids)[0].item()
     model.train()
     return loss / n
 
@@ -52,8 +52,8 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     for _ in range(args.num_train_epochs):
         iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
-            ids = ids.cuda()
-            loss = model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0]
+            ids = ids.to(args.device)
+            loss = model(ids, attention_mask=attention_mask.to(args.device), labels=ids)[0]
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
             optimizer.step()
@@ -120,9 +120,9 @@ if __name__ == "__main__":
     writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
     config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
-                        n_embd=396, n_layer=6, n_head=6)
+                        n_embd=768, n_layer=6, n_head=6)
     assert config.n_embd % config.n_head == 0
-    model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).cuda()
+    model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).to(train_args.device)
     if args.eval:
         dataset = get_corpus(train_args.corpus_path)
         n = int(len(dataset) * 0.9)
@@ -130,5 +130,6 @@ if __name__ == "__main__":
         print(f"eval loss: {eval(tokenizer, model, test_dataset, train_args)}")
     else:
         train(tokenizer, model, train_args, writer, logger)
-    torch.cuda.empty_cache()
+    if train_args.device == "cuda":
+        torch.cuda.empty_cache()
 # tensorboard --logdir=runs
