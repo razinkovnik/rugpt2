@@ -47,6 +47,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
         os.mkdir(args.output_dir)
     except FileExistsError:
         pass
+    prev_loss = 1000
     for _ in range(args.num_train_epochs):
         iterator = build_data_iterator(tokenizer, train_dataset, args.eval_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
@@ -67,14 +68,18 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 writer.add_scalar('Loss/train', loss.item(), i)
                 writer.add_scalar('Loss/eval', eval_loss, i)
                 writer.add_scalar('LR', lr, i)
-            if i % args.save_steps == 0 and i > 0:
+                if prev_loss > eval_loss:
+                    prev_loss = eval_loss
+                    model.save_pretrained(args.output_dir)
+            if not args.evaluate_during_training and i % args.save_steps == 0 and i > 0:
                 dir = args.output_dir + "/" + f"iter{i}"
                 os.mkdir(dir)
                 model.save_pretrained(dir)
             i += 1
     eval_loss = eval(tokenizer, model, test_dataset, args)
     logger.info(f"eval loss: {eval_loss}")
-    model.save_pretrained(args.output_dir)
+    if prev_loss > eval_loss:
+        model.save_pretrained(args.output_dir)
 
 
 if __name__ == "__main__":
