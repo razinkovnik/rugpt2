@@ -48,6 +48,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     except FileExistsError:
         pass
     prev_loss = 1000
+    no_save_counter = 0
     for _ in range(args.num_train_epochs):
         iterator = build_data_iterator(tokenizer, train_dataset, args.eval_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
@@ -71,6 +72,12 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 if prev_loss > eval_loss:
                     prev_loss = eval_loss
                     model.save_pretrained(args.output_dir)
+                    no_save_counter = 0
+                else:
+                    no_save_counter += 1
+                    if no_save_counter > args.no_save_count:
+                        logger.info(f"модель не сохранялась {no_save_counter} раз подряд")
+                        return
             if not args.evaluate_during_training and i % args.save_steps == 0 and i > 0:
                 dir = args.output_dir + "/" + f"iter{i}"
                 os.mkdir(dir)
@@ -86,6 +93,7 @@ if __name__ == "__main__":
     train_args = TrainingArguments()
     parser = argparse.ArgumentParser(description='Тренировка модели')
     parser.add_argument('--load', help='загрузить модель', action='store_true')
+    parser.add_argument('--eval', help='только проверить', action='store_true')
     parser.add_argument('--output_dir', type=str, default="model", help='место для модели')
     parser.add_argument('--log_dir', type=str, default="runs", help='логи')
     parser.add_argument('--train_batch_size', type=int, default=8, help='размер тренировочного батча')
@@ -94,6 +102,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_train_epochs', type=int, default=3, help='количество эпох')
     parser.add_argument('--logging_steps', type=int, default=100, help='шаг проверки и информирования')
     parser.add_argument('--save_steps', type=int, default=500, help='шаг сохранения')
+    parser.add_argument('--no_save_count', type=int, default=5)
     args = parser.parse_args()
     train_args.output_dir = args.output_dir
     train_args.train_batch_size = args.train_batch_size
@@ -102,6 +111,7 @@ if __name__ == "__main__":
     train_args.num_train_epochs = args.num_train_epochs
     train_args.logging_steps = args.logging_steps
     train_args.save_steps = args.save_steps
+    train_args.no_save_count = args.no_save_count
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
@@ -110,7 +120,13 @@ if __name__ == "__main__":
     tokenizer = Tokenizer(train_args.tokenizer_path)
     config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
                         n_embd=300, n_layer=6, n_head=6)
-    model = GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)
-    train(tokenizer, model.cuda(), train_args, writer, logger)
+    model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).cuda()
+    if args.eval:
+        dataset = get_corpus(train_args.corpus_path)
+        n = int(len(dataset) * 0.9)
+        test_dataset = MyDataset(dataset[n:], tokenizer, train_args.block_size)
+        print(f"eval loss: {eval(tokenizer, model, test_dataset, train_args)}")
+    else:
+        train(tokenizer, model, train_args, writer, logger)
     torch.cuda.empty_cache()
 # tensorboard --logdir=runs
