@@ -120,7 +120,8 @@ if __name__ == "__main__":
     writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
     config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
-                        n_embd=400, n_layer=6, n_head=6)
+                        n_embd=396, n_layer=6, n_head=6)
+    assert config.n_embd % config.n_head == 0
     model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).cuda()
     if args.eval:
         dataset = get_corpus(train_args.corpus_path)
