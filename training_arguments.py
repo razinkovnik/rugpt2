@@ -22,3 +22,4 @@ class TrainingArguments:
     logging_steps = 50
     save_steps = 100
     no_save_count = 5
+    load = False

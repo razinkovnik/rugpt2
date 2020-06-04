@@ -47,10 +47,10 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
         os.mkdir(args.output_dir)
     except FileExistsError:
         pass
-    prev_loss = 1000
+    prev_loss = eval(tokenizer, model, test_dataset, args) if args.load else 1000
     no_save_counter = 0
     for _ in range(args.num_train_epochs):
-        iterator = build_data_iterator(tokenizer, train_dataset, args.eval_batch_size, args.block_size)
+        iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
             ids = ids.cuda()
             loss = model(ids, attention_mask=attention_mask.cuda(), labels=ids)[0]
@@ -112,6 +112,7 @@ if __name__ == "__main__":
     train_args.logging_steps = args.logging_steps
     train_args.save_steps = args.save_steps
     train_args.no_save_count = args.no_save_count
+    train_args.load = args.load
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
@@ -119,7 +120,7 @@ if __name__ == "__main__":
     writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
     config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
-                        n_embd=300, n_layer=6, n_head=6)
+                        n_embd=400, n_layer=6, n_head=6)
     model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).cuda()
     if args.eval:
         dataset = get_corpus(train_args.corpus_path)
