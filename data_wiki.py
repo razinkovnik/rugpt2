@@ -22,16 +22,14 @@ def clean(body: str):
 
 
 if __name__ == "__main__":
-    start, end = 0, 10000
-    train_args = TrainingArguments()
     path = 'corpus/ruwiki-latest-pages-articles.xml.bz2'
     records = load_wiki(path)
-    with open(train_args.corpus_path, "w", encoding="utf-8") as f:
-        for i, record in enumerate(records):
-            if i < start:
-                continue
-            text = clean(record.text)
-            if len(text) > 20:
-                f.write(text + "\n")
-            if i > end:
-                break
+    lines = []
+    for i, record in enumerate(records):
+        text = clean(record.text + "\n")
+        lines.append(text)
+        if i % 50000 == 0 and i > 0:
+            with open(f'corpus/data/corpus_{i}.txt', "w", encoding="utf-8") as f:
+                f.writelines(lines)
+                print("iter:", i)
+                lines = []

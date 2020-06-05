@@ -103,6 +103,7 @@ if __name__ == "__main__":
     parser.add_argument('--logging_steps', type=int, default=100, help='шаг проверки и информирования')
     parser.add_argument('--save_steps', type=int, default=500, help='шаг сохранения')
     parser.add_argument('--no_save_count', type=int, default=5)
+    parser.add_argument('--device', type=str, default="cuda")
     args = parser.parse_args()
     train_args.output_dir = args.output_dir
     train_args.train_batch_size = args.train_batch_size
@@ -113,14 +114,15 @@ if __name__ == "__main__":
     train_args.save_steps = args.save_steps
     train_args.no_save_count = args.no_save_count
     train_args.load = args.load
+    train_args.device = args.device
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
     logger = logging.getLogger("rugpt2")
     writer = SummaryWriter(log_dir=args.log_dir)
     tokenizer = Tokenizer(train_args.tokenizer_path)
-    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=128, n_ctx=128,
-                        n_embd=768, n_layer=6, n_head=6)
+    config = GPT2Config(vocab_size=tokenizer.vocab_size, bos_token_id=2, eos_token_id=3, n_positions=256, n_ctx=256,
+                        n_embd=768, n_layer=12, n_head=12)
     assert config.n_embd % config.n_head == 0
     model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).to(train_args.device)
     if args.eval:

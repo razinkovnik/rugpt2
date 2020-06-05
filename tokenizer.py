@@ -38,7 +38,8 @@ def train(train_data_path: str, model_path: str, vocab_size: int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Тренировка токенизатора')
+    parser.add_argument('--corpus', type=str, help='путь до корпуса')
     parser.add_argument('--vocab_size', type=int, default=20000, help='размер словаря')
     args = parser.parse_args()
     train_args = TrainingArguments()
-    train(train_args.corpus_path, train_args.tokenizer_path, args.vocab_size)
+    train(args.corpus, train_args.tokenizer_path, args.vocab_size)
