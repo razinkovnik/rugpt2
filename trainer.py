@@ -33,11 +33,9 @@ def get_corpus(path: str) -> List[str]:
 
 
 def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments, writer: SummaryWriter, logger):
-    dataset = get_corpus(args.corpus_path)
+    dataset = MyDataset(get_corpus(args.corpus_path), tokenizer, args.block_size)
     n = int(len(dataset) * 0.9)
     train_dataset, test_dataset = dataset[:n], dataset[n:]
-    train_dataset = MyDataset(train_dataset, tokenizer, args.block_size)
-    test_dataset = MyDataset(test_dataset, tokenizer, args.block_size)
     optimizer = AdamW(model.parameters(), lr=args.learning_rate)
     num_training_steps = len(train_dataset) // args.train_batch_size * args.num_train_epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=args.warmup_steps,
