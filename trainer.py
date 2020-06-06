@@ -75,7 +75,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                     no_save_counter = 0
                 else:
                     no_save_counter += 1
-                    logger.info(f"модель не сохранялась {no_save_counter} раз подряд. best eval: {prev_loss}")
+                    logger.info(f"модель не улучшалась {no_save_counter} раз подряд. best_eval: {prev_loss}")
                     if no_save_counter > args.no_save_count:
                         return
             if not args.evaluate_during_training and i % args.save_steps == 0:
