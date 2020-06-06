@@ -45,11 +45,13 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
         os.mkdir(args.output_dir)
     except FileExistsError:
         pass
-    prev_loss = eval(tokenizer, model, test_dataset, args) if args.load else 1000
+    prev_loss = eval(tokenizer, model, test_dataset, args)
+    logger.info(f"eval loss: {prev_loss}")
     no_save_counter = 0
     for _ in range(args.num_train_epochs):
         iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size)
         for ids, attention_mask in tqdm(iterator, desc='train'):
+            i += 1
             ids = ids.to(args.device)
             loss = model(ids, attention_mask=attention_mask.to(args.device), labels=ids)[0]
             loss.backward()
@@ -57,7 +59,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             optimizer.step()
             scheduler.step()
             model.zero_grad()
-            if args.evaluate_during_training and i % args.logging_steps == 0 and i > 0:
+            if args.evaluate_during_training and i % args.logging_steps == 0:
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {loss.item()}")
                 lr = scheduler.get_last_lr()[0]
@@ -73,14 +75,13 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                     no_save_counter = 0
                 else:
                     no_save_counter += 1
+                    logger.info(f"модель не сохранялась {no_save_counter} раз подряд. best eval: {prev_loss}")
                     if no_save_counter > args.no_save_count:
-                        logger.info(f"модель не сохранялась {no_save_counter} раз подряд")
                         return
-            if not args.evaluate_during_training and i % args.save_steps == 0 and i > 0:
+            if not args.evaluate_during_training and i % args.save_steps == 0:
                 dir = args.output_dir + "/" + f"iter{i}"
                 os.mkdir(dir)
                 model.save_pretrained(dir)
-            i += 1
     eval_loss = eval(tokenizer, model, test_dataset, args)
     logger.info(f"eval loss: {eval_loss}")
     if prev_loss > eval_loss:
@@ -92,6 +93,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Тренировка модели')
     parser.add_argument('--load', help='загрузить модель', action='store_true')
     parser.add_argument('--eval', help='только проверить', action='store_true')
+    parser.add_argument('--corpus', type=str, default="corpus.txt")
     parser.add_argument('--output_dir', type=str, default="model", help='место для модели')
     parser.add_argument('--log_dir', type=str, default="runs", help='логи')
     parser.add_argument('--train_batch_size', type=int, default=8, help='размер тренировочного батча')
@@ -113,6 +115,7 @@ if __name__ == "__main__":
     train_args.no_save_count = args.no_save_count
     train_args.load = args.load
     train_args.device = args.device
+    train_args.corpus_path = args.corpus
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO)
@@ -125,7 +128,7 @@ if __name__ == "__main__":
     model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).to(train_args.device)
     if args.eval:
         dataset = get_corpus(train_args.corpus_path)
-        n = int(len(dataset) * 0.9)
+        n = int(len(dataset) * 0.95)
         test_dataset = MyDataset(dataset[n:], tokenizer, train_args.block_size)
         print(f"eval loss: {eval(tokenizer, model, test_dataset, train_args)}")
     else:
