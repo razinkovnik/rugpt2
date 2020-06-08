@@ -21,6 +21,5 @@ class TrainingArguments:
     warmup_steps = 0
     logging_steps = 50
     save_steps = 100
-    no_save_count = 100
     load = False
     device = "cuda"
