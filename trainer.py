@@ -65,6 +65,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             if args.evaluate_during_training and i % args.logging_steps == 0:
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {train_loss / args.logging_steps}")
+                train_loss = 0
                 # lr = scheduler.get_last_lr()[0]
                 # logger.info(f"lr: {lr}")
                 eval_loss = eval(tokenizer, model, test_dataset, args)
