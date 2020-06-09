@@ -15,15 +15,13 @@ import argparse
 def eval(tokenizer: Tokenizer, model: GPT2LMHeadModel, dataset: MyDataset, args: TrainingArguments):
     model.eval()
     loss = 0
-    iterator = build_data_iterator(tokenizer, dataset, args.eval_batch_size, args.block_size, random_sampler=True)
-    n = min(args.n_eval_batch, len(dataset))
-    for _ in tqdm(range(n), desc="eval"):
-        ids, attention_mask = next(iter(iterator))
+    iterator = build_data_iterator(tokenizer, dataset, args.eval_batch_size, args.block_size)
+    for ids, attention_mask in tqdm(iterator, desc='eval'):
         ids = ids.to(args.device)
         with torch.no_grad():
             loss += model(ids, attention_mask=attention_mask.to(args.device), labels=ids)[0].item()
     model.train()
-    return loss / n
+    return loss / len(iterator)
 
 
 def get_corpus(path: str) -> List[str]:
@@ -48,7 +46,7 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
     logger.info(f"eval loss: {prev_loss}")
     no_save_counter = 0
     for _ in range(args.num_train_epochs):
-        iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size)
+        iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size, random_sampler=True)
         for ids, attention_mask in tqdm(iterator, desc='train'):
             i += 1
             ids = ids.to(args.device)
@@ -59,6 +57,9 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             # scheduler.step()
             model.zero_grad()
             writer.add_scalar('Loss/train', loss.item(), i)
+            no_save_counter = 0
+            if i % args.save_steps == 0:
+                model.save_pretrained(args.output_dir)
             if args.evaluate_during_training and i % args.logging_steps == 0:
                 logger.info(f"epoch: {i / len(iterator)}")
                 logger.info(f"train loss: {loss.item()}")
@@ -71,14 +72,13 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
                 if prev_loss > eval_loss:
                     prev_loss = eval_loss
                     model.save_pretrained(args.output_dir + "/best")
+                    no_save_counter = 0
                 else:
+                    no_save_counter += 1
                     logger.info(f"модель не улучшалась {no_save_counter} раз подряд. best_eval: {prev_loss}")
-            if i % args.save_steps == 0:
-                model.save_pretrained(args.output_dir)
     eval_loss = eval(tokenizer, model, test_dataset, args)
     logger.info(f"eval loss: {eval_loss}")
-    if prev_loss > eval_loss:
-        model.save_pretrained(args.output_dir)
+    model.save_pretrained(args.output_dir)
 
 
 if __name__ == "__main__":
@@ -121,9 +121,9 @@ if __name__ == "__main__":
                         n_embd=768, n_layer=12, n_head=12)
     assert config.n_embd % config.n_head == 0
     model = (GPT2LMHeadModel.from_pretrained(train_args.output_dir) if args.load else GPT2LMHeadModel(config)).to(train_args.device)
-    dataset = get_corpus(args.test_corpus)
-    n = int(len(dataset) * 0.95)
-    test_dataset = MyDataset(dataset[n:], tokenizer, train_args.block_size)
+    dataset = MyDataset(get_corpus(args.test_corpus), tokenizer, train_args.block_size)
+    n = int(len(dataset) * args.test_size)
+    test_dataset = dataset[-n:]
     if args.eval:
         print(f"eval loss: {eval(tokenizer, model, test_dataset, train_args)}")
     else:
