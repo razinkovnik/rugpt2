@@ -44,6 +44,8 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
         pass
     prev_loss = eval(tokenizer, model, test_dataset, args)
     logger.info(f"eval loss: {prev_loss}")
+    writer.add_scalar('Loss/eval', prev_loss, i)
+    train_loss = 0
     no_save_counter = 0
     for _ in range(args.num_train_epochs):
         iterator = build_data_iterator(tokenizer, train_dataset, args.train_batch_size, args.block_size, random_sampler=True)
@@ -57,12 +59,12 @@ def train(tokenizer: Tokenizer, model: GPT2LMHeadModel, args: TrainingArguments,
             # scheduler.step()
             model.zero_grad()
             writer.add_scalar('Loss/train', loss.item(), i)
-            no_save_counter = 0
+            train_loss += loss.item()
             if i % args.save_steps == 0:
                 model.save_pretrained(args.output_dir)
             if args.evaluate_during_training and i % args.logging_steps == 0:
                 logger.info(f"epoch: {i / len(iterator)}")
-                logger.info(f"train loss: {loss.item()}")
+                logger.info(f"train loss: {train_loss / args.logging_steps}")
                 # lr = scheduler.get_last_lr()[0]
                 # logger.info(f"lr: {lr}")
                 eval_loss = eval(tokenizer, model, test_dataset, args)
